@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HappyParty_Patched</AssemblyName>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(BannerlordLibs)\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Bannerlord.ButterLib">
+      <HintPath>..\Bannerlord.ButterLib\bin\Win64_Shipping_Client\Bannerlord.ButterLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MCMv5">
+      <HintPath>..\Bannerlord.MBOptionScreen\bin\Win64_Shipping_Client\MCMv5.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>..\Bannerlord.ButterLib\bin\Win64_Shipping_Client\Serilog.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Serilog.Sinks.File">
+      <HintPath>..\Bannerlord.ButterLib\bin\Win64_Shipping_Client\Serilog.Sinks.File.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\Bannerlord.ButterLib\bin\Win64_Shipping_Client\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\Bannerlord.ButterLib\bin\Win64_Shipping_Client\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+<Project>
+  <PropertyGroup>
+    <Versioning>1.0.0</Versioning>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Platforms>x64</Platforms>
+    <OutputPath>bin\Win64_Shipping_Client\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    
+    <!-- Point to the workspace root 'libs' folder -->
+    <BannerlordLibs>$(MSBuildThisFileDirectory)..\libs</BannerlordLibs>
+  </PropertyGroup>
+
+  <!-- Automatically reference the standard Game DLLs for every mod -->
+  <ItemGroup>
+    <Reference Include="TaleWorlds.CampaignSystem">
+      <HintPath>$(BannerlordLibs)\TaleWorlds.CampaignSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TaleWorlds.Core">
+      <HintPath>$(BannerlordLibs)\TaleWorlds.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TaleWorlds.Library">
+      <HintPath>$(BannerlordLibs)\TaleWorlds.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TaleWorlds.Localization">
+      <HintPath>$(BannerlordLibs)\TaleWorlds.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade">
+      <HintPath>$(BannerlordLibs)\TaleWorlds.MountAndBlade.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TaleWorlds.ObjectSystem">
+      <HintPath>$(BannerlordLibs)\TaleWorlds.ObjectSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <!-- SaveSystem is commonly used, adding it too -->
+    <Reference Include="TaleWorlds.SaveSystem">
+        <HintPath>$(BannerlordLibs)\TaleWorlds.SaveSystem.dll</HintPath>
+        <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

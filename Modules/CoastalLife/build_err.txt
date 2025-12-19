@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Bannerlord_Mods\Modules\CoastalLife\CoastGuardBehavior.cs(218,143): error CS0246: The type or namespace name 'PartyCreationData' could not be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj]
+
+Build FAILED.
+
+D:\Bannerlord_Mods\Modules\CoastalLife\CoastGuardBehavior.cs(218,143): error CS0246: The type or namespace name 'PartyCreationData' could not be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.87

@@ -1,0 +1,41 @@
+<Module>
+    <Name value="Coastal Life"/>
+    <Id value="CoastalLife"/>
+    <Version value="v1.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+        <DependedModule Id="Bannerlord.Harmony"/>
+        <DependedModule Id="Bannerlord.ButterLib"/>
+        <DependedModule Id="Bannerlord.MBOptionScreen"/>
+        <DependedModule Id="Native"/>
+        <DependedModule Id="SandBoxCore"/>
+        <DependedModule Id="Sandbox"/>
+        <DependedModule Id="StoryMode"/>
+    </DependedModules>
+    <DependedModuleMetadatas>
+        <DependedModuleMetadata id="NavalDLC" order="LoadBeforeThis" optional="true"/>
+    </DependedModuleMetadatas>
+    <SubModules>
+        <SubModule>
+            <Name value="Coastal Life"/>
+            <DLLName value="CoastalLife.dll"/>
+            <SubModuleClassType value="CoastalLife.CoastalLifeSubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="partyTemplates" path="coast_guard_party_templates"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+                <GameType value="Sandbox"/>
+            </IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+
+</Module>

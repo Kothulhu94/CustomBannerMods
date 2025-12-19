@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Coast Guard Templates -->
+    <MBPartyTemplate id="coast_guard_template_empire">
+        <stacks>
+            <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.naval_veteran_caravan_guard_empire" />
+        </stacks>
+        <ship_hulls>
+            <ShipTemplateStack min_value="2" max_value="2" id="ShipHull.empire_medium_ship" />
+        </ship_hulls>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="coast_guard_template_sturgia">
+        <stacks>
+            <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.naval_veteran_caravan_guard_sturgia" />
+        </stacks>
+        <ship_hulls>
+             <ShipTemplateStack min_value="2" max_value="2" id="ShipHull.northern_medium_ship" />
+        </ship_hulls>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="coast_guard_template_aserai">
+        <stacks>
+            <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.naval_veteran_caravan_guard_aserai" />
+        </stacks>
+        <ship_hulls>
+             <ShipTemplateStack min_value="2" max_value="2" id="ShipHull.eastern_medium_ship" />
+        </ship_hulls>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="coast_guard_template_vlandia">
+        <stacks>
+            <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.naval_veteran_caravan_guard_vlandia" />
+        </stacks>
+        <ship_hulls>
+             <ShipTemplateStack min_value="2" max_value="2" id="ShipHull.western_medium_ship" />
+        </ship_hulls>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="coast_guard_template_battania">
+        <stacks>
+            <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.naval_veteran_caravan_guard_battania" />
+        </stacks>
+        <ship_hulls>
+             <ShipTemplateStack min_value="2" max_value="2" id="ShipHull.battanian_light_ship" />
+        </ship_hulls>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="coast_guard_template_khuzait">
+        <stacks>
+            <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.naval_veteran_caravan_guard_khuzait" />
+        </stacks>
+        <ship_hulls>
+             <ShipTemplateStack min_value="2" max_value="2" id="ShipHull.eastern_medium_ship" />
+        </ship_hulls>
+    </MBPartyTemplate>
+    
+    <MBPartyTemplate id="coast_guard_template_nord">
+        <stacks>
+            <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.nord_spear_warrior" />
+        </stacks>
+        <ship_hulls>
+             <ShipTemplateStack min_value="2" max_value="2" id="ShipHull.nord_medium_ship" />
+        </ship_hulls>
+    </MBPartyTemplate>
+</partyTemplates>

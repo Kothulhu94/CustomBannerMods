@@ -1,0 +1,51 @@
+Build started 12/13/2025 5:47:37 AM.
+     1>Project "D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj" on node 1 (Restore target(s)).
+     1>_GetAllRestoreProjectPathItems:
+         Determining projects to restore...
+       Restore:
+         X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+         X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+         Assets file has not changed. Skipping assets file writing. Path: D:\Bannerlord_Mods\Modules\CoastalLife\obj\project.assets.json
+         Restored D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj (in 47 ms).
+         
+         NuGet Config files used:
+             C:\Users\RHoskins.evvcr\AppData\Roaming\NuGet\NuGet.Config
+         
+         Feeds used:
+             https://api.nuget.org/v3/index.json
+         All projects are up-to-date for restore.
+     1>Done Building Project "D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj" (Restore target(s)).
+   1:7>Project "D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj" on node 1 (default targets).
+     1>GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreGenerateAssemblyInfo:
+       Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _GenerateSourceLinkFile:
+         Source Link is empty, file 'obj\Debug\CoastalLife.sourcelink.json' does not exist.
+       CoreCompile:
+         Setting DOTNET_ROOT to 'D:\Bannerlord_Mods\tools\dotnet'
+         D:\Bannerlord_Mods\tools\dotnet\sdk\10.0.101\Roslyn\bincore\csc.exe /noconfig /unsafe- /checked- /nowarn:1701,1702,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;DEBUG;NETFRAMEWORK;NET472;NET20_OR_GREATER;NET30_OR_GREATER;NET35_OR_GREATER;NET40_OR_GREATER;NET45_OR_GREATER;NET451_OR_GREATER;NET452_OR_GREATER;NET46_OR_GREATER;NET461_OR_GREATER;NET462_OR_GREATER;NET47_OR_GREATER;NET471_OR_GREATER;NET472_OR_GREATER /highentropyva+ /reference:D:\Bannerlord_Mods\libs\0Harmony.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\Microsoft.CSharp.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\mscorlib.dll /reference:D:\Bannerlord_Mods\libs\NavalDLC.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Core.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Data.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Drawing.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.IO.Compression.FileSystem.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Numerics.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Runtime.Serialization.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Xml.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Xml.Linq.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.CampaignSystem.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.Core.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.Library.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.Localization.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.MountAndBlade.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.ObjectSystem.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.SaveSystem.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\Facades\netstandard.dll /debug+ /debug:portable /filealign:512 /optimize- /out:obj\Debug\CoastalLife.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /deterministic+ /langversion:8.0 /analyzerconfig:obj\Debug\CoastalLife.GeneratedMSBuildEditorConfig.editorconfig CoastalJobBehavior.cs CoastalLifeSubModule.cs CoastGuardBehavior.cs DebugLogger.cs PortEconomyBehavior.cs PressGangBehavior.cs ShipDumperBehavior.cs "obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" obj\Debug\CoastalLife.AssemblyInfo.cs /warnaserror+:NU1605
+         Compilation request CoastalLife (net472), PathToTool=D:\Bannerlord_Mods\tools\dotnet\sdk\10.0.101\Roslyn\bincore\csc.exe
+         CommandLine = ' /noconfig'
+         BuildResponseFile = '/unsafe- /checked- /nowarn:1701,1702,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;DEBUG;NETFRAMEWORK;NET472;NET20_OR_GREATER;NET30_OR_GREATER;NET35_OR_GREATER;NET40_OR_GREATER;NET45_OR_GREATER;NET451_OR_GREATER;NET452_OR_GREATER;NET46_OR_GREATER;NET461_OR_GREATER;NET462_OR_GREATER;NET47_OR_GREATER;NET471_OR_GREATER;NET472_OR_GREATER /highentropyva+ /reference:D:\Bannerlord_Mods\libs\0Harmony.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\Microsoft.CSharp.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\mscorlib.dll /reference:D:\Bannerlord_Mods\libs\NavalDLC.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Core.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Data.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Drawing.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.IO.Compression.FileSystem.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Numerics.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Runtime.Serialization.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Xml.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\System.Xml.Linq.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.CampaignSystem.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.Core.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.Library.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.Localization.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.MountAndBlade.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.ObjectSystem.dll /reference:D:\Bannerlord_Mods\libs\TaleWorlds.SaveSystem.dll /reference:C:\Users\RHoskins.evvcr\.nuget\packages\microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2\Facades\netstandard.dll /debug+ /debug:portable /filealign:512 /optimize- /out:obj\Debug\CoastalLife.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /deterministic+ /langversion:8.0 /analyzerconfig:obj\Debug\CoastalLife.GeneratedMSBuildEditorConfig.editorconfig CoastalJobBehavior.cs CoastalLifeSubModule.cs CoastGuardBehavior.cs DebugLogger.cs PortEconomyBehavior.cs PressGangBehavior.cs ShipDumperBehavior.cs "obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" obj\Debug\CoastalLife.AssemblyInfo.cs /warnaserror+:NU1605'
+         Attempt to open named pipe 'XgVmy+tUmWikTv10j8egKj_8pCLEIszTh7jb2_5m1n4'
+         Attempt to connect named pipe 'XgVmy+tUmWikTv10j8egKj_8pCLEIszTh7jb2_5m1n4'
+         Named pipe 'XgVmy+tUmWikTv10j8egKj_8pCLEIszTh7jb2_5m1n4' connected
+         Begin writing request for CoastalLife (net472)
+         End writing request for CoastalLife (net472)
+         Begin reading response for CoastalLife (net472)
+         End reading response for CoastalLife (net472)
+     1>D:\Bannerlord_Mods\Modules\CoastalLife\CoastGuardBehavior.cs(218,143): error CS0246: The type or namespace name 'PartyCreationData' could not be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj]
+         CompilerServer: server - server processed compilation - CoastalLife (net472)
+     1>Done Building Project "D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+       "D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj" (default target) (1:7) ->
+       (CoreCompile target) -> 
+         D:\Bannerlord_Mods\Modules\CoastalLife\CoastGuardBehavior.cs(218,143): error CS0246: The type or namespace name 'PartyCreationData' could not be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "commander": {
+      "command": "python",
+      "args": ["D:\\Bannerlord_Mods\\tools\\mcp_servers\\cli\\server.py"],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "rogue-researcher": {
+      "command": "D:\\Bannerlord_Mods\\Initialization\\dotnet_portable\\dotnet.exe",
+      "args": ["run", "--project", "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher"]
+    }
+  }
+}

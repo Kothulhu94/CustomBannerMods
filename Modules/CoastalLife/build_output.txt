@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+D:\Bannerlord_Mods\Modules\CoastalLife\CoastGuardBehavior.cs(217,132): error CS1503: Argument 2: cannot convert from 'TaleWorlds.CampaignSystem.Party.PartyTemplateObject' to 'TaleWorlds.CampaignSystem.Party.PartyComponents.PartyComponent' [D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj]
+
+Build FAILED.
+
+D:\Bannerlord_Mods\Modules\CoastalLife\CoastGuardBehavior.cs(217,132): error CS1503: Argument 2: cannot convert from 'TaleWorlds.CampaignSystem.Party.PartyTemplateObject' to 'TaleWorlds.CampaignSystem.Party.PartyComponents.PartyComponent' [D:\Bannerlord_Mods\Modules\CoastalLife\CoastalLife.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.79
