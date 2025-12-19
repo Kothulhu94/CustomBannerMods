@@ -5,10 +5,7 @@ Modules/Bannerlord.MBOptionScreen/
 Modules/Bannerlord.UIExtenderEx/
 
 # Environment and Tooling
-Initialization/
-Tools/
 libs/
-logs/
 .agent/
 .vs/
 .vscode/
