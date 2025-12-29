@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="256aKoIR" text="Drakkar" />
+    <string id="4siUSR8A" text="Golden Wasp" />
+    <string id="5Hz3KEiy" text="Battering Liburna" />
+    <string id="8h3jNlok" text="Purig's Roundship" />
+    <string id="abRcmjmc" text="Wounded Beast" />
+    <string id="bvfd7xzX" text="Light Longship" />
+    <string id="BWdKHUNi" text="Roundship" />
+    <string id="CBIJ0cJz" text="Southern Fishing Ship" />
+    <string id="cVlHTcJU" text="Lodya" />
+    <string id="CwxOZskH" text="Fishing Ship" />
+    <string id="Ee38ZjmH" text="Snekkja" />
+    <string id="fX41pKIa" text="Qalguk" />
+    <string id="Gn64sGJU" text="Eastern Galley" />
+    <string id="h2VhZvqE" text="Longship" />
+    <string id="Hza50zPb" text="Dromakion" />
+    <string id="IYGSgCeL" text="Sambuk" />
+    <string id="JqQKmjjd" text="Ghurab" />
+    <string id="JUbCqdHC" text="Captured Knarr Ship" />
+    <string id="KOenNjIj" text="Cog" />
+    <string id="LJKQbrhp" text="Viper Cog" />
+    <string id="m4RIR3hg" text="Captured Knarr" />
+    <string id="mHoFtjHm" text="Liburna" />
+    <string id="mqacAzET" text="Dromon" />
+    <string id="N70FI1KR" text="Gunnar's Longship" />
+    <string id="oieBz5WB" text="Knarr" />
+    <string id="orLydrtn" text="Birlinn" />
+    <string id="PQkqq3pf" text="Western Galley" />
+    <string id="RYvOc8pI" text="Dhow" />
+    <string id="sNjJ0nLM" text="Prison Dromon" />
+    <string id="TnD5i0jB" text="Cog of the Fortune" />
+    <string id="W2cqChwa" text="Corbita" />
+    <string id="WlPxqfND" text="Trade Cog" />
+  </strings>
+</base>

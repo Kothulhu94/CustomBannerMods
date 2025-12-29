@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomBattleScenes>
+	<Scene
+		id="battle_terrain_opensea_northern"
+		name="{=*}Northern Open Sea"
+		terrain="OpenSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_01"
+		name="{=*}Coast of Razih"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_02"
+		name="{=*}Coast of Drapand"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_03"
+		name="{=*}Coast of Qasira"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_04"
+		name="{=*} Coast of Jogurys"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_07"
+		name="{=*}Coast of Tharklif"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_011"
+		name="{=*}Coast of Varnovapol"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_013"
+		name="{=*}Coast of Ov"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_caspian_sea_02"
+		name="{=*}Coast of Chaikand"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_021"
+		name="{=*}Coast of Hvalvik"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_022"
+		name="{=*}Coast of Midskag"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="battle_terrain_coastal_south_europe_02"
+		name="{=*}Coast of Hakarshus"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="coastal_terrain_north_of_the_north_sea_01"
+		name="{=*}Coast of Gretysfjord"
+		terrain="CoastalSea"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="river_bt_aserai_01_4x4km"
+		name="{=*}Sanala River"
+		terrain="River"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="river_bt_aserai_02_4x4km"
+		name="{=*}Askar River"
+		terrain="River"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="river_bt_empireEast_01_4x4km"
+		name="{=*}Ataconia River"
+		terrain="River"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="river_bt_empirewest_01_4x4km"
+		name="{=*}Lageta River"
+		terrain="River"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="river_bt_vlandia_01_4x4km"
+		name="{=*}Pravend River"
+		terrain="River"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="river_bt_vlandia_02_4x4km"
+		name="{=*}Talivel River"
+		terrain="River"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="river_bt_nord_01_4x4km"
+		name="{=*}Hargard River"
+		terrain="River"
+		is_naval_map="true"></Scene>
+	<Scene
+		id="river_bt_nord_02_4x4km"
+		name="{=*}Nifdal River"
+		terrain="River"
+		is_naval_map="true"></Scene>
+</CustomBattleScenes>
