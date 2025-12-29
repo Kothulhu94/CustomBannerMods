@@ -1,0 +1,17 @@
+Starting Reforge Process...
+Parsing d:\Bannerlord_Mods\Tools\XML_Def\SandBoxCore\spnpccharacters.xml...
+Parsing d:\Bannerlord_Mods\Tools\XML_Def\NavalDLC\naval_characters.xml...
+Loaded 627 valid base units.
+Generated 12540 unit variants. Verifying integrity...
+Integrity check complete. Saving files for 10 cultures...
+Saved AscendedTroops_aserai.xml
+Saved AscendedTroops_battania.xml
+Saved AscendedTroops_empire.xml
+Saved AscendedTroops_khuzait.xml
+Saved AscendedTroops_sturgia.xml
+Saved AscendedTroops_vlandia.xml
+Saved AscendedTroops_nord.xml
+Saved AscendedTroops_southern_pirates.xml
+Saved AscendedTroops_sea_raiders.xml
+Saved AscendedTroops_neutral_culture.xml
+SubModule.xml updated.
