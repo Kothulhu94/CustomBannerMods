@@ -43,4 +43,11 @@
         <Private>False</Private>
     </Reference>
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BUTR.Harmony.Analyzer" Version="1.0.1.50">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Name value="Calradia Expanded"/>
+    <Id value="CalradiaExpanded"/>
+    <Version value="v2.1.1"/>
+    <DefaultModule value="true"/>
+    <ModuleCategory value="Singleplayer"/>
+    <ModuleType value="Community" />
+    <DependedModules>
+        <DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.3.0"/>
+        <DependedModule Id="Native" DependentVersion="v1.2.9"/>
+        <DependedModule Id="Sandbox" DependentVersion="v1.2.9"/>
+    </DependedModules>
+    <!-- Community Dependency Metadata -->
+    <!-- https://github.com/BUTR/Bannerlord.BLSE#community-dependency-metadata -->
+    <DependedModuleMetadatas>
+        <DependedModuleMetadata id="Bannerlord.Harmony" order="LoadBeforeThis" version="v2.3.0"/>
+        <DependedModuleMetadata id="Native" order="LoadBeforeThis" version="v1.2.9.*"/>
+        <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="v1.2.9.*"/>
+    </DependedModuleMetadatas>
+    <SubModules>
+        <SubModule>
+            <Name value="CalradiaExpanded" />
+            <DLLName value="CalradiaExpanded.dll" />
+            <SubModuleClassType value="CalradiaExpanded.Main" />
+            <Tags />
+        </SubModule>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="Settlements" path="ce_settlements"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+</Module>

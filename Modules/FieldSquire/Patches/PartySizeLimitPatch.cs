@@ -16,7 +16,9 @@ namespace FieldSquire.Patches
             if (party != null && party.IsMobile && party.MobileParty == MobileParty.MainParty && Clan.PlayerClan != null)
             {
                 // 1. Find the Squire in the Player's Clan (Fast, small list)
-                var squire = Clan.PlayerClan.Heroes.FirstOrDefault(h => h.StringId == SquireSpawnBehavior.SquireStringId);
+                var squire = Clan.PlayerClan.Heroes.FirstOrDefault(h => 
+                    h.StringId == SquireSpawnBehavior.SquireStringId || 
+                    (h.Name != null && h.Name.ToString().Contains("Squire")));
 
                 // 2. Check if this specific Squire is in the party roster
                 // We use memberRoster.Contains (or equivalent) to avoid GetTroopRoster() allocations which cause lag.

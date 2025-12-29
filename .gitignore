@@ -1,11 +1,8 @@
 # Core Dependencies (Pillar Mods)
-Modules/Bannerlord.ButterLib/
-Modules/Bannerlord.Harmony/
-Modules/Bannerlord.MBOptionScreen/
-Modules/Bannerlord.UIExtenderEx/
+
 
 # Environment and Tooling
-libs/
+
 .agent/
 .vs/
 .vscode/

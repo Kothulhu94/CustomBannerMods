@@ -44,6 +44,9 @@ namespace HonestWork
             _settings = settings;
             _jobs = new List<JobDef>();
         }
+        
+        // Optimization: Static Worker Cache to avoid hourly allocations
+        private static List<Hero> _cachedWorkers = new List<Hero>(100);
 
         private void InitializeJobs()
         {
@@ -396,7 +399,12 @@ namespace HonestWork
             // - Nobles in Keep (HeroesWithoutParty)
             // - Visiting Party Leaders (Parties)
 
-            List<Hero> workers = new List<Hero>();
+            // 1. Gather Workforce
+            // - Wanderers in Tavern (HeroesWithoutParty)
+            // - Nobles in Keep (HeroesWithoutParty)
+            // - Visiting Party Leaders (Parties)
+
+            _cachedWorkers.Clear();
 
             if (settlement.HeroesWithoutParty != null)
             {
@@ -404,7 +412,7 @@ namespace HonestWork
                 {
                     if (hero.IsAlive && (hero.IsWanderer || hero.IsLord || hero.IsNotable))
                     {
-                        workers.Add(hero);
+                        _cachedWorkers.Add(hero);
                     }
                 }
             }
@@ -415,13 +423,13 @@ namespace HonestWork
                 {
                     if (party.LeaderHero != null && party.LeaderHero != Hero.MainHero && party.LeaderHero.Clan != Clan.PlayerClan)
                     {
-                        workers.Add(party.LeaderHero);
+                        _cachedWorkers.Add(party.LeaderHero);
                     }
                 }
             }
 
             // 2. Process Work for Each
-            foreach (var worker in workers)
+            foreach (var worker in _cachedWorkers)
             {
                 try
                 {
@@ -471,34 +479,44 @@ namespace HonestWork
             return validJobs[rng.Next(validJobs.Count)];
         }
 
+        // Caching Reflection for AddMilitia
+        private static System.Reflection.PropertyInfo _militiaPropTown;
+        private static System.Reflection.PropertyInfo _militiaPropSettlement;
+        private static System.Reflection.FieldInfo _militiaFieldFief;
+        private static bool _reflectionInitialized = false;
+
         private void AddMilitia(Town town, float amount)
         {
             try
             {
-                var flags = System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance;
-                
-                var prop = typeof(Town).GetProperty("Militia", flags);
-                if (prop != null && prop.CanWrite)
+                if (!_reflectionInitialized)
                 {
-                    prop.SetValue(town, (float)prop.GetValue(town) + amount);
+                    var flags = System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance;
+                    _militiaPropTown = typeof(Town).GetProperty("Militia", flags);
+                    _militiaPropSettlement = typeof(Settlement).GetProperty("Militia", flags);
+                    _militiaFieldFief = typeof(Fief).GetField("_militia", flags) ?? typeof(Fief).GetField("<Militia>k__BackingField", flags);
+                    _reflectionInitialized = true;
+                }
+                
+                if (_militiaPropTown != null && _militiaPropTown.CanWrite)
+                {
+                    _militiaPropTown.SetValue(town, (float)_militiaPropTown.GetValue(town) + amount);
                     return;
                 }
                 
                 if (town.Settlement != null)
                 {
-                    var sProp = typeof(Settlement).GetProperty("Militia", flags);
-                    if (sProp != null && sProp.CanWrite)
+                    if (_militiaPropSettlement != null && _militiaPropSettlement.CanWrite)
                     {
-                        sProp.SetValue(town.Settlement, (float)sProp.GetValue(town.Settlement) + amount);
+                        _militiaPropSettlement.SetValue(town.Settlement, (float)_militiaPropSettlement.GetValue(town.Settlement) + amount);
                         return;
                     }
                 }
 
-                var field = typeof(Fief).GetField("_militia", flags) ?? typeof(Fief).GetField("<Militia>k__BackingField", flags);
-                if (field != null)
+                if (_militiaFieldFief != null)
                 {
-                    float current = (float)field.GetValue(town);
-                    field.SetValue(town, current + amount);
+                    float current = (float)_militiaFieldFief.GetValue(town);
+                    _militiaFieldFief.SetValue(town, current + amount);
                 }
             }
             catch (Exception ex)

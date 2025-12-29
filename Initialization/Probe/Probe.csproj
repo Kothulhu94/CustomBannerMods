@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="TaleWorlds.CampaignSystem">
+      <HintPath>..\libs\TaleWorlds.CampaignSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Library">
+      <HintPath>..\libs\TaleWorlds.Library.dll</HintPath>
+    </Reference>
+     <Reference Include="TaleWorlds.Core">
+      <HintPath>..\libs\TaleWorlds.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

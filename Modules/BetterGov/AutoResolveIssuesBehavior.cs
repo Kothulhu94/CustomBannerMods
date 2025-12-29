@@ -13,6 +13,22 @@ namespace BetterGov
     public class AutoResolveIssuesBehavior : CampaignBehaviorBase
     {
         private readonly ILogger<AutoResolveIssuesBehavior> _logger;
+        
+        // Caching Reflection
+        private static readonly System.Reflection.MethodInfo _solveIssueMethod;
+
+        static AutoResolveIssuesBehavior()
+        {
+            try
+            {
+                var issueManagerType = typeof(Campaign).Assembly.GetType("TaleWorlds.CampaignSystem.Issues.IssueManager");
+                if (issueManagerType != null)
+                {
+                    _solveIssueMethod = issueManagerType.GetMethod("SolveIssue", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Instance, null, new[] { typeof(IssueBase), typeof(Hero) }, null);
+                }
+            }
+            catch { }
+        }
 
         public AutoResolveIssuesBehavior(ILogger<AutoResolveIssuesBehavior> logger)
         {
@@ -53,11 +69,13 @@ namespace BetterGov
                 return;
             }
 
-            // Iterate through Settlement.Notables
-            var notables = settlement.Notables.ToList();
+            // Optimization: Remove .ToList() allocation
+            // Iterate directly over MBReadOnlyList
+            var notables = settlement.Notables; 
 
-            foreach (var notable in notables)
+            for (int i = 0; i < notables.Count; i++)
             {
+                var notable = notables[i];
                 if (notable.IsGangLeader) continue;
 
                 IssueBase issue = notable.Issue;
@@ -88,11 +106,10 @@ namespace BetterGov
             {
                 // Player gets credit
                 var issueManager = Campaign.Current.IssueManager;
-                var solveMethod = issueManager.GetType().GetMethod("SolveIssue", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Instance, null, new[] { typeof(IssueBase), typeof(Hero) }, null);
                 
-                if (solveMethod != null)
+                if (_solveIssueMethod != null)
                 {
-                    solveMethod.Invoke(issueManager, new object[] { issue, town.Governor });
+                    _solveIssueMethod.Invoke(issueManager, new object[] { issue, town.Governor });
                     _logger.LogInformation($"Resolved issue '{issue.Title}' via Reflection: SolveIssue");
                 }
                 else

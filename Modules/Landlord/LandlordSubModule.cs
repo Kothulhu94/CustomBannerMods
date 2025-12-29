@@ -23,17 +23,20 @@ namespace Landlord
         {
             base.OnSubModuleLoad();
 
-            // 1. Initialize Serilog
+            // 1. Initialize Serilog (Robust Mode - Same as FieldSquire)
             _serilogLogger = new LoggerConfiguration()
-                .WriteTo.File(LogPath, rollingInterval: RollingInterval.Infinite, outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+                .WriteTo.File(LogPath, rollingInterval: RollingInterval.Infinite, shared: true, 
+                    outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
                 .MinimumLevel.Debug()
                 .CreateLogger();
 
+            Log.Logger = _serilogLogger; // Assign Global Shared Logger
             _serilogLogger.Information("Landlord Module Loaded via Four Pillars Stack");
 
             // 2. Initialize Harmony
             try
             {
+                // Harmony.DEBUG = true; // REMOVED: Global instability
                 var harmony = new Harmony("com.landlord.mod");
                 harmony.PatchAll();
                 _serilogLogger.Information("Harmony patches applied.");
@@ -47,12 +50,14 @@ namespace Landlord
             var services = this.GetServices();
             if (services != null)
             {
-                this.AddSerilogLoggerProvider(LogPath, new[] { "Landlord" });
+                // Match FieldSquire's Robust DI Registration
+                services.AddLogging(loggingBuilder =>
+                {
+                    loggingBuilder.AddSerilog(_serilogLogger);
+                });
+
                 services.AddSingleton<EconomyBehavior>();
                 services.AddSingleton<ViolenceBehavior>();
-                // LandlordFinanceModel is a Model, usually just added, but we can register if it needs dependencies.
-                // Models in Bannerlord are not usually DI friendly unless we wrap them. 
-                // We'll just instantiate it manually or transiently.
                 services.AddTransient<LandlordFinanceModel>();
             }
         }

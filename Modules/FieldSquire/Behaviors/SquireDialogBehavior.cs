@@ -54,15 +54,16 @@ namespace FieldSquire.Behaviors
             RefreshWandererCache();
 
             // Remote Management
-            starter.AddPlayerLine("squire_talk_manage", "hero_main_options", "squire_manage_reply", "Let me review the ledgers.", IsSquire, null);
+            string[] entryPoints = { "hero_main_options", "companion_talk" };
+            foreach (var entry in entryPoints)
+            {
+                starter.AddPlayerLine("squire_talk_manage_" + entry, entry, "squire_manage_reply", "Let me review the ledgers.", IsSquire, null);
+                starter.AddPlayerLine("squire_talk_supply_" + entry, entry, "squire_supply_reply", "I need to set our supply list.", IsSquire, null);
+                starter.AddPlayerLine("squire_talk_search_" + entry, entry, "squire_search_start", "Anyone worth bringing along nearby?", IsSquire, null);
+            }
+
             starter.AddDialogLine("squire_manage_reply", "squire_manage_reply", "close_window", "Certainly. Which settlement reviews do you strictly need?", null, OpenManagementInquiry);
-
-            // Supply Settings
-            starter.AddPlayerLine("squire_talk_supply", "hero_main_options", "squire_supply_reply", "I need to set our supply list.", IsSquire, null);
             starter.AddDialogLine("squire_supply_reply", "squire_supply_reply", "close_window", "I shall arrange the manifest. What is the target stock level?", null, OpenSupplyInquiry);
-
-            // Wanderer Search (Tinder)
-            starter.AddPlayerLine("squire_talk_search", "hero_main_options", "squire_search_start", "Anyone worth bringing along nearby?", IsSquire, null);
             starter.AddDialogLine("squire_search_reply", "squire_search_start", "squire_search_options", "It depends on the job. Who do you need?", null, null);
 
             // Search Options
@@ -188,7 +189,20 @@ namespace FieldSquire.Behaviors
 
         private bool IsSquire()
         {
-            return Hero.OneToOneConversationHero?.StringId == SquireSpawnBehavior.SquireStringId;
+            var hero = Hero.OneToOneConversationHero;
+            if (hero == null) return false;
+
+            // Primary: Check ID
+            bool matchId = hero.StringId == SquireSpawnBehavior.SquireStringId;
+            
+            // Secondary: Check Name fallback (handles corrupted IDs in existing saves)
+            bool matchName = hero.Name != null && hero.Name.ToString().Contains("Squire");
+            
+            bool match = matchId || matchName;
+            
+            _logger.LogInformation($"IsSquire check: Talking to {hero.Name} (ID: {hero.StringId}). MatchId: {matchId}, MatchName: {matchName}. Result: {match}");
+            
+            return match;
         }
 
         private void OpenManagementInquiry()

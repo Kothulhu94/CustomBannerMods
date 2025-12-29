@@ -52,12 +52,30 @@ namespace FieldSquire.Behaviors
 
         private void RunLogistics(Settlement settlement)
         {
-            // Check if Squire is in party
-            // Check if Squire is in party (Optimized check)
-            bool hasSquire = Clan.PlayerClan?.Heroes.Any(h => h.StringId == SquireSpawnBehavior.SquireStringId && h.PartyBelongedTo == MobileParty.MainParty) ?? false;
+            if (_settings != null && _settings.DebugMode)
+            {
+                _logger.LogInformation($"RunLogistics: Checking at {settlement.Name}");
+            }
+
+            // Check if Squire is in party (Optimized check with fallback)
+            var squireObj = Clan.PlayerClan?.Heroes.FirstOrDefault(h => 
+                (h.StringId == SquireSpawnBehavior.SquireStringId || (h.Name != null && h.Name.ToString().Contains("Squire"))) 
+                && h.PartyBelongedTo == MobileParty.MainParty);
+
+            bool hasSquire = squireObj != null;
+
+            if (_settings != null && _settings.DebugMode && !hasSquire)
+            {
+                _logger.LogInformation($"RunLogistics: Squire not found in party. (Clan Heroes: {Clan.PlayerClan?.Heroes.Count})");
+            }
+
             if (!hasSquire) return;
 
-            if (Hero.MainHero.Gold < 2000) return;
+            if (Hero.MainHero.Gold < 2000)
+            {
+                if (_settings.DebugMode) _logger.LogInformation("RunLogistics: Insufficient gold (below 2000 cushion).");
+                return;
+            }
 
             // Access Global Settings
             int foodThreshold = _settings?.FoodThreshold ?? 20;

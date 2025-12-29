@@ -45,8 +45,16 @@ namespace Landlord
 
 
 
+        // Optimization: Cache Item Categories to prevent UI Lag
+        private static Dictionary<string, List<ItemObject>> _itemCategoryCache = new Dictionary<string, List<ItemObject>>();
+
         private List<ItemObject> GetItemsByCategory(string category)
         {
+            if (_itemCategoryCache.ContainsKey(category))
+            {
+                return _itemCategoryCache[category];
+            }
+
             var allItems = Game.Current.ObjectManager.GetObjectTypeList<ItemObject>();
             var filtered = new List<ItemObject>();
 
@@ -117,7 +125,9 @@ namespace Landlord
                 }
             }
 
-            return filtered.OrderBy(i => i.Name.ToString()).ToList();
+            var result = filtered.OrderBy(i => i.Name.ToString()).ToList();
+            _itemCategoryCache[category] = result;
+            return result;
         }
 
         public override void SyncData(IDataStore dataStore)
@@ -591,6 +601,19 @@ namespace Landlord
             campaignStarter.AddGameMenuOption("village_landlord_manage", "leave_manage", "Back",
                 (MenuCallbackArgs args) => { args.optionLeaveType = GameMenuOption.LeaveType.Leave; return true; },
                 (MenuCallbackArgs args) => { GameMenu.SwitchToMenu("village"); }, true, -1, false);
+
+            // DEBUG: Trigger Production
+            if (GlobalSettings.Instance.DebugMode)
+            {
+                campaignStarter.AddGameMenuOption("village_landlord_manage", "debug_trigger_production", "DEBUG: Trigger Production",
+                    (MenuCallbackArgs args) => { args.optionLeaveType = GameMenuOption.LeaveType.Conversation; return true; },
+                    (MenuCallbackArgs args) =>
+                    {
+                        _logger.LogInformation("[Landlord Debug] DEBUG TRIGGER: Manual Production Requested.");
+                        OnHourlyTick();
+                        InformationManager.DisplayMessage(new InformationMessage("DEBUG: Production cycle triggered manually."));
+                    }, false, -1, false);
+            }
         }
 
         private void OnSettlementEntered(MobileParty party, Settlement settlement, Hero hero)
@@ -629,6 +652,32 @@ namespace Landlord
             }
         }
 
+        // Caching for ModifyVillageGold
+        private static System.Reflection.FieldInfo _villageGoldField;
+        private static bool _villageGoldInitialized = false;
+
+        private void ModifyVillageGold(Village village, int amount)
+        {
+            try
+            {
+                if (!_villageGoldInitialized)
+                {
+                    _villageGoldField = typeof(Village).GetField("_gold", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Public);
+                    _villageGoldInitialized = true;
+                }
+
+                if (_villageGoldField != null)
+                {
+                    int current = (int)_villageGoldField.GetValue(village);
+                    _villageGoldField.SetValue(village, current + amount);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Failed to modify village gold");
+            }
+        }
+    
         private void OnWeeklyTick()
         {
         }
@@ -647,8 +696,16 @@ namespace Landlord
                    _logger.LogInformation($"[Landlord] HEARTBEAT: Tick confirmed at Hour 12.");
                 }
 
-                if (CampaignTime.Now.CurrentHourInDay != 22) return;
-                
+                // Fix: CurrentHourInDay is a float. Tick might run at 22.5, which != 22.0.
+                // We must cast to int to check the integer hour.
+                int currentHour = (int)CampaignTime.Now.CurrentHourInDay;
+
+                if (currentHour != 22) 
+                {
+                    if (debug) _logger.LogDebug($"[Landlord Debug] Skipping tick at hour {CampaignTime.Now.CurrentHourInDay} (Int: {currentHour})");
+                    return;
+                }
+
                 _logger.LogInformation("Landlord Hourly Tick (Hour 22) EXECUTION STARTED.");
                 
                 if (LandlordManager.Instance.GlobalPlots == null) 
@@ -680,7 +737,8 @@ namespace Landlord
 
                         float yieldMult = GetSlotStats(plot.SlotIndex).yield;
                         float eff = GetEfficiency(settlement, plot.ProductionId);
-                        float actualYield = 8f * yieldMult * eff;
+                        // Reverted to original formula as per User Request (Supier Calculations)
+                        float actualYield = 8.0f * yieldMult * eff;
 
                         if (debug)
                         {
@@ -721,16 +779,17 @@ namespace Landlord
                                 continue;
                             }
 
-                            int stashCount = (int)toStashAmt;
-                            int sellCount = (int)toSellAmt;
+                            int stashCount = (int)MathF.Floor(toStashAmt);
+                            int sellCount = (int)MathF.Floor(toSellAmt);
+
+                            // Handle fractional carryover conceptually by rounding if total > 1
+                            if (stashCount == 0 && toStashAmt >= 0.5f) stashCount = 1;
+                            if (sellCount == 0 && toSellAmt >= 0.5f) sellCount = 1;
 
                             if (plot.Stash.Sum(i => i.GetRosterElementWeight()) + (stashCount * cropItem.Weight) > GetStashCap(plot.GuardhouseLevel))
                             {
                                 sellCount += stashCount;
-                                stashCount = 0; // Overflow stash to sell? No, usually loss or sell. Logic here sells overflow.
-                                // Previous logic was: sellCount += stashCount; stashCount = 0;
-                                // Wait, line 689 was `stashCount = 0;` which implies we sell EVERYTHING if stash is full?
-                                // Let's keep it safe.
+                                stashCount = 0;
                             }
 
                             if (stashCount > 0)
@@ -738,6 +797,7 @@ namespace Landlord
                                 plot.Stash.AddToCounts(cropItem, stashCount);
                             }
 
+                            int totalRevenue = 0;
                             if (sellCount > 0)
                             {
                                 // 1. Determine Price
@@ -749,7 +809,7 @@ namespace Landlord
                                 }
                                 if (pricePerItem <= 0) pricePerItem = cropItem.Value; 
 
-                                int totalRevenue = sellCount * pricePerItem;
+                                totalRevenue = sellCount * pricePerItem;
                                 
                                 // 2. Add to Village Inventory
                                 settlement.ItemRoster.AddToCounts(cropItem, sellCount);
@@ -782,13 +842,6 @@ namespace Landlord
                                                 _logger.LogInformation($"[Landlord Debug] Attempting to payout {profit}g to {plot.Owner.Name}. Village Gold: {settlement.Village.Gold}");
 
                                             GiveGoldAction.ApplyForSettlementToCharacter(settlement, plot.Owner, profit, true);
-                                            
-                                            if (plot.Owner == Hero.MainHero)
-                                            {
-                                                var msg = $"[Estate] {settlement.Name}: Sold {sellCount}x {cropItem.Name} for {profit}g.";
-                                                InformationManager.DisplayMessage(new InformationMessage(msg));
-                                                if (debug) _logger.LogInformation($"[Landlord Debug] Notification sent: {msg}");
-                                            }
                                         }
                                     catch (Exception ex)
                                     {
@@ -805,8 +858,9 @@ namespace Landlord
                                 {
                                      // ALWAYS Notify user of daily status to confirm system activity
                                      int stashTotal = plot.Stash.Sum(i => i.Amount);
-                                     var msg = $"[Estate] {settlement.Name}: Produced {actualYield:F1} units. Garrison ate {foodNeeded:F1}. Stashed {stashCount}. Sold {sellCount}.";
-                                     InformationManager.DisplayMessage(new InformationMessage(msg));
+                                     var msg = $"[Estate] {settlement.Name}: Produced {actualYield:F1}. Sold {sellCount} for {totalRevenue}g. (Garrison: {foodNeeded:F1}, Stashed: {stashCount})";
+                                     // Fix: UI Calls are causing crashes. Logging to file only.
+                                     _logger.LogInformation($"[Landlord Notification] {msg}"); 
                                 }
 
                                 if (plot.Owner != null && !plot.Owner.IsHumanPlayerCharacter && debug)
@@ -946,32 +1000,7 @@ namespace Landlord
             catch { }
         }
 
-        private void ModifyVillageGold(Village v, int amount)
-        {
-            try
-            {
-                // Try standard Property first
-                PropertyInfo goldProp = typeof(Village).GetProperty("Gold");
-                if (goldProp != null && goldProp.CanWrite)
-                {
-                    int current = (int)goldProp.GetValue(v);
-                    goldProp.SetValue(v, current + amount);
-                    return;
-                }
-                
-                // Fallback to internal field if property is read-only
-                FieldInfo goldField = typeof(Village).GetField("_gold", BindingFlags.Instance | BindingFlags.NonPublic);
-                if (goldField != null)
-                {
-                    int current = (int)goldField.GetValue(v);
-                    goldField.SetValue(v, current + amount);
-                }
-            }
-            catch (Exception ex) 
-            {
-                // Log silently strictly to not spam, or use existing logger if accessible
-            }
-        }
+
 
         private int GetGuardCap(int level)
         {

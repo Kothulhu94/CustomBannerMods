@@ -63,27 +63,39 @@ namespace Brigands.Warlords
                 Clan syndicate = Clan.All.Find(x => x.StringId == "TheSyndicate");
                 if (syndicate != null)
                 {
-                    // 1. Declare war on ALL Kingdoms
+                    // Staggered war declaration: 1/6th of factions each day to reduce notification spam.
+                    // This ensures every faction is eventually targeted once a week (6-day cycle).
+                    int dayIndex = (int)(CampaignTime.Now.ToDays % 6.0);
+                    _logger.LogInformation($"Checking staggered war declarations for Day Index: {dayIndex}");
+
+                    // 1. Declare war on Kingdoms
                     foreach (Kingdom kingdom in Kingdom.All)
                     {
                          if (kingdom.IsEliminated) continue;
                          
+                         // Stagger logic: use StringId hash to assign each kingdom to one of 6 days.
+                         int hash = Math.Abs(kingdom.StringId.GetHashCode());
+                         if (hash % 6 != dayIndex) continue;
+
                          if (!syndicate.IsAtWarWith(kingdom))
                          {
-                              DeclareWarOnFaction(syndicate, kingdom);
+                               DeclareWarOnFaction(syndicate, kingdom);
                          }
                     }
 
-                    // 2. Declare war on ALL Clans (Minor, Independent, Rebel, Bandit, Players)
+                    // 2. Declare war on independent Clans (Minor, Independent, Rebel, Bandit, Players)
                     foreach (Clan clan in Clan.All)
                     {
-                         // Skip: Self, Eliminated, or belongs to a Kingdom (handled above to avoid spam)
+                         // Skip: Self, Eliminated, or belongs to a Kingdom (handled by Kingdom loop)
                          if (clan == syndicate || clan.IsEliminated || clan.Kingdom != null) continue;
 
-                         // WAR AGAINST THE WORLD: No exceptions.
+                         // Stagger logic: use StringId hash for clans as well.
+                         int hash = Math.Abs(clan.StringId.GetHashCode());
+                         if (hash % 6 != dayIndex) continue;
+
                          if (!syndicate.IsAtWarWith(clan))
                          {
-                              DeclareWarOnFaction(syndicate, clan);
+                               DeclareWarOnFaction(syndicate, clan);
                          }
                     }
                 }

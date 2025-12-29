@@ -64,6 +64,7 @@ namespace FieldSquire
                 }
 
                 // 3. Initialize Harmony
+                 // Harmony.DEBUG = true; // REMOVED: Global instability
                  new Harmony("com.fieldsquire.mod").PatchAll();
                  Logger.Information("FieldSquire: Harmony Patches applied successfully.");
             }
@@ -90,9 +91,11 @@ namespace FieldSquire
         protected override void OnGameStart(Game game, IGameStarter gameStarter)
         {
             base.OnGameStart(game, gameStarter);
+            Logger?.Information("FieldSquire: OnGameStart called.");
 
             if (game.GameType is Campaign)
             {
+                Logger?.Information("FieldSquire: GameType is Campaign, registering behaviors.");
                 CampaignGameStarter campaignStarter = (CampaignGameStarter)gameStarter;
 
                 // Resolve Behaviors from Container
@@ -110,6 +113,7 @@ namespace FieldSquire
                     campaignStarter.AddBehavior(serviceProvider.GetRequiredService<SquireSpawnBehavior>());
                     campaignStarter.AddBehavior(serviceProvider.GetRequiredService<SquireDialogBehavior>());
                     campaignStarter.AddBehavior(serviceProvider.GetRequiredService<SquireLogisticsBehavior>());
+                    // Logger.Information("FieldSquire: Behaviors DISABLED for isolation testing.");
                 }
                 else
                 {
@@ -121,6 +125,7 @@ namespace FieldSquire
                     campaignStarter.AddBehavior(new SquireSpawnBehavior(factory.CreateLogger<SquireSpawnBehavior>(), GlobalSettings.Instance));
                     campaignStarter.AddBehavior(new SquireDialogBehavior(factory.CreateLogger<SquireDialogBehavior>(), GlobalSettings.Instance));
                     campaignStarter.AddBehavior(new SquireLogisticsBehavior(factory.CreateLogger<SquireLogisticsBehavior>(), GlobalSettings.Instance));
+                    // Logger.Information("FieldSquire: Behaviors DISABLED (Fallback) for isolation testing.");
                 }
             }
         }

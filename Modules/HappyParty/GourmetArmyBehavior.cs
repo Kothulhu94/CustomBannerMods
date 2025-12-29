@@ -78,6 +78,12 @@ namespace HappyParty
                                     GiveGoldAction.ApplyBetweenCharacters(mobileParty.LeaderHero, null, totalCost, true);
                                     mobileParty.ItemRoster.AddToCounts(item, actualBuyAmount);
                                     
+                                    // CRITICAL FIX: Remote items from Settlement to prevent inflation
+                                    if (settlement.ItemRoster != null)
+                                    {
+                                        settlement.ItemRoster.AddToCounts(item, -actualBuyAmount);
+                                    }
+
                                     if (_settings.DebugMode)
                                     {
                                         _logger.Information($"{mobileParty.Name} bought {actualBuyAmount}x {item.Name} in {settlement.Name} for {totalCost} gold.");

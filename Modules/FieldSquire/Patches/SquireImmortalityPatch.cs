@@ -13,7 +13,8 @@ namespace FieldSquire.Patches
             // Check Setting
             if (GlobalSettings.Instance != null && !GlobalSettings.Instance.SquireImmortality) return true;
 
-            if (victim != null && victim.StringId == SquireSpawnBehavior.SquireStringId)
+            if (victim != null && (victim.StringId == SquireSpawnBehavior.SquireStringId || 
+                                   (victim.Name != null && victim.Name.ToString().Contains("Squire"))))
             {
                 // Prevent death sequence
                 FieldSquireSubModule.Logger?.Information($"INTERCEPTED: {victim.Name} was about to be killed. Preventing death.");
