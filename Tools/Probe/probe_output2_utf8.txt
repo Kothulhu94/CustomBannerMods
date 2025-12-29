@@ -1,0 +1,115 @@
+﻿=== LOADING NavalDLC ===
+Warning: partial load. 58 errors.
+ - Could not load file or assembly 'TaleWorlds.DotNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+ - Could not load file or assembly 'TaleWorlds.DotNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+ - Could not load file or assembly 'TaleWorlds.DotNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+ - Could not load file or assembly 'TaleWorlds.DotNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+ - Could not load file or assembly 'TaleWorlds.DotNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+=== SEARCHING FOR 'Ship' in 578 types ===
+[Type] TaleWorlds.MountAndBlade.ShipRetreatLogic
+[Type] TaleWorlds.MountAndBlade.ShipPlacementDetachment
+[Type] NavalDLC.MissionShipFactory
+[Type] NavalDLC.ShipAssignment
+[Type] NavalDLC.Storyline.Objectives.WoundedBeast.SinkShipObjective
+[Type] NavalDLC.Storyline.Objectives.Quest5.Quest5DefeatPurigsShipObjective
+[Type] NavalDLC.Storyline.Objectives.Quest5.Quest5GunnarUsesShipObjective
+[Type] NavalDLC.Storyline.Objectives.Quest3.BurnShipObjective
+[Type] NavalDLC.Storyline.Objectives.Quest3.ReachShipObjective
+[Type] NavalDLC.Storyline.Objectives.Quest3.ShipObjectiveTarget
+[Type] NavalDLC.Storyline.MissionControllers.CosmeticShipSpawnMissionLogic
+[Type] NavalDLC.Storyline.MissionControllers.NeutralWandererShipSpawnMissionController
+[Type] NavalDLC.Storyline.MissionControllers.Quest5WanderingShipsMissionLogic
+[Type] NavalDLC.Missions.ShipOrder
+[Type] NavalDLC.Missions.ShipInput.ShipInputExtensions
+[Type] NavalDLC.Missions.ShipInput.ShipInputProcessor
+[Type] NavalDLC.Missions.ShipInput.ShipInputRecord
+[Type] NavalDLC.Missions.ShipControl.AIShipController
+[Type] NavalDLC.Missions.ShipControl.PlayerShipController
+[Type] NavalDLC.Missions.ShipControl.ShipController
+[Type] NavalDLC.Missions.ShipControl.ShipControllerType
+[Type] NavalDLC.Missions.ShipActuators.ShipActuatorRecord
+[Type] NavalDLC.Missions.ShipActuators.ShipActuators
+[Type] NavalDLC.Missions.Objects.IShipEventListener
+[Type] NavalDLC.Missions.Objects.ShipDWAAgentDelegate
+[Type] NavalDLC.Missions.Objects.ShipSpawnerEntityMissionHelper
+[Type] NavalDLC.Missions.Objects.UsableMachines.IShipOarScriptComponent
+[Type] NavalDLC.Missions.NavalPhysics.ShipForce
+[Type] NavalDLC.Missions.NavalPhysics.ShipForceRecord
+[Type] NavalDLC.Missions.NavalPhysics.ShipPhysicsInitializer
+[Type] NavalDLC.Missions.MissionLogics.NavalShipAgents
+[Type] NavalDLC.Missions.MissionLogics.NavalShipDeploymentLimit
+[Type] NavalDLC.Missions.MissionLogics.NavalShipsLogic
+[Type] NavalDLC.Missions.MissionLogics.ShipAgentSpawnLogic
+[Type] NavalDLC.Missions.MissionLogics.ShipAgentSpawnLogicTeamSide
+[Type] NavalDLC.Missions.MissionLogics.ShipCollisionOutcomeLogic
+[Type] NavalDLC.Missions.AI.UsableMachineAIs.ShipAttachmentMachineAI
+[Type] NavalDLC.Missions.AI.UsableMachineAIs.ShipAttachmentPointAI
+[Type] NavalDLC.Missions.AI.UsableMachineAIs.ShipBallistaAI
+[Type] NavalDLC.Missions.AI.UsableMachineAIs.ShipControllerMachineAI
+[Type] NavalDLC.Missions.AI.UsableMachineAIs.ShipOarMachineAI
+[Type] NavalDLC.Missions.AI.UsableMachineAIs.ShipPullingMachineAI
+[Type] NavalDLC.Missions.AI.Behaviors.NavalBehaviorBoardShipSubtask
+[Type] NavalDLC.HotKeyCategories.NavalShipControlsHotKeyCategory
+[Type] NavalDLC.GameComponents.NavalDLCCampaignShipDamageModel
+[Type] NavalDLC.GameComponents.NavalDLCCampaignShipParametersModel
+[Type] NavalDLC.GameComponents.NavalDLCClanShipOwnershipModel
+[Type] NavalDLC.GameComponents.NavalDLCShipCostModel
+[Type] NavalDLC.GameComponents.NavalDLCShipDeploymentModel
+[Type] NavalDLC.GameComponents.NavalDLCShipDistributionModel
+[Type] NavalDLC.GameComponents.NavalDLCShipLimitModel
+[Type] NavalDLC.GameComponents.NavalDLCShipPhysicsParametersModel
+[Type] NavalDLC.GameComponents.NavalDLCShipStatModel
+[Type] NavalDLC.GameComponents.NavalMissionShipParametersModel
+[Type] NavalDLC.ComponentInterfaces.ClanShipOwnershipModel
+[Type] NavalDLC.ComponentInterfaces.ShipPhysicsParametersModel
+[Type] NavalDLC.ComponentInterfaces.ShipDeploymentModel
+[Type] NavalDLC.ComponentInterfaces.ShipDistributionModel
+[Type] NavalDLC.CampaignBehaviors.NavalShipDistributionCampaignBehavior
+[Type] NavalDLC.CampaignBehaviors.ShipNameCampaignBehavior
+[Type] NavalDLC.CampaignBehaviors.ShipProductionCampaignBehavior
+[Type] NavalDLC.CampaignBehaviors.ShipRepairCampaignBehavior
+[Type] NavalDLC.CampaignBehaviors.ShipTradeCampaignBehavior
+[Type] NavalDLC.CampaignBehaviors.ShipUpgradeCampaignBehavior
+[Type] TaleWorlds.MountAndBlade.ShipPlacementDetachment+ShipPlacementPosition
+[Type] NavalDLC.Storyline.Objectives.WoundedBeast.FinishOffConsortsObjective+ShipObjectiveTarget
+[Type] NavalDLC.Storyline.Objectives.WoundedBeast.SinkShipObjective+SinkShipObjectiveTarget
+[Type] NavalDLC.Storyline.MissionControllers.BlockedEstuaryMissionController+EnemyShipTrigger
+[Type] NavalDLC.Storyline.MissionControllers.NeutralWandererShipSpawnMissionController+WandererShipData
+[Type] NavalDLC.Storyline.MissionControllers.NeutralWandererShipSpawnMissionController+WandererShipControllerState
+[Type] NavalDLC.Storyline.MissionControllers.Quest5SetPieceBattleMissionController+GunnarMovementStateForClimbingShip
+[Type] NavalDLC.Missions.ShipOrder+ShipMovementOrderEnum
+[Type] NavalDLC.Missions.ShipOrder+ShipIndependenceState
+[Type] NavalDLC.Missions.ShipOrder+ShipDetachmentPriority
+[Type] NavalDLC.Missions.Objects.MissionShip+ShipInstanceType
+[Type] NavalDLC.Missions.Objects.ShipWaterEffects+ShipHullHeightType
+[Type] NavalDLC.Missions.Objects.UsableMachines.ShipAttachmentMachine+ShipAttachmentJoint
+[Type] NavalDLC.Missions.NavalPhysics.NavalPhysics+ShipPart
+[Type] NavalDLC.Missions.MissionLogics.NavalShipsLogic+ShipFilter
+[Type] NavalDLC.Missions.AI.Behaviors.BehaviorNavalApproachInLine+ShipDefenseState
+[Type] NavalDLC.Missions.AI.Behaviors.BehaviorNavalDefendInLine+ShipDefenseState
+[Type] NavalDLC.Missions.AI.Behaviors.BehaviorNavalEngageCorrespondingEnemy+ShipBoardingState
+[Type] NavalDLC.Missions.AI.Behaviors.NavalBehaviorBoardShipSubtask+ShipBoardingState
+[Type] NavalDLC.CharacterDevelopment.NavalPerks+Shipmaster
+[Type] NavalDLC.Missions.Objects.UsableMachines.ShipAttachmentMachine+ShipAttachment+ShipAttachmentState
+
+=== INSPECTING NavalPatrolPartiesCampaignBehavior ===
+  METHOD: Void RegisterEvents
+  METHOD: Void OnMobilePartyDestroyed
+  METHOD: Void SettlementEntered
+  METHOD: Void AiHourlyTick
+  METHOD: Void CalculateVisitHomeSettlementScoreDueToShipHealth
+  METHOD: Boolean CanVisitSettlement
+  METHOD: Single GetOverallShipHealthRatio
+  METHOD: Void OnSettlementLeft
+  METHOD: Void DailyTickSettlement
+  METHOD: Void OnNewGameCreated
+  METHOD: Void OnSettlementOwnerChangedEvent
+  METHOD: Boolean CanSettlementSpawnNewPartyCurrently
+  METHOD: Void SyncData
+  METHOD: Void UpdateSettlementParties
+  METHOD: Void RemoveSettlementParties
+  METHOD: Void UpdateSettlementQueue
+  METHOD: Void SpawnPatrolParty
+  METHOD: TextObject GetSettlementPatrolStatus
+  METHOD: MobileParty GetNavalPatrolParty

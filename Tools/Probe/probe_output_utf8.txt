@@ -1,0 +1,13 @@
+﻿=== LOADING NavalDLC ===
+Warning: partial load. 58 errors.
+=== SCANNING SHIP CLASS ===
+Class 'Ship' NOT FOUND.
+
+=== SCANNING PATROL BEHAVIORS ===
+[Found] NavalPatrolPartiesCampaignBehavior
+[Found] Quest5ClearGuardsObjective
+[Found] IPiratePatrolBehavior
+[Found] NavalSettlementPatrolModel
+[Found] INavalPatrolPartiesCampaignBehavior
+[Found] ClearGuardObjectiveTarget
+[Found] PatrolZone
