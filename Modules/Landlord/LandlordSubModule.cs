@@ -30,7 +30,7 @@ namespace Landlord
                 .MinimumLevel.Debug()
                 .CreateLogger();
 
-            Log.Logger = _serilogLogger; // Assign Global Shared Logger
+            // Log.Logger = _serilogLogger; // REMOVED: Global Logger Contamination
             _serilogLogger.Information("Landlord Module Loaded via Four Pillars Stack");
 
             // 2. Initialize Harmony
@@ -51,9 +51,12 @@ namespace Landlord
             if (services != null)
             {
                 // Match FieldSquire's Robust DI Registration
-                services.AddLogging(loggingBuilder =>
+                // Match FieldSquire's Robust DI Registration but with Filter
+                this.AddSerilogLoggerProvider(LogPath, new[] { "Landlord.*" }, config => 
                 {
-                    loggingBuilder.AddSerilog(_serilogLogger);
+                    config.MinimumLevel.Debug();
+                    config.WriteTo.File(LogPath, rollingInterval: RollingInterval.Infinite, shared: true, 
+                        outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}");
                 });
 
                 services.AddSingleton<EconomyBehavior>();

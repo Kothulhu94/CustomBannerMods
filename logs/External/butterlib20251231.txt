@@ -1,0 +1,33 @@
+[2025-12-31T03:04:17.7081943-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Loading implementations...
+[2025-12-31T03:04:17.7366372-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.0.0.dll
+[2025-12-31T03:04:17.7959855-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.0.1.dll
+[2025-12-31T03:04:17.7970002-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.0.2.dll
+[2025-12-31T03:04:17.7980495-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.0.3.dll
+[2025-12-31T03:04:17.7990466-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.1.0.dll
+[2025-12-31T03:04:17.8001216-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.1.1.dll
+[2025-12-31T03:04:17.8011552-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.1.2.dll
+[2025-12-31T03:04:17.8021924-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.1.3.dll
+[2025-12-31T03:04:17.8032191-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.1.4.dll
+[2025-12-31T03:04:17.8032191-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.1.5.dll
+[2025-12-31T03:04:17.8047444-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.1.6.dll
+[2025-12-31T03:04:17.8062602-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.10.dll
+[2025-12-31T03:04:17.8073014-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.11.dll
+[2025-12-31T03:04:17.8083500-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.12.dll
+[2025-12-31T03:04:17.8093896-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.4.dll
+[2025-12-31T03:04:17.8108950-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.5.dll
+[2025-12-31T03:04:17.8119303-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.6.dll
+[2025-12-31T03:04:17.8129908-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.7.dll
+[2025-12-31T03:04:17.8140348-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.8.dll
+[2025-12-31T03:04:17.8140348-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.2.9.dll
+[2025-12-31T03:04:17.8155407-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.3.4.dll
+[2025-12-31T03:04:17.8165866-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.3.5.dll
+[2025-12-31T03:04:17.8176109-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.3.6.dll
+[2025-12-31T03:04:17.8186100-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.3.7.dll
+[2025-12-31T03:04:17.8191137-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.3.8.dll
+[2025-12-31T03:04:17.8206554-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found implementation Bannerlord.ButterLib.Implementation.1.3.9.dll
+[2025-12-31T03:04:17.8236890-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Found no matching implementations. Loading the latest available
+[2025-12-31T03:04:17.8279283-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Implementation Bannerlord.ButterLib.Implementation.1.3.9.dll for game v1.3.9.0 is loaded
+[2025-12-31T03:04:17.8493584-06:00] [Bannerlord.ButterLib.ImplementationLoaderSubModule] [INF]: Finished loading implementations
+[2025-12-31T03:04:17.8534073-06:00] [Bannerlord.ButterLib.Implementation.SubModule] [INF]: Wrapping DebugManager of type TaleWorlds.MountAndBlade.MBDebugManager with DebugManagerWrapper
+[2025-12-31T03:04:17.8737642-06:00] [Bannerlord.ButterLib.Implementation.MBSubModuleBaseExtended.Patches.ModulePatch] [ERR]: miTargetMethodUnLoad is null!
+[2025-12-31T03:04:35.2122058-06:00] [Bannerlord.ButterLib.ButterLibSubModule] [INF]: Created GameScope

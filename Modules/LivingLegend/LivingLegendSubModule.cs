@@ -27,6 +27,7 @@ namespace LivingLegend
                 .CreateLogger();
 
             _logger = new Serilog.Extensions.Logging.SerilogLoggerFactory(serilogLogger).CreateLogger<LivingLegendSubModule>();
+            _logger.LogInformation("LivingLegend Logging Initialized.");
 
             try
             {
@@ -49,7 +50,7 @@ namespace LivingLegend
                 services.AddScoped<LivingLegendLoyaltyModel>();
                 
                 // Register the isolated logger so DI can inject it into behaviors/models
-                services.AddSingleton<Microsoft.Extensions.Logging.ILogger>(_logger);
+                // services.AddSingleton<Microsoft.Extensions.Logging.ILogger>(_logger); // REMOVED: Causes cross-module contamination
             }
         }
 

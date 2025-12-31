@@ -37,9 +37,12 @@
       <HintPath>$(BannerlordLibs)\TaleWorlds.ObjectSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <!-- SaveSystem is commonly used, adding it too -->
     <Reference Include="TaleWorlds.SaveSystem">
         <HintPath>$(BannerlordLibs)\TaleWorlds.SaveSystem.dll</HintPath>
+        <Private>False</Private>
+    </Reference>
+    <Reference Include="TaleWorlds.ModuleManager">
+        <HintPath>$(BannerlordLibs)\TaleWorlds.ModuleManager.dll</HintPath>
         <Private>False</Private>
     </Reference>
   </ItemGroup>

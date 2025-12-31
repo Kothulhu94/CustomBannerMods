@@ -11,7 +11,7 @@ namespace Probe
         {
             try
             {
-                string libDir = System.IO.Path.GetFullPath(@"..\..\libs");
+                string libDir = System.IO.Path.GetFullPath(@"./libs");
                 
                 Console.WriteLine("=== DEBUG: LOADED ASSEMBLIES ===");
                 foreach(var d in System.IO.Directory.GetFiles(libDir, "*.dll"))
@@ -63,6 +63,21 @@ namespace Probe
                         // Console.WriteLine($"Error scanning {System.IO.Path.GetFileName(f)}: " + ex.Message); 
                     }
                 }
+
+
+                // 3. Scan NavalDLC
+                Console.WriteLine("\n=== SCANNING NavalDLC ===");
+                try {
+                    var navalPath = System.IO.Path.Combine(libDir, "NavalDLC.dll");
+                    var navalAsm = Assembly.LoadFrom(navalPath);
+                    foreach(var type in navalAsm.GetTypes())
+                    {
+                        if (type.Name.Contains("Policy") || type.Name.Contains("Behavior") || type.Name.Contains("Patrol"))
+                        {
+                            Console.WriteLine($"[NAVAL_TYPE] {type.FullName}");
+                        }
+                    }
+                } catch (Exception ex) { Console.WriteLine("Error scanning NavalDLC: " + ex.Message); }
 
             }
             catch (Exception ex)

@@ -1,0 +1,2103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+  <!-- ================= RANK 1 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_1" default_group="Ranged" level="31" name="{=Asc_jUztSDg_1}Vlandian Nauta (Rank 1)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="80" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="150" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_1" default_group="Ranged" level="26" name="{=Asc_DjXoPkn_1}Vlandian Seasoned Seafarer (Rank 1)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="80" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="65" />
+      <skill id="Polearm" value="65" />
+      <skill id="Bow" value="35" />
+      <skill id="Crossbow" value="120" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 2 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_2" default_group="Ranged" level="36" name="{=Asc_jUztSDg_2}Vlandian Nauta (Rank 2)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="170" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="170" />
+      <skill id="TwoHanded" value="100" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="60" />
+      <skill id="Crossbow" value="170" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_2" default_group="Ranged" level="31" name="{=Asc_DjXoPkn_2}Vlandian Seasoned Seafarer (Rank 2)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="140" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="140" />
+      <skill id="TwoHanded" value="85" />
+      <skill id="Polearm" value="85" />
+      <skill id="Bow" value="55" />
+      <skill id="Crossbow" value="140" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_2" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 3 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_3" default_group="Ranged" level="41" name="{=Asc_jUztSDg_3}Vlandian Nauta (Rank 3)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="190" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="190" />
+      <skill id="TwoHanded" value="120" />
+      <skill id="Polearm" value="140" />
+      <skill id="Bow" value="80" />
+      <skill id="Crossbow" value="190" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_3" default_group="Ranged" level="36" name="{=Asc_DjXoPkn_3}Vlandian Seasoned Seafarer (Rank 3)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="160" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="160" />
+      <skill id="TwoHanded" value="105" />
+      <skill id="Polearm" value="105" />
+      <skill id="Bow" value="75" />
+      <skill id="Crossbow" value="160" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 4 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_4" default_group="Ranged" level="46" name="{=Asc_jUztSDg_4}Vlandian Nauta (Rank 4)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="210" />
+      <skill id="Riding" value="160" />
+      <skill id="OneHanded" value="210" />
+      <skill id="TwoHanded" value="140" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="100" />
+      <skill id="Crossbow" value="210" />
+      <skill id="Throwing" value="140" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_4" default_group="Ranged" level="41" name="{=Asc_DjXoPkn_4}Vlandian Seasoned Seafarer (Rank 4)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="180" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="180" />
+      <skill id="TwoHanded" value="125" />
+      <skill id="Polearm" value="125" />
+      <skill id="Bow" value="95" />
+      <skill id="Crossbow" value="180" />
+      <skill id="Throwing" value="140" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 5 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_5" default_group="Ranged" level="51" name="{=Asc_jUztSDg_5}Vlandian Nauta (Rank 5)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="230" />
+      <skill id="Riding" value="180" />
+      <skill id="OneHanded" value="230" />
+      <skill id="TwoHanded" value="160" />
+      <skill id="Polearm" value="180" />
+      <skill id="Bow" value="120" />
+      <skill id="Crossbow" value="230" />
+      <skill id="Throwing" value="160" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_5" default_group="Ranged" level="46" name="{=Asc_DjXoPkn_5}Vlandian Seasoned Seafarer (Rank 5)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="200" />
+      <skill id="Riding" value="160" />
+      <skill id="OneHanded" value="200" />
+      <skill id="TwoHanded" value="145" />
+      <skill id="Polearm" value="145" />
+      <skill id="Bow" value="115" />
+      <skill id="Crossbow" value="200" />
+      <skill id="Throwing" value="160" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 6 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_6" default_group="Ranged" level="56" name="{=Asc_jUztSDg_6}Vlandian Nauta (Rank 6)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="250" />
+      <skill id="Riding" value="200" />
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="180" />
+      <skill id="Polearm" value="200" />
+      <skill id="Bow" value="140" />
+      <skill id="Crossbow" value="250" />
+      <skill id="Throwing" value="180" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_6" default_group="Ranged" level="51" name="{=Asc_DjXoPkn_6}Vlandian Seasoned Seafarer (Rank 6)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="220" />
+      <skill id="Riding" value="180" />
+      <skill id="OneHanded" value="220" />
+      <skill id="TwoHanded" value="165" />
+      <skill id="Polearm" value="165" />
+      <skill id="Bow" value="135" />
+      <skill id="Crossbow" value="220" />
+      <skill id="Throwing" value="180" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_6" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 7 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_7" default_group="Ranged" level="61" name="{=Asc_jUztSDg_7}Vlandian Nauta (Rank 7)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="270" />
+      <skill id="Riding" value="220" />
+      <skill id="OneHanded" value="270" />
+      <skill id="TwoHanded" value="200" />
+      <skill id="Polearm" value="220" />
+      <skill id="Bow" value="160" />
+      <skill id="Crossbow" value="270" />
+      <skill id="Throwing" value="200" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_7" default_group="Ranged" level="56" name="{=Asc_DjXoPkn_7}Vlandian Seasoned Seafarer (Rank 7)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="240" />
+      <skill id="Riding" value="200" />
+      <skill id="OneHanded" value="240" />
+      <skill id="TwoHanded" value="185" />
+      <skill id="Polearm" value="185" />
+      <skill id="Bow" value="155" />
+      <skill id="Crossbow" value="240" />
+      <skill id="Throwing" value="200" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_7" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 8 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_8" default_group="Ranged" level="66" name="{=Asc_jUztSDg_8}Vlandian Nauta (Rank 8)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="290" />
+      <skill id="Riding" value="240" />
+      <skill id="OneHanded" value="290" />
+      <skill id="TwoHanded" value="220" />
+      <skill id="Polearm" value="240" />
+      <skill id="Bow" value="180" />
+      <skill id="Crossbow" value="290" />
+      <skill id="Throwing" value="220" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_8" default_group="Ranged" level="61" name="{=Asc_DjXoPkn_8}Vlandian Seasoned Seafarer (Rank 8)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="260" />
+      <skill id="Riding" value="220" />
+      <skill id="OneHanded" value="260" />
+      <skill id="TwoHanded" value="205" />
+      <skill id="Polearm" value="205" />
+      <skill id="Bow" value="175" />
+      <skill id="Crossbow" value="260" />
+      <skill id="Throwing" value="220" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_8" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 9 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_9" default_group="Ranged" level="71" name="{=Asc_jUztSDg_9}Vlandian Nauta (Rank 9)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="310" />
+      <skill id="Riding" value="260" />
+      <skill id="OneHanded" value="310" />
+      <skill id="TwoHanded" value="240" />
+      <skill id="Polearm" value="260" />
+      <skill id="Bow" value="200" />
+      <skill id="Crossbow" value="310" />
+      <skill id="Throwing" value="240" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_9" default_group="Ranged" level="66" name="{=Asc_DjXoPkn_9}Vlandian Seasoned Seafarer (Rank 9)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="280" />
+      <skill id="Riding" value="240" />
+      <skill id="OneHanded" value="280" />
+      <skill id="TwoHanded" value="225" />
+      <skill id="Polearm" value="225" />
+      <skill id="Bow" value="195" />
+      <skill id="Crossbow" value="280" />
+      <skill id="Throwing" value="240" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_9" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 10 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_10" default_group="Ranged" level="76" name="{=Asc_jUztSDg_10}Vlandian Nauta (Rank 10)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="330" />
+      <skill id="Riding" value="280" />
+      <skill id="OneHanded" value="330" />
+      <skill id="TwoHanded" value="260" />
+      <skill id="Polearm" value="280" />
+      <skill id="Bow" value="220" />
+      <skill id="Crossbow" value="330" />
+      <skill id="Throwing" value="260" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_10" default_group="Ranged" level="71" name="{=Asc_DjXoPkn_10}Vlandian Seasoned Seafarer (Rank 10)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="300" />
+      <skill id="Riding" value="260" />
+      <skill id="OneHanded" value="300" />
+      <skill id="TwoHanded" value="245" />
+      <skill id="Polearm" value="245" />
+      <skill id="Bow" value="215" />
+      <skill id="Crossbow" value="300" />
+      <skill id="Throwing" value="260" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_10" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 11 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_11" default_group="Ranged" level="81" name="{=Asc_jUztSDg_11}Vlandian Nauta (Rank 11)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="350" />
+      <skill id="Riding" value="300" />
+      <skill id="OneHanded" value="350" />
+      <skill id="TwoHanded" value="280" />
+      <skill id="Polearm" value="300" />
+      <skill id="Bow" value="240" />
+      <skill id="Crossbow" value="350" />
+      <skill id="Throwing" value="280" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_11" default_group="Ranged" level="76" name="{=Asc_DjXoPkn_11}Vlandian Seasoned Seafarer (Rank 11)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="320" />
+      <skill id="Riding" value="280" />
+      <skill id="OneHanded" value="320" />
+      <skill id="TwoHanded" value="265" />
+      <skill id="Polearm" value="265" />
+      <skill id="Bow" value="235" />
+      <skill id="Crossbow" value="320" />
+      <skill id="Throwing" value="280" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_11" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 12 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_12" default_group="Ranged" level="86" name="{=Asc_jUztSDg_12}Vlandian Nauta (Rank 12)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="370" />
+      <skill id="Riding" value="320" />
+      <skill id="OneHanded" value="370" />
+      <skill id="TwoHanded" value="300" />
+      <skill id="Polearm" value="320" />
+      <skill id="Bow" value="260" />
+      <skill id="Crossbow" value="370" />
+      <skill id="Throwing" value="300" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_12" default_group="Ranged" level="81" name="{=Asc_DjXoPkn_12}Vlandian Seasoned Seafarer (Rank 12)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="340" />
+      <skill id="Riding" value="300" />
+      <skill id="OneHanded" value="340" />
+      <skill id="TwoHanded" value="285" />
+      <skill id="Polearm" value="285" />
+      <skill id="Bow" value="255" />
+      <skill id="Crossbow" value="340" />
+      <skill id="Throwing" value="300" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_12" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 13 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_13" default_group="Ranged" level="91" name="{=Asc_jUztSDg_13}Vlandian Nauta (Rank 13)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="390" />
+      <skill id="Riding" value="340" />
+      <skill id="OneHanded" value="390" />
+      <skill id="TwoHanded" value="320" />
+      <skill id="Polearm" value="340" />
+      <skill id="Bow" value="280" />
+      <skill id="Crossbow" value="390" />
+      <skill id="Throwing" value="320" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_13" default_group="Ranged" level="86" name="{=Asc_DjXoPkn_13}Vlandian Seasoned Seafarer (Rank 13)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="360" />
+      <skill id="Riding" value="320" />
+      <skill id="OneHanded" value="360" />
+      <skill id="TwoHanded" value="305" />
+      <skill id="Polearm" value="305" />
+      <skill id="Bow" value="275" />
+      <skill id="Crossbow" value="360" />
+      <skill id="Throwing" value="320" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_13" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 14 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_14" default_group="Ranged" level="96" name="{=Asc_jUztSDg_14}Vlandian Nauta (Rank 14)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="410" />
+      <skill id="Riding" value="360" />
+      <skill id="OneHanded" value="410" />
+      <skill id="TwoHanded" value="340" />
+      <skill id="Polearm" value="360" />
+      <skill id="Bow" value="300" />
+      <skill id="Crossbow" value="410" />
+      <skill id="Throwing" value="340" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_14" default_group="Ranged" level="91" name="{=Asc_DjXoPkn_14}Vlandian Seasoned Seafarer (Rank 14)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="380" />
+      <skill id="Riding" value="340" />
+      <skill id="OneHanded" value="380" />
+      <skill id="TwoHanded" value="325" />
+      <skill id="Polearm" value="325" />
+      <skill id="Bow" value="295" />
+      <skill id="Crossbow" value="380" />
+      <skill id="Throwing" value="340" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_14" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 15 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_15" default_group="Ranged" level="101" name="{=Asc_jUztSDg_15}Vlandian Nauta (Rank 15)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="430" />
+      <skill id="Riding" value="380" />
+      <skill id="OneHanded" value="430" />
+      <skill id="TwoHanded" value="360" />
+      <skill id="Polearm" value="380" />
+      <skill id="Bow" value="320" />
+      <skill id="Crossbow" value="430" />
+      <skill id="Throwing" value="360" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_15" default_group="Ranged" level="96" name="{=Asc_DjXoPkn_15}Vlandian Seasoned Seafarer (Rank 15)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="400" />
+      <skill id="Riding" value="360" />
+      <skill id="OneHanded" value="400" />
+      <skill id="TwoHanded" value="345" />
+      <skill id="Polearm" value="345" />
+      <skill id="Bow" value="315" />
+      <skill id="Crossbow" value="400" />
+      <skill id="Throwing" value="360" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_15" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 16 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_16" default_group="Ranged" level="106" name="{=Asc_jUztSDg_16}Vlandian Nauta (Rank 16)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="450" />
+      <skill id="Riding" value="400" />
+      <skill id="OneHanded" value="450" />
+      <skill id="TwoHanded" value="380" />
+      <skill id="Polearm" value="400" />
+      <skill id="Bow" value="340" />
+      <skill id="Crossbow" value="450" />
+      <skill id="Throwing" value="380" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_16" default_group="Ranged" level="101" name="{=Asc_DjXoPkn_16}Vlandian Seasoned Seafarer (Rank 16)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="420" />
+      <skill id="Riding" value="380" />
+      <skill id="OneHanded" value="420" />
+      <skill id="TwoHanded" value="365" />
+      <skill id="Polearm" value="365" />
+      <skill id="Bow" value="335" />
+      <skill id="Crossbow" value="420" />
+      <skill id="Throwing" value="380" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_16" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 17 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_17" default_group="Ranged" level="111" name="{=Asc_jUztSDg_17}Vlandian Nauta (Rank 17)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="470" />
+      <skill id="Riding" value="420" />
+      <skill id="OneHanded" value="470" />
+      <skill id="TwoHanded" value="400" />
+      <skill id="Polearm" value="420" />
+      <skill id="Bow" value="360" />
+      <skill id="Crossbow" value="470" />
+      <skill id="Throwing" value="400" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_17" default_group="Ranged" level="106" name="{=Asc_DjXoPkn_17}Vlandian Seasoned Seafarer (Rank 17)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="440" />
+      <skill id="Riding" value="400" />
+      <skill id="OneHanded" value="440" />
+      <skill id="TwoHanded" value="385" />
+      <skill id="Polearm" value="385" />
+      <skill id="Bow" value="355" />
+      <skill id="Crossbow" value="440" />
+      <skill id="Throwing" value="400" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_17" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 18 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_18" default_group="Ranged" level="116" name="{=Asc_jUztSDg_18}Vlandian Nauta (Rank 18)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="490" />
+      <skill id="Riding" value="440" />
+      <skill id="OneHanded" value="490" />
+      <skill id="TwoHanded" value="420" />
+      <skill id="Polearm" value="440" />
+      <skill id="Bow" value="380" />
+      <skill id="Crossbow" value="490" />
+      <skill id="Throwing" value="420" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_18" default_group="Ranged" level="111" name="{=Asc_DjXoPkn_18}Vlandian Seasoned Seafarer (Rank 18)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="460" />
+      <skill id="Riding" value="420" />
+      <skill id="OneHanded" value="460" />
+      <skill id="TwoHanded" value="405" />
+      <skill id="Polearm" value="405" />
+      <skill id="Bow" value="375" />
+      <skill id="Crossbow" value="460" />
+      <skill id="Throwing" value="420" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_18" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 19 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_19" default_group="Ranged" level="121" name="{=Asc_jUztSDg_19}Vlandian Nauta (Rank 19)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="510" />
+      <skill id="Riding" value="460" />
+      <skill id="OneHanded" value="510" />
+      <skill id="TwoHanded" value="440" />
+      <skill id="Polearm" value="460" />
+      <skill id="Bow" value="400" />
+      <skill id="Crossbow" value="510" />
+      <skill id="Throwing" value="440" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_19" default_group="Ranged" level="116" name="{=Asc_DjXoPkn_19}Vlandian Seasoned Seafarer (Rank 19)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="480" />
+      <skill id="Riding" value="440" />
+      <skill id="OneHanded" value="480" />
+      <skill id="TwoHanded" value="425" />
+      <skill id="Polearm" value="425" />
+      <skill id="Bow" value="395" />
+      <skill id="Crossbow" value="480" />
+      <skill id="Throwing" value="440" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_19" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 20 ================= -->
+  <NPCCharacter id="vlandian_marine_t5_asc_20" default_group="Ranged" level="126" name="{=Asc_jUztSDg_20}Vlandian Nauta (Rank 20)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="530" />
+      <skill id="Riding" value="480" />
+      <skill id="OneHanded" value="530" />
+      <skill id="TwoHanded" value="460" />
+      <skill id="Polearm" value="480" />
+      <skill id="Bow" value="420" />
+      <skill id="Crossbow" value="530" />
+      <skill id="Throwing" value="460" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_2_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_f" />
+        <equipment slot="Item1" id="Item.bolt_c" />
+        <equipment slot="Item2" id="Item.vlandia_noble_sword_1_t5" />
+        <equipment slot="Item3" id="Item.heavy_heater_shield" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_marine_t4_asc_20" default_group="Ranged" level="121" name="{=Asc_DjXoPkn_20}Vlandian Seasoned Seafarer (Rank 20)" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="500" />
+      <skill id="Riding" value="460" />
+      <skill id="OneHanded" value="500" />
+      <skill id="TwoHanded" value="445" />
+      <skill id="Polearm" value="445" />
+      <skill id="Bow" value="415" />
+      <skill id="Crossbow" value="500" />
+      <skill id="Throwing" value="460" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_marine_t5_asc_20" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_g" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

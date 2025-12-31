@@ -61,10 +61,39 @@ namespace HappyParty
                     int count = element.Number;
                     if (element.Character != null)
                     {
-                        int value = element.Character.Tier * 100; 
-                        if (value == 0) value = 50; 
-                        
-                        totalRansomValue += value * count;
+                        // Logic Refactor: Recruit High Tier Prisoners if we have space
+
+                        if (mobileParty.Party.PartySizeLimit > mobileParty.MemberRoster.TotalManCount &&
+                            mobileParty.LeaderHero.Gold > 2000)
+                        {
+                             if (element.Character.Tier >= 4 && !element.Character.IsHero)
+                             {
+                                 // Attempt to recruit up to available space
+                                 int space = mobileParty.Party.PartySizeLimit - mobileParty.MemberRoster.TotalManCount;
+                                 int toRecruit = Math.Min(count, space);
+                                 
+                                 if (toRecruit > 0)
+                                 {
+                                     mobileParty.MemberRoster.AddToCounts(element.Character, toRecruit);
+                                     mobileParty.PrisonRoster.AddToCounts(element.Character, -toRecruit);
+                                     
+                                     // Simulation Cost: 200g per recruit (Bribe)
+                                     mobileParty.LeaderHero.Gold -= (toRecruit * 200);
+                                     
+                                     if (_settings.DebugMode) 
+                                        _logger.Information($"[AI Decision] {mobileParty.Name} recruited {toRecruit} {element.Character.Name} from prisoners.");
+
+                                     count -= toRecruit;
+                                 }
+                             }
+                        }
+
+                        if (count > 0)
+                        {
+                            int value = element.Character.Tier * 100; 
+                            if (value == 0) value = 50; 
+                            totalRansomValue += value * count;
+                        }
                     }
                 }
 

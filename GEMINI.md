@@ -2,6 +2,8 @@
   PURPOSE: "Bannerlord ModDev";
   ROOT: "./";
   TARGET_GAME: "Mount & Blade II: Bannerlord";
+  VERSION: "v1.3.x (Released Nov 2025)";
+  CRITICAL_RULE: "NEVER GUESS API SIGNATURES. ALWAYS use @[Tools/decompiler] to verify Bannerlord/Native method signatures before using them.";
   PORTABILITY: {
       TYPE: "Portable / Mobile Workspace";
       CONSTRAINT: "NO_ADMIN_RIGHTS";

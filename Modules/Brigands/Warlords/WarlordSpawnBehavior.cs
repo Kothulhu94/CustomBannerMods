@@ -111,10 +111,19 @@ namespace Brigands.Warlords
 
                                 if (isCruel && highRoguery)
                                 {
-                                    if (MBRandom.RandomInt(100) < _settings.WarlordSpawnChance)
+                                    // Logic Refactor: Dynamic Spawn Chance based on Faction Strength
+                                    int activeWarlords = syndicate.WarPartyComponents.Count;
+                                    float chanceMultiplier = 1.0f;
+
+                                    if (activeWarlords < 5) chanceMultiplier = 2.0f; // Reinforce if weak
+                                    else if (activeWarlords > 15) chanceMultiplier = 0.5f; // Slow down if strong
+
+                                    float finalChance = _settings.WarlordSpawnChance * chanceMultiplier;
+
+                                    if (MBRandom.RandomInt(100) < finalChance)
                                     {
                                         if (_settings.DebugMode)
-                                            _logger.LogInformation($"Spawning Warlord: {hero.Name} in {settlement.Name}");
+                                            _logger.LogInformation($"Spawning Warlord: {hero.Name} in {settlement.Name} (Active: {activeWarlords}, Chance: {finalChance:F1}%)");
                                         RecruitAndSpawnWarlord(syndicate, hero, settlement);
                                     }
                                 }
@@ -146,8 +155,7 @@ namespace Brigands.Warlords
         {
             try
             {
-                Vec2 vec2Pos = new Vec2(settlement.GatePosition.X, settlement.GatePosition.Y);
-                CampaignVec2 spawnPos = new CampaignVec2(vec2Pos, true);
+                CampaignVec2 spawnPos = settlement.GatePosition;
 
                 MobileParty party = LordPartyComponent.CreateLordParty(
                     "syndicate_warlord_" + hero.StringId,

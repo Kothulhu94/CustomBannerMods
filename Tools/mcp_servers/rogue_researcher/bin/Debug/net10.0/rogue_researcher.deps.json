@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "rogue_researcher/1.0.0": {
+        "runtime": {
+          "rogue_researcher.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rogue_researcher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

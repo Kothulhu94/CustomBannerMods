@@ -196,29 +196,28 @@ This document combines a deep-dive analysis of mod mechanics with a technical co
 
 ---
 
-## 7. Ascension
-**Theme:** Recursive unit progression system allowing veterans to "Prestige".
+## 7. LudusMagnus
+**Theme:** Gladiator School Management, Empire Building, and Recursive Ascension.
 
 ### Core Mechanics
-*   **Grant Ascension (Menu):**
-    *   **Condition:** Party must contain **Tier 5+** non-hero troops.
-*   **The Ascension Process:**
-    *   **Targeting:** Finds the "Root Recruit" of the veteran unit (walks back the upgrade tree via `FindRootViaScan`).
-    *   **Transformation:**
-        *   Creates a new Character Object: `[OriginalID]_asc_[Rank]`.
-        *   **Reset:** Unit Level reset to **1**.
-    *   **Stat Boosts (Per Rank):**
-        *   **All Skills:** +10 base.
-        *   **Physical Skills:** +10 extra (Simulating +2 Attribute points).
+*   **The Ludus (Settlement):**
+    *   **Facilities:** Manage upgrades (Master Smithy, Dormitory, Temple, Naumachia).
+    *   **Staff:** Assign Clan members to roles (Lanista, Doctore, Procurator, Medicus) for passive bonuses.
+    *   **Economy:** Ticket sales, Training fees, Smithy production, and Annual Draft Day.
+*   **Ascension (The Ritual):**
+    *   **Concept:** Allows veterans to "Prestige" into powerful Level 1 versions with stat bonuses.
+    *   **Targeting:** Finds the "Root Recruit" of the veteran unit via `FindRootViaScan`.
+    *   **Transformation:** Resets level to 1, adds base stats (+10 all, +10 physical).
+    *   **Integration:** Performed at the **Temple of the Ascended** facility.
 
 ### Code Quality Assessment
 **Rating**: **Green**
 *   **Analysis**:
-    *   **Structure**: `AscensionBehavior` handles the ritual.
-    *   **Logic**: Uses `FindRootViaScan` to dynamically reverse-engineer unit upgrade trees and find the "Base" unit. Caches the Root lookup (`_rootCache`) to make subsequent ascensions instant.
-    *   **Performance**: Heavy initial scan (O(N) on all unit types) runs once on first demand, then cached.
-    *   **Most Complicated Function**: `FindRootViaScan` - Iterates all loaded `CharacterObjects` to build a Parent->Child map and traverses it to find the root ancestor.
-*   **Recommendations**: None. The caching mechanism solves the inherent performance cost of upgrade tree traversal.
+    *   **Structure**: Modern C# Architecture. Key modules: Core, Economy, Staff, AI, Settlement.
+    *   **Logic**: Robust `LudusManager` singleton handles state. Event-driven updates (`DailyTick`) for economy.
+    *   **Performance**: Optimized. Staff effects use batch processing. Logging is comprehensive (Serilog).
+    *   **Most Complicated Function**: `FindRootViaScan` (Ascension) and `LudusStaffBehavior.OnDailyTick` (Staff Logic).
+*   **Recommendations**: None. The mod serves as the architecture benchmark.
 
 ---
 

@@ -1,0 +1,1108 @@
+{
+  "TaleWorlds.CampaignSystem": {
+    "count": 282,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "BetterGov: AutoResolveIssuesBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.Core": {
+    "count": 78,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "BetterGov: BetterGovSubModule.cs",
+      "BetterGov: AutoGovernorPatches.cs",
+      "Brigands: BrigandsUnifiedSubModule.cs",
+      "Brigands: BanditCohesionBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.Library": {
+    "count": 69,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "BetterGov: BetterGovSubModule.cs",
+      "Brigands: BanditCohesionBehavior.cs",
+      "Brigands: SanityCheckBehavior.cs",
+      "Brigands: PartyAlignmentFixerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.HourlyTickEvent": {
+    "count": 11,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: BanditTrainingBehavior.cs",
+      "Brigands: WarlordSpawnBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.All": {
+    "count": 17,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: WarlordSpawnBehavior.cs",
+      "Brigands: WarlordSpawnBehavior.cs",
+      "Brigands: WarlordSpawnBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.PlayerClan": {
+    "count": 54,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "Brigands: BanditCohesionBehavior.cs",
+      "Brigands: BanditCohesionBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Campaign.Current": {
+    "count": 14,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "Brigands: MergePatches.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "GiveGoldAction.ApplyBetweenCharacters": {
+    "count": 26,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "CoastalLife: CoastalPatrolBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "ChangeRelationAction.ApplyRelationChangeBetweenHeroes": {
+    "count": 9,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "CoastalLife: PressGangBehavior.cs",
+      "HonestWork: CastleJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Inherits CampaignBehaviorBase": {
+    "count": 50,
+    "locations": [
+      "BetterGov: AutoResolveIssuesBehavior.cs",
+      "Brigands: BanditCohesionBehavior.cs",
+      "Brigands: SanityCheckBehavior.cs",
+      "Brigands: PartyAlignmentFixerBehavior.cs",
+      "Brigands: PressGangBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: BanditTrainingBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: WarlordSpawnBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalPatrolBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs",
+      "CoastalLife: PressGangBehavior.cs",
+      "CoastalLife: ShipDumperBehavior.cs",
+      "FieldSquire: SquireDialogBehavior.cs",
+      "FieldSquire: SquireLogisticsBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "HappyParty: CustomWandererSpawnBehavior.cs",
+      "HappyParty: EliteRecruiterBehavior.cs",
+      "HappyParty: GourmetArmyBehavior.cs",
+      "HappyParty: JobSeekerBehavior.cs",
+      "HappyParty: RansomPrisonerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs",
+      "HonestWork: CastleJobBehavior.cs",
+      "HonestWork: TownJobBehavior.cs",
+      "HonestWork: VillageLaborBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: ViolenceBehavior.cs",
+      "LivingLegend: LivingLegendBehavior.cs",
+      "LudusMagnus: AiProcuratorBehavior.cs",
+      "LudusMagnus: AiVisitLudusBehavior.cs",
+      "LudusMagnus: LudusAiManagementBehavior.cs",
+      "LudusMagnus: LudusRivalryBehavior.cs",
+      "LudusMagnus: LudusSentinelBehavior.cs",
+      "LudusMagnus: LudusSiegeReliefBehavior.cs",
+      "LudusMagnus: LudusDraftDayBehavior.cs",
+      "LudusMagnus: LudusEconomyBehavior.cs",
+      "LudusMagnus: LudusProcuratorBehavior.cs",
+      "LudusMagnus: LudusSmithyBehavior.cs",
+      "LudusMagnus: LudusEventSystem.cs",
+      "LudusMagnus: GrandCouncilCampaignBehavior.cs",
+      "LudusMagnus: LudusQuestBehavior.cs",
+      "LudusMagnus: LudusDormitoryBehavior.cs",
+      "LudusMagnus: LudusGarrisonBehavior.cs",
+      "LudusMagnus: LudusTempleBehavior.cs",
+      "LudusMagnus: LudusCreationBehavior.cs",
+      "LudusMagnus: LudusStateBehavior.cs",
+      "LudusMagnus: LudusStaffBehavior.cs",
+      "NewClans: NewClansBehavior.cs"
+    ],
+    "type": "Inheritance"
+  },
+  "TaleWorlds.ModuleManager": {
+    "count": 2,
+    "locations": [
+      "BetterGov: BetterGovSubModule.cs",
+      "LudusMagnus: LudusCreationBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.MountAndBlade": {
+    "count": 11,
+    "locations": [
+      "BetterGov: BetterGovSubModule.cs",
+      "Brigands: BrigandsUnifiedSubModule.cs",
+      "CoastalLife: CoastalLifeSubModule.cs",
+      "FieldSquire: FieldSquireSubModule.cs",
+      "FieldSquire: SquireCombatPatch.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Inherits MBSubModuleBase": {
+    "count": 10,
+    "locations": [
+      "BetterGov: BetterGovSubModule.cs",
+      "Brigands: BrigandsUnifiedSubModule.cs",
+      "CoastalLife: CoastalLifeSubModule.cs",
+      "FieldSquire: FieldSquireSubModule.cs",
+      "HappyParty: HappyPartySubModule.cs",
+      "HonestWork: HonestWorkSubModule.cs",
+      "Landlord: LandlordSubModule.cs",
+      "LivingLegend: LivingLegendSubModule.cs",
+      "LudusMagnus: LudusSubModule.cs",
+      "NewClans: NewClansSubModule.cs"
+    ],
+    "type": "Inheritance"
+  },
+  "Town.Governor": {
+    "count": 5,
+    "locations": [
+      "BetterGov: GovernorService.cs",
+      "BetterGov: GovernorService.cs",
+      "BetterGov: GovernorService.cs",
+      "BetterGov: GovernorService.cs",
+      "HonestWork: CastleJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.OwnerClan": {
+    "count": 4,
+    "locations": [
+      "BetterGov: GovernorService.cs",
+      "LivingLegend: LivingLegendModel.cs",
+      "LivingLegend: LivingLegendModel.cs",
+      "LivingLegend: LivingLegendModel.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Game.Current": {
+    "count": 10,
+    "locations": [
+      "BetterGov: AutoGovernorPatches.cs",
+      "Brigands: PressGangBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.Localization": {
+    "count": 33,
+    "locations": [
+      "Brigands: BanditCohesionBehavior.cs",
+      "Brigands: PressGangBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: BanditTrainingBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.DailyTickEvent": {
+    "count": 19,
+    "locations": [
+      "Brigands: SanityCheckBehavior.cs",
+      "Brigands: PartyAlignmentFixerBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "FieldSquire: SquireDialogBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "MobileParty.All": {
+    "count": 16,
+    "locations": [
+      "Brigands: SanityCheckBehavior.cs",
+      "Brigands: PartyAlignmentFixerBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.OnSessionLaunchedEvent": {
+    "count": 19,
+    "locations": [
+      "Brigands: PartyAlignmentFixerBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalPatrolBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.IsBanditFaction": {
+    "count": 1,
+    "locations": [
+      "Brigands: PartyAlignmentFixerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.IsEliminated": {
+    "count": 3,
+    "locations": [
+      "Brigands: PartyAlignmentFixerBehavior.cs",
+      "HappyParty: JobSeekerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.Name": {
+    "count": 3,
+    "locations": [
+      "Brigands: PartyAlignmentFixerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs",
+      "LudusMagnus: LudusRivalryBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.MapEventEnded": {
+    "count": 4,
+    "locations": [
+      "Brigands: PressGangBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Landlord: ViolenceBehavior.cs",
+      "LudusMagnus: LudusStateBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.DailyTickPartyEvent": {
+    "count": 2,
+    "locations": [
+      "Brigands: PressGangBehavior.cs",
+      "LudusMagnus: AiVisitLudusBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "MobileParty.MainParty": {
+    "count": 33,
+    "locations": [
+      "Brigands: PressGangBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: BanditTrainingBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "MobileParty.IsActive": {
+    "count": 3,
+    "locations": [
+      "Brigands: PressGangBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Village.VillageState": {
+    "count": 3,
+    "locations": [
+      "Brigands: BanditTerrorBehavior.cs",
+      "LivingLegend: LivingLegendBehavior.cs",
+      "LudusMagnus: LudusSentinelBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Village.VillageStates": {
+    "count": 3,
+    "locations": [
+      "Brigands: BanditTerrorBehavior.cs",
+      "LivingLegend: LivingLegendBehavior.cs",
+      "LudusMagnus: LudusSentinelBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "EndCaptivityAction.ApplyByRansom": {
+    "count": 1,
+    "locations": [
+      "Brigands: BanditTerrorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Village.Hearth": {
+    "count": 2,
+    "locations": [
+      "Brigands: BanditTerrorBehavior.cs",
+      "Landlord: EconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Town.Prosperity": {
+    "count": 5,
+    "locations": [
+      "Brigands: BanditTerrorBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs",
+      "HonestWork: CastleJobBehavior.cs",
+      "HonestWork: TownJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "MobileParty.NavigationType": {
+    "count": 17,
+    "locations": [
+      "Brigands: BanditTerrorBehavior.cs",
+      "Brigands: BanditTerrorBehavior.cs",
+      "LivingLegend: LivingLegendBehavior.cs",
+      "LudusMagnus: AiProcuratorBehavior.cs",
+      "LudusMagnus: AiProcuratorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.HeroKilledEvent": {
+    "count": 1,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.MapEventStarted": {
+    "count": 2,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Landlord: ViolenceBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "KillCharacterAction.KillCharacterActionDetail": {
+    "count": 1,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.OneToOneConversationHero": {
+    "count": 18,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: RecruitWarlordBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.StringId": {
+    "count": 5,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: WarlordBattlePatch.cs",
+      "HappyParty: JobSeekerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs",
+      "LudusMagnus: LudusCreationBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "EndCaptivityAction.ApplyByReleasedByChoice": {
+    "count": 1,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.MainHero": {
+    "count": 109,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "AddCompanionAction.Apply": {
+    "count": 8,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs",
+      "Brigands: WarlordSpawnBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "HappyParty: JobSeekerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "AddHeroToPartyAction.Apply": {
+    "count": 5,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "HappyParty: JobSeekerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "InformationManager.DisplayMessage": {
+    "count": 78,
+    "locations": [
+      "Brigands: RecruitWarlordBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs",
+      "CoastalLife: PortEconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.ObjectSystem": {
+    "count": 10,
+    "locations": [
+      "Brigands: SyndicateFactionBehavior.cs",
+      "CoastalLife: ShipDumperBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "HappyParty: CustomWandererSpawnBehavior.cs",
+      "HonestWork: TownJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.OnGameLoadedEvent": {
+    "count": 1,
+    "locations": [
+      "Brigands: SyndicateFactionBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.OnNewGameCreatedEvent": {
+    "count": 1,
+    "locations": [
+      "Brigands: SyndicateFactionBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.All": {
+    "count": 12,
+    "locations": [
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Kingdom.All": {
+    "count": 1,
+    "locations": [
+      "Brigands: SyndicateFactionBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.CharacterStates": {
+    "count": 12,
+    "locations": [
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: SyndicateFactionBehavior.cs",
+      "Brigands: WarlordSpawnBehavior.cs",
+      "Brigands: WarlordBattlePatch.cs",
+      "FieldSquire: SquireDialogBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.CreateClan": {
+    "count": 1,
+    "locations": [
+      "Brigands: SyndicateFactionBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.WeeklyTickEvent": {
+    "count": 4,
+    "locations": [
+      "Brigands: WarlordSpawnBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "LudusMagnus: LudusRivalryBehavior.cs",
+      "NewClans: NewClansBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "GameMenuOption.LeaveType": {
+    "count": 50,
+    "locations": [
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.CurrentSettlement": {
+    "count": 63,
+    "locations": [
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs",
+      "CoastalLife: CoastalJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "GiveGoldAction.ApplyForSettlementToParty": {
+    "count": 2,
+    "locations": [
+      "CoastalLife: CoastalJobBehavior.cs",
+      "HonestWork: VillageLaborBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.DailyTickSettlementEvent": {
+    "count": 1,
+    "locations": [
+      "CoastalLife: CoastalPatrolBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.OnSettlementLeftEvent": {
+    "count": 1,
+    "locations": [
+      "CoastalLife: CoastalPatrolBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.MobilePartyDestroyed": {
+    "count": 1,
+    "locations": [
+      "CoastalLife: CoastalPatrolBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.OnSettlementOwnerChangedEvent": {
+    "count": 1,
+    "locations": [
+      "CoastalLife: CoastalPatrolBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TextObject.GetEmpty": {
+    "count": 1,
+    "locations": [
+      "CoastalLife: CoastalPatrolBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Town.IsUnderSiege": {
+    "count": 2,
+    "locations": [
+      "CoastalLife: CoastalPatrolBehavior.cs",
+      "CoastalLife: CoastalPatrolBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.Engine": {
+    "count": 2,
+    "locations": [
+      "FieldSquire: SquireDialogBehavior.cs",
+      "FieldSquire: SquireTownManagementVM.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.ScreenSystem": {
+    "count": 3,
+    "locations": [
+      "FieldSquire: SquireDialogBehavior.cs",
+      "FieldSquire: SquireTownManagementVM.cs",
+      "FieldSquire: SquireTownManagementVM.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.AllAliveHeroes": {
+    "count": 6,
+    "locations": [
+      "FieldSquire: SquireDialogBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "HappyParty: CustomWandererSpawnBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.CurrentSettlement": {
+    "count": 4,
+    "locations": [
+      "FieldSquire: SquireDialogBehavior.cs",
+      "FieldSquire: SquireDialogBehavior.cs",
+      "FieldSquire: SquireDialogBehavior.cs",
+      "FieldSquire: SquireDialogBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.Name": {
+    "count": 2,
+    "locations": [
+      "FieldSquire: SquireDialogBehavior.cs",
+      "FieldSquire: SquireDialogBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.GetSkillValue": {
+    "count": 1,
+    "locations": [
+      "FieldSquire: SquireDialogBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "InformationManager.ShowInquiry": {
+    "count": 3,
+    "locations": [
+      "FieldSquire: SquireDialogBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "LudusMagnus: LudusRivalryBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.SettlementEntered": {
+    "count": 6,
+    "locations": [
+      "FieldSquire: SquireLogisticsBehavior.cs",
+      "HappyParty: EliteRecruiterBehavior.cs",
+      "HappyParty: GourmetArmyBehavior.cs",
+      "HappyParty: JobSeekerBehavior.cs",
+      "HappyParty: RansomPrisonerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Town.GetItemPrice": {
+    "count": 2,
+    "locations": [
+      "FieldSquire: SquireLogisticsBehavior.cs",
+      "HappyParty: GourmetArmyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Village.GetItemPrice": {
+    "count": 3,
+    "locations": [
+      "FieldSquire: SquireLogisticsBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "KillCharacterAction.ApplyByRemove": {
+    "count": 1,
+    "locations": [
+      "FieldSquire: SquireSpawnBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "EndCaptivityAction.ApplyByEscape": {
+    "count": 1,
+    "locations": [
+      "FieldSquire: SquireSpawnBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CharacterObject.All": {
+    "count": 3,
+    "locations": [
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "FieldSquire: SquireSpawnBehavior.cs",
+      "LudusMagnus: LudusRivalryBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "MobileParty.MemberRoster": {
+    "count": 1,
+    "locations": [
+      "FieldSquire: PartySizeLimitPatch.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Mission.Current": {
+    "count": 2,
+    "locations": [
+      "FieldSquire: SquireCombatPatch.cs",
+      "FieldSquire: SquireCombatPatch.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.Leader": {
+    "count": 8,
+    "locations": [
+      "HappyParty: TavernCleanerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs",
+      "LivingLegend: LivingLegendBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.WarPartyComponents": {
+    "count": 2,
+    "locations": [
+      "HappyParty: TavernCleanerBehavior.cs",
+      "HappyParty: TavernCleanerBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "GiveGoldAction.ApplyForSettlementToCharacter": {
+    "count": 4,
+    "locations": [
+      "HonestWork: CastleJobBehavior.cs",
+      "HonestWork: TownJobBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: ViolenceBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Town.Security": {
+    "count": 2,
+    "locations": [
+      "HonestWork: CastleJobBehavior.cs",
+      "HonestWork: CastleJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Town.Loyalty": {
+    "count": 1,
+    "locations": [
+      "HonestWork: CastleJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Town.GarrisonParty": {
+    "count": 4,
+    "locations": [
+      "HonestWork: CastleJobBehavior.cs",
+      "HonestWork: CastleJobBehavior.cs",
+      "HonestWork: CastleJobBehavior.cs",
+      "HonestWork: CastleJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.ItemRoster": {
+    "count": 2,
+    "locations": [
+      "HonestWork: TownJobBehavior.cs",
+      "HonestWork: TownJobBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Village.VillageType": {
+    "count": 2,
+    "locations": [
+      "HonestWork: VillageLaborBehavior.cs",
+      "HonestWork: VillageLaborBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.SaveSystem": {
+    "count": 6,
+    "locations": [
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: LandlordSaveDefiner.cs",
+      "Landlord: LandlordState.cs",
+      "LudusMagnus: LudusLocation.cs",
+      "LudusMagnus: LudusManager.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "ItemObject.ItemTypeEnum": {
+    "count": 10,
+    "locations": [
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "ItemObject.ItemTiers": {
+    "count": 5,
+    "locations": [
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "LudusMagnus: LudusProcuratorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "GiveGoldAction.ApplyForCharacterToSettlement": {
+    "count": 5,
+    "locations": [
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TroopRoster.CreateDummyTroopRoster": {
+    "count": 2,
+    "locations": [
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: LandlordState.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.Find": {
+    "count": 2,
+    "locations": [
+      "Landlord: EconomyBehavior.cs",
+      "LudusMagnus: LudusCreationBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Village.Gold": {
+    "count": 3,
+    "locations": [
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs",
+      "Landlord: EconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Inherits SaveableTypeDefiner": {
+    "count": 1,
+    "locations": [
+      "Landlord: LandlordSaveDefiner.cs"
+    ],
+    "type": "Inheritance"
+  },
+  "CampaignEvents.DailyTickClanEvent": {
+    "count": 1,
+    "locations": [
+      "LivingLegend: LivingLegendBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.PlayerTraitChangedEvent": {
+    "count": 1,
+    "locations": [
+      "LivingLegend: LivingLegendBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "ChangeRelationAction.ApplyPlayerRelation": {
+    "count": 1,
+    "locations": [
+      "LivingLegend: LivingLegendBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "MobileParty.CreateParty": {
+    "count": 5,
+    "locations": [
+      "LivingLegend: LivingLegendBehavior.cs",
+      "LudusMagnus: LudusRivalryBehavior.cs",
+      "LudusMagnus: LudusSentinelBehavior.cs",
+      "LudusMagnus: LudusSiegeReliefBehavior.cs",
+      "LudusMagnus: LudusProcuratorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.IsMinorFaction": {
+    "count": 1,
+    "locations": [
+      "LivingLegend: LivingLegendBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "TaleWorlds.InputSystem": {
+    "count": 1,
+    "locations": [
+      "LivingLegend: LivingLegendPatches.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.AiHourlyTickEvent": {
+    "count": 2,
+    "locations": [
+      "LudusMagnus: AiProcuratorBehavior.cs",
+      "LudusMagnus: AiVisitLudusBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.GatePosition": {
+    "count": 8,
+    "locations": [
+      "LudusMagnus: AiVisitLudusBehavior.cs",
+      "LudusMagnus: LudusRivalryBehavior.cs",
+      "LudusMagnus: LudusSentinelBehavior.cs",
+      "LudusMagnus: LudusSentinelBehavior.cs",
+      "LudusMagnus: LudusSentinelBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.Name": {
+    "count": 7,
+    "locations": [
+      "LudusMagnus: LudusAiManagementBehavior.cs",
+      "LudusMagnus: LudusAiManagementBehavior.cs",
+      "LudusMagnus: LudusRivalryBehavior.cs",
+      "LudusMagnus: LudusSiegeReliefBehavior.cs",
+      "LudusMagnus: LudusEconomyBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.Town": {
+    "count": 12,
+    "locations": [
+      "LudusMagnus: LudusAiManagementBehavior.cs",
+      "LudusMagnus: LudusAiManagementBehavior.cs",
+      "LudusMagnus: LudusAiManagementBehavior.cs",
+      "LudusMagnus: LudusAiManagementBehavior.cs",
+      "LudusMagnus: LudusAiManagementBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.BoundVillages": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: LudusSentinelBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.Parties": {
+    "count": 4,
+    "locations": [
+      "LudusMagnus: LudusSiegeReliefBehavior.cs",
+      "LudusMagnus: LudusEconomyBehavior.cs",
+      "LudusMagnus: LudusStaffBehavior.cs",
+      "LudusMagnus: LudusStaffBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignGameStarter.AddModel": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: LudusSubModule.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Settlement.FindFirst": {
+    "count": 2,
+    "locations": [
+      "LudusMagnus: LudusProcuratorBehavior.cs",
+      "LudusMagnus: LudusProcuratorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Town.FoodStocks": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: LudusProcuratorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Town.Gold": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: LudusProcuratorBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.Level": {
+    "count": 2,
+    "locations": [
+      "LudusMagnus: AscensionRitual.cs",
+      "LudusMagnus: AscensionRitual.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CharacterObject.Level": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: AscensionRitual.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.CharacterObject": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: AscensionRitual.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Hero.HeroDeveloper": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: AscensionRitual.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.Renown": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: CouncilVotingModel.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "CampaignEvents.WarDeclared": {
+    "count": 1,
+    "locations": [
+      "LudusMagnus: LudusQuestBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.Settlements": {
+    "count": 4,
+    "locations": [
+      "LudusMagnus: LudusCreationBehavior.cs",
+      "NewClans: NewClansBehavior.cs",
+      "NewClans: NewClansBehavior.cs",
+      "NewClans: NewClansBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Kingdom.Leader": {
+    "count": 2,
+    "locations": [
+      "NewClans: NewClansBehavior.cs",
+      "NewClans: NewClansBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.Kingdom": {
+    "count": 1,
+    "locations": [
+      "NewClans: NewClansBehavior.cs"
+    ],
+    "type": "Static/Property"
+  },
+  "Clan.CreateCompanionToLordClan": {
+    "count": 2,
+    "locations": [
+      "NewClans: NewClansBehavior.cs",
+      "NewClans: NewClansBehavior.cs"
+    ],
+    "type": "Static/Property"
+  }
+}

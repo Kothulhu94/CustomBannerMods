@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!-- Ludus Gladiator (Tier 5 Imperial Infantry variant) -->
+  <NPCCharacter id="ludus_gladiator"
+                name="{=ludus_glad}Ludus Gladiator"
+                age="25"
+                voice="curt"
+                culture="Culture.empire"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Soldier"
+                level="26"
+                wage="100">
+    <face>
+      <face_key_template value="BodyProperty.fighter_imperial" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="180" />
+      <skill id="TwoHanded" value="120" />
+      <skill id="Polearm" value="100" />
+    </skills>
+    <equipments>
+      <equipmentSet>
+        <!-- Custom or high tier vanilla gear -->
+        <equipment slot="Item0" id="Item.imperial_sword_4_t4" />
+        <equipment slot="Item1" id="Item.heater_shield_i" />
+        <equipment slot="Body" id="Item.imperial_lamellar_armor" />
+        <equipment slot="Leg" id="Item.imperial_boots_c" />
+        <equipment slot="Gloves" id="Item.imperial_guantlets_b" />
+        <equipment slot="Head" id="Item.imperial_helmet_h" />
+      </equipmentSet>
+    </equipments>
+  </NPCCharacter>
+
+  <!-- Procurator (Caravan Master) -->
+  <NPCCharacter id="ludus_procurator"
+                name="{=ludus_proc}Procurator"
+                age="40"
+                voice="soft"
+                culture="Culture.empire"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="CaravanGuard"
+                level="20">
+    <face>
+      <face_key_template value="BodyProperty.merchant_imperial" />
+    </face>
+    <skills>
+      <skill id="Trade" value="100" />
+      <skill id="Steward" value="100" />
+      <skill id="Tactics" value="80" />
+      <skill id="OneHanded" value="100" />
+    </skills>
+    <equipments>
+      <equipmentSet>
+        <equipment slot="Item0" id="Item.imperial_sword_2_t3" />
+        <equipment slot="Body" id="Item.cloth_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+      </equipmentSet>
+    </equipments>
+  </NPCCharacter>
+</NPCCharacters>

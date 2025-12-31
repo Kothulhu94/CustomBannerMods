@@ -644,8 +644,34 @@ namespace Landlord
                         var options = GetItemsByCategory("Food");
                         if (options.Count > 0)
                         {
-                            var crop = options.GetRandomElement();
-                            BuyLand(settlement, party.LeaderHero, crop.StringId, slot);
+                            // Logic Refactor: Smart Crop Selection
+                            ItemObject bestCrop = null;
+                            float bestScore = -1f;
+
+                            foreach (var op in options)
+                            {
+                                float eff = GetEfficiency(settlement, op.StringId);
+                                float val = op.Value * eff;
+                                
+                                // Random Jitter (+/- 10%) so they don't ALL pick the exact same thing always
+                                val *= (0.9f + (MBRandom.RandomFloat * 0.2f));
+
+                                if (val > bestScore)
+                                {
+                                    bestScore = val;
+                                    bestCrop = op;
+                                }
+                            }
+
+                            if (bestCrop != null)
+                            {
+                                BuyLand(settlement, party.LeaderHero, bestCrop.StringId, slot);
+                                // Optional Debug Log (Using GlobalSettings if available, else skip to be safe)
+                                try {
+                                    if (GlobalSettings.Instance.DebugMode) 
+                                        _logger.LogInformation($"[Landlord AI Decision] {party.LeaderHero.Name} bought land in {settlement.Name}. Picked {bestCrop.Name} (Score: {bestScore:F1})");
+                                } catch {}
+                            }
                         }
                     }
                 }

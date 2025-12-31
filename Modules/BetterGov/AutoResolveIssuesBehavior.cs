@@ -120,12 +120,26 @@ namespace BetterGov
             }
             else
             {
-                // AI gets credit (Silent)
-                ChangeRelationAction.ApplyRelationChangeBetweenHeroes(town.Governor, notable, 5);
+                // AI Cost Logic (Parity)
+                // Deduct 500 Gold to simulate resource usage (Bribes, Troops, Time)
+                int cost = 500;
+                Hero payor = town.Governor.Clan?.Leader ?? town.Governor; // Clan Leader pays
 
-                // Attempt to silently kill the issue
-                Campaign.Current.IssueManager.DeactivateIssue(issue);
-                _logger.LogInformation($"Resolved issue '{issue.Title}' via DeactivateIssue (AI)");
+                if (payor != null && payor.Gold >= cost)
+                {
+                    GiveGoldAction.ApplyBetweenCharacters(payor, null, cost, true);
+                    
+                    ChangeRelationAction.ApplyRelationChangeBetweenHeroes(town.Governor, notable, 5);
+                    Campaign.Current.IssueManager.DeactivateIssue(issue);
+                    
+                    if (GlobalSettings.Instance.DebugMode)
+                        _logger.LogInformation($"[AI Decision] {town.Name} Governor resolved '{issue.Title}' (Cost: {cost}g).");
+                }
+                else
+                {
+                    if (GlobalSettings.Instance.DebugMode)
+                         _logger.LogInformation($"[AI Decision] {town.Name} Governor too poor to resolve '{issue.Title}' (Has: {payor?.Gold ?? 0}g).");
+                }
             }
         }
     }

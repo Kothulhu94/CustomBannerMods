@@ -236,7 +236,8 @@ namespace Brigands.Terror
 
                         Settlement bestTarget = null;
                         MobileParty bestPartyTarget = null;
-                        float bestDistSq = maxDistSq; 
+                        float bestScore = -1f;                        
+                        float bestPartyScore = -1f; 
                         
                         // For Syndicate, we are MORE aggressive (0.8 ratio) vs Regular Bandits (2.0 ratio)
                         float effectiveRatio = isSyndicate ? 0.8f : strengthRatio;
@@ -263,8 +264,11 @@ namespace Brigands.Terror
                                          // Skip if already raided
                                          if (s.IsRaided || s.IsUnderRaid) continue;
 
+                                         // Logic Refactor: Smart Targeting (Score based on Wealth vs Defense vs Distance)
+                                         // Score = (Hearths * 2 + Prosperity/20) / (Distance + Militia*5)
+                                         
                                          float dSq = banditPos.DistanceSquared(s.Position);
-                                         if (dSq >= bestDistSq) continue;
+                                         if (dSq > maxDistSq) continue;
 
                                          if (isNaval)
                                          {
@@ -274,10 +278,20 @@ namespace Brigands.Terror
                                          int mStr = s.MilitiaPartyComponent.MobileParty.MemberRoster.TotalManCount;
                                          int bStr = (bandit.MemberRoster != null) ? bandit.MemberRoster.TotalManCount : 0;
                                          
+                                         // Must be able to beat them
                                          if (bStr > (mStr * effectiveRatio))
                                          {
-                                             bestDistSq = dSq;
-                                             bestTarget = s;
+                                             float wealthScore = s.Village.Hearth + (s.Town != null ? s.Town.Prosperity / 20f : 0f);
+                                             float riskDistFactor = (dSq / 100f) + (mStr * 2f); // Distance + Militia penalty
+                                             if (riskDistFactor < 1f) riskDistFactor = 1f;
+
+                                             float score = wealthScore / riskDistFactor;
+
+                                             if (score > bestScore)
+                                             {
+                                                 bestScore = score;
+                                                 bestTarget = s;
+                                             }
                                          }
                                     }
                                 }
@@ -298,16 +312,22 @@ namespace Brigands.Terror
                             foreach(var prey in nearbyParties)
                             {
                                 float dSq = bandit.Party.Position.DistanceSquared(prey.Party.Position);
-                                if (dSq < bestDistSq)
+                                if (dSq < maxDistSq)
                                 {
                                     int pStr = prey.MemberRoster.TotalManCount;
                                     int bStr = bandit.MemberRoster.TotalManCount;
                                     
                                     if (bStr > (pStr * effectiveRatio))
                                     {
-                                         bestDistSq = dSq;
-                                         bestPartyTarget = prey;
-                                         bestTarget = null; // Prioritize Party over Village if closer
+                                         // Party Score: Gold/Loot Estimate vs Distance
+                                         float value = (prey.IsCaravan ? 500f : 100f);
+                                         float score = value / ((dSq/100f) + 1f);
+                                         
+                                         if (score > bestPartyScore)
+                                         {
+                                             bestPartyScore = score;
+                                             bestPartyTarget = prey;
+                                         }
                                     }
                                 }
                             }

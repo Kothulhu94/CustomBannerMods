@@ -1,0 +1,506 @@
+2025-12-30 19:16:56.961 -06:00 [INF] LivingLegend Logging Initialized.
+2025-12-30 19:17:34.546 -06:00 [INF] LivingLegendBehavior: Session Launched. Initializing dialogs and menus.
+2025-12-30 19:17:55.771 -06:00 [INF] Rally Militia: Spawning patrol at Tepes
+2025-12-30 19:17:55.773 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tepes
+2025-12-30 19:30:31.910 -06:00 [INF] LivingLegend Logging Initialized.
+2025-12-30 19:31:10.192 -06:00 [INF] LivingLegendBehavior: Session Launched. Initializing dialogs and menus.
+2025-12-30 19:35:34.845 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 19:35:34.845 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 19:41:57.289 -06:00 [INF] LivingLegend Logging Initialized.
+2025-12-30 19:42:31.286 -06:00 [INF] LivingLegendBehavior: Session Launched. Initializing dialogs and menus.
+2025-12-30 19:42:54.247 -06:00 [INF] Rally Militia: Spawning patrol at Pabastan
+2025-12-30 19:42:54.249 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Pabastan
+2025-12-30 19:42:54.804 -06:00 [INF] Rally Militia: Spawning patrol at Jeracos
+2025-12-30 19:42:54.804 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jeracos
+2025-12-30 20:26:29.816 -06:00 [INF] LivingLegend Logging Initialized.
+2025-12-30 20:26:53.987 -06:00 [INF] LivingLegendBehavior: Session Launched. Initializing dialogs and menus.
+2025-12-30 20:27:19.282 -06:00 [INF] Rally Militia: Spawning patrol at Shapeshte
+2025-12-30 20:27:19.283 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Shapeshte
+2025-12-30 20:27:21.528 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 20:27:21.528 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 20:27:26.196 -06:00 [INF] Rally Militia: Spawning patrol at Fanab
+2025-12-30 20:27:26.196 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Fanab
+2025-12-30 20:27:27.510 -06:00 [INF] Rally Militia: Spawning patrol at Nogrent
+2025-12-30 20:27:27.511 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nogrent
+2025-12-30 20:27:39.326 -06:00 [INF] Rally Militia: Spawning patrol at Hanekhy
+2025-12-30 20:27:39.327 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Hanekhy
+2025-12-30 20:27:43.251 -06:00 [INF] Rally Militia: Spawning patrol at Chanopsis
+2025-12-30 20:27:43.252 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Chanopsis
+2025-12-30 20:27:46.250 -06:00 [INF] Rally Militia: Spawning patrol at Tubilis
+2025-12-30 20:27:46.250 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tubilis
+2025-12-30 20:27:47.556 -06:00 [INF] Rally Militia: Spawning patrol at Calioc
+2025-12-30 20:27:47.556 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Calioc
+2025-12-30 20:27:52.605 -06:00 [INF] Rally Militia: Spawning patrol at Troverag
+2025-12-30 20:27:52.605 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Troverag
+2025-12-30 20:27:59.326 -06:00 [INF] Rally Militia: Spawning patrol at Mazen
+2025-12-30 20:27:59.327 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazen
+2025-12-30 20:28:03.251 -06:00 [INF] Rally Militia: Spawning patrol at Lanthas
+2025-12-30 20:28:03.251 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Lanthas
+2025-12-30 20:28:19.334 -06:00 [INF] Rally Militia: Spawning patrol at Ispantar
+2025-12-30 20:28:19.334 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ispantar
+2025-12-30 20:28:32.608 -06:00 [INF] Rally Militia: Spawning patrol at Troverag
+2025-12-30 20:28:32.608 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Troverag
+2025-12-30 20:28:52.606 -06:00 [INF] Rally Militia: Spawning patrol at Ostrif
+2025-12-30 20:28:52.607 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ostrif
+2025-12-30 20:28:59.899 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 20:28:59.899 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 20:29:12.601 -06:00 [INF] Rally Militia: Spawning patrol at Troverag
+2025-12-30 20:29:12.601 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Troverag
+2025-12-30 20:29:19.889 -06:00 [INF] Rally Militia: Spawning patrol at Alosea
+2025-12-30 20:29:19.889 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alosea
+2025-12-30 20:29:23.252 -06:00 [INF] Rally Militia: Spawning patrol at Amycon
+2025-12-30 20:29:23.252 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Amycon
+2025-12-30 20:29:24.939 -06:00 [INF] Rally Militia: Spawning patrol at Marabrot
+2025-12-30 20:29:24.939 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Marabrot
+2025-12-30 20:29:27.557 -06:00 [INF] Rally Militia: Spawning patrol at Furbec
+2025-12-30 20:29:27.557 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Furbec
+2025-12-30 20:29:29.422 -06:00 [INF] Rally Militia: Spawning patrol at Ebereth
+2025-12-30 20:29:29.422 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ebereth
+2025-12-30 20:29:32.605 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 20:29:32.606 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 20:29:39.928 -06:00 [INF] Rally Militia: Spawning patrol at Jeracos
+2025-12-30 20:29:39.929 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jeracos
+2025-12-30 20:34:44.531 -06:00 [INF] LivingLegend Logging Initialized.
+2025-12-30 20:35:08.510 -06:00 [INF] LivingLegendBehavior: Session Launched. Initializing dialogs and menus.
+2025-12-30 20:35:59.890 -06:00 [INF] Rally Militia: Spawning patrol at Shapeshte
+2025-12-30 20:35:59.892 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Shapeshte
+2025-12-30 20:36:00.459 -06:00 [INF] Rally Militia: Spawning patrol at Atrion
+2025-12-30 20:36:00.459 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Atrion
+2025-12-30 20:36:03.816 -06:00 [INF] Rally Militia: Spawning patrol at Sestadaim
+2025-12-30 20:36:03.816 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sestadaim
+2025-12-30 20:36:07.188 -06:00 [INF] Rally Militia: Spawning patrol at Rodobas
+2025-12-30 20:36:07.188 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Rodobas
+2025-12-30 20:37:00.442 -06:00 [INF] Rally Militia: Spawning patrol at Alosea
+2025-12-30 20:37:00.442 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alosea
+2025-12-30 20:37:31.842 -06:00 [INF] Rally Militia: Spawning patrol at Fanab
+2025-12-30 20:37:31.842 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Fanab
+2025-12-30 20:37:44.924 -06:00 [INF] Rally Militia: Spawning patrol at Pabastan
+2025-12-30 20:37:44.925 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Pabastan
+2025-12-30 20:37:48.843 -06:00 [INF] Rally Militia: Spawning patrol at Lanthas
+2025-12-30 20:37:48.843 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Lanthas
+2025-12-30 20:38:05.480 -06:00 [INF] Rally Militia: Spawning patrol at Mecalovea
+2025-12-30 20:38:05.480 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mecalovea
+2025-12-30 20:38:10.524 -06:00 [INF] Rally Militia: Spawning patrol at Mazhadan
+2025-12-30 20:38:10.524 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazhadan
+2025-12-30 20:38:11.836 -06:00 [INF] Rally Militia: Spawning patrol at Tubilis
+2025-12-30 20:38:11.836 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tubilis
+2025-12-30 20:38:13.149 -06:00 [INF] Rally Militia: Spawning patrol at Meroc
+2025-12-30 20:38:13.149 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Meroc
+2025-12-30 20:38:31.833 -06:00 [INF] Rally Militia: Spawning patrol at Baq
+2025-12-30 20:38:31.833 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Baq
+2025-12-30 20:40:29.258 -06:00 [INF] Rally Militia: Spawning patrol at Tepes
+2025-12-30 20:40:29.258 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tepes
+2025-12-30 20:40:34.715 -06:00 [INF] Rally Militia: Spawning patrol at Sestadaim
+2025-12-30 20:40:34.715 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sestadaim
+2025-12-30 20:40:51.340 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 20:40:51.340 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 20:40:56.387 -06:00 [INF] Rally Militia: Spawning patrol at Forin
+2025-12-30 20:40:56.387 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Forin
+2025-12-30 20:40:59.012 -06:00 [INF] Rally Militia: Spawning patrol at Furbec
+2025-12-30 20:40:59.013 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Furbec
+2025-12-30 20:41:44.925 -06:00 [INF] Rally Militia: Spawning patrol at Pabastan
+2025-12-30 20:41:44.926 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Pabastan
+2025-12-30 20:42:07.186 -06:00 [INF] Rally Militia: Spawning patrol at Tarcutis
+2025-12-30 20:42:07.186 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tarcutis
+2025-12-30 20:42:08.859 -06:00 [INF] Rally Militia: Spawning patrol at Sestadaim
+2025-12-30 20:42:08.859 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sestadaim
+2025-12-30 21:01:30.759 -06:00 [INF] LivingLegend Logging Initialized.
+2025-12-30 21:02:09.150 -06:00 [INF] LivingLegendBehavior: Session Launched. Initializing dialogs and menus.
+2025-12-30 21:02:43.765 -06:00 [INF] Rally Militia: Spawning patrol at Seordas
+2025-12-30 21:02:43.766 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Seordas
+2025-12-30 21:02:57.640 -06:00 [INF] Rally Militia: Spawning patrol at Canterion
+2025-12-30 21:02:57.640 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Canterion
+2025-12-30 21:03:01.944 -06:00 [INF] Rally Militia: Spawning patrol at Rodetan
+2025-12-30 21:03:01.944 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Rodetan
+2025-12-30 21:03:16.032 -06:00 [INF] Rally Militia: Spawning patrol at Jeracos
+2025-12-30 21:03:16.032 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jeracos
+2025-12-30 21:03:22.384 -06:00 [INF] Rally Militia: Spawning patrol at Nahlan
+2025-12-30 21:03:22.385 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nahlan
+2025-12-30 21:03:23.696 -06:00 [INF] Rally Militia: Spawning patrol at Echarfurd
+2025-12-30 21:03:23.696 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Echarfurd
+2025-12-30 21:03:25.568 -06:00 [INF] Rally Militia: Spawning patrol at Dalmengus
+2025-12-30 21:03:25.570 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dalmengus
+2025-12-30 21:03:28.743 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 21:03:28.744 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 21:03:37.713 -06:00 [INF] Rally Militia: Spawning patrol at Onica
+2025-12-30 21:03:37.715 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Onica
+2025-12-30 21:03:39.400 -06:00 [INF] Rally Militia: Spawning patrol at Lartusys
+2025-12-30 21:03:39.400 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Lartusys
+2025-12-30 21:03:41.082 -06:00 [INF] Rally Militia: Spawning patrol at Kargrev
+2025-12-30 21:03:41.082 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Kargrev
+2025-12-30 21:03:42.389 -06:00 [INF] Rally Militia: Spawning patrol at Baq
+2025-12-30 21:03:42.389 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Baq
+2025-12-30 21:03:59.457 -06:00 [INF] Rally Militia: Spawning patrol at Canterion
+2025-12-30 21:03:59.458 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Canterion
+2025-12-30 21:04:03.752 -06:00 [INF] Rally Militia: Spawning patrol at Nogrent
+2025-12-30 21:04:03.752 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nogrent
+2025-12-30 21:04:15.533 -06:00 [INF] Rally Militia: Spawning patrol at Ispantar
+2025-12-30 21:04:15.534 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ispantar
+2025-12-30 21:04:22.453 -06:00 [INF] Rally Militia: Spawning patrol at Fanab
+2025-12-30 21:04:22.453 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Fanab
+2025-12-30 21:04:23.752 -06:00 [INF] Rally Militia: Spawning patrol at Rodetan
+2025-12-30 21:04:23.752 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Rodetan
+2025-12-30 21:04:28.800 -06:00 [INF] Rally Militia: Spawning patrol at Vagnafit
+2025-12-30 21:04:28.800 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Vagnafit
+2025-12-30 21:04:35.539 -06:00 [INF] Rally Militia: Spawning patrol at Okhutan
+2025-12-30 21:04:35.539 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Okhutan
+2025-12-30 21:04:36.104 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 21:04:36.104 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 21:04:37.778 -06:00 [INF] Rally Militia: Spawning patrol at Zeocorys
+2025-12-30 21:04:37.778 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Zeocorys
+2025-12-30 21:05:26.961 -06:00 [INF] Rally Militia: Spawning patrol at Ath Cafal
+2025-12-30 21:05:26.962 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ath Cafal
+2025-12-30 21:05:42.477 -06:00 [INF] Rally Militia: Spawning patrol at Dnin
+2025-12-30 21:05:42.478 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dnin
+2025-12-30 21:05:45.095 -06:00 [INF] Rally Militia: Spawning patrol at Furbec
+2025-12-30 21:05:45.095 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Furbec
+2025-12-30 21:05:46.960 -06:00 [INF] Rally Militia: Spawning patrol at Beglomuar
+2025-12-30 21:05:46.961 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Beglomuar
+2025-12-30 21:06:04.008 -06:00 [INF] Rally Militia: Spawning patrol at Tubilis
+2025-12-30 21:06:04.008 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tubilis
+2025-12-30 21:06:07.184 -06:00 [INF] Rally Militia: Spawning patrol at Ebereth
+2025-12-30 21:06:07.185 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ebereth
+2025-12-30 21:06:10.362 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 21:06:10.362 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 21:06:17.089 -06:00 [INF] Rally Militia: Spawning patrol at Shapeshte
+2025-12-30 21:06:17.089 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Shapeshte
+2025-12-30 21:06:19.340 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 21:06:19.341 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 21:06:21.017 -06:00 [INF] Rally Militia: Spawning patrol at Sestadaim
+2025-12-30 21:06:21.017 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sestadaim
+2025-12-30 21:06:24.013 -06:00 [INF] Rally Militia: Spawning patrol at Fanab
+2025-12-30 21:06:24.013 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Fanab
+2025-12-30 21:06:37.093 -06:00 [INF] Rally Militia: Spawning patrol at Kuruluk
+2025-12-30 21:06:37.095 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Kuruluk
+2025-12-30 21:06:37.650 -06:00 [INF] Rally Militia: Spawning patrol at Atrion
+2025-12-30 21:06:37.650 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Atrion
+2025-12-30 21:06:41.018 -06:00 [INF] Rally Militia: Spawning patrol at Lartusys
+2025-12-30 21:06:41.019 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Lartusys
+2025-12-30 21:06:45.317 -06:00 [INF] Rally Militia: Spawning patrol at Furbec
+2025-12-30 21:06:45.318 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Furbec
+2025-12-30 21:06:50.358 -06:00 [INF] Rally Militia: Spawning patrol at Troverag
+2025-12-30 21:06:50.359 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Troverag
+2025-12-30 21:07:02.550 -06:00 [INF] Rally Militia: Spawning patrol at Popsia
+2025-12-30 21:07:02.551 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Popsia
+2025-12-30 21:07:06.858 -06:00 [INF] Rally Militia: Spawning patrol at Nogrent
+2025-12-30 21:07:06.858 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nogrent
+2025-12-30 21:07:28.724 -06:00 [INF] Rally Militia: Spawning patrol at Ath Cafal
+2025-12-30 21:07:28.725 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ath Cafal
+2025-12-30 21:07:42.558 -06:00 [INF] Rally Militia: Spawning patrol at Sestadaim
+2025-12-30 21:07:42.559 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sestadaim
+2025-12-30 21:07:44.238 -06:00 [INF] Rally Militia: Spawning patrol at Forin
+2025-12-30 21:07:44.238 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Forin
+2025-12-30 21:07:51.896 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 21:07:51.896 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 21:07:59.193 -06:00 [INF] Rally Militia: Spawning patrol at Hetania
+2025-12-30 21:07:59.193 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Hetania
+2025-12-30 21:08:02.559 -06:00 [INF] Rally Militia: Spawning patrol at Popsia
+2025-12-30 21:08:02.559 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Popsia
+2025-12-30 21:08:19.190 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 21:08:19.190 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 21:08:28.721 -06:00 [INF] Rally Militia: Spawning patrol at Uthelaim
+2025-12-30 21:08:28.722 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Uthelaim
+2025-12-30 21:08:38.633 -06:00 [INF] Rally Militia: Spawning patrol at Okhutan
+2025-12-30 21:08:38.634 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Okhutan
+2025-12-30 21:08:44.238 -06:00 [INF] Rally Militia: Spawning patrol at Forin
+2025-12-30 21:08:44.239 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Forin
+2025-12-30 21:08:48.730 -06:00 [INF] Rally Militia: Spawning patrol at Dalmengus
+2025-12-30 21:08:48.730 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dalmengus
+2025-12-30 21:08:51.905 -06:00 [INF] Rally Militia: Spawning patrol at Jalskveg
+2025-12-30 21:08:51.906 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jalskveg
+2025-12-30 21:08:59.190 -06:00 [INF] Rally Militia: Spawning patrol at Alosea
+2025-12-30 21:08:59.191 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alosea
+2025-12-30 21:09:00.872 -06:00 [INF] Rally Militia: Spawning patrol at Neocorys
+2025-12-30 21:09:00.873 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Neocorys
+2025-12-30 21:09:02.554 -06:00 [INF] Rally Militia: Spawning patrol at Sagora
+2025-12-30 21:09:02.554 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sagora
+2025-12-30 21:09:18.630 -06:00 [INF] Rally Militia: Spawning patrol at Tepes
+2025-12-30 21:09:18.630 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tepes
+2025-12-30 21:09:19.211 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 21:09:19.211 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 21:09:25.555 -06:00 [INF] Rally Militia: Spawning patrol at Tasheba
+2025-12-30 21:09:25.557 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tasheba
+2025-12-30 21:09:26.868 -06:00 [INF] Rally Militia: Spawning patrol at Nogrent
+2025-12-30 21:09:26.868 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nogrent
+2025-12-30 21:09:28.740 -06:00 [INF] Rally Militia: Spawning patrol at Uthelaim
+2025-12-30 21:09:28.740 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Uthelaim
+2025-12-30 21:09:44.253 -06:00 [INF] Rally Militia: Spawning patrol at Safna
+2025-12-30 21:09:44.253 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Safna
+2025-12-30 21:09:58.639 -06:00 [INF] Rally Militia: Spawning patrol at Okhutan
+2025-12-30 21:09:58.639 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Okhutan
+2025-12-30 21:10:02.566 -06:00 [INF] Rally Militia: Spawning patrol at Sagora
+2025-12-30 21:10:02.566 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sagora
+2025-12-30 21:10:11.918 -06:00 [INF] Rally Militia: Spawning patrol at Skarthness
+2025-12-30 21:10:11.918 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Skarthness
+2025-12-30 21:10:22.564 -06:00 [INF] Rally Militia: Spawning patrol at Popsia
+2025-12-30 21:10:22.564 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Popsia
+2025-12-30 21:10:24.253 -06:00 [INF] Rally Militia: Spawning patrol at Dnin
+2025-12-30 21:10:24.253 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dnin
+2025-12-30 21:10:25.562 -06:00 [INF] Rally Militia: Spawning patrol at Fanab
+2025-12-30 21:10:25.562 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Fanab
+2025-12-30 21:10:28.733 -06:00 [INF] Rally Militia: Spawning patrol at Ebereth
+2025-12-30 21:10:28.733 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ebereth
+2025-12-30 21:10:31.911 -06:00 [INF] Rally Militia: Spawning patrol at Vagnafit
+2025-12-30 21:10:31.911 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Vagnafit
+2025-12-30 21:10:40.882 -06:00 [INF] Rally Militia: Spawning patrol at Aegosca
+2025-12-30 21:10:40.882 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Aegosca
+2025-12-30 21:10:42.573 -06:00 [INF] Rally Militia: Spawning patrol at Sagora
+2025-12-30 21:10:42.573 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sagora
+2025-12-30 21:10:51.919 -06:00 [INF] Rally Militia: Spawning patrol at Vagnafit
+2025-12-30 21:10:51.919 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Vagnafit
+2025-12-30 21:11:00.882 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 21:11:00.882 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 21:11:04.248 -06:00 [INF] Rally Militia: Spawning patrol at Rodobas
+2025-12-30 21:11:04.248 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Rodobas
+2025-12-30 21:11:19.209 -06:00 [INF] Rally Militia: Spawning patrol at Alosea
+2025-12-30 21:11:19.209 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alosea
+2025-12-30 21:11:39.204 -06:00 [INF] Rally Militia: Spawning patrol at Hetania
+2025-12-30 21:11:39.206 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Hetania
+2025-12-30 21:11:51.916 -06:00 [INF] Rally Militia: Spawning patrol at Troverag
+2025-12-30 21:11:51.916 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Troverag
+2025-12-30 21:12:05.899 -06:00 [INF] Rally Militia: Spawning patrol at Mazhadan
+2025-12-30 21:12:05.899 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazhadan
+2025-12-30 21:12:08.516 -06:00 [INF] Rally Militia: Spawning patrol at Rodetan
+2025-12-30 21:12:08.516 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Rodetan
+2025-12-30 21:12:13.563 -06:00 [INF] Rally Militia: Spawning patrol at Jalskveg
+2025-12-30 21:12:13.563 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jalskveg
+2025-12-30 21:12:25.899 -06:00 [INF] Rally Militia: Spawning patrol at Dnin
+2025-12-30 21:12:25.899 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dnin
+2025-12-30 21:12:30.383 -06:00 [INF] Rally Militia: Spawning patrol at Ebereth
+2025-12-30 21:12:30.384 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ebereth
+2025-12-30 21:12:40.297 -06:00 [INF] Rally Militia: Spawning patrol at Shapeshte
+2025-12-30 21:12:40.297 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Shapeshte
+2025-12-30 21:12:45.905 -06:00 [INF] Rally Militia: Spawning patrol at Mazhadan
+2025-12-30 21:12:45.906 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazhadan
+2025-12-30 21:12:47.208 -06:00 [INF] Rally Militia: Spawning patrol at Jahasim
+2025-12-30 21:12:47.209 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jahasim
+2025-12-30 21:12:48.520 -06:00 [INF] Rally Militia: Spawning patrol at Furbec
+2025-12-30 21:12:48.520 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Furbec
+2025-12-30 21:13:15.116 -06:00 [INF] Rally Militia: Spawning patrol at Vagnafit
+2025-12-30 21:13:15.117 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Vagnafit
+2025-12-30 21:17:59.169 -06:00 [INF] Rally Militia: Spawning patrol at Chanopsis
+2025-12-30 21:17:59.170 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Chanopsis
+2025-12-30 21:18:03.466 -06:00 [INF] Rally Militia: Spawning patrol at Calioc
+2025-12-30 21:18:03.467 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Calioc
+2025-12-30 21:18:15.240 -06:00 [INF] Rally Militia: Spawning patrol at Epinosa
+2025-12-30 21:18:15.240 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Epinosa
+2025-12-30 21:18:17.484 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 21:18:17.484 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 21:18:28.510 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 21:18:28.510 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 21:18:35.242 -06:00 [INF] Rally Militia: Spawning patrol at Okhutan
+2025-12-30 21:18:35.243 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Okhutan
+2025-12-30 21:18:39.163 -06:00 [INF] Rally Militia: Spawning patrol at Chanopsis
+2025-12-30 21:18:39.163 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Chanopsis
+2025-12-30 21:18:42.163 -06:00 [INF] Rally Militia: Spawning patrol at Hiblet
+2025-12-30 21:18:42.163 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Hiblet
+2025-12-30 21:18:55.242 -06:00 [INF] Rally Militia: Spawning patrol at Ispantar
+2025-12-30 21:18:55.242 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ispantar
+2025-12-30 21:18:55.806 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 21:18:55.806 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 21:19:00.850 -06:00 [INF] Rally Militia: Spawning patrol at Mazhadan
+2025-12-30 21:19:00.850 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazhadan
+2025-12-30 21:19:08.513 -06:00 [INF] Rally Militia: Spawning patrol at Jalskveg
+2025-12-30 21:19:08.513 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jalskveg
+2025-12-30 21:19:15.798 -06:00 [INF] Rally Militia: Spawning patrol at Jeracos
+2025-12-30 21:19:15.798 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jeracos
+2025-12-30 21:19:23.465 -06:00 [INF] Rally Militia: Spawning patrol at Nogrent
+2025-12-30 21:19:23.466 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nogrent
+2025-12-30 21:19:39.165 -06:00 [INF] Rally Militia: Spawning patrol at Amycon
+2025-12-30 21:19:39.165 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Amycon
+2025-12-30 21:19:42.158 -06:00 [INF] Rally Militia: Spawning patrol at Jahasim
+2025-12-30 21:19:42.158 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jahasim
+2025-12-30 21:19:48.509 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 21:19:48.510 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 21:20:03.464 -06:00 [INF] Rally Militia: Spawning patrol at Nogrent
+2025-12-30 21:20:03.464 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nogrent
+2025-12-30 21:20:15.243 -06:00 [INF] Rally Militia: Spawning patrol at Shapeshte
+2025-12-30 21:20:15.244 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Shapeshte
+2025-12-30 21:20:20.851 -06:00 [INF] Rally Militia: Spawning patrol at Kargrev
+2025-12-30 21:20:20.851 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Kargrev
+2025-12-30 21:20:22.154 -06:00 [INF] Rally Militia: Spawning patrol at Jahasim
+2025-12-30 21:20:22.155 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jahasim
+2025-12-30 21:20:39.183 -06:00 [INF] Rally Militia: Spawning patrol at Lartusys
+2025-12-30 21:20:39.183 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Lartusys
+2025-12-30 21:20:40.867 -06:00 [INF] Rally Militia: Spawning patrol at Kargrev
+2025-12-30 21:20:40.867 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Kargrev
+2025-12-30 21:20:42.168 -06:00 [INF] Rally Militia: Spawning patrol at Nahlan
+2025-12-30 21:20:42.169 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nahlan
+2025-12-30 21:20:43.480 -06:00 [INF] Rally Militia: Spawning patrol at Calioc
+2025-12-30 21:20:43.480 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Calioc
+2025-12-30 21:20:48.530 -06:00 [INF] Rally Militia: Spawning patrol at Jalskveg
+2025-12-30 21:20:48.530 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jalskveg
+2025-12-30 21:20:57.501 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 21:20:57.502 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 21:21:02.168 -06:00 [INF] Rally Militia: Spawning patrol at Nahlan
+2025-12-30 21:21:02.168 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nahlan
+2025-12-30 21:21:03.476 -06:00 [INF] Rally Militia: Spawning patrol at Meroc
+2025-12-30 21:21:03.476 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Meroc
+2025-12-30 21:21:15.254 -06:00 [INF] Rally Militia: Spawning patrol at Shapeshte
+2025-12-30 21:21:15.254 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Shapeshte
+2025-12-30 21:21:15.818 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 21:21:15.819 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 21:21:19.183 -06:00 [INF] Rally Militia: Spawning patrol at Chanopsis
+2025-12-30 21:21:19.184 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Chanopsis
+2025-12-30 21:21:20.859 -06:00 [INF] Rally Militia: Spawning patrol at Dnin
+2025-12-30 21:21:20.859 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dnin
+2025-12-30 21:21:23.484 -06:00 [INF] Rally Militia: Spawning patrol at Calioc
+2025-12-30 21:21:23.484 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Calioc
+2025-12-30 21:21:35.267 -06:00 [INF] Rally Militia: Spawning patrol at Pons
+2025-12-30 21:21:35.267 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Pons
+2025-12-30 21:21:35.834 -06:00 [INF] Rally Militia: Spawning patrol at Atrion
+2025-12-30 21:21:35.834 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Atrion
+2025-12-30 21:21:39.191 -06:00 [INF] Rally Militia: Spawning patrol at Popsia
+2025-12-30 21:21:39.191 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Popsia
+2025-12-30 21:21:42.188 -06:00 [INF] Rally Militia: Spawning patrol at Jahasim
+2025-12-30 21:21:42.188 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jahasim
+2025-12-30 21:21:48.541 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 21:21:48.541 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 21:21:55.829 -06:00 [INF] Rally Militia: Spawning patrol at Alosea
+2025-12-30 21:21:55.829 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alosea
+2025-12-30 21:22:08.546 -06:00 [INF] Rally Militia: Spawning patrol at Troverag
+2025-12-30 21:22:08.546 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Troverag
+2025-12-30 21:22:17.519 -06:00 [INF] Rally Militia: Spawning patrol at Tarcutis
+2025-12-30 21:22:17.519 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tarcutis
+2025-12-30 21:22:23.508 -06:00 [INF] Rally Militia: Spawning patrol at Nogrent
+2025-12-30 21:22:23.510 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nogrent
+2025-12-30 21:22:35.843 -06:00 [INF] Rally Militia: Spawning patrol at Mecalovea
+2025-12-30 21:22:35.843 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mecalovea
+2025-12-30 21:22:39.206 -06:00 [INF] Rally Militia: Spawning patrol at Sagora
+2025-12-30 21:22:39.206 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sagora
+2025-12-30 21:22:42.203 -06:00 [INF] Rally Militia: Spawning patrol at Hamoshawat
+2025-12-30 21:22:42.204 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Hamoshawat
+2025-12-30 21:22:55.294 -06:00 [INF] Rally Militia: Spawning patrol at Mazen
+2025-12-30 21:22:55.294 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazen
+2025-12-30 21:22:55.855 -06:00 [INF] Rally Militia: Spawning patrol at Agalmon
+2025-12-30 21:22:55.855 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Agalmon
+2025-12-30 21:23:17.087 -06:00 [INF] Rally Militia: Spawning patrol at Ispantar
+2025-12-30 21:23:17.087 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ispantar
+2025-12-30 21:23:17.654 -06:00 [INF] Rally Militia: Spawning patrol at Alosea
+2025-12-30 21:23:17.655 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alosea
+2025-12-30 21:23:24.007 -06:00 [INF] Rally Militia: Spawning patrol at Tubilis
+2025-12-30 21:23:24.009 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tubilis
+2025-12-30 21:23:25.319 -06:00 [INF] Rally Militia: Spawning patrol at Echarfurd
+2025-12-30 21:23:25.320 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Echarfurd
+2025-12-30 21:23:37.107 -06:00 [INF] Rally Militia: Spawning patrol at Okhutan
+2025-12-30 21:23:37.107 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Okhutan
+2025-12-30 21:23:39.350 -06:00 [INF] Rally Militia: Spawning patrol at Tarcutis
+2025-12-30 21:23:39.350 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tarcutis
+2025-12-30 21:23:45.337 -06:00 [INF] Rally Militia: Spawning patrol at Talivel
+2025-12-30 21:23:45.337 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Talivel
+2025-12-30 21:23:50.399 -06:00 [INF] Rally Militia: Spawning patrol at Vagnafit
+2025-12-30 21:23:50.399 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Vagnafit
+2025-12-30 21:23:57.682 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 21:23:57.683 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 21:23:59.362 -06:00 [INF] Rally Militia: Spawning patrol at Zeocorys
+2025-12-30 21:23:59.362 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Zeocorys
+2025-12-30 21:24:01.055 -06:00 [INF] Rally Militia: Spawning patrol at Sagora
+2025-12-30 21:24:01.055 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Sagora
+2025-12-30 21:24:02.736 -06:00 [INF] Rally Militia: Spawning patrol at Kargrev
+2025-12-30 21:24:02.736 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Kargrev
+2025-12-30 21:24:04.040 -06:00 [INF] Rally Militia: Spawning patrol at Tubilis
+2025-12-30 21:24:04.040 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tubilis
+2025-12-30 21:24:07.221 -06:00 [INF] Rally Militia: Spawning patrol at Dalmengus
+2025-12-30 21:24:07.221 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dalmengus
+2025-12-30 21:24:17.140 -06:00 [INF] Rally Militia: Spawning patrol at Tepes
+2025-12-30 21:24:17.141 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tepes
+2025-12-30 21:24:22.745 -06:00 [INF] Rally Militia: Spawning patrol at Forin
+2025-12-30 21:24:22.746 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Forin
+2025-12-30 21:24:24.063 -06:00 [INF] Rally Militia: Spawning patrol at Hamoshawat
+2025-12-30 21:24:24.063 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Hamoshawat
+2025-12-30 21:24:25.368 -06:00 [INF] Rally Militia: Spawning patrol at Furbec
+2025-12-30 21:24:25.370 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Furbec
+2025-12-30 21:24:37.151 -06:00 [INF] Rally Militia: Spawning patrol at Mazen
+2025-12-30 21:24:37.151 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazen
+2025-12-30 21:24:39.397 -06:00 [INF] Rally Militia: Spawning patrol at Zeocorys
+2025-12-30 21:24:39.399 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Zeocorys
+2025-12-30 21:24:41.083 -06:00 [INF] Rally Militia: Spawning patrol at Lanthas
+2025-12-30 21:24:41.083 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Lanthas
+2025-12-30 21:24:44.073 -06:00 [INF] Rally Militia: Spawning patrol at Hamoshawat
+2025-12-30 21:24:44.073 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Hamoshawat
+2025-12-30 21:24:57.181 -06:00 [INF] Rally Militia: Spawning patrol at Okhutan
+2025-12-30 21:24:57.181 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Okhutan
+2025-12-30 21:25:05.412 -06:00 [INF] Rally Militia: Spawning patrol at Calioc
+2025-12-30 21:25:05.412 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Calioc
+2025-12-30 21:25:17.762 -06:00 [INF] Rally Militia: Spawning patrol at Alatys
+2025-12-30 21:25:17.762 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Alatys
+2025-12-30 21:25:37.781 -06:00 [INF] Rally Militia: Spawning patrol at Hetania
+2025-12-30 21:25:37.782 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Hetania
+2025-12-30 21:25:45.451 -06:00 [INF] Rally Militia: Spawning patrol at Rodetan
+2025-12-30 21:25:45.452 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Rodetan
+2025-12-30 21:27:29.100 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 21:27:29.101 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 21:27:32.457 -06:00 [INF] Rally Militia: Spawning patrol at Mazhadan
+2025-12-30 21:27:32.458 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazhadan
+2025-12-30 21:28:10.805 -06:00 [INF] Rally Militia: Spawning patrol at Aegosca
+2025-12-30 21:28:10.805 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Aegosca
+2025-12-30 21:28:36.815 -06:00 [INF] Rally Militia: Spawning patrol at Meroc
+2025-12-30 21:28:36.815 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Meroc
+2025-12-30 21:28:50.853 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 21:28:50.853 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 21:28:54.229 -06:00 [INF] Rally Militia: Spawning patrol at Nevyansk
+2025-12-30 21:28:54.229 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nevyansk
+2025-12-30 21:28:56.840 -06:00 [INF] Rally Militia: Spawning patrol at Echarfurd
+2025-12-30 21:28:56.841 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Echarfurd
+2025-12-30 21:29:01.914 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 21:29:01.915 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 21:29:10.894 -06:00 [INF] Rally Militia: Spawning patrol at Aegosca
+2025-12-30 21:29:10.895 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Aegosca
+2025-12-30 21:29:15.559 -06:00 [INF] Rally Militia: Spawning patrol at Tasheba
+2025-12-30 21:29:15.561 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Tasheba
+2025-12-30 21:29:28.695 -06:00 [INF] Rally Militia: Spawning patrol at Pabastan
+2025-12-30 21:29:28.696 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Pabastan
+2025-12-30 21:29:35.608 -06:00 [INF] Rally Militia: Spawning patrol at Jahasim
+2025-12-30 21:29:35.608 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Jahasim
+2025-12-30 21:29:41.994 -06:00 [INF] Rally Militia: Spawning patrol at Skarthness
+2025-12-30 21:29:41.996 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Skarthness
+2025-12-30 21:29:50.966 -06:00 [INF] Rally Militia: Spawning patrol at Onica
+2025-12-30 21:29:50.968 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Onica
+2025-12-30 21:30:12.693 -06:00 [INF] Rally Militia: Spawning patrol at Amycon
+2025-12-30 21:30:12.694 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Amycon
+2025-12-30 21:30:31.049 -06:00 [INF] Rally Militia: Spawning patrol at Zeocorys
+2025-12-30 21:30:31.049 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Zeocorys
+2025-12-30 21:30:34.411 -06:00 [INF] Rally Militia: Spawning patrol at Nevyansk
+2025-12-30 21:30:34.412 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Nevyansk
+2025-12-30 21:30:38.896 -06:00 [INF] Rally Militia: Spawning patrol at Ebereth
+2025-12-30 21:30:38.896 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ebereth
+2025-12-30 21:32:17.278 -06:00 [INF] Rally Militia: Spawning patrol at Calioc
+2025-12-30 21:32:17.279 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Calioc
+2025-12-30 21:33:04.162 -06:00 [INF] Rally Militia: Spawning patrol at Holarsver
+2025-12-30 21:33:04.162 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Holarsver
+2025-12-30 21:33:24.208 -06:00 [INF] Rally Militia: Spawning patrol at Vagnafit
+2025-12-30 21:33:24.208 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Vagnafit
+2025-12-30 21:33:36.657 -06:00 [INF] Rally Militia: Spawning patrol at Kargrev
+2025-12-30 21:33:36.658 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Kargrev
+2025-12-30 21:34:13.427 -06:00 [INF] Rally Militia: Spawning patrol at Zeocorys
+2025-12-30 21:34:13.427 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Zeocorys
+2025-12-30 21:35:21.060 -06:00 [INF] Rally Militia: Spawning patrol at Aegosca
+2025-12-30 21:35:21.061 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Aegosca
+2025-12-30 21:35:28.852 -06:00 [INF] Rally Militia: Spawning patrol at Dalmengus
+2025-12-30 21:35:28.852 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dalmengus
+2025-12-30 21:35:43.639 -06:00 [INF] Rally Militia: Spawning patrol at Zeocorys
+2025-12-30 21:35:43.639 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Zeocorys
+2025-12-30 21:35:51.411 -06:00 [INF] Rally Militia: Spawning patrol at Ebereth
+2025-12-30 21:35:51.411 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ebereth
+2025-12-30 21:37:31.409 -06:00 [INF] Rally Militia: Spawning patrol at Dnin
+2025-12-30 21:37:31.409 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dnin
+2025-12-30 21:37:55.929 -06:00 [INF] Rally Militia: Spawning patrol at Beglomuar
+2025-12-30 21:37:55.929 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Beglomuar
+2025-12-30 21:42:41.200 -06:00 [INF] Rally Militia: Spawning patrol at Safna
+2025-12-30 21:42:41.200 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Safna
+2025-12-30 21:42:45.686 -06:00 [INF] Rally Militia: Spawning patrol at Ebereth
+2025-12-30 21:42:45.686 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ebereth
+2025-12-30 21:43:01.269 -06:00 [INF] Rally Militia: Spawning patrol at Forin
+2025-12-30 21:43:01.269 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Forin
+2025-12-30 21:43:23.065 -06:00 [INF] Rally Militia: Spawning patrol at Mazhadan
+2025-12-30 21:43:23.065 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Mazhadan
+2025-12-30 21:43:39.753 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 21:43:39.753 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 21:43:47.674 -06:00 [INF] Rally Militia: Spawning patrol at Ath Cafal
+2025-12-30 21:43:47.676 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Ath Cafal
+2025-12-30 21:44:22.806 -06:00 [INF] Rally Militia: Spawning patrol at Dradios
+2025-12-30 21:44:22.806 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Dradios
+2025-12-30 21:44:33.921 -06:00 [INF] Rally Militia: Spawning patrol at Vagnafit
+2025-12-30 21:44:33.921 -06:00 [INF] Rally Militia: Patrol successfully spawned/initialized at Vagnafit
+2025-12-31 03:04:20.156 -06:00 [INF] LivingLegend Logging Initialized.
+2025-12-31 03:04:46.223 -06:00 [INF] LivingLegendBehavior: Session Launched. Initializing dialogs and menus.

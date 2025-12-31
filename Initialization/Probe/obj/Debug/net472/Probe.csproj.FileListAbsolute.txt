@@ -1,0 +1,5 @@
+D:\Bannerlord_Mods\Initialization\Probe\obj\Debug\net472\Probe.csproj.AssemblyReference.cache
+D:\Bannerlord_Mods\Initialization\Probe\obj\Debug\net472\Probe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bannerlord_Mods\Initialization\Probe\obj\Debug\net472\Probe.AssemblyInfoInputs.cache
+D:\Bannerlord_Mods\Initialization\Probe\obj\Debug\net472\Probe.AssemblyInfo.cs
+D:\Bannerlord_Mods\Initialization\Probe\obj\Debug\net472\Probe.csproj.CoreCompileInputs.cache

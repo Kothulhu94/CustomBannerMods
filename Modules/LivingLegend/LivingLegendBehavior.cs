@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Actions;
 using TaleWorlds.CampaignSystem.GameMenus;
@@ -9,22 +10,23 @@ using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.Library;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
+using Serilog;
 using Microsoft.Extensions.Logging;
 
 namespace LivingLegend
 {
     public class LivingLegendBehavior : CampaignBehaviorBase
     {
-        private readonly ILogger _logger;
         private readonly GlobalSettings _settings;
         private List<MobileParty> _patrolParties = new List<MobileParty>();
         private List<CampaignTime> _patrolExpiryTimes = new List<CampaignTime>();
 
-        public LivingLegendBehavior(ILogger logger, GlobalSettings settings)
+        public LivingLegendBehavior(GlobalSettings settings)
         {
-            _logger = logger;
             _settings = settings;
         }
+
+        private Microsoft.Extensions.Logging.ILogger Logger => LivingLegendSubModule.Logger;
 
         public override void RegisterEvents()
         {
@@ -43,30 +45,37 @@ namespace LivingLegend
         {
             if (_settings.DebugMode)
             {
-                _logger.LogInformation($"Player trait changed: {trait.Name} from {previousLevel} to {Hero.MainHero.GetTraitLevel(trait)}");
+                Logger?.LogInformation($"Player trait changed: {trait.Name} from {previousLevel} to {Hero.MainHero.GetTraitLevel(trait)}");
             }
         }
 
         private void OnDailyClanTick(Clan clan)
         {
-            if (clan != Clan.PlayerClan) return;
-
-            if (clan.Tier >= 6 && clan.Renown > _settings.RenownThreshold)
+            // Player Logic: Daily Renown Decay
+            if (clan == Clan.PlayerClan)
             {
-                clan.Renown -= _settings.DailyRenownCost;
-                if (_settings.DebugMode)
+                if (clan.Tier >= 6 && clan.Renown > _settings.RenownThreshold)
                 {
-                    _logger.LogInformation($"Hero of the People: Daily renown deducted ({_settings.DailyRenownCost}). Current Renown: {clan.Renown}");
+                    clan.Renown -= _settings.DailyRenownCost;
+                    if (_settings.DebugMode)
+                    {
+                        Logger?.LogInformation($"Hero of the People: Daily renown deducted ({_settings.DailyRenownCost}). Current Renown: {clan.Renown}");
+                    }
+                    InformationManager.DisplayMessage(new InformationMessage($"The Legend's Aura inspires your people. (-{_settings.DailyRenownCost} Renown)", Colors.Green));
                 }
-                
-                InformationManager.DisplayMessage(new InformationMessage($"The Legend's Aura inspires your people. (-{_settings.DailyRenownCost} Renown)", Colors.Green));
             }
+
+            // AI Logic
+            ManageAiRenownActions(clan);
+
+            // Cleanup Patrols (Only run once per day, use PlayerClan as trigger)
+            if (clan != Clan.PlayerClan) return;
 
             // Manage Militia Patrols
             if (_patrolParties.Count != _patrolExpiryTimes.Count)
             {
                  // Sanity check reset if sync failed badly
-                 _logger.LogWarning("Error: Patrol lists desynced. Clearing.");
+                 Logger?.LogWarning("Error: Patrol lists desynced. Clearing.");
                  _patrolParties.Clear();
                  _patrolExpiryTimes.Clear();
                  return;
@@ -82,7 +91,7 @@ namespace LivingLegend
                     // Disband
                     if (_settings.DebugMode)
                     {
-                        _logger.LogInformation($"Disbanding militia patrol: {party.Name}");
+                        Logger?.LogInformation($"Disbanding militia patrol: {party.Name}");
                     }
                     DestroyPartyAction.Apply(null, party);
                     _patrolParties.RemoveAt(i);
@@ -99,7 +108,7 @@ namespace LivingLegend
 
         private void OnSessionLaunched(CampaignGameStarter starter)
         {
-            _logger.LogInformation("LivingLegendBehavior: Session Launched. Initializing dialogs and menus.");
+            Logger?.LogInformation("LivingLegendBehavior: Session Launched. Initializing dialogs and menus.");
             AddPoliticalCapitalDialogs(starter);
             AddHeroOfThePeopleMenus(starter);
             AddRetinuerecruitDialogs(starter);
@@ -140,7 +149,7 @@ namespace LivingLegend
             Clan.PlayerClan.Renown -= _settings.CallToArmsCost;
             Hero target = Hero.OneToOneConversationHero;
             
-            _logger.LogInformation($"Political Capital used: Forced {target.Name} to join army.");
+            Logger?.LogInformation($"Political Capital used: Forced {target.Name} to join army.");
             
             if (target.PartyBelongedTo != null)
             {
@@ -172,28 +181,80 @@ namespace LivingLegend
 
         private void RallyMilitiaConsequence(MenuCallbackArgs args)
         {
-            Clan.PlayerClan.Renown -= _settings.RallyMilitiaCost;
-            
-            Settlement village = Settlement.CurrentSettlement;
-            _logger.LogInformation($"Rally Militia: Spawning patrol at {village.Name}");
-
-            MobileParty militiaParty = MobileParty.CreateParty("militia_patrol_" + village.Name, null);
-            militiaParty.Initialize(); // Ensure initialization
-            
-            CharacterObject militiaTroop = village.Culture.BasicTroop; 
-            if (militiaTroop != null)
+            // Player usage: Cost check is done in Condition, but double check safety
+            if (Clan.PlayerClan.Renown >= _settings.RallyMilitiaCost)
             {
-                militiaParty.MemberRoster.AddToCounts(militiaTroop, _settings.MilitiaTroopCount);
+                Clan.PlayerClan.Renown -= _settings.RallyMilitiaCost;
+                SpawnMilitiaPatrol(Settlement.CurrentSettlement);
+                GameMenu.SwitchToMenu("village");
             }
-            
-            militiaParty.InitializeMobilePartyAtPosition(village.GatePosition);
-            
-            militiaParty.SetMovePatrolAroundPoint(village.GatePosition, MobileParty.NavigationType.Default);
-            
-            _patrolParties.Add(militiaParty);
-            _patrolExpiryTimes.Add(CampaignTime.Now + CampaignTime.Days(_settings.MilitiaPatrolDuration));
+        }
 
-            GameMenu.SwitchToMenu("village");
+        public void SpawnMilitiaPatrol(Settlement village)
+        {
+             if (village == null) return;
+
+             Logger?.LogInformation($"Rally Militia: Spawning patrol at {village.Name}");
+
+             MobileParty militiaParty = MobileParty.CreateParty("militia_patrol_" + village.Name, new MilitiaPatrolComponent(village));
+             if (militiaParty == null)
+             {
+                 Logger?.LogError($"Failed to create militia party for {village.Name}. CreateParty returned null.");
+                 return;
+             }
+
+             militiaParty.Initialize(); 
+            
+             CharacterObject militiaTroop = village.Culture.BasicTroop; 
+             if (militiaTroop != null)
+             {
+                 militiaParty.MemberRoster.AddToCounts(militiaTroop, _settings.MilitiaTroopCount);
+             }
+            
+             militiaParty.ActualClan = village.OwnerClan; 
+             // Use explicit roster initialization to ensure visual/logical sync
+             militiaParty.InitializeMobilePartyAtPosition(militiaParty.MemberRoster, militiaParty.PrisonRoster, village.GatePosition);
+             militiaParty.SetMovePatrolAroundSettlement(village, MobileParty.NavigationType.Default, true); 
+            
+             _patrolParties.Add(militiaParty);
+             _patrolExpiryTimes.Add(CampaignTime.Now + CampaignTime.Days(_settings.MilitiaPatrolDuration));
+             Logger?.LogInformation($"Rally Militia: Patrol successfully spawned/initialized at {village.Name}");
+        }
+
+        private void ManageAiRenownActions(Clan clan)
+        {
+            // AI Living Legend Logic
+            if (clan == Clan.PlayerClan) return;
+            if (clan.Tier < 6) return;
+
+            // 1. Rally Militia Logic
+            // If Rich in Renown and Village being raided/threatened or just rich
+            if (clan.Renown > 2000) // High threshold
+            {
+                foreach (var settlement in clan.Settlements)
+                {
+                    if (settlement.IsVillage && settlement.Village.VillageState == Village.VillageStates.Normal)
+                    {
+                        // Check if already patrolled?
+                        bool hasPatrol = _patrolParties.Any(p => p.IsActive && p.TargetPosition.DistanceSquared(settlement.GatePosition) < 100f);
+                        if (!hasPatrol)
+                        {
+                            // 5% Chance per day per village
+                            if (MBRandom.RandomFloat < 0.05f)
+                            {
+                                if (clan.Renown >= _settings.RallyMilitiaCost)
+                                {
+                                    clan.Renown -= _settings.RallyMilitiaCost;
+                                    SpawnMilitiaPatrol(settlement);
+                                    if (_settings.DebugMode)
+                                        Logger?.LogInformation($"[AI Legend] {clan.Name} rallied militia at {settlement.Name}");
+                                    return; // One per day max
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         private void AddRetinuerecruitDialogs(CampaignGameStarter starter)
@@ -227,7 +288,7 @@ namespace LivingLegend
             Clan.PlayerClan.Renown -= _settings.RecruitMinorFactionCost;
             Hero target = Hero.OneToOneConversationHero;
             
-            _logger.LogInformation($"Recruited minor faction leader: {target.Name}");
+            Logger?.LogInformation($"Recruited minor faction leader: {target.Name}");
 
             AddCompanionAction.Apply(Clan.PlayerClan, target);
         }

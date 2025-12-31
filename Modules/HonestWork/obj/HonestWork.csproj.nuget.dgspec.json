@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Bannerlord_Mods\\Modules\\HonestWork\\HonestWork.csproj": {}
+  },
+  "projects": {
+    "D:\\Bannerlord_Mods\\Modules\\HonestWork\\HonestWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bannerlord_Mods\\Modules\\HonestWork\\HonestWork.csproj",
+        "projectName": "HonestWork",
+        "projectPath": "D:\\Bannerlord_Mods\\Modules\\HonestWork\\HonestWork.csproj",
+        "packagesPath": "C:\\Users\\rchos\\.nuget\\packages\\",
+        "outputPath": "D:\\Bannerlord_Mods\\Modules\\HonestWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rchos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "BUTR.Harmony.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.1.50, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

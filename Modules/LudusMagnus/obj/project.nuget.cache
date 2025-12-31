@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jwv16FEyf08=",
+  "success": true,
+  "projectFilePath": "D:\\Bannerlord_Mods\\Modules\\LudusMagnus\\LudusMagnus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rchos\\.nuget\\packages\\butr.harmony.analyzer\\1.0.1.50\\butr.harmony.analyzer.1.0.1.50.nupkg.sha512"
+  ],
+  "logs": []
+}

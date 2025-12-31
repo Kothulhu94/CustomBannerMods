@@ -34,15 +34,21 @@ namespace CoastalLife
             CampaignEvents.HourlyTickEvent.AddNonSerializedListener(this, OnHourlyTick);
         }
 
+        private Dictionary<string, Hero> _aiDockingSlips = new Dictionary<string, Hero>();
+
         public override void SyncData(IDataStore dataStore)
         {
             dataStore.SyncData("_ownedDockingSlips", ref _ownedDockingSlips);
+            dataStore.SyncData("_aiDockingSlips", ref _aiDockingSlips);
         }
 
         public static bool HasDockingSlip(Settlement settlement)
         {
             if (settlement == null) return false;
-            return Instance != null && Instance._ownedDockingSlips.Contains(settlement.StringId);
+            if (Instance == null) return false;
+            
+            return Instance._ownedDockingSlips.Contains(settlement.StringId) || 
+                   Instance._aiDockingSlips.ContainsKey(settlement.StringId);
         }
 
         private void OnSessionLaunched(CampaignGameStarter campaignStarter)
@@ -105,28 +111,82 @@ namespace CoastalLife
 
         private void OnHourlyTick()
         {
+            // Daily Tick (Evening)
             if (CampaignTime.Now.CurrentHourInDay != 18) return;
+            
             _logger.LogDebug("PortEconomy: Starting Daily Tick");
             foreach (var s in Settlement.All) 
             {
-                 try { OnDailySettlementTick(s); }
+                 try 
+                 {
+                     OnDailySettlementTick(s);
+                     ManageAiInvestment(s);
+                 }
                  catch (Exception sEx) { _logger.LogError($"Error processing settlement {s?.Name}: {sEx.Message}"); }
             }
             _logger.LogDebug("PortEconomy: Daily Tick Complete");
         }
 
+        private void ManageAiInvestment(Settlement settlement)
+        {
+            if (!settlement.IsTown) return;
+            if (HasDockingSlip(settlement)) return; // Already owned
+            
+            // Check shipyards
+            if (NavalDLCExtensions.GetShipyard(settlement.Town) == null) return;
+
+            // AI Logic: Town Owner buys if rich
+            Hero owner = settlement.OwnerClan?.Leader;
+            if (owner != null && owner != Hero.MainHero && owner.IsAlive)
+            {
+                // Configurable Threshold? Hardcoded 100k for now as per plan
+                if (owner.Gold > 100000)
+                {
+                    // Buy it
+                    int cost = _settings.SlipCost; // e.g. 50k
+                    if (owner.Gold > cost * 1.5f) // Safety buffer
+                    {
+                        GiveGoldAction.ApplyBetweenCharacters(owner, null, cost, true);
+                        _aiDockingSlips[settlement.StringId] = owner;
+                        
+                        // Log
+                        _logger.LogInformation($"[PortEconomy AI] {owner.Name} purchased Docking Slip at {settlement.Name}");
+                    }
+                }
+            }
+        }
+
         private void OnDailySettlementTick(Settlement settlement)
         {
-            if (settlement != null && settlement.IsTown && _ownedDockingSlips.Contains(settlement.StringId))
+            if (settlement != null && settlement.IsTown)
             {
                 if (settlement.Town == null) return;
-                
                 float prosperity = settlement.Town.Prosperity;
                 int income = (int)(prosperity * _settings.DockingSlipIncomePercentage);
+
+                // Player Payout
+                if (_ownedDockingSlips.Contains(settlement.StringId))
+                {
+                    GiveGoldAction.ApplyBetweenCharacters(null, Hero.MainHero, income, false);
+                    InformationManager.DisplayMessage(new InformationMessage($"Docking Slip in {settlement.Name} yielded {income} gold."));
+                }
                 
-                GiveGoldAction.ApplyBetweenCharacters(null, Hero.MainHero, income, false);
-                InformationManager.DisplayMessage(new InformationMessage($"Docking Slip in {settlement.Name} yielded {income} gold."));
-                _logger.LogInformation($"PortEconomy: Income {income} from {settlement.Name}");
+                // AI Payout
+                if (_aiDockingSlips.TryGetValue(settlement.StringId, out Hero aiOwner))
+                {
+                    if (aiOwner != null && aiOwner.IsAlive)
+                    {
+                        GiveGoldAction.ApplyBetweenCharacters(null, aiOwner, income, false);
+                        if (_settings.DebugMode)
+                           _logger.LogInformation($"[PortEconomy AI] {aiOwner.Name} received {income}g from {settlement.Name} Slip.");
+                    }
+                    else
+                    {
+                        // Owner died? Remove slip? Or pass to successor?
+                        // For now, remove to prevent memory leak/zombies.
+                        _aiDockingSlips.Remove(settlement.StringId);
+                    }
+                }
             }
         }
     }

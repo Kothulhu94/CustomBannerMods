@@ -1,0 +1,2083 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+  <!-- ================= RANK 1 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_1" default_group="Ranged" level="31" name="{=Asc_kBvgzhD_1}Aserai Bahriyyah (Rank 1)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="80" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="70" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="160" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_1" default_group="Infantry" level="26" name="{=Asc_ba8yK7l_1}Aserai Veteran Sailor (Rank 1)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="60" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="120" />
+      <skill id="Crossbow" value="35" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 2 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_2" default_group="Ranged" level="36" name="{=Asc_kBvgzhD_2}Aserai Bahriyyah (Rank 2)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="170" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="170" />
+      <skill id="TwoHanded" value="90" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="180" />
+      <skill id="Crossbow" value="60" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_2" default_group="Infantry" level="31" name="{=Asc_ba8yK7l_2}Aserai Veteran Sailor (Rank 2)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="140" />
+      <skill id="Riding" value="80" />
+      <skill id="OneHanded" value="140" />
+      <skill id="TwoHanded" value="80" />
+      <skill id="Polearm" value="110" />
+      <skill id="Bow" value="140" />
+      <skill id="Crossbow" value="55" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_2" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 3 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_3" default_group="Ranged" level="41" name="{=Asc_kBvgzhD_3}Aserai Bahriyyah (Rank 3)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="190" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="190" />
+      <skill id="TwoHanded" value="110" />
+      <skill id="Polearm" value="140" />
+      <skill id="Bow" value="200" />
+      <skill id="Crossbow" value="80" />
+      <skill id="Throwing" value="140" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_3" default_group="Infantry" level="36" name="{=Asc_ba8yK7l_3}Aserai Veteran Sailor (Rank 3)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="160" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="160" />
+      <skill id="TwoHanded" value="100" />
+      <skill id="Polearm" value="130" />
+      <skill id="Bow" value="160" />
+      <skill id="Crossbow" value="75" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 4 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_4" default_group="Ranged" level="46" name="{=Asc_kBvgzhD_4}Aserai Bahriyyah (Rank 4)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="210" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="210" />
+      <skill id="TwoHanded" value="130" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="220" />
+      <skill id="Crossbow" value="100" />
+      <skill id="Throwing" value="160" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_4" default_group="Infantry" level="41" name="{=Asc_ba8yK7l_4}Aserai Veteran Sailor (Rank 4)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="180" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="180" />
+      <skill id="TwoHanded" value="120" />
+      <skill id="Polearm" value="150" />
+      <skill id="Bow" value="180" />
+      <skill id="Crossbow" value="95" />
+      <skill id="Throwing" value="140" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 5 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_5" default_group="Ranged" level="51" name="{=Asc_kBvgzhD_5}Aserai Bahriyyah (Rank 5)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="230" />
+      <skill id="Riding" value="160" />
+      <skill id="OneHanded" value="230" />
+      <skill id="TwoHanded" value="150" />
+      <skill id="Polearm" value="180" />
+      <skill id="Bow" value="240" />
+      <skill id="Crossbow" value="120" />
+      <skill id="Throwing" value="180" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_5" default_group="Infantry" level="46" name="{=Asc_ba8yK7l_5}Aserai Veteran Sailor (Rank 5)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="200" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="200" />
+      <skill id="TwoHanded" value="140" />
+      <skill id="Polearm" value="170" />
+      <skill id="Bow" value="200" />
+      <skill id="Crossbow" value="115" />
+      <skill id="Throwing" value="160" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 6 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_6" default_group="Ranged" level="56" name="{=Asc_kBvgzhD_6}Aserai Bahriyyah (Rank 6)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="250" />
+      <skill id="Riding" value="180" />
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="170" />
+      <skill id="Polearm" value="200" />
+      <skill id="Bow" value="260" />
+      <skill id="Crossbow" value="140" />
+      <skill id="Throwing" value="200" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_6" default_group="Infantry" level="51" name="{=Asc_ba8yK7l_6}Aserai Veteran Sailor (Rank 6)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="220" />
+      <skill id="Riding" value="160" />
+      <skill id="OneHanded" value="220" />
+      <skill id="TwoHanded" value="160" />
+      <skill id="Polearm" value="190" />
+      <skill id="Bow" value="220" />
+      <skill id="Crossbow" value="135" />
+      <skill id="Throwing" value="180" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_6" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 7 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_7" default_group="Ranged" level="61" name="{=Asc_kBvgzhD_7}Aserai Bahriyyah (Rank 7)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="270" />
+      <skill id="Riding" value="200" />
+      <skill id="OneHanded" value="270" />
+      <skill id="TwoHanded" value="190" />
+      <skill id="Polearm" value="220" />
+      <skill id="Bow" value="280" />
+      <skill id="Crossbow" value="160" />
+      <skill id="Throwing" value="220" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_7" default_group="Infantry" level="56" name="{=Asc_ba8yK7l_7}Aserai Veteran Sailor (Rank 7)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="240" />
+      <skill id="Riding" value="180" />
+      <skill id="OneHanded" value="240" />
+      <skill id="TwoHanded" value="180" />
+      <skill id="Polearm" value="210" />
+      <skill id="Bow" value="240" />
+      <skill id="Crossbow" value="155" />
+      <skill id="Throwing" value="200" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_7" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 8 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_8" default_group="Ranged" level="66" name="{=Asc_kBvgzhD_8}Aserai Bahriyyah (Rank 8)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="290" />
+      <skill id="Riding" value="220" />
+      <skill id="OneHanded" value="290" />
+      <skill id="TwoHanded" value="210" />
+      <skill id="Polearm" value="240" />
+      <skill id="Bow" value="300" />
+      <skill id="Crossbow" value="180" />
+      <skill id="Throwing" value="240" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_8" default_group="Infantry" level="61" name="{=Asc_ba8yK7l_8}Aserai Veteran Sailor (Rank 8)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="260" />
+      <skill id="Riding" value="200" />
+      <skill id="OneHanded" value="260" />
+      <skill id="TwoHanded" value="200" />
+      <skill id="Polearm" value="230" />
+      <skill id="Bow" value="260" />
+      <skill id="Crossbow" value="175" />
+      <skill id="Throwing" value="220" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_8" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 9 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_9" default_group="Ranged" level="71" name="{=Asc_kBvgzhD_9}Aserai Bahriyyah (Rank 9)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="310" />
+      <skill id="Riding" value="240" />
+      <skill id="OneHanded" value="310" />
+      <skill id="TwoHanded" value="230" />
+      <skill id="Polearm" value="260" />
+      <skill id="Bow" value="320" />
+      <skill id="Crossbow" value="200" />
+      <skill id="Throwing" value="260" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_9" default_group="Infantry" level="66" name="{=Asc_ba8yK7l_9}Aserai Veteran Sailor (Rank 9)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="280" />
+      <skill id="Riding" value="220" />
+      <skill id="OneHanded" value="280" />
+      <skill id="TwoHanded" value="220" />
+      <skill id="Polearm" value="250" />
+      <skill id="Bow" value="280" />
+      <skill id="Crossbow" value="195" />
+      <skill id="Throwing" value="240" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_9" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 10 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_10" default_group="Ranged" level="76" name="{=Asc_kBvgzhD_10}Aserai Bahriyyah (Rank 10)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="330" />
+      <skill id="Riding" value="260" />
+      <skill id="OneHanded" value="330" />
+      <skill id="TwoHanded" value="250" />
+      <skill id="Polearm" value="280" />
+      <skill id="Bow" value="340" />
+      <skill id="Crossbow" value="220" />
+      <skill id="Throwing" value="280" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_10" default_group="Infantry" level="71" name="{=Asc_ba8yK7l_10}Aserai Veteran Sailor (Rank 10)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="300" />
+      <skill id="Riding" value="240" />
+      <skill id="OneHanded" value="300" />
+      <skill id="TwoHanded" value="240" />
+      <skill id="Polearm" value="270" />
+      <skill id="Bow" value="300" />
+      <skill id="Crossbow" value="215" />
+      <skill id="Throwing" value="260" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_10" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 11 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_11" default_group="Ranged" level="81" name="{=Asc_kBvgzhD_11}Aserai Bahriyyah (Rank 11)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="350" />
+      <skill id="Riding" value="280" />
+      <skill id="OneHanded" value="350" />
+      <skill id="TwoHanded" value="270" />
+      <skill id="Polearm" value="300" />
+      <skill id="Bow" value="360" />
+      <skill id="Crossbow" value="240" />
+      <skill id="Throwing" value="300" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_11" default_group="Infantry" level="76" name="{=Asc_ba8yK7l_11}Aserai Veteran Sailor (Rank 11)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="320" />
+      <skill id="Riding" value="260" />
+      <skill id="OneHanded" value="320" />
+      <skill id="TwoHanded" value="260" />
+      <skill id="Polearm" value="290" />
+      <skill id="Bow" value="320" />
+      <skill id="Crossbow" value="235" />
+      <skill id="Throwing" value="280" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_11" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 12 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_12" default_group="Ranged" level="86" name="{=Asc_kBvgzhD_12}Aserai Bahriyyah (Rank 12)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="370" />
+      <skill id="Riding" value="300" />
+      <skill id="OneHanded" value="370" />
+      <skill id="TwoHanded" value="290" />
+      <skill id="Polearm" value="320" />
+      <skill id="Bow" value="380" />
+      <skill id="Crossbow" value="260" />
+      <skill id="Throwing" value="320" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_12" default_group="Infantry" level="81" name="{=Asc_ba8yK7l_12}Aserai Veteran Sailor (Rank 12)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="340" />
+      <skill id="Riding" value="280" />
+      <skill id="OneHanded" value="340" />
+      <skill id="TwoHanded" value="280" />
+      <skill id="Polearm" value="310" />
+      <skill id="Bow" value="340" />
+      <skill id="Crossbow" value="255" />
+      <skill id="Throwing" value="300" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_12" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 13 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_13" default_group="Ranged" level="91" name="{=Asc_kBvgzhD_13}Aserai Bahriyyah (Rank 13)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="390" />
+      <skill id="Riding" value="320" />
+      <skill id="OneHanded" value="390" />
+      <skill id="TwoHanded" value="310" />
+      <skill id="Polearm" value="340" />
+      <skill id="Bow" value="400" />
+      <skill id="Crossbow" value="280" />
+      <skill id="Throwing" value="340" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_13" default_group="Infantry" level="86" name="{=Asc_ba8yK7l_13}Aserai Veteran Sailor (Rank 13)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="360" />
+      <skill id="Riding" value="300" />
+      <skill id="OneHanded" value="360" />
+      <skill id="TwoHanded" value="300" />
+      <skill id="Polearm" value="330" />
+      <skill id="Bow" value="360" />
+      <skill id="Crossbow" value="275" />
+      <skill id="Throwing" value="320" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_13" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 14 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_14" default_group="Ranged" level="96" name="{=Asc_kBvgzhD_14}Aserai Bahriyyah (Rank 14)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="410" />
+      <skill id="Riding" value="340" />
+      <skill id="OneHanded" value="410" />
+      <skill id="TwoHanded" value="330" />
+      <skill id="Polearm" value="360" />
+      <skill id="Bow" value="420" />
+      <skill id="Crossbow" value="300" />
+      <skill id="Throwing" value="360" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_14" default_group="Infantry" level="91" name="{=Asc_ba8yK7l_14}Aserai Veteran Sailor (Rank 14)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="380" />
+      <skill id="Riding" value="320" />
+      <skill id="OneHanded" value="380" />
+      <skill id="TwoHanded" value="320" />
+      <skill id="Polearm" value="350" />
+      <skill id="Bow" value="380" />
+      <skill id="Crossbow" value="295" />
+      <skill id="Throwing" value="340" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_14" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 15 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_15" default_group="Ranged" level="101" name="{=Asc_kBvgzhD_15}Aserai Bahriyyah (Rank 15)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="430" />
+      <skill id="Riding" value="360" />
+      <skill id="OneHanded" value="430" />
+      <skill id="TwoHanded" value="350" />
+      <skill id="Polearm" value="380" />
+      <skill id="Bow" value="440" />
+      <skill id="Crossbow" value="320" />
+      <skill id="Throwing" value="380" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_15" default_group="Infantry" level="96" name="{=Asc_ba8yK7l_15}Aserai Veteran Sailor (Rank 15)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="400" />
+      <skill id="Riding" value="340" />
+      <skill id="OneHanded" value="400" />
+      <skill id="TwoHanded" value="340" />
+      <skill id="Polearm" value="370" />
+      <skill id="Bow" value="400" />
+      <skill id="Crossbow" value="315" />
+      <skill id="Throwing" value="360" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_15" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 16 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_16" default_group="Ranged" level="106" name="{=Asc_kBvgzhD_16}Aserai Bahriyyah (Rank 16)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="450" />
+      <skill id="Riding" value="380" />
+      <skill id="OneHanded" value="450" />
+      <skill id="TwoHanded" value="370" />
+      <skill id="Polearm" value="400" />
+      <skill id="Bow" value="460" />
+      <skill id="Crossbow" value="340" />
+      <skill id="Throwing" value="400" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_16" default_group="Infantry" level="101" name="{=Asc_ba8yK7l_16}Aserai Veteran Sailor (Rank 16)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="420" />
+      <skill id="Riding" value="360" />
+      <skill id="OneHanded" value="420" />
+      <skill id="TwoHanded" value="360" />
+      <skill id="Polearm" value="390" />
+      <skill id="Bow" value="420" />
+      <skill id="Crossbow" value="335" />
+      <skill id="Throwing" value="380" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_16" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 17 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_17" default_group="Ranged" level="111" name="{=Asc_kBvgzhD_17}Aserai Bahriyyah (Rank 17)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="470" />
+      <skill id="Riding" value="400" />
+      <skill id="OneHanded" value="470" />
+      <skill id="TwoHanded" value="390" />
+      <skill id="Polearm" value="420" />
+      <skill id="Bow" value="480" />
+      <skill id="Crossbow" value="360" />
+      <skill id="Throwing" value="420" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_17" default_group="Infantry" level="106" name="{=Asc_ba8yK7l_17}Aserai Veteran Sailor (Rank 17)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="440" />
+      <skill id="Riding" value="380" />
+      <skill id="OneHanded" value="440" />
+      <skill id="TwoHanded" value="380" />
+      <skill id="Polearm" value="410" />
+      <skill id="Bow" value="440" />
+      <skill id="Crossbow" value="355" />
+      <skill id="Throwing" value="400" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_17" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 18 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_18" default_group="Ranged" level="116" name="{=Asc_kBvgzhD_18}Aserai Bahriyyah (Rank 18)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="490" />
+      <skill id="Riding" value="420" />
+      <skill id="OneHanded" value="490" />
+      <skill id="TwoHanded" value="410" />
+      <skill id="Polearm" value="440" />
+      <skill id="Bow" value="500" />
+      <skill id="Crossbow" value="380" />
+      <skill id="Throwing" value="440" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_18" default_group="Infantry" level="111" name="{=Asc_ba8yK7l_18}Aserai Veteran Sailor (Rank 18)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="460" />
+      <skill id="Riding" value="400" />
+      <skill id="OneHanded" value="460" />
+      <skill id="TwoHanded" value="400" />
+      <skill id="Polearm" value="430" />
+      <skill id="Bow" value="460" />
+      <skill id="Crossbow" value="375" />
+      <skill id="Throwing" value="420" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_18" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 19 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_19" default_group="Ranged" level="121" name="{=Asc_kBvgzhD_19}Aserai Bahriyyah (Rank 19)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="510" />
+      <skill id="Riding" value="440" />
+      <skill id="OneHanded" value="510" />
+      <skill id="TwoHanded" value="430" />
+      <skill id="Polearm" value="460" />
+      <skill id="Bow" value="520" />
+      <skill id="Crossbow" value="400" />
+      <skill id="Throwing" value="460" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_19" default_group="Infantry" level="116" name="{=Asc_ba8yK7l_19}Aserai Veteran Sailor (Rank 19)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="480" />
+      <skill id="Riding" value="420" />
+      <skill id="OneHanded" value="480" />
+      <skill id="TwoHanded" value="420" />
+      <skill id="Polearm" value="450" />
+      <skill id="Bow" value="480" />
+      <skill id="Crossbow" value="395" />
+      <skill id="Throwing" value="440" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_19" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 20 ================= -->
+  <NPCCharacter id="aserai_marine_t5_asc_20" default_group="Ranged" level="126" name="{=Asc_kBvgzhD_20}Aserai Bahriyyah (Rank 20)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="530" />
+      <skill id="Riding" value="460" />
+      <skill id="OneHanded" value="530" />
+      <skill id="TwoHanded" value="450" />
+      <skill id="Polearm" value="480" />
+      <skill id="Bow" value="540" />
+      <skill id="Crossbow" value="420" />
+      <skill id="Throwing" value="480" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+        <equipment slot="Body" id="Item.aserai_chain_plate_armor_c" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.piercing_arrows" />
+        <equipment slot="Item1" id="Item.nomad_bow" />
+        <equipment slot="Item2" id="Item.ornate_adarga" />
+        <equipment slot="Item3" id="Item.aserai_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.southern_lamellar_armor" />
+        <equipment slot="Leg" id="Item.strapped_jackboots" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="aserai_marine_t4_asc_20" default_group="Infantry" level="121" name="{=Asc_ba8yK7l_20}Aserai Veteran Sailor (Rank 20)" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai_tribesman" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="500" />
+      <skill id="Riding" value="440" />
+      <skill id="OneHanded" value="500" />
+      <skill id="TwoHanded" value="440" />
+      <skill id="Polearm" value="470" />
+      <skill id="Bow" value="500" />
+      <skill id="Crossbow" value="415" />
+      <skill id="Throwing" value="460" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_marine_t5_asc_20" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.desert_padded_cloth" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.tribal_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.desert_long_sword_t4" />
+        <equipment slot="Head" id="Item.open_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.longbow_recurve_desert_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2" id="Item.desert_oval_shield" />
+        <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet" />
+        <equipment slot="Body" id="Item.ringed_desert_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

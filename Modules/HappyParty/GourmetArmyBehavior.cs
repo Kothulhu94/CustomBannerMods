@@ -56,11 +56,16 @@ namespace HappyParty
                         int divisor = _settings.TroopsPerFoodItem;
                         if (divisor < 1) divisor = 1;
                         
-                        int targetAmount = totalTroops / divisor;
+                        // Logic Refactor: Prioritize Variety (Morale Bonus) over Bulk
+                        // Only try to buy if we have VERY little of this food type (less than 3 days worth approx)
+                        int currentHeld = mobileParty.ItemRoster.GetItemNumber(item);
+                        
+                        if (currentHeld > 5) continue; // We have enough of this type, look for something else for variety.
+
+                        int targetAmount = Math.Max(5, totalTroops / divisor);
                         
                         if (targetAmount < 1) targetAmount = 1;
 
-                        int currentHeld = mobileParty.ItemRoster.GetItemNumber(item);
                         int buyAmount = targetAmount - currentHeld;
 
                         if (buyAmount > 0)

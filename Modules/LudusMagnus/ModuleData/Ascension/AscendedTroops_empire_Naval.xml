@@ -1,0 +1,3123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+  <!-- ================= RANK 1 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_1" default_group="Infantry" level="31" name="{=Asc_o1howUZ_1}Imperial Naute (Rank 1)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="80" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="100" />
+      <skill id="Crossbow" value="80" />
+      <skill id="Throwing" value="150" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_1" default_group="Infantry" level="26" name="{=Asc_wjhbnlW_1}Imperial Coast Guard (Rank 1)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="35" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="80" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="65" />
+      <skill id="Crossbow" value="65" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_1" default_group="Infantry" level="21" name="{=Asc_vUgOdjT_1}Imperial Shipmate (Rank 1)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="60" />
+      <skill id="Throwing" value="90" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 2 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_2" default_group="Infantry" level="36" name="{=Asc_o1howUZ_2}Imperial Naute (Rank 2)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="170" />
+      <skill id="Riding" value="60" />
+      <skill id="OneHanded" value="170" />
+      <skill id="TwoHanded" value="100" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="120" />
+      <skill id="Crossbow" value="100" />
+      <skill id="Throwing" value="170" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_2" default_group="Infantry" level="31" name="{=Asc_wjhbnlW_2}Imperial Coast Guard (Rank 2)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="140" />
+      <skill id="Riding" value="55" />
+      <skill id="OneHanded" value="140" />
+      <skill id="TwoHanded" value="100" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="85" />
+      <skill id="Crossbow" value="85" />
+      <skill id="Throwing" value="140" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_2" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_2" default_group="Infantry" level="26" name="{=Asc_vUgOdjT_2}Imperial Shipmate (Rank 2)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="110" />
+      <skill id="Riding" value="50" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="80" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="70" />
+      <skill id="Crossbow" value="80" />
+      <skill id="Throwing" value="110" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_2" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 3 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_3" default_group="Infantry" level="41" name="{=Asc_o1howUZ_3}Imperial Naute (Rank 3)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="190" />
+      <skill id="Riding" value="80" />
+      <skill id="OneHanded" value="190" />
+      <skill id="TwoHanded" value="120" />
+      <skill id="Polearm" value="140" />
+      <skill id="Bow" value="140" />
+      <skill id="Crossbow" value="120" />
+      <skill id="Throwing" value="190" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_3" default_group="Infantry" level="36" name="{=Asc_wjhbnlW_3}Imperial Coast Guard (Rank 3)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="160" />
+      <skill id="Riding" value="75" />
+      <skill id="OneHanded" value="160" />
+      <skill id="TwoHanded" value="120" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="105" />
+      <skill id="Crossbow" value="105" />
+      <skill id="Throwing" value="160" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_3" default_group="Infantry" level="31" name="{=Asc_vUgOdjT_3}Imperial Shipmate (Rank 3)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="70" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="100" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="90" />
+      <skill id="Crossbow" value="100" />
+      <skill id="Throwing" value="130" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 4 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_4" default_group="Infantry" level="46" name="{=Asc_o1howUZ_4}Imperial Naute (Rank 4)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="210" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="210" />
+      <skill id="TwoHanded" value="140" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="160" />
+      <skill id="Crossbow" value="140" />
+      <skill id="Throwing" value="210" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_4" default_group="Infantry" level="41" name="{=Asc_wjhbnlW_4}Imperial Coast Guard (Rank 4)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="180" />
+      <skill id="Riding" value="95" />
+      <skill id="OneHanded" value="180" />
+      <skill id="TwoHanded" value="140" />
+      <skill id="Polearm" value="140" />
+      <skill id="Bow" value="125" />
+      <skill id="Crossbow" value="125" />
+      <skill id="Throwing" value="180" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_4" default_group="Infantry" level="36" name="{=Asc_vUgOdjT_4}Imperial Shipmate (Rank 4)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="90" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="120" />
+      <skill id="Polearm" value="110" />
+      <skill id="Bow" value="110" />
+      <skill id="Crossbow" value="120" />
+      <skill id="Throwing" value="150" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 5 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_5" default_group="Infantry" level="51" name="{=Asc_o1howUZ_5}Imperial Naute (Rank 5)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="230" />
+      <skill id="Riding" value="120" />
+      <skill id="OneHanded" value="230" />
+      <skill id="TwoHanded" value="160" />
+      <skill id="Polearm" value="180" />
+      <skill id="Bow" value="180" />
+      <skill id="Crossbow" value="160" />
+      <skill id="Throwing" value="230" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_5" default_group="Infantry" level="46" name="{=Asc_wjhbnlW_5}Imperial Coast Guard (Rank 5)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="200" />
+      <skill id="Riding" value="115" />
+      <skill id="OneHanded" value="200" />
+      <skill id="TwoHanded" value="160" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="145" />
+      <skill id="Crossbow" value="145" />
+      <skill id="Throwing" value="200" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_5" default_group="Infantry" level="41" name="{=Asc_vUgOdjT_5}Imperial Shipmate (Rank 5)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="170" />
+      <skill id="Riding" value="110" />
+      <skill id="OneHanded" value="170" />
+      <skill id="TwoHanded" value="140" />
+      <skill id="Polearm" value="130" />
+      <skill id="Bow" value="130" />
+      <skill id="Crossbow" value="140" />
+      <skill id="Throwing" value="170" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 6 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_6" default_group="Infantry" level="56" name="{=Asc_o1howUZ_6}Imperial Naute (Rank 6)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="250" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="180" />
+      <skill id="Polearm" value="200" />
+      <skill id="Bow" value="200" />
+      <skill id="Crossbow" value="180" />
+      <skill id="Throwing" value="250" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_6" default_group="Infantry" level="51" name="{=Asc_wjhbnlW_6}Imperial Coast Guard (Rank 6)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="220" />
+      <skill id="Riding" value="135" />
+      <skill id="OneHanded" value="220" />
+      <skill id="TwoHanded" value="180" />
+      <skill id="Polearm" value="180" />
+      <skill id="Bow" value="165" />
+      <skill id="Crossbow" value="165" />
+      <skill id="Throwing" value="220" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_6" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_6" default_group="Infantry" level="46" name="{=Asc_vUgOdjT_6}Imperial Shipmate (Rank 6)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="190" />
+      <skill id="Riding" value="130" />
+      <skill id="OneHanded" value="190" />
+      <skill id="TwoHanded" value="160" />
+      <skill id="Polearm" value="150" />
+      <skill id="Bow" value="150" />
+      <skill id="Crossbow" value="160" />
+      <skill id="Throwing" value="190" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_6" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 7 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_7" default_group="Infantry" level="61" name="{=Asc_o1howUZ_7}Imperial Naute (Rank 7)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="270" />
+      <skill id="Riding" value="160" />
+      <skill id="OneHanded" value="270" />
+      <skill id="TwoHanded" value="200" />
+      <skill id="Polearm" value="220" />
+      <skill id="Bow" value="220" />
+      <skill id="Crossbow" value="200" />
+      <skill id="Throwing" value="270" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_7" default_group="Infantry" level="56" name="{=Asc_wjhbnlW_7}Imperial Coast Guard (Rank 7)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="240" />
+      <skill id="Riding" value="155" />
+      <skill id="OneHanded" value="240" />
+      <skill id="TwoHanded" value="200" />
+      <skill id="Polearm" value="200" />
+      <skill id="Bow" value="185" />
+      <skill id="Crossbow" value="185" />
+      <skill id="Throwing" value="240" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_7" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_7" default_group="Infantry" level="51" name="{=Asc_vUgOdjT_7}Imperial Shipmate (Rank 7)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="210" />
+      <skill id="Riding" value="150" />
+      <skill id="OneHanded" value="210" />
+      <skill id="TwoHanded" value="180" />
+      <skill id="Polearm" value="170" />
+      <skill id="Bow" value="170" />
+      <skill id="Crossbow" value="180" />
+      <skill id="Throwing" value="210" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_7" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 8 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_8" default_group="Infantry" level="66" name="{=Asc_o1howUZ_8}Imperial Naute (Rank 8)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="290" />
+      <skill id="Riding" value="180" />
+      <skill id="OneHanded" value="290" />
+      <skill id="TwoHanded" value="220" />
+      <skill id="Polearm" value="240" />
+      <skill id="Bow" value="240" />
+      <skill id="Crossbow" value="220" />
+      <skill id="Throwing" value="290" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_8" default_group="Infantry" level="61" name="{=Asc_wjhbnlW_8}Imperial Coast Guard (Rank 8)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="260" />
+      <skill id="Riding" value="175" />
+      <skill id="OneHanded" value="260" />
+      <skill id="TwoHanded" value="220" />
+      <skill id="Polearm" value="220" />
+      <skill id="Bow" value="205" />
+      <skill id="Crossbow" value="205" />
+      <skill id="Throwing" value="260" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_8" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_8" default_group="Infantry" level="56" name="{=Asc_vUgOdjT_8}Imperial Shipmate (Rank 8)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="230" />
+      <skill id="Riding" value="170" />
+      <skill id="OneHanded" value="230" />
+      <skill id="TwoHanded" value="200" />
+      <skill id="Polearm" value="190" />
+      <skill id="Bow" value="190" />
+      <skill id="Crossbow" value="200" />
+      <skill id="Throwing" value="230" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_8" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 9 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_9" default_group="Infantry" level="71" name="{=Asc_o1howUZ_9}Imperial Naute (Rank 9)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="310" />
+      <skill id="Riding" value="200" />
+      <skill id="OneHanded" value="310" />
+      <skill id="TwoHanded" value="240" />
+      <skill id="Polearm" value="260" />
+      <skill id="Bow" value="260" />
+      <skill id="Crossbow" value="240" />
+      <skill id="Throwing" value="310" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_9" default_group="Infantry" level="66" name="{=Asc_wjhbnlW_9}Imperial Coast Guard (Rank 9)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="280" />
+      <skill id="Riding" value="195" />
+      <skill id="OneHanded" value="280" />
+      <skill id="TwoHanded" value="240" />
+      <skill id="Polearm" value="240" />
+      <skill id="Bow" value="225" />
+      <skill id="Crossbow" value="225" />
+      <skill id="Throwing" value="280" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_9" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_9" default_group="Infantry" level="61" name="{=Asc_vUgOdjT_9}Imperial Shipmate (Rank 9)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="250" />
+      <skill id="Riding" value="190" />
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="220" />
+      <skill id="Polearm" value="210" />
+      <skill id="Bow" value="210" />
+      <skill id="Crossbow" value="220" />
+      <skill id="Throwing" value="250" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_9" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 10 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_10" default_group="Infantry" level="76" name="{=Asc_o1howUZ_10}Imperial Naute (Rank 10)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="330" />
+      <skill id="Riding" value="220" />
+      <skill id="OneHanded" value="330" />
+      <skill id="TwoHanded" value="260" />
+      <skill id="Polearm" value="280" />
+      <skill id="Bow" value="280" />
+      <skill id="Crossbow" value="260" />
+      <skill id="Throwing" value="330" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_10" default_group="Infantry" level="71" name="{=Asc_wjhbnlW_10}Imperial Coast Guard (Rank 10)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="300" />
+      <skill id="Riding" value="215" />
+      <skill id="OneHanded" value="300" />
+      <skill id="TwoHanded" value="260" />
+      <skill id="Polearm" value="260" />
+      <skill id="Bow" value="245" />
+      <skill id="Crossbow" value="245" />
+      <skill id="Throwing" value="300" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_10" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_10" default_group="Infantry" level="66" name="{=Asc_vUgOdjT_10}Imperial Shipmate (Rank 10)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="270" />
+      <skill id="Riding" value="210" />
+      <skill id="OneHanded" value="270" />
+      <skill id="TwoHanded" value="240" />
+      <skill id="Polearm" value="230" />
+      <skill id="Bow" value="230" />
+      <skill id="Crossbow" value="240" />
+      <skill id="Throwing" value="270" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_10" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 11 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_11" default_group="Infantry" level="81" name="{=Asc_o1howUZ_11}Imperial Naute (Rank 11)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="350" />
+      <skill id="Riding" value="240" />
+      <skill id="OneHanded" value="350" />
+      <skill id="TwoHanded" value="280" />
+      <skill id="Polearm" value="300" />
+      <skill id="Bow" value="300" />
+      <skill id="Crossbow" value="280" />
+      <skill id="Throwing" value="350" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_11" default_group="Infantry" level="76" name="{=Asc_wjhbnlW_11}Imperial Coast Guard (Rank 11)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="320" />
+      <skill id="Riding" value="235" />
+      <skill id="OneHanded" value="320" />
+      <skill id="TwoHanded" value="280" />
+      <skill id="Polearm" value="280" />
+      <skill id="Bow" value="265" />
+      <skill id="Crossbow" value="265" />
+      <skill id="Throwing" value="320" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_11" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_11" default_group="Infantry" level="71" name="{=Asc_vUgOdjT_11}Imperial Shipmate (Rank 11)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="290" />
+      <skill id="Riding" value="230" />
+      <skill id="OneHanded" value="290" />
+      <skill id="TwoHanded" value="260" />
+      <skill id="Polearm" value="250" />
+      <skill id="Bow" value="250" />
+      <skill id="Crossbow" value="260" />
+      <skill id="Throwing" value="290" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_11" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 12 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_12" default_group="Infantry" level="86" name="{=Asc_o1howUZ_12}Imperial Naute (Rank 12)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="370" />
+      <skill id="Riding" value="260" />
+      <skill id="OneHanded" value="370" />
+      <skill id="TwoHanded" value="300" />
+      <skill id="Polearm" value="320" />
+      <skill id="Bow" value="320" />
+      <skill id="Crossbow" value="300" />
+      <skill id="Throwing" value="370" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_12" default_group="Infantry" level="81" name="{=Asc_wjhbnlW_12}Imperial Coast Guard (Rank 12)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="340" />
+      <skill id="Riding" value="255" />
+      <skill id="OneHanded" value="340" />
+      <skill id="TwoHanded" value="300" />
+      <skill id="Polearm" value="300" />
+      <skill id="Bow" value="285" />
+      <skill id="Crossbow" value="285" />
+      <skill id="Throwing" value="340" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_12" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_12" default_group="Infantry" level="76" name="{=Asc_vUgOdjT_12}Imperial Shipmate (Rank 12)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="310" />
+      <skill id="Riding" value="250" />
+      <skill id="OneHanded" value="310" />
+      <skill id="TwoHanded" value="280" />
+      <skill id="Polearm" value="270" />
+      <skill id="Bow" value="270" />
+      <skill id="Crossbow" value="280" />
+      <skill id="Throwing" value="310" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_12" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 13 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_13" default_group="Infantry" level="91" name="{=Asc_o1howUZ_13}Imperial Naute (Rank 13)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="390" />
+      <skill id="Riding" value="280" />
+      <skill id="OneHanded" value="390" />
+      <skill id="TwoHanded" value="320" />
+      <skill id="Polearm" value="340" />
+      <skill id="Bow" value="340" />
+      <skill id="Crossbow" value="320" />
+      <skill id="Throwing" value="390" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_13" default_group="Infantry" level="86" name="{=Asc_wjhbnlW_13}Imperial Coast Guard (Rank 13)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="360" />
+      <skill id="Riding" value="275" />
+      <skill id="OneHanded" value="360" />
+      <skill id="TwoHanded" value="320" />
+      <skill id="Polearm" value="320" />
+      <skill id="Bow" value="305" />
+      <skill id="Crossbow" value="305" />
+      <skill id="Throwing" value="360" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_13" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_13" default_group="Infantry" level="81" name="{=Asc_vUgOdjT_13}Imperial Shipmate (Rank 13)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="330" />
+      <skill id="Riding" value="270" />
+      <skill id="OneHanded" value="330" />
+      <skill id="TwoHanded" value="300" />
+      <skill id="Polearm" value="290" />
+      <skill id="Bow" value="290" />
+      <skill id="Crossbow" value="300" />
+      <skill id="Throwing" value="330" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_13" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 14 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_14" default_group="Infantry" level="96" name="{=Asc_o1howUZ_14}Imperial Naute (Rank 14)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="410" />
+      <skill id="Riding" value="300" />
+      <skill id="OneHanded" value="410" />
+      <skill id="TwoHanded" value="340" />
+      <skill id="Polearm" value="360" />
+      <skill id="Bow" value="360" />
+      <skill id="Crossbow" value="340" />
+      <skill id="Throwing" value="410" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_14" default_group="Infantry" level="91" name="{=Asc_wjhbnlW_14}Imperial Coast Guard (Rank 14)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="380" />
+      <skill id="Riding" value="295" />
+      <skill id="OneHanded" value="380" />
+      <skill id="TwoHanded" value="340" />
+      <skill id="Polearm" value="340" />
+      <skill id="Bow" value="325" />
+      <skill id="Crossbow" value="325" />
+      <skill id="Throwing" value="380" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_14" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_14" default_group="Infantry" level="86" name="{=Asc_vUgOdjT_14}Imperial Shipmate (Rank 14)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="350" />
+      <skill id="Riding" value="290" />
+      <skill id="OneHanded" value="350" />
+      <skill id="TwoHanded" value="320" />
+      <skill id="Polearm" value="310" />
+      <skill id="Bow" value="310" />
+      <skill id="Crossbow" value="320" />
+      <skill id="Throwing" value="350" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_14" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 15 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_15" default_group="Infantry" level="101" name="{=Asc_o1howUZ_15}Imperial Naute (Rank 15)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="430" />
+      <skill id="Riding" value="320" />
+      <skill id="OneHanded" value="430" />
+      <skill id="TwoHanded" value="360" />
+      <skill id="Polearm" value="380" />
+      <skill id="Bow" value="380" />
+      <skill id="Crossbow" value="360" />
+      <skill id="Throwing" value="430" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_15" default_group="Infantry" level="96" name="{=Asc_wjhbnlW_15}Imperial Coast Guard (Rank 15)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="400" />
+      <skill id="Riding" value="315" />
+      <skill id="OneHanded" value="400" />
+      <skill id="TwoHanded" value="360" />
+      <skill id="Polearm" value="360" />
+      <skill id="Bow" value="345" />
+      <skill id="Crossbow" value="345" />
+      <skill id="Throwing" value="400" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_15" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_15" default_group="Infantry" level="91" name="{=Asc_vUgOdjT_15}Imperial Shipmate (Rank 15)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="370" />
+      <skill id="Riding" value="310" />
+      <skill id="OneHanded" value="370" />
+      <skill id="TwoHanded" value="340" />
+      <skill id="Polearm" value="330" />
+      <skill id="Bow" value="330" />
+      <skill id="Crossbow" value="340" />
+      <skill id="Throwing" value="370" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_15" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 16 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_16" default_group="Infantry" level="106" name="{=Asc_o1howUZ_16}Imperial Naute (Rank 16)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="450" />
+      <skill id="Riding" value="340" />
+      <skill id="OneHanded" value="450" />
+      <skill id="TwoHanded" value="380" />
+      <skill id="Polearm" value="400" />
+      <skill id="Bow" value="400" />
+      <skill id="Crossbow" value="380" />
+      <skill id="Throwing" value="450" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_16" default_group="Infantry" level="101" name="{=Asc_wjhbnlW_16}Imperial Coast Guard (Rank 16)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="420" />
+      <skill id="Riding" value="335" />
+      <skill id="OneHanded" value="420" />
+      <skill id="TwoHanded" value="380" />
+      <skill id="Polearm" value="380" />
+      <skill id="Bow" value="365" />
+      <skill id="Crossbow" value="365" />
+      <skill id="Throwing" value="420" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_16" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_16" default_group="Infantry" level="96" name="{=Asc_vUgOdjT_16}Imperial Shipmate (Rank 16)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="390" />
+      <skill id="Riding" value="330" />
+      <skill id="OneHanded" value="390" />
+      <skill id="TwoHanded" value="360" />
+      <skill id="Polearm" value="350" />
+      <skill id="Bow" value="350" />
+      <skill id="Crossbow" value="360" />
+      <skill id="Throwing" value="390" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_16" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 17 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_17" default_group="Infantry" level="111" name="{=Asc_o1howUZ_17}Imperial Naute (Rank 17)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="470" />
+      <skill id="Riding" value="360" />
+      <skill id="OneHanded" value="470" />
+      <skill id="TwoHanded" value="400" />
+      <skill id="Polearm" value="420" />
+      <skill id="Bow" value="420" />
+      <skill id="Crossbow" value="400" />
+      <skill id="Throwing" value="470" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_17" default_group="Infantry" level="106" name="{=Asc_wjhbnlW_17}Imperial Coast Guard (Rank 17)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="440" />
+      <skill id="Riding" value="355" />
+      <skill id="OneHanded" value="440" />
+      <skill id="TwoHanded" value="400" />
+      <skill id="Polearm" value="400" />
+      <skill id="Bow" value="385" />
+      <skill id="Crossbow" value="385" />
+      <skill id="Throwing" value="440" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_17" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_17" default_group="Infantry" level="101" name="{=Asc_vUgOdjT_17}Imperial Shipmate (Rank 17)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="410" />
+      <skill id="Riding" value="350" />
+      <skill id="OneHanded" value="410" />
+      <skill id="TwoHanded" value="380" />
+      <skill id="Polearm" value="370" />
+      <skill id="Bow" value="370" />
+      <skill id="Crossbow" value="380" />
+      <skill id="Throwing" value="410" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_17" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 18 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_18" default_group="Infantry" level="116" name="{=Asc_o1howUZ_18}Imperial Naute (Rank 18)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="490" />
+      <skill id="Riding" value="380" />
+      <skill id="OneHanded" value="490" />
+      <skill id="TwoHanded" value="420" />
+      <skill id="Polearm" value="440" />
+      <skill id="Bow" value="440" />
+      <skill id="Crossbow" value="420" />
+      <skill id="Throwing" value="490" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_18" default_group="Infantry" level="111" name="{=Asc_wjhbnlW_18}Imperial Coast Guard (Rank 18)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="460" />
+      <skill id="Riding" value="375" />
+      <skill id="OneHanded" value="460" />
+      <skill id="TwoHanded" value="420" />
+      <skill id="Polearm" value="420" />
+      <skill id="Bow" value="405" />
+      <skill id="Crossbow" value="405" />
+      <skill id="Throwing" value="460" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_18" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_18" default_group="Infantry" level="106" name="{=Asc_vUgOdjT_18}Imperial Shipmate (Rank 18)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="430" />
+      <skill id="Riding" value="370" />
+      <skill id="OneHanded" value="430" />
+      <skill id="TwoHanded" value="400" />
+      <skill id="Polearm" value="390" />
+      <skill id="Bow" value="390" />
+      <skill id="Crossbow" value="400" />
+      <skill id="Throwing" value="430" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_18" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 19 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_19" default_group="Infantry" level="121" name="{=Asc_o1howUZ_19}Imperial Naute (Rank 19)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="510" />
+      <skill id="Riding" value="400" />
+      <skill id="OneHanded" value="510" />
+      <skill id="TwoHanded" value="440" />
+      <skill id="Polearm" value="460" />
+      <skill id="Bow" value="460" />
+      <skill id="Crossbow" value="440" />
+      <skill id="Throwing" value="510" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_19" default_group="Infantry" level="116" name="{=Asc_wjhbnlW_19}Imperial Coast Guard (Rank 19)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="480" />
+      <skill id="Riding" value="395" />
+      <skill id="OneHanded" value="480" />
+      <skill id="TwoHanded" value="440" />
+      <skill id="Polearm" value="440" />
+      <skill id="Bow" value="425" />
+      <skill id="Crossbow" value="425" />
+      <skill id="Throwing" value="480" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_19" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_19" default_group="Infantry" level="111" name="{=Asc_vUgOdjT_19}Imperial Shipmate (Rank 19)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="450" />
+      <skill id="Riding" value="390" />
+      <skill id="OneHanded" value="450" />
+      <skill id="TwoHanded" value="420" />
+      <skill id="Polearm" value="410" />
+      <skill id="Bow" value="410" />
+      <skill id="Crossbow" value="420" />
+      <skill id="Throwing" value="450" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_19" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ================= RANK 20 ================= -->
+  <NPCCharacter id="empire_marine_t5_asc_20" default_group="Infantry" level="126" name="{=Asc_o1howUZ_20}Imperial Naute (Rank 20)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="530" />
+      <skill id="Riding" value="420" />
+      <skill id="OneHanded" value="530" />
+      <skill id="TwoHanded" value="460" />
+      <skill id="Polearm" value="480" />
+      <skill id="Bow" value="480" />
+      <skill id="Crossbow" value="460" />
+      <skill id="Throwing" value="530" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.imperial_axe_t3" />
+        <equipment slot="Item3" id="Item.fortified_kite_shield" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.imperial_nasal_helm" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t4_asc_20" default_group="Infantry" level="121" name="{=Asc_wjhbnlW_20}Imperial Coast Guard (Rank 20)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire_veteran" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="500" />
+      <skill id="Riding" value="415" />
+      <skill id="OneHanded" value="500" />
+      <skill id="TwoHanded" value="460" />
+      <skill id="Polearm" value="460" />
+      <skill id="Bow" value="445" />
+      <skill id="Crossbow" value="445" />
+      <skill id="Throwing" value="500" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t5_asc_20" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Gloves" id="Item.splinted_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item1" id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+        <equipment slot="Item3" id="Item.reinforced_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="empire_marine_t3_asc_20" default_group="Infantry" level="116" name="{=Asc_vUgOdjT_20}Imperial Shipmate (Rank 20)" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="NavalSoldier" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Athletics" value="470" />
+      <skill id="Riding" value="410" />
+      <skill id="OneHanded" value="470" />
+      <skill id="TwoHanded" value="440" />
+      <skill id="Polearm" value="430" />
+      <skill id="Bow" value="430" />
+      <skill id="Crossbow" value="440" />
+      <skill id="Throwing" value="470" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_marine_t4_asc_20" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.leather_tunic" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item1" id="Item.western_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+        <equipment slot="Item3" id="Item.western_kite_shield" />
+        <equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Head" id="Item.thinhide_coif" />
+        <equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

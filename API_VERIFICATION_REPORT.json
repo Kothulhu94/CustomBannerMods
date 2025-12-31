@@ -1,0 +1,426 @@
+{
+  "CampaignEvents.MapEventEnded": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<MapEvent> MapEventEnded => Instance._mapEventEnded;"
+  },
+  "CampaignEvents.MapEventStarted": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<MapEvent, PartyBase, PartyBase> MapEventStarted => Instance._mapEventStarted;"
+  },
+  "CampaignEvents.MobilePartyDestroyed": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<MobileParty, PartyBase> MobilePartyDestroyed => Instance._mobilePartyDestroyed;"
+  },
+  "CampaignEvents.HourlyTickEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent HourlyTickEvent => Instance._hourlyTickEvent;"
+  },
+  "CampaignEvents.OnNewGameCreatedEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<CampaignGameStarter> OnNewGameCreatedEvent => Instance._onNewGameCreatedEvent;"
+  },
+  "CampaignEvents.HeroKilledEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<Hero, Hero, KillCharacterAction.KillCharacterActionDetail, bool> HeroKilledEvent => Instance._heroKilled;"
+  },
+  "CampaignEvents.AiHourlyTickEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<MobileParty, PartyThinkParams> AiHourlyTickEvent => Instance._aiHourlyTickEvent;"
+  },
+  "CampaignEvents.SettlementEntered": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<MobileParty, Settlement, Hero> SettlementEntered => Instance._settlementEntered;"
+  },
+  "CampaignEvents.DailyTickSettlementEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<Settlement> DailyTickSettlementEvent => Instance._dailyTickSettlementEvent;"
+  },
+  "CampaignEvents.WeeklyTickEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent WeeklyTickEvent => Instance._weeklyTickEvent;"
+  },
+  "CampaignEvents.OnSettlementOwnerChangedEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<Settlement, bool, Hero, Hero, Hero, ChangeOwnerOfSettlementAction.ChangeOwnerOfSettlementDetail> OnSettlementOwnerChangedEvent => Instance._onSettlementOwnerChangedEvent;"
+  },
+  "CampaignEvents.DailyTickPartyEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<MobileParty> DailyTickPartyEvent => Instance._dailyTickPartyEvent;"
+  },
+  "CampaignEvents.DailyTickEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent DailyTickEvent => Instance._dailyTickEvent;"
+  },
+  "CampaignEvents.OnSessionLaunchedEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<CampaignGameStarter> OnSessionLaunchedEvent => Instance._onSessionLaunchedEvent;"
+  },
+  "CampaignEvents.OnGameLoadedEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<CampaignGameStarter> OnGameLoadedEvent => Instance._onGameLoadedEvent;"
+  },
+  "CampaignEvents.OnSettlementLeftEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<MobileParty, Settlement> OnSettlementLeftEvent => Instance._onSettlementLeftEvent;"
+  },
+  "CampaignEvents.DailyTickClanEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<Clan> DailyTickClanEvent => Instance._dailyTickClanEvent;"
+  },
+  "CampaignEvents.WarDeclared": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<IFaction, IFaction, DeclareWarAction.DeclareWarDetail> WarDeclared => Instance._warDeclared;"
+  },
+  "CampaignEvents.PlayerTraitChangedEvent": {
+    "status": "VERIFIED",
+    "signature": "public static IMbEvent<TraitObject, int> PlayerTraitChangedEvent => Instance._playerTraitChangedEvent;"
+  },
+  "Settlement.Town": {
+    "status": "VERIFIED",
+    "signature": "public Town Town;"
+  },
+  "Settlement.FindFirst": {
+    "status": "VERIFIED",
+    "signature": "public static Settlement FindFirst(Func<Settlement, bool> predicate)"
+  },
+  "Settlement.Name": {
+    "status": "VERIFIED",
+    "signature": "public TextObject Name"
+  },
+  "Settlement.CurrentSettlement": {
+    "status": "VERIFIED",
+    "signature": "public static Settlement CurrentSettlement"
+  },
+  "Settlement.All": {
+    "status": "VERIFIED",
+    "signature": "public float NearbyLandAllyIntensity { get; set; }"
+  },
+  "Settlement.GatePosition": {
+    "status": "VERIFIED",
+    "signature": "public CampaignVec2 GatePosition { get; private set; }"
+  },
+  "Settlement.ItemRoster": {
+    "status": "VERIFIED",
+    "signature": "public readonly ItemRoster Stash;"
+  },
+  "Settlement.BoundVillages": {
+    "status": "VERIFIED",
+    "signature": "public MBReadOnlyList<Village> BoundVillages => _boundVillages;"
+  },
+  "Settlement.Parties": {
+    "status": "VERIFIED",
+    "signature": "public int NumberOfLordPartiesTargeting;"
+  },
+  "Settlement.OwnerClan": {
+    "status": "VERIFIED",
+    "signature": "public Hero Owner => OwnerClan.Leader;"
+  },
+  "Settlement.Find": {
+    "status": "VERIFIED",
+    "signature": "public static Settlement Find(string idString)"
+  },
+  "Clan.StringId": {
+    "status": "VERIFIED",
+    "signature": "public string EncyclopediaLink => Campaign.Current.EncyclopediaManager.GetIdentifier(typeof(Clan)) + \"-\" + base.StringId;"
+  },
+  "Clan.IsEliminated": {
+    "status": "VERIFIED",
+    "signature": "public bool IsEliminated => _isEliminated;"
+  },
+  "Clan.Name": {
+    "status": "VERIFIED",
+    "signature": "public TextObject Name { get; private set; }"
+  },
+  "Clan.CreateCompanionToLordClan": {
+    "status": "VERIFIED",
+    "signature": "public static Clan CreateCompanionToLordClan(Hero hero, Settlement settlement, TextObject clanName, int newClanIconId)"
+  },
+  "Clan.All": {
+    "status": "VERIFIED",
+    "signature": "internal bool _distanceToClosestNonAllyFortificationCacheDirty = true;"
+  },
+  "Clan.WarPartyComponents": {
+    "status": "VERIFIED",
+    "signature": "public MBReadOnlyList<WarPartyComponent> WarPartyComponents => _warPartyComponentsCache;"
+  },
+  "Clan.PlayerClan": {
+    "status": "VERIFIED",
+    "signature": "public static Clan PlayerClan => Campaign.Current.PlayerDefaultFaction;"
+  },
+  "Clan.Kingdom": {
+    "status": "VERIFIED",
+    "signature": "public Kingdom Kingdom"
+  },
+  "Clan.CreateClan": {
+    "status": "VERIFIED",
+    "signature": "public static Clan CreateClan(string stringID)"
+  },
+  "Clan.IsBanditFaction": {
+    "status": "VERIFIED",
+    "signature": "public bool IsBanditFaction { get; private set; }"
+  },
+  "Clan.Settlements": {
+    "status": "VERIFIED",
+    "signature": "public MBReadOnlyList<Settlement> Settlements => _settlementsCache;"
+  },
+  "Clan.Leader": {
+    "status": "VERIFIED",
+    "signature": "public Hero Leader => _leader;"
+  },
+  "Clan.Renown": {
+    "status": "VERIFIED",
+    "signature": "public float Renown { get; set; }"
+  },
+  "Clan.IsMinorFaction": {
+    "status": "VERIFIED",
+    "signature": "public bool IsMinorFaction { get; private set; }"
+  },
+  "Campaign.Current": {
+    "status": "VERIFIED",
+    "signature": "public ConversationContext CurrentConversationContext;"
+  },
+  "GiveGoldAction.ApplyBetweenCharacters": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyBetweenCharacters(Hero giverHero, Hero recipientHero, int amount, bool disableNotification = false)"
+  },
+  "GiveGoldAction.ApplyForSettlementToCharacter": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyForSettlementToCharacter(Settlement giverSettlement, Hero recipientHero, int amount, bool disableNotification = false)"
+  },
+  "GiveGoldAction.ApplyForSettlementToParty": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyForSettlementToParty(Settlement giverSettlement, PartyBase recipientParty, int amount, bool disableNotification = false)"
+  },
+  "GiveGoldAction.ApplyForCharacterToSettlement": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyForCharacterToSettlement(Hero giverHero, Settlement settlement, int amount, bool disableNotification = false)"
+  },
+  "ChangeRelationAction.ApplyRelationChangeBetweenHeroes": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyRelationChangeBetweenHeroes(Hero hero, Hero gainedRelationWith, int relationChange, bool showQuickNotification = true)"
+  },
+  "ChangeRelationAction.ApplyPlayerRelation": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyPlayerRelation(Hero gainedRelationWith, int relation, bool affectRelatives = true, bool showQuickNotification = true)"
+  },
+  "Inherits CampaignBehaviorBase": {
+    "status": "VERIFIED",
+    "signature": "public abstract class CampaignBehaviorBase : ICampaignBehavior"
+  },
+  "Inherits MBSubModuleBase": {
+    "status": "VERIFIED",
+    "signature": "public abstract class MBSubModuleBase"
+  },
+  "Town.IsUnderSiege": {
+    "status": "VERIFIED",
+    "signature": "public bool IsUnderSiege => base.Settlement.IsUnderSiege;"
+  },
+  "Town.GarrisonParty": {
+    "status": "MISSING_MEMBER",
+    "signature": "Member 'GarrisonParty' not found in Town"
+  },
+  "Town.Governor": {
+    "status": "VERIFIED",
+    "signature": "public Hero Governor"
+  },
+  "Town.GetItemPrice": {
+    "status": "VERIFIED",
+    "signature": "public override int GetItemPrice(ItemObject item, MobileParty tradingParty = null, bool isSelling = false)"
+  },
+  "Town.Prosperity": {
+    "status": "VERIFIED",
+    "signature": "public float Prosperity"
+  },
+  "Town.Gold": {
+    "status": "MISSING_MEMBER",
+    "signature": "Member 'Gold' not found in Town"
+  },
+  "Town.Security": {
+    "status": "VERIFIED",
+    "signature": "public float SecurityChange => Campaign.Current.Models.SettlementSecurityModel.CalculateSecurityChange(this).ResultNumber;"
+  },
+  "Town.Loyalty": {
+    "status": "VERIFIED",
+    "signature": "public float LoyaltyChange => Campaign.Current.Models.SettlementLoyaltyModel.CalculateLoyaltyChange(this).ResultNumber;"
+  },
+  "Town.FoodStocks": {
+    "status": "VERIFIED",
+    "signature": "public float FoodChange => Campaign.Current.Models.SettlementFoodModel.CalculateTownFoodStocksChange(this).ResultNumber;"
+  },
+  "Game.Current": {
+    "status": "VERIFIED",
+    "signature": "public State CurrentState { get; private set; }"
+  },
+  "MobileParty.MemberRoster": {
+    "status": "VERIFIED",
+    "signature": "public int TotalWage => (int)Campaign.Current.Models.PartyWageModel.GetTotalWage(this, MemberRoster).ResultNumber;"
+  },
+  "MobileParty.All": {
+    "status": "VERIFIED",
+    "signature": "public static MBReadOnlyList<MobileParty> All => Campaign.Current.MobileParties;"
+  },
+  "MobileParty.CreateParty": {
+    "status": "VERIFIED",
+    "signature": "public static MobileParty CreateParty(string stringId, PartyComponent component)"
+  },
+  "MobileParty.MainParty": {
+    "status": "VERIFIED",
+    "signature": "public static MobileParty MainParty => Campaign.Current.MainParty;"
+  },
+  "MobileParty.IsActive": {
+    "status": "VERIFIED",
+    "signature": "public bool IsActive { get; set; }"
+  },
+  "MobileParty.NavigationType": {
+    "status": "VERIFIED",
+    "signature": "public enum NavigationType"
+  },
+  "Village.Gold": {
+    "status": "MISSING_MEMBER",
+    "signature": "Member 'Gold' not found in Village"
+  },
+  "Village.GetItemPrice": {
+    "status": "VERIFIED",
+    "signature": "public override int GetItemPrice(ItemObject item, MobileParty tradingParty = null, bool isSelling = false)"
+  },
+  "Village.VillageType": {
+    "status": "VERIFIED",
+    "signature": "public VillageType VillageType;"
+  },
+  "Village.Hearth": {
+    "status": "VERIFIED",
+    "signature": "public const int MidHearthThreshold = 600;"
+  },
+  "Village.VillageState": {
+    "status": "VERIFIED",
+    "signature": "public enum VillageStates"
+  },
+  "Village.VillageStates": {
+    "status": "VERIFIED",
+    "signature": "public enum VillageStates"
+  },
+  "EndCaptivityAction.ApplyByReleasedByChoice": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyByReleasedByChoice(FlattenedTroopRoster troopRoster)"
+  },
+  "EndCaptivityAction.ApplyByRansom": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyByRansom(Hero character, Hero facilitator)"
+  },
+  "EndCaptivityAction.ApplyByEscape": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyByEscape(Hero character, Hero facilitator = null, bool showNotification = true)"
+  },
+  "KillCharacterAction.ApplyByRemove": {
+    "status": "VERIFIED",
+    "signature": "public static void ApplyByRemove(Hero victim, bool showNotification = false, bool isForced = true)"
+  },
+  "KillCharacterAction.KillCharacterActionDetail": {
+    "status": "VERIFIED",
+    "signature": "public enum KillCharacterActionDetail"
+  },
+  "Hero.Level": {
+    "status": "VERIFIED",
+    "signature": "public int Level;"
+  },
+  "Hero.Name": {
+    "status": "VERIFIED",
+    "signature": "public TextObject FirstName => _firstName;"
+  },
+  "Hero.GetSkillValue": {
+    "status": "VERIFIED",
+    "signature": "public int GetSkillValue(SkillObject skill)"
+  },
+  "Hero.CurrentSettlement": {
+    "status": "VERIFIED",
+    "signature": "public Settlement CurrentSettlement"
+  },
+  "Hero.OneToOneConversationHero": {
+    "status": "VERIFIED",
+    "signature": "public static Hero OneToOneConversationHero => Campaign.Current.ConversationManager.OneToOneConversationHero;"
+  },
+  "Hero.CharacterObject": {
+    "status": "VERIFIED",
+    "signature": "public CharacterObject[] VolunteerTypes;"
+  },
+  "Hero.HeroDeveloper": {
+    "status": "VERIFIED",
+    "signature": "public HeroDeveloper HeroDeveloper => _heroDeveloper;"
+  },
+  "Hero.MainHero": {
+    "status": "VERIFIED",
+    "signature": "public bool IsHumanPlayerCharacter => this == MainHero;"
+  },
+  "Hero.AllAliveHeroes": {
+    "status": "VERIFIED",
+    "signature": "public static MBReadOnlyList<Hero> AllAliveHeroes => Campaign.Current.AliveHeroes;"
+  },
+  "Hero.CharacterStates": {
+    "status": "VERIFIED",
+    "signature": "public enum CharacterStates"
+  },
+  "AddCompanionAction.Apply": {
+    "status": "VERIFIED",
+    "signature": "public static void Apply(Clan clan, Hero companion)"
+  },
+  "AddHeroToPartyAction.Apply": {
+    "status": "VERIFIED",
+    "signature": "public static void Apply(Hero hero, MobileParty party, bool showNotification = true)"
+  },
+  "InformationManager.DisplayMessage": {
+    "status": "VERIFIED",
+    "signature": "public static event Action<InformationMessage> DisplayMessageInternal;"
+  },
+  "InformationManager.ShowInquiry": {
+    "status": "VERIFIED",
+    "signature": "public static event Action<InquiryData, bool, bool> OnShowInquiry;"
+  },
+  "Kingdom.Leader": {
+    "status": "VERIFIED",
+    "signature": "public Hero Leader => _rulingClan?.Leader;"
+  },
+  "Kingdom.All": {
+    "status": "VERIFIED",
+    "signature": "public MBReadOnlyList<Kingdom> AlliedKingdoms => _alliedKingdoms;"
+  },
+  "GameMenuOption.LeaveType": {
+    "status": "MISSING_TYPE",
+    "signature": "Type not found in DLLs"
+  },
+  "TextObject.GetEmpty": {
+    "status": "VERIFIED",
+    "signature": "public static TextObject GetEmpty()"
+  },
+  "CharacterObject.Level": {
+    "status": "VERIFIED",
+    "signature": "public override int Level"
+  },
+  "CharacterObject.All": {
+    "status": "VERIFIED",
+    "signature": "public static MBReadOnlyList<CharacterObject> All => Campaign.Current.Characters;"
+  },
+  "Mission.Current": {
+    "status": "VERIFIED",
+    "signature": "internal UIntPtr Channel0CurrentActionPointer;"
+  },
+  "ItemObject.ItemTypeEnum": {
+    "status": "VERIFIED",
+    "signature": "public enum ItemTypeEnum"
+  },
+  "ItemObject.ItemTiers": {
+    "status": "VERIFIED",
+    "signature": "public enum ItemTiers"
+  },
+  "TroopRoster.CreateDummyTroopRoster": {
+    "status": "VERIFIED",
+    "signature": "public static TroopRoster CreateDummyTroopRoster()"
+  },
+  "Inherits SaveableTypeDefiner": {
+    "status": "VERIFIED",
+    "signature": "public abstract class SaveableTypeDefiner"
+  },
+  "CampaignGameStarter.AddModel": {
+    "status": "VERIFIED",
+    "signature": "public void AddModel(GameModel gameModel)"
+  }
+}

@@ -29,6 +29,7 @@ namespace NewClans
         public override void RegisterEvents()
         {
             CampaignEvents.OnSessionLaunchedEvent.AddNonSerializedListener(this, OnSessionLaunched);
+            CampaignEvents.WeeklyTickEvent.AddNonSerializedListener(this, OnWeeklyTick);
         }
 
         public override void SyncData(IDataStore dataStore)
@@ -193,5 +194,96 @@ namespace NewClans
                 _logger.Error(ex, "Error during companion promotion sequence");
             }
         }
-    }
+
+
+
+        private void OnWeeklyTick()
+        {
+             // AI Logic: Check for Wealthy Clans triggering fission
+             foreach(var clan in Clan.All)
+             {
+                 if (clan == Clan.PlayerClan) continue;
+                 if (clan.IsEliminated || clan.IsBanditFaction || clan.Kingdom == null) continue;
+                 
+                 // Criteria: Very Rich, High Tier, Many Fiefs
+                 if (clan.Tier >= 5 && clan.Gold > 2000000 && clan.Settlements.Count >= 3)
+                 {
+                     ManageAiPromotion(clan);
+                 }
+             }
+        }
+
+        private void ManageAiPromotion(Clan clan)
+        {
+            // Find a companion to promote
+            // AI Clans usually don't keep "Companions" in roster?
+            // They have "Heroes" (Family/Lords).
+            // Do AI Lords hire wanderers? 
+            // LudusMagnus/LudusAiManagementBehavior hires staff (wanderers) but they stay in Ludus.
+            // Regular AI Lords don't usually hire wanderers unless modded (HappyParty?).
+            // If they have a wanderer in their party/clan who is NOT family:
+            
+            var candidates = clan.Companions.Where(h => 
+                h.IsAlive && 
+                h.IsPlayerCompanion == false && // "PlayerCompanion" flag might be false for AI?
+                h.IsWanderer && 
+                !h.IsLord).ToList(); // Ensure not already noble
+
+            if (candidates.Count == 0) return;
+
+            Hero candidate = candidates.GetRandomElement();
+            
+            // Fief to give: One of their own Castles
+            Settlement fief = clan.Settlements.FirstOrDefault(s => s.IsCastle);
+            if (fief == null) return;
+
+            // Cost
+            int cost = _settings.PromotionCost;
+            if (clan.Gold < cost * 2) return; // Safety buffer
+
+            // Action
+            if (MBRandom.RandomFloat < 0.1f) // 10% chance per week if conditions met
+            {
+                // Pay gold to Kingdom Leader (or sink if leader)
+                Hero king = clan.Kingdom.Leader;
+                if (king != null && king != clan.Leader)
+                {
+                    GiveGoldAction.ApplyBetweenCharacters(clan.Leader, king, cost, true);
+                }
+                else
+                {
+                    GiveGoldAction.ApplyBetweenCharacters(clan.Leader, null, cost, true); // Sink
+                }
+
+                // Promote
+                PerformPromotion(candidate, fief);
+                if (_settings.DebugMode)
+                    _logger.Information($"[NewClans AI] {clan.Name} promoted {candidate.Name} to new clan with {fief.Name}.");
+            }
+        }
+
+        private void PerformPromotion(Hero companion, Settlement fief)
+        {
+             try
+             {
+                 string clanName = companion.Name.ToString() + "'s Clan";
+                 int iconId = companion.StringId.GetHashCode();
+                 
+                 Clan.CreateCompanionToLordClan(companion, fief, new TextObject(clanName), iconId);
+                 
+                 // Ensure removed from old party logic handled by game usually, but good to check
+                 if (companion.PartyBelongedTo != null)
+                 {
+                      // If leading a party, the party becomes the new clan's party automatically?
+                      // If in a party, they leave.
+                 }
+                 
+                 _logger.Information($"Created new clan: {clanName}");
+             }
+             catch (Exception ex)
+             {
+                 _logger.Error(ex, "Error promoting AI companion");
+             }
+        }
+}
 }

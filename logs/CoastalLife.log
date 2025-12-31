@@ -1,0 +1,533 @@
+[19:16:56 INF] CoastalLife SubModule Loaded. Log Path: d:\Bannerlord_Mods\logs\CoastalLife.log
+[19:16:56 INF] CoastalLife Harmony patches applied.
+[19:17:24 INF] CoastalLife OnGameStart: Validating dependencies...
+[19:17:24 INF] CoastalLife behaviors added.
+[19:17:34 INF] Located NavalDLC Assembly: NavalDLC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:17:34 INF] ShipDumperBehavior: Reflection Complete.
+[19:17:55 ERR] Spawn Failed: Object reference not set to an instance of an object.
+[19:30:31 INF] CoastalLife SubModule Loaded. Log Path: d:\Bannerlord_Mods\logs\CoastalLife.log
+[19:30:31 INF] CoastalLife Harmony patches applied.
+[19:30:59 INF] CoastalLife OnGameStart: Validating dependencies...
+[19:30:59 INF] CoastalLife behaviors added.
+[19:31:10 INF] Located NavalDLC Assembly: NavalDLC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:31:10 INF] ShipDumperBehavior: Reflection Complete.
+[19:35:37 INF] Attempting to spawn patrol for Hvalvik using template patrol_party_nord_template_coastal
+[19:35:37 INF] Creating MobileParty: coastal_patrol_town_N1_2077
+[19:35:37 INF] MobileParty created: Coast Guard of Hvalvik
+[19:35:37 INF] Spawn Position: (CampaignVec2) X: 203.1058 Y: 730.0254 IsOnLand: True
+[19:35:37 ERR] Failed at InitializeMobilePartyAtPosition
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NavalDLC.CampaignBehaviors.ShipNameCampaignBehavior.GetNameFlags(Ship ship)
+   at NavalDLC.CampaignBehaviors.ShipNameCampaignBehavior.AssignNameToShip(Ship ship)
+   at NavalDLC.CampaignBehaviors.ShipNameCampaignBehavior.OnShipOwnerChanged(Ship ship, PartyBase owner, ShipOwnerChangeDetail detail)
+   at TaleWorlds.CampaignSystem.MbEvent`3.InvokeList(EventHandlerRec`3 list, T1 t1, T2 t2, T3 t3)
+   at TaleWorlds.CampaignSystem.CampaignEvents.OnShipOwnerChanged(Ship ship, PartyBase oldOwner, ShipOwnerChangeDetail changeDetail)
+   at TaleWorlds.CampaignSystem.CampaignEventDispatcher.OnShipOwnerChanged(Ship ship, PartyBase oldOwner, ShipOwnerChangeDetail changeDetail)
+   at TaleWorlds.CampaignSystem.Actions.ChangeShipOwnerAction.ApplyInternal(PartyBase newOwner, Ship ship, ShipOwnerChangeDetail changeDetail)
+   at TaleWorlds.CampaignSystem.Party.MobileParty.InitializeMobilePartyWithPartyTemplate(PartyTemplateObject pt, CampaignVec2 position)
+   at TaleWorlds.CampaignSystem.Party.MobileParty.InitializeMobilePartyAtPosition(PartyTemplateObject pt, CampaignVec2 position)
+   at CoastalLife.CoastalPatrolBehavior.SpawnPatrolParty(Settlement settlement) in D:\Bannerlord_Mods\Modules\CoastalLife\CoastalPatrolBehavior.cs:line 204
+[19:35:37 ERR] Spawn Failed Detailed: Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at NavalDLC.CampaignBehaviors.ShipNameCampaignBehavior.GetNameFlags(Ship ship)
+   at NavalDLC.CampaignBehaviors.ShipNameCampaignBehavior.AssignNameToShip(Ship ship)
+   at NavalDLC.CampaignBehaviors.ShipNameCampaignBehavior.OnShipOwnerChanged(Ship ship, PartyBase owner, ShipOwnerChangeDetail detail)
+   at TaleWorlds.CampaignSystem.MbEvent`3.InvokeList(EventHandlerRec`3 list, T1 t1, T2 t2, T3 t3)
+   at TaleWorlds.CampaignSystem.CampaignEvents.OnShipOwnerChanged(Ship ship, PartyBase oldOwner, ShipOwnerChangeDetail changeDetail)
+   at TaleWorlds.CampaignSystem.CampaignEventDispatcher.OnShipOwnerChanged(Ship ship, PartyBase oldOwner, ShipOwnerChangeDetail changeDetail)
+   at TaleWorlds.CampaignSystem.Actions.ChangeShipOwnerAction.ApplyInternal(PartyBase newOwner, Ship ship, ShipOwnerChangeDetail changeDetail)
+   at TaleWorlds.CampaignSystem.Party.MobileParty.InitializeMobilePartyWithPartyTemplate(PartyTemplateObject pt, CampaignVec2 position)
+   at TaleWorlds.CampaignSystem.Party.MobileParty.InitializeMobilePartyAtPosition(PartyTemplateObject pt, CampaignVec2 position)
+   at CoastalLife.CoastalPatrolBehavior.SpawnPatrolParty(Settlement settlement) in D:\Bannerlord_Mods\Modules\CoastalLife\CoastalPatrolBehavior.cs:line 210
+[19:41:57 INF] CoastalLife SubModule Loaded. Log Path: d:\Bannerlord_Mods\logs\CoastalLife.log
+[19:41:57 INF] CoastalLife Harmony patches applied.
+[19:42:20 INF] CoastalLife OnGameStart: Validating dependencies...
+[19:42:20 INF] CoastalLife behaviors added.
+[19:42:31 INF] Located NavalDLC Assembly: NavalDLC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:42:31 INF] ShipDumperBehavior: Reflection Complete.
+[19:42:53 INF] Attempting to spawn patrol for Chaikand using template patrol_party_khuzait_template_coastal
+[19:42:53 INF] Creating MobileParty: coastal_patrol_town_K5_8681
+[19:42:53 INF] MobileParty created: Coast Guard of Chaikand
+[19:42:53 INF] Spawn Position: (CampaignVec2) X: 843.7406 Y: 458.4564 IsOnLand: True. Initializing Template: patrol_party_khuzait_template_coastal
+[19:42:53 INF] Initialized at position.
+[19:42:53 INF] SetMovePatrolAroundSettlement successful.
+[19:42:53 INF] Spawned Coastal Patrol Coast Guard of Chaikand for Chaikand
+[20:26:29 INF] CoastalLife SubModule Loaded. Log Path: d:\Bannerlord_Mods\logs\CoastalLife.log
+[20:26:29 INF] CoastalLife Harmony patches applied.
+[20:26:43 INF] CoastalLife OnGameStart: Validating dependencies...
+[20:26:43 INF] CoastalLife behaviors added.
+[20:26:54 INF] Located NavalDLC Assembly: NavalDLC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:26:54 INF] ShipDumperBehavior: Reflection Complete.
+[20:27:18 INF] Attempting to spawn patrol for Chaikand using template patrol_party_khuzait_template_coastal
+[20:27:18 INF] Creating MobileParty: coastal_patrol_town_K5_347
+[20:27:18 INF] MobileParty created: Coast Guard of Chaikand
+[20:27:18 INF] Spawn Position: (CampaignVec2) X: 843.7406 Y: 458.4564 IsOnLand: True. Initializing Template: patrol_party_khuzait_template_coastal
+[20:27:18 INF] Initialized at position.
+[20:27:18 INF] SetMovePatrolAroundSettlement successful.
+[20:27:18 INF] Spawned Coastal Patrol Coast Guard of Chaikand for Chaikand
+[20:27:21 INF] Attempting to spawn patrol for Thronderlag using template patrol_party_nord_template_coastal
+[20:27:21 INF] Creating MobileParty: coastal_patrol_town_N3_8519
+[20:27:21 INF] MobileParty created: Coast Guard of Thronderlag
+[20:27:21 INF] Spawn Position: (CampaignVec2) X: 726.8854 Y: 804.4406 IsOnLand: True. Initializing Template: patrol_party_nord_template_coastal
+[20:27:21 INF] Initialized at position.
+[20:27:21 INF] SetMovePatrolAroundSettlement successful.
+[20:27:21 INF] Spawned Coastal Patrol Coast Guard of Thronderlag for Thronderlag
+[20:27:22 INF] Attempting to spawn patrol for Hvalvik using template patrol_party_nord_template_coastal
+[20:27:22 INF] Creating MobileParty: coastal_patrol_town_N1_690
+[20:27:22 INF] MobileParty created: Coast Guard of Hvalvik
+[20:27:22 INF] Spawn Position: (CampaignVec2) X: 203.1058 Y: 730.0254 IsOnLand: True. Initializing Template: patrol_party_nord_template_coastal
+[20:27:22 INF] Initialized at position.
+[20:27:22 INF] SetMovePatrolAroundSettlement successful.
+[20:27:22 INF] Spawned Coastal Patrol Coast Guard of Hvalvik for Hvalvik
+[20:27:27 INF] Attempting to spawn patrol for Ostican using template patrol_party_vlandia_template_coastal
+[20:27:27 INF] Creating MobileParty: coastal_patrol_town_V8_4999
+[20:27:27 INF] MobileParty created: Coast Guard of Ostican
+[20:27:27 INF] Spawn Position: (CampaignVec2) X: 247.4046 Y: 589.4118 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:27:27 INF] Initialized at position.
+[20:27:27 INF] SetMovePatrolAroundSettlement successful.
+[20:27:27 INF] Spawned Coastal Patrol Coast Guard of Ostican for Ostican
+[20:27:29 INF] Attempting to spawn patrol for Qasira using template patrol_party_aserai_template_coastal
+[20:27:29 INF] Creating MobileParty: coastal_patrol_town_A8_6867
+[20:27:29 INF] MobileParty created: Coast Guard of Qasira
+[20:27:29 INF] Spawn Position: (CampaignVec2) X: 617.0765 Y: 152.3234 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:27:29 INF] Initialized at position.
+[20:27:29 INF] SetMovePatrolAroundSettlement successful.
+[20:27:29 INF] Spawned Coastal Patrol Coast Guard of Qasira for Qasira
+[20:27:31 INF] Attempting to spawn patrol for Vostrum using template patrol_party_empire_template_coastal
+[20:27:31 INF] Creating MobileParty: coastal_patrol_town_ES2_4511
+[20:27:31 INF] MobileParty created: Coast Guard of Vostrum
+[20:27:31 INF] Spawn Position: (CampaignVec2) X: 686.3214 Y: 292.3106 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:31 INF] Initialized at position.
+[20:27:31 INF] SetMovePatrolAroundSettlement successful.
+[20:27:31 INF] Spawned Coastal Patrol Coast Guard of Vostrum for Vostrum
+[20:27:32 INF] Attempting to spawn patrol for Poros using template patrol_party_empire_template_coastal
+[20:27:32 INF] Creating MobileParty: coastal_patrol_town_ES3_5846
+[20:27:32 INF] MobileParty created: Coast Guard of Poros
+[20:27:32 INF] Spawn Position: (CampaignVec2) X: 606.8111 Y: 300.1599 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:32 INF] Initialized at position.
+[20:27:32 INF] SetMovePatrolAroundSettlement successful.
+[20:27:32 INF] Spawned Coastal Patrol Coast Guard of Poros for Poros
+[20:27:33 INF] Attempting to spawn patrol for Lageta using template patrol_party_empire_template_coastal
+[20:27:33 INF] Creating MobileParty: coastal_patrol_town_EW1_3512
+[20:27:33 INF] MobileParty created: Coast Guard of Lageta
+[20:27:33 INF] Spawn Position: (CampaignVec2) X: 386.5522 Y: 405.6549 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:33 INF] Initialized at position.
+[20:27:33 INF] SetMovePatrolAroundSettlement successful.
+[20:27:33 INF] Spawned Coastal Patrol Coast Guard of Lageta for Lageta
+[20:27:38 INF] Attempting to spawn patrol for Zeonica using template patrol_party_empire_template_coastal
+[20:27:38 INF] Creating MobileParty: coastal_patrol_town_EW2_5209
+[20:27:38 INF] MobileParty created: Coast Guard of Zeonica
+[20:27:38 INF] Spawn Position: (CampaignVec2) X: 513.6017 Y: 323.8249 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:38 INF] Initialized at position.
+[20:27:38 INF] SetMovePatrolAroundSettlement successful.
+[20:27:38 INF] Spawned Coastal Patrol Coast Guard of Zeonica for Zeonica
+[20:27:38 INF] Attempting to spawn patrol for Diathma using template patrol_party_empire_template_coastal
+[20:27:38 INF] Creating MobileParty: coastal_patrol_town_EN2_5290
+[20:27:38 INF] MobileParty created: Coast Guard of Diathma
+[20:27:38 INF] Spawn Position: (CampaignVec2) X: 572.9152 Y: 505.5981 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:38 INF] Initialized at position.
+[20:27:38 INF] SetMovePatrolAroundSettlement successful.
+[20:27:38 INF] Spawned Coastal Patrol Coast Guard of Diathma for Diathma
+[20:27:39 INF] Attempting to spawn patrol for Galend using template patrol_party_vlandia_template_coastal
+[20:27:39 INF] Creating MobileParty: coastal_patrol_town_V5_5792
+[20:27:39 INF] MobileParty created: Coast Guard of Galend
+[20:27:39 INF] Spawn Position: (CampaignVec2) X: 202.7871 Y: 450.4803 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:27:39 INF] Initialized at position.
+[20:27:39 INF] SetMovePatrolAroundSettlement successful.
+[20:27:39 INF] Spawned Coastal Patrol Coast Guard of Galend for Galend
+[20:27:39 INF] Attempting to spawn patrol for Sanala using template patrol_party_aserai_template_coastal
+[20:27:39 INF] Creating MobileParty: coastal_patrol_town_A6_9207
+[20:27:39 INF] MobileParty created: Coast Guard of Sanala
+[20:27:39 INF] Spawn Position: (CampaignVec2) X: 481.2044 Y: 201.2855 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:27:39 INF] Initialized at position.
+[20:27:39 INF] SetMovePatrolAroundSettlement successful.
+[20:27:39 INF] Spawned Coastal Patrol Coast Guard of Sanala for Sanala
+[20:27:39 INF] Attempting to spawn patrol for Balgard using template patrol_party_sturgia_template_coastal
+[20:27:39 INF] Creating MobileParty: coastal_patrol_town_S2_4368
+[20:27:39 INF] MobileParty created: Coast Guard of Balgard
+[20:27:39 INF] Spawn Position: (CampaignVec2) X: 725.4158 Y: 709.6862 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[20:27:39 INF] Initialized at position.
+[20:27:39 INF] SetMovePatrolAroundSettlement successful.
+[20:27:39 INF] Spawned Coastal Patrol Coast Guard of Balgard for Balgard
+[20:27:41 INF] Attempting to spawn patrol for Argoron using template patrol_party_empire_template_coastal
+[20:27:41 INF] Creating MobileParty: coastal_patrol_town_EN4_7399
+[20:27:41 INF] MobileParty created: Coast Guard of Argoron
+[20:27:41 INF] Spawn Position: (CampaignVec2) X: 655.1505 Y: 539.5372 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:41 INF] Initialized at position.
+[20:27:41 INF] SetMovePatrolAroundSettlement successful.
+[20:27:41 INF] Spawned Coastal Patrol Coast Guard of Argoron for Argoron
+[20:27:41 INF] Attempting to spawn patrol for Hargard using template patrol_party_nord_template_coastal
+[20:27:41 INF] Creating MobileParty: coastal_patrol_town_N4_3124
+[20:27:41 INF] MobileParty created: Coast Guard of Hargard
+[20:27:41 INF] Spawn Position: (CampaignVec2) X: 885.4429 Y: 748.7587 IsOnLand: True. Initializing Template: patrol_party_nord_template_coastal
+[20:27:41 INF] Initialized at position.
+[20:27:41 INF] SetMovePatrolAroundSettlement successful.
+[20:27:41 INF] Spawned Coastal Patrol Coast Guard of Hargard for Hargard
+[20:27:42 INF] Attempting to spawn patrol for Gretysfjord using template patrol_party_nord_template_coastal
+[20:27:42 INF] Creating MobileParty: coastal_patrol_town_N2_816
+[20:27:42 INF] MobileParty created: Coast Guard of Gretysfjord
+[20:27:42 INF] Spawn Position: (CampaignVec2) X: 525.6013 Y: 771.1588 IsOnLand: True. Initializing Template: patrol_party_nord_template_coastal
+[20:27:42 INF] Initialized at position.
+[20:27:42 INF] SetMovePatrolAroundSettlement successful.
+[20:27:42 INF] Spawned Coastal Patrol Coast Guard of Gretysfjord for Gretysfjord
+[20:27:43 INF] Attempting to spawn patrol for Varnovapol using template patrol_party_sturgia_template_coastal
+[20:27:43 INF] Creating MobileParty: coastal_patrol_town_S4_9805
+[20:27:43 INF] MobileParty created: Coast Guard of Varnovapol
+[20:27:43 INF] Spawn Position: (CampaignVec2) X: 649.0852 Y: 618.29 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[20:27:43 INF] Initialized at position.
+[20:27:43 INF] SetMovePatrolAroundSettlement successful.
+[20:27:43 INF] Spawned Coastal Patrol Coast Guard of Varnovapol for Varnovapol
+[20:27:44 INF] Attempting to spawn patrol for Omor using template patrol_party_sturgia_template_coastal
+[20:27:44 INF] Creating MobileParty: coastal_patrol_town_S3_953
+[20:27:44 INF] MobileParty created: Coast Guard of Omor
+[20:27:44 INF] Spawn Position: (CampaignVec2) X: 557.2634 Y: 577.519 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[20:27:44 INF] Initialized at position.
+[20:27:44 INF] SetMovePatrolAroundSettlement successful.
+[20:27:44 INF] Spawned Coastal Patrol Coast Guard of Omor for Omor
+[20:27:46 INF] Attempting to spawn patrol for Car Banseth using template patrol_party_battania_template_coastal
+[20:27:46 INF] Creating MobileParty: coastal_patrol_town_B3_2277
+[20:27:46 INF] MobileParty created: Coast Guard of Car Banseth
+[20:27:46 INF] Spawn Position: (CampaignVec2) X: 406.5912 Y: 574.0927 IsOnLand: True. Initializing Template: patrol_party_battania_template_coastal
+[20:27:46 INF] Initialized at position.
+[20:27:46 INF] SetMovePatrolAroundSettlement successful.
+[20:27:46 INF] Spawned Coastal Patrol Coast Guard of Car Banseth for Car Banseth
+[20:27:48 INF] Attempting to spawn patrol for Charas using template patrol_party_vlandia_template_coastal
+[20:27:48 INF] Creating MobileParty: coastal_patrol_town_V7_8461
+[20:27:48 INF] MobileParty created: Coast Guard of Charas
+[20:27:48 INF] Spawn Position: (CampaignVec2) X: 312.709 Y: 375.2491 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:27:48 INF] Initialized at position.
+[20:27:48 INF] SetMovePatrolAroundSettlement successful.
+[20:27:48 INF] Spawned Coastal Patrol Coast Guard of Charas for Charas
+[20:27:49 INF] Attempting to spawn patrol for Pravend using template patrol_party_vlandia_template_coastal
+[20:27:49 INF] Creating MobileParty: coastal_patrol_town_V3_3500
+[20:27:49 INF] MobileParty created: Coast Guard of Pravend
+[20:27:49 INF] Spawn Position: (CampaignVec2) X: 239.7295 Y: 516.6317 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:27:49 INF] Initialized at position.
+[20:27:49 INF] SetMovePatrolAroundSettlement successful.
+[20:27:49 INF] Spawned Coastal Patrol Coast Guard of Pravend for Pravend
+[20:27:49 INF] Attempting to spawn patrol for Askar using template patrol_party_aserai_template_coastal
+[20:27:49 INF] Creating MobileParty: coastal_patrol_town_A7_6260
+[20:27:49 INF] MobileParty created: Coast Guard of Askar
+[20:27:49 INF] Spawn Position: (CampaignVec2) X: 462.33 Y: 118.0301 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:27:49 INF] Initialized at position.
+[20:27:49 INF] SetMovePatrolAroundSettlement successful.
+[20:27:49 INF] Spawned Coastal Patrol Coast Guard of Askar for Askar
+[20:27:50 INF] Attempting to spawn patrol for Razih using template patrol_party_aserai_template_coastal
+[20:27:50 INF] Creating MobileParty: coastal_patrol_town_A4_3194
+[20:27:50 INF] MobileParty created: Coast Guard of Razih
+[20:27:50 INF] Spawn Position: (CampaignVec2) X: 742.1818 Y: 170.3419 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:27:50 INF] Initialized at position.
+[20:27:50 INF] SetMovePatrolAroundSettlement successful.
+[20:27:50 INF] Spawned Coastal Patrol Coast Guard of Razih for Razih
+[20:27:51 INF] Attempting to spawn patrol for Syronea using template patrol_party_empire_template_coastal
+[20:27:51 INF] Creating MobileParty: coastal_patrol_town_ES7_3990
+[20:27:51 INF] MobileParty created: Coast Guard of Syronea
+[20:27:51 INF] Spawn Position: (CampaignVec2) X: 792.4435 Y: 446.1407 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:51 INF] Initialized at position.
+[20:27:51 INF] SetMovePatrolAroundSettlement successful.
+[20:27:51 INF] Spawned Coastal Patrol Coast Guard of Syronea for Syronea
+[20:27:52 INF] Attempting to spawn patrol for Danustica using template patrol_party_empire_template_coastal
+[20:27:52 INF] Creating MobileParty: coastal_patrol_town_ES1_7935
+[20:27:52 INF] MobileParty created: Coast Guard of Danustica
+[20:27:52 INF] Spawn Position: (CampaignVec2) X: 774.6617 Y: 275.3807 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:52 INF] Initialized at position.
+[20:27:52 INF] SetMovePatrolAroundSettlement successful.
+[20:27:52 INF] Spawned Coastal Patrol Coast Guard of Danustica for Danustica
+[20:27:52 INF] Attempting to spawn patrol for Rhotae using template patrol_party_empire_template_coastal
+[20:27:52 INF] Creating MobileParty: coastal_patrol_town_EW6_8621
+[20:27:52 INF] MobileParty created: Coast Guard of Rhotae
+[20:27:52 INF] Spawn Position: (CampaignVec2) X: 482.4727 Y: 400.6099 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:52 INF] Initialized at position.
+[20:27:52 INF] SetMovePatrolAroundSettlement successful.
+[20:27:52 INF] Spawned Coastal Patrol Coast Guard of Rhotae for Rhotae
+[20:27:53 INF] Attempting to spawn patrol for Ortysia using template patrol_party_empire_template_coastal
+[20:27:53 INF] Creating MobileParty: coastal_patrol_town_EW4_2750
+[20:27:53 INF] MobileParty created: Coast Guard of Ortysia
+[20:27:53 INF] Spawn Position: (CampaignVec2) X: 397.0938 Y: 345.85 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:27:53 INF] Initialized at position.
+[20:27:53 INF] SetMovePatrolAroundSettlement successful.
+[20:27:53 INF] Spawned Coastal Patrol Coast Guard of Ortysia for Ortysia
+[20:27:56 INF] Attempting to spawn patrol for Makeb using template patrol_party_khuzait_template_coastal
+[20:27:56 INF] Creating MobileParty: coastal_patrol_town_K3_5064
+[20:27:56 INF] MobileParty created: Coast Guard of Makeb
+[20:27:56 INF] Spawn Position: (CampaignVec2) X: 837.6634 Y: 539.4299 IsOnLand: True. Initializing Template: patrol_party_khuzait_template_coastal
+[20:27:56 INF] Initialized at position.
+[20:27:56 INF] SetMovePatrolAroundSettlement successful.
+[20:27:56 INF] Spawned Coastal Patrol Coast Guard of Makeb for Makeb
+[20:27:57 INF] Attempting to spawn patrol for Quyaz using template patrol_party_aserai_template_coastal
+[20:27:57 INF] Creating MobileParty: coastal_patrol_town_A1_5461
+[20:27:57 INF] MobileParty created: Coast Guard of Quyaz
+[20:27:57 INF] Spawn Position: (CampaignVec2) X: 371.2723 Y: 257.0382 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:27:57 INF] Initialized at position.
+[20:27:57 INF] SetMovePatrolAroundSettlement successful.
+[20:27:57 INF] Spawned Coastal Patrol Coast Guard of Quyaz for Quyaz
+[20:28:23 INF] Attempting to spawn patrol for Varnovapol using template patrol_party_sturgia_template_coastal
+[20:28:23 INF] Creating MobileParty: coastal_patrol_town_S4_1001
+[20:28:23 INF] MobileParty created: Coast Guard of Varnovapol
+[20:28:23 INF] Spawn Position: (CampaignVec2) X: 649.0852 Y: 618.29 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[20:28:23 INF] Initialized at position.
+[20:28:23 INF] SetMovePatrolAroundSettlement successful.
+[20:28:23 INF] Spawned Coastal Patrol Coast Guard of Varnovapol for Varnovapol
+[20:34:44 INF] CoastalLife SubModule Loaded. Log Path: d:\Bannerlord_Mods\logs\CoastalLife.log
+[20:34:44 INF] CoastalLife Harmony patches applied.
+[20:34:57 INF] CoastalLife OnGameStart: Validating dependencies...
+[20:34:57 INF] CoastalLife behaviors added.
+[20:35:08 INF] Located NavalDLC Assembly: NavalDLC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[20:35:08 INF] ShipDumperBehavior: Reflection Complete.
+[20:35:59 INF] Attempting to spawn patrol for Chaikand using template patrol_party_khuzait_template_coastal
+[20:35:59 INF] Creating MobileParty: coastal_patrol_town_K5_1439
+[20:35:59 INF] MobileParty created: Coast Guard of Chaikand
+[20:35:59 INF] Spawn Position: (CampaignVec2) X: 843.7406 Y: 458.4564 IsOnLand: True. Initializing Template: patrol_party_khuzait_template_coastal
+[20:35:59 INF] Initialized at position.
+[20:35:59 INF] SetMovePatrolAroundSettlement successful.
+[20:35:59 INF] Spawned Coastal Patrol Coast Guard of Chaikand for Chaikand
+[20:36:01 INF] Attempting to spawn patrol for Argoron using template patrol_party_empire_template_coastal
+[20:36:01 INF] Creating MobileParty: coastal_patrol_town_EN4_273
+[20:36:01 INF] MobileParty created: Coast Guard of Argoron
+[20:36:01 INF] Spawn Position: (CampaignVec2) X: 655.1505 Y: 539.5372 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:36:01 INF] Initialized at position.
+[20:36:01 INF] SetMovePatrolAroundSettlement successful.
+[20:36:01 INF] Spawned Coastal Patrol Coast Guard of Argoron for Argoron
+[20:36:02 INF] Attempting to spawn patrol for Thronderlag using template patrol_party_nord_template_coastal
+[20:36:02 INF] Creating MobileParty: coastal_patrol_town_N3_5476
+[20:36:02 INF] MobileParty created: Coast Guard of Thronderlag
+[20:36:02 INF] Spawn Position: (CampaignVec2) X: 726.8854 Y: 804.4406 IsOnLand: True. Initializing Template: patrol_party_nord_template_coastal
+[20:36:02 INF] Initialized at position.
+[20:36:02 INF] SetMovePatrolAroundSettlement successful.
+[20:36:02 INF] Spawned Coastal Patrol Coast Guard of Thronderlag for Thronderlag
+[20:36:02 INF] Attempting to spawn patrol for Gretysfjord using template patrol_party_nord_template_coastal
+[20:36:02 INF] Creating MobileParty: coastal_patrol_town_N2_348
+[20:36:02 INF] MobileParty created: Coast Guard of Gretysfjord
+[20:36:02 INF] Spawn Position: (CampaignVec2) X: 525.6013 Y: 771.1588 IsOnLand: True. Initializing Template: patrol_party_nord_template_coastal
+[20:36:02 INF] Initialized at position.
+[20:36:02 INF] SetMovePatrolAroundSettlement successful.
+[20:36:02 INF] Spawned Coastal Patrol Coast Guard of Gretysfjord for Gretysfjord
+[20:36:02 INF] Attempting to spawn patrol for Hvalvik using template patrol_party_nord_template_coastal
+[20:36:02 INF] Creating MobileParty: coastal_patrol_town_N1_565
+[20:36:02 INF] MobileParty created: Coast Guard of Hvalvik
+[20:36:02 INF] Spawn Position: (CampaignVec2) X: 203.1058 Y: 730.0254 IsOnLand: True. Initializing Template: patrol_party_nord_template_coastal
+[20:36:02 INF] Initialized at position.
+[20:36:02 INF] SetMovePatrolAroundSettlement successful.
+[20:36:02 INF] Spawned Coastal Patrol Coast Guard of Hvalvik for Hvalvik
+[20:36:10 INF] Attempting to spawn patrol for Charas using template patrol_party_vlandia_template_coastal
+[20:36:10 INF] Creating MobileParty: coastal_patrol_town_V7_2485
+[20:36:10 INF] MobileParty created: Coast Guard of Charas
+[20:36:10 INF] Spawn Position: (CampaignVec2) X: 312.709 Y: 375.2491 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:36:10 INF] Initialized at position.
+[20:36:10 INF] SetMovePatrolAroundSettlement successful.
+[20:36:10 INF] Spawned Coastal Patrol Coast Guard of Charas for Charas
+[20:36:11 INF] Attempting to spawn patrol for Qasira using template patrol_party_aserai_template_coastal
+[20:36:11 INF] Creating MobileParty: coastal_patrol_town_A8_1551
+[20:36:11 INF] MobileParty created: Coast Guard of Qasira
+[20:36:11 INF] Spawn Position: (CampaignVec2) X: 617.0765 Y: 152.3234 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:36:11 INF] Initialized at position.
+[20:36:11 INF] SetMovePatrolAroundSettlement successful.
+[20:36:11 INF] Spawned Coastal Patrol Coast Guard of Qasira for Qasira
+[20:36:13 INF] Attempting to spawn patrol for Razih using template patrol_party_aserai_template_coastal
+[20:36:13 INF] Creating MobileParty: coastal_patrol_town_A4_678
+[20:36:13 INF] MobileParty created: Coast Guard of Razih
+[20:36:13 INF] Spawn Position: (CampaignVec2) X: 742.1818 Y: 170.3419 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:36:13 INF] Initialized at position.
+[20:36:13 INF] SetMovePatrolAroundSettlement successful.
+[20:36:13 INF] Spawned Coastal Patrol Coast Guard of Razih for Razih
+[20:36:14 INF] Attempting to spawn patrol for Vostrum using template patrol_party_empire_template_coastal
+[20:36:14 INF] Creating MobileParty: coastal_patrol_town_ES2_1863
+[20:36:14 INF] MobileParty created: Coast Guard of Vostrum
+[20:36:14 INF] Spawn Position: (CampaignVec2) X: 686.3214 Y: 292.3106 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:36:14 INF] Initialized at position.
+[20:36:14 INF] SetMovePatrolAroundSettlement successful.
+[20:36:14 INF] Spawned Coastal Patrol Coast Guard of Vostrum for Vostrum
+[20:36:14 INF] Attempting to spawn patrol for Danustica using template patrol_party_empire_template_coastal
+[20:36:14 INF] Creating MobileParty: coastal_patrol_town_ES1_4513
+[20:36:14 INF] MobileParty created: Coast Guard of Danustica
+[20:36:14 INF] Spawn Position: (CampaignVec2) X: 774.6617 Y: 275.3807 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:36:14 INF] Initialized at position.
+[20:36:14 INF] SetMovePatrolAroundSettlement successful.
+[20:36:14 INF] Spawned Coastal Patrol Coast Guard of Danustica for Danustica
+[20:36:14 INF] Attempting to spawn patrol for Poros using template patrol_party_empire_template_coastal
+[20:36:14 INF] Creating MobileParty: coastal_patrol_town_ES3_8371
+[20:36:14 INF] MobileParty created: Coast Guard of Poros
+[20:36:14 INF] Spawn Position: (CampaignVec2) X: 606.8111 Y: 300.1599 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:36:14 INF] Initialized at position.
+[20:36:14 INF] SetMovePatrolAroundSettlement successful.
+[20:36:14 INF] Spawned Coastal Patrol Coast Guard of Poros for Poros
+[20:36:15 INF] Attempting to spawn patrol for Lageta using template patrol_party_empire_template_coastal
+[20:36:15 INF] Creating MobileParty: coastal_patrol_town_EW1_9122
+[20:36:15 INF] MobileParty created: Coast Guard of Lageta
+[20:36:15 INF] Spawn Position: (CampaignVec2) X: 386.5522 Y: 405.6549 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:36:15 INF] Initialized at position.
+[20:36:15 INF] SetMovePatrolAroundSettlement successful.
+[20:36:15 INF] Spawned Coastal Patrol Coast Guard of Lageta for Lageta
+[20:36:58 INF] Attempting to spawn patrol for Zeonica using template patrol_party_empire_template_coastal
+[20:36:58 INF] Creating MobileParty: coastal_patrol_town_EW2_8241
+[20:36:58 INF] MobileParty created: Coast Guard of Zeonica
+[20:36:58 INF] Spawn Position: (CampaignVec2) X: 513.6017 Y: 323.8249 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:36:58 INF] Initialized at position.
+[20:36:58 INF] SetMovePatrolAroundSettlement successful.
+[20:36:58 INF] Spawned Coastal Patrol Coast Guard of Zeonica for Zeonica
+[20:36:59 INF] Attempting to spawn patrol for Diathma using template patrol_party_empire_template_coastal
+[20:36:59 INF] Creating MobileParty: coastal_patrol_town_EN2_3550
+[20:36:59 INF] MobileParty created: Coast Guard of Diathma
+[20:36:59 INF] Spawn Position: (CampaignVec2) X: 572.9152 Y: 505.5981 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:36:59 INF] Initialized at position.
+[20:36:59 INF] SetMovePatrolAroundSettlement successful.
+[20:36:59 INF] Spawned Coastal Patrol Coast Guard of Diathma for Diathma
+[20:36:59 INF] Attempting to spawn patrol for Galend using template patrol_party_vlandia_template_coastal
+[20:36:59 INF] Creating MobileParty: coastal_patrol_town_V5_7837
+[20:36:59 INF] MobileParty created: Coast Guard of Galend
+[20:36:59 INF] Spawn Position: (CampaignVec2) X: 202.7871 Y: 450.4803 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:36:59 INF] Initialized at position.
+[20:36:59 INF] SetMovePatrolAroundSettlement successful.
+[20:36:59 INF] Spawned Coastal Patrol Coast Guard of Galend for Galend
+[20:37:00 INF] Attempting to spawn patrol for Sanala using template patrol_party_aserai_template_coastal
+[20:37:00 INF] Creating MobileParty: coastal_patrol_town_A6_2616
+[20:37:00 INF] MobileParty created: Coast Guard of Sanala
+[20:37:00 INF] Spawn Position: (CampaignVec2) X: 481.2044 Y: 201.2855 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:37:00 INF] Initialized at position.
+[20:37:00 INF] SetMovePatrolAroundSettlement successful.
+[20:37:00 INF] Spawned Coastal Patrol Coast Guard of Sanala for Sanala
+[20:37:00 INF] Attempting to spawn patrol for Balgard using template patrol_party_sturgia_template_coastal
+[20:37:00 INF] Creating MobileParty: coastal_patrol_town_S2_2897
+[20:37:00 INF] MobileParty created: Coast Guard of Balgard
+[20:37:00 INF] Spawn Position: (CampaignVec2) X: 725.4158 Y: 709.6862 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[20:37:00 INF] Initialized at position.
+[20:37:00 INF] SetMovePatrolAroundSettlement successful.
+[20:37:00 INF] Spawned Coastal Patrol Coast Guard of Balgard for Balgard
+[20:37:01 INF] Attempting to spawn patrol for Hargard using template patrol_party_nord_template_coastal
+[20:37:01 INF] Creating MobileParty: coastal_patrol_town_N4_3231
+[20:37:01 INF] MobileParty created: Coast Guard of Hargard
+[20:37:01 INF] Spawn Position: (CampaignVec2) X: 885.4429 Y: 748.7587 IsOnLand: True. Initializing Template: patrol_party_nord_template_coastal
+[20:37:01 INF] Initialized at position.
+[20:37:01 INF] SetMovePatrolAroundSettlement successful.
+[20:37:01 INF] Spawned Coastal Patrol Coast Guard of Hargard for Hargard
+[20:37:03 INF] Attempting to spawn patrol for Varnovapol using template patrol_party_sturgia_template_coastal
+[20:37:03 INF] Creating MobileParty: coastal_patrol_town_S4_4953
+[20:37:03 INF] MobileParty created: Coast Guard of Varnovapol
+[20:37:03 INF] Spawn Position: (CampaignVec2) X: 649.0852 Y: 618.29 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[20:37:03 INF] Initialized at position.
+[20:37:03 INF] SetMovePatrolAroundSettlement successful.
+[20:37:03 INF] Spawned Coastal Patrol Coast Guard of Varnovapol for Varnovapol
+[20:37:04 INF] Attempting to spawn patrol for Omor using template patrol_party_sturgia_template_coastal
+[20:37:04 INF] Creating MobileParty: coastal_patrol_town_S3_5838
+[20:37:04 INF] MobileParty created: Coast Guard of Omor
+[20:37:04 INF] Spawn Position: (CampaignVec2) X: 557.2634 Y: 577.519 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[20:37:04 INF] Initialized at position.
+[20:37:04 INF] SetMovePatrolAroundSettlement successful.
+[20:37:04 INF] Spawned Coastal Patrol Coast Guard of Omor for Omor
+[20:37:32 INF] Attempting to spawn patrol for Car Banseth using template patrol_party_battania_template_coastal
+[20:37:32 INF] Creating MobileParty: coastal_patrol_town_B3_9342
+[20:37:32 INF] MobileParty created: Coast Guard of Car Banseth
+[20:37:32 INF] Spawn Position: (CampaignVec2) X: 406.5912 Y: 574.0927 IsOnLand: True. Initializing Template: patrol_party_battania_template_coastal
+[20:37:32 INF] Initialized at position.
+[20:37:32 INF] SetMovePatrolAroundSettlement successful.
+[20:37:32 INF] Spawned Coastal Patrol Coast Guard of Car Banseth for Car Banseth
+[20:37:32 INF] Attempting to spawn patrol for Ostican using template patrol_party_vlandia_template_coastal
+[20:37:32 INF] Creating MobileParty: coastal_patrol_town_V8_4479
+[20:37:32 INF] MobileParty created: Coast Guard of Ostican
+[20:37:32 INF] Spawn Position: (CampaignVec2) X: 247.4046 Y: 589.4118 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:37:32 INF] Initialized at position.
+[20:37:32 INF] SetMovePatrolAroundSettlement successful.
+[20:37:32 INF] Spawned Coastal Patrol Coast Guard of Ostican for Ostican
+[20:37:34 INF] Attempting to spawn patrol for Pravend using template patrol_party_vlandia_template_coastal
+[20:37:34 INF] Creating MobileParty: coastal_patrol_town_V3_7013
+[20:37:34 INF] MobileParty created: Coast Guard of Pravend
+[20:37:34 INF] Spawn Position: (CampaignVec2) X: 239.7295 Y: 516.6317 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:37:34 INF] Initialized at position.
+[20:37:34 INF] SetMovePatrolAroundSettlement successful.
+[20:37:34 INF] Spawned Coastal Patrol Coast Guard of Pravend for Pravend
+[20:37:35 INF] Attempting to spawn patrol for Askar using template patrol_party_aserai_template_coastal
+[20:37:35 INF] Creating MobileParty: coastal_patrol_town_A7_782
+[20:37:35 INF] MobileParty created: Coast Guard of Askar
+[20:37:35 INF] Spawn Position: (CampaignVec2) X: 462.33 Y: 118.0301 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:37:35 INF] Initialized at position.
+[20:37:35 INF] SetMovePatrolAroundSettlement successful.
+[20:37:35 INF] Spawned Coastal Patrol Coast Guard of Askar for Askar
+[20:37:37 INF] Attempting to spawn patrol for Syronea using template patrol_party_empire_template_coastal
+[20:37:37 INF] Creating MobileParty: coastal_patrol_town_ES7_1331
+[20:37:37 INF] MobileParty created: Coast Guard of Syronea
+[20:37:37 INF] Spawn Position: (CampaignVec2) X: 792.4435 Y: 446.1407 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:37:37 INF] Initialized at position.
+[20:37:37 INF] SetMovePatrolAroundSettlement successful.
+[20:37:37 INF] Spawned Coastal Patrol Coast Guard of Syronea for Syronea
+[20:37:38 INF] Attempting to spawn patrol for Rhotae using template patrol_party_empire_template_coastal
+[20:37:38 INF] Creating MobileParty: coastal_patrol_town_EW6_545
+[20:37:38 INF] MobileParty created: Coast Guard of Rhotae
+[20:37:38 INF] Spawn Position: (CampaignVec2) X: 482.4727 Y: 400.6099 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:37:38 INF] Initialized at position.
+[20:37:38 INF] SetMovePatrolAroundSettlement successful.
+[20:37:38 INF] Spawned Coastal Patrol Coast Guard of Rhotae for Rhotae
+[20:37:39 INF] Attempting to spawn patrol for Ortysia using template patrol_party_empire_template_coastal
+[20:37:39 INF] Creating MobileParty: coastal_patrol_town_EW4_7259
+[20:37:39 INF] MobileParty created: Coast Guard of Ortysia
+[20:37:39 INF] Spawn Position: (CampaignVec2) X: 397.0938 Y: 345.85 IsOnLand: True. Initializing Template: patrol_party_empire_template_coastal
+[20:37:39 INF] Initialized at position.
+[20:37:39 INF] SetMovePatrolAroundSettlement successful.
+[20:37:39 INF] Spawned Coastal Patrol Coast Guard of Ortysia for Ortysia
+[20:37:41 INF] Attempting to spawn patrol for Makeb using template patrol_party_khuzait_template_coastal
+[20:37:41 INF] Creating MobileParty: coastal_patrol_town_K3_5245
+[20:37:41 INF] MobileParty created: Coast Guard of Makeb
+[20:37:41 INF] Spawn Position: (CampaignVec2) X: 837.6634 Y: 539.4299 IsOnLand: True. Initializing Template: patrol_party_khuzait_template_coastal
+[20:37:41 INF] Initialized at position.
+[20:37:41 INF] SetMovePatrolAroundSettlement successful.
+[20:37:41 INF] Spawned Coastal Patrol Coast Guard of Makeb for Makeb
+[20:37:42 INF] Attempting to spawn patrol for Quyaz using template patrol_party_aserai_template_coastal
+[20:37:42 INF] Creating MobileParty: coastal_patrol_town_A1_1770
+[20:37:42 INF] MobileParty created: Coast Guard of Quyaz
+[20:37:42 INF] Spawn Position: (CampaignVec2) X: 371.2723 Y: 257.0382 IsOnLand: True. Initializing Template: patrol_party_aserai_template_coastal
+[20:37:42 INF] Initialized at position.
+[20:37:42 INF] SetMovePatrolAroundSettlement successful.
+[20:37:42 INF] Spawned Coastal Patrol Coast Guard of Quyaz for Quyaz
+[20:38:29 INF] Attempting to spawn patrol for Varnovapol using template patrol_party_sturgia_template_coastal
+[20:38:29 INF] Creating MobileParty: coastal_patrol_town_S4_8591
+[20:38:29 INF] MobileParty created: Coast Guard of Varnovapol
+[20:38:29 INF] Spawn Position: (CampaignVec2) X: 649.0852 Y: 618.29 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[20:38:29 INF] Initialized at position.
+[20:38:29 INF] SetMovePatrolAroundSettlement successful.
+[20:38:29 INF] Spawned Coastal Patrol Coast Guard of Varnovapol for Varnovapol
+[20:38:36 INF] Attempting to spawn patrol for Pravend using template patrol_party_vlandia_template_coastal
+[20:38:36 INF] Creating MobileParty: coastal_patrol_town_V3_9284
+[20:38:36 INF] MobileParty created: Coast Guard of Pravend
+[20:38:36 INF] Spawn Position: (CampaignVec2) X: 239.7295 Y: 516.6317 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[20:38:36 INF] Initialized at position.
+[20:38:36 INF] SetMovePatrolAroundSettlement successful.
+[20:38:36 INF] Spawned Coastal Patrol Coast Guard of Pravend for Pravend
+[21:01:30 INF] CoastalLife SubModule Loaded. Log Path: d:\Bannerlord_Mods\logs\CoastalLife.log
+[21:01:30 INF] CoastalLife Harmony patches applied.
+[21:01:58 INF] CoastalLife OnGameStart: Validating dependencies...
+[21:01:58 INF] CoastalLife behaviors added.
+[21:02:09 INF] Located NavalDLC Assembly: NavalDLC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[21:02:09 INF] ShipDumperBehavior: Reflection Complete.
+[21:02:43 INF] Attempting to spawn patrol for Pravend using template patrol_party_vlandia_template_coastal
+[21:02:43 INF] Creating MobileParty: coastal_patrol_town_V3_9200
+[21:02:43 INF] MobileParty created: Coast Guard of Pravend
+[21:02:43 INF] Spawn Position: (CampaignVec2) X: 239.7295 Y: 516.6317 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[21:02:43 INF] Initialized at position.
+[21:02:43 INF] SetMovePatrolAroundSettlement successful.
+[21:02:43 INF] Spawned Coastal Patrol Coast Guard of Pravend for Pravend
+[21:06:00 INF] Attempting to spawn patrol for Hvalvik using template patrol_party_vlandia_template_coastal
+[21:06:00 INF] Creating MobileParty: coastal_patrol_town_N1_2199
+[21:06:00 INF] MobileParty created: Coast Guard of Hvalvik
+[21:06:00 INF] Spawn Position: (CampaignVec2) X: 203.1058 Y: 730.0254 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[21:06:00 INF] Initialized at position.
+[21:06:00 INF] SetMovePatrolAroundSettlement successful.
+[21:06:00 INF] Spawned Coastal Patrol Coast Guard of Hvalvik for Hvalvik
+[21:38:08 INF] Attempting to spawn patrol for Balgard using template patrol_party_sturgia_template_coastal
+[21:38:08 INF] Creating MobileParty: coastal_patrol_town_S2_7589
+[21:38:08 INF] MobileParty created: Coast Guard of Balgard
+[21:38:08 INF] Spawn Position: (CampaignVec2) X: 725.4158 Y: 709.6862 IsOnLand: True. Initializing Template: patrol_party_sturgia_template_coastal
+[21:38:08 INF] Initialized at position.
+[21:38:08 INF] SetMovePatrolAroundSettlement successful.
+[21:38:08 INF] Spawned Coastal Patrol Coast Guard of Balgard for Balgard
+[21:39:35 INF] Attempting to spawn patrol for Hvalvik using template patrol_party_vlandia_template_coastal
+[21:39:35 INF] Creating MobileParty: coastal_patrol_town_N1_1422
+[21:39:35 INF] MobileParty created: Coast Guard of Hvalvik
+[21:39:35 INF] Spawn Position: (CampaignVec2) X: 203.1058 Y: 730.0254 IsOnLand: True. Initializing Template: patrol_party_vlandia_template_coastal
+[21:39:35 INF] Initialized at position.
+[21:39:35 INF] SetMovePatrolAroundSettlement successful.
+[21:39:35 INF] Spawned Coastal Patrol Coast Guard of Hvalvik for Hvalvik
+[03:04:20 INF] CoastalLife SubModule Loaded. Log Path: d:\Bannerlord_Mods\logs\CoastalLife.log
+[03:04:20 INF] CoastalLife Harmony patches applied.
+[03:04:35 INF] CoastalLife OnGameStart: Validating dependencies...
+[03:04:35 INF] CoastalLife behaviors added.
+[03:04:46 INF] Located NavalDLC Assembly: NavalDLC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[03:04:46 INF] ShipDumperBehavior: Reflection Complete.

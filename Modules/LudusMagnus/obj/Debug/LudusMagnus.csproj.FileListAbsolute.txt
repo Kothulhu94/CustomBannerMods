@@ -1,0 +1,9 @@
+D:\Bannerlord_Mods\Modules\LudusMagnus\obj\Debug\LudusMagnus.csproj.AssemblyReference.cache
+D:\Bannerlord_Mods\Modules\LudusMagnus\obj\Debug\LudusMagnus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bannerlord_Mods\Modules\LudusMagnus\obj\Debug\LudusMagnus.AssemblyInfoInputs.cache
+D:\Bannerlord_Mods\Modules\LudusMagnus\obj\Debug\LudusMagnus.AssemblyInfo.cs
+D:\Bannerlord_Mods\Modules\LudusMagnus\obj\Debug\LudusMagnus.csproj.CoreCompileInputs.cache
+D:\Bannerlord_Mods\Modules\LudusMagnus\bin\Win64_Shipping_Client\LudusMagnus.dll
+D:\Bannerlord_Mods\Modules\LudusMagnus\bin\Win64_Shipping_Client\LudusMagnus.pdb
+D:\Bannerlord_Mods\Modules\LudusMagnus\obj\Debug\LudusMagnus.dll
+D:\Bannerlord_Mods\Modules\LudusMagnus\obj\Debug\LudusMagnus.pdb

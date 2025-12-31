@@ -9,7 +9,24 @@ def analyze_latest():
     all_crashes = []
     for path in search_paths: all_crashes.extend(glob.glob(path))
     
-    if not all_crashes: return print("NO_CRASH_REPORTS_FOUND")
+    if not all_crashes:
+        print(f"NO_CRASH_REPORTS_FOUND. Checked:")
+        for p in search_paths: print(f"  - {p}")
+        
+        # Fallback: Check local logs for exceptions
+        print("\nScanning local logs for recent errors...")
+        log_dir = r'd:/Bannerlord_Mods/logs'
+        if os.path.exists(log_dir):
+            for log_file in glob.glob(os.path.join(log_dir, "*.log")):
+                try:
+                    with open(log_file, 'r', encoding='utf-8') as f:
+                        lines = f.readlines()[-50:] # Check last 50 lines
+                        for line in lines:
+                            if "Exception" in line or "[ERR]" in line:
+                                print(f"FOUND ERROR IN {os.path.basename(log_file)}:")
+                                print(line.strip())
+                except: pass
+        return
 
     latest = max(all_crashes, key=os.path.getctime)
     report = os.path.join(latest, "report.json")
@@ -20,6 +37,7 @@ def analyze_latest():
         with open(report, 'r', encoding='utf-8') as f:
             data = json.load(f)
             print("=== CRASH AUTOPSY ===")
+            print(f"REPORT: {latest}")
             print(f"MODULE: {data.get('InvolvedModules', [{'Name': 'Unknown'}])[0].get('Name')}")
             print(f"ERROR: {data.get('ExceptionMessage', 'No Message')}")
             print(f"STACK: {data.get('Stacktrace', '')[:500]}...")

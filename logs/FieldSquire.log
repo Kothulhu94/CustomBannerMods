@@ -1,0 +1,291 @@
+2025-12-30 19:16:56.987 -06:00 [INF] FieldSquire: Logger Initialized Manually (Robust Mode).
+2025-12-30 19:16:56.988 -06:00 [INF] FieldSquire: Registering services with ButterLib container...
+2025-12-30 19:16:57.035 -06:00 [INF] FieldSquire: Harmony Patches applied successfully.
+2025-12-30 19:17:24.144 -06:00 [INF] FieldSquire: OnGameStart called.
+2025-12-30 19:17:24.144 -06:00 [INF] FieldSquire: GameType is Campaign, registering behaviors.
+2025-12-30 19:17:34.542 -06:00 [INF] OnSessionLaunched: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 19:30:31.940 -06:00 [INF] FieldSquire: Logger Initialized Manually (Robust Mode).
+2025-12-30 19:30:31.940 -06:00 [INF] FieldSquire: Registering services with ButterLib container...
+2025-12-30 19:30:31.995 -06:00 [INF] FieldSquire: Harmony Patches applied successfully.
+2025-12-30 19:30:59.521 -06:00 [INF] FieldSquire: OnGameStart called.
+2025-12-30 19:30:59.521 -06:00 [INF] FieldSquire: GameType is Campaign, registering behaviors.
+2025-12-30 19:31:10.188 -06:00 [INF] OnSessionLaunched: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 19:41:57.320 -06:00 [INF] FieldSquire: Logger Initialized Manually (Robust Mode).
+2025-12-30 19:41:57.320 -06:00 [INF] FieldSquire: Registering services with ButterLib container...
+2025-12-30 19:41:57.368 -06:00 [INF] FieldSquire: Harmony Patches applied successfully.
+2025-12-30 19:42:20.734 -06:00 [INF] FieldSquire: OnGameStart called.
+2025-12-30 19:42:20.734 -06:00 [INF] FieldSquire: GameType is Campaign, registering behaviors.
+2025-12-30 19:42:31.282 -06:00 [INF] OnSessionLaunched: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:26:29.845 -06:00 [INF] FieldSquire: Logger Initialized Manually (Robust Mode).
+2025-12-30 20:26:29.845 -06:00 [INF] FieldSquire: Registering services with ButterLib container...
+2025-12-30 20:26:29.894 -06:00 [INF] FieldSquire: Harmony Patches applied successfully.
+2025-12-30 20:26:43.427 -06:00 [INF] FieldSquire: OnGameStart called.
+2025-12-30 20:26:43.427 -06:00 [INF] FieldSquire: GameType is Campaign, registering behaviors.
+2025-12-30 20:26:53.982 -06:00 [INF] OnSessionLaunched: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:27:32.342 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:27:52.413 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:27:54.876 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-17 Gold).
+2025-12-30 20:27:55.755 -06:00 [INF] RunLogistics: Squire bought: 6 Grain (-36 Gold).
+2025-12-30 20:27:56.546 -06:00 [INF] RunLogistics: Squire bought: 5 Grain (-30 Gold).
+2025-12-30 20:27:57.408 -06:00 [INF] RunLogistics: Squire bought: 3 Grain (-18 Gold).
+2025-12-30 20:27:58.248 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-41 Gold).
+2025-12-30 20:27:59.900 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-6 Gold).
+2025-12-30 20:28:01.574 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-41 Gold).
+2025-12-30 20:28:12.387 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:28:19.050 -06:00 [INF] RunLogistics: Squire bought: 3 Grain (-18 Gold).
+2025-12-30 20:28:32.392 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:28:52.408 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:29:12.416 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:29:19.077 -06:00 [INF] RunLogistics: Squire bought: 2 Butter (-34 Gold).
+2025-12-30 20:29:32.410 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:29:39.107 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese, 5 Fish (-207 Gold).
+2025-12-30 20:34:44.561 -06:00 [INF] FieldSquire: Logger Initialized Manually (Robust Mode).
+2025-12-30 20:34:44.561 -06:00 [INF] FieldSquire: Registering services with ButterLib container...
+2025-12-30 20:34:44.611 -06:00 [INF] FieldSquire: Harmony Patches applied successfully.
+2025-12-30 20:34:57.820 -06:00 [INF] FieldSquire: OnGameStart called.
+2025-12-30 20:34:57.820 -06:00 [INF] FieldSquire: GameType is Campaign, registering behaviors.
+2025-12-30 20:35:08.506 -06:00 [INF] OnSessionLaunched: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:36:14.642 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:37:38.016 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:37:41.300 -06:00 [INF] RunLogistics: Squire bought: 2 Grain (-12 Gold).
+2025-12-30 20:37:42.130 -06:00 [INF] RunLogistics: Squire bought: 2 Butter (-34 Gold).
+2025-12-30 20:37:42.981 -06:00 [INF] RunLogistics: Squire bought: 6 Grain (-36 Gold).
+2025-12-30 20:37:43.797 -06:00 [INF] RunLogistics: Squire bought: 6 Grain (-36 Gold).
+2025-12-30 20:37:46.343 -06:00 [INF] RunLogistics: Squire bought: 4 Grain (-24 Gold).
+2025-12-30 20:37:47.970 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-40 Gold).
+2025-12-30 20:37:57.975 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:38:04.636 -06:00 [INF] RunLogistics: Squire bought: 1 Butter, 1 Grain (-22 Gold).
+2025-12-30 20:38:17.990 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:38:24.647 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-43 Gold).
+2025-12-30 20:40:07.368 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:40:11.703 -06:00 [INF] RunLogistics: Squire bought: 7 Butter, 3 Cheese, 7 Beer, 20 Meat, 20 Grapes (-1386 Gold).
+2025-12-30 20:40:27.323 -06:00 [INF] RunLogistics: Squire bought: 3 Butter (-60 Gold).
+2025-12-30 20:40:28.142 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-42 Gold).
+2025-12-30 20:40:33.019 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-16 Gold).
+2025-12-30 20:40:42.166 -06:00 [INF] RunLogistics: Squire bought: 3 Cheese, 4 Butter (-196 Gold).
+2025-12-30 20:40:43.015 -06:00 [INF] RunLogistics: Squire bought: 4 Beer (-340 Gold).
+2025-12-30 20:40:43.842 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-93 Gold).
+2025-12-30 20:40:43.850 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:40:53.020 -06:00 [INF] RunLogistics: Squire bought: 1 Grapes (-13 Gold).
+2025-12-30 20:40:56.358 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese, 1 Butter (-68 Gold).
+2025-12-30 20:41:37.139 -06:00 [INF] RunLogistics: Squire bought: 3 Beer (-252 Gold).
+2025-12-30 20:41:37.973 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:41:39.610 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-90 Gold).
+2025-12-30 20:41:42.185 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-42 Gold).
+2025-12-30 20:41:43.816 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-44 Gold).
+2025-12-30 20:41:48.813 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-46 Gold).
+2025-12-30 20:41:51.323 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-47 Gold).
+2025-12-30 20:41:53.000 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-50 Gold).
+2025-12-30 20:41:55.500 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-50 Gold).
+2025-12-30 20:41:57.974 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-51 Gold).
+2025-12-30 20:41:57.981 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 20:42:00.491 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-69 Gold).
+2025-12-30 20:42:03.834 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-77 Gold).
+2025-12-30 20:42:08.852 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-29 Gold).
+2025-12-30 20:42:10.508 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-29 Gold).
+2025-12-30 20:42:11.349 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-30 Gold).
+2025-12-30 21:01:30.790 -06:00 [INF] FieldSquire: Logger Initialized Manually (Robust Mode).
+2025-12-30 21:01:30.790 -06:00 [INF] FieldSquire: Registering services with ButterLib container...
+2025-12-30 21:01:30.840 -06:00 [INF] FieldSquire: Harmony Patches applied successfully.
+2025-12-30 21:01:58.558 -06:00 [INF] FieldSquire: OnGameStart called.
+2025-12-30 21:01:58.558 -06:00 [INF] FieldSquire: GameType is Campaign, registering behaviors.
+2025-12-30 21:02:09.147 -06:00 [INF] OnSessionLaunched: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:02:30.056 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-31 Gold).
+2025-12-30 21:02:43.961 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-49 Gold).
+2025-12-30 21:02:45.655 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-32 Gold).
+2025-12-30 21:02:47.326 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-33 Gold).
+2025-12-30 21:02:47.337 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:02:49.026 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-34 Gold).
+2025-12-30 21:02:50.705 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-36 Gold).
+2025-12-30 21:02:51.506 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-37 Gold).
+2025-12-30 21:02:57.362 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-43 Gold).
+2025-12-30 21:02:59.863 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-54 Gold).
+2025-12-30 21:03:02.370 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-71 Gold).
+2025-12-30 21:03:07.467 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-72 Gold).
+2025-12-30 21:03:09.108 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:03:10.784 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-74 Gold).
+2025-12-30 21:03:14.098 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-75 Gold).
+2025-12-30 21:03:19.955 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-52 Gold).
+2025-12-30 21:03:22.466 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-54 Gold).
+2025-12-30 21:03:24.954 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-69 Gold).
+2025-12-30 21:03:29.135 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-83 Gold).
+2025-12-30 21:03:29.143 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:03:32.432 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-52 Gold).
+2025-12-30 21:03:37.452 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-15 Gold).
+2025-12-30 21:03:49.156 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:03:57.513 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-56 Gold).
+2025-12-30 21:04:09.202 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:04:17.529 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-15 Gold).
+2025-12-30 21:04:22.503 -06:00 [INF] RunLogistics: Squire bought: 8 Fish (-280 Gold).
+2025-12-30 21:04:29.186 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:04:44.179 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-18 Gold).
+2025-12-30 21:05:30.496 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:05:50.503 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:05:59.057 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-14 Gold).
+2025-12-30 21:06:10.734 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:06:14.929 -06:00 [INF] RunLogistics: Squire bought: 6 Date Fruit (-342 Gold).
+2025-12-30 21:06:29.897 -06:00 [INF] RunLogistics: Squire bought: 5 Date Fruit (-310 Gold).
+2025-12-30 21:06:30.771 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:06:39.065 -06:00 [INF] RunLogistics: Squire bought: 4 Olives, 1 Butter (-184 Gold).
+2025-12-30 21:06:43.251 -06:00 [INF] RunLogistics: Squire bought: 7 Olives (-238 Gold).
+2025-12-30 21:06:46.565 -06:00 [INF] RunLogistics: Squire bought: 6 Olives (-216 Gold).
+2025-12-30 21:06:50.737 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:07:12.293 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:07:13.099 -06:00 [INF] RunLogistics: Squire bought: 10 Date Fruit (-400 Gold).
+2025-12-30 21:07:20.599 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-17 Gold).
+2025-12-30 21:07:32.298 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:07:50.613 -06:00 [INF] RunLogistics: Squire bought: 4 Olives (-160 Gold).
+2025-12-30 21:07:52.283 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:08:00.597 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-15 Gold).
+2025-12-30 21:08:12.293 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:08:20.595 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-17 Gold).
+2025-12-30 21:08:32.298 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:08:52.295 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:09:00.608 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-4 Gold).
+2025-12-30 21:09:12.304 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:09:20.627 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-13 Gold).
+2025-12-30 21:09:32.300 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:09:40.628 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-4 Gold).
+2025-12-30 21:09:52.280 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:10:12.303 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:10:20.605 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-30 Gold).
+2025-12-30 21:10:32.312 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:10:52.305 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:11:12.307 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:11:20.607 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-27 Gold).
+2025-12-30 21:11:32.283 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:11:40.623 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-3 Gold).
+2025-12-30 21:11:52.313 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:12:03.952 -06:00 [INF] RunLogistics: Squire bought: 2 Fish (-38 Gold).
+2025-12-30 21:12:08.090 -06:00 [INF] RunLogistics: Squire bought: 1 Olives (-35 Gold).
+2025-12-30 21:12:13.936 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:12:22.259 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-20 Gold).
+2025-12-30 21:12:33.933 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:12:42.275 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-26 Gold).
+2025-12-30 21:12:53.944 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:13:02.273 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-20 Gold).
+2025-12-30 21:13:15.496 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:13:23.845 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-20 Gold).
+2025-12-30 21:18:08.892 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:18:17.217 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:18:28.870 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:18:37.217 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-3 Gold).
+2025-12-30 21:18:48.879 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:19:08.887 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:19:10.561 -06:00 [INF] RunLogistics: Squire bought: 1 Olives (-31 Gold).
+2025-12-30 21:19:17.212 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-3 Gold).
+2025-12-30 21:19:28.903 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:19:37.226 -06:00 [INF] RunLogistics: Squire bought: 1 Grapes (-7 Gold).
+2025-12-30 21:19:48.889 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:19:57.200 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-16 Gold).
+2025-12-30 21:20:08.884 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:20:28.881 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:20:37.230 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-18 Gold).
+2025-12-30 21:20:48.938 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:20:52.229 -06:00 [INF] RunLogistics: Squire bought: 1 Olives (-34 Gold).
+2025-12-30 21:20:57.247 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-34 Gold).
+2025-12-30 21:21:08.907 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:21:17.218 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-13 Gold).
+2025-12-30 21:21:28.926 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:21:37.231 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-33 Gold).
+2025-12-30 21:21:48.910 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:21:57.257 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:22:08.940 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:22:17.247 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:22:28.928 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:22:37.270 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-9 Gold).
+2025-12-30 21:22:48.955 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:22:57.256 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-31 Gold).
+2025-12-30 21:23:10.734 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:23:19.044 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-15 Gold).
+2025-12-30 21:23:30.776 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:23:39.092 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-14 Gold).
+2025-12-30 21:23:50.791 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:23:59.111 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-3 Gold).
+2025-12-30 21:24:10.802 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:24:19.135 -06:00 [INF] RunLogistics: Squire bought: 1 Beer (-29 Gold).
+2025-12-30 21:24:30.792 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:24:39.149 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-9 Gold).
+2025-12-30 21:24:50.818 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:24:59.148 -06:00 [INF] RunLogistics: Squire bought: 1 Beer, 1 Meat (-38 Gold).
+2025-12-30 21:25:10.857 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:25:19.157 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-9 Gold).
+2025-12-30 21:25:30.866 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:25:39.202 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-16 Gold).
+2025-12-30 21:25:50.888 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:27:28.845 -06:00 [INF] RunLogistics: Squire bought: 1 Grapes (-8 Gold).
+2025-12-30 21:27:40.540 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:28:02.228 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:28:10.552 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:28:22.253 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:28:30.555 -06:00 [INF] RunLogistics: Squire bought: 1 Meat (-9 Gold).
+2025-12-30 21:28:42.252 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:28:50.606 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-7 Gold).
+2025-12-30 21:29:02.290 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:29:10.619 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-7 Gold).
+2025-12-30 21:29:22.355 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:29:42.368 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:29:50.701 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:30:02.403 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:30:10.740 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-7 Gold).
+2025-12-30 21:30:22.475 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:30:42.512 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:30:50.840 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-7 Gold).
+2025-12-30 21:31:00.885 -06:00 [INF] RunLogistics: Squire bought: 2 Fish (-28 Gold).
+2025-12-30 21:31:02.579 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:31:10.896 -06:00 [INF] RunLogistics: Squire bought: 1 Olives (-29 Gold).
+2025-12-30 21:31:22.611 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:31:30.945 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese (-17 Gold).
+2025-12-30 21:31:42.644 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:31:51.004 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:32:02.691 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:32:11.018 -06:00 [INF] RunLogistics: Squire bought: 1 Grapes (-7 Gold).
+2025-12-30 21:32:22.747 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:32:31.094 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-3 Gold).
+2025-12-30 21:32:42.802 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:32:51.138 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-3 Gold).
+2025-12-30 21:33:04.535 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:33:12.867 -06:00 [INF] RunLogistics: Squire bought: 1 Cheese, 1 Grapes (-21 Gold).
+2025-12-30 21:33:24.592 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:33:44.657 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:33:52.967 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-7 Gold).
+2025-12-30 21:34:04.713 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:34:13.039 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:34:24.739 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:35:20.687 -06:00 [INF] RunLogistics: Squire bought: 1 Butter (-6 Gold).
+2025-12-30 21:35:32.409 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:35:43.235 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:35:54.980 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:36:50.250 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:37:39.425 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:37:59.490 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:38:09.608 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-3 Gold).
+2025-12-30 21:38:21.340 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:38:41.395 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:39:26.433 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:39:53.157 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:41:42.820 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:41:45.659 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit, 1 Grapes (-11 Gold).
+2025-12-30 21:41:51.836 -06:00 [INF] RunLogistics: Squire bought: 3 Olives, 1 Fish (-89 Gold).
+2025-12-30 21:42:07.427 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-3 Gold).
+2025-12-30 21:42:29.137 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:42:37.421 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-4 Gold).
+2025-12-30 21:42:49.143 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:42:57.500 -06:00 [INF] RunLogistics: Squire bought: 3 Olives (-93 Gold).
+2025-12-30 21:43:10.939 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:43:20.136 -06:00 [INF] RunLogistics: Squire bought: 1 Fish, 1 Grain (-19 Gold).
+2025-12-30 21:43:31.019 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:43:39.316 -06:00 [INF] RunLogistics: Squire bought: 1 Date Fruit (-4 Gold).
+2025-12-30 21:43:51.156 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:43:59.466 -06:00 [INF] RunLogistics: Squire bought: 1 Grain (-4 Gold).
+2025-12-30 21:44:06.120 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-15 Gold).
+2025-12-30 21:44:14.071 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:44:22.391 -06:00 [INF] RunLogistics: Squire bought: 1 Meat, 1 Grain (-12 Gold).
+2025-12-30 21:44:34.136 -06:00 [INF] OnDailyTick: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach
+2025-12-30 21:44:42.440 -06:00 [INF] RunLogistics: Squire bought: 1 Fish (-15 Gold).
+2025-12-31 03:04:20.204 -06:00 [INF] FieldSquire: Logger Initialized Manually (Robust Mode).
+2025-12-31 03:04:20.206 -06:00 [INF] FieldSquire: Registering services with ButterLib container...
+2025-12-31 03:04:20.261 -06:00 [INF] FieldSquire: Harmony Patches applied successfully.
+2025-12-31 03:04:35.245 -06:00 [INF] FieldSquire: OnGameStart called.
+2025-12-31 03:04:35.245 -06:00 [INF] FieldSquire: GameType is Campaign, registering behaviors.
+2025-12-31 03:04:46.219 -06:00 [INF] OnSessionLaunched: Verified Squire: Your Squire (ID: field_squire) in Clan: fen Uimach

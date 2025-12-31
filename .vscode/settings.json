@@ -1,0 +1,11 @@
+{
+    "git.ignoreLimitWarning": true,
+    "csharp.debug.justMyCode": false,
+    "roslynExtensions.enableDecompilationSupport": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.useGlobalMono": "never",
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    }
+}

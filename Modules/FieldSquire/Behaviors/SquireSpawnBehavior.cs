@@ -75,10 +75,23 @@ namespace FieldSquire.Behaviors
                     // If we found one via name, stamp the ID now so we find them correctly next time
                     if (squire.StringId != SquireStringId)
                     {
-                        var setStringId = typeof(MBObjectBase).GetMethod("set_StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
-                        if (setStringId != null)
+                        var prop = typeof(MBObjectBase).GetProperty("StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+                        if (prop != null && prop.CanWrite)
                         {
-                            setStringId.Invoke(squire, new object[] { SquireStringId });
+                            prop.SetValue(squire, SquireStringId);
+                        }
+                        else
+                        {
+                            var setMethod = prop?.GetSetMethod(true);
+                            if (setMethod != null) setMethod.Invoke(squire, new object[] { SquireStringId });
+                            else
+                            {
+                                // Last ditch: direct backing field? Bannerlord doesn't usually use them directly here.
+                                // Try the explicit setter method search again with broader flags
+                                var method = typeof(MBObjectBase).GetMethod("set_StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+                                if (method != null) method.Invoke(squire, new object[] { SquireStringId });
+                                else _logger.LogError("Failed to set StringId via all reflection methods!");
+                            }
                         }
                     }
 
@@ -158,15 +171,30 @@ namespace FieldSquire.Behaviors
                 _logger.LogInformation($"Created hero. Preliminary ID: {squire.StringId}");
                 
                 // Helper to set ID via reflection since property relies on private setter sometimes
-                var setStringId = typeof(MBObjectBase).GetMethod("set_StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
-                if (setStringId != null)
+                var prop = typeof(MBObjectBase).GetProperty("StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+                if (prop != null && prop.CanWrite)
                 {
-                    setStringId.Invoke(squire, new object[] { SquireStringId });
+                    prop.SetValue(squire, SquireStringId);
                     _logger.LogInformation($"Set StringId to: {squire.StringId}");
                 }
                 else
                 {
-                    _logger.LogError("Failed to find set_StringId method via reflection!");
+                    var setMethod = prop?.GetSetMethod(true);
+                    if (setMethod != null) 
+                    {
+                        setMethod.Invoke(squire, new object[] { SquireStringId });
+                        _logger.LogInformation($"Set StringId via SetMethod to: {squire.StringId}");
+                    }
+                    else
+                    {
+                         var method = typeof(MBObjectBase).GetMethod("set_StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+                         if (method != null) 
+                         {
+                             method.Invoke(squire, new object[] { SquireStringId });
+                             _logger.LogInformation($"Set StringId via MethodInvoke to: {squire.StringId}");
+                         }
+                         else _logger.LogError("Failed to set StringId via all reflection methods!");
+                    }
                 }
                 
                 // Add to clan immediately

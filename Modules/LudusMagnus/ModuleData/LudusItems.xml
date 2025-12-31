@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Ludus Magnus Items -->
+  
+  <!-- Book: Simple trade good/misc item for Library Logic -->
+  <Item id="ludus_book_a"
+        name="{=ludus_item_book}Ancient Treatise"
+        mesh="book_a" 
+        culture="Culture.empire"
+        weight="0.5"
+        appearance="0.5"
+        Type="Goods">
+    <ItemComponent>
+      <Trade_factor value="250"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  
+  <Item id="ludus_book_b"
+        name="{=ludus_item_book_b}Tactical Scroll"
+        mesh="scroll_a" 
+        culture="Culture.empire"
+        weight="0.2"
+        appearance="0.5"
+        Type="Goods">
+    <ItemComponent>
+      <Trade_factor value="150"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+</Items>

@@ -28,7 +28,7 @@ namespace FieldSquire
             {
                 // ROBUST LOGGING: Initialize manually to ensure file creation immediately
                 // We use Shared=true to avoid locking issues, and minimal locking otherwise.
-                Log.Logger = new LoggerConfiguration()
+                Logger = new LoggerConfiguration()
                     .MinimumLevel.Debug()
                     .WriteTo.File(LogPath, 
                         rollingInterval: RollingInterval.Infinite,
@@ -36,7 +36,7 @@ namespace FieldSquire
                         outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
                     .CreateLogger();
 
-                Logger = Log.Logger;
+                // Logger = Log.Logger; // REMOVED: Global Logger Contamination
                 Logger.Information("FieldSquire: Logger Initialized Manually (Robust Mode).");
 
                 // 2. Register Services (ButterLib) if available
@@ -45,9 +45,12 @@ namespace FieldSquire
                 {
                     Logger.Information("FieldSquire: Registering services with ButterLib container...");
                     
-                    services.AddLogging(loggingBuilder =>
+                    // Use ButterLib's AddSerilogLoggerProvider with filter to prevent cross-contamination
+                    this.AddSerilogLoggerProvider(LogPath, new[] { "FieldSquire.*" }, config => 
                     {
-                        loggingBuilder.AddSerilog(Logger);
+                        config.MinimumLevel.Debug();
+                        config.WriteTo.File(LogPath, rollingInterval: RollingInterval.Infinite, shared: true, 
+                            outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}");
                     });
                     
                     // Register GlobalSettings

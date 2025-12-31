@@ -464,7 +464,6 @@ namespace HonestWork
 
         private JobDef SelectJobForAI(Hero hero, int seed)
         {
-            System.Random rng = new System.Random(seed);
             List<JobDef> validJobs = new List<JobDef>();
             int mercy = hero.GetTraitLevel(DefaultTraits.Mercy);
 
@@ -476,7 +475,47 @@ namespace HonestWork
             }
 
             if (validJobs.Count == 0) return null;
-            return validJobs[rng.Next(validJobs.Count)];
+
+            // Logic Refactor: Weighted Selection based on Skills
+            JobDef bestJob = null;
+            float bestScore = -1f;
+            System.Random rng = new System.Random(seed);
+
+            foreach (var job in validJobs)
+            {
+                float score = 10f; 
+                
+                if (job.IsGuard)
+                {
+                    score += hero.GetSkillValue(DefaultSkills.Athletics) * 2f;
+                    score += hero.GetSkillValue(DefaultSkills.OneHanded);
+                    score += hero.GetSkillValue(DefaultSkills.TwoHanded);
+                }
+                else if (job.IsThug)
+                {
+                    score += hero.GetSkillValue(DefaultSkills.Roguery) * 3f;
+                    score += hero.GetSkillValue(DefaultSkills.Throwing);
+                }
+                else if (job.Skills != null)
+                {
+                    foreach (var skill in job.Skills)
+                    {
+                        score += hero.GetSkillValue(skill) * 1.5f;
+                    }
+                }
+                
+                // Deterministic Jitter (20%) using the seed to prevent randomness flicker per frame
+                float jitter = (float)rng.NextDouble() * 20f; 
+                score += jitter;
+
+                if (score > bestScore)
+                {
+                    bestScore = score;
+                    bestJob = job;
+                }
+            }
+            
+            return bestJob;
         }
 
         // Caching Reflection for AddMilitia

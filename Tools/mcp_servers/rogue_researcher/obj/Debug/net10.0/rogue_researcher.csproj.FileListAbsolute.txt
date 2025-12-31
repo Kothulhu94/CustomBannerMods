@@ -1,0 +1,14 @@
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\bin\Debug\net10.0\rogue_researcher.exe
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\bin\Debug\net10.0\rogue_researcher.deps.json
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\bin\Debug\net10.0\rogue_researcher.runtimeconfig.json
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\bin\Debug\net10.0\rogue_researcher.dll
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\bin\Debug\net10.0\rogue_researcher.pdb
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\rogue_researcher.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\rogue_researcher.AssemblyInfoInputs.cache
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\rogue_researcher.AssemblyInfo.cs
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\rogue_researcher.csproj.CoreCompileInputs.cache
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\rogue_researcher.dll
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\refint\rogue_researcher.dll
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\rogue_researcher.pdb
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\rogue_researcher.genruntimeconfig.cache
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net10.0\ref\rogue_researcher.dll

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PartyTemplates>
+  <PartyTemplate id="ludus_sentinel_template">
+    <stacks>
+      <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.ludus_gladiator" />
+      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.imperial_trained_archer" />
+    </stacks>
+  </PartyTemplate>
+  
+  <PartyTemplate id="ludus_relief_template">
+    <stacks>
+      <PartyTemplateStack min_value="20" max_value="30" troop="NPCCharacter.ludus_gladiator" />
+      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.imperial_palatine_guard" />
+    </stacks>
+  </PartyTemplate>
+</PartyTemplates>

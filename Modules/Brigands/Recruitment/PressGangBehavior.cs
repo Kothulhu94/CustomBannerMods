@@ -40,6 +40,8 @@ namespace Brigands.Recruitment
                 
                 if (party.TargetParty == MobileParty.MainParty) return;
 
+                if (party.MapFaction == null) return;
+
                 bool isBandit = party.MapFaction.IsBanditFaction || party.MapFaction.IsOutlaw;
                 try { if (party.MapFaction.StringId.ToLower().Contains("deserter")) isBandit = true; } catch {}
 

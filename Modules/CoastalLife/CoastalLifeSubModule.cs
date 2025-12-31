@@ -21,7 +21,8 @@ namespace CoastalLife
             base.OnSubModuleLoad();
 
             // Configure Serilog
-            string logPath = GetLogFilePath("CoastalLife.log");
+            // Configure Serilog
+            string logPath = @"d:\Bannerlord_Mods\logs\CoastalLife.log";
             
             try
             {
@@ -36,7 +37,7 @@ namespace CoastalLife
                 services.AddSingleton(GlobalSettings.Instance ?? new GlobalSettings());
 
                 // Register Behaviors
-                services.AddSingleton<CoastGuardBehavior>();
+                services.AddSingleton<CoastalPatrolBehavior>();
                 services.AddSingleton<CoastalJobBehavior>();
                 services.AddSingleton<PortEconomyBehavior>();
                 services.AddSingleton<PressGangBehavior>();
@@ -66,6 +67,7 @@ namespace CoastalLife
 
             if (game.GameType is Campaign)
             {
+                _logger.LogInformation("CoastalLife OnGameStart: Validating dependencies...");
                 try
                 {
                     CampaignGameStarter campaignStarter = (CampaignGameStarter)gameStarterObject;
@@ -78,7 +80,7 @@ namespace CoastalLife
                         campaignStarter.AddBehavior(_serviceProvider.GetRequiredService<CoastalJobBehavior>());
                         campaignStarter.AddBehavior(_serviceProvider.GetRequiredService<PortEconomyBehavior>());
                         campaignStarter.AddBehavior(_serviceProvider.GetRequiredService<PressGangBehavior>());
-                        campaignStarter.AddBehavior(_serviceProvider.GetRequiredService<CoastGuardBehavior>());
+                        campaignStarter.AddBehavior(_serviceProvider.GetRequiredService<CoastalPatrolBehavior>());
                         campaignStarter.AddBehavior(_serviceProvider.GetRequiredService<ShipDumperBehavior>());
                         
                         _logger.LogInformation("CoastalLife behaviors added.");

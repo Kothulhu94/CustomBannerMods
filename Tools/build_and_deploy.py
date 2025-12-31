@@ -27,8 +27,7 @@ ALL_MODS = [
     "FieldSquire", 
     "LivingLegend", 
     "NewClans",
-    "NavalDLC",
-    "Ascension"
+    "LudusMagnus"
 ]
 
 

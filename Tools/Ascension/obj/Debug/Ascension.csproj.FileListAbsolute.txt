@@ -1,0 +1,9 @@
+D:\Bannerlord_Mods\Modules\Ascension\bin\Win64_Shipping_Client\Ascension.dll
+D:\Bannerlord_Mods\Modules\Ascension\bin\Win64_Shipping_Client\Ascension.pdb
+D:\Bannerlord_Mods\Modules\Ascension\obj\Debug\Ascension.csproj.AssemblyReference.cache
+D:\Bannerlord_Mods\Modules\Ascension\obj\Debug\Ascension.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bannerlord_Mods\Modules\Ascension\obj\Debug\Ascension.AssemblyInfoInputs.cache
+D:\Bannerlord_Mods\Modules\Ascension\obj\Debug\Ascension.AssemblyInfo.cs
+D:\Bannerlord_Mods\Modules\Ascension\obj\Debug\Ascension.csproj.CoreCompileInputs.cache
+D:\Bannerlord_Mods\Modules\Ascension\obj\Debug\Ascension.dll
+D:\Bannerlord_Mods\Modules\Ascension\obj\Debug\Ascension.pdb
