@@ -5,7 +5,6 @@ using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.CampaignSystem.Map;
-using TaleWorlds.CampaignSystem.Actions;
 using LudusMagnus.Core;
 
 namespace LudusMagnus.SettlementLogic
