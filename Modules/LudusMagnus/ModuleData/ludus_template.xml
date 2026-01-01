@@ -1,7 +1,7 @@
 <Settlements>
-  <Settlement id="{{ID}}" owner="Faction.{{OWNER_CLAN}}" posX="{{POS_X}}" posY="{{POS_Y}}" culture="Culture.{{CULTURE}}" gate_posX="{{G_POS_X}}" gate_posY="{{G_POS_Y}}" template_type="Castle" template_variant="1">
+  <Settlement id="{{ID}}" owner="Faction.{{OWNER_CLAN}}" posX="{{POS_X}}" posY="{{POS_Y}}" culture="Culture.{{CULTURE}}" gate_posX="{{G_POS_X}}" gate_posY="{{G_POS_Y}}" template_type="Village" template_variant="1">
     <Components>
-      <Town id="{{ID}}_comp" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="1000">
+      <Town id="{{ID}}_comp" is_castle="true" background_crop_position="0.0" background_mesh="empire_village_a" wait_mesh="wait_empire_village_a" gate_rotation="0.0" prosperity="1000">
         <Buildings>
           <Building id="building_castle_fortifications" level="1" />
           <Building id="building_castle_barracks" level="1" />
@@ -11,8 +11,8 @@
       </Town>
     </Components>
     <Locations complex_template="LocationComplexTemplate.castle_complex">
-      <Location id="center" scene_name="empire_castle_004" />
-      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" />
+      <Location id="center" scene_name="empire_village_001" />
+      <Location id="lordshall" scene_name_1="empire_house_c_interior" />
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
