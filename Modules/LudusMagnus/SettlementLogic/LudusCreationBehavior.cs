@@ -51,6 +51,7 @@ namespace LudusMagnus.SettlementLogic
         {
             if (hero != Hero.MainHero)
             {
+                // Ensure namespace is correct: TaleWorlds.CampaignSystem.Actions
                 GiveGoldAction.ApplyBetweenCharacters(hero, null, (int)LudusWealthThreshold);
             }
 
