@@ -25,7 +25,8 @@ namespace LudusMagnus.SettlementLogic
                  if (Input.IsKeyDown(InputKey.LeftControl) && Input.IsKeyPressed(InputKey.B))
                  {
                      InformationManager.DisplayMessage(new InformationMessage("Attempting to build Ludus...", Colors.Yellow));
-                     var p = MobileParty.MainParty.Position2D;
+                     // Corrected property access
+                     var p = MobileParty.MainParty.Position.ToVec2();
                      LudusSpawner.SpawnLudus(Hero.MainHero, p);
                  }
              }
