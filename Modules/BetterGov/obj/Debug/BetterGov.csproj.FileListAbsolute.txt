@@ -16,3 +16,4 @@ E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.AssemblyInfo.cs
 E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.csproj.CoreCompileInputs.cache
 E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.dll
 E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.pdb
+E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.sourcelink.json

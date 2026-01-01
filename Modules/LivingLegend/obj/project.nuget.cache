@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0b/zKMzpJAk=",
+  "dgSpecHash": "MVnBqvrm8pI=",
   "success": true,
-  "projectFilePath": "D:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj",
+  "projectFilePath": "E:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rchos\\.nuget\\packages\\butr.harmony.analyzer\\1.0.1.50\\butr.harmony.analyzer.1.0.1.50.nupkg.sha512"
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\butr.harmony.analyzer\\1.0.1.50\\butr.harmony.analyzer.1.0.1.50.nupkg.sha512",
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
   ],
   "logs": []
 }

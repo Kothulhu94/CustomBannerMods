@@ -16,3 +16,4 @@ D:\Bannerlord_Mods\Modules\FieldSquire\obj\Debug\FieldSquire.dll
 D:\Bannerlord_Mods\Modules\FieldSquire\obj\Debug\FieldSquire.pdb
 D:\Bannerlord_Mods\Modules\FieldSquire\bin\Win64_Shipping_Client\FieldSquire.dll
 D:\Bannerlord_Mods\Modules\FieldSquire\bin\Win64_Shipping_Client\FieldSquire.pdb
+E:\Bannerlord_Mods\Modules\FieldSquire\obj\Debug\FieldSquire.sourcelink.json

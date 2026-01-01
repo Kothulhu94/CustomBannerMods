@@ -16,3 +16,4 @@ E:\Bannerlord_Mods\Modules\Brigands\obj\Debug\Brigands.AssemblyInfo.cs
 E:\Bannerlord_Mods\Modules\Brigands\obj\Debug\Brigands.csproj.CoreCompileInputs.cache
 E:\Bannerlord_Mods\Modules\Brigands\obj\Debug\Brigands.dll
 E:\Bannerlord_Mods\Modules\Brigands\obj\Debug\Brigands.pdb
+E:\Bannerlord_Mods\Modules\Brigands\obj\Debug\Brigands.sourcelink.json

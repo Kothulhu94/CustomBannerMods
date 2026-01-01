@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj": {}
+    "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj": {}
   },
   "projects": {
-    "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj": {
+    "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
+        "projectUniqueName": "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
         "projectName": "rogue_researcher",
-        "projectPath": "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
-        "packagesPath": "C:\\Users\\rchos\\.nuget\\packages\\",
-        "outputPath": "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\obj\\",
+        "projectPath": "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
+        "packagesPath": "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\",
+        "outputPath": "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rchos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\rhoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "D:\\Bannerlord_Mods\\Initialization\\dotnet_portable\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "E:\\Bannerlord_Mods\\Initialization\\dotnet_portable\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

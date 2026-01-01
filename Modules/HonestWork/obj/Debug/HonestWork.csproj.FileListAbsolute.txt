@@ -16,3 +16,4 @@ E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.AssemblyInfo.cs
 E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.csproj.CoreCompileInputs.cache
 E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.dll
 E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.pdb
+E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.sourcelink.json

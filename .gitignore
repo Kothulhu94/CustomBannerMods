@@ -1,0 +1,15 @@
+﻿.git/
+.vscode/
+bin/
+obj/
+logs/
+*.log
+*.user
+*.suo
+test_reflection.txt
+Modules/Bannerlord.*
+Modules/Native
+Modules/SandBox*
+Modules/StoryMode
+Modules/CustomBattle
+Modules/BirthAndDeath

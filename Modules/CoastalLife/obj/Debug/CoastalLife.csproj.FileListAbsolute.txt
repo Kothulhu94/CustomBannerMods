@@ -7,3 +7,13 @@ D:\Bannerlord_Mods\Modules\CoastalLife\bin\Win64_Shipping_Client\CoastalLife.dll
 D:\Bannerlord_Mods\Modules\CoastalLife\bin\Win64_Shipping_Client\CoastalLife.pdb
 D:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.dll
 D:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.pdb
+E:\Bannerlord_Mods\Modules\CoastalLife\bin\Win64_Shipping_Client\CoastalLife.dll
+E:\Bannerlord_Mods\Modules\CoastalLife\bin\Win64_Shipping_Client\CoastalLife.pdb
+E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.csproj.AssemblyReference.cache
+E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.AssemblyInfoInputs.cache
+E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.AssemblyInfo.cs
+E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.csproj.CoreCompileInputs.cache
+E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.sourcelink.json
+E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.dll
+E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.pdb

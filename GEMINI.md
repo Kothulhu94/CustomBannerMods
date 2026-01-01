@@ -44,6 +44,17 @@
     activation: "./tools/activate.ps1";
     RULE: "ALWAYS_USE_THIS_DOTNET";
   };
+  GIT: {
+    PATH: "e:/PortableGit/cmd/git.exe";
+    DESC: "Portable MinGit instance.";
+    USAGE: "e:/PortableGit/cmd/git.exe [command]";
+  };
+  ANALYSIS_TOOLS: {
+    SEARCH_SCRIPTS: "./Tools/SearchScripts";
+    NOTES: "Collection of Python utility scripts for codebase searching.";
+    ANALYSIS_DOCS: "./Tools/Analysis";
+    PLAYER_SETTLEMENT_DUMPS: "./Tools/PlayerSettlement/Analysis";
+  };
   HARMONY: {
     PATH: "./tools/Bannerlord.Harmony";
     NOTE: "Reference for patching";

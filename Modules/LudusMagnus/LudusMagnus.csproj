@@ -75,6 +75,10 @@
       <HintPath>$(BannerlordLibs)\TaleWorlds.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="TaleWorlds.DotNet">
+      <HintPath>$(BannerlordLibs)\TaleWorlds.DotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="TaleWorlds.Engine">
       <HintPath>$(BannerlordLibs)\TaleWorlds.Engine.dll</HintPath>
       <Private>False</Private>

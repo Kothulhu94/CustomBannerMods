@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3hxC7cQVaBU=",
+  "dgSpecHash": "WWDP2bmG/z8=",
   "success": true,
-  "projectFilePath": "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
+  "projectFilePath": "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rchos\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\rchos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\rchos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\rchos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

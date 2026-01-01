@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj": {}
+    "E:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj": {}
   },
   "projects": {
-    "D:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj": {
+    "E:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj",
+        "projectUniqueName": "E:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj",
         "projectName": "LivingLegend",
-        "projectPath": "D:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj",
-        "packagesPath": "C:\\Users\\rchos\\.nuget\\packages\\",
-        "outputPath": "D:\\Bannerlord_Mods\\Modules\\LivingLegend\\obj\\",
+        "projectPath": "E:\\Bannerlord_Mods\\Modules\\LivingLegend\\LivingLegend.csproj",
+        "packagesPath": "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\",
+        "outputPath": "E:\\Bannerlord_Mods\\Modules\\LivingLegend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rchos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\rhoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,9 +49,15 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.0.1.50, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "D:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "E:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

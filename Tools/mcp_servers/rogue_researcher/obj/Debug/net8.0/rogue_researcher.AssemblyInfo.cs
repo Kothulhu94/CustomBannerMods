@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rogue_researcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8862411bfdc9a290654054c0ae4759b71d51393d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8f4106932af4dd79c363fa005e38bf59d3da051")]
 [assembly: System.Reflection.AssemblyProductAttribute("rogue_researcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rogue_researcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

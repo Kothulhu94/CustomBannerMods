@@ -30,7 +30,7 @@ namespace LudusMagnus.Core
             // Configure Serilog
             var serilogLogger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
-                .WriteTo.File(Path.Combine(@"d:\Bannerlord_Mods\logs", "LudusMagnus.log"),
+                .WriteTo.File(Path.Combine(@"e:\Bannerlord_Mods\logs", "LudusMagnus.log"),
                     rollingInterval: RollingInterval.Infinite,
                     outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}")
                 .CreateLogger();
@@ -60,6 +60,13 @@ namespace LudusMagnus.Core
             {
                 _logger.LogError(ex, "CRITICAL ERROR during LudusMagnus OnSubModuleLoad");
             }
+        }
+
+        protected override void OnApplicationTick(float dt)
+        {
+            base.OnApplicationTick(dt);
+            // Delegate to Manager for frame-based updates (like placement)
+            SettlementLogic.LudusPlacementManager.OnApplicationTick(dt);
         }
 
         protected override void OnSubModuleUnloaded()
@@ -124,6 +131,7 @@ namespace LudusMagnus.Core
                 // Agent F Politics & Council
                 campaignStarter.AddBehavior(new Political.GrandCouncilCampaignBehavior());
                 campaignStarter.AddBehavior(new Political.LudusQuestBehavior());
+                campaignStarter.AddBehavior(new SettlementLogic.LudusSettlementBehavior());
 
                 Events.LudusGameMenus.AddGameMenus(campaignStarter);
                 

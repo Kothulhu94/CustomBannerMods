@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vW6QhaG01gs=",
+  "dgSpecHash": "tcrgFuMe0qQ=",
   "success": true,
-  "projectFilePath": "D:\\Bannerlord_Mods\\Modules\\HonestWork\\HonestWork.csproj",
+  "projectFilePath": "E:\\Bannerlord_Mods\\Modules\\HonestWork\\HonestWork.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rchos\\.nuget\\packages\\butr.harmony.analyzer\\1.0.1.50\\butr.harmony.analyzer.1.0.1.50.nupkg.sha512"
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\butr.harmony.analyzer\\1.0.1.50\\butr.harmony.analyzer.1.0.1.50.nupkg.sha512",
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
   ],
   "logs": []
 }

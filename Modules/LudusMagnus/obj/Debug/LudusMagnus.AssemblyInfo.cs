@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LudusMagnus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8862411bfdc9a290654054c0ae4759b71d51393d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+044ecf52a87593f3d6048dca7e9811886f98bbad")]
 [assembly: System.Reflection.AssemblyProductAttribute("LudusMagnus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LudusMagnus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

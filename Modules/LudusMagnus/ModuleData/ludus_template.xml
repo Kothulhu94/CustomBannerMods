@@ -1,5 +1,5 @@
 <Settlements>
-  <Settlement id="{{ID}}" name="{{NAME}}" owner="Faction.{{OWNER_CLAN}}" posX="{{POS_X}}" posY="{{POS_Y}}" culture="Culture.{{CULTURE}}" gate_posX="{{G_POS_X}}" gate_posY="{{G_POS_Y}}" template_type="Castle" template_variant="1">
+  <Settlement id="{{ID}}" owner="Faction.{{OWNER_CLAN}}" posX="{{POS_X}}" posY="{{POS_Y}}" culture="Culture.{{CULTURE}}" gate_posX="{{G_POS_X}}" gate_posY="{{G_POS_Y}}" template_type="Castle" template_variant="1">
     <Components>
       <Town id="{{ID}}_comp" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="1000">
         <Buildings>

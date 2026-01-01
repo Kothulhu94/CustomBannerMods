@@ -16,3 +16,4 @@ D:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.AssemblyInfo.cs
 D:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.csproj.CoreCompileInputs.cache
 D:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.dll
 D:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.pdb
+E:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.sourcelink.json
