@@ -57,8 +57,12 @@ namespace CoastalLife
                 (MenuCallbackArgs args) =>
                 {
                     args.optionLeaveType = GameMenuOption.LeaveType.Submenu;
-                    var shipyard = NavalDLCExtensions.GetShipyard(Settlement.CurrentSettlement.Town);
-                    if (shipyard == null) return false;
+                    try
+                    {
+                        var shipyard = NavalDLCExtensions.GetShipyard(Settlement.CurrentSettlement.Town);
+                        if (shipyard == null) return false;
+                    }
+                    catch { return false; }
                     return true;
                 },
                 (MenuCallbackArgs args) =>
@@ -70,8 +74,12 @@ namespace CoastalLife
                 (MenuCallbackArgs args) =>
                 {
                     args.optionLeaveType = GameMenuOption.LeaveType.Wait;
-                    var shipyard = NavalDLCExtensions.GetShipyard(Settlement.CurrentSettlement.Town);
-                    if (shipyard == null) return false;
+                    try
+                    {
+                        var shipyard = NavalDLCExtensions.GetShipyard(Settlement.CurrentSettlement.Town);
+                        if (shipyard == null) return false;
+                    }
+                    catch { return false; }
                     return true;
                 },
                 (MenuCallbackArgs args) =>
@@ -84,8 +92,12 @@ namespace CoastalLife
                 (MenuCallbackArgs args) =>
                 {
                     args.optionLeaveType = GameMenuOption.LeaveType.Wait;
-                    var shipyard = NavalDLCExtensions.GetShipyard(Settlement.CurrentSettlement.Town);
-                    if (shipyard == null) return false;
+                    try
+                    {
+                        var shipyard = NavalDLCExtensions.GetShipyard(Settlement.CurrentSettlement.Town);
+                        if (shipyard == null) return false;
+                    }
+                    catch { return false; }
                     return true;
                 },
                 (MenuCallbackArgs args) =>
@@ -98,8 +110,12 @@ namespace CoastalLife
                 (MenuCallbackArgs args) =>
                 {
                     args.optionLeaveType = GameMenuOption.LeaveType.Wait;
-                    var shipyard = NavalDLCExtensions.GetShipyard(Settlement.CurrentSettlement.Town);
-                    if (shipyard == null) return false;
+                    try
+                    {
+                        var shipyard = NavalDLCExtensions.GetShipyard(Settlement.CurrentSettlement.Town);
+                        if (shipyard == null) return false;
+                    }
+                    catch { return false; }
                     return true;
                 },
                 (MenuCallbackArgs args) =>
@@ -198,7 +214,14 @@ namespace CoastalLife
                     break;
             }
 
-            GiveGoldAction.ApplyForSettlementToParty(Settlement.CurrentSettlement, Hero.MainHero.PartyBelongedTo.Party, goldAmount, false);
+            if (Hero.MainHero.PartyBelongedTo == null || Hero.MainHero.PartyBelongedTo.Party == null)
+            {
+                 GiveGoldAction.ApplyBetweenCharacters(null, Hero.MainHero, goldAmount, false);
+            }
+            else
+            {
+                 GiveGoldAction.ApplyForSettlementToParty(Settlement.CurrentSettlement, Hero.MainHero.PartyBelongedTo.Party, goldAmount, false);
+            }
             _logger.LogDebug($"CoastalJob: Paid {goldAmount} gold for {_currentJob} work.");
             
             if (skillToReward != null)

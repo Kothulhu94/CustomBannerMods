@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj": {}
+    "/app/Modules/CoastalLife/CoastalLife.csproj": {}
   },
   "projects": {
-    "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj": {
+    "/app/Modules/CoastalLife/CoastalLife.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj",
+        "projectUniqueName": "/app/Modules/CoastalLife/CoastalLife.csproj",
         "projectName": "CoastalLife",
-        "projectPath": "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj",
-        "packagesPath": "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\",
-        "outputPath": "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\obj\\",
+        "projectPath": "/app/Modules/CoastalLife/CoastalLife.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/Modules/CoastalLife/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rhoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
@@ -37,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net472": {
@@ -57,7 +56,7 @@
               "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "E:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/app/tools/dotnet/sdk/8.0.416/RuntimeIdentifierGraph.json"
         }
       }
     }
