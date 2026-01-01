@@ -75,6 +75,12 @@ namespace CoastalLife
 
             if (recruit == null) return;
 
+            if (MobileParty.MainParty == null)
+            {
+                _logger.LogWarning("PressGang: MainParty is null, cannot add recruits.");
+                return;
+            }
+
             int count = MBRandom.RandomInt(10, 21);
             MobileParty.MainParty.MemberRoster.AddToCounts(recruit, count);
 
