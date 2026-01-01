@@ -12,7 +12,7 @@ using TaleWorlds.Localization;
 using TaleWorlds.ObjectSystem;
 using TaleWorlds.ModuleManager;
 using LudusMagnus.Core;
-using SandBox.View.Map.Managers; // For SettlementVisualManager
+using SandBox.View.Map.Managers;
 
 namespace LudusMagnus.SettlementLogic
 {
@@ -62,10 +62,20 @@ namespace LudusMagnus.SettlementLogic
                 Settlement newSettlement = Settlement.Find(id);
                 if (newSettlement != null)
                 {
-                    // Initialization Logic
-                    newSettlement.Town.OwnerClan = owner.Clan;
+                    // Validation
+                    if (newSettlement.Town == null)
+                    {
+                        InformationManager.DisplayMessage(new InformationMessage("Ludus Error: Settlement created but 'Town' component is missing!", Colors.Red));
+                        return;
+                    }
+                    if (newSettlement.Party == null)
+                    {
+                        InformationManager.DisplayMessage(new InformationMessage("Ludus Error: Settlement created but 'Party' is missing!", Colors.Red));
+                        return;
+                    }
 
-                    // Set Name via Reflection (Property is Read-Only)
+                    // Initialization
+                    newSettlement.Town.OwnerClan = owner.Clan;
                     SetPrivateField(newSettlement, "_name", new TextObject(name));
 
                     // Visuals
@@ -74,7 +84,7 @@ namespace LudusMagnus.SettlementLogic
                     newSettlement.IsInspected = true;
                     newSettlement.Party.SetVisualAsDirty();
 
-                    // Critical Visual Manager Call via Reflection (Method is Private)
+                    // Critical Visual Manager Call
                     if (SettlementVisualManager.Current != null)
                     {
                         MethodInfo addNewVisualMethod = typeof(SettlementVisualManager).GetMethod("AddNewPartyVisualForParty", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
@@ -84,9 +94,8 @@ namespace LudusMagnus.SettlementLogic
                         }
                     }
 
-                    // Lifecycle Hooks
+                    // Lifecycle
                     newSettlement.OnGameCreated();
-                    // ((MBObjectBase)newSettlement).AfterInitialized(); // Internal/Protected?
                     newSettlement.OnFinishLoadState();
 
                     // Buildings
@@ -100,7 +109,7 @@ namespace LudusMagnus.SettlementLogic
                         newSettlement.Town.GarrisonParty.MemberRoster.AddToCounts(owner.Culture.EliteBasicTroop, 10);
                     }
 
-                    // Register with LudusManager
+                    // Register
                     LudusLocation location = new LudusLocation(owner);
                     location.SettlementId = id;
                     LudusManager.Instance.RegisterLudus(owner, location);
