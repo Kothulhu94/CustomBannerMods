@@ -27,7 +27,8 @@ ALL_MODS = [
     "FieldSquire", 
     "LivingLegend", 
     "NewClans",
-    "LudusMagnus"
+    "LudusMagnus",
+    "Ascension"
 ]
 
 
@@ -84,7 +85,7 @@ def build_mod(mod_name):
         )
         
         # Always save full log for inspection
-        log_file = "last_build.log"
+        log_file = "last_build.txt"
         # Use 'a' to append so we keep logs for all mods in one run
         with open(log_file, "a", encoding="utf-8") as f:
             f.write(f"\n{'='*40}\nBUILD LOG: {mod_name}\n{'='*40}\n")
@@ -97,7 +98,7 @@ def build_mod(mod_name):
             print(f"[{mod_name}] Build SUCCESS")
             return True
         else:
-            print(f"[{mod_name}] Build FAILED. See last_build.log")
+            print(f"[{mod_name}] Build FAILED. See last_build.txt")
             # Print Errors to Console for Visibility
             lines = result.stdout.splitlines()
             for line in lines:
@@ -195,7 +196,7 @@ def main():
 
     # Clear log file
     if mode_build:
-        with open("last_build.log", "w") as f:
+        with open("last_build.txt", "w") as f:
             f.write(f"Build Run: {datetime.datetime.now()}\n")
             
     # 3. Execution Loop

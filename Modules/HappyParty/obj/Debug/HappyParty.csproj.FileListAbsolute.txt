@@ -17,3 +17,4 @@ E:\Bannerlord_Mods\Modules\HappyParty\obj\Debug\HappyParty.csproj.CoreCompileInp
 E:\Bannerlord_Mods\Modules\HappyParty\obj\Debug\HappyParty_Patched.dll
 E:\Bannerlord_Mods\Modules\HappyParty\obj\Debug\HappyParty_Patched.pdb
 E:\Bannerlord_Mods\Modules\HappyParty\obj\Debug\HappyParty.sourcelink.json
+D:\Bannerlord_Mods\Modules\HappyParty\obj\Debug\HappyParty.sourcelink.json

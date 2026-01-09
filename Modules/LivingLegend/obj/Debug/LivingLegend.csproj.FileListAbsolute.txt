@@ -17,3 +17,4 @@ D:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.csproj.CoreCompil
 D:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.dll
 D:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.pdb
 E:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.sourcelink.json
+D:\Bannerlord_Mods\Modules\LivingLegend\obj\Debug\LivingLegend.sourcelink.json

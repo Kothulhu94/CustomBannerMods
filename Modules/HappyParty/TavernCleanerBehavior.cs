@@ -163,13 +163,39 @@ namespace HappyParty
                 }
                 
                 // Count total hirable wanderers for reporting
+                // Count total hirable wanderers and fix GHOST PRISONERS
                 int hirableWanderers = 0;
+                int ghostPrisonersFixed = 0;
+
                 foreach (var hero in Hero.AllAliveHeroes)
                 {
+                    // FIX: Release "Ghost Prisoners" (Flagged as Prisoner, but no Captor Party)
+                    if (hero.IsPrisoner && hero.PartyBelongedToAsPrisoner == null)
+                    {
+                        try 
+                        {
+                            if (_settings.DebugMode)
+                                _logger.Warning($"[GhostPrisonerFix] Found stuck prisoner {hero.Name} (Clan: {hero.Clan?.Name}). Releasing...");
+
+                            // Force release
+                            EndCaptivityAction.ApplyByEscape(hero, null);
+                            ghostPrisonersFixed++;
+                        }
+                        catch (Exception ex)
+                        {
+                            _logger.Error(ex, $"Failed to release ghost prisoner {hero.Name}");
+                        }
+                    }
+
                     if (hero.IsWanderer && hero.Clan == null && hero.HeroState != Hero.CharacterStates.Disabled && hero.HeroState != Hero.CharacterStates.Dead)
                     {
                         hirableWanderers++;
                     }
+                }
+                
+                if (ghostPrisonersFixed > 0 && _settings.DebugMode)
+                {
+                    _logger.Information($"[GhostPrisonerFix] Total ghosts released this tick: {ghostPrisonersFixed}");
                 }
 
                 if (_settings.DebugMode)

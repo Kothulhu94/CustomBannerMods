@@ -29,6 +29,7 @@ namespace HonestWork
         public override void RegisterEvents()
         {
             CampaignEvents.OnSessionLaunchedEvent.AddNonSerializedListener(this, OnSessionLaunched);
+            CampaignEvents.HourlyTickEvent.AddNonSerializedListener(this, OnHourlyTick);
         }
 
         public override void SyncData(IDataStore dataStore)
@@ -48,6 +49,61 @@ namespace HonestWork
             catch (Exception ex)
             {
                 _logger.Error(ex, "HonestWork: Error initializing Castle Menus");
+            }
+        }
+
+        private void OnHourlyTick()
+        {
+             if (!_settings.EnableAiCastles) return;
+
+             foreach (var settlement in Settlement.All)
+             {
+                 if (settlement.IsCastle)
+                 {
+                     ProcessAIHourlyWork(settlement);
+                 }
+             }
+        }
+        
+        private void ProcessAIHourlyWork(Settlement settlement)
+        {
+            if (settlement.HeroesWithoutParty == null) return;
+            
+            // AI Logic: Nobles in Castles drill troops
+            foreach(var hero in settlement.HeroesWithoutParty)
+            {
+                if (hero.IsLord && hero.IsAlive && hero.Clan != Clan.PlayerClan)
+                {
+                    // Simple check: 20% chance to work per hour if idle
+                    if (MBRandom.RandomFloat < 0.2f)
+                    {
+                        // Give XP to their party (if they had one attached, but HeroesWithoutParty usually don't have mobile party attached directly right here without accessing Parties list... wait.)
+                        // Actually, visiting parties are in settlement.Parties.
+                    }
+                }
+            }
+            
+            // Check Visiting Parties for Nobles
+            if (settlement.Parties != null)
+            {
+                foreach(var party in settlement.Parties)
+                {
+                    if (party.LeaderHero != null && party.LeaderHero.Clan != Clan.PlayerClan)
+                    {
+                         // 20% Chance to Drill
+                         if (MBRandom.RandomFloat < 0.2f)
+                         {
+                             // Reward: XP for their party
+                             HonestWorkHelpers.GiveRandomPartyXp(party, 50, 100, 200);
+                             
+                             // Reward: Garrison XP (Small contribution)
+                             if (settlement.Town != null && settlement.Town.GarrisonParty != null)
+                             {
+                                  settlement.Town.GarrisonParty.MemberRoster.AddXpToTroop(settlement.Culture.BasicTroop, 50);
+                             }
+                         }
+                    }
+                }
             }
         }
 
@@ -120,13 +176,44 @@ namespace HonestWork
             var settlement = Settlement.CurrentSettlement;
             if (settlement == null || !settlement.IsCastle) return;
 
-            // 1. Pay the Player (Wage based on Prosperity, but Castles are poorer, so we use a flat rate + small prosperity bonus)
-            // Note: Castles use the "Town" property for walls/prosperity stats.
+            // Companion Contribution
+            float companionBonus = 0f;
+            if (Hero.MainHero.PartyBelongedTo != null)
+            {
+                foreach (var element in Hero.MainHero.PartyBelongedTo.MemberRoster.GetTroopRoster())
+                {
+                    if (element.Character.IsHero && element.Character.HeroObject != Hero.MainHero && !element.Character.HeroObject.IsWounded)
+                    {
+                        var comp = element.Character.HeroObject;
+                        float contribution = CalculateCompanionCastleContribution(comp);
+                        
+                        // Grant Companion XP (Rotate like player or split?)
+                        // Simpler: Give flat XP to one random relevant skill
+                        var skills = new[] { DefaultSkills.Leadership, DefaultSkills.Engineering, DefaultSkills.Steward, DefaultSkills.OneHanded, DefaultSkills.Bow };
+                        var skill = skills[MBRandom.RandomInt(skills.Length)];
+                        comp.AddSkillXp(skill, 20 * (1.0f + contribution)); // Base 20
+
+                        companionBonus += contribution;
+                    }
+                }
+            }
+
+            // XP for Player's Party troops (Drilling with them)
+            if (Hero.MainHero.PartyBelongedTo != null)
+            {
+                 HonestWorkHelpers.GiveRandomPartyXp(Hero.MainHero.PartyBelongedTo, 50, 100, 200); 
+            }
+
+            // 1. Pay the Player
+            // Castles: Base + Prosperity. Companions increase efficiency (more gold).
             int wage = 25 + (int)(settlement.Town.Prosperity / 100f);
+            wage = (int)(wage * (1.0f + companionBonus));
+            
             GiveGoldAction.ApplyForSettlementToCharacter(settlement, Hero.MainHero, wage, false);
 
             // 2. Player XP (Diverse Military Skills)
             float xpMult = 1.0f + (_totalContinuousHours * _settings.XpStreakMultiplier);
+            xpMult += companionBonus; // Companions help you learn/work faster? Or just work harder? Let's say they handle grunt work allowing you to focus?
             
             // Rotation of skills: Leadership -> Engineering -> Steward -> Combat
             int cycle = _totalContinuousHours % 4;
@@ -144,23 +231,48 @@ namespace HonestWork
             // Small increment to Security and Loyalty
             if (settlement.Town != null)
             {
-                settlement.Town.Security += 0.5f;
-                settlement.Town.Loyalty += 0.2f;
+                float secGain = 0.5f * (1.0f + companionBonus);
+                float loyGain = 0.2f * (1.0f + companionBonus);
+                
+                settlement.Town.Security += secGain;
+                settlement.Town.Loyalty += loyGain;
 
                 // Garrison Train: Give 10 XP to every troop in garrison
                 if (settlement.Town.GarrisonParty != null)
                 {
                     var garrison = settlement.Town.GarrisonParty;
+                    int garrisonXp = (int)(15 * (1.0f + companionBonus));
+                    
                     for(int i=0; i< garrison.MemberRoster.Count; i++)
                     {
                         var element = garrison.MemberRoster.GetElementCopyAtIndex(i);
                         if (!element.Character.IsHero)
                         {
-                            garrison.MemberRoster.AddXpToTroop(element.Character, 15);
+                            garrison.MemberRoster.AddXpToTroop(element.Character, garrisonXp);
                         }
                     }
                 }
+
+                // BetterGov: Governor Enforcement
+                if (settlement.OwnerClan == Clan.PlayerClan && settlement.Town.Governor == null)
+                {
+                    settlement.Town.Governor = Hero.MainHero;
+                }
             }
+        }
+
+        private float CalculateCompanionCastleContribution(Hero hero)
+        {
+            float score = 0f;
+            score += hero.GetSkillValue(DefaultSkills.Leadership);
+            score += hero.GetSkillValue(DefaultSkills.Engineering);
+            score += hero.GetSkillValue(DefaultSkills.Steward);
+            score += hero.GetSkillValue(DefaultSkills.OneHanded); // Combat competence
+            
+            // Normalize: 4 skills * 100 avg = 400.
+            // Target ~20-30% bonus per strong companion.
+            // 400 * 0.0005 = 0.2 (20%).
+            return score * 0.0005f;
         }
 
         private void GiveShiftReward()

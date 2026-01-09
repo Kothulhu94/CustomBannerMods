@@ -38,5 +38,29 @@ namespace Landlord
         [SettingPropertyInteger("Relation Penalty on Raze", 0, 100, "0", Order = 6, RequireRestart = false, HintText = "Relation penalty with the owner when a plot is razed.")]
         [SettingPropertyGroup("Violence")]
         public int RelationPenaltyOnRaze { get; set; } = 10;
+
+        [SettingPropertyBool("Allow Livestock Production", Order = 10, RequireRestart = false, HintText = "Allow production of animals. WARNING: Balance Breaking.")]
+        [SettingPropertyGroup("Production Options")]
+        public bool AllowLivestock { get; set; } = false;
+
+        [SettingPropertyBool("Allow Village Goods Production", Order = 11, RequireRestart = false, HintText = "Allow production of raw materials (Iron, Clay, etc). WARNING: Balance Breaking.")]
+        [SettingPropertyGroup("Production Options")]
+        public bool AllowVillageGoods { get; set; } = false;
+
+        [SettingPropertyBool("Allow Pack Animals", Order = 12, RequireRestart = false, HintText = "Allow production of Pack Animals. WARNING: Balance Breaking.")]
+        [SettingPropertyGroup("Production Options")]
+        public bool AllowPack { get; set; } = false;
+
+        [SettingPropertyBool("Allow Mounts", Order = 13, RequireRestart = false, HintText = "Allow production of Riding Horses. WARNING: Balance Breaking.")]
+        [SettingPropertyGroup("Production Options")]
+        public bool AllowMounts { get; set; } = false;
+
+        [SettingPropertyBool("Allow War Mounts", Order = 14, RequireRestart = false, HintText = "Allow production of War Horses. WARNING: Balance Breaking.")]
+        [SettingPropertyGroup("Production Options")]
+        public bool AllowWarMounts { get; set; } = false;
+        
+        [SettingPropertyBool("Allow Noble Mounts", Order = 15, RequireRestart = false, HintText = "Allow production of Noble Horses. WARNING: Balance Breaking.")]
+        [SettingPropertyGroup("Production Options")]
+        public bool AllowNobleMounts { get; set; } = false;
     }
 }

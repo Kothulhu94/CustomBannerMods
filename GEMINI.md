@@ -79,7 +79,11 @@
          };
       };
       CONFIG: "./tools/game_path_config.txt";
-  };
+      UPDATE_MOD: {
+         CMD: "python ./Tools/update_mod.py [ModName]";
+         DESC: "Updates a specific mod from the CustomBannerMods repo using sparse checkout. Backs up existing local version.";
+      };
+   };
 
    LOGS: {
      DIR: "./logs";

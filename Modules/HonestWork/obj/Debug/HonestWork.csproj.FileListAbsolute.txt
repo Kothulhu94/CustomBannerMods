@@ -17,3 +17,4 @@ E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.csproj.CoreCompileInp
 E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.dll
 E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.pdb
 E:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.sourcelink.json
+D:\Bannerlord_Mods\Modules\HonestWork\obj\Debug\HonestWork.sourcelink.json

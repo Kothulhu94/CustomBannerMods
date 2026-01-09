@@ -26,3 +26,4 @@ E:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net8.0\refint\ro
 E:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net8.0\rogue_researcher.pdb
 E:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net8.0\rogue_researcher.genruntimeconfig.cache
 E:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net8.0\ref\rogue_researcher.dll
+D:\Bannerlord_Mods\tools\mcp_servers\rogue_researcher\obj\Debug\net8.0\rogue_researcher.sourcelink.json

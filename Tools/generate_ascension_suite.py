@@ -17,6 +17,14 @@ CULTURES = {
     "sturgia": ["sturgian_recruit", "sturgian_warrior_son"],
     "vlandia": ["vlandian_recruit", "vlandian_squire"],
     "nord": ["nord_youngling"],
+    "minor_factions": [
+        "skolderbrotva_tier_1", "lakepike_tier_1", "wolfskins_tier_1",
+        "beni_zilal_tier_1", "ghilman_tier_1", "jawwal_tier_1",
+        "karakhuzaits_tier_1",
+        "eleftheroi_tier_1", "hidden_hand_tier_1", "embers_of_flame_tier_1", "legion_of_the_betrayed_tier_1",
+        "company_of_the_boar_tier_1", "brotherhood_of_woods_tier_1"
+    ],
+    "mercenary": ["western_mercenary", "eastern_mercenary", "sword_sisters_sister_t3"]
 }
 
 def load_and_merge_troops():

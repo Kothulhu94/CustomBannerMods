@@ -435,19 +435,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\": {}
+    "C:\\Users\\RHoskins.evvcr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Bannerlord_Mods\\Modules\\FieldSquire\\FieldSquire.csproj",
+      "projectUniqueName": "D:\\Bannerlord_Mods\\Modules\\FieldSquire\\FieldSquire.csproj",
       "projectName": "FieldSquire",
-      "projectPath": "E:\\Bannerlord_Mods\\Modules\\FieldSquire\\FieldSquire.csproj",
-      "packagesPath": "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\",
-      "outputPath": "E:\\Bannerlord_Mods\\Modules\\FieldSquire\\obj\\",
+      "projectPath": "D:\\Bannerlord_Mods\\Modules\\FieldSquire\\FieldSquire.csproj",
+      "packagesPath": "C:\\Users\\RHoskins.evvcr\\.nuget\\packages\\",
+      "outputPath": "D:\\Bannerlord_Mods\\Modules\\FieldSquire\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rhoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\RHoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net472"
@@ -490,7 +490,7 @@
             "autoReferenced": true
           }
         },
-        "runtimeIdentifierGraphPath": "E:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "D:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,3 +13,5 @@ Modules/SandBox*
 Modules/StoryMode
 Modules/CustomBattle
 Modules/BirthAndDeath
+_temp_investigate/
+ModulesNeedingWork/

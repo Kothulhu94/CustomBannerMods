@@ -45,5 +45,44 @@ namespace HonestWork
 
         [SettingPropertyFloatingInteger("XP Streak Multiplier", 0f, 1f, "0.00", Order = 10, RequireRestart = false, HintText = "Extra XP multiplier per hour worked.")]
         public float XpStreakMultiplier { get; set; } = 0.05f;
+
+        // NEW: AI Settings
+        [SettingPropertyGroup("AI Settings")]
+        [SettingPropertyBool("Enable AI in Villages", Order = 0, RequireRestart = false, HintText = "If disabled, AI will not work in villages.")]
+        public bool EnableAiVillages { get; set; } = true;
+
+        [SettingPropertyGroup("AI Settings")]
+        [SettingPropertyBool("Enable AI in Castles", Order = 1, RequireRestart = false, HintText = "If disabled, AI will not drill in castles.")]
+        public bool EnableAiCastles { get; set; } = true;
+
+        [SettingPropertyGroup("AI Settings")]
+        [SettingPropertyBool("Enable Noble Recruitment", Order = 2, RequireRestart = false, HintText = "If enabled, AI lords will camp at villages to recruit elites.")]
+        public bool EnableNobleFarming { get; set; } = true;
+
+        [SettingPropertyGroup("AI Settings")]
+        [SettingPropertyFloatingInteger("Recruit Spawn Chance", 0f, 1f, "0%", Order = 3, RequireRestart = false, HintText = "Chance for an Elite recruit to spawn when Army accelerates growth.")]
+        public float EliteSpawnChance { get; set; } = 0.15f;
+
+        // NEW: Seasonal Settings
+        [SettingPropertyGroup("Seasonal Economy")]
+        [SettingPropertyBool("Enable Seasonal Wages", Order = 0, RequireRestart = false, HintText = "If enabled, job wages fluctuate by season.")]
+        public bool EnableSeasonalWages { get; set; } = true;
+
+        [SettingPropertyGroup("Seasonal Economy")]
+        [SettingPropertyFloatingInteger("Volatility", 0f, 2f, "0.0", Order = 1, RequireRestart = false, HintText = "Multiplier for wage fluctuation range.")]
+        public float SeasonalVolatility { get; set; } = 1.0f;
+
+        // NEW: Thug Life Settings
+        [SettingPropertyGroup("Criminal Activity")]
+        [SettingPropertyFloatingInteger("Arrest Risk Factor", 0f, 0.01f, "0.000", Order = 0, RequireRestart = false, HintText = "Base risk per point of Town Security.")]
+        public float ThugArrestBaseRisk { get; set; } = 0.001f;
+
+        [SettingPropertyGroup("Criminal Activity")]
+        [SettingPropertyFloatingInteger("Roguery Safety Factor", 0f, 0.01f, "0.000", Order = 1, RequireRestart = false, HintText = "Risk reduction per point of Roguery.")]
+        public float ThugRoguerySafety { get; set; } = 0.0005f;
+
+        [SettingPropertyGroup("Criminal Activity")]
+        [SettingPropertyBool("Owner Exemption", Order = 2, RequireRestart = false, HintText = "If enabled, you cannot be arrested in your own town.")]
+        public bool PlayerTownExemption { get; set; } = true;
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj": {}
+    "D:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj": {}
   },
   "projects": {
-    "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj": {
+    "D:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj",
+        "projectUniqueName": "D:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj",
         "projectName": "CoastalLife",
-        "projectPath": "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj",
-        "packagesPath": "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\",
-        "outputPath": "E:\\Bannerlord_Mods\\Modules\\CoastalLife\\obj\\",
+        "projectPath": "D:\\Bannerlord_Mods\\Modules\\CoastalLife\\CoastalLife.csproj",
+        "packagesPath": "C:\\Users\\RHoskins.evvcr\\.nuget\\packages\\",
+        "outputPath": "D:\\Bannerlord_Mods\\Modules\\CoastalLife\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rhoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\RHoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
@@ -57,7 +57,7 @@
               "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "E:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "D:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

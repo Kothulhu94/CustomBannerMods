@@ -34,9 +34,16 @@ namespace HonestWork
             public int TotalXp; 
             public bool IsGuard; 
             public bool IsThug;
+            public float WageMultiplier = 1.0f; // New: Multiplier for dynamic wage scaling
         }
 
         private List<JobDef> _jobs;
+        // AI State Tracking
+        private Dictionary<Hero, string> _aiLastJob = new Dictionary<Hero, string>();
+        
+        // Seasonal Logic
+        private Dictionary<string, float> _seasonalMultipliers = new Dictionary<string, float>(); 
+        private CampaignTime.Seasons _lastSeason = CampaignTime.Seasons.Winter; // Force update on start
 
         public TownJobBehavior(ILogger logger, GlobalSettings settings)
         {
@@ -52,13 +59,15 @@ namespace HonestWork
         {
             if (_jobs.Count > 0) return;
             int xp = _settings.TownJobBaseXp;
-            _jobs.Add(new JobDef { Id = "guard", Name = "Guard Duty", Description = "Patrol the walls and keep order. (Athletics + Combat)", IsGuard = true, TotalXp = xp });
-            _jobs.Add(new JobDef { Id = "thug", Name = "Gang Enforcer", Description = "Muscle work for local gangs. (Roguery + Combat)", IsThug = true, TotalXp = xp });
-            _jobs.Add(new JobDef { Id = "artisan", Name = "Artisan & Builder", Description = "Smithing and construction work.", Skills = new List<SkillObject> { DefaultSkills.Crafting, DefaultSkills.Engineering }, TotalXp = xp });
-            _jobs.Add(new JobDef { Id = "instructor", Name = "Military Instructor", Description = "Drill troops and teach tactics.", Skills = new List<SkillObject> { DefaultSkills.Leadership, DefaultSkills.Tactics }, TotalXp = xp });
-            _jobs.Add(new JobDef { Id = "outrider", Name = "Outrider", Description = "Scout the perimeter and ride patrols.", Skills = new List<SkillObject> { DefaultSkills.Scouting, DefaultSkills.Riding }, TotalXp = xp });
-            _jobs.Add(new JobDef { Id = "physician", Name = "Court Physician", Description = "Tend to the sick and entertain the court.", Skills = new List<SkillObject> { DefaultSkills.Medicine, DefaultSkills.Charm }, TotalXp = xp });
-            _jobs.Add(new JobDef { Id = "official", Name = "Town Official", Description = "Manage trade ledgers and supplies.", Skills = new List<SkillObject> { DefaultSkills.Trade, DefaultSkills.Steward }, TotalXp = xp });
+            _jobs.Add(new JobDef { Id = "guard", Name = "Guard Duty", Description = "Patrol the walls and keep order. (Athletics/Combat) -> +Security, +Prosperity", IsGuard = true, TotalXp = xp, WageMultiplier = 1.0f });
+            _jobs.Add(new JobDef { Id = "thug", Name = "Gang Enforcer", Description = "Muscle work for local gangs. (Roguery/Combat) -> -Security, -Loyalty", IsThug = true, TotalXp = xp, WageMultiplier = 1.5f }); // High Pay
+            _jobs.Add(new JobDef { Id = "artisan", Name = "Artisan & Builder", Description = "Smithing and construction work. (Crafting/Engineering) -> +Prosperity, +Militia", Skills = new List<SkillObject> { DefaultSkills.Crafting, DefaultSkills.Engineering }, TotalXp = xp, WageMultiplier = 1.1f });
+            _jobs.Add(new JobDef { Id = "instructor", Name = "Military Instructor", Description = "Drill troops and teach tactics. (Leadership/Tactics) -> +GarrisonXP, +Militia", Skills = new List<SkillObject> { DefaultSkills.Leadership, DefaultSkills.Tactics }, TotalXp = xp, WageMultiplier = 1.0f });
+            _jobs.Add(new JobDef { Id = "outrider", Name = "Outrider", Description = "Scout the perimeter and ride patrols. (Scouting/Riding) -> +Garrison, +GarrisonXP", Skills = new List<SkillObject> { DefaultSkills.Scouting, DefaultSkills.Riding }, TotalXp = xp, WageMultiplier = 1.1f });
+            _jobs.Add(new JobDef { Id = "physician", Name = "Court Physician", Description = "Tend to the sick and entertain the court. (Medicine/Charm) -> +Loyalty", Skills = new List<SkillObject> { DefaultSkills.Medicine, DefaultSkills.Charm }, TotalXp = xp, WageMultiplier = 1.2f }); // High Skill Pay
+            _jobs.Add(new JobDef { Id = "official", Name = "Town Official", Description = "Manage trade ledgers and supplies. (Trade/Steward) -> +Prosperity, +Food", Skills = new List<SkillObject> { DefaultSkills.Trade, DefaultSkills.Steward }, TotalXp = xp, WageMultiplier = 1.2f }); // High Pay
+            
+            UpdateSeasonalMultipliers(); // Init
         }
 
         public override void RegisterEvents()
@@ -92,6 +101,14 @@ namespace HonestWork
             if (sw.ElapsedMilliseconds > 5)
             {
                 _logger.Warning($"[LAG SPOKE] HonestWork TownJobBehavior.OnHourlyTick took {sw.ElapsedMilliseconds}ms");
+            }
+
+            // Seasonal Check
+            if (CampaignTime.Now.GetSeasonOfYear != _lastSeason)
+            {
+                _lastSeason = CampaignTime.Now.GetSeasonOfYear;
+                UpdateSeasonalMultipliers();
+                InformationManager.DisplayMessage(new InformationMessage($"The season has changed to {_lastSeason}. Job market wages have fluctuated!"));
             }
         }
 
@@ -197,9 +214,129 @@ namespace HonestWork
             
             float multiplier = 1.0f + (_totalContinuousHours * _settings.XpStreakMultiplier);
             ApplyJobXP(Hero.MainHero, _currentJobId, multiplier);
+
+            // Companion Contribution
+            float companionBonus = 0f;
+            if (Hero.MainHero.PartyBelongedTo != null)
+            {
+                foreach (var element in Hero.MainHero.PartyBelongedTo.MemberRoster.GetTroopRoster())
+                {
+                    if (element.Character.IsHero && element.Character.HeroObject != Hero.MainHero && !element.Character.HeroObject.IsWounded)
+                    {
+                        var comp = element.Character.HeroObject;
+                        float contribution = CalculateCompanionContribution(comp, _currentJobId);
+                        
+                        if (contribution > 0)
+                        {
+                            companionBonus += contribution;
+                            ApplyJobXP(comp, _currentJobId, multiplier * 0.5f);
+                        }
+                    }
+                }
+            }
             
-            // Apply Effects (1.0 default hourly magnitude)
-            ApplyJobEffects(town, _currentJobId, 1.0f);
+            // Apply Effects (1.0 default + companion bonus)
+            ApplyJobEffects(town, _currentJobId, 1.0f + companionBonus);
+
+            // BetterGov: Ensure player is Governor if working in their own fief
+            if (town.OwnerClan == Clan.PlayerClan && town.Governor == null)
+            {
+                town.Governor = Hero.MainHero;
+            }
+
+            // Risk Check for Thugs (Player)
+            if (_currentJobId == "thug")
+            {
+                CheckForArrest(town, Hero.MainHero);
+            }
+        }
+
+        private void CheckForArrest(Town town, Hero hero)
+        {
+            try
+            {
+                // Safety: Own Town Exemption
+                if (town.OwnerClan == hero.Clan)
+                {
+                    if (MBRandom.RandomFloat < 0.05f && hero == Hero.MainHero) // 5% chance to roll eyes
+                        InformationManager.DisplayMessage(new InformationMessage("A guard recognized you and looked away nervously."));
+                    return;
+                }
+                // Chance to Catch = (Security * 0.01) - (Roguery * 0.005)
+                // e.g., Security 50 -> 0.5. Roguery 100 -> 0.5. Chance = 0.
+                // e.g., Security 100 -> 1.0. Roguery 0 -> 0. Chance = 100% (way too high per hour!)
+                // Adjustment: Reduce base risk. (Security * 0.001) maybe?
+                float risk = (town.Security * _settings.ThugArrestBaseRisk);
+                float safety = (hero.GetSkillValue(DefaultSkills.Roguery) * _settings.ThugRoguerySafety);
+                float chance = risk - safety;
+
+                // Safety: Own Town Exemption
+                if (town.OwnerClan == hero.Clan && _settings.PlayerTownExemption) 
+                {
+                     // Flavor text if risky but saved?
+                     if (chance > 0.1f && MBRandom.RandomFloat < 0.2f)
+                        InformationManager.DisplayMessage(new InformationMessage("The guards look the other way because you own this town."));
+                     return; 
+                }
+                
+                if (chance < 0) chance = 0;
+                
+                if (MBRandom.RandomFloat < chance)
+                {
+                    // ARRESTED!
+                    if (hero == Hero.MainHero)
+                    {
+                        InformationManager.DisplayMessage(new InformationMessage("You have been caught by the guards!", TaleWorlds.Library.Color.FromUint(0xFF0000FF)));
+                        // Stop Job
+                        _currentJobId = null; 
+                        GameMenu.SwitchToMenu("town");
+                        
+                        // Imprison
+                        if (town.GarrisonParty != null)
+                            TakePrisonerAction.Apply(town.GarrisonParty.Party, hero);
+                    }
+                    else
+                    {
+                        // AI Arrest
+                        InformationManager.DisplayMessage(new InformationMessage($"{hero.Name} was caught committing crimes in {town.Name} and imprisoned!"));
+                        if (town.GarrisonParty != null)
+                            TakePrisonerAction.Apply(town.GarrisonParty.Party, hero);
+                        
+                        if (_aiLastJob.ContainsKey(hero)) _aiLastJob.Remove(hero);
+                    }
+                }
+            }
+            catch {}
+        }
+
+        private float CalculateCompanionContribution(Hero hero, string jobId)
+        {
+            var job = _jobs.FirstOrDefault(j => j.Id == jobId);
+            if (job == null) return 0f;
+
+            float score = 0f;
+            
+            if (job.IsGuard)
+            {
+                score += hero.GetSkillValue(DefaultSkills.Athletics);
+                score += hero.GetSkillValue(DefaultSkills.OneHanded);
+                score += hero.GetSkillValue(DefaultSkills.TwoHanded);
+            }
+            else if (job.IsThug)
+            {
+                score += hero.GetSkillValue(DefaultSkills.Roguery);
+                score += hero.GetSkillValue(DefaultSkills.Throwing);
+            }
+            else if (job.Skills != null)
+            {
+                foreach (var skill in job.Skills)
+                {
+                    score += hero.GetSkillValue(skill);
+                }
+            }
+
+            // Normalization: 200 score -> 0.2 (20%)
+            return score * 0.001f;
         }
 
         private void ApplyJobEffects(Town town, string jobId, float magnitude)
@@ -238,13 +375,25 @@ namespace HonestWork
                 }
                 else if (jobId == "outrider")
                 {
-                    AddMilitia(town, effectVal);
-                    AddGarrisonXp(town, (int)(2 * magnitude));
+                    // Outriders now boost Garrison count, NOT Militia
+                    AddGarrisonTroops(town, (int)(1 * magnitude)); 
+                    AddGarrisonXp(town, (int)(10 * magnitude)); // Significant XP Boost
                 }
                 else if (jobId == "instructor")
                 {
-                    AddGarrisonXp(town, (int)(2 * magnitude));
+                    AddGarrisonXp(town, (int)(10 * magnitude)); // Significant XP Boost
                     AddMilitia(town, effectVal);
+                    
+                    // New: Random Party XP for Instructor (Player favors own troops too)
+                    if (town.GarrisonParty != null)
+                    {
+                         HonestWorkHelpers.GiveRandomPartyXp(town.GarrisonParty, 30, 50, 150);
+                    }
+
+                    if (Hero.MainHero.PartyBelongedTo != null)
+                    {
+                        AddPartyXp(Hero.MainHero.PartyBelongedTo, (int)(5 * magnitude));
+                    }
                 }
             }
             catch (Exception ex)
@@ -284,7 +433,14 @@ namespace HonestWork
                  // This effectively triples the hourly effect for this specific hour (1x standard + 2x bonus)
                  ApplyJobEffects(settlement.Town, _currentJobId, 2.0f);
 
-                 if (_currentJobId == "official")
+                  if (_currentJobId == "instructor")
+                  {
+                      AddPartyXp(Hero.MainHero.PartyBelongedTo, 25);
+                      AddGarrisonXp(settlement.Town, 25);
+                      InformationManager.DisplayMessage(new InformationMessage("Shift Bonus: Troops drilled intensely (+25 XP)."));
+                  }
+
+                  if (_currentJobId == "official")
                  {
                      AddRandomFoodToTown(settlement.Town, 10);
                      InformationManager.DisplayMessage(new InformationMessage("Shift Bonus: Market stocks replenished (+10 Extra Food)."));
@@ -410,10 +566,10 @@ namespace HonestWork
             {
                 foreach (var hero in settlement.HeroesWithoutParty)
                 {
-                    if (hero.IsAlive && (hero.IsWanderer || hero.IsLord || hero.IsNotable))
-                    {
-                        _cachedWorkers.Add(hero);
-                    }
+                if (hero.IsAlive && (hero.IsWanderer || hero.IsLord || hero.IsNotable))
+                {
+                    _cachedWorkers.Add(hero);
+                }
                 }
             }
 
@@ -436,17 +592,51 @@ namespace HonestWork
                    // Determine Job - Deterministic based on ID + Shift Block
                    long shiftBlock = (long)(CampaignTime.Now.ToHours / (double)_settings.ShiftHours);
                    int seed = worker.Id.GetHashCode() + (int)shiftBlock;
-                   JobDef chosenJob = SelectJobForAI(worker, seed);
+                   
+                   // AI Decision Logic:
+                   // 1. Honor Retention: Check if they should KEEP their job from last hour
+                   JobDef chosenJob = null;
+                   bool keptJob = false;
+                   
+                   if (_aiLastJob.ContainsKey(worker))
+                   {
+                       string lastId = _aiLastJob[worker];
+                       int honor = worker.GetTraitLevel(DefaultTraits.Honor);
+                       // Base 50% + 25% * Honor. (+2 Honor = 100% Retention)
+                       float retentionChance = 0.5f + (honor * 0.25f); 
+                       
+                       System.Random rngRetain = new System.Random(seed);
+                       if (rngRetain.NextDouble() < retentionChance)
+                       {
+                           var lastJobDef = _jobs.FirstOrDefault(j => j.Id == lastId);
+                           if (lastJobDef != null)
+                           {
+                               chosenJob = lastJobDef;
+                               keptJob = true;
+                           }
+                       }
+                   }
+
+                   if (!keptJob)
+                   {
+                       chosenJob = SelectJobForAI(worker, seed, settlement.Town);
+                       if (chosenJob != null) _aiLastJob[worker] = chosenJob.Id;
+                   }
                    
                    if (chosenJob != null)
                    {
                        // Apply Hourly Effects
                        ApplyJobEffects(settlement.Town, chosenJob.Id, _settings.AiEffectMagnitude);
-                       // XP (100%)
-                       ApplyJobXP(worker, chosenJob.Id, 1.0f);
+                       
+                       // Wage: Standardized Formula (Base + Prosperity) * JobMultiplier * Seasonal
+                       int wage = GetWageForJob(settlement.Town, chosenJob);
+                       GiveGoldAction.ApplyBetweenCharacters(null, worker, wage);
 
-                       // Wage (Optional: give gold to AI? Improves their economy)
-                       GiveGoldAction.ApplyBetweenCharacters(null, worker, 20); 
+                       // Thug Risk (AI)
+                       if (chosenJob.IsThug)
+                       {
+                           CheckForArrest(settlement.Town, worker);
+                       }
 
                        // Check for Shift Rewards (End of Shift)
                        // If this is the last hour of the shift block (hours % shift == shift-1)
@@ -462,7 +652,46 @@ namespace HonestWork
             }
         }
 
-        private JobDef SelectJobForAI(Hero hero, int seed)
+        private int GetWageForJob(Town town, JobDef job)
+        {
+            int baseWage = _settings.TownBaseWage + (int)(town.Prosperity / _settings.TownProsperityDivisor);
+            float seasonalMult = 1.0f;
+            if (_seasonalMultipliers.ContainsKey(job.Id)) seasonalMult = _seasonalMultipliers[job.Id];
+            
+            return (int)(baseWage * job.WageMultiplier * seasonalMult);
+        }
+
+        private void UpdateSeasonalMultipliers()
+        {
+            _seasonalMultipliers.Clear();
+            if (!_settings.EnableSeasonalWages)
+            {
+                foreach(var key in _seasonalMultipliers.Keys.ToList()) _seasonalMultipliers[key] = 1.0f;
+                return;
+            }
+
+            foreach (var job in _jobs)
+            {
+                // Mental jobs fluctuate more (0.5 to 2.0 default)
+                // Physical jobs stable (0.8 to 1.2 default)
+                
+                bool isMental = job.Id == "official" || job.Id == "physician" || job.Id == "artisan" || job.Id == "instructor";
+                
+                float baseFluctuation = isMental ? 0.75f : 0.2f; // Width from center
+                float volatility = baseFluctuation * _settings.SeasonalVolatility;
+                
+                float min = 1.0f - volatility;
+                float max = 1.0f + volatility;
+                
+                // Clamp to sane values
+                if (min < 0.1f) min = 0.1f;
+                
+                float val = min + (MBRandom.RandomFloat * (max - min));
+                _seasonalMultipliers[job.Id] = val;
+            }
+        }
+
+        private JobDef SelectJobForAI(Hero hero, int seed, Town town)
         {
             List<JobDef> validJobs = new List<JobDef>();
             int mercy = hero.GetTraitLevel(DefaultTraits.Mercy);
@@ -507,6 +736,37 @@ namespace HonestWork
                 // Deterministic Jitter (20%) using the seed to prevent randomness flicker per frame
                 float jitter = (float)rng.NextDouble() * 20f; 
                 score += jitter;
+
+                // POVERTY LOGIC:
+                // If poor (< 5000g), prioritize High Wage Multipliers heavily
+                if (hero.Gold < 5000)
+                {
+                     // (1.5 - 1.0) * 100 = +50 score. Massive boost for Thug/Official.
+                     score += (job.WageMultiplier - 1.0f) * 100f; 
+                }
+
+                // HUNGER LOGIC:
+                // If party is starving, prioritize Official (Food)
+                if (hero.PartyBelongedTo != null && hero.PartyBelongedTo.Food < 5)
+                {
+                    if (job.Id == "official") score += 200f; // Massive priority to survive
+                }
+
+                // POLITICAL LOGIC:
+                // If friend of town owner -> Guard/Artisan (+Security/Prosperity)
+                // If enemy/grudge -> Thug (-Security)
+                if (town.OwnerClan != null)
+                {
+                    int relation = hero.GetRelation(town.OwnerClan.Leader);
+                    if (relation > 10) // Friend
+                    {
+                        if (job.IsGuard || job.Id == "artisan" || job.Id == "official") score += relation * 2f;
+                    }
+                    else if (relation < -10 || hero.GetTraitLevel(DefaultTraits.Mercy) < 0) // Grudge/Cruel
+                    {
+                        if (job.IsThug) score += 50f;
+                    }
+                }
 
                 if (score > bestScore)
                 {
@@ -564,6 +824,18 @@ namespace HonestWork
             }
         }
 
+        private void AddPartyXp(MobileParty party, int amount)
+        {
+             if (party != null && party.MemberRoster != null)
+             {
+                 for (int i = 0; i < party.MemberRoster.Count; i++)
+                 {
+                     var element = party.MemberRoster.GetElementCopyAtIndex(i);
+                     party.MemberRoster.AddXpToTroop(element.Character, amount);
+                 }
+             }
+        }
+
         private void AddGarrisonXp(Town town, int amount)
         {
              if (town.GarrisonParty != null && town.GarrisonParty.MemberRoster != null)
@@ -574,6 +846,18 @@ namespace HonestWork
                      town.GarrisonParty.MemberRoster.AddXpToTroop(element.Character, amount);
                  }
              }
+        }
+
+        private void AddGarrisonTroops(Town town, int count)
+        {
+            if (town.GarrisonParty != null && town.GarrisonParty.MemberRoster != null)
+            {
+                var basicTroop = town.Culture.BasicTroop;
+                if (basicTroop != null)
+                {
+                    town.GarrisonParty.MemberRoster.AddToCounts(basicTroop, count);
+                }
+            }
         }
     }
 }

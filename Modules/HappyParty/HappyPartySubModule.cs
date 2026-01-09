@@ -63,6 +63,7 @@ namespace HappyParty
                     services.AddScoped<JobSeekerBehavior>();
                     services.AddScoped<RansomPrisonerBehavior>();
                     services.AddScoped<TavernCleanerBehavior>();
+                    services.AddScoped<TavernShooBehavior>();
                 }
             }
             catch (Exception ex)
@@ -93,6 +94,7 @@ namespace HappyParty
                     campaignStarter.AddBehavior(serviceProvider.GetRequiredService<EliteRecruiterBehavior>());
                     campaignStarter.AddBehavior(serviceProvider.GetRequiredService<JobSeekerBehavior>());
                     campaignStarter.AddBehavior(serviceProvider.GetRequiredService<TavernCleanerBehavior>());
+                    campaignStarter.AddBehavior(serviceProvider.GetRequiredService<TavernShooBehavior>());
                     campaignStarter.AddBehavior(serviceProvider.GetRequiredService<CustomWandererSpawnBehavior>());
                     
                     serviceProvider.GetRequiredService<Serilog.ILogger>().Information("HappyParty Loaded with ButterLib Services.");

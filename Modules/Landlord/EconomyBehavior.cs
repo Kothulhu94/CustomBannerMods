@@ -88,9 +88,13 @@ namespace Landlord
                 else if (category == "Village Goods")
                 {
 
+
                     string id = item.StringId.ToLower();
-                    if (id == "clay" || id == "iron_ore" || id == "hardwood" || id == "silver_ore" || id == "salt" || 
-                        id == "cotton" || id == "flax" || id == "pottery" || id == "linen" || id == "tools") 
+                    if (id == "clay" || id == "silver" || id == "iron" || id == "charcoal" || 
+                        id == "hardwood" || id == "salt" || id == "cotton" || id == "flax" || 
+                        id == "pottery" || id == "linen" || id == "tools" || 
+                        id == "fur" || id == "hides" || 
+                        id == "walrus_tusk" || id == "whale_oil")
                     {
                         filtered.Add(item);
                     }
@@ -117,7 +121,19 @@ namespace Landlord
                 {
                     if (item.ItemType == ItemObject.ItemTypeEnum.Horse && item.HorseComponent != null && !item.HorseComponent.IsPackAnimal)
                     {
-                         if (item.Tier >= ItemObject.ItemTiers.Tier4 || item.ItemCategory.StringId.ToLower().Contains("war"))
+                         // War: Tier 4+, or "war" string, BUT NOT Noble (Tier 6)
+                         if ((item.Tier >= ItemObject.ItemTiers.Tier4 || item.ItemCategory.StringId.ToLower().Contains("war")) && item.Tier < ItemObject.ItemTiers.Tier6)
+                         {
+                             filtered.Add(item);
+                         }
+                    }
+                }
+                else if (category == "Noble")
+                {
+                    if (item.ItemType == ItemObject.ItemTypeEnum.Horse && item.HorseComponent != null && !item.HorseComponent.IsPackAnimal)
+                    {
+                         // Noble: Tier 6+
+                         if (item.Tier >= ItemObject.ItemTiers.Tier6)
                          {
                              filtered.Add(item);
                          }
@@ -240,11 +256,22 @@ namespace Landlord
                 GameMenu.MenuOverlayType.SettlementWithBoth,
                 GameMenu.MenuFlags.None, null);
 
-            var categories = new List<string> { "Food", "Livestock", "Village Goods", "Pack", "Mount", "War" };
+            var categories = new List<string> { "Food", "Livestock", "Village Goods", "Pack", "Mount", "War", "Noble" };
             foreach(var cat in categories)
             {
                 campaignStarter.AddGameMenuOption("village_landlord_category_selection", $"cat_{cat}", cat,
-                (MenuCallbackArgs args) => { return true; },
+                (MenuCallbackArgs args) => 
+                { 
+                     if (cat == "Food") return true;
+                     if (GlobalSettings.Instance == null) return true;
+                     if (cat == "Livestock") return GlobalSettings.Instance.AllowLivestock;
+                     if (cat == "Village Goods") return GlobalSettings.Instance.AllowVillageGoods;
+                     if (cat == "Pack") return GlobalSettings.Instance.AllowPack;
+                     if (cat == "Mount") return GlobalSettings.Instance.AllowMounts;
+                     if (cat == "War") return GlobalSettings.Instance.AllowWarMounts;
+                     if (cat == "Noble") return GlobalSettings.Instance.AllowNobleMounts;
+                     return true;
+                },
                 (MenuCallbackArgs args) =>
                 {
                     _selectedCategory = cat;
@@ -274,6 +301,7 @@ namespace Landlord
                 .Concat(GetItemsByCategory("Pack"))
                 .Concat(GetItemsByCategory("Mount"))
                 .Concat(GetItemsByCategory("War"))
+                .Concat(GetItemsByCategory("Noble"))
                 .Distinct()
                 .ToList();
 
@@ -291,6 +319,7 @@ namespace Landlord
                         {
                             if (item.HorseComponent.IsPackAnimal) itemCat = "Pack";
                             else if (item.Tier < ItemObject.ItemTiers.Tier4 && !item.ItemCategory.StringId.ToLower().Contains("war")) itemCat = "Mount";
+                            else if (item.Tier >= ItemObject.ItemTiers.Tier6) itemCat = "Noble";
                             else itemCat = "War";
                         }
                         
@@ -312,6 +341,7 @@ namespace Landlord
                         else if (GetItemsByCategory("Pack").Contains(item)) itemCat = "Pack";
                         else if (GetItemsByCategory("Mount").Contains(item)) itemCat = "Mount";
                         else if (GetItemsByCategory("War").Contains(item)) itemCat = "War";
+                        else if (GetItemsByCategory("Noble").Contains(item)) itemCat = "Noble";
                         else if (GetItemsByCategory("Food").Contains(item)) itemCat = "Food";
 
 
@@ -353,7 +383,18 @@ namespace Landlord
              foreach(var cat in categories)
             {
                 campaignStarter.AddGameMenuOption("village_landlord_change_prod_cat", $"change_cat_{cat}", cat,
-                (MenuCallbackArgs args) => { return true; },
+                (MenuCallbackArgs args) => 
+                { 
+                     if (cat == "Food") return true;
+                     if (GlobalSettings.Instance == null) return true;
+                     if (cat == "Livestock") return GlobalSettings.Instance.AllowLivestock;
+                     if (cat == "Village Goods") return GlobalSettings.Instance.AllowVillageGoods;
+                     if (cat == "Pack") return GlobalSettings.Instance.AllowPack;
+                     if (cat == "Mount") return GlobalSettings.Instance.AllowMounts;
+                     if (cat == "War") return GlobalSettings.Instance.AllowWarMounts;
+                     if (cat == "Noble") return GlobalSettings.Instance.AllowNobleMounts;
+                     return true;
+                },
                 (MenuCallbackArgs args) =>
                 {
                     _selectedCategory = cat;
@@ -382,6 +423,7 @@ namespace Landlord
                         {
                             if (item.HorseComponent.IsPackAnimal) itemCat = "Pack";
                             else if (item.Tier < ItemObject.ItemTiers.Tier4 && !item.ItemCategory.StringId.ToLower().Contains("war")) itemCat = "Mount";
+                            else if (item.Tier >= ItemObject.ItemTiers.Tier6) itemCat = "Noble";
                             else itemCat = "War";
                         }
                         if (item.IsFood && !item.IsAnimal) itemCat = "Food";
@@ -391,6 +433,7 @@ namespace Landlord
                         else if (GetItemsByCategory("Pack").Contains(item)) itemCat = "Pack";
                         else if (GetItemsByCategory("Mount").Contains(item)) itemCat = "Mount";
                         else if (GetItemsByCategory("War").Contains(item)) itemCat = "War";
+                        else if (GetItemsByCategory("Noble").Contains(item)) itemCat = "Noble";
                         else if (GetItemsByCategory("Food").Contains(item)) itemCat = "Food";
 
                         if (itemCat != _selectedCategory) return false;
@@ -602,6 +645,7 @@ namespace Landlord
                 (MenuCallbackArgs args) => { args.optionLeaveType = GameMenuOption.LeaveType.Leave; return true; },
                 (MenuCallbackArgs args) => { GameMenu.SwitchToMenu("village"); }, true, -1, false);
 
+/*
             // DEBUG: Trigger Production
             if (GlobalSettings.Instance.DebugMode)
             {
@@ -614,6 +658,7 @@ namespace Landlord
                         InformationManager.DisplayMessage(new InformationMessage("DEBUG: Production cycle triggered manually."));
                     }, false, -1, false);
             }
+*/
         }
 
         private void OnSettlementEntered(MobileParty party, Settlement settlement, Hero hero)

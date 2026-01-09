@@ -17,3 +17,4 @@ E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.csproj.CoreCompileI
 E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.sourcelink.json
 E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.dll
 E:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.pdb
+D:\Bannerlord_Mods\Modules\CoastalLife\obj\Debug\CoastalLife.sourcelink.json

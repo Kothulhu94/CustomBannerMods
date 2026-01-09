@@ -53,20 +53,35 @@ namespace HappyParty
                 int totalRansomValue = 0;
                 var prisonRoster = mobileParty.PrisonRoster;
                 
-                var rosterList = new List<TroopRosterElement>();
-                foreach(var element in prisonRoster.GetTroopRoster()) rosterList.Add(element);
+                // Snapshot to modify collection while iterating
+                var rosterList = new List<TroopRosterElement>(prisonRoster.GetTroopRoster());
 
                 foreach (var element in rosterList)
                 {
                     int count = element.Number;
                     if (element.Character != null)
                     {
-                        // Logic Refactor: Recruit High Tier Prisoners if we have space
+                        // CRITICAL FIX: Handle Heroes via Proper Actions
+                        if (element.Character.IsHero && element.Character.HeroObject != null)
+                        {
+                            if (_settings.DebugMode)
+                                _logger.Information($"[RansomPrisoner] Releasing Hero {element.Character.Name} from {mobileParty.Name} to prevent eternal imprisonment.");
 
+                            // Releases the hero from captivity properly (updates state, log, etc)
+                            // This automatically removes them from the PrisonRoster.
+                            // Use valid API method
+                            if (mobileParty.LeaderHero != null)
+                                EndCaptivityAction.ApplyByReleasedByChoice(element.Character.HeroObject, mobileParty.LeaderHero);
+                            else
+                                EndCaptivityAction.ApplyByEscape(element.Character.HeroObject, null);
+                            continue;
+                        }
+
+                        // Logic Refactor: Recruit High Tier Prisoners if we have space
                         if (mobileParty.Party.PartySizeLimit > mobileParty.MemberRoster.TotalManCount &&
                             mobileParty.LeaderHero.Gold > 2000)
                         {
-                             if (element.Character.Tier >= 4 && !element.Character.IsHero)
+                             if (element.Character.Tier >= 4) // Ensure we only recruit troops
                              {
                                  // Attempt to recruit up to available space
                                  int space = mobileParty.Party.PartySizeLimit - mobileParty.MemberRoster.TotalManCount;
@@ -93,6 +108,9 @@ namespace HappyParty
                             int value = element.Character.Tier * 100; 
                             if (value == 0) value = 50; 
                             totalRansomValue += value * count;
+
+                            // Manually remove ransomed troops since we don't Clear() anymore
+                            mobileParty.PrisonRoster.AddToCounts(element.Character, -count);
                         }
                     }
                 }
@@ -105,7 +123,6 @@ namespace HappyParty
                     if (mobileParty.LeaderHero != null)
                     {
                         GiveGoldAction.ApplyBetweenCharacters(null, mobileParty.LeaderHero, totalRansomValue, true);
-                        mobileParty.PrisonRoster.Clear();
                         
                         if (_settings.DebugMode)
                         {

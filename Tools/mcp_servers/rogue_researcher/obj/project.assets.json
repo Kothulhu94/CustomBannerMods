@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\": {}
+    "C:\\Users\\RHoskins.evvcr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
+      "projectUniqueName": "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
       "projectName": "rogue_researcher",
-      "projectPath": "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
-      "packagesPath": "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\",
-      "outputPath": "E:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\obj\\",
+      "projectPath": "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\rogue_researcher.csproj",
+      "packagesPath": "C:\\Users\\RHoskins.evvcr\\.nuget\\packages\\",
+      "outputPath": "D:\\Bannerlord_Mods\\tools\\mcp_servers\\rogue_researcher\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rhoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\RHoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -83,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "E:\\Bannerlord_Mods\\Initialization\\dotnet_portable\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "D:\\Bannerlord_Mods\\Initialization\\dotnet_portable\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

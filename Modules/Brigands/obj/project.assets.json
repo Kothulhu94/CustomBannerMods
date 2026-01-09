@@ -435,19 +435,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\": {}
+    "C:\\Users\\RHoskins.evvcr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Bannerlord_Mods\\Modules\\Brigands\\Brigands.csproj",
+      "projectUniqueName": "D:\\Bannerlord_Mods\\Modules\\Brigands\\Brigands.csproj",
       "projectName": "Brigands",
-      "projectPath": "E:\\Bannerlord_Mods\\Modules\\Brigands\\Brigands.csproj",
-      "packagesPath": "C:\\Users\\rhoskins.evvcr\\.nuget\\packages\\",
-      "outputPath": "E:\\Bannerlord_Mods\\Modules\\Brigands\\obj\\",
+      "projectPath": "D:\\Bannerlord_Mods\\Modules\\Brigands\\Brigands.csproj",
+      "packagesPath": "C:\\Users\\RHoskins.evvcr\\.nuget\\packages\\",
+      "outputPath": "D:\\Bannerlord_Mods\\Modules\\Brigands\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rhoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\RHoskins.evvcr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net472"
@@ -489,7 +489,7 @@
             "version": "[1.0.3, )"
           }
         },
-        "runtimeIdentifierGraphPath": "E:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "D:\\Bannerlord_Mods\\Tools\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

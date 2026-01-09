@@ -17,3 +17,4 @@ E:\Bannerlord_Mods\Modules\Landlord\obj\Debug\Landlord.csproj.CoreCompileInputs.
 E:\Bannerlord_Mods\Modules\Landlord\obj\Debug\Landlord.dll
 E:\Bannerlord_Mods\Modules\Landlord\obj\Debug\Landlord.pdb
 E:\Bannerlord_Mods\Modules\Landlord\obj\Debug\Landlord.sourcelink.json
+D:\Bannerlord_Mods\Modules\Landlord\obj\Debug\Landlord.sourcelink.json

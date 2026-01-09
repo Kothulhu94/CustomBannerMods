@@ -17,3 +17,4 @@ D:\Bannerlord_Mods\Modules\NewClans\obj\Debug\NewClans.csproj.CoreCompileInputs.
 D:\Bannerlord_Mods\Modules\NewClans\obj\Debug\NewClans.dll
 D:\Bannerlord_Mods\Modules\NewClans\obj\Debug\NewClans.pdb
 E:\Bannerlord_Mods\Modules\NewClans\obj\Debug\NewClans.sourcelink.json
+D:\Bannerlord_Mods\Modules\NewClans\obj\Debug\NewClans.sourcelink.json

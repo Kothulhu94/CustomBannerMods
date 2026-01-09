@@ -17,3 +17,4 @@ E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.csproj.CoreCompileInput
 E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.dll
 E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.pdb
 E:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.sourcelink.json
+D:\Bannerlord_Mods\Modules\BetterGov\obj\Debug\BetterGov.sourcelink.json
