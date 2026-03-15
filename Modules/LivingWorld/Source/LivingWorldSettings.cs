@@ -43,6 +43,14 @@ namespace LivingWorld
         [SettingPropertyGroup("Field Squire/General")]
         public bool FieldSquire_DebugMode { get; set; } = false;
 
+        [SettingPropertyInteger("Stewardship Scaling", 1, 100, "0", Order = 4, RequireRestart = false, HintText = "Levels of Steward required per extra troop. Default is 5.")]
+        [SettingPropertyGroup("Field Squire/General")]
+        public int FieldSquire_StewardshipScaling { get; set; } = 5;
+
+        [SettingPropertyInteger("Companion Scaling", 1, 100, "0", Order = 5, RequireRestart = false, HintText = "Levels of Steward required per extra companion slot. Default is 50.")]
+        [SettingPropertyGroup("Field Squire/General")]
+        public int FieldSquire_CompanionScaling { get; set; } = 50;
+
 
         [SettingPropertyInteger("Food Supply Threshold", 0, 100, "0", Order = 0, RequireRestart = false, HintText = "Squire will buy food to maintain this level.")]
         [SettingPropertyGroup("Field Squire/Logistics")]

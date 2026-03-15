@@ -56,10 +56,10 @@ namespace Landlord
             if (patrol.Party.EstimatedStrength >= 50f)
             {
                 Settlement nearestHideout = Settlement.All.Where(s => s.IsHideout && s.IsVisible)
-                    .OrderBy(s => s.Position2D.DistanceSquared(patrol.Position2D))
+                    .OrderBy(s => s.Position.ToVec2().DistanceSquared(patrol.Position.ToVec2()))
                     .FirstOrDefault();
 
-                if (nearestHideout != null && nearestHideout.Position2D.Distance(patrol.Position2D) <= 50f)
+                if (nearestHideout != null && nearestHideout.Position.ToVec2().Distance(patrol.Position.ToVec2()) <= 50f)
                 {
                     if (patrol.ShortTermTargetSettlement != nearestHideout)
                     {
@@ -119,49 +119,56 @@ namespace Landlord
             Village village = settlement.Village;
             if (village.Gold < 10000) return;
 
-            var wealthData = LandlordManager.Instance.GetWealthData(settlement.StringId);
-            float hearths = village.Hearth;
+            int attempts = 0;
+            int maxAttempts = village.Gold > 50000 ? 3 : 1;
 
-            // Determine Purchase Probabilities
-            float hearthChance = 0f;
-            float militiaChance = 0f;
-            float patrolChance = 0f;
+            while (village.Gold >= 10000 && attempts < maxAttempts)
+            {
+                attempts++;
+                var wealthData = LandlordManager.Instance.GetWealthData(settlement.StringId);
+                float hearths = village.Hearth;
 
-            bool militiaCapped = wealthData.MilitiaBonus >= (hearths * 0.25f);
+                // Determine Purchase Probabilities
+                float hearthChance = 0f;
+                float militiaChance = 0f;
+                float patrolChance = 0f;
 
-            if (hearths < 600)
-            {
-                hearthChance = 0.6f;
-                militiaChance = 0.3f;
-                patrolChance = 0.1f;
-            }
-            else
-            {
-                hearthChance = 0.25f;
-                militiaChance = 0.50f;
-                // Patrol chance is remainder (0.25f)
-            }
+                bool militiaCapped = wealthData.MilitiaBonus >= (hearths * 0.25f);
 
-            if (militiaCapped)
-            {
-                hearthChance = 0.25f;
-                militiaChance = 0f;
-                patrolChance = 0.75f;
-            }
+                if (hearths < 600)
+                {
+                    hearthChance = 0.6f;
+                    militiaChance = 0.3f;
+                    patrolChance = 0.1f;
+                }
+                else
+                {
+                    hearthChance = 0.25f;
+                    militiaChance = 0.50f;
+                    patrolChance = 0.25f;
+                }
 
-            // Roll for purchase
-            float roll = MBRandom.RandomFloat;
-            if (roll < hearthChance)
-            {
-                ApplyHearthPurchase(settlement);
-            }
-            else if (roll < hearthChance + militiaChance)
-            {
-                ApplyMilitiaPurchase(settlement);
-            }
-            else
-            {
-                ApplyPatrolPurchase(settlement);
+                if (militiaCapped)
+                {
+                    hearthChance = 0.25f;
+                    militiaChance = 0f;
+                    patrolChance = 0.75f;
+                }
+
+                // Roll for purchase
+                float roll = MBRandom.RandomFloat;
+                if (roll < hearthChance)
+                {
+                    ApplyHearthPurchase(settlement);
+                }
+                else if (roll < hearthChance + militiaChance)
+                {
+                    ApplyMilitiaPurchase(settlement);
+                }
+                else if (roll < hearthChance + militiaChance + patrolChance)
+                {
+                    ApplyPatrolPurchase(settlement);
+                }
             }
         }
 

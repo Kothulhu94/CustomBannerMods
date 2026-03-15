@@ -170,13 +170,14 @@ MODULE: Landlord
 DESC: Economic/finance model & behavior logic for land ownership system.
 PATH: Source/Landlord
 
-FILES[6]{name, type, desc}:
+FILES[7]{name, type, desc}:
 EconomyBehavior.cs, Behavior, Core logic for buying/managing land & production cycles.
 GlobalSettings.cs, Proxy, Static proxy to LivingWorldSettings.Instance.
 LandlordFinanceModel.cs, Model, Integrates estate income into Clan Finance logic.
 ViolenceBehavior.cs, Behavior, Handles raiding, razing, and plot defense during map events.
 LandlordState.cs, State, Defines VillagePlot and LandlordManager data structures.
 LandlordSubModule.cs, Entry, Registration of behaviors, models, and logging.
+VillageWealthBehavior.cs, Behavior, Manages village wealth stimulus and militia patrols.
 
 FEATURES[7]{name, detail}:
 Plot Ownership, Buy up to 3 plots per village (Normal/Good/Great tiers).
@@ -202,10 +203,11 @@ LandlordManager, GlobalPlots, Main data store for all village plots.
 LandlordFinanceModel, CalculateClanIncome, Injects daily income into clan budget.
 ViolenceBehavior, ModifyHearths, Adjusts village hearths on raze/raid.
 
-CHANGELOG[3]{date, time, desc, status}:
+CHANGELOG[4]{date, time, desc, status}:
 2026-01-22, 10:00, Implement dynamic rent scaling based on prosperity, PENDING
 2026-01-24, 14:00, Integration test for LandlordFinanceModel calculation, PLANNED
 2026-01-25, 09:00, Refactor ViolenceBehavior for guard interactions, PLANNED
+2026-03-15, 01:10, Fix VillageWealthBehavior API mismatches for v1.3.x (Strength/Position/VillagerParty), COMPLETED
 
 
 MODULE: LivingLegend

@@ -51,6 +51,7 @@ namespace LivingWorld
                     FieldSquire.Patches.SquireUIPatches.Apply(harmony);
                     FieldSquire.Patches.DebugElectionPatch.Apply(harmony);
                     FieldSquire.Patches.PartySizeLimitPatch.Apply(harmony);
+                    FieldSquire.Patches.SquireXpSharePatch.Apply(harmony);
                     LivingLegend.LivingLegendPatches.Apply(harmony);
                     LivingLegend.MilitiaPatrolPatches.Apply(harmony);
                     

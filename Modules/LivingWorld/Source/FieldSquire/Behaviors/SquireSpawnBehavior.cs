@@ -7,6 +7,7 @@ using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using TaleWorlds.ObjectSystem;
+using TaleWorlds.Library;
 using Microsoft.Extensions.Logging;
 
 namespace FieldSquire.Behaviors
@@ -17,10 +18,71 @@ namespace FieldSquire.Behaviors
         private readonly ILogger<SquireSpawnBehavior> _logger;
         private readonly GlobalSettings _settings;
 
+        private static bool _hasEverSpawnedSquire = false;
+
         public SquireSpawnBehavior(ILogger<SquireSpawnBehavior> logger, GlobalSettings settings)
         {
             _logger = logger;
             _settings = settings;
+        }
+
+        public static Hero GetActiveSquire()
+        {
+            return Hero.AllAliveHeroes.FirstOrDefault(h => h.StringId == SquireStringId && h.Clan == Clan.PlayerClan);
+        }
+
+        public static void PromoteToSquire(Hero hero)
+        {
+            if (hero == null) return;
+            
+            // Set ID via reflection
+            SetHeroStringId(hero, SquireStringId);
+            
+            // Ensure they are in player clan as a companion
+            if (hero.Clan != Clan.PlayerClan)
+            {
+                AddCompanionAction.Apply(Clan.PlayerClan, hero);
+            }
+            
+            // Set Name
+            hero.SetName(new TextObject("Your Squire"), new TextObject("Your Squire"));
+            
+            InformationManager.DisplayMessage(new InformationMessage($"{hero.Name} is now your Squire."));
+        }
+
+        public static void DismissSquire(Hero hero)
+        {
+            if (hero == null || hero.StringId != SquireStringId) return;
+
+            string oldName = hero.Name.ToString();
+            // Reset ID to something unique so they are no longer "The Squire"
+            string newId = $"squire_retired_{hero.Name.ToString().Replace(" ", "_")}_{hero.Id.InternalValue}";
+            SetHeroStringId(hero, newId);
+            
+            // Revert Name
+            hero.SetName(new TextObject("Former Squire"), new TextObject("Former Squire"));
+
+            InformationManager.DisplayMessage(new InformationMessage($"{oldName} is no longer your Squire."));
+        }
+
+        private static void SetHeroStringId(Hero hero, string newId)
+        {
+            if (hero == null) return;
+            var prop = typeof(MBObjectBase).GetProperty("StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+            if (prop != null && prop.CanWrite)
+            {
+                prop.SetValue(hero, newId);
+            }
+            else
+            {
+                var setMethod = prop?.GetSetMethod(true);
+                if (setMethod != null) setMethod.Invoke(hero, new object[] { newId });
+                else
+                {
+                    var method = typeof(MBObjectBase).GetMethod("set_StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+                    if (method != null) method.Invoke(hero, new object[] { newId });
+                }
+            }
         }
 
         public override void RegisterEvents()
@@ -31,6 +93,7 @@ namespace FieldSquire.Behaviors
 
         public override void SyncData(IDataStore dataStore)
         {
+            dataStore.SyncData("_hasEverSpawnedSquire", ref _hasEverSpawnedSquire);
         }
 
         private void OnSessionLaunched(CampaignGameStarter starter)
@@ -45,65 +108,29 @@ namespace FieldSquire.Behaviors
 
         private void ManageSquire(string context)
         {
-            var squire = Clan.PlayerClan?.Heroes.FirstOrDefault(h => h.StringId == SquireStringId);
+            // 1. Find the Squire
+            var squire = GetActiveSquire();
 
-            // Fallback: Search all alive heroes if not in clan (e.g. kicked out, or legacy save data where they were a wanderer)
-            if (squire == null)
+            // 2. Initial Setup or Recovery
+            if (squire == null && !_hasEverSpawnedSquire)
             {
-                squire = Hero.AllAliveHeroes.FirstOrDefault(h => h.StringId == SquireStringId);
+                 // Try to find by name fallback (for transition/legacy)
+                 squire = Hero.AllAliveHeroes.FirstOrDefault(h => h.Name != null && h.Name.ToString().Contains("Squire") && h.Clan == Clan.PlayerClan);
+                 if (squire != null && squire.StringId != SquireStringId)
+                 {
+                     SetHeroStringId(squire, SquireStringId);
+                 }
             }
 
-            if (squire == null)
+            if (squire == null && !_hasEverSpawnedSquire)
             {
-                var candidates = Hero.AllAliveHeroes
-                    .Where(h => h.Name != null && h.Name.ToString().Contains("Squire"))
-                    .ToList();
-
-                if (candidates.Any())
-                {
-                    // Pick the best candidate: In Party > Player Clan > Alive
-                    squire = candidates.FirstOrDefault(h => h.PartyBelongedTo == MobileParty.MainParty) 
-                             ?? candidates.FirstOrDefault(h => h.Clan == Clan.PlayerClan) 
-                             ?? candidates.First();
-
-                    // If we found one via name, stamp the ID now so we find them correctly next time
-                    if (squire.StringId != SquireStringId)
-                    {
-                        var prop = typeof(MBObjectBase).GetProperty("StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
-                        if (prop != null && prop.CanWrite)
-                        {
-                            prop.SetValue(squire, SquireStringId);
-                        }
-                        else
-                        {
-                            var setMethod = prop?.GetSetMethod(true);
-                            if (setMethod != null) setMethod.Invoke(squire, new object[] { SquireStringId });
-                            else
-                            {
-                                var method = typeof(MBObjectBase).GetMethod("set_StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
-                                if (method != null) method.Invoke(squire, new object[] { SquireStringId });
-                                else _logger.LogError("Failed to set StringId via all reflection methods!");
-                            }
-                        }
-                    }
-
-                    // Clean up potential duplicates
-                    if (candidates.Count > 1)
-                    {
-                        foreach (var dupe in candidates.Where(d => d != squire))
-                        {
-                            _logger.LogWarning($"{context}: Removing duplicate Squire {dupe.Name} ({dupe.StringId})");
-                            KillCharacterAction.ApplyByRemove(dupe, false, true);
-                        }
-                    }
-                }
-            }
-
-            // 2. Ensure Existence
-            if (squire == null)
-            {
-                _logger.LogInformation($"{context}: Squire not found. Spawning new one.");
+                _logger.LogInformation($"{context}: First-time Squire setup required. Spawning.");
                 squire = SpawnSquire();
+                _hasEverSpawnedSquire = true;
+            }
+            else if (squire != null)
+            {
+                _hasEverSpawnedSquire = true;
             }
 
             // 3. Ensure Status (Clan Member & Party Presence)

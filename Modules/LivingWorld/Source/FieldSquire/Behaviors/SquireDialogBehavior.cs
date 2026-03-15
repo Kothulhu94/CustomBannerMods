@@ -108,6 +108,24 @@ namespace FieldSquire.Behaviors
             
             // Return from VM Logic
             starter.AddDialogLine("squire_return_vm_start", "start", "hero_main_options", "Is there anything else requiring my attention?", () => _returningFromVM && Hero.OneToOneConversationHero == _talkingSquire, () => _returningFromVM = false);
+
+            // Promotion & Firing
+            starter.AddPlayerLine("squire_promote_start", "companion_talk", "squire_promote_response", "I have need of a Squire. Would you take up the mantle?", IsPromotionAvailable, null);
+            starter.AddDialogLine("squire_promote_confirm", "squire_promote_response", "hero_main_options", "It would be an honor, my lord. I shall handle the ledgers and logistics from now on.", null, () => SquireSpawnBehavior.PromoteToSquire(Hero.OneToOneConversationHero));
+
+            starter.AddPlayerLine("squire_dismiss_start", "hero_main_options", "squire_dismiss_response", "I no longer require your services as my Squire. You're relieved.", IsSquire, null);
+            starter.AddDialogLine("squire_dismiss_confirm", "squire_dismiss_response", "close_window", "As you wish, my lord. I shall return to my previous duties.", null, () => SquireSpawnBehavior.DismissSquire(Hero.OneToOneConversationHero));
+        }
+
+        private bool IsPromotionAvailable()
+        {
+            var hero = Hero.OneToOneConversationHero;
+            if (hero == null || hero.Clan != Clan.PlayerClan || hero == Hero.MainHero) return false;
+            
+            // Cannot promote if there is already an active squire
+            if (SquireSpawnBehavior.GetActiveSquire() != null) return false;
+            
+            return true;
         }
 
         private void SearchForWanderer(SkillObject skill)
@@ -223,17 +241,21 @@ namespace FieldSquire.Behaviors
             var hero = Hero.OneToOneConversationHero;
             if (hero == null) return false;
 
-            // Primary: Check ID
-            bool matchId = hero.StringId == SquireSpawnBehavior.SquireStringId;
+            // Use the shared helper from SpawnBehavior
+            var activeSquire = SquireSpawnBehavior.GetActiveSquire();
+            if (activeSquire != null && activeSquire == hero) return true;
+
+            // Fallback for name check (handles cases where ID might have drifted but name is set)
+            bool matchName = hero.Name != null && hero.Name.ToString().Contains("Squire") && hero.Clan == Clan.PlayerClan;
             
-            // Secondary: Check Name fallback (handles corrupted IDs in existing saves)
-            bool matchName = hero.Name != null && hero.Name.ToString().Contains("Squire");
+            if (matchName)
+            {
+                _logger.LogInformation($"IsSquire: Matched {hero.Name} via name fallback. Correcting ID.");
+                SquireSpawnBehavior.PromoteToSquire(hero); // Re-stamp ID if needed
+                return true;
+            }
             
-            bool match = matchId || matchName;
-            
-            _logger.LogInformation($"IsSquire check: Talking to {hero.Name} (ID: {hero.StringId}). MatchId: {matchId}, MatchName: {matchName}. Result: {match}");
-            
-            return match;
+            return false;
         }
 
         private void OpenManagementInquiry()

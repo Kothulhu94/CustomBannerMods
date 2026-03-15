@@ -27,5 +27,7 @@ namespace FieldSquire
         }
 
         public bool DebugMode => LivingWorldSettings.Instance?.FieldSquire_DebugMode ?? false;
+        public int StewardshipScaling => LivingWorldSettings.Instance?.FieldSquire_StewardshipScaling ?? 5;
+        public int CompanionScaling => LivingWorldSettings.Instance?.FieldSquire_CompanionScaling ?? 50;
     }
 }

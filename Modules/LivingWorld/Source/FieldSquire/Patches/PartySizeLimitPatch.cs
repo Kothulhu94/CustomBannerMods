@@ -4,6 +4,7 @@ using TaleWorlds.CampaignSystem.GameComponents;
 using TaleWorlds.CampaignSystem.Party;
 using FieldSquire.Behaviors;
 using System.Linq;
+using TaleWorlds.Core;
 using TaleWorlds.Localization;
 
 namespace FieldSquire.Patches
@@ -33,7 +34,10 @@ namespace FieldSquire.Patches
 
                 if (squire != null && party.MobileParty.MemberRoster.Contains(squire.CharacterObject))
                 {
-                    __result.Add(1f, new TextObject("{=SquireSlot}Squire Slot"), null);
+                    int stewardSkill = squire.GetSkillValue(DefaultSkills.Steward);
+                    int divisor = GlobalSettings.Instance?.StewardshipScaling ?? 5;
+                    float bonus = 1f + (stewardSkill / (float)divisor);
+                    __result.Add(bonus, new TextObject("{=SquireSlot}Squire Slot (Stewardship)"), null);
                 }
             }
         }

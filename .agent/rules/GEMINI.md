@@ -2,7 +2,7 @@ WORKSPACE:
 PURPOSE: Bannerlord ModDev
 ROOT: ./
 TARGET: Mount & Blade II: Bannerlord v1.3.x (Nov 2025)
-CRITICAL: NEVER GUESS API SIGNATURES. Verify via @[TOOLS.Decompiler].
+CRITICAL: NEVER GUESS API SIGNATURES. Verify via @[TOOLS.DOCS] or @[TOOLS.Decompiler].
 
 CONTEXT[3]{scope, constraint, action}:
 PORTABILITY, No Admin/Portable (D: or E:), Use ./tools/ & ./dotnet_portable/ only.
@@ -12,7 +12,8 @@ DEPENDENCIES, Isolated, Copy missing Game DLLs from Modules/bin to ./libs.
 PROJECT: LivingWorld
 STATUS:LIVING_WORLD, RELEASED/PRIORITY (BUGGY), Submodules[7]: BetterGov, FieldSquire, HappyParty, HonestWork, Landlord, LivingLegend, NewClans. State: @[Modules/LivingWorld/foldersummary.toon].
 
-TOOLS[13]{key, path, cmd, note}:
+TOOLS[14]{key, path, cmd, note}:
+DOCS, https://apidoc.bannerlord.com/v/1.3.14/index.html, N/A, Primary API reference. MANDATORY for 1.3.x fixes.
 DOTNET, ./tools/dotnet/dotnet.exe, N/A, Run ./tools/activate.ps1.
 GIT, e/d:/PortableGit/cmd/git.exe, N/A, Portable MinGit.
 CREATE_MOD, N/A, ./tools/create_mod.ps1, Scaffolds new mod.
@@ -41,6 +42,7 @@ INIT, Run 'python Initialization/run_setup.py [OptionalBLSEPath]'. Configs path 
 BUILD_ERR, If build tool fails read @[last_build.txt]. Do not read truncated stdout.
 LOGGING, SubModule.OnSubModuleLoad -> 'this.AddSerilogLoggerProvider'. No DebugLogger.
 TOON_MAINTENANCE, Update @[foldersummary.toon] after IO. Create if missing.
+API_DISCOVERY, Use @[TOOLS.DOCS] first. Avoid creating reflection/inspection scripts unless DOCS is unavailable.
 
 TOON_SPEC:
 DESC: Token-Oriented Object Notation. Optimized for LLM Context.

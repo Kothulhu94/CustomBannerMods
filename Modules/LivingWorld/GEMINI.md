@@ -15,7 +15,8 @@ PS_WARNING, Restricted/Versioned, PS commands may fail. PREFER PYTHON for agents
 PROJECT: LivingWorld
 STATUS:LIVING_WORLD, RELEASED/PRIORITY (BUGGY), Submodules[7]: BetterGov, FieldSquire, HappyParty, HonestWork, Landlord, LivingLegend, NewClans. State: @[Modules/LivingWorld/foldersummary.toon].
 
-TOOLS[13]{key, path, cmd, note}:
+TOOLS[14]{key, path, cmd, note}:
+DOCS, https://apidoc.bannerlord.com/v/1.3.14/index.html, N/A, Primary API reference. MANDATORY for 1.3.x fixes.
 DOTNET, ./tools/dotnet/dotnet.exe, N/A, Run ./tools/activate.ps1.
 GIT, e/d:/PortableGit/cmd/git.exe, N/A, Portable MinGit.
 CREATE_MOD, N/A, ./tools/create_mod.ps1, Scaffolds new mod.

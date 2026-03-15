@@ -1,28 +1,20 @@
-Build Run: 2026-03-15 00:32:08.697457
+Build Run: 2026-03-15 01:39:14.191030
 
 ========================================
 BUILD LOG: LivingWorld
 ========================================
   Determining projects to restore...
   All projects are up-to-date for restore.
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(59,37): error CS1061: 'Settlement' does not contain a definition for 'Position2D' and no accessible extension method 'Position2D' accepting a first argument of type 'Settlement' could be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(59,71): error CS1061: 'MobileParty' does not contain a definition for 'Position2D' and no accessible extension method 'Position2D' accepting a first argument of type 'MobileParty' could be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(62,62): error CS1061: 'Settlement' does not contain a definition for 'Position2D' and no accessible extension method 'Position2D' accepting a first argument of type 'Settlement' could be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(62,89): error CS1061: 'MobileParty' does not contain a definition for 'Position2D' and no accessible extension method 'Position2D' accepting a first argument of type 'MobileParty' could be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(128,19): warning CS0219: The variable 'patrolChance' is assigned but its value is never used [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
+D:\Bannerlord_Mods\Modules\LivingWorld\Source\FieldSquire\Patches\SquireXpSharePatch.cs(42,41): error CS0039: Cannot convert type 'TaleWorlds.CampaignSystem.CharacterObject' to 'TaleWorlds.Core.IReadOnlyPropertyOwner<TaleWorlds.Core.CharacterAttribute>' via a reference conversion, boxing conversion, unboxing conversion, wrapping conversion, or null type conversion [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
 D:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork\NavalIntegration.cs(33,35): warning BHA0003: Type 'NavalDLC.CharacterDevelopment.NavalSkills' was not found (https://github.com/BUTR/BUTR.Harmony.Analyzer/blob/master/docs/Rules/BHA0003.md) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
 D:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork\NavalIntegration.cs(49,39): warning BHA0003: Type 'NavalDLC.NavalDLCExtensions' was not found (https://github.com/BUTR/BUTR.Harmony.Analyzer/blob/master/docs/Rules/BHA0003.md) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
 
 Build FAILED.
 
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(128,19): warning CS0219: The variable 'patrolChance' is assigned but its value is never used [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
 D:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork\NavalIntegration.cs(33,35): warning BHA0003: Type 'NavalDLC.CharacterDevelopment.NavalSkills' was not found (https://github.com/BUTR/BUTR.Harmony.Analyzer/blob/master/docs/Rules/BHA0003.md) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
 D:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork\NavalIntegration.cs(49,39): warning BHA0003: Type 'NavalDLC.NavalDLCExtensions' was not found (https://github.com/BUTR/BUTR.Harmony.Analyzer/blob/master/docs/Rules/BHA0003.md) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(59,37): error CS1061: 'Settlement' does not contain a definition for 'Position2D' and no accessible extension method 'Position2D' accepting a first argument of type 'Settlement' could be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(59,71): error CS1061: 'MobileParty' does not contain a definition for 'Position2D' and no accessible extension method 'Position2D' accepting a first argument of type 'MobileParty' could be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(62,62): error CS1061: 'Settlement' does not contain a definition for 'Position2D' and no accessible extension method 'Position2D' accepting a first argument of type 'Settlement' could be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs(62,89): error CS1061: 'MobileParty' does not contain a definition for 'Position2D' and no accessible extension method 'Position2D' accepting a first argument of type 'MobileParty' could be found (are you missing a using directive or an assembly reference?) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-    3 Warning(s)
-    4 Error(s)
+D:\Bannerlord_Mods\Modules\LivingWorld\Source\FieldSquire\Patches\SquireXpSharePatch.cs(42,41): error CS0039: Cannot convert type 'TaleWorlds.CampaignSystem.CharacterObject' to 'TaleWorlds.Core.IReadOnlyPropertyOwner<TaleWorlds.Core.CharacterAttribute>' via a reference conversion, boxing conversion, unboxing conversion, wrapping conversion, or null type conversion [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
+    2 Warning(s)
+    1 Error(s)
 
-Time Elapsed 00:00:00.91
+Time Elapsed 00:00:00.90
