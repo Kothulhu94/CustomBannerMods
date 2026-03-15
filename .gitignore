@@ -1,4 +1,4 @@
-﻿.git/
+.git/
 .vscode/
 bin/
 obj/
@@ -13,5 +13,13 @@ Modules/SandBox*
 Modules/StoryMode
 Modules/CustomBattle
 Modules/BirthAndDeath
+<<<<<<< HEAD
 _temp_investigate/
 ModulesNeedingWork/
+=======
+Modules/**/bin/
+Modules/**/obj/
+*.dll
+*.pdb
+*.cache
+>>>>>>> 33a7fadbec778cf9f87e202db7d4adbdb19726d4
