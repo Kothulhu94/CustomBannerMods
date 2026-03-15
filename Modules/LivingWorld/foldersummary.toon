@@ -1,0 +1,271 @@
+MODULE: LivingWorldCore
+TYPE: Core Infrastructure
+PATH: ./Source
+DESC: Single entry point for initialization, logging, and Harmony patching for all 7 submodules. Unified logging to LivingWorld.log.
+
+FILES[1]{name, type, desc}:
+LivingWorldCore.cs, Core, Centralized manager for assembly-wide Harmony registration and service startup.
+
+
+MODULE: BetterGov
+TYPE: Source Component
+PATH: ./Source/BetterGov
+DESC: Governor automation and stability system. Automates governor assignment and issue resolution while fixing native crashes.
+
+FEATURES[4]{feature, details}:
+Auto-Assign Governor, Automatically assigns party leader (of owner clan) to empty governor seat upon entering owned settlement.
+Issue Resolution, Automates settlement & village issue resolution. Unified Reward Parity via reflection for player and AI clans.
+Stability Layer, Patches critical native crashes (AI Visit, Diplomacy, Roster Underflow).
+Configuration, Full MCM integration for toggling features and debug logging.
+
+CONTENTS[9]{file, type, key_components}:
+AutoResolveIssuesBehavior.cs, Behavior, [Class] AutoResolveIssuesBehavior : CampaignBehaviorBase, [Method] OnDailyTickSettlement (Village/Settlement Support), [Method] ResolveIssue (SolveIssue Reflection).
+BetterGovSubModule.cs, Entry, [Class] BetterGovSubModule : MBSubModuleBase, [Method] OnSubModuleLoad (DI Setup), [Method] OnGameStart (Behavior Registration).
+GlobalSettings.cs, Proxy, Static proxy to LivingWorldSettings.Instance.
+GovernorService.cs, Service, [Class] GovernorService, [Method] HandleSettlementEntered (Auto-Assign), [Method] HandleSettlementLeft (Seat Vacation).
+Patches/AiVisitSettlementCrashFix.cs, Patch, Fixes crash during AI settlement visitation.
+Patches/AutoGovernorPatches.cs, Patch, [HarmonyPatch] MobileParty.CurrentSettlement(Setter) -> Hooks GovernorService.
+Patches/DiplomacyCrashFix.cs, Patch, Fixes diplomacy calculation crashes.
+Patches/RosterUnderflowCrashFix.cs, Patch, Prevents roster count underflow exceptions.
+Patches/UniversalIssueCrashFix.cs, Patch, General catch-all for issue lifecycle checks (IssueStayAliveConditions).
+
+CHANGELOG[2]{date, time, author, change}:
+2026-01-22, 06:05, ANTIGRAVITY, Added Village Issue support and AI Reward Parity (SolveIssue Reflection).
+2026-01-22, 19:40, ANTIGRAVITY, Code Cleanup: Removed hardcoded drive paths and panic logging.
+2026-01-21, 22:15, USER, Detailed structure update with feature/call mapping.
+
+
+PROJECT: FieldSquire
+TYPE: Module
+PATH: Source/FieldSquire
+DESC: Autonomous Squire system. Focuses on party logistics, automated supply management, and dynamic interactions via a hidden, non-combatant utility companion.
+
+FILES[12]{name, type, note}
+LivingWorldCore.cs, Root, Consolidated entry point for the assembly.
+FieldSquireSubModule.cs, Submodule, Registers behaviors and participates in startup sequence.
+GlobalSettings.cs, Proxy, Static proxy to LivingWorldSettings.Instance.
+SquireSpawnBehavior.cs, Behavior, Manages creation/existence of the "field_squire" entity.
+SquireDialogBehavior.cs, Behavior, Handles conversation flows (Supplies, Ledger, Headhunting).
+SquireLogisticsBehavior.cs, Behavior, Automates food purchasing (maintains threshold).
+SquireUIPatches.cs, Patch, Manual Harmony patches: Hides Squire from Inventory, CharSheet, Governor, and Party selection.
+PartySizeLimitPatch.cs, Patch, Adds +1 Party Size to offset Squire taking a slot.
+SquireCombatPatch.cs, Patch, Prevents Squire from spawning in combat missions.
+SquireImmortalityPatch.cs, Patch, Intercepts KillCharacterAction to prevent death.
+SquireWageAndFoodPatch.cs, Patch, Sets Squire wage to 0. (Name is valid, logic is Wage only).
+SquireXpBlockPatch.cs, Patch, Prevents Squire from gaining any XP.
+SquireTownManagementVM.cs, ViewModel, Remote access to TownManagementVM via reflection.
+
+CALLS[6]{target, hook}
+KillCharacterAction.ApplyInternal, Prefix (Immortality Intercept)
+Mission.SpawnTroop, Prefix (Combat Block)
+DefaultPartyWageModel.GetCharacterWage, Prefix (Wage = 0)
+Hero.AddSkillXp, Prefix (Block XP Gain)
+SPInventoryVM.CanSelectHero, Postfix (Hide from Inventory UI)
+CharacterDeveloperVM.GetApplicableHeroes, Postfix (Hide from Character Sheet)
+
+FEATURES[6]{name, status, note}
+Autonomous Resupply, ACTIVE, Logic in LogisticsBehavior.
+Combat Protection, ACTIVE, Patched out of battle spawns.
+Immortality, ACTIVE, Heal(1) intervention on death event.
+Dialog System, ACTIVE, Service-based flows + Remote Town Management.
+Wanderer Search, ACTIVE, Headhunting feature in DialogBehavior.
+UI Hiding, ACTIVE, Squire hidden from Inventory, CharSheet, Governor, and Party leader selection.
+
+CHANGELOG[7]{date, time, desc, status}
+2026-01-22, 12:00, Fixed SquireDialogBehavior search loop to return to menu, COMPLETED
+2026-01-22, 12:20, Implemented SquireInventoryPatch to hide focus-character from inventory, COMPLETED
+2026-01-22, 21:15, Refactor SquireDialogBehavior for dynamic conversation flow (Fixed Menu-Return), COMPLETED
+2026-01-24, 09:00, Consolidated all FieldSquire UI patches into SquireUIPatches.cs, COMPLETED
+2026-01-29, 01:50, Consolidated LivingWorld assembly into LivingWorldCore hub, COMPLETED
+2026-01-29, 02:20, Removed unsuccessful Issue blocking patches after build performance assessment, COMPLETED
+
+
+METADATA:
+WORKSPACE, LivingWorld
+MODULE, HappyParty
+PATH, Source/HappyParty
+LAST_UPDATE, 2026-01-21
+TYPE, Logic/Behaviors
+DESCRIPTION, AI Life Improvement System. Enhances AI Lord capability (recruitment, food variety, role assignment) and manages world population (Wanderer spawning, cleanup of stuck heroes).
+
+FILES[9]{name, type, size, desc}:
+CustomWandererSpawnBehavior.cs, Behavior, 6KB, Maintains minimal Wanderer population via daily spawns.
+EliteRecruiterBehavior.cs, Behavior, 4KB, AI Lords recruit Tier 3+ troops from notables.
+GlobalSettings.cs, Proxy, 2KB, Static proxy to LivingWorldSettings.Instance.
+GourmetArmyBehavior.cs, Behavior, 4KB, AI Lords buy diverse food for morale.
+HappyPartySubModule.cs, Module, 5KB, Entry point. Registers ButterLib services/loggers.
+JobSeekerBehavior.cs, Behavior, 7KB, AI hires Wanderers. Adds Prisoner Dialogue (Release/Exec) for ALL captured Wanderers.
+RansomPrisonerBehavior.cs, Behavior, 4KB, AI Lords ransom prisoners and recruit high-tier captives.
+TavernCleanerBehavior.cs, Behavior, 4KB, Daily cleanup of stuck heroes in settlements. Fixes Ghost Prisoners.
+TavernShooBehavior.cs, Behavior, 5KB, Dialogue to force-move heroes. Contains core 'Shoo' logic.
+
+FEATURES[6]{id, name, logic}:
+SPAWN.01, Infinite Wanderers, Checks GlobalSettings.TargetWandererCount daily. Spawns templates at random towns if below cap.
+AI.01, Elite Recruitment, AI Lords scan notable volunteer lists on settlement enter. Buy Tier 3+ troops if wealthy.
+AI.02, Gourmet Diet, AI Lords purchase low-stock food items to maximize morale variety. Removes stock from settlement to preserve economy.
+AI.03, Headhunting, AI Lords with low skills (Medicine/Eng/Scout/Stew) hire high-skill Wanderers from taverns.
+AI.04, Auto Ransom, AI Lords ransom prisoners for gold and recruit Tier 4+ prisoners if party has space.
+CLEANUP.01, Tavern Shoo, periodically forces stuck/party-less nobles & wanderers to join clan parties or form new ones. Includes 'Ghost Prisoner' fix.
+
+CALLS[7]{source, event, target}:
+HappyPartySubModule, OnSubModuleLoad, ButterLib.AddSerilogLoggerProvider
+HappyPartySubModule, OnGameStart, CampaignGameStarter.AddBehavior (DI-based)
+CustomWandererSpawnBehavior, OnDailyTick, SpawnMissingWanderers
+EliteRecruiterBehavior, OnSettlementEntered, Recruit from notables
+JobSeekerBehavior, OnSettlementEntered, CheckAndHire (Surgeon, Engineer, Scout, Quartermaster)
+TavernCleanerBehavior, OnDailyTick, ExecuteShoo (batch), FixGhostPrisoners
+TavernShooBehavior, OnSessionLaunched, AddDialogs ("happyparty_shoo_ask")
+
+CHANGELOG[5]{date, time, version, notes}:
+2026-01-21, 22:15, v1.0.1, Enhanced summary with full feature/call analysis.
+2026-01-21, 22:30, v1.0.2, Code Cleanup: Removed legacy comments, fix typos, optimized Shoo logic (suppress spam).
+2026-01-22, 13:35, v1.0.3, Fixed TavernShoo teleportation bug causing KeyNotFound crash.
+2026-01-23, 22:45, v1.0.4, Added Universal Wanderer Prisoner Dialogue (Execute/Release) to bypass native lockout.
+2026-01-26, 22:15, v1.0.5, Added SettlementClaimantDecisionPatch to exclude Wanderers from Kingdom Decisions.
+2026-01-26, 22:15, v1.0.5, Added SettlementClaimantDecisionPatch to exclude Wanderers from Kingdom Decisions.
+2026-01-26, 22:45, v1.0.6, Removed Wanderer Party creation from TavernShooBehavior (Root Cause Fix).
+2026-01-26, 22:55, v1.0.7, REVERTED v1.0.6 (Restored Shoo Parties). Added TavernCleaner.FixStuckCompanions to fire AI-hired wanderers stuck in limbo.
+2026-01-26, 23:05, v1.0.8, Refined Shoo Logic: If no clan party found, AI Wanderers are FIRED (neutralized) instead of creating new parties.
+2026-01-26, 23:15, v1.0.9, Moved TavernCleaner.FixStuckCompanions to OnSessionLaunched for immediate cleanup on load.
+2026-01-26, 23:30, v1.1.0, Added FixBuggedWandererParties to disband existing invalid wanderer parties on load. Implemented Reflection-based ForceRemoveFromClan for robust cleanup.
+FUTURE, TBD, v1.1.0, Planned feature expansion.
+FUTURE, TBD, v1.2.0, Performance optimization.
+FUTURE, TBD, v1.3.0, Refactoring behaviors.
+
+
+@context HonestWork Module Summary
+@format TOON 1.4
+@generated_at 2026-01-22
+@target_directory e:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork
+
+FILES[8]{name, desc, key_calls}:
+CastleJobBehavior.cs, Castle employment & Garrison drilling, ProcessAIHourlyWork; ApplyCastleShiftRewards; GiveHourlyReward
+GlobalSettings.cs, Proxy, Static proxy to LivingWorldSettings.Instance.
+HonestWorkHelpers.cs, Shared arithmetic & party utilities, GiveRandomPartyXp; GetPartyTotalTier
+HonestWorkSubModule.cs, Bootstrapper & Serilog setup, OnSubModuleLoad; OnGameStart; AddSerilogLoggerProvider
+NavalIntegration.cs, Soft dependency layer for NavalDLC, IsEnabled; Mariner; HasShipyard; Initialize
+TownJobBehavior.cs, 10 Town Jobs (7 Base + 3 Naval); Crime; Tavern Cleaning, InitializeJobs; ProcessAIHourlyWork; CheckForArrest; CleanTavern
+VillageLaborBehavior.cs, Village Labor & Noble Recruitment, ProcessAIHourlyWork; AccelerateRecruitSpawning; CheckAndRecruitEliteTroops
+Patches/JobImpactPatches.cs, Harmony Patch, UI Tooltip Integration. Injects job impacts into Settlement Models (Loyalty/Security/Prosperity/Militia/Food).
+
+FEATURES[7]{category, details}:
+TownJobs, 10 Types: Guard(Sec), Thug(Crime), Artisan(Prosp), Official(Food), Physician(Loyalty), Instructor(XP), Outrider(Patrol) + 3 Naval (DLC)
+NavalDLC Integration, Soft dependency for Deckhand, Shipwright, Harbormaster. Docks-sensitive filtering via 'NavalIntegration'
+WorkCycle, Hourly Tick for Wage/XP -> 4-Hour Shift for Bonus Rewards. Jobs hidden while Player is in an Army.
+CriminalSystem, Thug jobs risk arrest based on Town Security vs Roguery. Implements 'StartCrimeCooldown' for AI.
+SeasonalEconomy, Wages fluctuate based on Campaign Season (Winter/Summer) via 'UpdateSeasonalMultipliers'
+CompanionAssist, Non-wounded party members contribute skill bonuses to Player's job efficiency (Leadership/Trade/etc)
+NobleFarming, AI Lords patrol villages to recruit Elite Troops (Tier 2+) to fill party slots via 'CheckAndRecruitEliteTroops'
+UiIntergration, Tooltips display "Player Job" and "Town Jobs" impacts on Settlement stats. Visualizes Food/Militia/Prosperity changes.
+
+
+CHANGELOG[3]{date, time, change}:
+2026-01-22, 06:25, Restricted job visibility to exclude situations where Player is in an Army (Town/Village/Castle)
+2026-01-22, 07:00, Integrated 3 Naval DLC Dependent Jobs with reflection-based soft dependency layer (Deckhand/Shipwright/Harbormaster)
+2026-01-23, 03:55, Fixed crash in GiveRandomPartyXp caused by invalid XP range (Min > Max)
+2026-01-23, 23:20, UI Integration: Added Harmony patches to display job effects in Town Management tooltips. Refactored TownJobBehavior to prevent stat double-dipping.
+
+
+MODULE: Landlord
+DESC: Economic/finance model & behavior logic for land ownership system.
+PATH: Source/Landlord
+
+FILES[6]{name, type, desc}:
+EconomyBehavior.cs, Behavior, Core logic for buying/managing land & production cycles.
+GlobalSettings.cs, Proxy, Static proxy to LivingWorldSettings.Instance.
+LandlordFinanceModel.cs, Model, Integrates estate income into Clan Finance logic.
+ViolenceBehavior.cs, Behavior, Handles raiding, razing, and plot defense during map events.
+LandlordState.cs, State, Defines VillagePlot and LandlordManager data structures.
+LandlordSubModule.cs, Entry, Registration of behaviors, models, and logging.
+
+FEATURES[7]{name, detail}:
+Plot Ownership, Buy up to 3 plots per village (Normal/Good/Great tiers).
+Production, Choose from 7 categories (Food, Livestock, Goods, etc) with efficiency logic.
+Management, Upgrade Guardhouses (Garrison/Stash), toggle Gold/Item yield split.
+AI Economy, AI Lords dynamically purchase land based on wealth and random crop selection.
+Warfare, Raze enemy plots for loot; plot garrisons join village militia in defense.
+Caravan Inquiries, Player caravans notify owner of available land during trade stops.
+Village Stimulus, Payouts inject gold into villages (deficit coverage + 50% stimulus).
+
+UI_FEEDBACK[2]{trigger, format, detail}:
+Daily Report (H22), [Landlord] Daily Report: Earned {X}g from {Y} estates., Aggregated wealth summary in gold color.
+Action Alerts, InformationMessage / Inquiry, Immediate feedback for purchases, upgrades, and raiding.
+
+MECHANICS[3]{system, factor, effect}:
+Efficiency, Season/Culture/Hearths, Dynamic yield scaling (factors from -0.2 to +0.3).
+Hearth Growth, Plot Tier, Daily village growth bonus (+0.1 to +0.5 hearths).
+Bonus Products, Animal Crops, Automatic generation of Butter/Cheese (Cows) or Wool (Sheep).
+
+CALLS[4]{target, method, note}:
+EconomyBehavior, GetItemsByCategory, Filters items for production menus.
+LandlordManager, GlobalPlots, Main data store for all village plots.
+LandlordFinanceModel, CalculateClanIncome, Injects daily income into clan budget.
+ViolenceBehavior, ModifyHearths, Adjusts village hearths on raze/raid.
+
+CHANGELOG[3]{date, time, desc, status}:
+2026-01-22, 10:00, Implement dynamic rent scaling based on prosperity, PENDING
+2026-01-24, 14:00, Integration test for LandlordFinanceModel calculation, PLANNED
+2026-01-25, 09:00, Refactor ViolenceBehavior for guard interactions, PLANNED
+
+
+MODULE: LivingLegend
+TYPE: SubModule/Component
+DESC: Late-game fame mechanics allowing Renown to be spent as a currency for power, patrols, and forced recruitment.
+STATUS: ACTIVE
+
+FILES[8]{name, desc}:
+GlobalSettings.cs, Proxy, Static proxy to LivingWorldSettings.Instance.
+LivingLegendBehavior.cs, Core logic: DailyTick (Decay/AI), Dialogs (CallToArms/Recruit), Menus (Rally).
+LivingLegendModel.cs, Game Models: +Companion Limit, +Militia/Loyalty (Legend's Aura).
+LivingLegendPatches.cs, Harmony: ArmyManagementVM (Shift-Click to pay Renown for army).
+LivingLegendSubModule.cs, Init: Logger, Harmony, DI Registration.
+MilitiaPatrolComponent.cs, Custom PartyComponent for rallied militia.
+LivingLegendTypeDefiner.cs, Output of SaveSystem processing (likely).
+
+
+FEATURES[5]{id, trigger, effect}:
+LEGEND_AURA, Passive (Daily), Bonus Loyalty/Militia & +Companion Slots if Renown > Threshold. Daily Renown Decay.
+RALLY_MILITIA, Village Menu, Spend Renown to spawn a 40-man Militia Patrol for 5 days. (AI Supported).
+CALL_TO_ARMS, Lord Dialog, Spend Renown (500) to force a lord into your army instantly.
+RENOWN_RECRUIT, Army Mgmt (Shift+Done), Spend Renown instead of Influence to recruit parties to army.
+MINOR_RECRUIT, Minor Leader Dialog, Spend Renown (2000) to recruit Minor Faction leader as companion.
+
+CALLS[3]{type, target, note}:
+EVENT, CampaignEvents.DailyTickClanEvent, Handles Renown Decay and AI Militia spawning.
+PATCH, ArmyManagementVM.ExecuteDone, Intercepts 'Done' to allow Renown payment via Shift key.
+MENU, village (Rally Militia), Adds 'Rally the Peasantry' option to villages.
+
+CHANGELOG[3]{date, time, change}:
+2026-01-22, 04:12, Scanned code. Documented features: Legend Aura, Militia Rally, Renown Recruitment.
+FUTURE, TBD, Implement fame decay system (Dynamic decay based on inactivity?).
+FUTURE, TBD, Add bard reputation mechanics.
+
+
+META:
+TYPE: Summary
+TARGET: e:\Bannerlord_Mods\Modules\LivingWorld\Source\NewClans
+GENERATED: 2026-01-21T22:35:10-06:00
+CONTEXT: NewClans Source Code
+
+FILES[4]{name, desc}:
+GlobalSettings.cs, Proxy, Static proxy to LivingWorldSettings.Instance.
+NewClansBehavior.cs, Core logic for Companion->Noble promotion (Player & AI). Handles settlement transfer/theft.
+NewClansSubModule.cs, Initializes Harmony patches & registers CampaignBehavior.
+Patches/BanditSpawnCrashPatch.cs, Harmony Prefix on BanditSpawnCampaignBehavior.IsBanditFaction to prevent KeyNotFound crash for custom bandits.
+
+SETTINGS[3]{key, default, desc}:
+ModuleEnabled, true, Master toggle for behavior injection.
+PromotionCost, 1000000, Denars required to promote a companion.
+DebugMode, false, Enables verbose logging to file.
+
+FEATURES[4]{category, detail}:
+Player Logic, Dialogue option to promote companion. Costs gold. Auto-seizes fief from 'Greedy' clans (T5+, >1 Fiefs) or Player's own.
+AI Logic, Weekly tick checks wealthy clans (T5+, >2M Gold, >3 Fiefs). 10% weekly chance to promote wanderer to new vassal clan using own castle.
+Stability, 'Ghost Clan' prevention logic: Forces settlement ownership transfer if CreateCompanionToLordClan fails assignments.
+Crash Fix, Whitelists vanilla bandit factions (Looters/Mountain/Forest/Sea/Steppe/Desert) to bypass native Hideout dictionary crash.
+
+CHANGELOG[3]{date, time, change}:
+2026-01-21, 22:35, Refined summary after code review and cleanup.
+2026-01-22, 19:40, ANTIGRAVITY, Verified and enforced removal of legacy drive paths (D: -> Portable).
+2026-01-21, 22:30, Cleaned up speculative comments and legacy drive paths (D: -> E:).
+FUTURE, TBD, Placeholder for future update 1.

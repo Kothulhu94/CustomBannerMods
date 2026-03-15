@@ -1,0 +1,172 @@
+﻿
+Source\BetterGov\Patches\Ai
+VisitSettlementCrashFix.cs:
+9:    [HarmonyPatch]
+Source\BetterGov\Patches\Au
+toGovernorPatches.cs:11:   
+ [HarmonyPatch(typeof(Mobil
+eParty), 
+"CurrentSettlement", 
+MethodType.Setter)]
+Source\BetterGov\Patches\Di
+plomacyCrashFix.cs:8:    [H
+armonyPatch(typeof(DefaultD
+iplomacyModel), 
+"GetEffectiveRelation")]
+Source\BetterGov\Patches\Ro
+sterUnderflowCrashFix.cs:10
+:    [HarmonyPatch(typeof(T
+roopRoster), 
+"RemoveTroop")]
+Source\BetterGov\Patches\Un
+iversalIssueCrashFix.cs:14:
+    [HarmonyPatch]
+Source\FieldSquire\Patches\
+CampaignUIHelperPatch.cs:15
+:    [HarmonyPatch(typeof(T
+aleWorlds.CampaignSystem.Vi
+ewModelCollection.CampaignU
+IHelper), "GetHeroGovernorE
+ffectsTooltip")]
+Source\FieldSquire\Patches\
+DebugElectionPatch.cs:17:  
+  [HarmonyPatch(typeof(King
+dom), "AddDecision")]
+Source\FieldSquire\Patches\
+DebugElectionPatch.cs:87:  
+  [HarmonyPatch(typeof(Sett
+lementClaimantDecision), "C
+alculateDecisionOutcomes")]
+Source\FieldSquire\Patches\
+DebugElectionPatch.cs:149: 
+   [HarmonyPatch(typeof(Def
+aultSettlementValueModel), 
+"GeographicalAdvantageForFa
+ction")]
+Source\FieldSquire\Patches\
+DebugElectionPatch.cs:184: 
+   [HarmonyPatch(typeof(Set
+tlementClaimantDecision), 
+"DetermineSupport")]
+Source\FieldSquire\Patches\
+PartySizeLimitPatch.cs:11: 
+   [HarmonyPatch(typeof(Def
+aultPartySizeLimitModel), 
+"GetPartyMemberSizeLimit", 
+new System.Type[] { 
+typeof(PartyBase), 
+typeof(bool) })]
+Source\FieldSquire\Patches\
+SquireCombatPatch.cs:9:    
+[HarmonyPatch(typeof(Missio
+n), "SpawnTroop", new 
+System.Type[] { 
+Source\FieldSquire\Patches\
+SquireImmortalityPatch.cs:8
+:    [HarmonyPatch(typeof(K
+illCharacterAction), 
+"ApplyInternal")]
+Source\FieldSquire\Patches\
+SquireIssueHidePatch.cs:10:
+    // [HarmonyPatch(typeof
+(DefaultIssueModel), 
+"IsHeroSuitableForIssue")]
+Source\FieldSquire\Patches\
+SquireUIPatches.cs:13:    
+[HarmonyPatch]
+Source\FieldSquire\Patches\
+SquireUIPatches.cs:16:     
+   [HarmonyPatch(typeof(SPI
+nventoryVM), 
+"CanSelectHero")]
+Source\FieldSquire\Patches\
+SquireUIPatches.cs:26:     
+   [HarmonyPatch(typeof(SPI
+nventoryVM), 
+"InitializeInventory")]
+Source\FieldSquire\Patches\
+SquireUIPatches.cs:77:     
+   [HarmonyPatch(typeof(Cha
+racterDeveloperVM), 
+"GetApplicableHeroes")]
+Source\FieldSquire\Patches\
+SquireUIPatches.cs:91:     
+   [HarmonyPatch(typeof(Cha
+racterDeveloperVM), "Refres
+hCharacterSelector")]
+Source\FieldSquire\Patches\
+SquireWageAndFoodPatch.cs:1
+3:    [HarmonyPatch(typeof(
+DefaultPartyWageModel), 
+"GetCharacterWage")]
+Source\FieldSquire\Patches\
+SquireXpBlockPatch.cs:9:   
+ [HarmonyPatch(typeof(Hero)
+, "AddSkillXp")]
+Source\HappyParty\Patches\N
+ativeCrashPatches.cs:14:   
+ [HarmonyPatch(typeof(Craft
+ingCampaignBehavior), 
+"CreateTownOrder")]
+Source\HappyParty\Patches\N
+ativeCrashPatches.cs:34:   
+ [HarmonyPatch(typeof(HeroK
+nownInformationCampaignBeha
+vior), "LearnAboutLocationC
+haracters")]
+Source\HappyParty\Patches\W
+andererPatches.cs:7:    [Ha
+rmonyPatch(typeof(HeroCreat
+or), "CreateSpecialHero")]
+Source\HonestWork\Patches\J
+obImpactPatches.cs:13:    [
+HarmonyPatch(typeof(Default
+SettlementLoyaltyModel), 
+"CalculateLoyaltyChange")]
+Source\HonestWork\Patches\J
+obImpactPatches.cs:24:    [
+HarmonyPatch(typeof(Default
+SettlementSecurityModel), 
+"CalculateSecurityChange")]
+Source\HonestWork\Patches\J
+obImpactPatches.cs:38:    [
+HarmonyPatch(typeof(Default
+SettlementProsperityModel),
+ "CalculateProsperityChange
+")]
+Source\HonestWork\Patches\J
+obImpactPatches.cs:49:    [
+HarmonyPatch(typeof(Default
+SettlementMilitiaModel), 
+"CalculateMilitiaChange")]
+Source\HonestWork\Patches\J
+obImpactPatches.cs:61:    [
+HarmonyPatch(typeof(Default
+SettlementFoodModel), "Calc
+ulateTownFoodStocksChange")
+]
+Source\HonestWork\Patches\J
+obImpactPatches.cs:72:    [
+HarmonyPatch(typeof(Default
+SettlementGarrisonModel), 
+"CalculateGarrisonChange")]
+Source\Landlord\Patches\Mil
+itiaPatrolCrashFix.cs:12:  
+  [HarmonyPatch(typeof(Mobi
+lePartyAi), 
+"GetNavalPatrolBehavior")]
+Source\LivingLegend\LivingL
+egendPatches.cs:22:    [Har
+monyPatch(typeof(ArmyManage
+mentVM), "ExecuteDone")]
+Source\LivingLegend\LivingL
+egendPatches.cs:78:    [Har
+monyPatch(typeof(ArmyManage
+mentVM), "RefreshValues")]
+Source\NewClans\Patches\Ban
+ditSpawnCrashPatch.cs:8:   
+ [HarmonyPatch(typeof(Bandi
+tSpawnCampaignBehavior), 
+"IsBanditFaction")]
+
+

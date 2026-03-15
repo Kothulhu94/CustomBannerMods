@@ -1,0 +1,79 @@
+﻿
+[TYPE] TaleWorlds.Library.Vec2
+Assembly: TaleWorlds.Library
+
+Found 74 matches for '.*':
+  [public] Single get_X()
+  [public] Single get_Y()
+  [public] Vec3 ToVec3(Single z)
+  [public] Vector2 op_Explicit(Vec2 vec2)
+  [public] Vec2 op_Implicit(Vector2 vec2)
+  [public] Single Normalize()
+  [public] Vec2 Normalized()
+  [public] Void ClampMagnitude(Single min, Single max)
+  [public] WindingOrder GetWindingOrder(Vec2 first, Vec2 second, Vec2 third)
+  [public] Single CCW(Vec2 va, Vec2 vb)
+  [public] Single get_Length()
+  [public] Single get_LengthSquared()
+  [public] Boolean Equals(Object obj)
+  [public] Int32 GetHashCode()
+  [public] Boolean op_Equality(Vec2 v1, Vec2 v2)
+  [public] Boolean op_Inequality(Vec2 v1, Vec2 v2)
+  [public] Vec2 op_UnaryNegation(Vec2 v)
+  [public] Vec2 op_Addition(Vec2 v1, Vec2 v2)
+  [public] Vec2 op_Subtraction(Vec2 v1, Vec2 v2)
+  [public] Vec2 op_Multiply(Vec2 v, Single f)
+  [public] Vec2 op_Multiply(Single f, Vec2 v)
+  [public] Vec2 op_Division(Single f, Vec2 v)
+  [public] Vec2 op_Division(Vec2 v, Single f)
+  [public] Boolean IsUnit()
+  [public] Boolean IsNonZero()
+  [public] Boolean NearlyEquals(Vec2 v, Single epsilon)
+  [public] Void RotateCCW(Single angleInRadians)
+  [public] Single DotProduct(Vec2 v)
+  [public] Single DotProduct(Vec2 va, Vec2 vb)
+  [public] Vec2 ElementWiseProduct(Vec2 va, Vec2 vb)
+  [public] Single get_RotationInRadians()
+  [public] Vec2 FromRotation(Single rotation)
+  [public] Vec2 TransformToLocalUnitF(Vec2 a)
+  [public] Vec2 TransformToParentUnitF(Vec2 a)
+  [public] Vec2 TransformToLocalUnitFLeftHanded(Vec2 a)
+  [public] Vec2 TransformToParentUnitFLeftHanded(Vec2 a)
+  [public] Vec2 RightVec()
+  [public] Vec2 LeftVec()
+  [public] Vec2 Max(Vec2 v1, Vec2 v2)
+  [public] Vec2 Max(Vec2 v1, Single f)
+  [public] Vec2 Min(Vec2 v1, Vec2 v2)
+  [public] Vec2 Min(Vec2 v1, Single f)
+  [public] String ToString()
+  [public] Single DistanceSquared(Vec2 v)
+  [public] Single Distance(Vec2 v)
+  [public] Single DistanceToLine(Vec2 line1, Vec2 line2, Vec2 point)
+  [public] Single DistanceToLineSegmentSquared(Vec2 line1, Vec2 line2, Vec2 point)
+  [public] Single DistanceToLineSegment(Vec2 v, Vec2 w, Vec2& closestPointOnLineSegment)
+  [public] Single DistanceSquaredToLineSegment(Vec2 v, Vec2 w, Vec2& closestPointOnLineSegment)
+  [public] Vec2 Abs(Vec2 vec)
+  [public] Vec2 Lerp(Vec2 v1, Vec2 v2, Single alpha)
+  [public] Vec2 Slerp(Vec2 start, Vec2 end, Single percent)
+  [public] Single AngleBetween(Vec2 vector2)
+  [public] Boolean get_IsValid()
+  [public] Single Determinant(Vec2& vec1, Vec2& vec2)
+  [public] Type GetType()
+  [public] Boolean Equals(Object objA, Object objB)
+  [public] Boolean ReferenceEquals(Object objA, Object objB)
+  [public] Constructor: .ctor
+  [public] Constructor: .ctor
+  [public] Constructor: .ctor
+  [private/internal] Single X { get; }
+  [private/internal] Single Y { get; }
+  [private/internal] Single Length { get; }
+  [private/internal] Single LengthSquared { get; }
+  [private/internal] Single RotationInRadians { get; }
+  [private/internal] Boolean IsValid { get; }
+  [public] Single x
+  [public] Single y
+  [public] Vec2 Side
+  [public] Vec2 Forward
+  [public] Vec2 One
+  [public] Vec2 Zero
+  [public] Vec2 Invalid

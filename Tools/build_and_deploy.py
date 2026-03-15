@@ -27,6 +27,7 @@ ALL_MODS = [
     "FieldSquire", 
     "LivingLegend", 
     "NewClans",
+    "LivingWorld",
     "LudusMagnus",
     "Ascension"
 ]
@@ -47,16 +48,43 @@ def get_game_modules_path():
         print(f"Error: Game path configuration not found. Checked:\n - {os.path.join(TOOLS_DIR, 'game_path_config_' + hostname + '.txt')}\n - {GAME_PATH_CONFIG}")
         return None
     
-    print(f"Using Game Path Config: {config_file}")
-    
     with open(config_file, 'r') as f:
-        exe_path = f.read().strip().strip('"').strip("'")
+        stripped_path = f.read().strip().strip('"').strip("'")
+    
+    # Support direct Modules path (bypass exe check)
+    if os.path.isdir(stripped_path) and stripped_path.endswith("Modules"):
+        print(f"Using Direct Modules Path: {stripped_path}")
+        return stripped_path
+        
+    exe_path = stripped_path
     
     if not os.path.exists(exe_path):
         print(f"Error: Game executable not found at {exe_path}")
         return None
 
-    # Exe is usually .../bin/Win64_Shipping_Client/Bannerlord.exe => Go up 3 levels
+    # Try going up levels to find the root containing 'Modules'
+    # Level 1: Directory containing Exe
+    # Level 2: Parent of Level 1
+    # Level 3: Parent of Level 2
+    # Level 4: Parent of Level 3
+    
+    current_dir = os.path.dirname(exe_path)
+    found_modules = None
+    
+    # Check up to 4 levels up
+    for i in range(4):
+        current_dir = os.path.dirname(current_dir)
+        check_path = os.path.join(current_dir, "Modules")
+        if os.path.exists(check_path):
+            found_modules = check_path
+            print(f"Found 'Modules' directory at: {found_modules}")
+            break
+            
+    if found_modules:
+        return found_modules
+        
+    # Fallback to standard 3 levels if detection fails (though logic above should cover it)
+    print("Warning: Could not auto-detect 'Modules' folder. distinct from 'Win64_Shipping_Client'. Defaulting to standard 3-level up assumption.")
     game_root = os.path.dirname(os.path.dirname(os.path.dirname(exe_path)))
     modules_path = os.path.join(game_root, "Modules")
     

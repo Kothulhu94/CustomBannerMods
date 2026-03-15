@@ -1,0 +1,3 @@
+# Ignore generated zip files and local config
+*.zip
+steam_upload_config.json

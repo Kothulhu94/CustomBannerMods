@@ -4,6 +4,13 @@ if (-not (Test-Path $DotnetPath)) {
     exit 1
 }
 
+$PwshPath = Join-Path $PSScriptRoot "pwsh"
+if (Test-Path $PwshPath) {
+    $env:PATH = "$PwshPath;$env:PATH"
+    Write-Host "PowerShell 7 (Portable) Activated" -ForegroundColor Green
+    Write-Host "Path: $PwshPath"
+}
+
 $env:PATH = "$DotnetPath;$env:PATH"
 $env:DOTNET_ROOT = $DotnetPath
 Write-Host "Dotnet Environment Activated" -ForegroundColor Green

@@ -1,0 +1,32 @@
+﻿
+[TYPE] TaleWorlds.CampaignSystem.Party.MobileParty
+Assembly: TaleWorlds.CampaignSystem
+
+Found 27 matches for 'Position':
+  [public] Vec2 get_ArmyPositionAdder()
+  [public] CampaignVec2 get_EndPositionForNavigationTransition()
+  [public] Void SetSailAtPosition(CampaignVec2 position)
+  [public] CampaignVec2 get_TargetPosition()
+  [public] Void SetPositionAfterMapChange(CampaignVec2 newPosition)
+  [public] Void CheckPositionsForMapChangeAndUpdateIfNeeded()
+  [public] Void InitializeMobilePartyAtPosition(CampaignVec2 position)
+  [public] Void InitializeMobilePartyAtPosition(TroopRoster memberRoster, TroopRoster prisonerRoster, CampaignVec2 position, Boolean isNaval)
+  [public] Void InitializeMobilePartyAroundPosition(TroopRoster memberRoster, TroopRoster prisonerRoster, CampaignVec2 position, Single spawnRadius, Single minSpawnRadius, Boolean isNaval)
+  [public] Void InitializeMobilePartyAtPosition(PartyTemplateObject pt, CampaignVec2 position)
+  [public] Void InitializeMobilePartyAroundPosition(PartyTemplateObject pt, CampaignVec2 position, Single spawnRadius, Single minSpawnRadius)
+  [public] Vec2 get_EventPositionAdder()
+  [public] Void set_EventPositionAdder(Vec2 value)
+  [public] CampaignVec2 get_Position()
+  [public] Void set_Position(CampaignVec2 value)
+  [public] Vec2 get_GetPosition2D()
+  [public] Vec3 GetPositionAsVec3()
+  [public] Vec2 get_VisualPosition2DWithoutError()
+  [public] LocatableSearchData`1 StartFindingLocatablesAroundPosition(Vec2 position, Single radius)
+  [private/internal] Vec2 ArmyPositionAdder { get; set; }
+  [private/internal] CampaignVec2 EndPositionForNavigationTransition { get; set; }
+  [private/internal] CampaignVec2 TargetPosition { get; set; }
+  [private/internal] Vec2 EventPositionAdder { get; set; }
+  [private/internal] CampaignVec2 Position { get; set; }
+  [private/internal] Vec2 GetPosition2D { get; }
+  [private/internal] Vec2 VisualPosition2DWithoutError { get; }
+  [public] CampaignVec2 NextTargetPosition

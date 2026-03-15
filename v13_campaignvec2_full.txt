@@ -1,0 +1,6 @@
+﻿[31;1mWrite-Error: [0mD:\Bannerlord_Mods\Tools\Analysis\ReflectionSearch.ps1:52:5[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m  52 | [0m     [36;1mWrite-Error "Type '$TypeName' not found in loaded assemblies."[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mType[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m[31;1m[36;1m     | [31;1m'TaleWorlds.Library.CampaignVec2' not found in loaded assemblies.[0m

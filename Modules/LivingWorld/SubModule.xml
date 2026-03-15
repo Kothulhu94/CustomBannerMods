@@ -1,0 +1,194 @@
+<?xml version="1.0" ?>
+<Module>
+    <Name value="LivingWorld"/>
+    <Id value="LivingWorld"/>
+    <Description value="Experience a deeper, more alive Calradia. Purchase functional land plots in towns, work for honest wages in villages, and shape your kingdom's future with expanded policies. Rise from a humble commoner to a living legend with enhanced renown mechanics and clan management. Fully customizable via MCM to suit your playstyle."/>
+    <Version value="v1.9.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+        <DependedModule Id="Bannerlord.ButterLib"/>
+        <DependedModule Id="Bannerlord.Harmony"/>
+        <DependedModule Id="Bannerlord.MBOptionScreen"/>
+        <DependedModule Id="CustomBattle"/>
+        <DependedModule Id="Native"/>
+        <DependedModule Id="SandBoxCore"/>
+        <DependedModule Id="Sandbox"/>
+        <DependedModule Id="StoryMode"/>
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="BetterGov"/>
+            <DLLName value="LivingWorld.dll"/>
+            <SubModuleClassType value="BetterGov.BetterGovSubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none"/>
+                <Tag key="IsNoRenderModeElement" value="false"/>
+            </Tags>
+        </SubModule>
+        
+    
+        <SubModule>
+            
+            
+            <Name value="FieldSquire"/>
+            
+            
+            <DLLName value="LivingWorld.dll"/>
+            
+            
+            <SubModuleClassType value="FieldSquire.FieldSquireSubModule"/>
+            
+            
+            <Tags>
+                
+                
+                <Tag key="DedicatedServerType" value="none"/>
+                
+                
+                <Tag key="IsNoRenderModeElement" value="false"/>
+                
+            
+            </Tags>
+            
+        
+        </SubModule>
+        
+    
+        <SubModule>
+            
+            
+            <Name value="HappyParty"/>
+            
+            
+            <DLLName value="LivingWorld.dll"/>
+            
+            
+            <SubModuleClassType value="HappyParty.HappyPartySubModule"/>
+            
+            
+            <Tags>
+                
+                
+                <Tag key="DedicatedServerType" value="none"/>
+                
+                
+                <Tag key="IsNoRenderModeElement" value="false"/>
+                
+            
+            </Tags>
+            
+        
+        </SubModule>
+        
+    
+        <SubModule>
+            
+            
+            <Name value="HonestWork"/>
+            
+            
+            <DLLName value="LivingWorld.dll"/>
+            
+            
+            <SubModuleClassType value="HonestWork.HonestWorkSubModule"/>
+            
+            
+            <Tags>
+                
+                
+                <Tag key="DedicatedServerType" value="none"/>
+                
+                
+                <Tag key="IsNoRenderModeElement" value="false"/>
+                
+            
+            </Tags>
+            
+        
+        </SubModule>
+        
+    
+        <SubModule>
+            
+      
+            <Name value="Landlord"/>
+            
+      
+            <DLLName value="LivingWorld.dll"/>
+            
+      
+            <SubModuleClassType value="Landlord.SubModule"/>
+            
+      
+            <Tags>
+                
+        
+                <Tag key="DedicatedServerType" value="none"/>
+                
+        
+                <Tag key="IsNoRenderModeElement" value="false"/>
+                
+      
+            </Tags>
+            
+    
+        </SubModule>
+        
+  
+        <SubModule>
+            
+            
+            <Name value="LivingLegend SubModule"/>
+            
+            
+            <DLLName value="LivingWorld.dll"/>
+            
+            
+            <SubModuleClassType value="LivingLegend.LivingLegendSubModule"/>
+            
+            
+            <Tags>
+                
+                
+                <Tag key="DedicatedServerType" value="none"/>
+                
+                
+                <Tag key="IsNoRenderModeElement" value="false"/>
+                
+            
+            </Tags>
+            
+        
+        </SubModule>
+        
+    
+        <SubModule>
+            
+            
+            <Name value="NewClans"/>
+            
+            
+            <DLLName value="LivingWorld.dll"/>
+            
+            
+            <SubModuleClassType value="NewClans.SubModule"/>
+            
+            
+            <Tags>
+                
+                
+                <Tag key="DedicatedServerType" value="none"/>
+                
+                
+                <Tag key="IsNoRenderModeElement" value="false"/>
+                
+            
+            </Tags>
+            
+        
+        </SubModule>
+        
+    
+    </SubModules>
+</Module>

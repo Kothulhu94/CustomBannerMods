@@ -1,0 +1,177 @@
+# LivingWorld MCM Settings Analysis
+
+This document details all configuration options available via the Mod Configuration Menu (MCM) for the **LivingWorld** module. The module is composed of several submodules (`BetterGov`, `FieldSquire`, `HappyParty`, `HonestWork`, `Landlord`, `LivingLegend`, `NewClans`), each with its own specific settings.
+
+---
+
+## 1. BetterGov
+**Focus:** Governor behavior and automation.
+
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Module Enabled** | Bool | - | `True` | Master switch for the module. |
+| **Debug Mode** | Bool | - | `False` | Enables debug logging to `BetterGov.log`. |
+| **Auto-Assign Governor** | Bool | - | `True` | Automatically assigns clan leaders as governors when they enter their own settlements. |
+| **Auto-Resolve Issues** | Bool | - | `True` | Governors will automatically resolve settlement issues over time. |
+
+---
+
+## 2. FieldSquire
+**Focus:** Logistics and squire companion behavior.
+
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Module Enabled** | Bool | - | `True` | Master switch for the module. |
+| **Food Supply Threshold** | Int | 0 - 100 | `20` | The Squire will purchase food to maintain this minimum level in the party. |
+| **Debug Mode** | Bool | - | `False` | Enables verbose logging. |
+| **Squire Immortality** | Bool | - | `True` | Prevents the squire from dying in battle. |
+
+---
+
+## 3. HappyParty
+**Focus:** Wanderer spawning, AI recruitment, and party morale.
+
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Module Enabled** | Bool | - | `True` | Master switch for the module. |
+| **Debug Mode** | Bool | - | `False` | Enables debug logging. |
+| **Target Wanderer Count** | Int | 10 - 100 | `30` | The target number of wanderers the game should try to maintain in the world. |
+| **Daily Spawn Cap** | Int | 1 - 50 | `10` | Maximum number of new wanderers to spawn per day. |
+| **Troops Per Food Item** | Int | 1 - 20 | `5` | AI logic: The AI will try to buy 1 food item for every X troops (Lower = More Food). |
+| **Job Seeker Hire Cost** | Int | 500 - 10k | `2000` | Gold cost for an AI Lord to hire a specialist wanderer. |
+| **Prisoner Ransom Modifier** | Int | 50 - 200 | `100` | Percentage of the ransom value the AI receives (100 = Full Value). |
+
+---
+
+## 4. HonestWork
+**Focus:** Player jobs, economy, and village labor.
+
+### General & Economy
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Module Enabled** | Bool | - | `True` | Master switch for Honest Work features. |
+| **Town Base Wage** | Int | 1 - 100 | `10` | Base gold wage per hour for town jobs. |
+| **Town Prosperity Divisor** | Float | 100 - 1000 | `250.0` | Higher value = Prosperity contributes less to wage calculation. |
+| **Shift Length** | Int | 1 - 24 | `4` | Number of hours in a work shift. |
+| **Town Effect Magnitude** | Float | 0.0 - 10.0 | `0.20` | Multiplier for town stat changes (Sec/Loyalty/etc) per hour of work. |
+| **AI Effect Magnitude** | Float | 0.0 - 10.0 | `0.05` | Multiplier for AI-driven town stat changes. |
+| **Village Hearth Wage Divisor**| Float | 1 - 100 | `10.0` | Hearths divided by this value equals hourly wage in villages. |
+| **Village Hearth Gain** | Float | 0.0 - 5.0 | `0.10` | Hearths gained per hour of manual labor. |
+
+### Experience (XP)
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Town Job Base XP** | Int | 1 - 500 | `50` | Base XP gained per hour. |
+| **Village Base XP** | Int | 1 - 500 | `50` | Base Athletics XP gained per hour in villages. |
+| **XP Step Multiplier** | Float | 0.0 - 1.0 | `0.02` | XP increase multiplier per interval (e.g., 0.02 = +2%). |
+| **XP Increase Interval** | Int | 1 - 24 | `4` | Hours required to trigger an XP step increase. |
+| **XP Primary** | Int | 10 - 200 | `20` | XP given to the primary job skill per hour. |
+| **XP Secondary** | Int | 10 - 200 | `30` | XP given to the secondary/combat skill per hour. |
+| **Companion Efficiency Factor**| Float | 0.001 - 0.01| `0.001` | Multiplier for converting companion skill points into bonus efficiency. |
+
+### AI Settings
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Enable AI in Villages** | Bool | - | `True` | Allow AI parties to work in villages. |
+| **Enable AI in Castles** | Bool | - | `True` | Allow AI parties to drill in castles. |
+| **Enable Noble Recruitment** | Bool | - | `True` | Allow AI lords to camp at villages to recruit elite troops. |
+| **Elite Spawn Chance** | Float | 0.0 - 1.0 | `0.15` | Chance for an Elite recruit to spawn when an Army accelerates growth. |
+| **AI Work Chance** | Float | 0.0 - 1.0 | `0.30` | Hourly probability that an AI party will choose to work in a village. |
+
+### Reward & Balance
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Shift XP Bonus** | Int | 10 - 500 | `25` | Bonus XP assigned to Party/Garrison after a full shift. |
+| **Shift Food Bonus** | Int | 1 - 50 | `10` | Food added to town by Official shift. |
+| **Shift Relation Bonus** | Int | 1 - 10 | `1` | Relation gained with notable after a shift. |
+| **Power Hearth Scalar** | Float | 0.0001 - 0.01| `0.0005`| Scaling factor: Party Tier Total -> Hearth Growth. |
+| **Power Recruit Scalar** | Float | 0.00001 - 0.001| `0.00005`| Scaling factor: Party Tier Total -> Recruit Spawn Chance. |
+
+### Criminal & Seasonal
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Enable Seasonal Wages** | Bool | - | `True` | Job wages fluctuate by season. |
+| **Seasonal Volatility** | Float | 0.0 - 2.0 | `1.0` | Multiplier for wage fluctuation range. |
+| **Arrest Risk Factor** | Float | 0 - 0.01 | `0.001` | Base arrest risk per point of Town Security. |
+| **Roguery Safety Factor** | Float | 0 - 0.01 | `0.0005`| Risk reduction per point of Roguery. |
+| **Owner Exemption** | Bool | - | `True` | Prevents arrest in your own town. |
+| **Arrest Roll Eyes Chance** | Float | 0.0 - 1.0 | `0.05` | Chance for guards to ignore you if caught (Flavor). |
+
+### Wage Multipliers
+- **Guard:** `1.0`
+- **Thug:** `1.5` (Higher risk)
+- **Artisan:** `1.1`
+- **Official:** `1.2`
+- **Physician:** `1.2`
+- **Instructor:** `1.0`
+- **Outrider:** `1.1`
+
+---
+
+## 5. Landlord
+**Focus:** Valid land ownership, economy, and production.
+
+### Economy
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Normal Plot Cost** | Int | 1k - 1M | `10,000` | Cost to purchase a Normal Plot. |
+| **Good Plot Cost** | Int | 5k - 1M | `50,000` | Cost to purchase a Good Plot. |
+| **Great Plot Cost** | Int | 10k - 1M | `100,000` | Cost to purchase a Great Plot. |
+| **Change Production Cost** | Int | 0 - 100k | `2,000` | Cost to change plot production type. |
+| **Base Yield Multiplier** | Float | 1.0 - 20.0 | `8.0` | Global multiplier for all production yields. |
+| **Normal / Good / Great Yield**| Float | 0.1 - 5.0 | `1.0 / 1.2 / 1.5` | Yield multipliers for specific plot types. |
+| **Village Stimulus Ratio** | Float | 0.0 - 1.0 | `0.5` | % of profit injected back into the village gold pool. |
+| **Initial Investment Mult** | Int | 0 - 100 | `10` | Multiplier for item price included in initial plot purchase cost. |
+| **Hearth Bonus (N/G/G)** | Float | 0.0 - 5.0 | `0.1 / 0.2 / 0.5` | Daily hearth growth bonus for Normal/Good/Great plots. |
+
+### Property Management & Extras
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Base Upgrade Cost** | Int | 1k - 50k | `5,000` | Base cost for upgrading Guardhouse per level. |
+| **Guard Caps (Lvl 1/2/3)** | Int | | `50 / 100 / 200` | Garrison capacity. |
+| **Stash Caps (Lvl 1/2/3)** | Int | | `200 / 400 / 600` | Warehouse capacity. |
+| **AI Buy Threshold** | Int | 10k - 10M | `150,000`| Gold required for AI Lords to consider buying land. |
+| **Hearth Damage on Raze** | Float | 0 - 500 | `50.0` | Hearth damage inflicted when a plot is razed. |
+| **Relation Penalty on Raze** | Int | 0 - 100 | `10` | Relation penalty with owner when razed. |
+
+### Experimental (Balance Breaking)
+*These allow production of sensitive items.*
+- **Livestock, Village Goods, Pack Animals, Mounts, War Mounts, Noble Mounts**: All Default `False`.
+
+---
+
+## 6. LivingLegend
+**Focus:** Renown scaling, militia calling, and "Legend" status.
+
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Renown Threshold** | Int | 0 - 100k | `6,000` | Renown required to enter Legend status. |
+| **Daily Renown Cost** | Int | 0 - 1000 | `10` | Daily renown upkeep for Legend status. |
+| **Call to Arms Cost** | Int | 0 - 5000 | `500` | Renown cost to force a lord into your army. |
+| **Rally Militia Cost** | Int | 0 - 1000 | `200` | Renown cost to rally militia. |
+| **Recruit Minor Faction Cost**| Int | 0 - 10k | `2,000` | Renown cost to recruit a minor faction leader. |
+| **Renown to Influence Ratio** | Int | 1 - 100 | `5` | Renown cost per 1 Influence when recruiting armies. |
+| **Militia Patrol Duration** | Int | 1 - 30 | `5` | Days a militia patrol lasts. |
+| **Militia Troop Count** | Int | 1 - 200 | `40` | Number of troops in a militia patrol. |
+| **Call to Arms Relation Pen** | Int | 0 - 100 | `5` | Relation loss when forcing a lord to join your army. |
+| **Companion Limit Divisor** | Int | 100 - 10k | `1000` | Renown > Threshold / This = +1 Companion Slot. |
+| **Legend Militia Bonus** | Float | 0 - 10 | `1.0` | Daily militia growth bonus from Legend's Aura. |
+| **Legend Loyalty Bonus** | Float | 0 - 10 | `2.0` | Daily loyalty bonus from Legend's Aura. |
+
+### AI Legend Logic
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **AI Enable Legend Logic** | Bool | - | `True` | If disabled, AI lords will never use Legend mechanics. |
+| **AI Min Renown For Rally** | Int | 0 - 50k | `6,500` | Renown threshold for AI clans to start spending renown on rallies. |
+| **AI Rally Chance** | Float | 0.0 - 1.0 | `0.05` | Daily chance for an eligible AI to rally militia. |
+
+---
+
+## 7. NewClans
+**Focus:** Companion promotion and clan fission.
+
+| Setting | Type | Range | Default | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Module Enabled** | Bool | - | `True` | Master switch for the module. |
+| **Promotion Cost** | Int | 10k - 10M | `1,000,000`| The gold cost to promote a companion to a noble house. |
+| **Debug Mode** | Bool | - | `False` | Enable detailed logging. |

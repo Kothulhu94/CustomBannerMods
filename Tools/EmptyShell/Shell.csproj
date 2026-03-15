@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputPath>..\..\Modules\LivingWorld\bin\Win64_Shipping_Client\</OutputPath>
+    <AssemblyName>LivingWorld</AssemblyName>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="TaleWorlds.MountAndBlade">
+        <HintPath>..\..\libs\TaleWorlds.MountAndBlade.dll</HintPath>
+    </Reference>
+     <Reference Include="TaleWorlds.DotNet">
+        <HintPath>..\..\libs\TaleWorlds.DotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -15,7 +15,7 @@ def analyze_latest():
         
         # Fallback: Check local logs for exceptions
         print("\nScanning local logs for recent errors...")
-        log_dir = r'd:/Bannerlord_Mods/logs'
+        log_dir = r'e:/Bannerlord_Mods/logs'
         if os.path.exists(log_dir):
             for log_file in glob.glob(os.path.join(log_dir, "*.log")):
                 try:

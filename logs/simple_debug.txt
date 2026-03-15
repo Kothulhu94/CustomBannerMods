@@ -1,1 +1,0 @@
-NewClans OnSubModuleLoad entered.

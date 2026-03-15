@@ -1,0 +1,154 @@
+﻿
+[TYPE] TaleWorlds.CampaignSystem.Party.PartyBase
+Assembly: TaleWorlds.CampaignSystem
+
+Found 149 matches for '.*':
+  [public] CampaignVec2 get_Position()
+  [public] Boolean get_IsVisible()
+  [public] Boolean get_IsActive()
+  [public] SiegeEvent get_SiegeEvent()
+  [public] Void OnVisibilityChanged(Boolean value)
+  [public] Settlement get_Settlement()
+  [public] MobileParty get_MobileParty()
+  [public] Boolean get_IsSettlement()
+  [public] Boolean get_IsMobile()
+  [public] TroopRoster get_MemberRoster()
+  [public] TroopRoster get_PrisonRoster()
+  [public] ItemRoster get_ItemRoster()
+  [public] TextObject get_Name()
+  [public] Single get_DaysStarving()
+  [public] Void OnConsumedFood()
+  [public] Int32 get_RemainingFoodPercentage()
+  [public] Void set_RemainingFoodPercentage(Int32 value)
+  [public] Boolean get_IsStarving()
+  [public] String get_Id()
+  [public] Single get_HealingRateForMemberRegulars()
+  [public] ExplainedNumber get_HealingRateForMemberRegularsExplained()
+  [public] Single get_HealingRateForMemberHeroes()
+  [public] ExplainedNumber get_HealingRateForMemberHeroesExplained()
+  [public] Hero get_Owner()
+  [public] Void SetCustomOwner(Hero customOwner)
+  [public] Hero get_LeaderHero()
+  [public] PartyBase get_MainParty()
+  [public] Boolean IsPartyUnderPlayerCommand(PartyBase party)
+  [public] Boolean get_LevelMaskIsDirty()
+  [public] Void SetLevelMaskIsDirty()
+  [public] Void OnLevelMaskUpdated()
+  [public] Int32 get_Index()
+  [public] Boolean get_IsValid()
+  [public] IFaction get_MapFaction()
+  [public] Int32 get_RandomValue()
+  [public] CultureObject get_Culture()
+  [public] Tuple`2 get_PrimaryColorPair()
+  [public] TextObject get_CustomName()
+  [public] Void SetCustomName(TextObject name)
+  [public] Banner get_CustomBanner()
+  [public] Void SetCustomBanner(Banner banner)
+  [public] Banner get_Banner()
+  [public] MapEvent get_MapEvent()
+  [public] MapEventSide get_MapEventSide()
+  [public] Void set_MapEventSide(MapEventSide value)
+  [public] BattleSideEnum get_Side()
+  [public] BattleSideEnum get_OpponentSide()
+  [public] Int32 get_PartySizeLimit()
+  [public] Int32 get_PrisonerSizeLimit()
+  [public] ExplainedNumber get_PartySizeLimitExplainer()
+  [public] ExplainedNumber get_PrisonerSizeLimitExplainer()
+  [public] Int32 get_NumberOfHealthyMembers()
+  [public] Int32 get_NumberOfRegularMembers()
+  [public] Int32 get_NumberOfWoundedTotalMembers()
+  [public] Int32 get_NumberOfAllMembers()
+  [public] Int32 get_NumberOfPrisoners()
+  [public] Int32 get_NumberOfMounts()
+  [public] Int32 get_NumberOfPackAnimals()
+  [public] IEnumerable`1 get_PrisonerHeroes()
+  [public] Int32 get_NumberOfMenWithHorse()
+  [public] Int32 get_NumberOfMenWithoutHorse()
+  [public] Int32 GetNumberOfHealthyMenOfTier(Int32 tier)
+  [public] Single get_EstimatedStrength()
+  [public] Single CalculateCurrentStrength()
+  [public] Single GetCustomStrength(BattleSideEnum side, PowerCalculationContext context)
+  [public] MBReadOnlyList`1 get_Ships()
+  [public] Ship get_FlagShip()
+  [public] Int32 GetShipsVersion()
+  [public] Int32 GetNumberOfMenWith(TraitObject trait)
+  [public] Int32 AddPrisoner(CharacterObject element, Int32 numberToAdd)
+  [public] Int32 AddMember(CharacterObject element, Int32 numberToAdd, Int32 numberToAddWounded)
+  [public] Void AddPrisoners(TroopRoster roster)
+  [public] Void AddMembers(TroopRoster roster)
+  [public] String ToString()
+  [public] Int32 AddElementToMemberRoster(CharacterObject element, Int32 numberToAdd, Boolean insertAtFront)
+  [public] Void AddToMemberRosterElementAtIndex(Int32 index, Int32 numberToAdd, Int32 woundedCount)
+  [public] Void WoundMemberRosterElements(CharacterObject elementObj, Int32 numberToWound)
+  [public] Void WoundMemberRosterElementsWithIndex(Int32 elementIndex, Int32 numberToWound)
+  [public] Void UpdateVisibilityAndInspected(CampaignVec2 fromPosition, Single mainPartySeeingRange)
+  [public] BasicCultureObject get_BasicCulture()
+  [public] BasicCharacterObject get_General()
+  [public] Void SetAsCameraFollowParty()
+  [public] Boolean get_IsVisualDirty()
+  [public] Void SetVisualAsDirty()
+  [public] Void OnVisualsUpdated()
+  [public] Type GetType()
+  [public] Boolean Equals(Object obj)
+  [public] Boolean Equals(Object objA, Object objB)
+  [public] Boolean ReferenceEquals(Object objA, Object objB)
+  [public] Int32 GetHashCode()
+  [public] Constructor: .ctor
+  [public] Constructor: .ctor
+  [private/internal] CampaignVec2 Position { get; }
+  [private/internal] Boolean IsVisible { get; }
+  [private/internal] Boolean IsActive { get; }
+  [private/internal] SiegeEvent SiegeEvent { get; }
+  [private/internal] Settlement Settlement { get; set; }
+  [private/internal] MobileParty MobileParty { get; set; }
+  [private/internal] Boolean IsSettlement { get; }
+  [private/internal] Boolean IsMobile { get; }
+  [private/internal] TroopRoster MemberRoster { get; set; }
+  [private/internal] TroopRoster PrisonRoster { get; set; }
+  [private/internal] ItemRoster ItemRoster { get; set; }
+  [private/internal] TextObject Name { get; }
+  [private/internal] Single DaysStarving { get; }
+  [private/internal] Int32 RemainingFoodPercentage { get; set; }
+  [private/internal] Boolean IsStarving { get; }
+  [private/internal] String Id { get; }
+  [private/internal] Single HealingRateForMemberRegulars { get; }
+  [private/internal] ExplainedNumber HealingRateForMemberRegularsExplained { get; }
+  [private/internal] Single HealingRateForMemberHeroes { get; }
+  [private/internal] ExplainedNumber HealingRateForMemberHeroesExplained { get; }
+  [private/internal] Hero Owner { get; }
+  [private/internal] Hero LeaderHero { get; }
+  [private/internal] PartyBase MainParty { get; }
+  [private/internal] Boolean LevelMaskIsDirty { get; set; }
+  [private/internal] Int32 Index { get; set; }
+  [private/internal] Boolean IsValid { get; }
+  [private/internal] IFaction MapFaction { get; }
+  [private/internal] Int32 RandomValue { get; set; }
+  [private/internal] CultureObject Culture { get; }
+  [private/internal] Tuple`2 PrimaryColorPair { get; }
+  [private/internal] TextObject CustomName { get; set; }
+  [private/internal] Banner CustomBanner { get; set; }
+  [private/internal] Banner Banner { get; }
+  [private/internal] MapEvent MapEvent { get; }
+  [private/internal] MapEventSide MapEventSide { get; set; }
+  [private/internal] BattleSideEnum Side { get; }
+  [private/internal] BattleSideEnum OpponentSide { get; }
+  [private/internal] Int32 PartySizeLimit { get; }
+  [private/internal] Int32 PrisonerSizeLimit { get; }
+  [private/internal] ExplainedNumber PartySizeLimitExplainer { get; }
+  [private/internal] ExplainedNumber PrisonerSizeLimitExplainer { get; }
+  [private/internal] Int32 NumberOfHealthyMembers { get; }
+  [private/internal] Int32 NumberOfRegularMembers { get; }
+  [private/internal] Int32 NumberOfWoundedTotalMembers { get; }
+  [private/internal] Int32 NumberOfAllMembers { get; }
+  [private/internal] Int32 NumberOfPrisoners { get; }
+  [private/internal] Int32 NumberOfMounts { get; }
+  [private/internal] Int32 NumberOfPackAnimals { get; }
+  [private/internal] IEnumerable`1 PrisonerHeroes { get; }
+  [private/internal] Int32 NumberOfMenWithHorse { get; }
+  [private/internal] Int32 NumberOfMenWithoutHorse { get; }
+  [private/internal] Single EstimatedStrength { get; }
+  [private/internal] MBReadOnlyList`1 Ships { get; }
+  [private/internal] Ship FlagShip { get; }
+  [private/internal] BasicCultureObject BasicCulture { get; }
+  [private/internal] BasicCharacterObject General { get; }
+  [private/internal] Boolean IsVisualDirty { get; set; }

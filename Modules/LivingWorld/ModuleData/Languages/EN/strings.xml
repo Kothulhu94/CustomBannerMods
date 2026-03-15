@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="lw_failedtoretriev" text="Failed to retrieve the ledger." />
+    <string id="lw_ledgerclosed" text="Ledger closed." />
+    <string id="lw_squireconnectio" text="Squire connection lost." />
+    <string id="lw_youarealreadygo" text="}You are already governing {settlement.Name}." />
+    <string id="lw_iapologizeicoul" text="I apologize, I could not update the records." />
+    <string id="SquireSlot" text="Squire Slot" />
+    <string id="lw_warningledgerfa" text="Warning: Ledger fallback mode actived." />
+    <string id="lw_warningfailedto" text="Warning: Failed to load UI sprites." />
+    <string id="jobseeker_intro" text="I yield. I am at your mercy." />
+    <string id="jobseeker_release" text="You are free to go." />
+    <string id="jobseeker_execute" text="I have decided to execute you." />
+    <string id="jobseeker_stay" text="You are my prisoner now." />
+    <string id="jobseeker_release_thx" text="Thank you. I will not forget this." />
+    <string id="jobseeker_exec_what" text="Is this the end then?" />
+    <string id="jobseeker_do_it" text="It must be done." />
+    <string id="jobseeker_cancel" text="No, I have changed my mind." />
+    <string id="lw_heronamehasjoin" text="}{hero.Name} has joined {targetParty.Name}." />
+    <string id="lw_heronamehaspart" text="}{hero.Name} has parted ways with their clan." />
+    <string id="lw_heronamehasleft" text="}{hero.Name} has left the settlement." />
+    <string id="lw_failedtorelease" text="}Failed to release {hero.Name} from clan." />
+    <string id="lw_workcancelledth" text="Work cancelled! The settlement is under siege!" />
+    <string id="lw_drillresultsupg" text="}Drill Results: {upgradesPerformed} Militia promoted to veterans." />
+    <string id="lw_recruitment1tro" text="}Recruitment: 1 {troopToAdd.Name} joined the garrison." />
+    <string id="lw_servethegarriso" text="Serve the Garrison (Wait)" />
+    <string id="lw_stopservice" text="Stop Service" />
+    <string id="lw_shiftcompletega" text="Shift Complete: Garrison Drills Finished." />
+    <string id="lw_job_guardduty" text="Guard Duty" />
+    <string id="lw_job_patrolthewallsa" text="Patrol the walls and keep order. (Athletics/Combat) -&gt; +Security, +Prosperity" />
+    <string id="lw_job_gangenforcer" text="Gang Enforcer" />
+    <string id="lw_job_muscleworkforlo" text="Muscle work for local gangs. (Roguery/Combat) -&gt; -Security, -Loyalty" />
+    <string id="lw_job_artisanbuilder" text="Artisan &amp; Builder" />
+    <string id="lw_job_smithingandcons" text="Smithing and construction work. (Crafting/Engineering) -&gt; +Prosperity, +Militia" />
+    <string id="lw_job_militaryinstruc" text="Military Instructor" />
+    <string id="lw_job_drilltroopsandt" text="Drill troops and teach tactics. (Leadership/Tactics) -&gt; +GarrisonXP, +Militia" />
+    <string id="lw_job_outrider" text="Outrider" />
+    <string id="lw_job_scouttheperimet" text="Scout the perimeter and ride patrols. (Scouting/Riding) -&gt; +Garrison, +GarrisonXP" />
+    <string id="lw_job_courtphysician" text="Court Physician" />
+    <string id="lw_job_tendtothesickan" text="Tend to the sick and entertain the court. (Medicine/Charm) -&gt; +Loyalty" />
+    <string id="lw_job_townofficial" text="Town Official" />
+    <string id="lw_job_managetradeledg" text="Manage trade ledgers and supplies. (Trade/Steward) -&gt; +Prosperity, +Food" />
+    <string id="lw_job_deckhand" text="Deckhand" />
+    <string id="lw_job_haulropesandscr" text="Haul ropes and scrub decks. (Mariner) -&gt; +Prosperity" />
+    <string id="lw_job_shipwright" text="Shipwright" />
+    <string id="lw_job_repairandbuildm" text="Repair and build maritime vessels. (Boatswain/Engineering) -&gt; +Prosperity, +Militia" />
+    <string id="lw_job_harbormasterass" text="Harbor Master Assistant" />
+    <string id="lw_job_managedocktraff" text="Manage dock traffic and ledgers. (Shipmaster/Trade) -&gt; +Prosperity, +Loyalty" />
+    <string id="lw_theseasonhascha" text="}The season has changed to {_lastSeason}. Job market wages have fluctuated!" />
+    <string id="lw_youlookatthetow" text="You look at the town board for available work." />
+    <string id="lw_returntotowncen" text="Return to town center" />
+    <string id="lw_stopworking" text="Stop Working" />
+    <string id="lw_lookforwork" text="Look for Work" />
+    <string id="lw_aguardrecognize" text="A guard recognized you and looked away nervously." />
+    <string id="lw_theguardslookth" text="The guards look the other way because you own this town." />
+    <string id="lw_youhavebeencaug" text="You have been caught by the guards!" />
+    <string id="lw_theguardstriedt" text="The guards tried to arrest you, but the dungeon is unguarded!" />
+    <string id="lw_heronamewascaug" text="}{hero.Name} was caught committing crimes in {town.Name} and imprisoned!" />
+    <string id="lw_shiftcompleteyo" text="Shift complete. You continue your labor..." />
+    <string id="lw_shiftbonustroop" text="}Shift Bonus: Troops drilled intensely (+{_settings.ShiftXpBonus} XP)." />
+    <string id="lw_shiftbonusmarke" text="}Shift Bonus: Market stocks replenished (+{_settings.ShiftFoodBonus} Extra Food)." />
+    <string id="lw_bonuschosenequi" text="}Bonus: {chosen.EquipmentElement.Item.Name}" />
+    <string id="lw_gainedstringjoi" text="}Gained: {string.Join(" />
+    <string id="lw_heronamehasdefe" text="}{hero.Name} has defected to the besiegers!" />
+    <string id="lw_partyleaderhero" text="}{party.LeaderHero.Name} recruited a {charObj.Name} from {village.Name}." />
+    <string id="lw_workinthefields" text="Work in the fields (Wait)" />
+    <string id="lw_gainedxpamounta" text="}Gained {xpAmount} Athletics XP." />
+    <string id="lw_received1random" text="}Received 1 {randomItem.EquipmentElement.Item.Name}" />
+    <string id="lw_relationshipinc" text="}Relationship increased with {notable.Name}" />
+    <string id="lw_buyland" text="Buy Land" />
+    <string id="lw_selectaplottopu" text="Select a plot to purchase:" />
+    <string id="lw_back" text="Back" />
+    <string id="lw_selectproductio" text="Select production category:" />
+    <string id="lw_selectitemtopro" text="Select item to produce:" />
+    <string id="lw_investinitemnam" text="}Invest in {item.Name}" />
+    <string id="lw_selectnewcatego" text="Select new category:" />
+    <string id="lw_cancel" text="Cancel" />
+    <string id="lw_selectnewproduc" text="Select new production (Cost: {COST}g):" />
+    <string id="lw_estatenowproduc" text="}Estate now producing {item.Name}." />
+    <string id="lw_manageestate" text="Manage Estate" />
+    <string id="lw_selectaplottoma" text="Select a plot to manage:" />
+    <string id="lw_manageyourestat" text="Manage your estate:" />
+    <string id="lw_changeproductio" text="Change Production" />
+    <string id="lw_upgradeguardhou" text="Upgrade Guardhouse" />
+    <string id="lw_guardhouseupgra" text="}Guardhouse upgraded to Level {plot.GuardhouseLevel}." />
+    <string id="lw_toggleyieldspli" text="Toggle Yield Split" />
+    <string id="lw_yieldsplitsetto" text="}Yield Split set to {plot.StashYieldPct}% Stash" />
+    <string id="lw_stationguards" text="Station Guards" />
+    <string id="lw_openwarehouse" text="Open Warehouse" />
+    <string id="lw_buyernamebought" text="}{buyer.Name} bought land in {settlement.Name}" />
+    <string id="lw_landlordmodelca" text="}[LandlordModel] Calculated Estate Income: {estateIncome} (UI Only: {!applyWithdrawals})" />
+    <string id="lw_burnhostileplot" text="Burn Hostile Plot" />
+    <string id="lw_youburnedhostil" text="}You burned {hostilePlot.Owner.Name}'s plot!" />
+    <string id="lw_youapproachthee" text="You approach the estate. It is currently owned by {OWNER_NAME}." />
+    <string id="lw_razeplot" text="Raze Plot" />
+    <string id="lw_pillagedlootgol" text="}Pillaged: {lootGold} gold" />
+    <string id="lw_youhavecommitte" text="You have committed an act of war!" />
+    <string id="lw_youburnedplotow" text="}You burned {plot.Owner.Name}'s plot!" />
+    <string id="lw_leave" text="Leave" />
+    <string id="lw_thelegendsaurai" text="}The Legend's Aura inspires your people. (-{_settings.DailyRenownCost} Renown)" />
+    <string id="lw_amilitiapatrolh" text="A militia patrol has completed its duty and disbanded." />
+    <string id="lw_rallythepeasant" text="}Rally the Peasantry ({_settings.RallyMilitiaCost} Renown)" />
+    <string id="legend_militia" text="The Legend's Aura" />
+    <string id="legend_loyalty" text="The Legend's Aura" />
+    <string id="lw_recruitedpartie" text="}Recruited {partiesInCart.Count} parties for {totalRenownCost} Renown." />
+    <string id="lw_notenoughrenown" text="}Not enough Renown! Needed: {totalRenownCost}." />
+    <string id="MilitiaPatrol" text="Militia Patrol of {SETTLEMENT}" />
+    <string id="lw_nosuitablefieff" text="No suitable fief found for promotion! Refunding." />
+  </strings>
+</base>

@@ -1,0 +1,27 @@
+
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:126:        private static readonly System.Reflection.PropertyInfo _positionProperty = typeof(MobileParty).GetProperty("Position2D", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:128:        private Vec2 GetHeroPosition(Hero hero)
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:130:            if (hero.CurrentSettlement != null) return hero.CurrentSettlement.GetPosition().AsVec2;
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:132:            if (hero.PartyBelongedTo != null && _positionProperty != null) 
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:134:                 return (Vec2)_positionProperty.GetValue(hero.PartyBelongedTo);
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:145:                // Optimization: Calculate Main Hero position once, outside the loop.
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:146:                Vec2 mainPos = GetHeroPosition(Hero.MainHero);
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:155:                        return new { Hero = h, BestSkill = bestSkill, Value = h.GetSkillValue(bestSkill), Distance = GetHeroPosition(h).Distance(mainPos) };
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:158:                    .OrderBy(x => x.Distance)
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:187:                // Optimization: Calculate Main Hero position once, outside the loop.
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:188:                Vec2 mainPos = GetHeroPosition(Hero.MainHero);
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:195:                    .Select(h => new { Hero = h, Distance = GetHeroPosition(h).Distance(mainPos) }) // Use cached mainPos
+Modules\LivingWorld\Source\FieldSquire\Behaviors\SquireDialogBehavior.cs:196:                    .OrderBy(x => x.Distance)
+Modules\LivingWorld\Source\HappyParty\TavernCleanerBehavior.cs:60:                                 // Fix ghost hero desync: Hero listed in settlement but current position is mismatch.
+Modules\LivingWorld\Source\HonestWork\HonestWorkSubModule.cs:70:                    // Manual Dependency Injection (Composition Root)
+Modules\LivingWorld\Source\HonestWork\VillageLaborMissionBehavior.cs:150:                    Vec3 start = entity.GlobalPosition;
+Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs:59:                    .OrderBy(s => s.Position2D.DistanceSquared(patrol.Position2D))
+Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs:62:                if (nearestHideout != null && nearestHideout.Position2D.Distance(patrol.Position2D) <= 50f)
+Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs:80:                    // "Loosely tail" by setting target party but with a distance bias if possible, 
+Modules\LivingWorld\Source\Landlord\VillageWealthBehavior.cs:251:            patrolParty.InitializeMobilePartyAtPosition(patrolParty.MemberRoster, patrolParty.PrisonRoster, settlement.GatePosition);
+Modules\LivingWorld\Source\LivingLegend\LivingLegendBehavior.cs:197:             if (village.GatePosition == CampaignVec2.Zero)
+Modules\LivingWorld\Source\LivingLegend\LivingLegendBehavior.cs:199:                 Logger?.LogError($"Rally Militia Failed: {village.Name} has invalid/zero GatePosition. Aborting spawn to prevent crash.");
+Modules\LivingWorld\Source\LivingLegend\LivingLegendBehavior.cs:203:             Logger?.LogInformation($"Rally Militia: Spawning patrol at {village.Name} (Pos: {village.GatePosition})");
+Modules\LivingWorld\Source\LivingLegend\LivingLegendBehavior.cs:228:                 militiaParty.InitializeMobilePartyAtPosition(militiaParty.MemberRoster, militiaParty.PrisonRoster, village.GatePosition);
+Modules\LivingWorld\Source\LivingLegend\LivingLegendBehavior.cs:256:                        bool hasPatrol = _patrolParties.Any(p => p.IsActive && p.TargetPosition.DistanceSquared(settlement.GatePosition) < 100f);
+

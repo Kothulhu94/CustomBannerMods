@@ -1,0 +1,3187 @@
+﻿
+> 
+api_v13_v4.txt:2:[7m==== [0m[7m[0mT[0m
+[7m[0maleWorlds.Library.Campa[0m
+[7m[0mignVec2 [0m[7m[0m====[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:3:TYPE [0m
+[7m[0mNOT [0m[7m[0mFOUND[0m
+[7m[0m  api_v13_v4.txt:4:[0m
+> 
+api_v13_v4.txt:5:[7m==== [0m[7m[0mT[0m
+[7m[0maleWorlds.CampaignSyste[0m
+[7m[0mm.Settlements.Settlemen[0m
+[7m[0mt [0m[7m[0m====[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:6:P: [0m
+[7m[0mAll [0m[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:7:P: [0m
+[7m[0mAlleys [0m[7m[0m(List`1)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:8:P: [0m
+[7m[0mBanner [0m[7m[0m(Banner)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:9:P: [0m
+[7m[0mBattleSide [0m
+[7m[0m(BattleSideEnum)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:10:P: [0m
+[7m[0mBoundVillages [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:11:P: [0m
+[7m[0mBribePaid [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:12:P: [0m
+[7m[0mCurrentNavigationFace [0m
+[7m[0m(PathFaceRecord)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:13:P: [0m
+[7m[0mCurrentSettlement [0m
+[7m[0m(Settlement)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:14:P: [0m
+[7m[0mCurrentSiegeState [0m
+[7m[0m(SiegeState)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:15:P: [0m
+[7m[0mEncyclopediaLink [0m
+[7m[0m(String)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:16:P: [0m[7m[0m
+[7m[0mEncyclopediaLinkWithNam[0m
+[7m[0me [0m[7m[0m(TextObject)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:17:P: [0m
+[7m[0mEncyclopediaText [0m
+[7m[0m(TextObject)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:18:P: [0m[7m[0m
+[7m[0mGarrisonWagePaymentLimi[0m
+[7m[0mt [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:19:P: [0m
+[7m[0mGatePosition [0m
+[7m[0m(CampaignVec2)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:20:P: [0m
+[7m[0mGetFirst [0m[7m[0m(Settlement)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:21:P: [0m
+[7m[0mGetPosition2D [0m[7m[0m(Vec2)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:22:P: [0m
+[7m[0mHasPort [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:23:P: [0m
+[7m[0mHeroesWithoutParty [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:24:P: [0m
+[7m[0mId [0m[7m[0m(MBGUID)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:25:P: [0m
+[7m[0mInRebelliousState [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:26:P: [0m
+[7m[0mIsActive [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:27:P: [0m
+[7m[0mIsCastle [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:28:P: [0m
+[7m[0mIsFortification [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:29:P: [0m
+[7m[0mIsHideout [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:30:P: [0m
+[7m[0mIsInitialized [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:31:P: [0m
+[7m[0mIsInspected [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:32:P: [0m
+[7m[0mIsRaided [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:33:P: [0m
+[7m[0mIsReady [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:34:P: [0m
+[7m[0mIsStarving [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:35:P: [0m
+[7m[0mIsTown [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:36:P: [0m
+[7m[0mIsUnderRaid [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:37:P: [0m
+[7m[0mIsUnderSiege [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:38:P: [0m
+[7m[0mIsVillage [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:39:P: [0m
+[7m[0mIsVisible [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:40:P: [0m
+[7m[0mItemRoster [0m[7m[0m(ItemRoster)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:41:P: [0m
+[7m[0mLastAttackerParty [0m
+[7m[0m(MobileParty)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:42:P: [0m
+[7m[0mLastThreatTime [0m
+[7m[0m(CampaignTime)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:43:P: [0m
+[7m[0mLocationComplex [0m
+[7m[0m(LocationComplex)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:44:P: [0m
+[7m[0mMapFaction [0m[7m[0m(IFaction)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:45:P: [0m[7m[0m
+[7m[0mMaxHitPointsOfOneWallSe[0m
+[7m[0mction [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:46:P: [0m
+[7m[0mMaxWallHitPoints [0m
+[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:47:P: [0m
+[7m[0mMilitia [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:48:P: [0m
+[7m[0mName [0m[7m[0m(TextObject)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:49:P: [0m[7m[0m
+[7m[0mNearbyLandAllyIntensity[0m
+[7m[0m [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:50:P: [0m[7m[0m
+[7m[0mNearbyLandThreatIntensi[0m
+[7m[0mty [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:51:P: [0m[7m[0m
+[7m[0mNearbyNavalAllyIntensit[0m
+[7m[0my [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:52:P: [0m[7m[0m
+[7m[0mNearbyNavalThreatIntens[0m
+[7m[0mity [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:53:P: [0m
+[7m[0mNotables [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:54:P: [0m
+[7m[0mNumberOfLordPartiesAt [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:55:P: [0m[7m[0m
+[7m[0mNumberOfTroopsKilledOnS[0m
+[7m[0mide [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:56:P: [0m
+[7m[0mOwner [0m[7m[0m(Hero)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:57:P: [0m
+[7m[0mOwnerClan [0m[7m[0m(Clan)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:58:P: [0m
+[7m[0mParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:59:P: [0m
+[7m[0mParty [0m[7m[0m(PartyBase)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:60:P: [0m
+[7m[0mPatrolParty [0m
+[7m[0m(PatrolPartyComponent)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:61:P: [0m
+[7m[0mPortPosition [0m
+[7m[0m(CampaignVec2)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:62:P: [0m
+[7m[0mPosition [0m[7m[0m(CampaignVec2)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:63:P: [0m
+[7m[0mRandomValue [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:64:P: [0m
+[7m[0mSettlementComponent [0m
+[7m[0m(SettlementComponent)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:65:P: [0m
+[7m[0mSettlementHitPoints [0m
+[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:66:P: [0m[7m[0m
+[7m[0mSettlementTotalWallHitP[0m
+[7m[0moints [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:67:P: [0m[7m[0m
+[7m[0mSettlementWallSectionHi[0m
+[7m[0mtPointsRatioList [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:68:P: [0m
+[7m[0mSiegeEngineMissiles [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:69:P: [0m
+[7m[0mSiegeEngines [0m
+[7m[0m(SiegeEnginesContainer)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:70:P: [0m
+[7m[0mSiegeEvent [0m[7m[0m(SiegeEvent)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:71:P: [0m
+[7m[0mSiegeStrategy [0m
+[7m[0m(SiegeStrategy)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:72:P: [0m
+[7m[0mStringId [0m[7m[0m(String)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:73:P: [0m
+[7m[0mWallSectionCount [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:74:M: [0m
+[7m[0mBanner [0m[7m[0mget_Banner()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:75:M: [0m
+[7m[0mBattleSideEnum [0m
+[7m[0mget_BattleSide()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:76:M: [0m
+[7m[0mBoolean [0m[7m[0mEquals(Object [0m
+[7m[0mobj)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:77:M: [0m
+[7m[0mBoolean [0m[7m[0mget_HasPort()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:78:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_InRebelliousState()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:79:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsActive()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:80:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsCastle()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:81:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsFortification()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:82:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsHideout()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:83:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsInitialized()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:84:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsInspected()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:85:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsRaided()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:86:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsReady()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:87:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsStarving()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:88:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsTown()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:89:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsUnderRaid()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:90:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsUnderSiege()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:91:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsVillage()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:92:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsVisible()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:93:M: [0m
+[7m[0mBoolean [0m[7m[0mHasInvolvedPart[0m
+[7m[0myForEventType(PartyBase[0m
+[7m[0m [0m[7m[0mparty, [0m[7m[0mBattleTypes [0m
+[7m[0mmapEventType)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:94:M: [0m
+[7m[0mBoolean [0m[7m[0mIsSettlementBus[0m
+[7m[0my(Object [0m[7m[0masker, [0m[7m[0mInt32 [0m
+[7m[0mlimitingPriority)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:95:M: [0m
+[7m[0mBoolean [0m[7m[0mIsSettlementBus[0m
+[7m[0my(Object [0m[7m[0masker)[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:96:M: [0m
+[7m[0mBoolean [0m[7m[0mIsUnderRebellio[0m
+[7m[0mnAttack()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:97:M: [0m
+[7m[0mCampaignTime [0m
+[7m[0mget_LastThreatTime()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:98:M: [0m
+[7m[0mCampaignVec2 [0m
+[7m[0mget_GatePosition()[0m
+[7m [0m[7m [0m[7m[0mapi_v13_v4.txt:99:M: [0m
+[7m[0mCampaignVec2 [0m
+[7m[0mget_PortPosition()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:100:M: [0m
+[7m[0mCampaignVec2 [0m
+[7m[0mget_Position()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:101:M: [0m
+[7m[0mClan [0m[7m[0mget_OwnerClan()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:102:M: [0m
+[7m[0mHero [0m[7m[0mget_Owner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:103:M: [0m
+[7m[0mIEnumerable`1 [0m
+[7m[0mFindAll(Func`2 [0m
+[7m[0mpredicate)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:104:M: [0m
+[7m[0mIEnumerable`1 [0m[7m[0mGetInvolv[0m
+[7m[0medPartiesForEventType(B[0m
+[7m[0mattleTypes [0m
+[7m[0mmapEventType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:105:M: [0m
+[7m[0mIFaction [0m
+[7m[0mget_MapFaction()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:106:M: [0m
+[7m[0mInt32 [0m[7m[0mget_BribePaid()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:107:M: [0m
+[7m[0mInt32 [0m[7m[0mget_GarrisonWageP[0m
+[7m[0maymentLimit()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:108:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfLordP[0m
+[7m[0martiesAt()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:109:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfTroop[0m
+[7m[0msKilledOnSide()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:110:M: [0m
+[7m[0mInt32 [0m[7m[0mget_RandomValue()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:111:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_WallSectionCount()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:112:M: [0m
+[7m[0mInt32 [0m[7m[0mGetHashCode()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:113:M: [0m
+[7m[0mInt32 [0m[7m[0mGetSettlementBusy[0m
+[7m[0mnessPriority(Object [0m
+[7m[0masker)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:114:M: [0m
+[7m[0mItemRoster [0m
+[7m[0mget_ItemRoster()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:115:M: [0m
+[7m[0mList`1 [0m[7m[0mget_Alleys()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:116:M: [0m
+[7m[0mLocatableSearchData`1 [0m[7m[0mS[0m
+[7m[0mtartFindingLocatablesAr[0m
+[7m[0moundPosition(Vec2 [0m
+[7m[0mposition, [0m[7m[0mSingle [0m
+[7m[0mradius)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:117:M: [0m
+[7m[0mLocationComplex [0m
+[7m[0mget_LocationComplex()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:118:M: [0m
+[7m[0mMBGUID [0m[7m[0mget_Id()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:119:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_All()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:120:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_BoundVillages()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:121:M: [0m
+[7m[0mMBReadOnlyList`1 [0m[7m[0mget_He[0m
+[7m[0mroesWithoutParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:122:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_Notables()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:123:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_Parties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:124:M: [0m
+[7m[0mMBReadOnlyList`1 [0m[7m[0mget_Se[0m
+[7m[0mttlementWallSectionHitP[0m
+[7m[0mointsRatioList()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:125:M: [0m
+[7m[0mMBReadOnlyList`1 [0m[7m[0mget_Si[0m
+[7m[0megeEngineMissiles()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:126:M: [0m
+[7m[0mMobileParty [0m
+[7m[0mget_LastAttackerParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:127:M: [0m
+[7m[0mPartyBase [0m[7m[0mget_Party()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:128:M: [0m
+[7m[0mPartyBase [0m[7m[0mGetNextInvolv[0m
+[7m[0medPartyForEventType(Int[0m
+[7m[0m32& [0m[7m[0mpartyIndex, [0m
+[7m[0mBattleTypes [0m
+[7m[0mmapEventType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:129:M: [0m
+[7m[0mPathFaceRecord [0m[7m[0mget_Curr[0m
+[7m[0mentNavigationFace()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:130:M: [0m
+[7m[0mPatrolPartyComponent [0m
+[7m[0mget_PatrolParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:131:M: [0m
+[7m[0mSettlement [0m[7m[0mFind(String [0m
+[7m[0midString)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:132:M: [0m
+[7m[0mSettlement [0m
+[7m[0mFindFirst(Func`2 [0m
+[7m[0mpredicate)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:133:M: [0m
+[7m[0mSettlement [0m[7m[0mFindNextLoca[0m
+[7m[0mtable(LocatableSearchDa[0m
+[7m[0mta`1& [0m[7m[0mdata)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:134:M: [0m
+[7m[0mSettlement [0m
+[7m[0mget_CurrentSettlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:135:M: [0m
+[7m[0mSettlement [0m
+[7m[0mget_GetFirst()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:136:M: [0m
+[7m[0mSettlementComponent [0m[7m[0mget[0m
+[7m[0m_SettlementComponent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:137:M: [0m
+[7m[0mSiegeEnginesContainer [0m
+[7m[0mget_SiegeEngines()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:138:M: [0m
+[7m[0mSiegeEvent [0m
+[7m[0mget_SiegeEvent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:139:M: [0m
+[7m[0mSiegeState [0m
+[7m[0mget_CurrentSiegeState()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:140:M: [0m
+[7m[0mSiegeStrategy [0m
+[7m[0mget_SiegeStrategy()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:141:M: [0m
+[7m[0mSingle [0m[7m[0mget_MaxHitPoints[0m
+[7m[0mOfOneWallSection()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:142:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_MaxWallHitPoints()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:143:M: [0m
+[7m[0mSingle [0m[7m[0mget_Militia()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:144:M: [0m
+[7m[0mSingle [0m[7m[0mget_NearbyLandAl[0m
+[7m[0mlyIntensity()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:145:M: [0m
+[7m[0mSingle [0m[7m[0mget_NearbyLandTh[0m
+[7m[0mreatIntensity()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:146:M: [0m
+[7m[0mSingle [0m[7m[0mget_NearbyNavalA[0m
+[7m[0mllyIntensity()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:147:M: [0m
+[7m[0mSingle [0m[7m[0mget_NearbyNavalT[0m
+[7m[0mhreatIntensity()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:148:M: [0m
+[7m[0mSingle [0m[7m[0mget_SettlementHi[0m
+[7m[0mtPoints()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:149:M: [0m
+[7m[0mSingle [0m[7m[0mget_SettlementTo[0m
+[7m[0mtalWallHitPoints()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:150:M: [0m
+[7m[0mSingle [0m[7m[0mGetSettlementVal[0m
+[7m[0mueForEnemyHero(Hero [0m
+[7m[0mhero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:151:M: [0m
+[7m[0mSingle [0m[7m[0mGetSettlementVal[0m
+[7m[0mueForFaction(IFaction [0m
+[7m[0mfaction)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:152:M: [0m
+[7m[0mSingle [0m[7m[0mGetValue(Hero [0m
+[7m[0mhero, [0m[7m[0mBoolean [0m[7m[0mcountAlso[0m
+[7m[0mBoundedSettlements)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:153:M: [0m
+[7m[0mString [0m
+[7m[0mget_EncyclopediaLink()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:154:M: [0m
+[7m[0mString [0m[7m[0mget_StringId()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:155:M: [0m
+[7m[0mString [0m[7m[0mToString()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:156:M: [0m
+[7m[0mTextObject [0m[7m[0mget_Encyclop[0m
+[7m[0mediaLinkWithName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:157:M: [0m
+[7m[0mTextObject [0m
+[7m[0mget_EncyclopediaText()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:158:M: [0m
+[7m[0mTextObject [0m[7m[0mget_Name()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:159:M: [0m
+[7m[0mTextObject [0m[7m[0mGetName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:160:M: [0m
+[7m[0mType [0m[7m[0mGetType()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:161:M: [0m
+[7m[0mVec2 [0m
+[7m[0mget_GetPosition2D()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:162:M: [0m
+[7m[0mVec3 [0m[7m[0mGetPosition()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:163:M: [0m
+[7m[0mVec3 [0m
+[7m[0mGetPositionAsVec3()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:164:M: [0m
+[7m[0mVoid [0m[7m[0mAddGarrisonParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:165:M: [0m
+[7m[0mVoid [0m[7m[0mAddSiegeEngineMiss[0m
+[7m[0mile(SiegeEngineMissile [0m
+[7m[0mmissile)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:166:M: [0m
+[7m[0mVoid [0m[7m[0mAfterInitialized()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:167:M: [0m
+[7m[0mVoid [0m
+[7m[0mAfterLoadInternal()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:168:M: [0m
+[7m[0mVoid [0m[7m[0mAfterRegister()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:169:M: [0m
+[7m[0mVoid [0m[7m[0mCheckPositionsForM[0m
+[7m[0mapChangeAndUpdateIfNeed[0m
+[7m[0med()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:170:M: [0m
+[7m[0mVoid [0m[7m[0mDeserialize(MBObje[0m
+[7m[0mctManager [0m
+[7m[0mobjectManager, [0m[7m[0mXmlNode [0m
+[7m[0mnode)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:171:M: [0m
+[7m[0mVoid [0m
+[7m[0mFinalizeSiegeEvent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:172:M: [0m
+[7m[0mVoid [0m[7m[0mGetAttackTarget(IS[0m
+[7m[0miegeEventSide [0m
+[7m[0msiegeEventSide, [0m
+[7m[0mSiegeEngineType [0m
+[7m[0msiegeEngine, [0m[7m[0mInt32 [0m
+[7m[0msiegeEngineSlot, [0m
+[7m[0mSiegeBombardTargets& [0m
+[7m[0mtargetType, [0m[7m[0mInt32& [0m
+[7m[0mtargetIndex)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:173:M: [0m
+[7m[0mVoid [0m[7m[0mInitialize()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:174:M: [0m
+[7m[0mVoid [0m[7m[0mInitializeSiegeEve[0m
+[7m[0mntSide()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:175:M: [0m
+[7m[0mVoid [0m
+[7m[0mOnFinishLoadState()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:176:M: [0m
+[7m[0mVoid [0m[7m[0mOnGameCreated()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:177:M: [0m
+[7m[0mVoid [0m[7m[0mOnPartyInteraction[0m
+[7m[0m(MobileParty [0m
+[7m[0mengagingParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:178:M: [0m
+[7m[0mVoid [0m[7m[0mOnPlayerEncounterF[0m
+[7m[0minish()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:179:M: [0m
+[7m[0mVoid [0m[7m[0mOnRegistered()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:180:M: [0m
+[7m[0mVoid [0m[7m[0mOnSessionStart()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:181:M: [0m
+[7m[0mVoid [0m[7m[0mOnTroopsKilledOnSi[0m
+[7m[0mde(Int32 [0m[7m[0mkillCount)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:182:M: [0m
+[7m[0mVoid [0m[7m[0mOnUnregistered()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:183:M: [0m
+[7m[0mVoid [0m
+[7m[0mPreAfterLoadInternal()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:184:M: [0m
+[7m[0mVoid [0m[7m[0mRemoveDeprecatedMi[0m
+[7m[0mssiles()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:185:M: [0m
+[7m[0mVoid [0m[7m[0mResetSiegeState()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:186:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_BribePaid(Int32 [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:187:M: [0m
+[7m[0mVoid [0m[7m[0mset_Id(MBGUID [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:188:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_IsActive(Boolean [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:189:M: [0m
+[7m[0mVoid [0m[7m[0mset_IsInspected(Bo[0m
+[7m[0molean [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:190:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_IsReady(Boolean [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:191:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_IsVisible(Boolean [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:192:M: [0m
+[7m[0mVoid [0m[7m[0mset_LastAttackerPa[0m
+[7m[0mrty(MobileParty [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:193:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_Militia(Single [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:194:M: [0m
+[7m[0mVoid [0m[7m[0mset_NearbyLandAlly[0m
+[7m[0mIntensity(Single [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:195:M: [0m
+[7m[0mVoid [0m[7m[0mset_NearbyLandThre[0m
+[7m[0matIntensity(Single [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:196:M: [0m
+[7m[0mVoid [0m[7m[0mset_NearbyNavalAll[0m
+[7m[0myIntensity(Single [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:197:M: [0m
+[7m[0mVoid [0m[7m[0mset_NearbyNavalThr[0m
+[7m[0meatIntensity(Single [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:198:M: [0m
+[7m[0mVoid [0m[7m[0mset_SiegeEvent(Sie[0m
+[7m[0mgeEvent [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:199:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_StringId(String [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:200:M: [0m
+[7m[0mVoid [0m[7m[0mSetGarrisonWagePay[0m
+[7m[0mmentLimit(Int32 [0m[7m[0mlimit)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:201:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetNextSiegeState()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:202:M: [0m
+[7m[0mVoid [0m[7m[0mSetSiegeStrategy(S[0m
+[7m[0miegeStrategy [0m[7m[0mstrategy)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:203:M: [0m
+[7m[0mVoid [0m[7m[0mSetWallSectionHitP[0m
+[7m[0mointsRatioAtIndex(Int32[0m
+[7m[0m [0m[7m[0mindex, [0m[7m[0mSingle [0m
+[7m[0mhitPointsRatio)[0m
+[7m[0m  api_v13_v4.txt:204:[0m
+> api_v13_v4.txt:205:[7m==[0m
+[7m== [0m[7m[0mTaleWorlds.CampaignS[0m
+[7m[0mystem.Party.MobileParty[0m
+[7m[0m [0m[7m[0m====[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:206:P: [0m
+[7m[0mActualClan [0m[7m[0m(Clan)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:207:P: [0m
+[7m[0mAggressiveness [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:208:P: [0m
+[7m[0mAi [0m[7m[0m(MobilePartyAi)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:209:P: [0m
+[7m[0mAiBehaviorTarget [0m
+[7m[0m(CampaignVec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:210:P: [0m
+[7m[0mAll [0m[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:211:P: [0m
+[7m[0mAllBanditParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:212:P: [0m
+[7m[0mAllCaravanParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:213:P: [0m
+[7m[0mAllCustomParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:214:P: [0m
+[7m[0mAllGarrisonParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:215:P: [0m
+[7m[0mAllLordParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:216:P: [0m
+[7m[0mAllMilitiaParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:217:P: [0m[7m[0mA[0m
+[7m[0mllPartiesWithoutPartyCo[0m
+[7m[0mmponent [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:218:P: [0m
+[7m[0mAllPatrolParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:219:P: [0m
+[7m[0mAllVillagerParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:220:P: [0m
+[7m[0mAnchor [0m[7m[0m(AnchorPoint)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:221:P: [0m
+[7m[0mArmy [0m[7m[0m(Army)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:222:P: [0m
+[7m[0mArmyName [0m[7m[0m(TextObject)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:223:P: [0m
+[7m[0mArmyPositionAdder [0m
+[7m[0m(Vec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:224:P: [0m
+[7m[0mAttachedParties [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:225:P: [0m
+[7m[0mAttachedTo [0m
+[7m[0m(MobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:226:P: [0m
+[7m[0mAvoidHostileActions [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:227:P: [0m
+[7m[0mBanditPartyComponent [0m
+[7m[0m(BanditPartyComponent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:228:P: [0m
+[7m[0mBanner [0m[7m[0m(Banner)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:229:P: [0m
+[7m[0mBaseFoodChange [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:230:P: [0m
+[7m[0mBearing [0m[7m[0m(Vec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:231:P: [0m
+[7m[0mBesiegedSettlement [0m
+[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:232:P: [0m
+[7m[0mBesiegerCamp [0m
+[7m[0m(BesiegerCamp)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:233:P: [0m
+[7m[0mCaravanPartyComponent [0m
+[7m[0m(CaravanPartyComponent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:234:P: [0m
+[7m[0mConversationParty [0m
+[7m[0m(MobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:235:P: [0m
+[7m[0mCount [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:236:P: [0m
+[7m[0mCurrentNavigationFace [0m
+[7m[0m(PathFaceRecord)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:237:P: [0m
+[7m[0mCurrentSettlement [0m
+[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:238:P: [0m
+[7m[0mDefaultBehavior [0m
+[7m[0m(AiBehavior)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:239:P: [0m[7m[0mD[0m
+[7m[0mesiredAiNavigationType [0m
+[7m[0m(NavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:240:P: [0m
+[7m[0mDisorganizedUntilTime [0m
+[7m[0m(CampaignTime)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:241:P: [0m
+[7m[0mEffectiveEngineer [0m
+[7m[0m(Hero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:242:P: [0m
+[7m[0mEffectiveQuartermaster [0m
+[7m[0m(Hero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:243:P: [0m
+[7m[0mEffectiveScout [0m[7m[0m(Hero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:244:P: [0m
+[7m[0mEffectiveSurgeon [0m[7m[0m(Hero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:245:P: [0m[7m[0mE[0m
+[7m[0mndPositionForNavigation[0m
+[7m[0mTransition [0m
+[7m[0m(CampaignVec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:246:P: [0m
+[7m[0mEventPositionAdder [0m
+[7m[0m(Vec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:247:P: [0m
+[7m[0mFood [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:248:P: [0m
+[7m[0mFoodChange [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:249:P: [0m
+[7m[0mFoodChangeExplained [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:250:P: [0m
+[7m[0mForceAiNoPathMode [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:251:P: [0m
+[7m[0mGarrisonPartyComponent [0m[7m[0m
+[7m[0m(GarrisonPartyComponent[0m
+[7m[0m)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:252:P: [0m
+[7m[0mGetPosition2D [0m[7m[0m(Vec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:253:P: [0m[7m[0mH[0m
+[7m[0masLandNavigationCapabil[0m
+[7m[0mity [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:254:P: [0m[7m[0mH[0m
+[7m[0masNavalNavigationCapabi[0m
+[7m[0mlity [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:255:P: [0m
+[7m[0mHomeSettlement [0m
+[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:256:P: [0m
+[7m[0mId [0m[7m[0m(MBGUID)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:257:P: [0m
+[7m[0mInventoryCapacity [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:258:P: [0m[7m[0mI[0m
+[7m[0mnventoryCapacityExplain[0m
+[7m[0medNumber [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:259:P: [0m
+[7m[0mIsActive [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:260:P: [0m
+[7m[0mIsBandit [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:261:P: [0m
+[7m[0mIsBanditBossParty [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:262:P: [0m
+[7m[0mIsCaravan [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:263:P: [0m
+[7m[0mIsCurrentlyAtSea [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:264:P: [0m[7m[0mI[0m
+[7m[0msCurrentlyUsedByAQuest [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:265:P: [0m
+[7m[0mIsCustomParty [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:266:P: [0m
+[7m[0mIsDisbanding [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:267:P: [0m
+[7m[0mIsDisorganized [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:268:P: [0m
+[7m[0mIsEngaging [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:269:P: [0m
+[7m[0mIsGarrison [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:270:P: [0m
+[7m[0mIsInitialized [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:271:P: [0m
+[7m[0mIsInRaftState [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:272:P: [0m
+[7m[0mIsInspected [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:273:P: [0m
+[7m[0mIsLordParty [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:274:P: [0m
+[7m[0mIsMainParty [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:275:P: [0m
+[7m[0mIsMilitia [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:276:P: [0m
+[7m[0mIsMoving [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:277:P: [0m
+[7m[0mIsNavalVisualDirty [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:278:P: [0m
+[7m[0mIsPartyTradeActive [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:279:P: [0m
+[7m[0mIsPatrolParty [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:280:P: [0m
+[7m[0mIsReady [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:281:P: [0m
+[7m[0mIsTargetingPort [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:282:P: [0m
+[7m[0mIsTransitionInProgress [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:283:P: [0m
+[7m[0mIsVillager [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:284:P: [0m
+[7m[0mIsVisible [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:285:P: [0m
+[7m[0mItemRoster [0m[7m[0m(ItemRoster)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:286:P: [0m[7m[0mL[0m
+[7m[0mastCalculatedBaseSpeed [0m
+[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:287:P: [0m
+[7m[0mLastVisitedSettlement [0m
+[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:288:P: [0m
+[7m[0mLeaderHero [0m[7m[0m(Hero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:289:P: [0m
+[7m[0mLordPartyComponent [0m
+[7m[0m(LordPartyComponent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:290:P: [0m
+[7m[0mMainParty [0m[7m[0m(MobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:291:P: [0m
+[7m[0mMapEvent [0m[7m[0m(MapEvent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:292:P: [0m
+[7m[0mMapEventSide [0m
+[7m[0m(MapEventSide)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:293:P: [0m
+[7m[0mMapFaction [0m[7m[0m(IFaction)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:294:P: [0m
+[7m[0mMemberRoster [0m
+[7m[0m(TroopRoster)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:295:P: [0m
+[7m[0mMorale [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:296:P: [0m
+[7m[0mMoraleExplained [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:297:P: [0m
+[7m[0mName [0m[7m[0m(TextObject)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:298:P: [0m
+[7m[0mNavigationCapability [0m
+[7m[0m(NavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:299:P: [0m[7m[0mN[0m
+[7m[0mavigationTransitionDura[0m
+[7m[0mtion [0m[7m[0m(CampaignTime)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:300:P: [0m[7m[0mN[0m
+[7m[0mavigationTransitionStar[0m
+[7m[0mtTime [0m[7m[0m(CampaignTime)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:301:P: [0m
+[7m[0mObjective [0m
+[7m[0m(PartyObjective)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:302:P: [0m
+[7m[0mOwner [0m[7m[0m(Hero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:303:P: [0m
+[7m[0mParty [0m[7m[0m(PartyBase)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:304:P: [0m
+[7m[0mPartyComponent [0m
+[7m[0m(PartyComponent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:305:P: [0m
+[7m[0mPartySizeRatio [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:306:P: [0m
+[7m[0mPartyTradeGold [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:307:P: [0m
+[7m[0mPartyTradeTaxGold [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:308:P: [0m
+[7m[0mPathBegin [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:309:P: [0m
+[7m[0mPatrolPartyComponent [0m
+[7m[0m(PatrolPartyComponent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:310:P: [0m
+[7m[0mPaymentLimit [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:311:P: [0m
+[7m[0mPosition [0m[7m[0m(CampaignVec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:312:P: [0m
+[7m[0mPrisonRoster [0m
+[7m[0m(TroopRoster)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:313:P: [0m
+[7m[0mRandomValue [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:314:P: [0m
+[7m[0mRecentEventsMorale [0m
+[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:315:P: [0m
+[7m[0mSeeingRange [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:316:P: [0m
+[7m[0mSeeingRangeExplanation [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:317:P: [0m
+[7m[0mShips [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:318:P: [0m
+[7m[0mShortTermBehavior [0m
+[7m[0m(AiBehavior)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:319:P: [0m
+[7m[0mShortTermTargetParty [0m
+[7m[0m(MobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:320:P: [0m[7m[0mS[0m
+[7m[0mhortTermTargetSettlemen[0m
+[7m[0mt [0m[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:321:P: [0m
+[7m[0mShouldBeIgnored [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:322:P: [0m[7m[0mS[0m
+[7m[0mhouldJoinPlayerBattles [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:323:P: [0m
+[7m[0mSiegeEvent [0m[7m[0m(SiegeEvent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:324:P: [0m
+[7m[0mSpeed [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:325:P: [0m
+[7m[0mSpeedExplained [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:326:P: [0m
+[7m[0mStationaryStartTime [0m
+[7m[0m(CampaignTime)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:327:P: [0m
+[7m[0mStringId [0m[7m[0m(String)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:328:P: [0m
+[7m[0mTargetParty [0m
+[7m[0m(MobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:329:P: [0m
+[7m[0mTargetPosition [0m
+[7m[0m(CampaignVec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:330:P: [0m
+[7m[0mTargetSettlement [0m
+[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:331:P: [0m
+[7m[0mThinkParamsCache [0m
+[7m[0m(PartyThinkParams)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:332:P: [0m
+[7m[0mTotalFoodAtInventory [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:333:P: [0m
+[7m[0mTotalWage [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:334:P: [0m
+[7m[0mTotalWageExplained [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:335:P: [0m
+[7m[0mTotalWeightCarried [0m
+[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:336:P: [0m[7m[0mT[0m
+[7m[0motalWeightCarriedExplai[0m
+[7m[0mnedNumber [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:337:P: [0m
+[7m[0mVersionNo [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:338:P: [0m
+[7m[0mVillagerPartyComponent [0m[7m[0m
+[7m[0m(VillagerPartyComponent[0m
+[7m[0m)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:339:P: [0m[7m[0mV[0m
+[7m[0misualPosition2DWithoutE[0m
+[7m[0mrror [0m[7m[0m(Vec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:340:P: [0m
+[7m[0mWarPartyComponent [0m
+[7m[0m(WarPartyComponent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:341:M: [0m
+[7m[0mAiBehavior [0m
+[7m[0mget_DefaultBehavior()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:342:M: [0m
+[7m[0mAiBehavior [0m
+[7m[0mget_ShortTermBehavior()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:343:M: [0m
+[7m[0mAnchorPoint [0m
+[7m[0mget_Anchor()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:344:M: [0m
+[7m[0mArmy [0m[7m[0mget_Army()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:345:M: [0m
+[7m[0mBanditPartyComponent [0m[7m[0mge[0m
+[7m[0mt_BanditPartyComponent([0m
+[7m[0m)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:346:M: [0m
+[7m[0mBanner [0m[7m[0mget_Banner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:347:M: [0m
+[7m[0mBesiegerCamp [0m
+[7m[0mget_BesiegerCamp()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:348:M: [0m
+[7m[0mBoolean [0m
+[7m[0mComputeIsWaiting()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:349:M: [0m
+[7m[0mBoolean [0m[7m[0mEquals(Object [0m
+[7m[0mobj)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:350:M: [0m
+[7m[0mBoolean [0m[7m[0mget_AvoidHostil[0m
+[7m[0meActions()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:351:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_ForceAiNoPathMode()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:352:M: [0m
+[7m[0mBoolean [0m[7m[0mget_HasLandNavi[0m
+[7m[0mgationCapability()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:353:M: [0m
+[7m[0mBoolean [0m[7m[0mget_HasNavalNav[0m
+[7m[0migationCapability()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:354:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsActive()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:355:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsBandit()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:356:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsBanditBossParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:357:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsCaravan()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:358:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsCurrentlyAtSea()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:359:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsCurrently[0m
+[7m[0mUsedByAQuest()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:360:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsCustomParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:361:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsDisbanding()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:362:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsDisorganized()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:363:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsEngaging()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:364:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsGarrison()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:365:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsInitialized()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:366:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsInRaftState()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:367:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsInspected()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:368:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsLordParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:369:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsMainParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:370:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsMilitia()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:371:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsMoving()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:372:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsNavalVisu[0m
+[7m[0malDirty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:373:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsPartyTrad[0m
+[7m[0meActive()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:374:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsPatrolParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:375:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsReady()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:376:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsTargetingPort()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:377:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsTransitio[0m
+[7m[0mnInProgress()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:378:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsVillager()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:379:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsVisible()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:380:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_ShouldBeIgnored()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:381:M: [0m
+[7m[0mBoolean [0m[7m[0mget_ShouldJoinP[0m
+[7m[0mlayerBattles()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:382:M: [0m
+[7m[0mBoolean [0m
+[7m[0mHasLimitedWage()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:383:M: [0m
+[7m[0mBoolean [0m
+[7m[0mHasPerk(PerkObject [0m
+[7m[0mperk, [0m[7m[0mBoolean [0m
+[7m[0mcheckSecondaryRole)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:384:M: [0m
+[7m[0mBoolean [0m[7m[0mIsFleeBehavior([0m
+[7m[0mAiBehavior [0m[7m[0maiBehavior)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:385:M: [0m
+[7m[0mBoolean [0m[7m[0mIsFleeing()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:386:M: [0m
+[7m[0mBoolean [0m[7m[0mIsSpotted()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:387:M: [0m
+[7m[0mBoolean [0m
+[7m[0mIsWageLimitExceeded()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:388:M: [0m
+[7m[0mBoolean [0m[7m[0mRecalculateLong[0m
+[7m[0mTermPath()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:389:M: [0m
+[7m[0mCampaignTime [0m[7m[0mget_Disorg[0m
+[7m[0manizedUntilTime()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:390:M: [0m
+[7m[0mCampaignTime [0m[7m[0mget_Naviga[0m
+[7m[0mtionTransitionDuration([0m
+[7m[0m)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:391:M: [0m
+[7m[0mCampaignTime [0m[7m[0mget_Naviga[0m
+[7m[0mtionTransitionStartTime[0m
+[7m[0m()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:392:M: [0m
+[7m[0mCampaignTime [0m[7m[0mget_Statio[0m
+[7m[0mnaryStartTime()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:393:M: [0m
+[7m[0mCampaignVec2 [0m
+[7m[0mget_AiBehaviorTarget()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:394:M: [0m
+[7m[0mCampaignVec2 [0m[7m[0mget_EndPos[0m
+[7m[0mitionForNavigationTrans[0m
+[7m[0mition()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:395:M: [0m
+[7m[0mCampaignVec2 [0m
+[7m[0mget_Position()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:396:M: [0m
+[7m[0mCampaignVec2 [0m
+[7m[0mget_TargetPosition()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:397:M: [0m
+[7m[0mCaravanPartyComponent [0m[7m[0mg[0m
+[7m[0met_CaravanPartyComponen[0m
+[7m[0mt()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:398:M: [0m
+[7m[0mClan [0m[7m[0mget_ActualClan()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:399:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Foo[0m
+[7m[0mdChangeExplained()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:400:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Inv[0m
+[7m[0mentoryCapacityExplained[0m
+[7m[0mNumber()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:401:M: [0m
+[7m[0mExplainedNumber [0m
+[7m[0mget_MoraleExplained()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:402:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_See[0m
+[7m[0mingRangeExplanation()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:403:M: [0m
+[7m[0mExplainedNumber [0m
+[7m[0mget_SpeedExplained()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:404:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Tot[0m
+[7m[0malWageExplained()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:405:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Tot[0m
+[7m[0malWeightCarriedExplaine[0m
+[7m[0mdNumber()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:406:M: [0m
+[7m[0mGarrisonPartyComponent [0m[7m[0m
+[7m[0mget_GarrisonPartyCompon[0m
+[7m[0ment()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:407:M: [0m
+[7m[0mHero [0m
+[7m[0mget_EffectiveEngineer()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:408:M: [0m
+[7m[0mHero [0m[7m[0mget_EffectiveQuart[0m
+[7m[0mermaster()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:409:M: [0m
+[7m[0mHero [0m
+[7m[0mget_EffectiveScout()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:410:M: [0m
+[7m[0mHero [0m
+[7m[0mget_EffectiveSurgeon()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:411:M: [0m
+[7m[0mHero [0m[7m[0mget_LeaderHero()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:412:M: [0m
+[7m[0mHero [0m[7m[0mget_Owner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:413:M: [0m
+[7m[0mHero [0m[7m[0mGetEffectiveRoleHo[0m
+[7m[0mlder(PartyRole [0m
+[7m[0mpartyRole)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:414:M: [0m
+[7m[0mHero [0m[7m[0mGetRoleHolder(Part[0m
+[7m[0myRole [0m[7m[0mpartyRole)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:415:M: [0m
+[7m[0mIFaction [0m
+[7m[0mget_MapFaction()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:416:M: [0m
+[7m[0mInt32 [0m[7m[0mAddElementToMembe[0m
+[7m[0mrRoster(CharacterObject[0m
+[7m[0m [0m[7m[0melement, [0m[7m[0mInt32 [0m
+[7m[0mnumberToAdd, [0m[7m[0mBoolean [0m
+[7m[0minsertAtFront)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:417:M: [0m
+[7m[0mInt32 [0m[7m[0mAddPrisoner(Chara[0m
+[7m[0mcterObject [0m[7m[0melement, [0m
+[7m[0mInt32 [0m[7m[0mnumberToAdd)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:418:M: [0m
+[7m[0mInt32 [0m[7m[0mget_Count()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:419:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_InventoryCapacity()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:420:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_PartyTradeGold()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:421:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_PartyTradeTaxGold()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:422:M: [0m
+[7m[0mInt32 [0m[7m[0mget_PathBegin()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:423:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_PaymentLimit()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:424:M: [0m
+[7m[0mInt32 [0m[7m[0mget_RandomValue()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:425:M: [0m
+[7m[0mInt32 [0m[7m[0mget_TotalFoodAtIn[0m
+[7m[0mventory()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:426:M: [0m
+[7m[0mInt32 [0m[7m[0mget_TotalWage()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:427:M: [0m
+[7m[0mInt32 [0m[7m[0mget_VersionNo()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:428:M: [0m
+[7m[0mInt32 [0m[7m[0mGetAvailableWageB[0m
+[7m[0mudget()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:429:M: [0m
+[7m[0mInt32 [0m[7m[0mGetHashCode()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:430:M: [0m
+[7m[0mInt32 [0m[7m[0mGetNumDaysForFood[0m
+[7m[0mToLast()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:431:M: [0m
+[7m[0mInt32 [0m[7m[0mGetRegionSwitchCo[0m
+[7m[0mstFromLandToSea()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:432:M: [0m
+[7m[0mInt32 [0m[7m[0mGetRegionSwitchCo[0m
+[7m[0mstFromSeaToLand()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:433:M: [0m
+[7m[0mItemRoster [0m
+[7m[0mget_ItemRoster()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:434:M: [0m
+[7m[0mLocatableSearchData`1 [0m[7m[0mS[0m
+[7m[0mtartFindingLocatablesAr[0m
+[7m[0moundPosition(Vec2 [0m
+[7m[0mposition, [0m[7m[0mSingle [0m
+[7m[0mradius)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:435:M: [0m
+[7m[0mLordPartyComponent [0m[7m[0mget_[0m
+[7m[0mLordPartyComponent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:436:M: [0m
+[7m[0mMapEvent [0m[7m[0mget_MapEvent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:437:M: [0m
+[7m[0mMapEventSide [0m
+[7m[0mget_MapEventSide()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:438:M: [0m
+[7m[0mMBGUID [0m[7m[0mget_Id()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:439:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_All()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:440:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_AllBanditParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:441:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_AllCaravanParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:442:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_AllCustomParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:443:M: [0m
+[7m[0mMBReadOnlyList`1 [0m[7m[0mget_Al[0m
+[7m[0mlGarrisonParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:444:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_AllLordParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:445:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_AllMilitiaParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:446:M: [0m
+[7m[0mMBReadOnlyList`1 [0m[7m[0mget_Al[0m
+[7m[0mlPartiesWithoutPartyCom[0m
+[7m[0mponent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:447:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_AllPatrolParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:448:M: [0m
+[7m[0mMBReadOnlyList`1 [0m[7m[0mget_Al[0m
+[7m[0mlVillagerParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:449:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_AttachedParties()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:450:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_Ships()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:451:M: [0m
+[7m[0mMobileParty [0m
+[7m[0mCreateParty(String [0m
+[7m[0mstringId, [0m
+[7m[0mPartyComponent [0m
+[7m[0mcomponent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:452:M: [0m
+[7m[0mMobileParty [0m[7m[0mFindNextLoc[0m
+[7m[0matable(LocatableSearchD[0m
+[7m[0mata`1& [0m[7m[0mdata)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:453:M: [0m
+[7m[0mMobileParty [0m
+[7m[0mget_AttachedTo()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:454:M: [0m
+[7m[0mMobileParty [0m
+[7m[0mget_ConversationParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:455:M: [0m
+[7m[0mMobileParty [0m
+[7m[0mget_MainParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:456:M: [0m
+[7m[0mMobileParty [0m[7m[0mget_ShortTe[0m
+[7m[0mrmTargetParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:457:M: [0m
+[7m[0mMobileParty [0m
+[7m[0mget_TargetParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:458:M: [0m
+[7m[0mMobilePartyAi [0m[7m[0mget_Ai()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:459:M: [0m
+[7m[0mNavigationType [0m[7m[0mget_Desi[0m
+[7m[0mredAiNavigationType()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:460:M: [0m
+[7m[0mNavigationType [0m[7m[0mget_Navi[0m
+[7m[0mgationCapability()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:461:M: [0m
+[7m[0mPartyBase [0m[7m[0mget_Party()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:462:M: [0m
+[7m[0mPartyComponent [0m
+[7m[0mget_PartyComponent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:463:M: [0m
+[7m[0mPartyObjective [0m
+[7m[0mget_Objective()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:464:M: [0m
+[7m[0mPartyRole [0m
+[7m[0mGetHeroPartyRole(Hero [0m
+[7m[0mhero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:465:M: [0m
+[7m[0mPartyThinkParams [0m
+[7m[0mget_ThinkParamsCache()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:466:M: [0m
+[7m[0mPathFaceRecord [0m[7m[0mget_Curr[0m
+[7m[0mentNavigationFace()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:467:M: [0m
+[7m[0mPatrolPartyComponent [0m[7m[0mge[0m
+[7m[0mt_PatrolPartyComponent([0m
+[7m[0m)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:468:M: [0m
+[7m[0mSettlement [0m[7m[0mget_Besieged[0m
+[7m[0mSettlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:469:M: [0m
+[7m[0mSettlement [0m
+[7m[0mget_CurrentSettlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:470:M: [0m
+[7m[0mSettlement [0m
+[7m[0mget_HomeSettlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:471:M: [0m
+[7m[0mSettlement [0m[7m[0mget_LastVisi[0m
+[7m[0mtedSettlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:472:M: [0m
+[7m[0mSettlement [0m[7m[0mget_ShortTer[0m
+[7m[0mmTargetSettlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:473:M: [0m
+[7m[0mSettlement [0m
+[7m[0mget_TargetSettlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:474:M: [0m
+[7m[0mSiegeEvent [0m
+[7m[0mget_SiegeEvent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:475:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_Aggressiveness()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:476:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_BaseFoodChange()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:477:M: [0m
+[7m[0mSingle [0m[7m[0mget_Food()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:478:M: [0m
+[7m[0mSingle [0m[7m[0mget_FoodChange()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:479:M: [0m
+[7m[0mSingle [0m[7m[0mget_LastCalculat[0m
+[7m[0medBaseSpeed()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:480:M: [0m
+[7m[0mSingle [0m[7m[0mget_Morale()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:481:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_PartySizeRatio()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:482:M: [0m
+[7m[0mSingle [0m[7m[0mget_RecentEvents[0m
+[7m[0mMorale()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:483:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_SeeingRange()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:484:M: [0m
+[7m[0mSingle [0m[7m[0mget_Speed()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:485:M: [0m
+[7m[0mSingle [0m[7m[0mget_TotalWeightC[0m
+[7m[0married()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:486:M: [0m
+[7m[0mSingle [0m[7m[0mGetTotalLandStre[0m
+[7m[0mngthWithFollowers(Boole[0m
+[7m[0man [0m[7m[0mincludeNonAttachedAr[0m
+[7m[0mmyMembers)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:487:M: [0m
+[7m[0mString [0m[7m[0mget_StringId()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:488:M: [0m
+[7m[0mString [0m[7m[0mToString()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:489:M: [0m
+[7m[0mTextObject [0m
+[7m[0mget_ArmyName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:490:M: [0m
+[7m[0mTextObject [0m[7m[0mget_Name()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:491:M: [0m
+[7m[0mTextObject [0m
+[7m[0mGetBehaviorText()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:492:M: [0m
+[7m[0mTextObject [0m[7m[0mGetName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:493:M: [0m
+[7m[0mTroopRoster [0m
+[7m[0mget_MemberRoster()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:494:M: [0m
+[7m[0mTroopRoster [0m
+[7m[0mget_PrisonRoster()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:495:M: [0m
+[7m[0mType [0m[7m[0mGetType()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:496:M: [0m
+[7m[0mVec2 [0m
+[7m[0mget_ArmyPositionAdder()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:497:M: [0m
+[7m[0mVec2 [0m[7m[0mget_Bearing()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:498:M: [0m
+[7m[0mVec2 [0m[7m[0mget_EventPositionA[0m
+[7m[0mdder()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:499:M: [0m
+[7m[0mVec2 [0m
+[7m[0mget_GetPosition2D()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:500:M: [0m
+[7m[0mVec2 [0m[7m[0mget_VisualPosition[0m
+[7m[0m2DWithoutError()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:501:M: [0m
+[7m[0mVec3 [0m
+[7m[0mGetPositionAsVec3()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:502:M: [0m
+[7m[0mVillagerPartyComponent [0m[7m[0m
+[7m[0mget_VillagerPartyCompon[0m
+[7m[0ment()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:503:M: [0m
+[7m[0mVoid [0m[7m[0mAddTaxGold(Int32 [0m
+[7m[0mamount)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:504:M: [0m
+[7m[0mVoid [0m[7m[0mAfterInitialized()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:505:M: [0m
+[7m[0mVoid [0m
+[7m[0mAfterLoadInternal()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:506:M: [0m
+[7m[0mVoid [0m[7m[0mAfterRegister()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:507:M: [0m
+[7m[0mVoid [0m[7m[0mCancelNavigationTr[0m
+[7m[0mansition()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:508:M: [0m
+[7m[0mVoid [0m[7m[0mChangeIsCurrentlyA[0m
+[7m[0mtSeaCheat()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:509:M: [0m
+[7m[0mVoid [0m
+[7m[0mChangePartyLeader(Hero [0m
+[7m[0mnewLeader)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:510:M: [0m
+[7m[0mVoid [0m[7m[0mCheckAiForMapChang[0m
+[7m[0meAndUpdateIfNeeded()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:511:M: [0m
+[7m[0mVoid [0m[7m[0mCheckPositionsForM[0m
+[7m[0mapChangeAndUpdateIfNeed[0m
+[7m[0med()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:512:M: [0m
+[7m[0mVoid [0m[7m[0mDeserialize(MBObje[0m
+[7m[0mctManager [0m
+[7m[0mobjectManager, [0m[7m[0mXmlNode [0m
+[7m[0mnode)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:513:M: [0m
+[7m[0mVoid [0m[7m[0mIgnoreByOtherParti[0m
+[7m[0mesTill(CampaignTime [0m
+[7m[0mtime)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:514:M: [0m
+[7m[0mVoid [0m
+[7m[0mIgnoreForHours(Single [0m
+[7m[0mhours)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:515:M: [0m
+[7m[0mVoid [0m[7m[0mInitialize()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:516:M: [0m
+[7m[0mVoid [0m[7m[0mInitializeMobilePa[0m
+[7m[0mrtyAroundPosition(Party[0m
+[7m[0mTemplateObject [0m[7m[0mpt, [0m
+[7m[0mCampaignVec2 [0m[7m[0mposition, [0m
+[7m[0mSingle [0m[7m[0mspawnRadius, [0m
+[7m[0mSingle [0m[7m[0mminSpawnRadius)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:517:M: [0m
+[7m[0mVoid [0m[7m[0mInitializeMobilePa[0m
+[7m[0mrtyAroundPosition(Troop[0m
+[7m[0mRoster [0m[7m[0mmemberRoster, [0m
+[7m[0mTroopRoster [0m
+[7m[0mprisonerRoster, [0m
+[7m[0mCampaignVec2 [0m[7m[0mposition, [0m
+[7m[0mSingle [0m[7m[0mspawnRadius, [0m
+[7m[0mSingle [0m[7m[0mminSpawnRadius, [0m
+[7m[0mBoolean [0m[7m[0misNaval)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:518:M: [0m
+[7m[0mVoid [0m[7m[0mInitializeMobilePa[0m
+[7m[0mrtyAtPosition(CampaignV[0m
+[7m[0mec2 [0m[7m[0mposition)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:519:M: [0m
+[7m[0mVoid [0m[7m[0mInitializeMobilePa[0m
+[7m[0mrtyAtPosition(PartyTemp[0m
+[7m[0mlateObject [0m[7m[0mpt, [0m
+[7m[0mCampaignVec2 [0m[7m[0mposition)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:520:M: [0m
+[7m[0mVoid [0m[7m[0mInitializeMobilePa[0m
+[7m[0mrtyAtPosition(TroopRost[0m
+[7m[0mer [0m[7m[0mmemberRoster, [0m
+[7m[0mTroopRoster [0m
+[7m[0mprisonerRoster, [0m
+[7m[0mCampaignVec2 [0m[7m[0mposition, [0m
+[7m[0mBoolean [0m[7m[0misNaval)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:521:M: [0m
+[7m[0mVoid [0m[7m[0mInitializePartyTra[0m
+[7m[0mde(Int32 [0m[7m[0minitialGold)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:522:M: [0m
+[7m[0mVoid [0m[7m[0mMovePartyToTheClos[0m
+[7m[0mestLand()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:523:M: [0m
+[7m[0mVoid [0m
+[7m[0mOnNavalVisualsUpdated()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:524:M: [0m
+[7m[0mVoid [0m[7m[0mOnPartyInteraction[0m
+[7m[0m(MobileParty [0m
+[7m[0mengagingParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:525:M: [0m
+[7m[0mVoid [0m[7m[0mOnRegistered()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:526:M: [0m
+[7m[0mVoid [0m[7m[0mOnUnregistered()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:527:M: [0m
+[7m[0mVoid [0m
+[7m[0mPreAfterLoadInternal()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:528:M: [0m
+[7m[0mVoid [0m[7m[0mRecalculateShortTe[0m
+[7m[0mrmBehavior()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:529:M: [0m
+[7m[0mVoid [0m[7m[0mRemoveHeroPartyRol[0m
+[7m[0me(Hero [0m[7m[0mhero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:530:M: [0m
+[7m[0mVoid [0m
+[7m[0mRemovePartyLeader()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:531:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_ActualClan(Clan [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:532:M: [0m
+[7m[0mVoid [0m[7m[0mset_Aggressiveness[0m
+[7m[0m(Single [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:533:M: [0m
+[7m[0mVoid [0m[7m[0mset_Army(Army [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:534:M: [0m
+[7m[0mVoid [0m[7m[0mset_AttachedTo(Mob[0m
+[7m[0mileParty [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:535:M: [0m
+[7m[0mVoid [0m[7m[0mset_BesiegerCamp(B[0m
+[7m[0mesiegerCamp [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:536:M: [0m
+[7m[0mVoid [0m[7m[0mset_CurrentSettlem[0m
+[7m[0ment(Settlement [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:537:M: [0m
+[7m[0mVoid [0m[7m[0mset_DesiredAiNavig[0m
+[7m[0mationType(NavigationTyp[0m
+[7m[0me [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:538:M: [0m
+[7m[0mVoid [0m[7m[0mset_EventPositionA[0m
+[7m[0mdder(Vec2 [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:539:M: [0m
+[7m[0mVoid [0m[7m[0mset_ForceAiNoPathM[0m
+[7m[0mode(Boolean [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:540:M: [0m
+[7m[0mVoid [0m[7m[0mset_Id(MBGUID [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:541:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_IsActive(Boolean [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:542:M: [0m
+[7m[0mVoid [0m[7m[0mset_IsCurrentlyAtS[0m
+[7m[0mea(Boolean [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:543:M: [0m
+[7m[0mVoid [0m[7m[0mset_IsDisbanding(B[0m
+[7m[0moolean [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:544:M: [0m
+[7m[0mVoid [0m[7m[0mset_IsInRaftState([0m
+[7m[0mBoolean [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:545:M: [0m
+[7m[0mVoid [0m[7m[0mset_IsInspected(Bo[0m
+[7m[0molean [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:546:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_IsReady(Boolean [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:547:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_IsVisible(Boolean [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:548:M: [0m
+[7m[0mVoid [0m[7m[0mset_MapEventSide(M[0m
+[7m[0mapEventSide [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:549:M: [0m
+[7m[0mVoid [0m[7m[0mset_PartyTradeGold[0m
+[7m[0m(Int32 [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:550:M: [0m
+[7m[0mVoid [0m[7m[0mset_Position(Campa[0m
+[7m[0mignVec2 [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:551:M: [0m
+[7m[0mVoid [0m[7m[0mset_RecentEventsMo[0m
+[7m[0mrale(Single [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:552:M: [0m
+[7m[0mVoid [0m[7m[0mset_ShouldJoinPlay[0m
+[7m[0merBattles(Boolean [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:553:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_StringId(String [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:554:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetAnchor(AnchorPoint [0m
+[7m[0manchor)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:555:M: [0m
+[7m[0mVoid [0m[7m[0mSetCustomHomeSettl[0m
+[7m[0mement(Settlement [0m
+[7m[0mcustomHomeSettlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:556:M: [0m
+[7m[0mVoid [0m[7m[0mSetDisorganized(Bo[0m
+[7m[0molean [0m[7m[0misDisorganized)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:557:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetHeroPartyRole(Hero [0m
+[7m[0mhero, [0m[7m[0mPartyRole [0m
+[7m[0mpartyRole)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:558:M: [0m
+[7m[0mVoid [0m[7m[0mSetLandNavigationA[0m
+[7m[0mccess(Boolean [0m[7m[0maccess)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:559:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveBesiegeSett[0m
+[7m[0mlement(Settlement [0m
+[7m[0msettlement, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:560:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveDefendSettl[0m
+[7m[0mement(Settlement [0m
+[7m[0msettlement, [0m[7m[0mBoolean [0m
+[7m[0misTargetingPort, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:561:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveEngageParty[0m
+[7m[0m(MobileParty [0m[7m[0mparty, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:562:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveEscortParty[0m
+[7m[0m(MobileParty [0m
+[7m[0mmobileParty, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType, [0m
+[7m[0mBoolean [0m
+[7m[0misTargetingPort)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:563:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveGoAroundPar[0m
+[7m[0mty(MobileParty [0m[7m[0mparty, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:564:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveGoToInterac[0m
+[7m[0mtablePoint(IInteractabl[0m
+[7m[0mePoint [0m[7m[0mpoint, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:565:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveGoToPoint(C[0m
+[7m[0mampaignVec2 [0m[7m[0mpoint, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:566:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveGoToSettlem[0m
+[7m[0ment(Settlement [0m
+[7m[0msettlement, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType, [0m
+[7m[0mBoolean [0m
+[7m[0misTargetingThePort)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:567:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveModeHold()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:568:M: [0m
+[7m[0mVoid [0m[7m[0mSetMovePatrolAroun[0m
+[7m[0mdPoint(CampaignVec2 [0m
+[7m[0mpoint, [0m[7m[0mNavigationType [0m
+[7m[0mnavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:569:M: [0m
+[7m[0mVoid [0m[7m[0mSetMovePatrolAroun[0m
+[7m[0mdSettlement(Settlement [0m
+[7m[0msettlement, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType, [0m
+[7m[0mBoolean [0m
+[7m[0misTargetingPort)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:570:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveRaidSettlem[0m
+[7m[0ment(Settlement [0m
+[7m[0msettlement, [0m
+[7m[0mNavigationType [0m
+[7m[0mnavigationType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:571:M: [0m
+[7m[0mVoid [0m[7m[0mSetMoveToNearestLa[0m
+[7m[0mnd(Settlement [0m
+[7m[0msettlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:572:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetNavalVisualAsDirty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:573:M: [0m
+[7m[0mVoid [0m[7m[0mSetPartyComponent([0m
+[7m[0mPartyComponent [0m
+[7m[0mpartyComponent, [0m
+[7m[0mBoolean [0m[7m[0mfirstTimePartyC[0m
+[7m[0momponentCreation)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:574:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetPartyEngineer(Hero [0m
+[7m[0mhero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:575:M: [0m
+[7m[0mVoid [0m[7m[0mSetPartyObjective([0m
+[7m[0mPartyObjective [0m
+[7m[0mobjective)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:576:M: [0m
+[7m[0mVoid [0m[7m[0mSetPartyQuartermas[0m
+[7m[0mter(Hero [0m[7m[0mhero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:577:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetPartyScout(Hero [0m
+[7m[0mhero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:578:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetPartySurgeon(Hero [0m
+[7m[0mhero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:579:M: [0m
+[7m[0mVoid [0m[7m[0mSetPartyUsedByQues[0m
+[7m[0mt(Boolean [0m
+[7m[0misActivelyUsed)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:580:M: [0m
+[7m[0mVoid [0m[7m[0mSetPositionAfterMa[0m
+[7m[0mpChange(CampaignVec2 [0m
+[7m[0mnewPosition)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:581:M: [0m
+[7m[0mVoid [0m[7m[0mSetSailAtPosition([0m
+[7m[0mCampaignVec2 [0m[7m[0mposition)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:582:M: [0m
+[7m[0mVoid [0m[7m[0mSetTargetSettlemen[0m
+[7m[0mt(Settlement [0m
+[7m[0msettlement, [0m[7m[0mBoolean [0m
+[7m[0misTargetingPort)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:583:M: [0m
+[7m[0mVoid [0m[7m[0mSetWagePaymentLimi[0m
+[7m[0mt(Int32 [0m[7m[0mnewLimit)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:584:M: [0m
+[7m[0mVoid [0m[7m[0mUpdateLocator(Mobi[0m
+[7m[0mleParty [0m[7m[0mparty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:585:M: [0m
+[7m[0mVoid [0m[7m[0mUpdatePartyCompone[0m
+[7m[0mntFlags()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:586:M: [0m
+[7m[0mVoid [0m[7m[0mUpdateVersionNo()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:587:M: [0m
+[7m[0mWarPartyComponent [0m
+[7m[0mget_WarPartyComponent()[0m
+[7m[0m  api_v13_v4.txt:588:[0m
+> api_v13_v4.txt:589:[7m==[0m
+[7m== [0m[7m[0mTaleWorlds.CampaignS[0m
+[7m[0mystem.Party.PartyBase [0m
+[7m[0m====[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:590:P: [0m
+[7m[0mBanner [0m[7m[0m(Banner)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:591:P: [0m
+[7m[0mBasicCulture [0m
+[7m[0m(BasicCultureObject)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:592:P: [0m
+[7m[0mCulture [0m[7m[0m(CultureObject)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:593:P: [0m
+[7m[0mCustomBanner [0m[7m[0m(Banner)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:594:P: [0m
+[7m[0mCustomName [0m[7m[0m(TextObject)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:595:P: [0m
+[7m[0mDaysStarving [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:596:P: [0m
+[7m[0mEstimatedStrength [0m
+[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:597:P: [0m
+[7m[0mFlagShip [0m[7m[0m(Ship)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:598:P: [0m
+[7m[0mGeneral [0m
+[7m[0m(BasicCharacterObject)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:599:P: [0m[7m[0mH[0m
+[7m[0mealingRateForMemberHero[0m
+[7m[0mes [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:600:P: [0m[7m[0mH[0m
+[7m[0mealingRateForMemberHero[0m
+[7m[0mesExplained [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:601:P: [0m[7m[0mH[0m
+[7m[0mealingRateForMemberRegu[0m
+[7m[0mlars [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:602:P: [0m[7m[0mH[0m
+[7m[0mealingRateForMemberRegu[0m
+[7m[0mlarsExplained [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:603:P: [0m
+[7m[0mId [0m[7m[0m(String)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:604:P: [0m
+[7m[0mIndex [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:605:P: [0m
+[7m[0mIsActive [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:606:P: [0m
+[7m[0mIsMobile [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:607:P: [0m
+[7m[0mIsSettlement [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:608:P: [0m
+[7m[0mIsStarving [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:609:P: [0m
+[7m[0mIsValid [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:610:P: [0m
+[7m[0mIsVisible [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:611:P: [0m
+[7m[0mIsVisualDirty [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:612:P: [0m
+[7m[0mItemRoster [0m[7m[0m(ItemRoster)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:613:P: [0m
+[7m[0mLeaderHero [0m[7m[0m(Hero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:614:P: [0m
+[7m[0mLevelMaskIsDirty [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:615:P: [0m
+[7m[0mMainParty [0m[7m[0m(PartyBase)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:616:P: [0m
+[7m[0mMapEvent [0m[7m[0m(MapEvent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:617:P: [0m
+[7m[0mMapEventSide [0m
+[7m[0m(MapEventSide)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:618:P: [0m
+[7m[0mMapFaction [0m[7m[0m(IFaction)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:619:P: [0m
+[7m[0mMemberRoster [0m
+[7m[0m(TroopRoster)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:620:P: [0m
+[7m[0mMobileParty [0m
+[7m[0m(MobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:621:P: [0m
+[7m[0mName [0m[7m[0m(TextObject)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:622:P: [0m
+[7m[0mNumberOfAllMembers [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:623:P: [0m
+[7m[0mNumberOfHealthyMembers [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:624:P: [0m
+[7m[0mNumberOfMenWithHorse [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:625:P: [0m[7m[0mN[0m
+[7m[0mumberOfMenWithoutHorse [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:626:P: [0m
+[7m[0mNumberOfMounts [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:627:P: [0m
+[7m[0mNumberOfPackAnimals [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:628:P: [0m
+[7m[0mNumberOfPrisoners [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:629:P: [0m
+[7m[0mNumberOfRegularMembers [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:630:P: [0m[7m[0mN[0m
+[7m[0mumberOfWoundedTotalMemb[0m
+[7m[0mers [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:631:P: [0m
+[7m[0mOpponentSide [0m
+[7m[0m(BattleSideEnum)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:632:P: [0m
+[7m[0mOwner [0m[7m[0m(Hero)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:633:P: [0m
+[7m[0mPartySizeLimit [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:634:P: [0m[7m[0mP[0m
+[7m[0martySizeLimitExplainer [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:635:P: [0m
+[7m[0mPosition [0m[7m[0m(CampaignVec2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:636:P: [0m
+[7m[0mPrimaryColorPair [0m
+[7m[0m(Tuple`2)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:637:P: [0m
+[7m[0mPrisonerHeroes [0m
+[7m[0m(IEnumerable`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:638:P: [0m
+[7m[0mPrisonerSizeLimit [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:639:P: [0m[7m[0mP[0m
+[7m[0mrisonerSizeLimitExplain[0m
+[7m[0mer [0m[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:640:P: [0m
+[7m[0mPrisonRoster [0m
+[7m[0m(TroopRoster)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:641:P: [0m
+[7m[0mRandomValue [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:642:P: [0m[7m[0mR[0m
+[7m[0memainingFoodPercentage [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:643:P: [0m
+[7m[0mSettlement [0m[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:644:P: [0m
+[7m[0mShips [0m
+[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:645:P: [0m
+[7m[0mSide [0m[7m[0m(BattleSideEnum)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:646:P: [0m
+[7m[0mSiegeEvent [0m[7m[0m(SiegeEvent)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:647:M: [0m
+[7m[0mBanner [0m[7m[0mget_Banner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:648:M: [0m
+[7m[0mBanner [0m
+[7m[0mget_CustomBanner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:649:M: [0m
+[7m[0mBasicCharacterObject [0m
+[7m[0mget_General()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:650:M: [0m
+[7m[0mBasicCultureObject [0m
+[7m[0mget_BasicCulture()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:651:M: [0m
+[7m[0mBattleSideEnum [0m
+[7m[0mget_OpponentSide()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:652:M: [0m
+[7m[0mBattleSideEnum [0m
+[7m[0mget_Side()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:653:M: [0m
+[7m[0mBoolean [0m[7m[0mEquals(Object [0m
+[7m[0mobj)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:654:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsActive()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:655:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsMobile()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:656:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsSettlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:657:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsStarving()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:658:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsValid()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:659:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsVisible()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:660:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsVisualDirty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:661:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_LevelMaskIsDirty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:662:M: [0m
+[7m[0mBoolean [0m[7m[0mIsPartyUnderPla[0m
+[7m[0myerCommand(PartyBase [0m
+[7m[0mparty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:663:M: [0m
+[7m[0mCampaignVec2 [0m
+[7m[0mget_Position()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:664:M: [0m
+[7m[0mCultureObject [0m
+[7m[0mget_Culture()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:665:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Hea[0m
+[7m[0mlingRateForMemberHeroes[0m
+[7m[0mExplained()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:666:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Hea[0m
+[7m[0mlingRateForMemberRegula[0m
+[7m[0mrsExplained()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:667:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Par[0m
+[7m[0mtySizeLimitExplainer()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:668:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Pri[0m
+[7m[0msonerSizeLimitExplainer[0m
+[7m[0m()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:669:M: [0m
+[7m[0mHero [0m[7m[0mget_LeaderHero()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:670:M: [0m
+[7m[0mHero [0m[7m[0mget_Owner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:671:M: [0m
+[7m[0mIEnumerable`1 [0m
+[7m[0mget_PrisonerHeroes()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:672:M: [0m
+[7m[0mIFaction [0m
+[7m[0mget_MapFaction()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:673:M: [0m
+[7m[0mInt32 [0m[7m[0mAddElementToMembe[0m
+[7m[0mrRoster(CharacterObject[0m
+[7m[0m [0m[7m[0melement, [0m[7m[0mInt32 [0m
+[7m[0mnumberToAdd, [0m[7m[0mBoolean [0m
+[7m[0minsertAtFront)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:674:M: [0m
+[7m[0mInt32 [0m[7m[0mAddMember(Charact[0m
+[7m[0merObject [0m[7m[0melement, [0m
+[7m[0mInt32 [0m[7m[0mnumberToAdd, [0m
+[7m[0mInt32 [0m
+[7m[0mnumberToAddWounded)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:675:M: [0m
+[7m[0mInt32 [0m[7m[0mAddPrisoner(Chara[0m
+[7m[0mcterObject [0m[7m[0melement, [0m
+[7m[0mInt32 [0m[7m[0mnumberToAdd)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:676:M: [0m
+[7m[0mInt32 [0m[7m[0mget_Index()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:677:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfAllMe[0m
+[7m[0mmbers()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:678:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfHealt[0m
+[7m[0mhyMembers()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:679:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfMenWi[0m
+[7m[0mthHorse()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:680:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfMenWi[0m
+[7m[0mthoutHorse()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:681:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_NumberOfMounts()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:682:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfPackA[0m
+[7m[0mnimals()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:683:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_NumberOfPrisoners()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:684:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfRegul[0m
+[7m[0marMembers()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:685:M: [0m
+[7m[0mInt32 [0m[7m[0mget_NumberOfWound[0m
+[7m[0medTotalMembers()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:686:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_PartySizeLimit()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:687:M: [0m
+[7m[0mInt32 [0m
+[7m[0mget_PrisonerSizeLimit()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:688:M: [0m
+[7m[0mInt32 [0m[7m[0mget_RandomValue()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:689:M: [0m
+[7m[0mInt32 [0m[7m[0mget_RemainingFood[0m
+[7m[0mPercentage()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:690:M: [0m
+[7m[0mInt32 [0m[7m[0mGetHashCode()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:691:M: [0m
+[7m[0mInt32 [0m[7m[0mGetNumberOfHealth[0m
+[7m[0myMenOfTier(Int32 [0m[7m[0mtier)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:692:M: [0m
+[7m[0mInt32 [0m[7m[0mGetNumberOfMenWit[0m
+[7m[0mh(TraitObject [0m[7m[0mtrait)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:693:M: [0m
+[7m[0mInt32 [0m[7m[0mGetShipsVersion()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:694:M: [0m
+[7m[0mItemRoster [0m
+[7m[0mget_ItemRoster()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:695:M: [0m
+[7m[0mMapEvent [0m[7m[0mget_MapEvent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:696:M: [0m
+[7m[0mMapEventSide [0m
+[7m[0mget_MapEventSide()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:697:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_Ships()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:698:M: [0m
+[7m[0mMobileParty [0m
+[7m[0mget_MobileParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:699:M: [0m
+[7m[0mPartyBase [0m
+[7m[0mget_MainParty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:700:M: [0m
+[7m[0mSettlement [0m
+[7m[0mget_Settlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:701:M: [0m
+[7m[0mShip [0m[7m[0mget_FlagShip()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:702:M: [0m
+[7m[0mSiegeEvent [0m
+[7m[0mget_SiegeEvent()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:703:M: [0m
+[7m[0mSingle [0m[7m[0mCalculateCurrent[0m
+[7m[0mStrength()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:704:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_DaysStarving()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:705:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_EstimatedStrength()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:706:M: [0m
+[7m[0mSingle [0m[7m[0mget_HealingRateF[0m
+[7m[0morMemberHeroes()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:707:M: [0m
+[7m[0mSingle [0m[7m[0mget_HealingRateF[0m
+[7m[0morMemberRegulars()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:708:M: [0m
+[7m[0mSingle [0m[7m[0mGetCustomStrengt[0m
+[7m[0mh(BattleSideEnum [0m[7m[0mside, [0m[7m[0m
+[7m[0mPowerCalculationContext[0m
+[7m[0m [0m[7m[0mcontext)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:709:M: [0m
+[7m[0mString [0m[7m[0mget_Id()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:710:M: [0m
+[7m[0mString [0m[7m[0mToString()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:711:M: [0m
+[7m[0mTextObject [0m
+[7m[0mget_CustomName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:712:M: [0m
+[7m[0mTextObject [0m[7m[0mget_Name()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:713:M: [0m
+[7m[0mTroopRoster [0m
+[7m[0mget_MemberRoster()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:714:M: [0m
+[7m[0mTroopRoster [0m
+[7m[0mget_PrisonRoster()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:715:M: [0m
+[7m[0mTuple`2 [0m
+[7m[0mget_PrimaryColorPair()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:716:M: [0m
+[7m[0mType [0m[7m[0mGetType()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:717:M: [0m
+[7m[0mVoid [0m
+[7m[0mAddMembers(TroopRoster [0m
+[7m[0mroster)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:718:M: [0m
+[7m[0mVoid [0m[7m[0mAddPrisoners(Troop[0m
+[7m[0mRoster [0m[7m[0mroster)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:719:M: [0m
+[7m[0mVoid [0m[7m[0mAddToMemberRosterE[0m
+[7m[0mlementAtIndex(Int32 [0m
+[7m[0mindex, [0m[7m[0mInt32 [0m
+[7m[0mnumberToAdd, [0m[7m[0mInt32 [0m
+[7m[0mwoundedCount)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:720:M: [0m
+[7m[0mVoid [0m[7m[0mOnConsumedFood()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:721:M: [0m
+[7m[0mVoid [0m
+[7m[0mOnLevelMaskUpdated()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:722:M: [0m
+[7m[0mVoid [0m[7m[0mOnVisibilityChange[0m
+[7m[0md(Boolean [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:723:M: [0m
+[7m[0mVoid [0m[7m[0mOnVisualsUpdated()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:724:M: [0m
+[7m[0mVoid [0m[7m[0mset_MapEventSide(M[0m
+[7m[0mapEventSide [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:725:M: [0m
+[7m[0mVoid [0m[7m[0mset_RemainingFoodP[0m
+[7m[0mercentage(Int32 [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:726:M: [0m
+[7m[0mVoid [0m[7m[0mSetAsCameraFollowP[0m
+[7m[0marty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:727:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetCustomBanner(Banner [0m
+[7m[0mbanner)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:728:M: [0m
+[7m[0mVoid [0m[7m[0mSetCustomName(Text[0m
+[7m[0mObject [0m[7m[0mname)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:729:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetCustomOwner(Hero [0m
+[7m[0mcustomOwner)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:730:M: [0m
+[7m[0mVoid [0m
+[7m[0mSetLevelMaskIsDirty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:731:M: [0m
+[7m[0mVoid [0m[7m[0mSetVisualAsDirty()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:732:M: [0m
+[7m[0mVoid [0m[7m[0mUpdateVisibilityAn[0m
+[7m[0mdInspected(CampaignVec2[0m
+[7m[0m [0m[7m[0mfromPosition, [0m[7m[0mSingle [0m
+[7m[0mmainPartySeeingRange)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:733:M: [0m
+[7m[0mVoid [0m[7m[0mWoundMemberRosterE[0m
+[7m[0mlements(CharacterObject[0m
+[7m[0m [0m[7m[0melementObj, [0m[7m[0mInt32 [0m
+[7m[0mnumberToWound)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:734:M: [0m
+[7m[0mVoid [0m[7m[0mWoundMemberRosterE[0m
+[7m[0mlementsWithIndex(Int32 [0m
+[7m[0melementIndex, [0m[7m[0mInt32 [0m
+[7m[0mnumberToWound)[0m
+[7m[0m  api_v13_v4.txt:735:[0m
+> api_v13_v4.txt:736:[7m==[0m
+[7m== [0m[7m[0mTaleWorlds.CampaignS[0m
+[7m[0mystem.Settlements.Villa[0m
+[7m[0mge [0m[7m[0m====[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:737:P: [0m
+[7m[0mAll [0m[7m[0m(MBReadOnlyList`1)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:738:P: [0m
+[7m[0mBackgroundCropPosition [0m
+[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:739:P: [0m
+[7m[0mBackgroundMeshName [0m
+[7m[0m(String)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:740:P: [0m
+[7m[0mBanner [0m[7m[0m(Banner)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:741:P: [0m
+[7m[0mBound [0m[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:742:P: [0m[7m[0mC[0m
+[7m[0mastleBackgroundMeshName[0m
+[7m[0m [0m[7m[0m(String)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:743:P: [0m
+[7m[0mGold [0m[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:744:P: [0m
+[7m[0mHearth [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:745:P: [0m
+[7m[0mHearthChange [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:746:P: [0m[7m[0mH[0m
+[7m[0mearthChangeExplanation [0m
+[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:747:P: [0m
+[7m[0mId [0m[7m[0m(MBGUID)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:748:P: [0m
+[7m[0mIsCastle [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:749:P: [0m
+[7m[0mIsDeserted [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:750:P: [0m
+[7m[0mIsInitialized [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:751:P: [0m
+[7m[0mIsOwnerUnassigned [0m
+[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:752:P: [0m
+[7m[0mIsReady [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:753:P: [0m
+[7m[0mIsTown [0m[7m[0m(Boolean)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:754:P: [0m[7m[0mL[0m
+[7m[0mastDemandSatisfiedTime [0m
+[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:755:P: [0m
+[7m[0mMapFaction [0m[7m[0m(IFaction)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:756:P: [0m
+[7m[0mMarketData [0m
+[7m[0m(VillageMarketData)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:757:P: [0m
+[7m[0mMilitia [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:758:P: [0m
+[7m[0mMilitiaChange [0m[7m[0m(Single)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:759:P: [0m[7m[0mM[0m
+[7m[0militiaChangeExplanation[0m
+[7m[0m [0m[7m[0m(ExplainedNumber)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:760:P: [0m
+[7m[0mName [0m[7m[0m(TextObject)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:761:P: [0m
+[7m[0mOwner [0m[7m[0m(PartyBase)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:762:P: [0m
+[7m[0mSettlement [0m[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:763:P: [0m
+[7m[0mStringId [0m[7m[0m(String)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:764:P: [0m
+[7m[0mTradeBound [0m[7m[0m(Settlement)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:765:P: [0m
+[7m[0mTradeTaxAccumulated [0m
+[7m[0m(Int32)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:766:P: [0m
+[7m[0mVillageState [0m
+[7m[0m(VillageStates)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:767:P: [0m
+[7m[0mWaitMeshName [0m[7m[0m(String)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:768:M: [0m
+[7m[0mBanner [0m[7m[0mget_Banner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:769:M: [0m
+[7m[0mBanner [0m[7m[0mGetDefaultCompon[0m
+[7m[0mentBanner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:770:M: [0m
+[7m[0mBoolean [0m[7m[0mEquals(Object [0m
+[7m[0mobj)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:771:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsCastle()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:772:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsDeserted()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:773:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsInitialized()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:774:M: [0m
+[7m[0mBoolean [0m
+[7m[0mget_IsOwnerUnassigned()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:775:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsReady()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:776:M: [0m
+[7m[0mBoolean [0m[7m[0mget_IsTown()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:777:M: [0m
+[7m[0mBoolean [0m
+[7m[0mIsProducing(ItemObject [0m
+[7m[0mitem)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:778:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Hea[0m
+[7m[0mrthChangeExplanation()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:779:M: [0m
+[7m[0mExplainedNumber [0m[7m[0mget_Mil[0m
+[7m[0mitiaChangeExplanation()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:780:M: [0m
+[7m[0mIEnumerable`1 [0m[7m[0mGetDefend[0m
+[7m[0merParties(BattleTypes [0m
+[7m[0mbattleType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:781:M: [0m
+[7m[0mIFaction [0m
+[7m[0mget_MapFaction()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:782:M: [0m
+[7m[0mInt32 [0m[7m[0mget_Gold()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:783:M: [0m
+[7m[0mInt32 [0m[7m[0mget_TradeTaxAccum[0m
+[7m[0mulated()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:784:M: [0m
+[7m[0mInt32 [0m[7m[0mGetHashCode()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:785:M: [0m
+[7m[0mInt32 [0m[7m[0mGetHearthLevel()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:786:M: [0m
+[7m[0mInt32 [0m[7m[0mGetItemPrice(Equi[0m
+[7m[0mpmentElement [0m
+[7m[0mitemRosterElement, [0m
+[7m[0mMobileParty [0m
+[7m[0mtradingParty, [0m[7m[0mBoolean [0m
+[7m[0misSelling)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:787:M: [0m
+[7m[0mInt32 [0m[7m[0mGetItemPrice(Item[0m
+[7m[0mObject [0m[7m[0mitem, [0m
+[7m[0mMobileParty [0m
+[7m[0mtradingParty, [0m[7m[0mBoolean [0m
+[7m[0misSelling)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:788:M: [0m
+[7m[0mInt32 [0m
+[7m[0mGetNumberOfTroops()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:789:M: [0m
+[7m[0mInt32 [0m
+[7m[0mGetWarehouseCapacity()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:790:M: [0m
+[7m[0mList`1 [0m
+[7m[0mGetPrisonerHeroes()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:791:M: [0m
+[7m[0mMBGUID [0m[7m[0mget_Id()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:792:M: [0m
+[7m[0mMBReadOnlyList`1 [0m
+[7m[0mget_All()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:793:M: [0m
+[7m[0mPartyBase [0m[7m[0mget_Owner()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:794:M: [0m
+[7m[0mPartyBase [0m[7m[0mGetNextDefend[0m
+[7m[0merParty(Int32& [0m
+[7m[0mpartyIndex, [0m
+[7m[0mBattleTypes [0m[7m[0mbattleType)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:795:M: [0m
+[7m[0mProsperityLevel [0m
+[7m[0mGetProsperityLevel()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:796:M: [0m
+[7m[0mSettlement [0m[7m[0mget_Bound()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:797:M: [0m
+[7m[0mSettlement [0m
+[7m[0mget_Settlement()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:798:M: [0m
+[7m[0mSettlement [0m
+[7m[0mget_TradeBound()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:799:M: [0m
+[7m[0mSingle [0m[7m[0mget_BackgroundCr[0m
+[7m[0mopPosition()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:800:M: [0m
+[7m[0mSingle [0m[7m[0mget_Hearth()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:801:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_HearthChange()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:802:M: [0m
+[7m[0mSingle [0m[7m[0mget_LastDemandSa[0m
+[7m[0mtisfiedTime()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:803:M: [0m
+[7m[0mSingle [0m[7m[0mget_Militia()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:804:M: [0m
+[7m[0mSingle [0m
+[7m[0mget_MilitiaChange()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:805:M: [0m
+[7m[0mString [0m[7m[0mget_BackgroundMe[0m
+[7m[0mshName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:806:M: [0m
+[7m[0mString [0m[7m[0mget_CastleBackgr[0m
+[7m[0moundMeshName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:807:M: [0m
+[7m[0mString [0m[7m[0mget_StringId()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:808:M: [0m
+[7m[0mString [0m
+[7m[0mget_WaitMeshName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:809:M: [0m
+[7m[0mString [0m[7m[0mToString()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:810:M: [0m
+[7m[0mTextObject [0m[7m[0mget_Name()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:811:M: [0m
+[7m[0mTextObject [0m[7m[0mGetName()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:812:M: [0m
+[7m[0mType [0m[7m[0mGetType()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:813:M: [0m
+[7m[0mVillageMarketData [0m
+[7m[0mget_MarketData()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:814:M: [0m
+[7m[0mVillageStates [0m
+[7m[0mget_VillageState()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:815:M: [0m
+[7m[0mVoid [0m[7m[0mAfterInitialized()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:816:M: [0m
+[7m[0mVoid [0m
+[7m[0mAfterLoadInternal()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:817:M: [0m
+[7m[0mVoid [0m[7m[0mAfterRegister()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:818:M: [0m
+[7m[0mVoid [0m[7m[0mChangeGold(Int32 [0m
+[7m[0mchangeAmount)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:819:M: [0m
+[7m[0mVoid [0m[7m[0mDailyTick()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:820:M: [0m
+[7m[0mVoid [0m[7m[0mDeserialize(MBObje[0m
+[7m[0mctManager [0m
+[7m[0mobjectManager, [0m[7m[0mXmlNode [0m
+[7m[0mnode)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:821:M: [0m
+[7m[0mVoid [0m[7m[0mInitialize()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:822:M: [0m
+[7m[0mVoid [0m[7m[0mOnInit()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:823:M: [0m
+[7m[0mVoid [0m[7m[0mOnPartyEntered(Mob[0m
+[7m[0mileParty [0m[7m[0mmobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:824:M: [0m
+[7m[0mVoid [0m[7m[0mOnPartyLeft(Mobile[0m
+[7m[0mParty [0m[7m[0mmobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:825:M: [0m
+[7m[0mVoid [0m[7m[0mOnRegistered()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:826:M: [0m
+[7m[0mVoid [0m[7m[0mOnRelatedPartyRemo[0m
+[7m[0mved(MobileParty [0m
+[7m[0mmobileParty)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:827:M: [0m
+[7m[0mVoid [0m[7m[0mOnSessionStart()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:828:M: [0m
+[7m[0mVoid [0m[7m[0mOnUnregistered()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:829:M: [0m
+[7m[0mVoid [0m
+[7m[0mPreAfterLoadInternal()[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:830:M: [0m
+[7m[0mVoid [0m[7m[0mset_Hearth(Single [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:831:M: [0m
+[7m[0mVoid [0m[7m[0mset_Id(MBGUID [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:832:M: [0m
+[7m[0mVoid [0m[7m[0mset_IsOwnerUnassig[0m
+[7m[0mned(Boolean [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:833:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_IsReady(Boolean [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:834:M: [0m
+[7m[0mVoid [0m
+[7m[0mset_StringId(String [0m
+[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:835:M: [0m
+[7m[0mVoid [0m[7m[0mset_TradeBound(Set[0m
+[7m[0mtlement [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:836:M: [0m
+[7m[0mVoid [0m[7m[0mset_TradeTaxAccumu[0m
+[7m[0mlated(Int32 [0m[7m[0mvalue)[0m
+[7m [0m[7m [0m
+[7m[0mapi_v13_v4.txt:837:M: [0m
+[7m[0mVoid [0m[7m[0mset_VillageState(V[0m
+[7m[0millageStates [0m[7m[0mvalue)[0m
+
