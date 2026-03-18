@@ -25,3 +25,9 @@ Bannerlord_Vector_DB/
 v13_mobileparty_full_utf8.txt
 v13_props.txt
 mobileparty_props_list.txt
+bannerapi/
+tmp/
+.agent/
+.gemini/
+*.tmp
+*.bak
