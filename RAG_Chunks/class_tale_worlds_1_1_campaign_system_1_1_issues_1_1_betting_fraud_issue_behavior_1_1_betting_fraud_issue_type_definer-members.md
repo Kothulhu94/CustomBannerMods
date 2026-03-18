@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_betting_fraud_issue_behavior_1_1_betting_fraud_issue_type_definer-members.html ---
+
+TaleWorlds.CampaignSystem.Issues.BettingFraudIssueBehavior.BettingFraudIssueTypeDefiner Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Issues.BettingFraudIssueBehavior.BettingFraudIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_betting_fraud_issue_behavior_1_1_betting_fraud_issue_type_definer.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BettingFraudIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_betting_fraud_issue_behavior_1_1_betting_fraud_issue_type_definer.html#add9e256636d344ca9ad4af7418696037)() | [TaleWorlds.CampaignSystem.Issues.BettingFraudIssueBehavior.BettingFraudIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_betting_fraud_issue_behavior_1_1_betting_fraud_issue_type_definer.html) |  |
+| [DefineClassTypes](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_betting_fraud_issue_behavior_1_1_betting_fraud_issue_type_definer.html#a0dd7c551692faf3d12e2d4cabeafcbf0)() | [TaleWorlds.CampaignSystem.Issues.BettingFraudIssueBehavior.BettingFraudIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_betting_fraud_issue_behavior_1_1_betting_fraud_issue_type_definer.html) | protected |
+

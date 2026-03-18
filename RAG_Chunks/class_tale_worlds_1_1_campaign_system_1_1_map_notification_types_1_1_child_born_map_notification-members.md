@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.ChildBornMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.ChildBornMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ChildBornMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html#aaf62c7fd601173aaa3528c6f8c948b31)(Hero newbornHero, TextObject descriptionText, CampaignTime creationTime) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ChildBornMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html) |  |
+| [CreationTime](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html#a99a03ef15271c2fccfaee31b40b77e6a) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ChildBornMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [NewbornHero](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html#a119fa1f311a70a7a973efd51ecd0d8a6) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ChildBornMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html#a3b761d4e16a21ab86e31c87faa85a7ca) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ChildBornMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html#aa84919fb30ae3e83495ba140552fe98e) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ChildBornMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_child_born_map_notification.html) |  |
+

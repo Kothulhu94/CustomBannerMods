@@ -1,0 +1,19 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier-members.html ---
+
+TaleWorlds.MountAndBlade.CustomBattleTroopSupplier Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AnyTroopRemainsToBeSupplied](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#aaa5b82d532a41e540d6a8a7f285e3a10) | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#a5e1f2007beb23851804003a66d7f71e2)(CustomBattleCombatant customBattleCombatant, bool isPlayerSide, bool isPlayerGeneral, bool isSallyOut, Func< BasicCharacterObject, bool > customAllocationConditions=null) | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [GetAllTroops](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#acfc36e6cce9672fc5022bdbfa0088883)() | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [GetGeneralCharacter](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#ade5b4efa4323a41db8e6bcd087b45351)() | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [GetNumberOfPlayerControllableTroops](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#a0617c8aacee35a87bb48500db3fc32b0)() | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [NumRemovedTroops](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#a06d4f3f343f42891e85dc688ac8eb9f0) | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [NumTroopsNotSupplied](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#a08fbc16aed339b6223a43d71109d3e08) | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [OnTroopKilled](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#a43c844c5f49c49438440a02c9d54cf85)() | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [OnTroopRouted](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#acb58f9d9368bc73ec7f12b56ccff9c0c)() | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [OnTroopWounded](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#ae9d04540547b752baadfc75d1d040650)() | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [SupplyOneTroop](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#a1127dd3510748de4e8da7bb8a9543f92)() | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+| [SupplyTroops](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html#a799132e9ada710bc92270c4269db6b29)(int numberToAllocate) | [TaleWorlds.MountAndBlade.CustomBattleTroopSupplier](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_troop_supplier.html) |  |
+

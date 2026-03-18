@@ -1,0 +1,15 @@
+--- SOURCE: interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context-members.html ---
+
+TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext Member ListThis is the complete list of members for [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GetAlternateClickKeys](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html#adc70e5250e347e3f905798d0e4864406)() | [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html) |  |
+| [GetClickKeys](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html#a028992d6924f0c5c233306c497e315de)() | [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html) |  |
+| [GetControllerLeftStickState](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html#af6a9f21e2d88df2bc1f18dcd305b19f2)() | [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html) |  |
+| [GetControllerRightStickState](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html#a98aecaf748dee8eda938cde194e132c2)() | [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html) |  |
+| [GetIsMouseActive](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html#a57aaba04ad64a2a9b85f0812e885f912)() | [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html) |  |
+| [GetMouseMovement](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html#ab6f7ee325fbc3336fe6ce53f6fbe5e5a)() | [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html) |  |
+| [GetMousePosition](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html#aaad6dd54e5850a3e687b7e66ced6169e)() | [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html) |  |
+| [GetMouseScrollDelta](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html#ab94b2d85681f7b39954a28e61030ed38)() | [TaleWorlds.GauntletUI.GauntletInput.IReadonlyInputContext](interface_tale_worlds_1_1_gauntlet_u_i_1_1_gauntlet_input_1_1_i_readonly_input_context.html) |  |
+

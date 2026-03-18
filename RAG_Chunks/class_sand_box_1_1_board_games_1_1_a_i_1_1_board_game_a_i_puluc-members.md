@@ -1,0 +1,28 @@
+--- SOURCE: class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_puluc-members.html ---
+
+SandBox.BoardGames.AI.BoardGameAIPuluc Member ListThis is the complete list of members for [SandBox.BoardGames.AI.BoardGameAIPuluc](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_puluc.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AbortRequested](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#ac4813c7e4a0a70f454e5322efc636c5a) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [AIState](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a84fa730c8e32050a46cb1369f4545690) enum name | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#aadc486abc9f925612f0e9b507f2a51d2)(BoardGameHelper.AIDifficulty difficulty, MissionBoardGameLogic boardGameHandler) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | protected |
+| [BoardGameAIPuluc](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_puluc.html#aaab97f184ded0fc8884889a4694a0e07)(BoardGameHelper.AIDifficulty difficulty, MissionBoardGameLogic boardGameHandler) | [SandBox.BoardGames.AI.BoardGameAIPuluc](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_puluc.html) |  |
+| [BoardGameHandler](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a80d9b283334016383a9cc36d74cb9c4e) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | protected |
+| [CalculateMovementStageMove](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_puluc.html#a7c65f128d5cbc6f524ef0162c4fa25cd)() | [SandBox.BoardGames.AI.BoardGameAIPuluc](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_puluc.html) |  |
+| [CalculatePreMovementStageMove](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#aa925c33cf7c07af45fef1d2710dbb477)() | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | virtual |
+| [CanMakeMove](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a092a0bc44cb20fe9317e81d8fe7932f5)() | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [Difficulty](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a6db3303810a3c0f3dff07c1c64b59e8f) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | protected |
+| [HowLongDidAIThinkAboutMove](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a1e7d531838d11bf24ac086d2c0770bf5)() | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [Initialize](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a84c5e439ed995d4620da539340c7c3be)() | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | virtual |
+| [InitializeDifficulty](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_puluc.html#a097a74a535333604c4265a221c7a64fb)() | [SandBox.BoardGames.AI.BoardGameAIPuluc](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_puluc.html) | protected |
+| [MaxDepth](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a7a5b38a99182281b5d584f6006ddbcb5) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | protected |
+| [MayForfeit](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a7bbc72dba3d99faa18f41311e9365e5d) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | protected |
+| [OnSetGameOver](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a4f16be17ef76049291851d9a0cfaeb8d)() | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | virtual |
+| [RecentMoveCalculated](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#adf760758e8fddddbdf5a710bbc97bd9f) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [ResetThinking](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a768b81fc05b8db5490aef2e010614396)() | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [SetDifficulty](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a34467b37d80a6c35d4fd48f697dc692b)(BoardGameHelper.AIDifficulty difficulty) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [State](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a0c13181ee95ea3b3220637feb4a526b7) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [UpdateThinkingAboutMove](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a025b5850d18b1c564cbf63ba4825b9bb)(float dt) | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) |  |
+| [WantsToForfeit](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html#a3552fb9f766d654e0870971d91f4dc2d)() | [SandBox.BoardGames.AI.BoardGameAIBase](class_sand_box_1_1_board_games_1_1_a_i_1_1_board_game_a_i_base.html) | virtual |
+

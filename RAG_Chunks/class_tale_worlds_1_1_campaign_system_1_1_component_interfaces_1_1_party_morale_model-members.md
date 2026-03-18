@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model-members.html ---
+
+TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [GetDailyNoWageMoralePenalty](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html#a46978db446a4eb1efba9c7e6e486c5c8)(MobileParty party) | [TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html) |  |
+| [GetDailyStarvationMoralePenalty](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html#adabfb2c4173a3b21fd38f0bd964bbb2d)(PartyBase party) | [TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html) |  |
+| [GetDefeatMoraleChange](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html#a90c8003985254493d605ccc2d9974e0d)(PartyBase party) | [TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html) |  |
+| [GetEffectivePartyMorale](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html#a164a03326e4e72c6e8ab13573241cb53)(MobileParty party, bool includeDescription=false) | [TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html) |  |
+| [GetStandardBaseMorale](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html#adc1aa9c83303ed69ca048aadcb9c2d3c)(PartyBase party) | [TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html) |  |
+| [GetVictoryMoraleChange](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html#a751ecb88f79f07e04b540db059152d2a)(PartyBase party) | [TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html) |  |
+| [HighMoraleValue](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html#aadaff9990391e42c5993f2e4968189e2) | [TaleWorlds.CampaignSystem.ComponentInterfaces.PartyMoraleModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_party_morale_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+

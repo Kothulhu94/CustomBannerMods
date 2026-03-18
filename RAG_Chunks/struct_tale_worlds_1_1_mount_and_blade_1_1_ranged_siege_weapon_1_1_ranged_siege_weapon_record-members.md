@@ -1,0 +1,13 @@
+--- SOURCE: struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record-members.html ---
+
+TaleWorlds.MountAndBlade.RangedSiegeWeapon.RangedSiegeWeaponRecord Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.RangedSiegeWeapon.RangedSiegeWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AmmoCount](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html#a2e944f007a2224f0033b8b94f4529775) | [TaleWorlds.MountAndBlade.RangedSiegeWeapon.RangedSiegeWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html) |  |
+| [ProjectileIndex](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html#a7937eda5fc3dbffe26ea39993ef1213a) | [TaleWorlds.MountAndBlade.RangedSiegeWeapon.RangedSiegeWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html) |  |
+| [ReadFromNetwork](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html#a7ba6b7d51b081d4b1969682a98288f20)(ref bool bufferReadValid) | [TaleWorlds.MountAndBlade.RangedSiegeWeapon.RangedSiegeWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html) |  |
+| [State](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html#ab9987484b64f356a76db56299148d8b3) | [TaleWorlds.MountAndBlade.RangedSiegeWeapon.RangedSiegeWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html) |  |
+| [TargetDirection](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html#a928a581ad32817da212fa783955008fe) | [TaleWorlds.MountAndBlade.RangedSiegeWeapon.RangedSiegeWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html) |  |
+| [TargetReleaseAngle](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html#a7ac96416b448ea2466be127006ebc10d) | [TaleWorlds.MountAndBlade.RangedSiegeWeapon.RangedSiegeWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_ranged_siege_weapon_1_1_ranged_siege_weapon_record.html) |  |
+

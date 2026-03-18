@@ -104,7 +104,7 @@ namespace HappyParty
 
                 if (settlement.HeroesWithoutParty != null)
                 {
-                    var potentialHires = settlement.HeroesWithoutParty.Where(h => h.IsWanderer && h.CompanionOf == null && (h.Clan == null || h.Clan.IsEliminated || h.Clan.StringId.ToLower().Contains("wanderer"))).ToList();
+                    var potentialHires = settlement.HeroesWithoutParty.Where(h => h.IsWanderer && !h.IsLord && h.CompanionOf == null && (h.Clan == null || h.Clan.IsEliminated || h.Clan.StringId.ToLower().Contains("wanderer"))).ToList();
 
                     foreach (var wanderer in potentialHires)
                     {

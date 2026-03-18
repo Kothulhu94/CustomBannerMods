@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_engine_1_1_crash_information_collector_1_1_crash_information_provider.html ---
+
+TaleWorlds.Engine.CrashInformationCollector.CrashInformationProvider Class ReferenceInherits Attribute.
+

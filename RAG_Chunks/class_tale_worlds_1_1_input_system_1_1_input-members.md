@@ -1,0 +1,71 @@
+--- SOURCE: class_tale_worlds_1_1_input_system_1_1_input-members.html ---
+
+TaleWorlds.InputSystem.Input Member ListThis is the complete list of members for [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClearKeys](class_tale_worlds_1_1_input_system_1_1_input.html#a340b0aa40e6a6e22f4f662a8040c946d)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [ControllerType](class_tale_worlds_1_1_input_system_1_1_input.html#abfc4a25d68c0b18eea5a61f657616e97) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [ControllerTypes](class_tale_worlds_1_1_input_system_1_1_input.html#ae2f71d4fdf2fe9159affb5afddec30c5) enum name | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) |  |
+| [DebugInput](class_tale_worlds_1_1_input_system_1_1_input.html#a938339e584229201f80a130f047026ab) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [DeltaMouseScroll](class_tale_worlds_1_1_input_system_1_1_input.html#a8da20d2422c81a46eebea521234d96dc) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [DesktopResolution](class_tale_worlds_1_1_input_system_1_1_input.html#a51c30068b57d671f8705f45f898329c8) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetClickKeys](class_tale_worlds_1_1_input_system_1_1_input.html#a10be6b4dde062212b1193eb6114da49c)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetClipboardText](class_tale_worlds_1_1_input_system_1_1_input.html#a45a9a3e0d66ce598ceac75e477b6603f)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetFirstKeyDownInRange](class_tale_worlds_1_1_input_system_1_1_input.html#a1564760778c5f7f12dfcb4ce056d47bb)(int startKeyNo) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetFirstKeyPressedInRange](class_tale_worlds_1_1_input_system_1_1_input.html#a7998a406ea4e47ea82129a6213cfe46b)(int startKeyNo) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetFirstKeyReleasedInRange](class_tale_worlds_1_1_input_system_1_1_input.html#a5d8779af1d9a45b3d3fb8db2e2f3d22c)(int startKeyNo) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetGyroX](class_tale_worlds_1_1_input_system_1_1_input.html#ad2f715dbd8a98f24dd6ad7c64da6c0ae)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetGyroY](class_tale_worlds_1_1_input_system_1_1_input.html#ae01ffa9921a2330e159fdb028a218c0a)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetGyroZ](class_tale_worlds_1_1_input_system_1_1_input.html#ab634605cb54d19f680213b5d31b32481)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetKeyState](class_tale_worlds_1_1_input_system_1_1_input.html#abd4ef897bcdd46e0da9a71653690a579)(InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetMouseMoveX](class_tale_worlds_1_1_input_system_1_1_input.html#a3574936dd76d10875c933de0855dc131)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetMouseMoveY](class_tale_worlds_1_1_input_system_1_1_input.html#ae1045802b2fb4d1c56260ff7a5df8cd0)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetNormalizedMouseMoveX](class_tale_worlds_1_1_input_system_1_1_input.html#a67da133f0eae644249a60ab98dfcbb03)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetNormalizedMouseMoveY](class_tale_worlds_1_1_input_system_1_1_input.html#a7d1a71b4133d462b7253b7b090e9007c)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetPrimaryControllerType](class_tale_worlds_1_1_input_system_1_1_input.html#a7580d92ae3a683632eaa4c16c7f7321e)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GetVirtualKeyCode](class_tale_worlds_1_1_input_system_1_1_input.html#ace57fe4dc69784f44479212f0d3a2a7d)(InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GyroX](class_tale_worlds_1_1_input_system_1_1_input.html#ac22ca24afa136e1afae2cd09f7548731) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GyroY](class_tale_worlds_1_1_input_system_1_1_input.html#aaeca7bffeabb43388f9739f221472ef9) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [GyroZ](class_tale_worlds_1_1_input_system_1_1_input.html#ac039b2bdcc4e3fb7b0ab0dc508878999) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [Initialize](class_tale_worlds_1_1_input_system_1_1_input.html#a2a55c500382cb9ee639fe8b1190a7ee2)(IInputManager inputManager, IInputContext debugInput) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [InputManager](class_tale_worlds_1_1_input_system_1_1_input.html#a026faf305a54bb882aa1041467f6ccef) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [InputState](class_tale_worlds_1_1_input_system_1_1_input.html#afa650e8ad4c22a0a0d5d805fbf15b35c) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsAnyTouchActive](class_tale_worlds_1_1_input_system_1_1_input.html#a24ca5744290c4d0b0e29055347a6cff7) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsControllerConnected](class_tale_worlds_1_1_input_system_1_1_input.html#a3c5bd2173a9d29e10ac8891304bb2dac) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsControllerKey](class_tale_worlds_1_1_input_system_1_1_input.html#a9241db00bd2352d2375f6fe7ad22d4e8)(InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsControlOrShiftNotDown](class_tale_worlds_1_1_input_system_1_1_input.html#abb3f29b684dd73e4abaac2e624c3eae0)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsDown](class_tale_worlds_1_1_input_system_1_1_input.html#a61d04b38ae25750d67ca26840980a29f)(this InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsGamepadActive](class_tale_worlds_1_1_input_system_1_1_input.html#a84d9bef312845120183c919565a2e015) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsKeyDown](class_tale_worlds_1_1_input_system_1_1_input.html#a337e304fa955b50149768695efe2c0f1)(InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsKeyDownImmediate](class_tale_worlds_1_1_input_system_1_1_input.html#a9235acc6bdeb820b48db137a342af09a)(InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsKeyPressed](class_tale_worlds_1_1_input_system_1_1_input.html#aeb1ba3bdfca66d073e9af995b54bfedf)(InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsKeyReleased](class_tale_worlds_1_1_input_system_1_1_input.html#a70bf80632a545f9cb8c771c98984b157)(InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsMouseActive](class_tale_worlds_1_1_input_system_1_1_input.html#aeaddf8c1f158dcfac7785dde738d74bd) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsMousePositionUpdated](class_tale_worlds_1_1_input_system_1_1_input.html#a761a0ad15043b4e9020ef9238330253c) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsMouseScrollChanged](class_tale_worlds_1_1_input_system_1_1_input.html#a463378f9232857c4320a272963d80d8f) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsOnScreenKeyboardActive](class_tale_worlds_1_1_input_system_1_1_input.html#a2cb6b7684213054fadde3524a96911dc) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsPlaystation](class_tale_worlds_1_1_input_system_1_1_input.html#a1944672aec30535f8be83aa6a350e261)(this ControllerTypes controllerType) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsPressed](class_tale_worlds_1_1_input_system_1_1_input.html#a4bc99b18f0aa1e65986e4d7581c9c034)(this InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [IsReleased](class_tale_worlds_1_1_input_system_1_1_input.html#a94fc8c4dc6541f65c768de44ec56ed0c)(this InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [MouseMoveX](class_tale_worlds_1_1_input_system_1_1_input.html#a0bfa58c96b1e70440970817843fbe8a9) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [MouseMoveY](class_tale_worlds_1_1_input_system_1_1_input.html#a98e2296b95950e6b7f46629c4a365140) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [MousePositionPixel](class_tale_worlds_1_1_input_system_1_1_input.html#a4263272e367244bbcb1edb114438db75) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [MousePositionRanged](class_tale_worlds_1_1_input_system_1_1_input.html#af78367394492f348af14f1e1a98a3696) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [MouseSensitivity](class_tale_worlds_1_1_input_system_1_1_input.html#a7b38a11da37e91dc83c06bdd763af430) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [NumberOfKeys](class_tale_worlds_1_1_input_system_1_1_input.html#a08510f29a5b4b4218a9860254ca1250f) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [OnControllerTypeChanged](class_tale_worlds_1_1_input_system_1_1_input.html#a2735d20f1acbb2e85f19d88791168ad1) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [OnGamepadActiveStateChanged](class_tale_worlds_1_1_input_system_1_1_input.html#a9847395ff31625ddfff5067a3e4874e5) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [PressKey](class_tale_worlds_1_1_input_system_1_1_input.html#a18e786a844ebebbaaa80a068102572ca)(InputKey key) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [Resolution](class_tale_worlds_1_1_input_system_1_1_input.html#af327f36afe9333f3e1c29b0fc0bdb2a9) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [SetClipboardText](class_tale_worlds_1_1_input_system_1_1_input.html#a131aedc83fa8c1e5b6e299a916c64e61)(System.String text) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [SetCursorFriction](class_tale_worlds_1_1_input_system_1_1_input.html#ae339dc8e4f50e03c1d5e51846e0eefd6)(float frictionValue) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [SetLightbarColor](class_tale_worlds_1_1_input_system_1_1_input.html#ab94b4ec20c71041928e1db5916197fe2)(float red, float green, float blue) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [SetMousePosition](class_tale_worlds_1_1_input_system_1_1_input.html#a1cce44de0146695b5f38a0a84b32eb2a)(int x, int y) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [SetRumbleEffect](class_tale_worlds_1_1_input_system_1_1_input.html#a2f9b93ce969c65412c8d23e8c992c445)(float[] lowFrequencyLevels, float[] lowFrequencyDurations, int numLowFrequencyElements, float[] highFrequencyLevels, float[] highFrequencyDurations, int numHighFrequencyElements) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [SetTriggerFeedback](class_tale_worlds_1_1_input_system_1_1_input.html#a74c22febedeff78e4a0e636d82fda13f)(byte leftTriggerPosition, byte leftTriggerStrength, byte rightTriggerPosition, byte rightTriggerStrength) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [SetTriggerVibration](class_tale_worlds_1_1_input_system_1_1_input.html#a1921b7b4032b717cfcaace1b2495256d)(float[] leftTriggerAmplitudes, float[] leftTriggerFrequencies, float[] leftTriggerDurations, int numLeftTriggerElements, float[] rightTriggerAmplitudes, float[] rightTriggerFrequencies, float[] rightTriggerDurations, int numRightTriggerElements) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [SetTriggerWeaponEffect](class_tale_worlds_1_1_input_system_1_1_input.html#a34ab4b1be9c0b90d627f7bc4a626640d)(byte leftStartPosition, byte leftEnd\_position, byte leftStrength, byte rightStartPosition, byte rightEndPosition, byte rightStrength) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [Update](class_tale_worlds_1_1_input_system_1_1_input.html#a12231c4e935e36cdda7ddbef280aef91)() | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+| [UpdateKeyData](class_tale_worlds_1_1_input_system_1_1_input.html#ad7ee53444ad7041a66dbd921f74fa7fd)(byte[] keyData) | [TaleWorlds.InputSystem.Input](class_tale_worlds_1_1_input_system_1_1_input.html) | static |
+

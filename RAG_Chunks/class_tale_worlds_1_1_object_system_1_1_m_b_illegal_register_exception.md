@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_object_system_1_1_m_b_illegal_register_exception.html ---
+
+TaleWorlds.ObjectSystem.MBIllegalRegisterException Class ReferenceInherits [TaleWorlds.ObjectSystem.ObjectSystemException](class_tale_worlds_1_1_object_system_1_1_object_system_exception.html).
+

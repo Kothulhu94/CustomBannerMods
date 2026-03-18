@@ -1,0 +1,21 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection-members.html ---
+
+TaleWorlds.MountAndBlade.Mission.TeamCollection Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Add](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#ae6fe0b29e378077c319948a0fd964b65)(Team t) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [Add](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#ae3fedeaf133ba205a6e5005af19273d3)(BattleSideEnum side, uint color=0xFFFFFFFF, uint color2=0xFFFFFFFF, Banner banner=null, bool isPlayerGeneral=true, bool isPlayerSergeant=false, bool isSettingRelations=true) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [Attacker](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#a870fc4b1625ebc0aa51af98941f06b05) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [AttackerAlly](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#a84635cff1ea7d842a6c1eea5ab25cbd1) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [Clear](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#afa2271d3b5412a46618db12431e6f847)() | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [ClearResources](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#a415347fb6434b3b1c3db673849028113)() | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [Defender](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#aadd3ac2ad23fef7c5556339e3137d0d5) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [DefenderAlly](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#afae128e2025d1f6e37ad9eeed736bd86) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [Find](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#a2f1f3084b8d5b71ae0427404b67638fb)(MBTeam mbTeam) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [OnPlayerTeamChanged](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#a20e28dc123982f398bf80f999b4e84a0) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [Player](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#a09a7872ea298649004866fdbeb9d960a) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [PlayerAlly](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#aa150677f48d73770fefd609fd67b457f) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [PlayerEnemy](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#acc08bf70e9951059af7a65a5c9514a42) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+| [TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html#adaed82438e14389fd37cc47a27911bd8)(Mission mission) | [TaleWorlds.MountAndBlade.Mission.TeamCollection](class_tale_worlds_1_1_mount_and_blade_1_1_mission_1_1_team_collection.html) |  |
+

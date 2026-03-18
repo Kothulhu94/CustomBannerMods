@@ -1,0 +1,2059 @@
+--- SOURCE: class_tale_worlds_1_1_engine_1_1_game_entity.html ---
+
+TaleWorlds.Engine.GameEntity Class ReferencesealedGame Entity class.
+
+Inherits NativeObject.
+
+|  |  |
+| --- | --- |
+| Public Types | |
+| enum | [ComponentType](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350b) : UInt32 {     [MetaMesh](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350ba6ecf68f252c6957ce2d727f693f2f6df) = 0 ,     [Light](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350ba9914a0ce04a7b7b6a8e39bec55064b82) ,     [CompositeComponent](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350baabaaf73ca1ef2ea9f5b13d1a50adea23) ,     [ClothSimulator](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350ba9fb99f8ebc2a4fdd39d8154758caf3bd) ,     [ParticleSystemInstanced](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350ba484e58dac11e47fff7f14b278b0a62df) ,     [TownIcon](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350bace50377786ab22d746884cc46064e829) ,     [CustomType1](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350bab77256a06530784674df44e4efe7acb4) ,     [Decal](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350ba19f7025884bcae0a100d41ff28b70d3d)   } |
+| enum | [Mobility](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792ed) : sbyte {     [Stationary](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792eda5146a957bfa51752bd6020691fda598e) = 0 ,     [Dynamic](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792eda971fd8cc345d8bd9f92e9f7d88fdf20c) ,     [DynamicForced](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792edae7400923694e6f94ef9ec5c0bfe43f00)   } |
+| enum | [UpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768) {     [None](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768a6adf97f83acf6453d4a6a4b1070f3754) = 0x000 ,     [Level0](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768a8292f4c72596c343cc85cfd818469fe0) = 0x001 ,     [Level1](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768a63664aa8bee7544118de87bf48d529ee) = 0x002 ,     [Level2](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768a0cbbfd5a182368f83190bf23d2bd5fde) = 0x004 ,     [Level3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768a68290d8bb76fe3ceb98d34e8b068f6be) = 0x008 ,     [LevelAll](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768a8f3a3263a4a08765065192c08ec4d940) = 0x00F   } |
+
+|  |  |
+| --- | --- |
+| Public Member Functions | |
+| UIntPtr | [GetScenePointer](class_tale_worlds_1_1_engine_1_1_game_entity.html#aba7b6b4ad6c0bf8f26bd843fce5bc258) () |
+| override string | [ToString](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2a37edd7df1a68128707ec8a091768f8) () |
+| void | [ClearEntityComponents](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad5f8596f059db4de8d25a5c721d12df5) (bool resetAll, bool removeScripts, bool deleteChildEntities) |
+| void | [ClearComponents](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8c4c7e63f0fc47daf53402de2d1b4ffe) () |
+| void | [ClearOnlyOwnComponents](class_tale_worlds_1_1_engine_1_1_game_entity.html#a258c286473f6c3022e3a0125e608cd84) () |
+| bool | [CheckResources](class_tale_worlds_1_1_engine_1_1_game_entity.html#aabfd7b3f49482f1f6228919faa33db72) (bool addToQueue, bool checkFaceResources) |
+| void | [SetMobility](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7548ce71f821e71cddf0aadf94dd021b) ([Mobility](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792ed) mobility) |
+| [Mobility](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792ed) | [GetMobility](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac4e6cbd01bd3e00604d1373f15c5298d) () |
+| void | [AddMesh](class_tale_worlds_1_1_engine_1_1_game_entity.html#ace6168b8846cb8c6420f0a92cd784714) ([Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) mesh, bool recomputeBoundingBox=true) |
+| void | [AddMultiMeshToSkeleton](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1b9e4ce3bd0bde493d2ef35ba612869f) ([MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) metaMesh) |
+| void | [AddMultiMeshToSkeletonBone](class_tale_worlds_1_1_engine_1_1_game_entity.html#acb973437fec2457ff020171e27e35548) ([MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) metaMesh, sbyte boneIndex) |
+| void | [SetColorToAllMeshesWithTagRecursive](class_tale_worlds_1_1_engine_1_1_game_entity.html#a26f70da845ac64a5b4edcf37decb6687) (uint color, string tag) |
+| IEnumerable< [Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) > | [GetAllMeshesWithTag](class_tale_worlds_1_1_engine_1_1_game_entity.html#add0783964305256e1ce516ea72a162e5) (string tag) |
+| void | [SetColor](class_tale_worlds_1_1_engine_1_1_game_entity.html#aaa59ff52696905026218d6062e35a88b) (uint color1, uint color2, string meshTag) |
+| uint | [GetFactorColor](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9ede4500170fa81cae5980c361bfc4f9) () |
+| void | [SetFactorColor](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab5d1b1332438475eae26bb46365a50f8) (uint color) |
+| void | [SetAsReplayEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#abd39226002b739937697cf94b8d393a1) () |
+| void | [SetClothMaxDistanceMultiplier](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac88b44faf50ebaccda02bc91bc4223fc) (float multiplier) |
+| void | [RemoveMultiMeshFromSkeleton](class_tale_worlds_1_1_engine_1_1_game_entity.html#a4528a3e0a53e70cedacbfe893bf54b1f) ([MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) metaMesh) |
+| void | [RemoveMultiMeshFromSkeletonBone](class_tale_worlds_1_1_engine_1_1_game_entity.html#a119deeb23343cd148742cf97b9907a86) ([MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) metaMesh, sbyte boneIndex) |
+| bool | [RemoveComponentWithMesh](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1ac014991581d2e3d22027843296e643) ([Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) mesh) |
+| void | [AddComponent](class_tale_worlds_1_1_engine_1_1_game_entity.html#a4b3d1630f38f699bcbdf35a736df17bf) ([GameEntityComponent](class_tale_worlds_1_1_engine_1_1_game_entity_component.html) component) |
+| bool | [HasComponent](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1ba5ffb4c529444de4d0a1a8344fe28d) ([GameEntityComponent](class_tale_worlds_1_1_engine_1_1_game_entity_component.html) component) |
+| bool | [IsInEditorScene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a28cfbf1a9f58631e1bc8fc4cd107c228) () |
+| bool | [RemoveComponent](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8b4c4a4ee521806b1739329f08b77e1a) ([GameEntityComponent](class_tale_worlds_1_1_engine_1_1_game_entity_component.html) component) |
+| string | [GetGuid](class_tale_worlds_1_1_engine_1_1_game_entity.html#a981c6f0a824ab6edd75e2fc334a42c63) () |
+| bool | [IsGuidValid](class_tale_worlds_1_1_engine_1_1_game_entity.html#a4b6a265a34f6ebd6fbcfd6cbf9848a3e) () |
+| void | [SetEnforcedMaximumLodLevel](class_tale_worlds_1_1_engine_1_1_game_entity.html#a58829f46bb9879ffc762cbbf1117d4ab) (int lodLevel) |
+| float | [GetLodLevelForDistanceSq](class_tale_worlds_1_1_engine_1_1_game_entity.html#aadd11d6c259abc867fed6c5224cf3517) (float distSq) |
+| void | [GetQuickBoneEntitialFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2ee0c18f98bfb138db3537f7aa750e1f) (sbyte index, out [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame) |
+| void | [UpdateVisibilityMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a60c7d2b5b6f9280d27c5552a38beeac3) () |
+| void | [CallScriptCallbacks](class_tale_worlds_1_1_engine_1_1_game_entity.html#a77596eec377f200636fb807518f8db64) (bool registerScriptComponents) |
+| bool | [IsGhostObject](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2b8477c9beecd03b05c18367ab08778f) () |
+| void | [CreateAndAddScriptComponent](class_tale_worlds_1_1_engine_1_1_game_entity.html#addf6abc8e234f836ceb2a1879f47ee2e) (string name, bool callScriptCallbacks) |
+| void | [RemoveScriptComponent](class_tale_worlds_1_1_engine_1_1_game_entity.html#a382eb10d6028bca5f108e139a7fabc24) (UIntPtr scriptComponent, int removeReason) |
+| void | [SetEntityEnvMapVisibility](class_tale_worlds_1_1_engine_1_1_game_entity.html#adbd083fccc5073fd399135efe750fc5c) (bool value) |
+| bool | [HasScene](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae00c54d449d0080fca0352bf2cc525fc) () |
+| bool | [HasScriptComponent](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7d7094446674bfa05bbda1138a842a67) (string scName) |
+| IEnumerable< [ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html) > | [GetScriptComponents](class_tale_worlds_1_1_engine_1_1_game_entity.html#a25326d4ceff3f9b5aeaf53515d54d026) () |
+| IEnumerable< T > | [GetScriptComponents< T >](class_tale_worlds_1_1_engine_1_1_game_entity.html#a884dd571559f37cc1dac0022fb80cf90) () |
+| bool | [HasScriptOfType< T >](class_tale_worlds_1_1_engine_1_1_game_entity.html#a0e24bbcbe859ad00858fd88851eb3ac4) () |
+| GameEntity | [GetFirstChildEntityWithTag](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac51fb5ea396bfe48a7b7d683c40e24c6) (string tag) |
+| bool | [HasScriptOfType](class_tale_worlds_1_1_engine_1_1_game_entity.html#aacd2890b1d48cb7da68599140dfd1d7e) (Type t) |
+| T | [GetFirstScriptOfTypeInFamily< T >](class_tale_worlds_1_1_engine_1_1_game_entity.html#a103b19aa8505ed94183c9dfb4e85f972) () |
+| T | [GetFirstScriptOfType< T >](class_tale_worlds_1_1_engine_1_1_game_entity.html#a91e2b6a97a06e0fdbe3ac4a5cb05ae37) () |
+| T | [GetFirstScriptOfTypeRecursive< T >](class_tale_worlds_1_1_engine_1_1_game_entity.html#aacfe0257b47ee37e262ef1f4ebfb58ec) () |
+| int | [GetScriptCountOfTypeRecursive< T >](class_tale_worlds_1_1_engine_1_1_game_entity.html#a64386519f0ef124168a9495e6a4c79b8) () |
+| void | [SetAlpha](class_tale_worlds_1_1_engine_1_1_game_entity.html#aca6f4f22a1f8da4d616f7239e129c3e8) (float alpha) |
+| void | [SetVisibilityExcludeParents](class_tale_worlds_1_1_engine_1_1_game_entity.html#a40657d40f3ff3b434abe68250f83e5b8) (bool visible) |
+| void | [SetReadyToRender](class_tale_worlds_1_1_engine_1_1_game_entity.html#afd32f856f94409638e3a3af3f870551d) (bool ready) |
+| bool | [GetVisibilityExcludeParents](class_tale_worlds_1_1_engine_1_1_game_entity.html#afc50909130d51a7a2b81670347e17c70) () |
+| bool | [IsVisibleIncludeParents](class_tale_worlds_1_1_engine_1_1_game_entity.html#a346ac0674b9e4c039d12a00c2da8aab9) () |
+| UInt32 | [GetVisibilityLevelMaskIncludingParents](class_tale_worlds_1_1_engine_1_1_game_entity.html#a04e0414986dc28bb9dcf5dbc23a9f2ff) () |
+| bool | [GetEditModeLevelVisibility](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac4275b7a0497d9c31697da3b830a677b) () |
+| void | [Remove](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae8e656f37084cb640c2d974e0e0ab5cb) (int removeReason) |
+| void | [SetUpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a060f6e47041a0a722fd36b9c6dde9aea) ([UpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768) mask) |
+| [UpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768) | [GetUpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae2b3bcb1b576f74f0a6ae6233f05fb7f) () |
+| [UpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768) | [GetUpgradeLevelMaskCumulative](class_tale_worlds_1_1_engine_1_1_game_entity.html#a185bbbb5f697b68775e385e32054ec4b) () |
+| int | [GetUpgradeLevelOfEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#abffc65944cb06af340ca1b9aed02d037) () |
+| string | [GetOldPrefabName](class_tale_worlds_1_1_engine_1_1_game_entity.html#a830856b7591da281fd2ea526a4ab4875) () |
+| string | [GetPrefabName](class_tale_worlds_1_1_engine_1_1_game_entity.html#a67c53a3668834963a7c5b8cf32f59edb) () |
+| void | [CopyScriptComponentFromAnotherEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#aac27561087cfe06c9de6fe79ae961487) (GameEntity otherEntity, string scriptName) |
+| void | [SetFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac2bf4de924f9c341c9966d1897d23e4c) (ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, bool isTeleportation=true) |
+| void | [SetLocalFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6980379473f5c6e57813cfea05acfb5f) (ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, bool isTeleportation) |
+| void | [SetClothComponentKeepState](class_tale_worlds_1_1_engine_1_1_game_entity.html#aba43a9ff95dbf4c6fca2d995da6de8dd) ([MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) metaMesh, bool state) |
+| void | [SetClothComponentKeepStateOfAllMeshes](class_tale_worlds_1_1_engine_1_1_game_entity.html#a376eb035c877357827e15539dfbd6274) (bool state) |
+| void | [SetPreviousFrameInvalid](class_tale_worlds_1_1_engine_1_1_game_entity.html#a415327bc45e833c5af178f80e02320ba) () |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac0553d2d65bb87e799b97317fe25159e) () |
+| void | [GetLocalFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#a409314e41a2799d3d1fe3f9b5e78cbb6) (out [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame) |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetLocalFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#accd23ccaaac5a53445b8db0e03b23c7a) () |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetGlobalFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#a312dd3bbd40996c69f9734533f0a6de8) () |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetGlobalFrameImpreciseForFixedTick](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa0bf3982a2df0f72e617e03b238d1320) () |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [ComputePreciseGlobalFrameForFixedTickSlow](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab2357154f041ed673fcab798c8ea390c) () |
+| void | [SetGlobalFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8f1a21ceaef7361cfa0ccead5cf1cb0a) (in [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, bool isTeleportation=true) |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetPreviousGlobalFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1801cd6c0edf1d4ee40590e2670590fa) () |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetBodyWorldTransform](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2bc9d7ed247f09a31839a4fec927e09a) () |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetBodyVisualWorldTransform](class_tale_worlds_1_1_engine_1_1_game_entity.html#a720b5845c5aa0393d705b0f613ad6ad5) () |
+| void | [SetLocalPosition](class_tale_worlds_1_1_engine_1_1_game_entity.html#a63b855c07e8fb31ec0410e105793cad9) ([Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) position) |
+| void | [UpdateTriadFrameForEditor](class_tale_worlds_1_1_engine_1_1_game_entity.html#a246c5d3ef36ae8348588f4e7f533bafb) () |
+| void | [UpdateTriadFrameForEditorForAllChildren](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8b904e0fc66745088985935c5f4b3275) () |
+| [PhysicsMaterial](struct_tale_worlds_1_1_engine_1_1_physics_material.html) | [GetPhysicsMaterial](class_tale_worlds_1_1_engine_1_1_game_entity.html#aae59e98b67aef136240332b8fa471a59) () |
+| void | [SetBodyFlags](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab0473e9cc3bd834a02ff96531ffb40d9) ([BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) bodyFlags) |
+| void | [SetBodyFlagsRecursive](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa87449599b54b6ee3d0332c600a895e6) ([BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) bodyFlags) |
+| void | [AddBodyFlags](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2b3d95df850138a203b7bc0a488aa89a) ([BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) bodyFlags, bool applyToChildren=true) |
+| void | [RemoveBodyFlags](class_tale_worlds_1_1_engine_1_1_game_entity.html#aeb47242a0c6585ca693b43a508760027) ([BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) bodyFlags, bool applyToChildren=true) |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [GetGlobalScale](class_tale_worlds_1_1_engine_1_1_game_entity.html#acc93323fc7df6fe613f27e81ab386cf0) () |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [GetLocalScale](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8d1b5e24ff1309dd93be0c3c2f3e7898) () |
+| void | [SetAnimationSoundActivation](class_tale_worlds_1_1_engine_1_1_game_entity.html#accdaea34f7cca99246f8bf462f521449) (bool activate) |
+| void | [CopyComponentsToSkeleton](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac3bccfbb9b5cb2303b98a4dde37b28e4) () |
+| void | [AddMeshToBone](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8c6ee3c86f7e84f49dce4b524d8a7e3c) (sbyte boneIndex, [Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) mesh) |
+| void | [ActivateRagdoll](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5b9891fd5a95f52be83b8ecc28b79f9d) () |
+| void | [PauseSkeletonAnimation](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa1c9788d6114f74c109ea7cce8bf9b98) () |
+| void | [ResumeSkeletonAnimation](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9e13708ec1e0b7dd674ec5b70da7b164) () |
+| bool | [IsSkeletonAnimationPaused](class_tale_worlds_1_1_engine_1_1_game_entity.html#a4d7066c72872c0057fe281f43fde5e12) () |
+| sbyte | [GetBoneCount](class_tale_worlds_1_1_engine_1_1_game_entity.html#a45abed477a58827d5f588cdcfe702474) () |
+| float | [GetWaterLevelAtPosition](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2a2cc2134b83075d99f5070a96e7cfaa) ([Vec2](struct_tale_worlds_1_1_library_1_1_vec2.html) position, bool useWaterRenderer, bool checkWaterBodyEntities) |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetBoneEntitialFrameWithIndex](class_tale_worlds_1_1_engine_1_1_game_entity.html#a20e997989f939ed88365f88f0e52ea37) (sbyte boneIndex) |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | [GetBoneEntitialFrameWithName](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8d54ea00352e341eaa9ec731e1575765) (string boneName) |
+| void | [AddTag](class_tale_worlds_1_1_engine_1_1_game_entity.html#addadebeda8e42e62e9f5b0bd37ed2d32) (string tag) |
+| void | [RemoveTag](class_tale_worlds_1_1_engine_1_1_game_entity.html#a69d73bd65c585dbaa574aa4120e94ce0) (string tag) |
+| bool | [HasTag](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6a3e6425ec6b02d50c6e83a91acfad0) (string tag) |
+| void | [AddChild](class_tale_worlds_1_1_engine_1_1_game_entity.html#acb10f5c8239056a675c5222511378100) (GameEntity gameEntity, bool autoLocalizeFrame=false) |
+|  | Adds the child. |
+| void | [RemoveChild](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8f1e728967b2da4ee4e89ef9cd9e91d2) (GameEntity childEntity, bool keepPhysics, bool keepScenePointer, bool callScriptCallbacks, int removeReason) |
+| void | [BreakPrefab](class_tale_worlds_1_1_engine_1_1_game_entity.html#a379638fa71141a6323862e05f0a648ea) () |
+| GameEntity | [GetChild](class_tale_worlds_1_1_engine_1_1_game_entity.html#a15e164455ca04b560809ed9addfa7d3c) (int index) |
+| bool | [HasComplexAnimTree](class_tale_worlds_1_1_engine_1_1_game_entity.html#a98a259c75272e8b716988ad13843e4ef) () |
+| void | [AddMultiMesh](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9d63ff2da7654bee4c08a1371caaa651) ([MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) metaMesh, bool updateVisMask=true) |
+| bool | [RemoveMultiMesh](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9bd21ea049d45461058fc2ca99611060) ([MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) metaMesh) |
+| int | [GetComponentCount](class_tale_worlds_1_1_engine_1_1_game_entity.html#abcaecd4b5bee6e19afbe97b6f2c327f7) ([ComponentType](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350b) componentType) |
+| void | [AddAllMeshesOfGameEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#a64a17f8fb8ac9384ca161ddf0b769780) (GameEntity gameEntity) |
+| void | [SetFrameChanged](class_tale_worlds_1_1_engine_1_1_game_entity.html#a393d21258d3d3e8595f89f96ed95ad73) () |
+| [GameEntityComponent](class_tale_worlds_1_1_engine_1_1_game_entity_component.html) | [GetComponentAtIndex](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8f2569a8f5c288def33f99e67388ced0) (int index, [ComponentType](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350b) componentType) |
+| [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | [GetMetaMesh](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab3194080f9181e2d736364375e6d87ad) (int metaMeshIndex) |
+| [ClothSimulatorComponent](class_tale_worlds_1_1_engine_1_1_cloth_simulator_component.html) | [GetClothSimulator](class_tale_worlds_1_1_engine_1_1_game_entity.html#a60b37ac4a15a52f38a75da73047b02df) (int clothSimulatorIndex) |
+| void | [SetVectorArgument](class_tale_worlds_1_1_engine_1_1_game_entity.html#adc1783428f7e1b9a9056f3a0504678e2) (float vectorArgument0, float vectorArgument1, float vectorArgument2, float vectorArgument3) |
+| void | [SetMaterialForAllMeshes](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa9bcd3ebd9f557214e1860987dc4fcd7) ([Material](class_tale_worlds_1_1_engine_1_1_material.html) material) |
+| bool | [AddLight](class_tale_worlds_1_1_engine_1_1_game_entity.html#af756c13dba5834dfb1ab9c3f19d60503) ([Light](class_tale_worlds_1_1_engine_1_1_light.html) light) |
+| [Light](class_tale_worlds_1_1_engine_1_1_light.html) | [GetLight](class_tale_worlds_1_1_engine_1_1_game_entity.html#a510eec3f3f36360808de6bfe542edd9b) () |
+| void | [AddParticleSystemComponent](class_tale_worlds_1_1_engine_1_1_game_entity.html#a733a1de4f6fd96935ffa348f32d405a5) (string particleid) |
+| void | [RemoveAllParticleSystems](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa6a34f10a93e00c4db979599b9d26ffc) () |
+| bool | [CheckPointWithOrientedBoundingBox](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5ad94b41dead73034a5998695f8c89d5) ([Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) point) |
+| void | [PauseParticleSystem](class_tale_worlds_1_1_engine_1_1_game_entity.html#a103b7b4a43d679c6722a6d7616d743e1) (bool doChildren) |
+| void | [ResumeParticleSystem](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5a68ed73596cbb7342c619dc2f434816) (bool doChildren) |
+| void | [BurstEntityParticle](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa8f00cf2a048b8c73729653f1fd995c1) (bool doChildren) |
+| void | [SetRuntimeEmissionRateMultiplier](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3fc7cfc7446b18c808c9a4dc8e7f2de0) (float emissionRateMultiplier) |
+| [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) | [GetLocalBoundingBox](class_tale_worlds_1_1_engine_1_1_game_entity.html#a87eaeab3c3da618b01ee70f2c3048377) () |
+| [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) | [GetGlobalBoundingBox](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab647c45b964e2eff9265e06573f38806) () |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [GetBoundingBoxMin](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7003286ab8e9c91e0f70d70dcdc00ee9) () |
+| void | [SetHasCustomBoundingBoxValidationSystem](class_tale_worlds_1_1_engine_1_1_game_entity.html#aeba77d7b7e779b3e10253230be558995) (bool hasCustomBoundingBox) |
+| void | [ValidateBoundingBox](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae68baae0106db1fb6786af751ac13fb3) () |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [GetBoundingBoxMax](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3b320fed90816ee5c728f7bb7c8862ca) () |
+| void | [UpdateGlobalBounds](class_tale_worlds_1_1_engine_1_1_game_entity.html#a546487f9ff1bf4fdf8083bcfa763bc1b) () |
+| void | [RecomputeBoundingBox](class_tale_worlds_1_1_engine_1_1_game_entity.html#acd93c2d89083afa9ab3e7ba0d616b522) () |
+| float | [GetBoundingBoxRadius](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad94cab4dfe2b4c0f18239130d7f604df) () |
+| void | [SetBoundingboxDirty](class_tale_worlds_1_1_engine_1_1_game_entity.html#a79f601c1c1364f820d394d98a8e9c2b9) () |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [ComputeGlobalPhysicsBoundingBoxMinMax](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6102403dfd335a2a57fd173c36c2fa2f) () |
+| void | [SetContourColor](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9c0cbb32fb833a0b9e9779cc179092a6) (uint? color, bool alwaysVisible=true) |
+| bool | [GetHasFrameChanged](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1bbc7898be8066ad8c0661937962440d) () |
+| [Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) | [GetFirstMesh](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7bf736c4b499c8a8824bacaecf7129e4) () |
+| int | [GetAttachedNavmeshFaceCount](class_tale_worlds_1_1_engine_1_1_game_entity.html#a82c4d5b0fadeb42a7bcaf6d0a75cec4a) () |
+| void | [GetAttachedNavmeshFaceRecords](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7cd97ed1553921de9fd8c03e6a71091c) ([PathFaceRecord](struct_tale_worlds_1_1_library_1_1_path_face_record.html)[] faceRecords) |
+| void | [SetExternalReferencesUsage](class_tale_worlds_1_1_engine_1_1_game_entity.html#aba3eaa65ff49b1c8d74d49a6842cf7ab) (bool value) |
+| void | [SetMorphFrameOfComponents](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae5f0de94fbaa8f66bcca7ea7872b5c70) (float value) |
+| void | [AddEditDataUserToAllMeshes](class_tale_worlds_1_1_engine_1_1_game_entity.html#a014a2c6a5036e8d01c9523f9b948b99c) (bool entityComponents, bool skeletonComponents) |
+| void | [ReleaseEditDataUserToAllMeshes](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab6c238656d967560999c85d23c316576) (bool entityComponents, bool skeletonComponents) |
+| void | [GetCameraParamsFromCameraScript](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3d45c772730e27ebc34ddbc28545ba40) ([Camera](class_tale_worlds_1_1_engine_1_1_camera.html) cam, ref [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) dofParams) |
+| void | [GetMeshBendedFrame](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab684aa8fbe552585fc75a9be0a711dfb) ([MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) worldSpacePosition, ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) output) |
+| void | [ComputeTrajectoryVolume](class_tale_worlds_1_1_engine_1_1_game_entity.html#aad5e7584f9d4667089441a3ed770d240) (float missileSpeed, float verticalAngleMaxInDegrees, float verticalAngleMinInDegrees, float horizontalAngleRangeInDegrees, float airFrictionConstant) |
+| void | [SetAnimTreeChannelParameterForceUpdate](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6b1c38dd124c981a4602de4f5104ab0a) (float phase, int channelNo) |
+| void | [ChangeMetaMeshOrRemoveItIfNotExists](class_tale_worlds_1_1_engine_1_1_game_entity.html#a28f64a1994ed06c93b429a65de42d69a) ([MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) entityMetaMesh, [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) newMetaMesh) |
+| void | [SetUpdateValidtyOnFrameChangedOfFacesWithId](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac469a8a11d50a08a6fc89af8fdcb1772) (int faceGroupId, bool updateValidity) |
+| void | [AttachNavigationMeshFaces](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7b92ddd13d0b97b1f888a286fd531a3c) (int faceGroupId, bool isConnected, bool isBlocker=false, bool autoLocalize=false, bool finalizeBlockerConvexHullComputation=false, bool updateEntityFrame=true) |
+| void | [DetachAllAttachedNavigationMeshFaces](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7890954bb87299d89af2c0aac5029dee) () |
+| void | [UpdateAttachedNavigationMeshFaces](class_tale_worlds_1_1_engine_1_1_game_entity.html#a995e8e3ad8a4620490ddbf56d1cb7790) () |
+| void | [RemoveSkeleton](class_tale_worlds_1_1_engine_1_1_game_entity.html#a144f9851e8f47ac6acfc7fccfd023b04) () |
+| void | [RemoveAllChildren](class_tale_worlds_1_1_engine_1_1_game_entity.html#a62591e122de79ae0ddaa4e402f76a247) () |
+| IEnumerable< GameEntity > | [GetChildren](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2fdb2861e2c241f50275b123dc6ded5e) () |
+| IEnumerable< GameEntity > | [GetEntityAndChildren](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2d3db33cfa6b4ec4a841c952e6725148) () |
+| void | [GetChildrenRecursive](class_tale_worlds_1_1_engine_1_1_game_entity.html#abfddfa50fe616f719154859aa5e2db95) (ref List< GameEntity > children) |
+| void | [GetChildrenWithTagRecursive](class_tale_worlds_1_1_engine_1_1_game_entity.html#a57d8e400862886ab4a4f825a34e5d4c9) (List< GameEntity > children, string tag) |
+| bool | [IsSelectedOnEditor](class_tale_worlds_1_1_engine_1_1_game_entity.html#ace9fe6bd563313322d621206f7891390) () |
+| void | [SelectEntityOnEditor](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7116e7b0caaca4c68550798c005e08bc) () |
+| void | [DeselectEntityOnEditor](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5dffa7f0117f0fdc1abb101c4b7a57dc) () |
+| void | [SetAsPredisplayEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#addfa518aa18492ebd54a52b9441b3f6c) () |
+| void | [RemoveFromPredisplayEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8ff582ffaa1d248c5549032cac8dd5a1) () |
+| void | [SetNativeScriptComponentVariable](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6960c4597bcd2e2ef65c10e72eb41b0) (string className, string fieldName, ref [ScriptComponentFieldHolder](struct_tale_worlds_1_1_engine_1_1_script_component_field_holder.html) data, [RglScriptFieldType](namespace_tale_worlds_1_1_engine.html#adf2b4fe3d75a4a2c03eaf8620c096933) variableType) |
+| void | [SetManualGlobalBoundingBox](class_tale_worlds_1_1_engine_1_1_game_entity.html#a0a2d308f64c1f0ed93d30f1b06804c88) ([Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) boundingBoxStartGlobal, [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) boundingBoxEndGlobal) |
+| bool | [RayHitEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#a296d258c91622d30289af01de7eec7a5) ([Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) rayOrigin, [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) rayDirection, float maxLength, ref float resultLength) |
+| bool | [RayHitEntityWithNormal](class_tale_worlds_1_1_engine_1_1_game_entity.html#a103aea7ce4885e7a14f4b899a0722c0d) ([Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) rayOrigin, [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) rayDirection, float maxLength, ref [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) resultNormal, ref float resultLength) |
+| void | [GetNativeScriptComponentVariable](class_tale_worlds_1_1_engine_1_1_game_entity.html#afbeede67f43e9148260c7996dba392f7) (string className, string fieldName, ref [ScriptComponentFieldHolder](struct_tale_worlds_1_1_engine_1_1_script_component_field_holder.html) data, [RglScriptFieldType](namespace_tale_worlds_1_1_engine.html#adf2b4fe3d75a4a2c03eaf8620c096933) variableType) |
+| void | [SetCustomClipPlane](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa761ce762d19086b612eb76d4c967618) ([Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) clipPosition, [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) clipNormal, bool setForChildren) |
+| float | [GetBoundingBoxLongestHalfDimension](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa2b4fae9bed8548366150e6f769e513f) () |
+| [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) | [ComputeBoundingBoxFromLongestHalfDimension](class_tale_worlds_1_1_engine_1_1_game_entity.html#a837f3503b2cbc7347aa449750e489801) (float longestHalfDimensionCoefficient) |
+| [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) | [ComputeBoundingBoxIncludeChildren](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9473f2e20fc5bf6a16d723091bb23d73) () |
+| void | [SetManualLocalBoundingBox](class_tale_worlds_1_1_engine_1_1_game_entity.html#adf42507cbf9ce9c6f3c37ab02ff53040) (in [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) boundingBox) |
+| void | [RelaxLocalBoundingBox](class_tale_worlds_1_1_engine_1_1_game_entity.html#a98f403acde42426991070a5f9644bd7d) (in [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) boundingBox) |
+| void | [SetCullMode](class_tale_worlds_1_1_engine_1_1_game_entity.html#a01ace18c9a49f9dec7a85e8791ab7236) ([MBMeshCullingMode](namespace_tale_worlds_1_1_engine.html#a8363ee42e6331c6a31ed88216accec29) cullMode) |
+| GameEntity | [GetFirstChildEntityWithTagRecursive](class_tale_worlds_1_1_engine_1_1_game_entity.html#afb07746ede4347a7e82fd4fe922e10a1) (string tag) |
+| override bool | [Equals](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac2cffc161dfc75a83954c83f6b75e059) (object obj) |
+| override int | [GetHashCode](class_tale_worlds_1_1_engine_1_1_game_entity.html#a31181be22614abae785bf9b6ddc9697b) () |
+| void | [SetDoNotCheckVisibility](class_tale_worlds_1_1_engine_1_1_game_entity.html#a562b58d7cdb8f01c8f2b566ec282ccbe) (bool value) |
+| void | [SetBoneFrameToAllMeshes](class_tale_worlds_1_1_engine_1_1_game_entity.html#a251a607a93019f1d083aff0503677677) (int boneIndex, in [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame) |
+| [Vec2](struct_tale_worlds_1_1_library_1_1_vec2.html) | [GetGlobalWindStrengthVectorOfScene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a37b64c0cc74c3e385599ee0d66d5b8a9) () |
+| [Vec2](struct_tale_worlds_1_1_library_1_1_vec2.html) | [GetGlobalWindVelocityOfScene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8b97f2617ba1ac3b065b3f7a6383dd1e) () |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [GetLastFinalRenderCameraPositionOfScene](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad2bd2f0c7db432c084a9a7c7361308d0) () |
+| void | [SetForceDecalsToRender](class_tale_worlds_1_1_engine_1_1_game_entity.html#a234c6c55501639c94db429245c641f81) (bool value) |
+| void | [SetForceNotAffectedBySeason](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3f0a8f62da8467f68781ccca60e1581b) (bool value) |
+| bool | [CheckIsPrefabLinkRootPrefab](class_tale_worlds_1_1_engine_1_1_game_entity.html#aefaf5eeae2b8bc33190c7b79955f268b) (int depth) |
+| void | [SetupAdditionalBoneBufferForMeshes](class_tale_worlds_1_1_engine_1_1_game_entity.html#a0dba9300e42fb4ad28303f287db4be47) (int boneCount) |
+| void | [DeleteEmptyShape](class_tale_worlds_1_1_engine_1_1_game_entity.html#a76d6f4c38e820472b61153bbab64d491) (UIntPtr shape1, UIntPtr shape2) |
+| UIntPtr | [CreateEmptyPhysxShape](class_tale_worlds_1_1_engine_1_1_game_entity.html#a54dee054ac61053513345e00f47d4026) (bool isVariable, int physxMaterialIndex) |
+| void | [SwapPhysxShapeInEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#a95591ff147845e00d43b701227080883) (UIntPtr oldShape, UIntPtr newShape, bool isVariable) |
+
+|  |  |
+| --- | --- |
+| Static Public Member Functions | |
+| static GameEntity | [CreateFromWeakEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#acc286c8158a8d5aecd1b0494cc6035b4) ([WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) weakEntity) |
+| static GameEntity | [CreateEmpty](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3cbef0931ba339d487214b128dbeef36) ([Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) scene, bool isModifiableFromEditor=true, bool createPhysics=true, bool callScriptCallbacks=true) |
+| static GameEntity | [CreateEmptyDynamic](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa5cf9eaa9012b31135fd214fce5c07a3) ([Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) scene, bool isModifiableFromEditor=true) |
+| static GameEntity | [CreateEmptyWithoutScene](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab463514681af07d2856622f8f28f37ed) () |
+| static GameEntity | [CopyFrom](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8d5f5b20f5d7de1a6f14e3401eaa9709) ([Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) scene, GameEntity entity, bool createPhysics=true, bool callScriptCallbacks=true) |
+| static GameEntity | [CopyFrom](class_tale_worlds_1_1_engine_1_1_game_entity.html#abe5432e83f2a1918bc1cc86ec8eb673d) ([Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) scene, [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) entity, bool createPhysics=true, bool callScriptCallbacks=true) |
+| static GameEntity | [Instantiate](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1661b9b5394055c93bcdc17a9461efab) ([Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) scene, string prefabName, bool callScriptCallbacks, bool createPhysics=true, string scriptInclusingTag="") |
+|  | Instantiates a new instance of [GameEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html "Game Entity class.") constructed from the given prefab. |
+| static GameEntity | [Instantiate](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac12989a270654e12b4be0c18ba5bf509) ([Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) scene, string prefabName, [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, bool callScriptCallbacks=true, string scriptInclusingTag="") |
+|  | Instantiates a new instance of [GameEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html "Game Entity class.") constructed from the given prefab. |
+| static bool | [PrefabExists](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae8beb9c5553d0ca69a12783070fd8eed) (string name) |
+| static GameEntity | [CopyFromPrefab](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad360508e0df0877d1fcb710bcb568fef) (GameEntity prefab) |
+| static GameEntity | [CopyFromPrefab](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6bc2be21c091999b1f7df756f31a83d7) ([WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) prefab) |
+| static bool | [operator==](class_tale_worlds_1_1_engine_1_1_game_entity.html#a0931c34f21e622d7f188f815697f8547) (GameEntity gameEntity, [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) weakGameEntity) |
+| static bool | [operator!=](class_tale_worlds_1_1_engine_1_1_game_entity.html#a99af6186244e3f22eab57bdf05c1c976) (GameEntity gameEntity, [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) weakGameEntity) |
+| static bool | [operator!=](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2d7373456e37dcbce50f56bf6695b1ec) (GameEntity gameEntity1, GameEntity gameEntity2) |
+| static bool | [operator==](class_tale_worlds_1_1_engine_1_1_game_entity.html#acefa961cc638ab598ec1193d3aeeb118) (GameEntity gameEntity1, GameEntity gameEntity2) |
+| static UIntPtr | [CreatePhysxCookingInstance](class_tale_worlds_1_1_engine_1_1_game_entity.html#a77055bba532fb95b2c39400f0ff2836b) () |
+| static void | [DeletePhysxCookingInstance](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad27b907ab964d8dc235eafaec3641732) (UIntPtr pointer) |
+| static void | [CookTrianglePhysxMesh](class_tale_worlds_1_1_engine_1_1_game_entity.html#aab955e8ec24ac71f53b602a8c8203c74) (UIntPtr cookingInstancePointer, UIntPtr shapePointer, UIntPtr quadPinnedPointer, int physicsMaterial, int numberOfVertices, UIntPtr indicesPinnedPointer, int numberOfIndices) |
+
+|  |  |
+| --- | --- |
+| Public Attributes | |
+|  | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) |
+
+|  |  |
+| --- | --- |
+| Properties | |
+| Scene | [Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) `[get]` |
+| [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | [WeakEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html#a50bca84d1a7fff31552bf86521262c61) `[get]` |
+| string | [Name](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6ab9b44538ee5aff797c431c088ba4db) `[get, set]` |
+| [EntityFlags](namespace_tale_worlds_1_1_engine.html#ac9a5b603c15afe87f8ec5f36d2e73285) | [EntityFlags](class_tale_worlds_1_1_engine_1_1_game_entity.html#a79bbe0a1879fc9aa24f54af5b5acacef) `[get, set]` |
+| [EntityVisibilityFlags](namespace_tale_worlds_1_1_engine.html#abd0987b9b449d071edb76504a2e737f8) | [EntityVisibilityFlags](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2d62b83e6cc02c7b7061869483ce7513) `[get, set]` |
+| [BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) | [BodyFlag](class_tale_worlds_1_1_engine_1_1_game_entity.html#a67baed282d5d84b6533950c3b3ae7abc) `[get, set]` |
+| [BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) | [PhysicsDescBodyFlag](class_tale_worlds_1_1_engine_1_1_game_entity.html#a505437aa94cdb8e2ac2c75cc183eb864) `[get]` |
+| float | [Mass](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6ac741d7516e3cb1dcd4ef027ea7624d) `[get]` |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [CenterOfMass](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5f87ed8d334418a4b39709499db1691a) `[get]` |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [GlobalPosition](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8f50049f2b626c62c33ee885e218d362) `[get]` |
+| string[] | [Tags](class_tale_worlds_1_1_engine_1_1_game_entity.html#a769de2e866fe5d02a254369e3d4430f1) `[get]` |
+|  | Gets the tags of the entity, which can only be set in the edit mode. |
+| int | [ChildCount](class_tale_worlds_1_1_engine_1_1_game_entity.html#aeb7a7231051bf9843c6f1f0c4d0770f4) `[get]` |
+| GameEntity | [Parent](class_tale_worlds_1_1_engine_1_1_game_entity.html#a63160206aded810011cf4dfcd51a6954) `[get]` |
+| GameEntity | [Root](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa289346d6ce671c01cc849a7c6b63125) `[get]` |
+|  | Gets the top most parent of this entity. |
+| int | [MultiMeshComponentCount](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9614aeefd971c77b992055fcce73af4a) `[get]` |
+| int | [ClothSimulatorComponentCount](class_tale_worlds_1_1_engine_1_1_game_entity.html#a58767c12c81e8b33394983b8ecff82d2) `[get]` |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [GlobalBoxMax](class_tale_worlds_1_1_engine_1_1_game_entity.html#a400e65bc9b18de4bf1788ac591e9def0) `[get]` |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | [GlobalBoxMin](class_tale_worlds_1_1_engine_1_1_game_entity.html#a17f0b6393af88a595418e95c44fa7f1c) `[get]` |
+| Skeleton | [Skeleton](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2dd345016af56427e6fa951920ea606d) `[get, set]` |
+
+Member Enumeration Documentation
+--------------------------------
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350b)ComponentType
+-----------------------------------------------------------------------------------------------------
+
+|  |
+| --- |
+| enum [TaleWorlds.Engine.GameEntity.ComponentType](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350b) : UInt32 |
+
+| Enumerator | |
+| --- | --- |
+| MetaMesh |  |
+| Light |  |
+| CompositeComponent |  |
+| ClothSimulator |  |
+| ParticleSystemInstanced |  |
+| TownIcon |  |
+| CustomType1 |  |
+| Decal |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792ed)Mobility
+------------------------------------------------------------------------------------------------
+
+|  |
+| --- |
+| enum [TaleWorlds.Engine.GameEntity.Mobility](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792ed) : sbyte |
+
+| Enumerator | |
+| --- | --- |
+| Stationary |  |
+| Dynamic |  |
+| DynamicForced |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768)UpgradeLevelMask
+--------------------------------------------------------------------------------------------------------
+
+|  |
+| --- |
+| enum [TaleWorlds.Engine.GameEntity.UpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768) |
+
+| Enumerator | |
+| --- | --- |
+| None |  |
+| Level0 |  |
+| Level1 |  |
+| Level2 |  |
+| Level3 |  |
+| LevelAll |  |
+
+Member Function Documentation
+-----------------------------
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#acc286c8158a8d5aecd1b0494cc6035b4)CreateFromWeakEntity()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.CreateFromWeakEntity | ( | [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | *weakEntity* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aba7b6b4ad6c0bf8f26bd843fce5bc258)GetScenePointer()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| UIntPtr TaleWorlds.Engine.GameEntity.GetScenePointer | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2a37edd7df1a68128707ec8a091768f8)ToString()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| override string TaleWorlds.Engine.GameEntity.ToString | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad5f8596f059db4de8d25a5c721d12df5)ClearEntityComponents()
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ClearEntityComponents | ( | bool | *resetAll*, |
+|  |  | bool | *removeScripts*, |
+|  |  | bool | *deleteChildEntities* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8c4c7e63f0fc47daf53402de2d1b4ffe)ClearComponents()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ClearComponents | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a258c286473f6c3022e3a0125e608cd84)ClearOnlyOwnComponents()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ClearOnlyOwnComponents | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aabfd7b3f49482f1f6228919faa33db72)CheckResources()
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.CheckResources | ( | bool | *addToQueue*, |
+|  |  | bool | *checkFaceResources* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7548ce71f821e71cddf0aadf94dd021b)SetMobility()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetMobility | ( | [Mobility](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792ed) | *mobility* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac4e6cbd01bd3e00604d1373f15c5298d)GetMobility()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Mobility](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae93c67956cedcdb3da1cb8776e7792ed) TaleWorlds.Engine.GameEntity.GetMobility | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ace6168b8846cb8c6420f0a92cd784714)AddMesh()
+-------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddMesh | ( | [Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) | *mesh*, |
+|  |  | bool | *recomputeBoundingBox* = true ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1b9e4ce3bd0bde493d2ef35ba612869f)AddMultiMeshToSkeleton()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddMultiMeshToSkeleton | ( | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *metaMesh* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#acb973437fec2457ff020171e27e35548)AddMultiMeshToSkeletonBone()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddMultiMeshToSkeletonBone | ( | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *metaMesh*, |
+|  |  | sbyte | *boneIndex* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a26f70da845ac64a5b4edcf37decb6687)SetColorToAllMeshesWithTagRecursive()
+-----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetColorToAllMeshesWithTagRecursive | ( | uint | *color*, |
+|  |  | string | *tag* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#add0783964305256e1ce516ea72a162e5)GetAllMeshesWithTag()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| IEnumerable< [Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) > TaleWorlds.Engine.GameEntity.GetAllMeshesWithTag | ( | string | *tag* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aaa59ff52696905026218d6062e35a88b)SetColor()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetColor | ( | uint | *color1*, |
+|  |  | uint | *color2*, |
+|  |  | string | *meshTag* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9ede4500170fa81cae5980c361bfc4f9)GetFactorColor()
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| uint TaleWorlds.Engine.GameEntity.GetFactorColor | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab5d1b1332438475eae26bb46365a50f8)SetFactorColor()
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetFactorColor | ( | uint | *color* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#abd39226002b739937697cf94b8d393a1)SetAsReplayEntity()
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetAsReplayEntity | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac88b44faf50ebaccda02bc91bc4223fc)SetClothMaxDistanceMultiplier()
+-----------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetClothMaxDistanceMultiplier | ( | float | *multiplier* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a4528a3e0a53e70cedacbfe893bf54b1f)RemoveMultiMeshFromSkeleton()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveMultiMeshFromSkeleton | ( | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *metaMesh* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a119deeb23343cd148742cf97b9907a86)RemoveMultiMeshFromSkeletonBone()
+-------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveMultiMeshFromSkeletonBone | ( | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *metaMesh*, |
+|  |  | sbyte | *boneIndex* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1ac014991581d2e3d22027843296e643)RemoveComponentWithMesh()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.RemoveComponentWithMesh | ( | [Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) | *mesh* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a4b3d1630f38f699bcbdf35a736df17bf)AddComponent()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddComponent | ( | [GameEntityComponent](class_tale_worlds_1_1_engine_1_1_game_entity_component.html) | *component* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1ba5ffb4c529444de4d0a1a8344fe28d)HasComponent()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.HasComponent | ( | [GameEntityComponent](class_tale_worlds_1_1_engine_1_1_game_entity_component.html) | *component* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a28cfbf1a9f58631e1bc8fc4cd107c228)IsInEditorScene()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.IsInEditorScene | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8b4c4a4ee521806b1739329f08b77e1a)RemoveComponent()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.RemoveComponent | ( | [GameEntityComponent](class_tale_worlds_1_1_engine_1_1_game_entity_component.html) | *component* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a981c6f0a824ab6edd75e2fc334a42c63)GetGuid()
+-------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| string TaleWorlds.Engine.GameEntity.GetGuid | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a4b6a265a34f6ebd6fbcfd6cbf9848a3e)IsGuidValid()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.IsGuidValid | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a58829f46bb9879ffc762cbbf1117d4ab)SetEnforcedMaximumLodLevel()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetEnforcedMaximumLodLevel | ( | int | *lodLevel* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aadd11d6c259abc867fed6c5224cf3517)GetLodLevelForDistanceSq()
+------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| float TaleWorlds.Engine.GameEntity.GetLodLevelForDistanceSq | ( | float | *distSq* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2ee0c18f98bfb138db3537f7aa750e1f)GetQuickBoneEntitialFrame()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.GetQuickBoneEntitialFrame | ( | sbyte | *index*, |
+|  |  | out [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *frame* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a60c7d2b5b6f9280d27c5552a38beeac3)UpdateVisibilityMask()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.UpdateVisibilityMask | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3cbef0931ba339d487214b128dbeef36)CreateEmpty()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.CreateEmpty | ( | [Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) | *scene*, | |  |  | bool | *isModifiableFromEditor* = true, | |  |  | bool | *createPhysics* = true, | |  |  | bool | *callScriptCallbacks* = true ) | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa5cf9eaa9012b31135fd214fce5c07a3)CreateEmptyDynamic()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.CreateEmptyDynamic | ( | [Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) | *scene*, | |  |  | bool | *isModifiableFromEditor* = true ) | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab463514681af07d2856622f8f28f37ed)CreateEmptyWithoutScene()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.CreateEmptyWithoutScene | ( |  | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8d5f5b20f5d7de1a6f14e3401eaa9709)CopyFrom() [1/2]
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.CopyFrom | ( | [Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) | *scene*, | |  |  | GameEntity | *entity*, | |  |  | bool | *createPhysics* = true, | |  |  | bool | *callScriptCallbacks* = true ) | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#abe5432e83f2a1918bc1cc86ec8eb673d)CopyFrom() [2/2]
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.CopyFrom | ( | [Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) | *scene*, | |  |  | [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | *entity*, | |  |  | bool | *createPhysics* = true, | |  |  | bool | *callScriptCallbacks* = true ) | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1661b9b5394055c93bcdc17a9461efab)Instantiate() [1/2]
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.Instantiate | ( | [Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) | *scene*, | |  |  | string | *prefabName*, | |  |  | bool | *callScriptCallbacks*, | |  |  | bool | *createPhysics* = true, | |  |  | string | *scriptInclusingTag* = "" ) | | static |
+
+Parameters
+:   |  |  |
+    | --- | --- |
+    | prefabName | Name of the prefab |
+
+Returns
+:   The newly created Game Entity
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a77596eec377f200636fb807518f8db64)CallScriptCallbacks()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.CallScriptCallbacks | ( | bool | *registerScriptComponents* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac12989a270654e12b4be0c18ba5bf509)Instantiate() [2/2]
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.Instantiate | ( | [Scene](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151) | *scene*, | |  |  | string | *prefabName*, | |  |  | [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *frame*, | |  |  | bool | *callScriptCallbacks* = true, | |  |  | string | *scriptInclusingTag* = "" ) | | static |
+
+Parameters
+:   |  |  |
+    | --- | --- |
+    | prefabName | Name of the prefab |
+    | frame | Initial frame of created entity |
+
+Returns
+:   The newly created Game Entity
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2b8477c9beecd03b05c18367ab08778f)IsGhostObject()
+-------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.IsGhostObject | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#addf6abc8e234f836ceb2a1879f47ee2e)CreateAndAddScriptComponent()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.CreateAndAddScriptComponent | ( | string | *name*, |
+|  |  | bool | *callScriptCallbacks* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae8beb9c5553d0ca69a12783070fd8eed)PrefabExists()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | bool TaleWorlds.Engine.GameEntity.PrefabExists | ( | string | *name* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a382eb10d6028bca5f108e139a7fabc24)RemoveScriptComponent()
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveScriptComponent | ( | UIntPtr | *scriptComponent*, |
+|  |  | int | *removeReason* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#adbd083fccc5073fd399135efe750fc5c)SetEntityEnvMapVisibility()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetEntityEnvMapVisibility | ( | bool | *value* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae00c54d449d0080fca0352bf2cc525fc)HasScene()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.HasScene | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7d7094446674bfa05bbda1138a842a67)HasScriptComponent()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.HasScriptComponent | ( | string | *scName* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a25326d4ceff3f9b5aeaf53515d54d026)GetScriptComponents()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| IEnumerable< [ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html) > TaleWorlds.Engine.GameEntity.GetScriptComponents | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a884dd571559f37cc1dac0022fb80cf90)GetScriptComponents< T >()
+------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| IEnumerable< T > [TaleWorlds.Engine.GameEntity.GetScriptComponents](class_tale_worlds_1_1_engine_1_1_game_entity.html#a25326d4ceff3f9b5aeaf53515d54d026)< T > | ( |  | ) |  |
+
+**Type Constraints**
+:   |  |  |  |  |
+    | --- | --- | --- | --- |
+    | *T* | : | *[ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html)* |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a0e24bbcbe859ad00858fd88851eb3ac4)HasScriptOfType< T >()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool [TaleWorlds.Engine.GameEntity.HasScriptOfType](class_tale_worlds_1_1_engine_1_1_game_entity.html#aacd2890b1d48cb7da68599140dfd1d7e)< T > | ( |  | ) |  |
+
+**Type Constraints**
+:   |  |  |  |  |
+    | --- | --- | --- | --- |
+    | *T* | : | *[ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html)* |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac51fb5ea396bfe48a7b7d683c40e24c6)GetFirstChildEntityWithTag()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| GameEntity TaleWorlds.Engine.GameEntity.GetFirstChildEntityWithTag | ( | string | *tag* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aacd2890b1d48cb7da68599140dfd1d7e)HasScriptOfType()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.HasScriptOfType | ( | Type | *t* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a103b19aa8505ed94183c9dfb4e85f972)GetFirstScriptOfTypeInFamily< T >()
+---------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| T TaleWorlds.Engine.GameEntity.GetFirstScriptOfTypeInFamily< T > | ( |  | ) |  |
+
+**Type Constraints**
+:   |  |  |  |  |
+    | --- | --- | --- | --- |
+    | *T* | : | *[ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html)* |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a91e2b6a97a06e0fdbe3ac4a5cb05ae37)GetFirstScriptOfType< T >()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| T TaleWorlds.Engine.GameEntity.GetFirstScriptOfType< T > | ( |  | ) |  |
+
+**Type Constraints**
+:   |  |  |  |  |
+    | --- | --- | --- | --- |
+    | *T* | : | *[ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html)* |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aacfe0257b47ee37e262ef1f4ebfb58ec)GetFirstScriptOfTypeRecursive< T >()
+----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| T TaleWorlds.Engine.GameEntity.GetFirstScriptOfTypeRecursive< T > | ( |  | ) |  |
+
+**Type Constraints**
+:   |  |  |  |  |
+    | --- | --- | --- | --- |
+    | *T* | : | *[ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html)* |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a64386519f0ef124168a9495e6a4c79b8)GetScriptCountOfTypeRecursive< T >()
+----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| int TaleWorlds.Engine.GameEntity.GetScriptCountOfTypeRecursive< T > | ( |  | ) |  |
+
+**Type Constraints**
+:   |  |  |  |  |
+    | --- | --- | --- | --- |
+    | *T* | : | *[ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html)* |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aca6f4f22a1f8da4d616f7239e129c3e8)SetAlpha()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetAlpha | ( | float | *alpha* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a40657d40f3ff3b434abe68250f83e5b8)SetVisibilityExcludeParents()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetVisibilityExcludeParents | ( | bool | *visible* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#afd32f856f94409638e3a3af3f870551d)SetReadyToRender()
+----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetReadyToRender | ( | bool | *ready* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#afc50909130d51a7a2b81670347e17c70)GetVisibilityExcludeParents()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.GetVisibilityExcludeParents | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a346ac0674b9e4c039d12a00c2da8aab9)IsVisibleIncludeParents()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.IsVisibleIncludeParents | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a04e0414986dc28bb9dcf5dbc23a9f2ff)GetVisibilityLevelMaskIncludingParents()
+--------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| UInt32 TaleWorlds.Engine.GameEntity.GetVisibilityLevelMaskIncludingParents | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac4275b7a0497d9c31697da3b830a677b)GetEditModeLevelVisibility()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.GetEditModeLevelVisibility | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae8e656f37084cb640c2d974e0e0ab5cb)Remove()
+------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.Remove | ( | int | *removeReason* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad360508e0df0877d1fcb710bcb568fef)CopyFromPrefab() [1/2]
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.CopyFromPrefab | ( | GameEntity | *prefab* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6bc2be21c091999b1f7df756f31a83d7)CopyFromPrefab() [2/2]
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | GameEntity TaleWorlds.Engine.GameEntity.CopyFromPrefab | ( | [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | *prefab* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a060f6e47041a0a722fd36b9c6dde9aea)SetUpgradeLevelMask()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetUpgradeLevelMask | ( | [UpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768) | *mask* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae2b3bcb1b576f74f0a6ae6233f05fb7f)GetUpgradeLevelMask()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [UpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768) TaleWorlds.Engine.GameEntity.GetUpgradeLevelMask | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a185bbbb5f697b68775e385e32054ec4b)GetUpgradeLevelMaskCumulative()
+-----------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [UpgradeLevelMask](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3982fe736aa4855ea8106d6d16348768) TaleWorlds.Engine.GameEntity.GetUpgradeLevelMaskCumulative | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#abffc65944cb06af340ca1b9aed02d037)GetUpgradeLevelOfEntity()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| int TaleWorlds.Engine.GameEntity.GetUpgradeLevelOfEntity | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a830856b7591da281fd2ea526a4ab4875)GetOldPrefabName()
+----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| string TaleWorlds.Engine.GameEntity.GetOldPrefabName | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a67c53a3668834963a7c5b8cf32f59edb)GetPrefabName()
+-------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| string TaleWorlds.Engine.GameEntity.GetPrefabName | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aac27561087cfe06c9de6fe79ae961487)CopyScriptComponentFromAnotherEntity()
+------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.CopyScriptComponentFromAnotherEntity | ( | GameEntity | *otherEntity*, |
+|  |  | string | *scriptName* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac2bf4de924f9c341c9966d1897d23e4c)SetFrame()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetFrame | ( | ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *frame*, |
+|  |  | bool | *isTeleportation* = true ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6980379473f5c6e57813cfea05acfb5f)SetLocalFrame()
+-------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetLocalFrame | ( | ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *frame*, |
+|  |  | bool | *isTeleportation* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aba43a9ff95dbf4c6fca2d995da6de8dd)SetClothComponentKeepState()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetClothComponentKeepState | ( | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *metaMesh*, |
+|  |  | bool | *state* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a376eb035c877357827e15539dfbd6274)SetClothComponentKeepStateOfAllMeshes()
+-------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetClothComponentKeepStateOfAllMeshes | ( | bool | *state* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a415327bc45e833c5af178f80e02320ba)SetPreviousFrameInvalid()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetPreviousFrameInvalid | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac0553d2d65bb87e799b97317fe25159e)GetFrame()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetFrame | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a409314e41a2799d3d1fe3f9b5e78cbb6)GetLocalFrame() [1/2]
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.GetLocalFrame | ( | out [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *frame* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#accd23ccaaac5a53445b8db0e03b23c7a)GetLocalFrame() [2/2]
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetLocalFrame | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a312dd3bbd40996c69f9734533f0a6de8)GetGlobalFrame()
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetGlobalFrame | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa0bf3982a2df0f72e617e03b238d1320)GetGlobalFrameImpreciseForFixedTick()
+-----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetGlobalFrameImpreciseForFixedTick | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab2357154f041ed673fcab798c8ea390c)ComputePreciseGlobalFrameForFixedTickSlow()
+-----------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.ComputePreciseGlobalFrameForFixedTickSlow | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8f1a21ceaef7361cfa0ccead5cf1cb0a)SetGlobalFrame()
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetGlobalFrame | ( | in [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *frame*, |
+|  |  | bool | *isTeleportation* = true ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1801cd6c0edf1d4ee40590e2670590fa)GetPreviousGlobalFrame()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetPreviousGlobalFrame | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2bc9d7ed247f09a31839a4fec927e09a)GetBodyWorldTransform()
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetBodyWorldTransform | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a720b5845c5aa0393d705b0f613ad6ad5)GetBodyVisualWorldTransform()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetBodyVisualWorldTransform | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a63b855c07e8fb31ec0410e105793cad9)SetLocalPosition()
+----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetLocalPosition | ( | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *position* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a246c5d3ef36ae8348588f4e7f533bafb)UpdateTriadFrameForEditor()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.UpdateTriadFrameForEditor | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8b904e0fc66745088985935c5f4b3275)UpdateTriadFrameForEditorForAllChildren()
+---------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.UpdateTriadFrameForEditorForAllChildren | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aae59e98b67aef136240332b8fa471a59)GetPhysicsMaterial()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [PhysicsMaterial](struct_tale_worlds_1_1_engine_1_1_physics_material.html) TaleWorlds.Engine.GameEntity.GetPhysicsMaterial | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab0473e9cc3bd834a02ff96531ffb40d9)SetBodyFlags()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetBodyFlags | ( | [BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) | *bodyFlags* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa87449599b54b6ee3d0332c600a895e6)SetBodyFlagsRecursive()
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetBodyFlagsRecursive | ( | [BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) | *bodyFlags* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2b3d95df850138a203b7bc0a488aa89a)AddBodyFlags()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddBodyFlags | ( | [BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) | *bodyFlags*, |
+|  |  | bool | *applyToChildren* = true ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aeb47242a0c6585ca693b43a508760027)RemoveBodyFlags()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveBodyFlags | ( | [BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) | *bodyFlags*, |
+|  |  | bool | *applyToChildren* = true ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#acc93323fc7df6fe613f27e81ab386cf0)GetGlobalScale()
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.GetGlobalScale | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8d1b5e24ff1309dd93be0c3c2f3e7898)GetLocalScale()
+-------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.GetLocalScale | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#accdaea34f7cca99246f8bf462f521449)SetAnimationSoundActivation()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetAnimationSoundActivation | ( | bool | *activate* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac3bccfbb9b5cb2303b98a4dde37b28e4)CopyComponentsToSkeleton()
+------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.CopyComponentsToSkeleton | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8c6ee3c86f7e84f49dce4b524d8a7e3c)AddMeshToBone()
+-------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddMeshToBone | ( | sbyte | *boneIndex*, |
+|  |  | [Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) | *mesh* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5b9891fd5a95f52be83b8ecc28b79f9d)ActivateRagdoll()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ActivateRagdoll | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa1c9788d6114f74c109ea7cce8bf9b98)PauseSkeletonAnimation()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.PauseSkeletonAnimation | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9e13708ec1e0b7dd674ec5b70da7b164)ResumeSkeletonAnimation()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ResumeSkeletonAnimation | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a4d7066c72872c0057fe281f43fde5e12)IsSkeletonAnimationPaused()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.IsSkeletonAnimationPaused | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a45abed477a58827d5f588cdcfe702474)GetBoneCount()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| sbyte TaleWorlds.Engine.GameEntity.GetBoneCount | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2a2cc2134b83075d99f5070a96e7cfaa)GetWaterLevelAtPosition()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| float TaleWorlds.Engine.GameEntity.GetWaterLevelAtPosition | ( | [Vec2](struct_tale_worlds_1_1_library_1_1_vec2.html) | *position*, |
+|  |  | bool | *useWaterRenderer*, |
+|  |  | bool | *checkWaterBodyEntities* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a20e997989f939ed88365f88f0e52ea37)GetBoneEntitialFrameWithIndex()
+-----------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetBoneEntitialFrameWithIndex | ( | sbyte | *boneIndex* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8d54ea00352e341eaa9ec731e1575765)GetBoneEntitialFrameWithName()
+----------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) TaleWorlds.Engine.GameEntity.GetBoneEntitialFrameWithName | ( | string | *boneName* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#addadebeda8e42e62e9f5b0bd37ed2d32)AddTag()
+------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddTag | ( | string | *tag* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a69d73bd65c585dbaa574aa4120e94ce0)RemoveTag()
+---------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveTag | ( | string | *tag* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6a3e6425ec6b02d50c6e83a91acfad0)HasTag()
+------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.HasTag | ( | string | *tag* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#acb10f5c8239056a675c5222511378100)AddChild()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddChild | ( | GameEntity | *gameEntity*, |
+|  |  | bool | *autoLocalizeFrame* = false ) |
+
+Parameters
+:   |  |  |
+    | --- | --- |
+    | [GameEntity](class_tale_worlds_1_1_engine_1_1_game_entity.html "Game Entity class.") | The entity to be added. |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8f1e728967b2da4ee4e89ef9cd9e91d2)RemoveChild()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveChild | ( | GameEntity | *childEntity*, |
+|  |  | bool | *keepPhysics*, |
+|  |  | bool | *keepScenePointer*, |
+|  |  | bool | *callScriptCallbacks*, |
+|  |  | int | *removeReason* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a379638fa71141a6323862e05f0a648ea)BreakPrefab()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.BreakPrefab | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a15e164455ca04b560809ed9addfa7d3c)GetChild()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| GameEntity TaleWorlds.Engine.GameEntity.GetChild | ( | int | *index* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a98a259c75272e8b716988ad13843e4ef)HasComplexAnimTree()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.HasComplexAnimTree | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9d63ff2da7654bee4c08a1371caaa651)AddMultiMesh()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddMultiMesh | ( | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *metaMesh*, |
+|  |  | bool | *updateVisMask* = true ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9bd21ea049d45461058fc2ca99611060)RemoveMultiMesh()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.RemoveMultiMesh | ( | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *metaMesh* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#abcaecd4b5bee6e19afbe97b6f2c327f7)GetComponentCount()
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| int TaleWorlds.Engine.GameEntity.GetComponentCount | ( | [ComponentType](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350b) | *componentType* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a64a17f8fb8ac9384ca161ddf0b769780)AddAllMeshesOfGameEntity()
+------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddAllMeshesOfGameEntity | ( | GameEntity | *gameEntity* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a393d21258d3d3e8595f89f96ed95ad73)SetFrameChanged()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetFrameChanged | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8f2569a8f5c288def33f99e67388ced0)GetComponentAtIndex()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| [GameEntityComponent](class_tale_worlds_1_1_engine_1_1_game_entity_component.html) TaleWorlds.Engine.GameEntity.GetComponentAtIndex | ( | int | *index*, |
+|  |  | [ComponentType](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6f57c8912eaaf5a59c14ec2f153350b) | *componentType* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab3194080f9181e2d736364375e6d87ad)GetMetaMesh()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) TaleWorlds.Engine.GameEntity.GetMetaMesh | ( | int | *metaMeshIndex* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a60b37ac4a15a52f38a75da73047b02df)GetClothSimulator()
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [ClothSimulatorComponent](class_tale_worlds_1_1_engine_1_1_cloth_simulator_component.html) TaleWorlds.Engine.GameEntity.GetClothSimulator | ( | int | *clothSimulatorIndex* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#adc1783428f7e1b9a9056f3a0504678e2)SetVectorArgument()
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetVectorArgument | ( | float | *vectorArgument0*, |
+|  |  | float | *vectorArgument1*, |
+|  |  | float | *vectorArgument2*, |
+|  |  | float | *vectorArgument3* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa9bcd3ebd9f557214e1860987dc4fcd7)SetMaterialForAllMeshes()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetMaterialForAllMeshes | ( | [Material](class_tale_worlds_1_1_engine_1_1_material.html) | *material* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#af756c13dba5834dfb1ab9c3f19d60503)AddLight()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.AddLight | ( | [Light](class_tale_worlds_1_1_engine_1_1_light.html) | *light* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a510eec3f3f36360808de6bfe542edd9b)GetLight()
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Light](class_tale_worlds_1_1_engine_1_1_light.html) TaleWorlds.Engine.GameEntity.GetLight | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a733a1de4f6fd96935ffa348f32d405a5)AddParticleSystemComponent()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddParticleSystemComponent | ( | string | *particleid* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa6a34f10a93e00c4db979599b9d26ffc)RemoveAllParticleSystems()
+------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveAllParticleSystems | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5ad94b41dead73034a5998695f8c89d5)CheckPointWithOrientedBoundingBox()
+---------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.CheckPointWithOrientedBoundingBox | ( | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *point* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a103b7b4a43d679c6722a6d7616d743e1)PauseParticleSystem()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.PauseParticleSystem | ( | bool | *doChildren* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5a68ed73596cbb7342c619dc2f434816)ResumeParticleSystem()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ResumeParticleSystem | ( | bool | *doChildren* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa8f00cf2a048b8c73729653f1fd995c1)BurstEntityParticle()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.BurstEntityParticle | ( | bool | *doChildren* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3fc7cfc7446b18c808c9a4dc8e7f2de0)SetRuntimeEmissionRateMultiplier()
+--------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetRuntimeEmissionRateMultiplier | ( | float | *emissionRateMultiplier* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a87eaeab3c3da618b01ee70f2c3048377)GetLocalBoundingBox()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) TaleWorlds.Engine.GameEntity.GetLocalBoundingBox | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab647c45b964e2eff9265e06573f38806)GetGlobalBoundingBox()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) TaleWorlds.Engine.GameEntity.GetGlobalBoundingBox | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7003286ab8e9c91e0f70d70dcdc00ee9)GetBoundingBoxMin()
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.GetBoundingBoxMin | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aeba77d7b7e779b3e10253230be558995)SetHasCustomBoundingBoxValidationSystem()
+---------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetHasCustomBoundingBoxValidationSystem | ( | bool | *hasCustomBoundingBox* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae68baae0106db1fb6786af751ac13fb3)ValidateBoundingBox()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ValidateBoundingBox | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3b320fed90816ee5c728f7bb7c8862ca)GetBoundingBoxMax()
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.GetBoundingBoxMax | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a546487f9ff1bf4fdf8083bcfa763bc1b)UpdateGlobalBounds()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.UpdateGlobalBounds | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#acd93c2d89083afa9ab3e7ba0d616b522)RecomputeBoundingBox()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RecomputeBoundingBox | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad94cab4dfe2b4c0f18239130d7f604df)GetBoundingBoxRadius()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| float TaleWorlds.Engine.GameEntity.GetBoundingBoxRadius | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a79f601c1c1364f820d394d98a8e9c2b9)SetBoundingboxDirty()
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetBoundingboxDirty | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6102403dfd335a2a57fd173c36c2fa2f)ComputeGlobalPhysicsBoundingBoxMinMax()
+-------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.ComputeGlobalPhysicsBoundingBoxMinMax | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9c0cbb32fb833a0b9e9779cc179092a6)SetContourColor()
+---------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetContourColor | ( | uint? | *color*, |
+|  |  | bool | *alwaysVisible* = true ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a1bbc7898be8066ad8c0661937962440d)GetHasFrameChanged()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.GetHasFrameChanged | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7bf736c4b499c8a8824bacaecf7129e4)GetFirstMesh()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Mesh](class_tale_worlds_1_1_engine_1_1_mesh.html) TaleWorlds.Engine.GameEntity.GetFirstMesh | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a82c4d5b0fadeb42a7bcaf6d0a75cec4a)GetAttachedNavmeshFaceCount()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| int TaleWorlds.Engine.GameEntity.GetAttachedNavmeshFaceCount | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7cd97ed1553921de9fd8c03e6a71091c)GetAttachedNavmeshFaceRecords()
+-----------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.GetAttachedNavmeshFaceRecords | ( | [PathFaceRecord](struct_tale_worlds_1_1_library_1_1_path_face_record.html)[] | *faceRecords* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aba3eaa65ff49b1c8d74d49a6842cf7ab)SetExternalReferencesUsage()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetExternalReferencesUsage | ( | bool | *value* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ae5f0de94fbaa8f66bcca7ea7872b5c70)SetMorphFrameOfComponents()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetMorphFrameOfComponents | ( | float | *value* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a014a2c6a5036e8d01c9523f9b948b99c)AddEditDataUserToAllMeshes()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AddEditDataUserToAllMeshes | ( | bool | *entityComponents*, |
+|  |  | bool | *skeletonComponents* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab6c238656d967560999c85d23c316576)ReleaseEditDataUserToAllMeshes()
+------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ReleaseEditDataUserToAllMeshes | ( | bool | *entityComponents*, |
+|  |  | bool | *skeletonComponents* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3d45c772730e27ebc34ddbc28545ba40)GetCameraParamsFromCameraScript()
+-------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.GetCameraParamsFromCameraScript | ( | [Camera](class_tale_worlds_1_1_engine_1_1_camera.html) | *cam*, |
+|  |  | ref [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *dofParams* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ab684aa8fbe552585fc75a9be0a711dfb)GetMeshBendedFrame()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.GetMeshBendedFrame | ( | [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *worldSpacePosition*, |
+|  |  | ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *output* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aad5e7584f9d4667089441a3ed770d240)ComputeTrajectoryVolume()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ComputeTrajectoryVolume | ( | float | *missileSpeed*, |
+|  |  | float | *verticalAngleMaxInDegrees*, |
+|  |  | float | *verticalAngleMinInDegrees*, |
+|  |  | float | *horizontalAngleRangeInDegrees*, |
+|  |  | float | *airFrictionConstant* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6b1c38dd124c981a4602de4f5104ab0a)SetAnimTreeChannelParameterForceUpdate()
+--------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetAnimTreeChannelParameterForceUpdate | ( | float | *phase*, |
+|  |  | int | *channelNo* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a28f64a1994ed06c93b429a65de42d69a)ChangeMetaMeshOrRemoveItIfNotExists()
+-----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.ChangeMetaMeshOrRemoveItIfNotExists | ( | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *entityMetaMesh*, |
+|  |  | [MetaMesh](class_tale_worlds_1_1_engine_1_1_meta_mesh.html) | *newMetaMesh* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac469a8a11d50a08a6fc89af8fdcb1772)SetUpdateValidtyOnFrameChangedOfFacesWithId()
+-------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetUpdateValidtyOnFrameChangedOfFacesWithId | ( | int | *faceGroupId*, |
+|  |  | bool | *updateValidity* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7b92ddd13d0b97b1f888a286fd531a3c)AttachNavigationMeshFaces()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.AttachNavigationMeshFaces | ( | int | *faceGroupId*, |
+|  |  | bool | *isConnected*, |
+|  |  | bool | *isBlocker* = false, |
+|  |  | bool | *autoLocalize* = false, |
+|  |  | bool | *finalizeBlockerConvexHullComputation* = false, |
+|  |  | bool | *updateEntityFrame* = true ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7890954bb87299d89af2c0aac5029dee)DetachAllAttachedNavigationMeshFaces()
+------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.DetachAllAttachedNavigationMeshFaces | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a995e8e3ad8a4620490ddbf56d1cb7790)UpdateAttachedNavigationMeshFaces()
+---------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.UpdateAttachedNavigationMeshFaces | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a144f9851e8f47ac6acfc7fccfd023b04)RemoveSkeleton()
+--------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveSkeleton | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a62591e122de79ae0ddaa4e402f76a247)RemoveAllChildren()
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveAllChildren | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2fdb2861e2c241f50275b123dc6ded5e)GetChildren()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| IEnumerable< GameEntity > TaleWorlds.Engine.GameEntity.GetChildren | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2d3db33cfa6b4ec4a841c952e6725148)GetEntityAndChildren()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| IEnumerable< GameEntity > TaleWorlds.Engine.GameEntity.GetEntityAndChildren | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#abfddfa50fe616f719154859aa5e2db95)GetChildrenRecursive()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.GetChildrenRecursive | ( | ref List< GameEntity > | *children* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a57d8e400862886ab4a4f825a34e5d4c9)GetChildrenWithTagRecursive()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.GetChildrenWithTagRecursive | ( | List< GameEntity > | *children*, |
+|  |  | string | *tag* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ace9fe6bd563313322d621206f7891390)IsSelectedOnEditor()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.IsSelectedOnEditor | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a7116e7b0caaca4c68550798c005e08bc)SelectEntityOnEditor()
+--------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SelectEntityOnEditor | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5dffa7f0117f0fdc1abb101c4b7a57dc)DeselectEntityOnEditor()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.DeselectEntityOnEditor | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#addfa518aa18492ebd54a52b9441b3f6c)SetAsPredisplayEntity()
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetAsPredisplayEntity | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8ff582ffaa1d248c5549032cac8dd5a1)RemoveFromPredisplayEntity()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RemoveFromPredisplayEntity | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6960c4597bcd2e2ef65c10e72eb41b0)SetNativeScriptComponentVariable()
+--------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetNativeScriptComponentVariable | ( | string | *className*, |
+|  |  | string | *fieldName*, |
+|  |  | ref [ScriptComponentFieldHolder](struct_tale_worlds_1_1_engine_1_1_script_component_field_holder.html) | *data*, |
+|  |  | [RglScriptFieldType](namespace_tale_worlds_1_1_engine.html#adf2b4fe3d75a4a2c03eaf8620c096933) | *variableType* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a0a2d308f64c1f0ed93d30f1b06804c88)SetManualGlobalBoundingBox()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetManualGlobalBoundingBox | ( | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *boundingBoxStartGlobal*, |
+|  |  | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *boundingBoxEndGlobal* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a296d258c91622d30289af01de7eec7a5)RayHitEntity()
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.RayHitEntity | ( | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *rayOrigin*, |
+|  |  | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *rayDirection*, |
+|  |  | float | *maxLength*, |
+|  |  | ref float | *resultLength* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a103aea7ce4885e7a14f4b899a0722c0d)RayHitEntityWithNormal()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.RayHitEntityWithNormal | ( | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *rayOrigin*, |
+|  |  | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *rayDirection*, |
+|  |  | float | *maxLength*, |
+|  |  | ref [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *resultNormal*, |
+|  |  | ref float | *resultLength* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#afbeede67f43e9148260c7996dba392f7)GetNativeScriptComponentVariable()
+--------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.GetNativeScriptComponentVariable | ( | string | *className*, |
+|  |  | string | *fieldName*, |
+|  |  | ref [ScriptComponentFieldHolder](struct_tale_worlds_1_1_engine_1_1_script_component_field_holder.html) | *data*, |
+|  |  | [RglScriptFieldType](namespace_tale_worlds_1_1_engine.html#adf2b4fe3d75a4a2c03eaf8620c096933) | *variableType* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa761ce762d19086b612eb76d4c967618)SetCustomClipPlane()
+------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetCustomClipPlane | ( | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *clipPosition*, |
+|  |  | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) | *clipNormal*, |
+|  |  | bool | *setForChildren* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa2b4fae9bed8548366150e6f769e513f)GetBoundingBoxLongestHalfDimension()
+----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| float TaleWorlds.Engine.GameEntity.GetBoundingBoxLongestHalfDimension | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a837f3503b2cbc7347aa449750e489801)ComputeBoundingBoxFromLongestHalfDimension()
+------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) TaleWorlds.Engine.GameEntity.ComputeBoundingBoxFromLongestHalfDimension | ( | float | *longestHalfDimensionCoefficient* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9473f2e20fc5bf6a16d723091bb23d73)ComputeBoundingBoxIncludeChildren()
+---------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) TaleWorlds.Engine.GameEntity.ComputeBoundingBoxIncludeChildren | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#adf42507cbf9ce9c6f3c37ab02ff53040)SetManualLocalBoundingBox()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetManualLocalBoundingBox | ( | in [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) | *boundingBox* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a98f403acde42426991070a5f9644bd7d)RelaxLocalBoundingBox()
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.RelaxLocalBoundingBox | ( | in [BoundingBox](struct_tale_worlds_1_1_engine_1_1_bounding_box.html) | *boundingBox* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a01ace18c9a49f9dec7a85e8791ab7236)SetCullMode()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetCullMode | ( | [MBMeshCullingMode](namespace_tale_worlds_1_1_engine.html#a8363ee42e6331c6a31ed88216accec29) | *cullMode* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#afb07746ede4347a7e82fd4fe922e10a1)GetFirstChildEntityWithTagRecursive()
+-----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| GameEntity TaleWorlds.Engine.GameEntity.GetFirstChildEntityWithTagRecursive | ( | string | *tag* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac2cffc161dfc75a83954c83f6b75e059)Equals()
+------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| override bool TaleWorlds.Engine.GameEntity.Equals | ( | object | *obj* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a31181be22614abae785bf9b6ddc9697b)GetHashCode()
+-----------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| override int TaleWorlds.Engine.GameEntity.GetHashCode | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a0931c34f21e622d7f188f815697f8547)operator==() [1/2]
+----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | bool TaleWorlds.Engine.GameEntity.operator== | ( | GameEntity | *gameEntity*, | |  |  | [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | *weakGameEntity* ) | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a99af6186244e3f22eab57bdf05c1c976)operator!=() [1/2]
+----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | bool TaleWorlds.Engine.GameEntity.operator!= | ( | GameEntity | *gameEntity*, | |  |  | [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | *weakGameEntity* ) | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a562b58d7cdb8f01c8f2b566ec282ccbe)SetDoNotCheckVisibility()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetDoNotCheckVisibility | ( | bool | *value* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2d7373456e37dcbce50f56bf6695b1ec)operator!=() [2/2]
+----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | bool TaleWorlds.Engine.GameEntity.operator!= | ( | GameEntity | *gameEntity1*, | |  |  | GameEntity | *gameEntity2* ) | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#acefa961cc638ab598ec1193d3aeeb118)operator==() [2/2]
+----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | bool TaleWorlds.Engine.GameEntity.operator== | ( | GameEntity | *gameEntity1*, | |  |  | GameEntity | *gameEntity2* ) | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a251a607a93019f1d083aff0503677677)SetBoneFrameToAllMeshes()
+-----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetBoneFrameToAllMeshes | ( | int | *boneIndex*, |
+|  |  | in [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *frame* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a37b64c0cc74c3e385599ee0d66d5b8a9)GetGlobalWindStrengthVectorOfScene()
+----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Vec2](struct_tale_worlds_1_1_library_1_1_vec2.html) TaleWorlds.Engine.GameEntity.GetGlobalWindStrengthVectorOfScene | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8b97f2617ba1ac3b065b3f7a6383dd1e)GetGlobalWindVelocityOfScene()
+----------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Vec2](struct_tale_worlds_1_1_library_1_1_vec2.html) TaleWorlds.Engine.GameEntity.GetGlobalWindVelocityOfScene | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad2bd2f0c7db432c084a9a7c7361308d0)GetLastFinalRenderCameraPositionOfScene()
+---------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.GetLastFinalRenderCameraPositionOfScene | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a234c6c55501639c94db429245c641f81)SetForceDecalsToRender()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetForceDecalsToRender | ( | bool | *value* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a3f0a8f62da8467f68781ccca60e1581b)SetForceNotAffectedBySeason()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetForceNotAffectedBySeason | ( | bool | *value* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aefaf5eeae2b8bc33190c7b79955f268b)CheckIsPrefabLinkRootPrefab()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.Engine.GameEntity.CheckIsPrefabLinkRootPrefab | ( | int | *depth* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a0dba9300e42fb4ad28303f287db4be47)SetupAdditionalBoneBufferForMeshes()
+----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SetupAdditionalBoneBufferForMeshes | ( | int | *boneCount* | ) |  |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a77055bba532fb95b2c39400f0ff2836b)CreatePhysxCookingInstance()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | UIntPtr TaleWorlds.Engine.GameEntity.CreatePhysxCookingInstance | ( |  | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#ad27b907ab964d8dc235eafaec3641732)DeletePhysxCookingInstance()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.Engine.GameEntity.DeletePhysxCookingInstance | ( | UIntPtr | *pointer* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a76d6f4c38e820472b61153bbab64d491)DeleteEmptyShape()
+----------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.DeleteEmptyShape | ( | UIntPtr | *shape1*, |
+|  |  | UIntPtr | *shape2* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a54dee054ac61053513345e00f47d4026)CreateEmptyPhysxShape()
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| UIntPtr TaleWorlds.Engine.GameEntity.CreateEmptyPhysxShape | ( | bool | *isVariable*, |
+|  |  | int | *physxMaterialIndex* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a95591ff147845e00d43b701227080883)SwapPhysxShapeInEntity()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.Engine.GameEntity.SwapPhysxShapeInEntity | ( | UIntPtr | *oldShape*, |
+|  |  | UIntPtr | *newShape*, |
+|  |  | bool | *isVariable* ) |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aab955e8ec24ac71f53b602a8c8203c74)CookTrianglePhysxMesh()
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | void TaleWorlds.Engine.GameEntity.CookTrianglePhysxMesh | ( | UIntPtr | *cookingInstancePointer*, | |  |  | UIntPtr | *shapePointer*, | |  |  | UIntPtr | *quadPinnedPointer*, | |  |  | int | *physicsMaterial*, | |  |  | int | *numberOfVertices*, | |  |  | UIntPtr | *indicesPinnedPointer*, | |  |  | int | *numberOfIndices* ) | | static |
+
+Member Data Documentation
+-------------------------
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5)Vec3
+--------------------------------------------------------------------------------------------
+
+|  |
+| --- |
+| TaleWorlds.Engine.GameEntity.Vec3 |
+
+Property Documentation
+----------------------
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a27047bc414e50b5b144aea37976bb151)Scene
+---------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | Scene TaleWorlds.Engine.GameEntity.Scene | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a50bca84d1a7fff31552bf86521262c61)WeakEntity
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) TaleWorlds.Engine.GameEntity.WeakEntity | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6ab9b44538ee5aff797c431c088ba4db)Name
+--------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | string TaleWorlds.Engine.GameEntity.Name | | getset |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a79bbe0a1879fc9aa24f54af5b5acacef)EntityFlags
+---------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [EntityFlags](namespace_tale_worlds_1_1_engine.html#ac9a5b603c15afe87f8ec5f36d2e73285) TaleWorlds.Engine.GameEntity.EntityFlags | | getset |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2d62b83e6cc02c7b7061869483ce7513)EntityVisibilityFlags
+-------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [EntityVisibilityFlags](namespace_tale_worlds_1_1_engine.html#abd0987b9b449d071edb76504a2e737f8) TaleWorlds.Engine.GameEntity.EntityVisibilityFlags | | getset |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a67baed282d5d84b6533950c3b3ae7abc)BodyFlag
+------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) TaleWorlds.Engine.GameEntity.BodyFlag | | getset |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a505437aa94cdb8e2ac2c75cc183eb864)PhysicsDescBodyFlag
+-----------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) TaleWorlds.Engine.GameEntity.PhysicsDescBodyFlag | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6ac741d7516e3cb1dcd4ef027ea7624d)Mass
+--------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | float TaleWorlds.Engine.GameEntity.Mass | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a5f87ed8d334418a4b39709499db1691a)CenterOfMass
+----------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.CenterOfMass | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a8f50049f2b626c62c33ee885e218d362)GlobalPosition
+------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.GlobalPosition | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a769de2e866fe5d02a254369e3d4430f1)Tags
+--------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | string [] TaleWorlds.Engine.GameEntity.Tags | | get |
+
+See also
+:   [AddTag](class_tale_worlds_1_1_engine_1_1_game_entity.html#addadebeda8e42e62e9f5b0bd37ed2d32), [HasTag](class_tale_worlds_1_1_engine_1_1_game_entity.html#ac6a3e6425ec6b02d50c6e83a91acfad0)
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aeb7a7231051bf9843c6f1f0c4d0770f4)ChildCount
+--------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | int TaleWorlds.Engine.GameEntity.ChildCount | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a63160206aded810011cf4dfcd51a6954)Parent
+----------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | GameEntity TaleWorlds.Engine.GameEntity.Parent | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#aa289346d6ce671c01cc849a7c6b63125)Root
+--------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | GameEntity TaleWorlds.Engine.GameEntity.Root | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a9614aeefd971c77b992055fcce73af4a)MultiMeshComponentCount
+---------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | int TaleWorlds.Engine.GameEntity.MultiMeshComponentCount | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a58767c12c81e8b33394983b8ecff82d2)ClothSimulatorComponentCount
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | int TaleWorlds.Engine.GameEntity.ClothSimulatorComponentCount | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a400e65bc9b18de4bf1788ac591e9def0)GlobalBoxMax
+----------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.GlobalBoxMax | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a17f0b6393af88a595418e95c44fa7f1c)GlobalBoxMin
+----------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [Vec3](class_tale_worlds_1_1_engine_1_1_game_entity.html#a6c938341c17fd84343aee3def26526f5) TaleWorlds.Engine.GameEntity.GlobalBoxMin | | get |
+
+[◆](class_tale_worlds_1_1_engine_1_1_game_entity.html#a2dd345016af56427e6fa951920ea606d)Skeleton
+------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | Skeleton TaleWorlds.Engine.GameEntity.Skeleton | | getset |
+

@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model-members.html ---
+
+TaleWorlds.CampaignSystem.ComponentInterfaces.SettlementGarrisonModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ComponentInterfaces.SettlementGarrisonModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [CalculateBaseGarrisonChange](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html#a57c8e171c30bcc9c93a3f617cf55ba1b)(Settlement settlement, bool includeDescriptions=false) | [TaleWorlds.CampaignSystem.ComponentInterfaces.SettlementGarrisonModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html) |  |
+| [FindNumberOfTroopsToLeaveToGarrison](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html#ad5ecad6471f460903425f4c3e07f1f69)(MobileParty mobileParty, Settlement settlement) | [TaleWorlds.CampaignSystem.ComponentInterfaces.SettlementGarrisonModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html) |  |
+| [FindNumberOfTroopsToTakeFromGarrison](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html#a8f86bc92ebcd7f19631548d0dac8c810)(MobileParty mobileParty, Settlement settlement, float idealGarrisonStrengthPerWalledCenter=0.0f) | [TaleWorlds.CampaignSystem.ComponentInterfaces.SettlementGarrisonModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html) |  |
+| [GetMaximumDailyAutoRecruitmentCount](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html#a7823a536335257a9b2733a552ec5edfd)(Town town) | [TaleWorlds.CampaignSystem.ComponentInterfaces.SettlementGarrisonModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html) |  |
+| [GetMaximumDailyRepairAmount](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html#ac5df4918d8a35ce33f35b9757ae1b716)(Settlement settlement) | [TaleWorlds.CampaignSystem.ComponentInterfaces.SettlementGarrisonModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_settlement_garrison_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+

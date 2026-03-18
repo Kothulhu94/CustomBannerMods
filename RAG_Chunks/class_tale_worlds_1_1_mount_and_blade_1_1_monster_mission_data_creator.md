@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_monster_mission_data_creator.html ---
+
+TaleWorlds.MountAndBlade.MonsterMissionDataCreator Class ReferenceInherits [TaleWorlds.Core.IMonsterMissionDataCreator](interface_tale_worlds_1_1_core_1_1_i_monster_mission_data_creator.html).
+

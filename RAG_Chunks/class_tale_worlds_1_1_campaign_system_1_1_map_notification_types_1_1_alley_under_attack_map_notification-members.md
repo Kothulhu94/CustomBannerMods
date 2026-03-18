@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyUnderAttackMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyUnderAttackMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Alley](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html#aa9b1318ad672a40ae0281627a1fefc8c) | [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyUnderAttackMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html) |  |
+| [AlleyUnderAttackMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html#a522e263b87df3896b4882e5e89828fe9)(Alley alley, TextObject description) | [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyUnderAttackMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html#a8d141fec7cedf4f900dea7d916887d96) | [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyUnderAttackMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html#a4e9b1e7d544f8e89cab053711a19d07b) | [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyUnderAttackMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_under_attack_map_notification.html) |  |
+

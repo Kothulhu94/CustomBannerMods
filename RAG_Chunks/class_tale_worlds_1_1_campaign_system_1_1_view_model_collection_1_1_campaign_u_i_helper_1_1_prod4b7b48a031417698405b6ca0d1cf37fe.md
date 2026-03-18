@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_u_i_helper_1_1_prod4b7b48a031417698405b6ca0d1cf37fe.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.CampaignUIHelper.ProductInputOutputEqualityComparer Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignUIHelper.ProductInputOutputEqualityComparer](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_u_i_helper_1_1_prod0ae5f892b69238ec5d6cb709031ced03.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Equals](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_u_i_helper_1_1_prod0ae5f892b69238ec5d6cb709031ced03.html#a9a57b47851aebc3d5fb4f437a3e7f823)((ItemCategory, int) x,(ItemCategory, int) y) | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignUIHelper.ProductInputOutputEqualityComparer](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_u_i_helper_1_1_prod0ae5f892b69238ec5d6cb709031ced03.html) |  |
+| [GetHashCode](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_u_i_helper_1_1_prod0ae5f892b69238ec5d6cb709031ced03.html#ac80938459b17ae76fc786c5c6db02176)((ItemCategory, int) obj) | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignUIHelper.ProductInputOutputEqualityComparer](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_u_i_helper_1_1_prod0ae5f892b69238ec5d6cb709031ced03.html) |  |
+

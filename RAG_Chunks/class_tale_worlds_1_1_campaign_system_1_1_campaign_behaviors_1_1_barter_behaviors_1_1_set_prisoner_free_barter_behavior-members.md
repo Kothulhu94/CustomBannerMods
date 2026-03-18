@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_set_prisoner_free_barter_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.SetPrisonerFreeBarterBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.SetPrisonerFreeBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_set_prisoner_free_barter_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CheckForBarters](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_set_prisoner_free_barter_behavior.html#a32173c98782dcb313be4c943cb06d316)(BarterData args) | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.SetPrisonerFreeBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_set_prisoner_free_barter_behavior.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_set_prisoner_free_barter_behavior.html#a09c1de7663f241d1d6520d420e25d337)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.SetPrisonerFreeBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_set_prisoner_free_barter_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_set_prisoner_free_barter_behavior.html#ab44e4ac502c82e922425f24c069e8936)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.SetPrisonerFreeBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_set_prisoner_free_barter_behavior.html) |  |
+

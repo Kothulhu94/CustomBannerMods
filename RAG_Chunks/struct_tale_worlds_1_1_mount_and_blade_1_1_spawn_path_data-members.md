@@ -1,0 +1,23 @@
+--- SOURCE: struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data-members.html ---
+
+TaleWorlds.MountAndBlade.SpawnPathData Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClampPathOffset](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a1fbf943cbebafe3f186cd7f1f33269ec)(float pathOffsetRatio) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [Create](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a4f520b2f324059abab897b6e9457bdbb)(Scene scene, Path path, float pivotRatio=0f, bool isInverted=false, SnapMethod snapType=SnapMethod.DontSnap) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) | static |
+| [GetOffsetOverflow](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a35030002cb7c03c20aa0005b5691e608)(float pathOffset) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [GetSpawnPathFrameFacingPivot](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a66bd78b4f4ca063211ac24f012376f34)(float pathOffset, bool useTangentDirection, out Vec2 spawnPathPosition, out Vec2 spawnPathDirection) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [GetSpawnPathFrameFacingTangentDirection](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a22bb1d0e2dbb7ede81b84509da60c947)(float baseOffset, int tangentDirection, out Vec2 spawnPathPosition, out Vec2 spawnPathDirection) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [GetSpawnPathFrameFacingTarget](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a999935bf94a7e279c15eaaee8c470734)(float baseOffset, float targetOffset, bool useTangentDirection, out Vec2 spawnPathPosition, out Vec2 spawnPathDirection, bool decideDirectionDynamically=false, float dynamicDistancePercentage=0.2f) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [Invalid](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#ad0b965b485e248372ae1f96ff6813462) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) | static |
+| [Invert](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a8ae9320c9dc7e91c3295664e6405dc30)() | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [IsInverted](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a14064da798d34c4968fb19dde36630dc) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [IsValid](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a15e9417849c9ef95436f08ecc8150066) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [Path](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#af400a41d0eb8492814ae1aa81a596b1b) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [PivotRatio](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#acfb264e13f5d6c75be3278b80077113a) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [Scene](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a058a3a5e84298e84c22b44a955729e82) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [SnapMethod](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#aa40a7f255572f88d2dfdad67a024c086) enum name | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [SnapType](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#a71fedc8335f1a183187c954b98a39ccd) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) |  |
+| [SpawnPathEpsilon](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html#aeec178f97f1c56493430f83f8aa47121) | [TaleWorlds.MountAndBlade.SpawnPathData](struct_tale_worlds_1_1_mount_and_blade_1_1_spawn_path_data.html) | static |
+

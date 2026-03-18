@@ -1,0 +1,31 @@
+--- SOURCE: struct_tale_worlds_1_1_library_1_1_application_version-members.html ---
+
+TaleWorlds.Library.ApplicationVersion Member ListThis is the complete list of members for [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html#a5eebc5963124779232ec77e0164276f2)(ApplicationVersionType applicationVersionType, int major, int minor, int revision, int changeSet) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [ApplicationVersionType](struct_tale_worlds_1_1_library_1_1_application_version.html#abf62b4a7b0065dae32993f41ca9721d3) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [ApplicationVersionTypeFromString](struct_tale_worlds_1_1_library_1_1_application_version.html#a95ecbdb339f68669455e4b41efdbc028)(string applicationVersionTypeAsString) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [ChangeSet](struct_tale_worlds_1_1_library_1_1_application_version.html#a2cb31af849091c0c71fda548460e9aac) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [DefaultChangeSet](struct_tale_worlds_1_1_library_1_1_application_version.html#ac64188490a367c77be0147acb6d10747) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [Empty](struct_tale_worlds_1_1_library_1_1_application_version.html#a985bb770e60ab0fba34d9925cd6e96ad) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [Equals](struct_tale_worlds_1_1_library_1_1_application_version.html#a3d6ee275bffe0d4cb93df70c002d8b90)(object obj) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [FromParametersFile](struct_tale_worlds_1_1_library_1_1_application_version.html#a20d20d577ddb19b5041d27d6ba55185a)(string customParameterFilePath=null) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [FromString](struct_tale_worlds_1_1_library_1_1_application_version.html#a9391296fe6d88328a5b5eb91c2b1d073)(string versionAsString, int defaultChangeSet=0) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [GetHashCode](struct_tale_worlds_1_1_library_1_1_application_version.html#afa7959c9b206c7c5596f644c0ea8e274)() | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [GetPrefix](struct_tale_worlds_1_1_library_1_1_application_version.html#a0c2d60a9188fb5739eed38947de78f21)(ApplicationVersionType applicationVersionType) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [IsNewerThan](struct_tale_worlds_1_1_library_1_1_application_version.html#a8cd2108cedf3dbbaaaf27d51296c6fe6)(ApplicationVersion other) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [IsOlderThan](struct_tale_worlds_1_1_library_1_1_application_version.html#afbffaf8d316361e641ffd333f3e54f71)(ApplicationVersion other) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [IsSame](struct_tale_worlds_1_1_library_1_1_application_version.html#a326ce9d3bfe81b993563f58f4534c0f9)(ApplicationVersion other, bool checkChangeSet) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [Major](struct_tale_worlds_1_1_library_1_1_application_version.html#a7f89f1c63b22e6a105d5b95d55d12055) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [Minor](struct_tale_worlds_1_1_library_1_1_application_version.html#a1223de3adf2a753469ff366270b6393a) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [operator!=](struct_tale_worlds_1_1_library_1_1_application_version.html#a5160afce1854748d59dc6def877e3b2d)(ApplicationVersion a, ApplicationVersion b) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [operator<](struct_tale_worlds_1_1_library_1_1_application_version.html#a4fe4249d108cd0a6f24fec33d5e5948b)(ApplicationVersion a, ApplicationVersion b) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [operator<=](struct_tale_worlds_1_1_library_1_1_application_version.html#a864751cb0c9aa2dde15555ff8b828273)(ApplicationVersion a, ApplicationVersion b) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [operator==](struct_tale_worlds_1_1_library_1_1_application_version.html#a3cd2cce7d4939af93d38cd7fd441ee8a)(ApplicationVersion a, ApplicationVersion b) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [operator>](struct_tale_worlds_1_1_library_1_1_application_version.html#ad9bf36818490189a32d2a85c01d8397f)(ApplicationVersion a, ApplicationVersion b) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [operator>=](struct_tale_worlds_1_1_library_1_1_application_version.html#ac19868521da8f43a13b44f4b9d489ea5)(ApplicationVersion a, ApplicationVersion b) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) | static |
+| [Revision](struct_tale_worlds_1_1_library_1_1_application_version.html#abbab03189c9c10bc5779e76a7514c3ef) | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+| [ToString](struct_tale_worlds_1_1_library_1_1_application_version.html#a60f58a8c07076d7c323badf2376fea8c)() | [TaleWorlds.Library.ApplicationVersion](struct_tale_worlds_1_1_library_1_1_application_version.html) |  |
+

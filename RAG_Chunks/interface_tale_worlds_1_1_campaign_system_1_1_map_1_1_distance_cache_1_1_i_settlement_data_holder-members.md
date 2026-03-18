@@ -1,0 +1,12 @@
+--- SOURCE: interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder-members.html ---
+
+TaleWorlds.CampaignSystem.Map.DistanceCache.ISettlementDataHolder Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Map.DistanceCache.ISettlementDataHolder](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GatePosition](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html#a2129eb6e49e9d057b0904104234dde3e) | [TaleWorlds.CampaignSystem.Map.DistanceCache.ISettlementDataHolder](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html) |  |
+| [HasPort](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html#a63e760c32cf1396580b39b27f1e31ee9) | [TaleWorlds.CampaignSystem.Map.DistanceCache.ISettlementDataHolder](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html) |  |
+| [IsFortification](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html#a9c95a1f6fa32c5e4c854c5e2db7f9e58) | [TaleWorlds.CampaignSystem.Map.DistanceCache.ISettlementDataHolder](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html) |  |
+| [PortPosition](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html#ac5d48c444213eddc1858f7409f027e6e) | [TaleWorlds.CampaignSystem.Map.DistanceCache.ISettlementDataHolder](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html) |  |
+| [StringId](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html#a27e001d767a834a2ec26bfad09a5ebeb) | [TaleWorlds.CampaignSystem.Map.DistanceCache.ISettlementDataHolder](interface_tale_worlds_1_1_campaign_system_1_1_map_1_1_distance_cache_1_1_i_settlement_data_holder.html) |  |
+

@@ -1,0 +1,81 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html ---
+
+TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter Class Reference|  |  |
+| --- | --- |
+| Static Public Member Functions | |
+| static void | [game\_menu\_taken\_prisoner\_ui\_on\_init](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#a08706347a6d4919ba7bb132dfa8cfdda) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+| static void | [game\_menu\_defeat\_and\_taken\_prisoner\_ui\_on\_init](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#ae16505fbe88bc454924189159fa099db) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+| static void | [game\_menu\_taken\_prisoner\_town\_ui\_on\_init](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#af4fa595e2bd5f49d0241fba854592def) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+| static void | [game\_menu\_town\_menu\_on\_init](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#ad2ea502a56874bc9a7169dd56ad5d802) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+| static void | [game\_menu\_attackers\_left\_on\_init](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#afc26dab2cb54a5970a4598a3e5099107) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+| static void | [game\_menu\_new\_game\_begin\_on\_init](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#adc05e9c2566a966bd3d94bab111f62e5) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+| static void | [game\_menu\_kingdom\_mno\_call\_to\_arms\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#a142b279b5ec1b17ea0e0cc838c01145e) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+| static void | [game\_menu\_encyclopedia\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#a8aa24e5afef72af05275b392392da6fe) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+| static void | [game\_menu\_town\_menu\_request\_meeting\_on\_init](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#ae413bac1e9f5b2d1a2df12e2f0ce8848) ([MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) args) |
+
+Member Function Documentation
+-----------------------------
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#a08706347a6d4919ba7bb132dfa8cfdda)game\_menu\_taken\_prisoner\_ui\_on\_init()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_taken\_prisoner\_ui\_on\_init | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#ae16505fbe88bc454924189159fa099db)game\_menu\_defeat\_and\_taken\_prisoner\_ui\_on\_init()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_defeat\_and\_taken\_prisoner\_ui\_on\_init | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#af4fa595e2bd5f49d0241fba854592def)game\_menu\_taken\_prisoner\_town\_ui\_on\_init()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_taken\_prisoner\_town\_ui\_on\_init | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#ad2ea502a56874bc9a7169dd56ad5d802)game\_menu\_town\_menu\_on\_init()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_town\_menu\_on\_init | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#afc26dab2cb54a5970a4598a3e5099107)game\_menu\_attackers\_left\_on\_init()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_attackers\_left\_on\_init | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#adc05e9c2566a966bd3d94bab111f62e5)game\_menu\_new\_game\_begin\_on\_init()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_new\_game\_begin\_on\_init | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#a142b279b5ec1b17ea0e0cc838c01145e)game\_menu\_kingdom\_mno\_call\_to\_arms\_on\_consequence()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_kingdom\_mno\_call\_to\_arms\_on\_consequence | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#a8aa24e5afef72af05275b392392da6fe)game\_menu\_encyclopedia\_on\_consequence()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_encyclopedia\_on\_consequence | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_game_menu_initialization_handlers_1_1_default_encounter.html#ae413bac1e9f5b2d1a2df12e2f0ce8848)game\_menu\_town\_menu\_request\_meeting\_on\_init()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.GameMenus.GameMenuInitializationHandlers.DefaultEncounter.game\_menu\_town\_menu\_request\_meeting\_on\_init | ( | [MenuCallbackArgs](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_menu_callback_args.html) | *args* | ) |  | | static |
+

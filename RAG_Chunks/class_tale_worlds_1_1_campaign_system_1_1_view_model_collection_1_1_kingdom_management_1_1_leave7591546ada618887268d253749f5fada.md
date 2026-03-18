@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_kingdom_management_1_1_leave7591546ada618887268d253749f5fada.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.KingdomManagement.LeaveKingdomPermissionEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.KingdomManagement.LeaveKingdomPermissionEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_kingdom_management_1_1_leave_kingdom_permission_event.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [IsLeaveKingdomPossbile](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_kingdom_management_1_1_leave_kingdom_permission_event.html#ab77650cc7763152f410f79a6535c2a69) | [TaleWorlds.CampaignSystem.ViewModelCollection.KingdomManagement.LeaveKingdomPermissionEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_kingdom_management_1_1_leave_kingdom_permission_event.html) |  |
+| [LeaveKingdomPermissionEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_kingdom_management_1_1_leave_kingdom_permission_event.html#ab54decb1032b19652f06fbb1c6346f46)(Action< bool, TextObject > isLeaveKingdomPossbile) | [TaleWorlds.CampaignSystem.ViewModelCollection.KingdomManagement.LeaveKingdomPermissionEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_kingdom_management_1_1_leave_kingdom_permission_event.html) |  |
+

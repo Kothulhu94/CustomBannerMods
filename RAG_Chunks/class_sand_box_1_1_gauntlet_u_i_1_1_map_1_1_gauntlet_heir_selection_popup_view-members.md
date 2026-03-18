@@ -1,0 +1,22 @@
+--- SOURCE: class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view-members.html ---
+
+SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView Member ListThis is the complete list of members for [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ContextAlphaModifier](class_sand_box_1_1_view_1_1_map_1_1_map_view.html#a9efbb55b721c1331986ba14d416c84f6) | [SandBox.View.Map.MapView](class_sand_box_1_1_view_1_1_map_1_1_map_view.html) | protectedstatic |
+| [CreateLayout](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a6cae94271bfe10f0306e23b8414b61ee)() | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+| [GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a18d40cdc60491d8ba986ee78c4694f8e)(Dictionary< Hero, int > heirApparents) | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) |  |
+| [IsEscaped](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a25f7c233d379232f4b3903ce5751c473)() | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+| [IsFinalized](class_sand_box_1_1_view_1_1_sandbox_view.html#a5807fb2c109c6715d7fae1a6cf2f4693) | [SandBox.View.SandboxView](class_sand_box_1_1_view_1_1_sandbox_view.html) |  |
+| [IsOpeningEscapeMenuOnFocusChangeAllowed](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#af62bd480fe4f586d0da0061af06646d2)() | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+| [Layer](class_sand_box_1_1_view_1_1_sandbox_view.html#a070dec1267ecf8ff4afadffc12374024) | [SandBox.View.SandboxView](class_sand_box_1_1_view_1_1_sandbox_view.html) |  |
+| [MapScreen](class_sand_box_1_1_view_1_1_map_1_1_map_view.html#af4f77c9eec549e6d57cb4667f09ea0b4) | [SandBox.View.Map.MapView](class_sand_box_1_1_view_1_1_map_1_1_map_view.html) |  |
+| [MapState](class_sand_box_1_1_view_1_1_map_1_1_map_view.html#abf6624dfb0331164523cae87d042e691) | [SandBox.View.Map.MapView](class_sand_box_1_1_view_1_1_map_1_1_map_view.html) |  |
+| [OnFinalize](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a74e54164af665453338a4cb8b23748d3)() | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+| [OnFrameTick](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a9375dd8fb9c15d5917516449e5667e94)(float dt) | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+| [OnIdleTick](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a66d528a78152f6ef0aa0da85d68233e2)(float dt) | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+| [OnMapConversationOver](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a3a2ca6bf1451f31775d131aacd118985)() | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+| [OnMapConversationStart](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a08ae47b37fc704ae9b34987b827497ea)() | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+| [OnMenuModeTick](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html#a2c837c65e6d16540f0bef88ed0eae52c)(float dt) | [SandBox.GauntletUI.Map.GauntletHeirSelectionPopupView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_heir_selection_popup_view.html) | protectedvirtual |
+

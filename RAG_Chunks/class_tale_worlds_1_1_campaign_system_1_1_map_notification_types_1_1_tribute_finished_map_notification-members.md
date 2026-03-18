@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.TributeFinishedMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.TributeFinishedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [RelatedFaction](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html#a7fecc0f84c966f8298fb3be1a1c2f5e2) | [TaleWorlds.CampaignSystem.MapNotificationTypes.TributeFinishedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html#a0f142c0ef3cba86e7c8f5e1adc227463) | [TaleWorlds.CampaignSystem.MapNotificationTypes.TributeFinishedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html#ae8b4f898c4d39762b2a8dbd068d11c9c) | [TaleWorlds.CampaignSystem.MapNotificationTypes.TributeFinishedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html) |  |
+| [TributeFinishedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html#addf8539590c8a16b4ad159e305d5349e)(TextObject description, IFaction relatedFaction) | [TaleWorlds.CampaignSystem.MapNotificationTypes.TributeFinishedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_tribute_finished_map_notification.html) |  |
+

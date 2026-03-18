@@ -1,0 +1,4 @@
+--- SOURCE: class_sand_box_1_1_view_1_1_map_1_1_default_map_conversation_data_provider.html ---
+
+SandBox.View.Map.DefaultMapConversationDataProvider Class ReferenceInherits [SandBox.View.Map.IMapConversationDataProvider](interface_sand_box_1_1_view_1_1_map_1_1_i_map_conversation_data_provider.html).
+

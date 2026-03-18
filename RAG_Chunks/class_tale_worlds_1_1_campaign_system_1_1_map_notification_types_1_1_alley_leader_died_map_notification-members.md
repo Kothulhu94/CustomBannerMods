@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyLeaderDiedMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyLeaderDiedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Alley](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html#accd6137eae394103ee7819d877ed952d) | [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyLeaderDiedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html) |  |
+| [AlleyLeaderDiedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html#a0c2c864ccaa6535af903218957b1b4b1)(Alley alley, TextObject description) | [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyLeaderDiedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html#a5c366b8b23a34448fcc4fa3f2916d225) | [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyLeaderDiedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html#ad948055dd202ff63d2d83b2211b7d377) | [TaleWorlds.CampaignSystem.MapNotificationTypes.AlleyLeaderDiedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_alley_leader_died_map_notification.html) |  |
+

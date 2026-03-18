@@ -1,0 +1,39 @@
+--- SOURCE: class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_engine_texture-members.html ---
+
+TaleWorlds.Engine.GauntletUI.EngineTexture Member ListThis is the complete list of members for [TaleWorlds.Engine.GauntletUI.EngineTexture](class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_engine_texture.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| **CheckAndGetFromResource**(string textureName) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **CreateDepthTarget**(string name, int width, int height) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **CreateFromByteArray**(byte[] data, int width, int height) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **CreateFromMemory**(byte[] data) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **CreateRenderTarget**(string name, int width, int height, bool autoMipmaps, bool isTableau, bool createUninitialized, bool always\_valid) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **CreateTextureFromPath**(PlatformFilePath filePath) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| [EngineTexture](class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_engine_texture.html#aad72e7ae0963105845e2faa4e28adf06)(Engine.Texture engineTexture) | [TaleWorlds.Engine.GauntletUI.EngineTexture](class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_engine_texture.html) |  |
+| **GetCurObject**(System.UIntPtr texturePointer, bool blocking) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **GetFromResource**(string textureName) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| [GetHashCode](class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_engine_texture.html#a012192ebe03704f42e11fa443b05d9dd)() | [TaleWorlds.Engine.GauntletUI.EngineTexture](class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_engine_texture.html) |  |
+| **GetHeight**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **GetMemorySize**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **GetName**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **GetPixelData**(System.UIntPtr texturePointer, byte[] bytes) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **GetRenderTargetComponent**(UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **GetSDFBoundingBoxData**(System.UIntPtr texturePointer, ref Vec3 min, ref Vec3 max) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **GetTableauView**(UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **GetWidth**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **IsLoaded**(UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **IsRenderTarget**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **LoadTextureFromPath**(string fileName, string folder) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **Release**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **ReleaseAfterNumberOfFrames**(System.UIntPtr texturePointer, int numberOfFrames) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **ReleaseGpuMemories**() (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **ReleaseNextFrame**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **RemoveContinousTableauTexture**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **SaveTextureAsAlwaysValid**(System.UIntPtr texturePointer) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **SaveToFile**(System.UIntPtr texturePointer, string fileName, bool isRelativePath) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **SetName**(System.UIntPtr texturePointer, String name) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| **SetTableauView**(System.UIntPtr texturePointer, System.UIntPtr tableauView) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+| [Texture](class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_engine_texture.html#a79673d30516c8accd6b93350c31d2e29) | [TaleWorlds.Engine.GauntletUI.EngineTexture](class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_engine_texture.html) |  |
+| **TransformRenderTargetToResourceTexture**(System.UIntPtr texturePointer, string name) (defined in **TaleWorlds.Engine.ITexture**) | [TaleWorlds.Engine.ITexture](https://apidoc.bannerlord.com/v/1.3.14/interface_tale_worlds_1_1_engine_1_1_i_texture.html) |  |
+

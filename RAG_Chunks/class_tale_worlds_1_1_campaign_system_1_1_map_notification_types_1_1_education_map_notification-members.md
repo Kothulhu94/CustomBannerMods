@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.EducationMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.EducationMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Age](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html#a40a32b254f73e6a56eff7adda7a36b2f) | [TaleWorlds.CampaignSystem.MapNotificationTypes.EducationMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html) |  |
+| [Child](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html#afa469456bdc675e2093bd4da6a4f8b21) | [TaleWorlds.CampaignSystem.MapNotificationTypes.EducationMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [EducationMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html#aeb19ed4d1318094c87ae989483a4d5a4)(Hero child, int age, TextObject descriptionText) | [TaleWorlds.CampaignSystem.MapNotificationTypes.EducationMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html#afee4b4539967a247621289d8c44503e3)() | [TaleWorlds.CampaignSystem.MapNotificationTypes.EducationMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html) | virtual |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html#ac6859899ee9f80ed7d41d1112b61b6c1) | [TaleWorlds.CampaignSystem.MapNotificationTypes.EducationMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html#a9a119301d1d46a23b132516cd2234091) | [TaleWorlds.CampaignSystem.MapNotificationTypes.EducationMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_education_map_notification.html) |  |
+

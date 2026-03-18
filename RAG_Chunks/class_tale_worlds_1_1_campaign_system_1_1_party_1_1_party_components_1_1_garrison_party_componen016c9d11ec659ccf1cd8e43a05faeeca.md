@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_garrison_party_componen016c9d11ec659ccf1cd8e43a05faeeca.html ---
+
+TaleWorlds.CampaignSystem.Party.PartyComponents.GarrisonPartyComponent.InitializationArgs Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Party.PartyComponents.GarrisonPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_garrison_party_component_1_1_initialization_args.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_garrison_party_component_1_1_initialization_args.html#ab5a8771394fb84c3fda342fc1be15307)() | [TaleWorlds.CampaignSystem.Party.PartyComponents.GarrisonPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_garrison_party_component_1_1_initialization_args.html) |  |
+| [InitializeGarrisonPartyProperties](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_garrison_party_component_1_1_initialization_args.html#acef0bfb07f2d2fd514b30dd7ef80cb28)(MobileParty mobileParty, Settlement settlement) | [TaleWorlds.CampaignSystem.Party.PartyComponents.GarrisonPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_garrison_party_component_1_1_initialization_args.html) |  |
+

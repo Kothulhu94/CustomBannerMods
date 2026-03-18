@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_object_system_1_1_m_b_too_many_registered_types_exception.html ---
+
+TaleWorlds.ObjectSystem.MBTooManyRegisteredTypesException Class ReferenceInherits [TaleWorlds.ObjectSystem.ObjectSystemException](class_tale_worlds_1_1_object_system_1_1_object_system_exception.html).
+

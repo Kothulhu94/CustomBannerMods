@@ -1,0 +1,8 @@
+--- SOURCE: class_sand_box_1_1_view_model_collection_1_1_nameplate_1_1_settlement_nameplate_party_markers_v_c176f8c10de1a25376817d965a8fef29.html ---
+
+SandBox.ViewModelCollection.Nameplate.SettlementNameplatePartyMarkersVM.PartyMarkerItemComparer Member ListThis is the complete list of members for [SandBox.ViewModelCollection.Nameplate.SettlementNameplatePartyMarkersVM.PartyMarkerItemComparer](class_sand_box_1_1_view_model_collection_1_1_nameplate_1_1_settlement_nameplate_party_markers_v_b073d2ea743e98e039e0d92801598ca2.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Compare](class_sand_box_1_1_view_model_collection_1_1_nameplate_1_1_settlement_nameplate_party_markers_v_b073d2ea743e98e039e0d92801598ca2.html#a90289db4b0a65f8de9995fa60d7b7e62)(SettlementNameplatePartyMarkerItemVM x, SettlementNameplatePartyMarkerItemVM y) | [SandBox.ViewModelCollection.Nameplate.SettlementNameplatePartyMarkersVM.PartyMarkerItemComparer](class_sand_box_1_1_view_model_collection_1_1_nameplate_1_1_settlement_nameplate_party_markers_v_b073d2ea743e98e039e0d92801598ca2.html) |  |
+

@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model-members.html ---
+
+TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [GetAvailablePlayerKingdomCultures](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html#a292386cc9f9c583723261e15e3a2be87)() | [TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+| [IsPlayerKingdomAbdicationPossible](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html#a99453e6bebb032e0878ce5aa12836375)(out List< TextObject > explanations) | [TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html) |  |
+| [IsPlayerKingdomCreationPossible](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html#a32ca34ca819c0c455ffb5a537b4ea88d)(out List< TextObject > explanations) | [TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html) |  |
+| [MaximumNumberOfInitialPolicies](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html#a918b92ce11f7203114bcb9d43b7bcf08) | [TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html) |  |
+| [MinimumClanTierToCreateKingdom](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html#ac09d9363ded85790182162f37af19c78) | [TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html) |  |
+| [MinimumNumberOfSettlementsOwnedToCreateKingdom](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html#adaf111fc42d6e4eeb30faf0156d1700e) | [TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html) |  |
+| [MinimumTroopCountToCreateKingdom](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html#ae5f7fe220755e7995c21bac998344dca) | [TaleWorlds.CampaignSystem.ComponentInterfaces.KingdomCreationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_kingdom_creation_model.html) |  |
+

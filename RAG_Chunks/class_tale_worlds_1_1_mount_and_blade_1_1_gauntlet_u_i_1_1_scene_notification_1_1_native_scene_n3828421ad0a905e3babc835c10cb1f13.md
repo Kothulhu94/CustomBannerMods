@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_scene_notification_1_1_native_scene_n3828421ad0a905e3babc835c10cb1f13.html ---
+
+TaleWorlds.MountAndBlade.GauntletUI.SceneNotification.NativeSceneNotificationContextProvider Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.GauntletUI.SceneNotification.NativeSceneNotificationContextProvider](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_scene_notification_1_1_native_scene_notification_context_provider.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [IsContextAllowed](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_scene_notification_1_1_native_scene_notification_context_provider.html#a7284c9135547874eef55143d8e2cd757)(SceneNotificationData.RelevantContextType relevantType) | [TaleWorlds.MountAndBlade.GauntletUI.SceneNotification.NativeSceneNotificationContextProvider](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_scene_notification_1_1_native_scene_notification_context_provider.html) |  |
+| [TaleWorlds::Core::ISceneNotificationContextProvider.IsContextAllowed](interface_tale_worlds_1_1_core_1_1_i_scene_notification_context_provider.html#a0c8c0876e129bf9211a0f8fc24db5427)(SceneNotificationData.RelevantContextType relevantType) | [TaleWorlds.Core.ISceneNotificationContextProvider](interface_tale_worlds_1_1_core_1_1_i_scene_notification_context_provider.html) |  |
+

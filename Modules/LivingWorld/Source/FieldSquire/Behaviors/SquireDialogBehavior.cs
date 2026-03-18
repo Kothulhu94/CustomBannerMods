@@ -113,8 +113,8 @@ namespace FieldSquire.Behaviors
             starter.AddPlayerLine("squire_promote_start", "companion_talk", "squire_promote_response", "I have need of a Squire. Would you take up the mantle?", IsPromotionAvailable, null);
             starter.AddDialogLine("squire_promote_confirm", "squire_promote_response", "hero_main_options", "It would be an honor, my lord. I shall handle the ledgers and logistics from now on.", null, () => SquireSpawnBehavior.PromoteToSquire(Hero.OneToOneConversationHero));
 
-            starter.AddPlayerLine("squire_dismiss_start", "hero_main_options", "squire_dismiss_response", "I no longer require your services as my Squire. You're relieved.", IsSquire, null);
-            starter.AddDialogLine("squire_dismiss_confirm", "squire_dismiss_response", "close_window", "As you wish, my lord. I shall return to my previous duties.", null, () => SquireSpawnBehavior.DismissSquire(Hero.OneToOneConversationHero));
+            starter.AddPlayerLine("squire_dismiss_start", "hero_main_options", "squire_dismiss_response", "I'm relieving you of your Squire duties. You're free to return to your previous rank.", IsSquire, null);
+            starter.AddDialogLine("squire_dismiss_confirm", "squire_dismiss_response", "close_window", "As you wish, my lord. I shall set aside the ledgers and return to my duties.", null, () => SquireSpawnBehavior.DismissSquire(Hero.OneToOneConversationHero));
         }
 
         private bool IsPromotionAvailable()

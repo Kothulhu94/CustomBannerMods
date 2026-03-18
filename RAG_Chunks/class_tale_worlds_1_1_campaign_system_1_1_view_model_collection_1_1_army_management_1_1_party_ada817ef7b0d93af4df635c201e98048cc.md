@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_army_management_1_1_party_ada817ef7b0d93af4df635c201e98048cc.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.ArmyManagement.PartyAddedToArmyByPlayerEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.ArmyManagement.PartyAddedToArmyByPlayerEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_army_management_1_1_party_added_to_army_by_player_event.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AddedParty](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_army_management_1_1_party_added_to_army_by_player_event.html#a43f5f427a13b4c5fa433cdaa71a7cfd1) | [TaleWorlds.CampaignSystem.ViewModelCollection.ArmyManagement.PartyAddedToArmyByPlayerEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_army_management_1_1_party_added_to_army_by_player_event.html) |  |
+| [PartyAddedToArmyByPlayerEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_army_management_1_1_party_added_to_army_by_player_event.html#af9247fe42ab50563ca1f7bc8e155de8a)(MobileParty addedParty) | [TaleWorlds.CampaignSystem.ViewModelCollection.ArmyManagement.PartyAddedToArmyByPlayerEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_army_management_1_1_party_added_to_army_by_player_event.html) |  |
+

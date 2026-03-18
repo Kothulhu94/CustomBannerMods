@@ -1,0 +1,11 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_heir_selection_calculation_model-members.html ---
+
+TaleWorlds.CampaignSystem.ComponentInterfaces.HeirSelectionCalculationModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ComponentInterfaces.HeirSelectionCalculationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_heir_selection_calculation_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [CalculateHeirSelectionPoint](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_heir_selection_calculation_model.html#acdcb23b8071dbdfc46fa9be6f287a85e)(Hero candidateHeir, Hero deadHero, ref Hero maxSkillHero) | [TaleWorlds.CampaignSystem.ComponentInterfaces.HeirSelectionCalculationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_heir_selection_calculation_model.html) |  |
+| [HighestSkillPoint](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_heir_selection_calculation_model.html#a401cba8f061bfc462ba0f013d39d07c4) | [TaleWorlds.CampaignSystem.ComponentInterfaces.HeirSelectionCalculationModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_heir_selection_calculation_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+

@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view-members.html ---
+
+TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AddModuleVersionInfo](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html#ac09bca3fc783016a265c1b0df114372e)(string title, string versionStr) | [TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html) | static |
+| [Current](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html#a0c4b156592b2364722f0b83f72febf58) | [TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html) | static |
+| [GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html#a92af743afa967b9bd985c4a5929d3b2a)() | [TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html) |  |
+| [Initialize](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html#adec86964916dd41ede88cb5b905bb437)() | [TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html) | static |
+| [OnTick](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html#a885a3f1767f6c14799bcd1827f49e12b)(float dt) | [TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html) | protected |
+| [Refresh](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html#a6220d4f4b8a914a178c86292b0dae45d)() | [TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html) | static |
+| [RemoveModuleVersionInfo](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html#a61b4ae52d8f2ddcd31bea8dc9fa0402a)(string title) | [TaleWorlds.MountAndBlade.GauntletUI.GauntletGameVersionView](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_gauntlet_game_version_view.html) | static |
+

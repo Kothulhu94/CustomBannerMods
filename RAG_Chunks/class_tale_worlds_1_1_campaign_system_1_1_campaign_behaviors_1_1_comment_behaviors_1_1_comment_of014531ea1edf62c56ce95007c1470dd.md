@@ -1,0 +1,13 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_of014531ea1edf62c56ce95007c1470dd.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnChangeRomanticStateBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnChangeRomanticStateBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_o1ae106e38e9c880cb709b0777afc900c.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_o1ae106e38e9c880cb709b0777afc900c.html#a5bbdda720f322ca8c7c79f6e6cc8eb5e)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnChangeRomanticStateBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_o1ae106e38e9c880cb709b0777afc900c.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_o1ae106e38e9c880cb709b0777afc900c.html#a73f698b50cfb708002ea8834a1a102eb)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnChangeRomanticStateBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_o1ae106e38e9c880cb709b0777afc900c.html) |  |
+

@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event-members.html ---
+
+TaleWorlds.CampaignSystem.Issues.RevenueFarmingIssueBehavior.VillageEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Issues.RevenueFarmingIssueBehavior.VillageEvent](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Id](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html#a43e9c54f6f71bbc0447e842978959b80) | [TaleWorlds.CampaignSystem.Issues.RevenueFarmingIssueBehavior.VillageEvent](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html) |  |
+| [MainEventText](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html#ae6223ef989df325c767662d21e5154aa) | [TaleWorlds.CampaignSystem.Issues.RevenueFarmingIssueBehavior.VillageEvent](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html) |  |
+| [MainLog](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html#a136b5d9fd6a032c4ad8c33fcd5d258f1) | [TaleWorlds.CampaignSystem.Issues.RevenueFarmingIssueBehavior.VillageEvent](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html) |  |
+| [OptionConditionsAndConsequences](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html#a726fb4524e370fe068b5e12ec97285e0) | [TaleWorlds.CampaignSystem.Issues.RevenueFarmingIssueBehavior.VillageEvent](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html) |  |
+| [VillageEvent](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html#a3af21fc469d547e9bd27100a55343df4)(string id, string mainEventText, TextObject mainLog, List< VillageEventOptionData > optionConditionsAndConsequences) | [TaleWorlds.CampaignSystem.Issues.RevenueFarmingIssueBehavior.VillageEvent](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_revenue_farming_issue_behavior_1_1_village_event.html) |  |
+

@@ -1,0 +1,13 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model-members.html ---
+
+TaleWorlds.CampaignSystem.GameComponents.DefaultInventoryCapacityModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.GameComponents.DefaultInventoryCapacityModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [CalculateInventoryCapacity](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html#ab381bd8a82762bae95d59df6dd633e3f)(MobileParty mobileParty, bool isCurrentlyAtSea, bool includeDescriptions=false, int additionalTroops=0, int additionalSpareMounts=0, int additionalPackAnimals=0, bool includeFollowers=false) | [TaleWorlds.CampaignSystem.GameComponents.DefaultInventoryCapacityModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html) |  |
+| [CalculateTotalWeightCarried](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html#abc4f0a3120ff1f63947cc3a0608a1975)(MobileParty mobileParty, bool isCurrentlyAtSea, bool includeDescriptions=false) | [TaleWorlds.CampaignSystem.GameComponents.DefaultInventoryCapacityModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html) |  |
+| [GetItemAverageWeight](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html#ace6f2584ca86af0d0fdd065b95a54fa3)() | [TaleWorlds.CampaignSystem.GameComponents.DefaultInventoryCapacityModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html) |  |
+| [GetItemEffectiveWeight](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html#a94175d54f4a037623db32f6feedd0396)(EquipmentElement equipmentElement, MobileParty mobileParty, bool isCurrentlyAtSea, out TextObject description) | [TaleWorlds.CampaignSystem.GameComponents.DefaultInventoryCapacityModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_inventory_capacity_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+

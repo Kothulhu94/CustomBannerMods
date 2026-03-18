@@ -1,0 +1,11 @@
+--- SOURCE: class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result-members.html ---
+
+TaleWorlds.GauntletUI.PrefabSystem.GeneratedPrefabInstantiationResult Member ListThis is the complete list of members for [TaleWorlds.GauntletUI.PrefabSystem.GeneratedPrefabInstantiationResult](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AddData](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html#a327ab1b22c23379b1dc9331606faef1b)(string tag, object data) | [TaleWorlds.GauntletUI.PrefabSystem.GeneratedPrefabInstantiationResult](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html) |  |
+| [GeneratedPrefabInstantiationResult](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html#a9bd8db9774465987060115792f14a454)(Widget root) | [TaleWorlds.GauntletUI.PrefabSystem.GeneratedPrefabInstantiationResult](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html) |  |
+| [GetExtensionData](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html#a0393eb123a98192ad0416b7118535021)(string tag) | [TaleWorlds.GauntletUI.PrefabSystem.GeneratedPrefabInstantiationResult](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html) |  |
+| [Root](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html#a47b6a4430ad72cc378b22b284b06f38d) | [TaleWorlds.GauntletUI.PrefabSystem.GeneratedPrefabInstantiationResult](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_generated_prefab_instantiation_result.html) |  |
+

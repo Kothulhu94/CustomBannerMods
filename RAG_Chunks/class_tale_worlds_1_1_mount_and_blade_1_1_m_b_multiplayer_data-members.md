@@ -1,0 +1,23 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data-members.html ---
+
+TaleWorlds.MountAndBlade.MBMultiplayerData Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GameModule](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a2f8f0dad3fa5d5a34547b19603ed02a8) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GameServerInfoReceived](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a075b26b717f9bee0ecab88d037ee3f3d) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GameServerInfoReceivedDelegate](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a55ca4373a8bd490aeff2bfc79b206915)(CustomBattleId id, string gameServer, string gameModule, string gameType, string map, int currentPlayerCount, int maxPlayerCount, string address, int port) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) |  |
+| [GameType](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#aa930f334185a7661312db7a5e2c45246) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GetCurrentPlayerCount](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a7154af4814f062dfe3d836f31ff93d39)() | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GetGameModule](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#ae7f6d4398e63960d1c9c8677f62a28c7)() | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GetGameType](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a72711d701aad4b3edf21e4b8e33a0e55)() | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GetMap](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a319186b0abb0c86e804710882b57fe76)() | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GetPlayerCountLimit](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a5a8f2da9ed0cdeaa5c602653c3191af4)() | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GetServerId](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a48294cb66c1a1f51f38cbcb44356dc66)() | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [GetServerName](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a108358aa270cc302af1dc12824b2557a)() | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [Map](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#ab57b12c288b838e2dd29247d234113b7) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [PlayerCountLimit](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a26e1e5f2be783d18f12cc4ba25a87201) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [ServerId](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a460a9ed8f26cec81750bb06c5674ebad) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [ServerName](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#a39a8b0c2daa7c3f12dbab80e5964ad1f) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+| [UpdateGameServerInfo](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html#afc3c9a533123e6d76fa09412a64f97b1)(string id, string gameServer, string gameModule, string gameType, string map, int currentPlayerCount, int maxPlayerCount, string address, int port) | [TaleWorlds.MountAndBlade.MBMultiplayerData](class_tale_worlds_1_1_mount_and_blade_1_1_m_b_multiplayer_data.html) | static |
+

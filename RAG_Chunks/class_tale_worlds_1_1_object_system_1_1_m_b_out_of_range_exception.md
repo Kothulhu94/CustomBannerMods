@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_object_system_1_1_m_b_out_of_range_exception.html ---
+
+TaleWorlds.ObjectSystem.MBOutOfRangeException Class ReferenceInherits [TaleWorlds.ObjectSystem.ObjectSystemException](class_tale_worlds_1_1_object_system_1_1_object_system_exception.html).
+

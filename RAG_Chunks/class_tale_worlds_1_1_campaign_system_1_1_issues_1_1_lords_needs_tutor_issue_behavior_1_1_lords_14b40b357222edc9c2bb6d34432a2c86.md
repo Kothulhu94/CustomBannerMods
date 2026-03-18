@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_lords_needs_tutor_issue_behavior_1_1_lords_14b40b357222edc9c2bb6d34432a2c86.html ---
+
+TaleWorlds.CampaignSystem.Issues.LordsNeedsTutorIssueBehavior.LordsNeedsTutorIssueTypeDefiner Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Issues.LordsNeedsTutorIssueBehavior.LordsNeedsTutorIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_lords_needs_tutor_issue_behavior_1_1_lords_needs_tutor_issue_type_definer.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [DefineClassTypes](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_lords_needs_tutor_issue_behavior_1_1_lords_needs_tutor_issue_type_definer.html#a65ee5ae7545355359e07a007527f4a7e)() | [TaleWorlds.CampaignSystem.Issues.LordsNeedsTutorIssueBehavior.LordsNeedsTutorIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_lords_needs_tutor_issue_behavior_1_1_lords_needs_tutor_issue_type_definer.html) | protected |
+| [LordsNeedsTutorIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_lords_needs_tutor_issue_behavior_1_1_lords_needs_tutor_issue_type_definer.html#a27d349050dac3a1f8e5bca1b29e0e1e6)() | [TaleWorlds.CampaignSystem.Issues.LordsNeedsTutorIssueBehavior.LordsNeedsTutorIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_lords_needs_tutor_issue_behavior_1_1_lords_needs_tutor_issue_type_definer.html) |  |
+

@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.CompanionRolesCampaignBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.CompanionRolesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AddDialogs](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html#ae9ec44819d7b87a521602841325d1fd1)(CampaignGameStarter campaignGameStarter) | [TaleWorlds.CampaignSystem.CampaignBehaviors.CompanionRolesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html) | protected |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [OnSessionLaunched](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html#ad98ab1d70772934c0ba182b4cccb3a7b)(CampaignGameStarter campaignGameStarter) | [TaleWorlds.CampaignSystem.CampaignBehaviors.CompanionRolesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html) |  |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html#a88882e88704f560e112159cfddcc9c6c)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.CompanionRolesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html#a7a85423603287e5b2746a22610a35247)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.CompanionRolesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_companion_roles_campaign_behavior.html) |  |
+

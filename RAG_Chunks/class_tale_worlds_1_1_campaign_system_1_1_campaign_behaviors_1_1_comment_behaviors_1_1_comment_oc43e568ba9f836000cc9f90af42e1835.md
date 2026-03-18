@@ -1,0 +1,13 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_oc43e568ba9f836000cc9f90af42e1835.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnKingdomDestroyedBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnKingdomDestroyedBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_kingdom_destroyed_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_kingdom_destroyed_behavior.html#a983725af9335918f7dc9da1e4ca8b162)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnKingdomDestroyedBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_kingdom_destroyed_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_kingdom_destroyed_behavior.html#a8fd26445eec50ac6570f28662f90527e)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnKingdomDestroyedBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_kingdom_destroyed_behavior.html) |  |
+

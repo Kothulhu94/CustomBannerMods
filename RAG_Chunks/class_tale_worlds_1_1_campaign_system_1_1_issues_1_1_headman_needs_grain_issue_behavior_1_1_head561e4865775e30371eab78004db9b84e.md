@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_headman_needs_grain_issue_behavior_1_1_head561e4865775e30371eab78004db9b84e.html ---
+
+TaleWorlds.CampaignSystem.Issues.HeadmanNeedsGrainIssueBehavior.HeadmanNeedsGrainIssueTypeDefiner Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Issues.HeadmanNeedsGrainIssueBehavior.HeadmanNeedsGrainIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_headman_needs_grain_issue_behavior_1_1_head82ecc3381553df0de0b62f4eeb94aa97.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [DefineClassTypes](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_headman_needs_grain_issue_behavior_1_1_head82ecc3381553df0de0b62f4eeb94aa97.html#abdaec58fe6ac4e33e2e857512b4c0ed4)() | [TaleWorlds.CampaignSystem.Issues.HeadmanNeedsGrainIssueBehavior.HeadmanNeedsGrainIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_headman_needs_grain_issue_behavior_1_1_head82ecc3381553df0de0b62f4eeb94aa97.html) | protected |
+| [HeadmanNeedsGrainIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_headman_needs_grain_issue_behavior_1_1_head82ecc3381553df0de0b62f4eeb94aa97.html#aa62fbe5529cce9c7d65af34f099a579d)() | [TaleWorlds.CampaignSystem.Issues.HeadmanNeedsGrainIssueBehavior.HeadmanNeedsGrainIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_headman_needs_grain_issue_behavior_1_1_head82ecc3381553df0de0b62f4eeb94aa97.html) |  |
+

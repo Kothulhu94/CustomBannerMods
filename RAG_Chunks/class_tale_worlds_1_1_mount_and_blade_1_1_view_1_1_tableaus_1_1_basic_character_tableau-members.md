@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau-members.html ---
+
+TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#af82b5de84c3d6521c856457191adbc3c)() | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+| [DeserializeCharacterCode](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#a327f0b0e973ca18d654bd0cc95b28df3)(string code) | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+| [IsVersionCompatible](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#a26d3f038d64e96f401365ce2dff9418c) | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+| [OnFinalize](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#a05ff4a9cfd5a01146672422d74eec892)() | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+| [OnTick](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#a5afd875964354dbfa97ec9bc9411625c)(float dt) | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+| [RotateCharacter](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#a1454844ace8dc5e8e116323492872e39)(bool value) | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+| [SetBannerCode](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#a3ef4088bb0369cfe492c8db59bcc863d)(string value) | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+| [SetTargetSize](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#a21a65210da1110aa6b1515cc16f6d810)(int width, int height) | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+| [Texture](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html#a4423879dec000b5448bb82735816f411) | [TaleWorlds.MountAndBlade.View.Tableaus.BasicCharacterTableau](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_basic_character_tableau.html) |  |
+

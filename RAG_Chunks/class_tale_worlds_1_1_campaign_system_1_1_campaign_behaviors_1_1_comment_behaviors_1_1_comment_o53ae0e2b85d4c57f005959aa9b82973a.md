@@ -1,0 +1,13 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_o53ae0e2b85d4c57f005959aa9b82973a.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnClanLeaderChangedBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnClanLeaderChangedBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_clan_leader_changed_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_clan_leader_changed_behavior.html#afb5df29a1d27a9f2fda4c1ca7cbab44e)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnClanLeaderChangedBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_clan_leader_changed_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_clan_leader_changed_behavior.html#a0981aaa04c99618c57be706404ee311a)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnClanLeaderChangedBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_clan_leader_changed_behavior.html) |  |
+

@@ -45,7 +45,10 @@ namespace FieldSquire.Behaviors
             }
             
             // Set Name
-            hero.SetName(new TextObject("Your Squire"), new TextObject("Your Squire"));
+            TextObject firstName = hero.FirstName ?? hero.Name;
+            TextObject fullName = new TextObject("{FIRSTNAME} the Squire");
+            fullName.SetTextVariable("FIRSTNAME", firstName);
+            hero.SetName(fullName, fullName);
             
             InformationManager.DisplayMessage(new InformationMessage($"{hero.Name} is now your Squire."));
         }
@@ -58,10 +61,11 @@ namespace FieldSquire.Behaviors
             // Reset ID to something unique so they are no longer "The Squire"
             string newId = $"squire_retired_{hero.Name.ToString().Replace(" ", "_")}_{hero.Id.InternalValue}";
             SetHeroStringId(hero, newId);
-            
-            // Revert Name
-            hero.SetName(new TextObject("Former Squire"), new TextObject("Former Squire"));
 
+            // Revert Name to just FirstName
+            TextObject firstName = hero.FirstName ?? hero.Name;
+            hero.SetName(firstName, firstName);
+            
             InformationManager.DisplayMessage(new InformationMessage($"{oldName} is no longer your Squire."));
         }
 
@@ -153,8 +157,12 @@ namespace FieldSquire.Behaviors
 
         private Hero SpawnSquire()
         {
-            // Use an Empire Wanderer template
-            var template = CharacterObject.All.FirstOrDefault(x => x.Occupation == Occupation.Wanderer && x.Culture.StringId == "empire");
+            // Use Player Culture with Random Gender
+            var playerCulture = Hero.MainHero.Culture;
+            bool isFemale = MBRandom.RandomInt(2) == 0;
+
+            var template = CharacterObject.All.FirstOrDefault(x => x.Occupation == Occupation.Wanderer && x.Culture == playerCulture && x.IsFemale == isFemale);
+            if (template == null) template = CharacterObject.All.FirstOrDefault(x => x.Occupation == Occupation.Wanderer && x.Culture == playerCulture);
             if (template == null) template = CharacterObject.All.FirstOrDefault(x => x.Occupation == Occupation.Wanderer);
 
             if (template != null)
@@ -162,8 +170,13 @@ namespace FieldSquire.Behaviors
                 // Create hero at Main Party location
                 Hero squire = HeroCreator.CreateSpecialHero(template, Hero.MainHero.HomeSettlement ?? Settlement.All.FirstOrDefault(), null, null, 25);
                 
-                squire.SetName(new TextObject("Your Squire"), new TextObject("Your Squire"));
-                _logger.LogInformation($"Created hero. Preliminary ID: {squire.StringId}");
+                // Set Cultural Name + Title
+                TextObject firstName = NameGenerator.Current.GenerateFirstNameForPlayer(playerCulture, squire.IsFemale);
+                TextObject fullName = new TextObject("{FIRSTNAME} the Squire");
+                fullName.SetTextVariable("FIRSTNAME", firstName);
+                squire.SetName(fullName, fullName);
+
+                _logger.LogInformation($"Created {squire.Name} ({playerCulture.Name}, {(squire.IsFemale ? "Female" : "Male")}). Preliminary ID: {squire.StringId}");
                 
                 // Helper to set ID via reflection since property relies on private setter sometimes
                 var prop = typeof(MBObjectBase).GetProperty("StringId", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);

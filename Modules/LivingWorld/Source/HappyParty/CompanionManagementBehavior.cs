@@ -43,7 +43,7 @@ namespace HappyParty
                 if (settlement.HeroesWithoutParty != null && settlement.HeroesWithoutParty.Count > 0)
                 {
                     // Snapshot to avoid modification errors
-                    var companionsInTown = settlement.HeroesWithoutParty.Where(h => h.IsWanderer && h.Clan == leader.Clan).ToList();
+                    var companionsInTown = settlement.HeroesWithoutParty.Where(h => h.IsWanderer && !h.IsLord && h.Clan == leader.Clan).ToList();
 
                     foreach (var companion in companionsInTown)
                     {
@@ -71,7 +71,7 @@ namespace HappyParty
                 foreach (var hero in Hero.AllAliveHeroes)
                 {
                     // Target AI-hired wanderers
-                    if (hero.IsWanderer && hero.Clan != null && hero.Clan != Clan.PlayerClan)
+                    if (hero.IsWanderer && !hero.IsLord && hero.Clan != null && hero.Clan != Clan.PlayerClan)
                     {
                         ProcessAICOMpanion(hero);
                     }

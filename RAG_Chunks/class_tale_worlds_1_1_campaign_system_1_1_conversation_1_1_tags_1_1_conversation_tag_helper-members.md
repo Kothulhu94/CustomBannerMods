@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper-members.html ---
+
+TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTagHelper Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTagHelper](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [EducatedClass](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html#a330698ef276a56481d5135f7b5e26f30)(CharacterObject character) | [TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTagHelper](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html) | static |
+| [TraitCompatibility](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html#a7c379c1866898433459368ad0445b66c)(Hero hero1, Hero hero2, TraitObject trait) | [TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTagHelper](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html) | static |
+| [TribalVoiceGroup](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html#a7d4813d28f632f4f7afc74edcebea06c)(CharacterObject character) | [TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTagHelper](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html) | static |
+| [UsesHighRegister](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html#a181ac602d3287565d9fc1a54946f7065)(CharacterObject character) | [TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTagHelper](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html) | static |
+| [UsesLowRegister](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html#ad0c20bc220c81eb4e8e00e8470587aa7)(CharacterObject character) | [TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTagHelper](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag_helper.html) | static |
+

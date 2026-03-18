@@ -1,0 +1,33 @@
+--- SOURCE: class_tale_worlds_1_1_core_1_1_extensions-members.html ---
+
+TaleWorlds.Core.Extensions Member ListThis is the complete list of members for [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Add](class_tale_worlds_1_1_core_1_1_extensions.html#a85598650282de08026419f0307521ef1)(this string str, string appendant, bool newLine=true) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [CombineWith< T1, T2 >](class_tale_worlds_1_1_core_1_1_extensions.html#ae7fa22f9ffb3896c7c512682ef4b77a1)(this IEnumerable< T1 > list1, IEnumerable< T2 > list2) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [Description](class_tale_worlds_1_1_core_1_1_extensions.html#ac70265de8a7655230593ad0fa83faa86)(this Enum value) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [DistinctBy< TSource, TKey >](class_tale_worlds_1_1_core_1_1_extensions.html#a408647e6bbf839cdcef6777b72ae8e81)(this IEnumerable< TSource > source, Func< TSource, TKey > keySelector) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [DistinctBy< TSource, TKey >](class_tale_worlds_1_1_core_1_1_extensions.html#ae4d52e1520fce4bdd93d27b3dfabc17a)(this IEnumerable< TSource > source, Func< TSource, TKey > keySelector, IEqualityComparer< TKey > comparer) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetOppositeSide](class_tale_worlds_1_1_core_1_1_extensions.html#a9de67b04e78f35aa9a531a66de8742b8)(this BattleSideEnum side) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElement< T >](class_tale_worlds_1_1_core_1_1_extensions.html#a23396757b2f8f25478f0642abbf301b3)(this IReadOnlyList< T > e) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElement< T >](class_tale_worlds_1_1_core_1_1_extensions.html#aadaa89b67549ffab369bb663ee201880)(this MBReadOnlyList< T > e) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElement< T >](class_tale_worlds_1_1_core_1_1_extensions.html#a48a0b0cd76903e7c079268c0d38574e9)(this MBList< T > e) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElement< T >](class_tale_worlds_1_1_core_1_1_extensions.html#aceeaf51ac8fab0104a7eb4473af7fb6a)(this T[] e) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElementInefficiently< T >](class_tale_worlds_1_1_core_1_1_extensions.html#ab0a9ed554b1c43da8f0b8623e52e5362)(this IEnumerable< T > e) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElementWithPredicate< T >](class_tale_worlds_1_1_core_1_1_extensions.html#a49550407bfd3f01154704df1bead97eb)(this T[] e, Func< T, bool > predicate) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElementWithPredicate< T >](class_tale_worlds_1_1_core_1_1_extensions.html#a699fc99bdea7ff4b14ae387f6e88dd55)(this MBReadOnlyList< T > e, Func< T, bool > predicate) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElementWithPredicate< T >](class_tale_worlds_1_1_core_1_1_extensions.html#abb0e6d4128c25f4fc8add7201c059a2b)(this MBList< T > e, Func< T, bool > predicate) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [GetRandomElementWithPredicate< T >](class_tale_worlds_1_1_core_1_1_extensions.html#a88b0223c29dc912f8cf623a0e9180eed)(this IReadOnlyList< T > e, Func< T, bool > predicate) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [IsEmpty< T >](class_tale_worlds_1_1_core_1_1_extensions.html#a616d99606274a9749969ca1dcad24a7f)(this IEnumerable< T > source) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [MaxBy< TSource, TKey >](class_tale_worlds_1_1_core_1_1_extensions.html#a621a70659edc121d4a7df6b3dcd80fef)(this IEnumerable< TSource > source, Func< TSource, TKey > selector) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [MaxBy< TSource, TKey >](class_tale_worlds_1_1_core_1_1_extensions.html#ad6f8dab75415e9cd99be2f3bfeb8c3f8)(this IEnumerable< TSource > source, Func< TSource, TKey > selector, out TKey maxKey) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [MaxBy< TSource, TKey >](class_tale_worlds_1_1_core_1_1_extensions.html#a3f52932f797d2271b2390a3b3ce5a082)(this IEnumerable< TSource > source, Func< TSource, TKey > selector, IComparer< TKey > comparer, out TKey maxKey) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [MinBy< TSource, TKey >](class_tale_worlds_1_1_core_1_1_extensions.html#ab9052fc730dd6ef7a9eaca1d9fe3cc9c)(this IEnumerable< TSource > source, Func< TSource, TKey > selector) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [MinBy< TSource, TKey >](class_tale_worlds_1_1_core_1_1_extensions.html#a238dfbdfb317d06166cf1ba1a1b4e677)(this IEnumerable< TSource > source, Func< TSource, TKey > selector, IComparer< TKey > comparer) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [NextFloat](class_tale_worlds_1_1_core_1_1_extensions.html#a79c6c61598e1a410ddb60c61d865b3dc)(this Random random) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [Shuffle< T >](class_tale_worlds_1_1_core_1_1_extensions.html#a6c0987eeb9dc79a57b191a7d97e9f53e)(this IList< T > list) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [Split](class_tale_worlds_1_1_core_1_1_extensions.html#a37d8d19260eab64ac822a67af43c5ba2)(this string str, int maxChunkSize) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [Split< T >](class_tale_worlds_1_1_core_1_1_extensions.html#a078ffbbd6c2677410f46119260409e67)(this IEnumerable< T > source, int splitItemCount) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+| [ToHexadecimalString](class_tale_worlds_1_1_core_1_1_extensions.html#acac8d95284f902a30eaae57fda6e99f9)(this uint number) | [TaleWorlds.Core.Extensions](class_tale_worlds_1_1_core_1_1_extensions.html) | static |
+

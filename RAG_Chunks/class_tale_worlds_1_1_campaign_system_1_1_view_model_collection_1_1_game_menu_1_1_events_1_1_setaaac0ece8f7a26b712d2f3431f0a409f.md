@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_setaaac0ece8f7a26b712d2f3431f0a409f.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.Events.SettlementOverlayLeaveCharacterPermissionEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.Events.SettlementOverlayLeaveCharacterPermissionEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_set404b1186d4775ee66e06239edb4a38fb.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [IsLeaveAvailable](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_set404b1186d4775ee66e06239edb4a38fb.html#a4b69d31caf30440ad88ec1503b978bcf) | [TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.Events.SettlementOverlayLeaveCharacterPermissionEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_set404b1186d4775ee66e06239edb4a38fb.html) |  |
+| [SettlementOverlayLeaveCharacterPermissionEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_set404b1186d4775ee66e06239edb4a38fb.html#aae6c086979bf6563a0dcea3c25b1e9d0)(Action< bool, TextObject > isLeaveAvailable) | [TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.Events.SettlementOverlayLeaveCharacterPermissionEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_set404b1186d4775ee66e06239edb4a38fb.html) |  |
+

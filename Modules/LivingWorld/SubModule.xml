@@ -3,7 +3,7 @@
     <Name value="LivingWorld"/>
     <Id value="LivingWorld"/>
     <Description value="Experience a deeper, more alive Calradia. Purchase functional land plots in towns, work for honest wages in villages, and shape your kingdom's future with expanded policies. Rise from a humble commoner to a living legend with enhanced renown mechanics and clan management. Fully customizable via MCM to suit your playstyle."/>
-    <Version value="v1.9.0"/>
+    <Version value="v1.11.0"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
     <DependedModules>

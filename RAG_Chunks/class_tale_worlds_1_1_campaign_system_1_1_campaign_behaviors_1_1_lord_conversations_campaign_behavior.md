@@ -1,0 +1,1129 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior Class ReferenceInherits [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html).
+
+|  |  |
+| --- | --- |
+| Classes | |
+| class | [Number](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior_1_1_number.html) |
+
+|  |  |
+| --- | --- |
+| Public Member Functions | |
+| bool | [GetConversationHeroPoliticalPhilosophy](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a750a191961b5405d625de33bc8848c0e) (out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) philosophyString) |
+| bool | [GetConversationHeroPoliticalPhilosophy\_2](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0dc91f5b1983df4f616521f18ca625c3) (out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) philosophyString\_2) |
+| bool | [GetConversationHeroPoliticalPhilosophy\_3](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aedabe8e770e773e2ed991ebfb1d8eae0) (out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) philosophyString\_3) |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [GetLiegeTitle](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5eca541e613a1dac31763e78150799c3) () |
+| bool | [UsesLordConversations](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a90235f17ffcdc49d314fd4340f40aaf3) ([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) hero) |
+| override void | [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a957bc98a496d24643b3493af7da24626) () |
+| override void | [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#add06f90f05869d1c2667109f7461b65b) ([IDataStore](interface_tale_worlds_1_1_campaign_system_1_1_i_data_store.html) dataStore) |
+| bool | [conversation\_player\_marriage\_select\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0da9c95ba45d8f3b249827f259d65c9f) () |
+| void | [conversation\_player\_marriage\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a771a932bfe5bcfa519d36e9bdab22fe0) () |
+| void | [conversation\_player\_marriage\_on\_refusal\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ae41467e07430c41e8e644d993f53f580) () |
+| bool | [conversation\_player\_children\_marriage\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ac8db3ae537dfa55bb65a6c8eeda076d0) () |
+| void | [conversation\_player\_children\_marriage\_list\_options\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ab351e6d0af0988ddef8f83fb4923a4cf) () |
+| bool | [conversation\_player\_children\_marriage\_select\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3a8bc2ef88a72b58411d863c34add368) () |
+| void | [conversation\_player\_children\_marriage\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a02592cbaae215fc83f0b3399d0a3bafb) () |
+| void | [conversation\_player\_children\_marriage\_on\_refusal\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a96b8cdc1e4c6235bac76ba5a3ade4063) () |
+| bool | [conversation\_wanderer\_generic\_introduction\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a021685c674ff6fde559c34a2c85ead13) () |
+| bool | [conversation\_lord\_active\_mission\_response\_cont\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adf6b48707fbd894cda4a60ff38cdc3d9) () |
+| bool | [conversation\_mission\_in\_progress\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad47f52d571e81dbb6528e4e74070733e) () |
+| bool | [conversation\_lord\_active\_mission\_response\_failed\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5916410dbf5e6ae5d2912b77c26ae631) () |
+| void | [conversation\_lord\_active\_mission\_response\_failed\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a29a07670b3fd6895fc1c6542d33b3c4f) () |
+| bool | [conversation\_lord\_is\_threated\_neutral\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a767ffb5cb0ebf5a10d6830269792d104) () |
+| bool | [conversation\_player\_can\_attack\_hero\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9f8b7af043cb5165bb2308e32206397f) () |
+| bool | [barter\_peace\_offer\_reject\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9ac0855d1cf49ae86a7f27fbfcbf9b54) () |
+| bool | [barter\_offer\_reject\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0e316629b8d68b2be957064817d346c8) () |
+| bool | [barter\_offer\_accept\_peace\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a376d144408d69587fa40a19593eac2e5) () |
+| bool | [barter\_offer\_accept\_let\_go\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9371a7428d1dd2db061fd078e2f443e9) () |
+| bool | [barter\_offer\_accept\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7dfb97a9443dba81da434de3ed6fd857) () |
+| bool | [conversation\_player\_is\_leaving\_faction\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ae2bf4325d5c555172a6947defd2bb68f) () |
+| bool | [conversation\_player\_is\_offering\_mercenary\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a6b9987cdeb94dea51c7f14c9481946e8) () |
+| bool | [conversation\_player\_is\_offering\_mercenary\_on\_clickable\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a4a4f0e6a307db65e9ea46b4e547c0075) (out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) hintText) |
+| bool | [conversation\_player\_is\_offering\_vassalage\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a4d366be1f1282148b57fba1e203955d6) () |
+| bool | [conversation\_player\_is\_offering\_vassalage\_on\_clickable\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#abecc9292f50f56da0257557817998f32) (out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) hintText) |
+| bool | [conversation\_player\_is\_offering\_vassalage\_while\_at\_mercenary\_service\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a18649bccfcb18fd14125780f8cbf993c) () |
+| bool | [conversation\_player\_is\_asking\_service\_while\_in\_faction\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a35b5ad044c5e8d4d1797595993ec6ba6) () |
+| bool | [conversation\_player\_is\_offering\_vassalage\_to\_lord\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a26f62ca5a9e6e923cda7965ec0daaab3) () |
+| bool | [lord\_ask\_enter\_service\_vassalage\_talking\_with\_king\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a6c183e208ef828230e6c91fd11e6825a) () |
+| bool | [conversation\_lord\_ask\_recruit\_mercenary\_response\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a46c25c8b29aae69d2c9c782abcdb4930) () |
+| bool | [conversation\_player\_want\_to\_fire\_mercenary\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3b69d9794b3ba2ddad02d528cfe30457) () |
+| bool | [conversation\_player\_want\_to\_hire\_mercenary\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a81eadd5b8ead2f1b10264d3a7d42f138) () |
+| bool | [conversation\_player\_want\_to\_fire\_mercenary\_there\_is\_debt\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a8ec70cd8a77116e6cd0c98d9d9ad7f44) () |
+| bool | [conversation\_player\_want\_to\_fire\_mercenary\_no\_debt\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a562a9a7aa639f483db1d0e0e78ac7e58) () |
+| bool | [conversation\_player\_want\_to\_fire\_mercenary\_with\_paying\_debt\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a8c9157f1f7cf3e4acdbfa1a400759269) () |
+| bool | [conversation\_mercenary\_response\_on\_condition\_reject](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#abf37530441639587b26567d304c39818) () |
+| bool | [conversation\_mercenary\_response\_on\_condition\_reject\_because\_of\_financial\_reasons](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa9453b2a2f81555023728796d45d9450) () |
+| bool | [conversation\_mercenary\_response\_not\_leader\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a795acc728514e32761d903b021c502ae) () |
+| bool | [conversation\_mercenary\_response\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a14e1cacb8739683339b45b4b90f467b0) () |
+| bool | [conversation\_player\_want\_to\_join\_faction\_as\_mercenary\_or\_vassal\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a009e0c05f7afe537bb7ea138bcf3c070) () |
+| bool | [conversation\_player\_want\_to\_end\_service\_as\_mercenary\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a369279f395c4f06cb7b760d59d85057b) () |
+| void | [conversation\_player\_want\_to\_end\_service\_as\_mercenary\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a288c414b40f72440e0e21c8b3ebd6ec8) () |
+| void | [conversation\_mercenary\_player\_accepts\_lord\_answer\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a538fb0f3fe867f0cab140d0f036bc2c2) () |
+| bool | [conversation\_player\_has\_question\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad1ce44bd6ec98175b11cb692383b42ab) () |
+| bool | [conversation\_hero\_main\_options\_discussions](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad46bfa2357596659aff3f10db0478e14) () |
+| bool | [conversation\_lord\_talk\_politics\_during\_siege\_parley\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a68d91036909e663aaa1b6574e2d719e1) () |
+| bool | [conversation\_player\_is\_asking\_pardon\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0044d6f95551a80615692cb631cd05cd) () |
+| bool | [conversation\_player\_is\_asking\_peace\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a430632e99635df1a965ab992a7897178) () |
+| bool | [conversation\_player\_is\_leaving\_neutral\_or\_friendly\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#af5ddc7dfeb11634d02b5f0d28032b1eb) () |
+| bool | [conversation\_player\_is\_leaving\_enemy\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5c39ec7d8072eae5c5d6393ef7072885) () |
+| bool | [conversation\_player\_is\_leaving\_enemy\_prisoner\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3f9a9a438617cc7925694890db1694e2) () |
+| bool | [conversation\_cheat\_lord\_diagnostics\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7c4400652ed337c49268503170c10c31) () |
+| bool | [conversation\_cheat\_other\_lords\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a20cdb250ac1907910c97184e80624607) () |
+| bool | [conversation\_player\_dont\_attack\_we\_surrender\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a8233f59906f7cf445f02e3d1d4f6bd9a) () |
+| bool | [conversation\_cheat\_faction\_enmities\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a63da9a4db0d0996a6f237885721e8dd6) () |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [GetReasonForEnmity](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ae16f2fb7c6174ef06f3abeed9b380312) ([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) lord1, [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) lord2, [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) talkTroop) |
+| bool | [conversation\_cheat\_reputation\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aaa24495ef4c99f36075791a2f2d7f91e) () |
+| bool | [conversation\_lord\_leave\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ac3baf3b9f9adade3658f1804e1761216) () |
+| void | [conversation\_lord\_leave\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a50f7c2adfc82677a071c93e862d1a423) () |
+| bool | [conversation\_capture\_defeated\_lord\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a425a666961f715686708808782a78354) () |
+| bool | [conversation\_liberate\_known\_hero\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a92b55b0875bc5512a5fd5bae422fa24a) () |
+| bool | [conversation\_liberate\_unmet\_hero\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a89adc56109b8d4b6371aca6990425315) () |
+| bool | [conversation\_reprisoner\_hero\_decision\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5d3f2b4df1c05d41b41d187d80d5af49) () |
+| void | [conversation\_player\_liberates\_prisoner\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a2257ad2e02d9bca43f09ff347d78360a) () |
+| void | [conversation\_player\_fails\_to\_release\_prisoner\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ab413dafffd1d06917bbc80826f2f7591) () |
+| bool | [conversation\_ally\_thanks\_meet\_after\_helping\_in\_battle\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3762974be171a0b17048a75fbc4ad8ae) () |
+| bool | [conversation\_ally\_thanks\_after\_helping\_in\_battle\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a6ad0bfe35dac70196c7c11087048d25d) () |
+| void | [conversation\_talk\_lord\_defeat\_to\_lord\_capture\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9f13a48cad58577167fb1cf8868fc3f5) () |
+| void | [conversation\_talk\_lord\_defeat\_to\_lord\_capture\_and\_kill\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#afc5390bc8becc91b6d57a7abd339e961) () |
+| bool | [conversation\_talk\_lord\_release\_noncombatant\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0c2c5d09bc1de506c3abb17e4c8dce09) () |
+| bool | [conversation\_talk\_lord\_release\_combatant\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ab362377f0a4c6ac2aaa65b1632e39f82) () |
+| bool | [conversation\_player\_ask\_ruling\_philosophy\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adacb19eb9255e2603c3dd92d7abe5c3b) () |
+| bool | [conversation\_player\_has\_long\_ruling\_philosophy\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a44668e1366b4d1e5d20c16a13ba018f0) () |
+| void | [conversation\_talk\_lord\_freed\_to\_lord\_capture\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a4b6fd1f34cfd68e7cff465be1c5d0211) () |
+| void | [conversation\_talk\_lord\_freed\_to\_lord\_release\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aba2658851d1ad701122fa5614c1a73c4) () |
+| bool | [conversation\_lord\_request\_mission\_ask\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a8502959e0e665e4e506e8ba357178c07) () |
+| void | [conversation\_lord\_mercenary\_service\_verify\_accept\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3197c00c6514cf277eb71b12f073763d) () |
+| bool | [conversation\_lord\_mercenary\_elaborate\_castle\_answer\_faction\_owner\_to\_women\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#afe3ccc1603a0c9f6a33924e82ee0c93b) () |
+| bool | [conversation\_lord\_mercenary\_elaborate\_castle\_answer\_to\_women\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a6900b45aef82ddd48d3ede659da03cc8) () |
+| bool | [conversation\_lord\_mercenary\_elaborate\_castle\_answer\_faction\_owner\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adddad035504edc0ab5d17bc27e5eb73d) () |
+| bool | [conversation\_lord\_mercenary\_elaborate\_banner\_answer\_faction\_owner\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a30df3921fb32b1d893bd159116fd55e2) () |
+| bool | [conversation\_lord\_mission\_destroy\_bandit\_lair\_start\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa7694b710390a119248cd5b89031859a) () |
+| bool | [conversation\_convince\_options\_bribe\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#afe42c106b0792cc8142a2afeac3fce08) () |
+| bool | [conversation\_convince\_options\_friendship\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#af94440a24f909e22358ddd7052a1cbb4) () |
+| bool | [conversation\_convince\_bribe\_verify\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a925202e0f68c646ce44291b349e84c07) () |
+| void | [conversation\_convince\_bribe\_player\_accept\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad5b6bcc5ea866a031a8cc8d619d2dcab) () |
+| bool | [conversation\_convince\_friendship\_verify\_go\_on\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a28b1c4643b04305b3e14b342bf2b58fb) () |
+| void | [conversation\_convince\_friendship\_verify\_go\_on\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ae56702d371f46af72a19d8397d84937d) () |
+| bool | [conversation\_convince\_friendship\_lord\_response\_no\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a4fe7d0ca434f3b183b21ed7981501d43) () |
+| bool | [conversation\_convince\_friendship\_lord\_response\_angry\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5d6937a0af3c618126a327a400403f85) () |
+| void | [conversation\_lord\_generic\_mission\_accept\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a94f12a04db86178491a5de4b8f2b69ec) () |
+| void | [conversation\_lord\_generic\_mission\_reject\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a2068b54bd82f58ab33f7a233fcc97edf) () |
+| bool | [conversation\_lord\_tell\_mission\_no\_quest\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ac5f95fd485a2b65fe903c52063c318c9) () |
+| void | [conversation\_player\_threats\_lord\_verify\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7037b36b6cc44c722c4b9d655eeb73ba) () |
+| bool | [conversation\_player\_threats\_lord\_verify\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aca0ef62a1da941e1512f9ef7f64930df) () |
+| void | [conversation\_lord\_attack\_verify\_cancel\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a2aae134f75ec772be8fd0f4e7b3fb77a) () |
+| bool | [conversation\_lord\_tell\_objective\_reconsider\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a45619acba1c0965e37291d59dd757b54) () |
+| bool | [conversation\_lord\_tell\_objective\_besiege\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0eefa45a630a8a67322306041a6944b7) () |
+| bool | [conversation\_lord\_tell\_objective\_defence\_village\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a75721b510837a4a7280ff381f6f7a7ac) () |
+| bool | [conversation\_lord\_tell\_objective\_defence\_town\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa73dcc5d88be98b35ba617db0bd52580) () |
+| bool | [conversation\_lord\_tell\_objective\_patrolling\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa82dce2a197e50259c20219568516063) () |
+| bool | [conversation\_lord\_tell\_objective\_waiting\_for\_siege\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a435f56712e6a8b311d73b4eb51fe3064) () |
+| bool | [conversation\_lord\_tell\_objective\_waiting\_for\_defence\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a505cc4dd9ef763e10a323d9fbfd94f3c) () |
+| bool | [conversation\_lord\_tell\_objective\_raiding\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3377bf4debed3f2f058b8e0045500b5e) () |
+| bool | [conversation\_lord\_tell\_objective\_waiting\_for\_raid\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ace843638e3d73839ae7bf1e2dea48eb5) () |
+| bool | [conversation\_lord\_tell\_objective\_gathering\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9686d5d51fe4821264aee9cfaa87b9d4) () |
+| void | [conversation\_lord\_tell\_gathering\_player\_joined\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a398ae70529b25cef71e1fca73471c20a) () |
+| bool | [conversation\_lord\_ask\_pardon\_answer\_bad\_relation\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad86a0cb8132fe55e3582a8f65463a7fa) () |
+| bool | [conversation\_lord\_ask\_pardon\_answer\_low\_right\_to\_rule\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad136f13b51f812152b14527bf741f938) () |
+| bool | [conversation\_lord\_ask\_pardon\_answer\_no\_advantage\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a39a9c27b0011759cf14b79fd79283661) () |
+| bool | [conversation\_lord\_ask\_pardon\_answer\_not\_accepted\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a293ad999ebd85eb1146669b3616640f2) () |
+| bool | [conversation\_lord\_ask\_pardon\_answer\_accepted\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a92d2407cfcd67251c552edcd709bbc2b) () |
+| bool | [conversation\_lord\_give\_oath\_1\_player\_answer\_1\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ab04b17b8246c468671336cf3539f7f5e) () |
+| bool | [conversation\_set\_oath\_phrases\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a53c4430d466a8e3fb1ca9ea8c75742f8) () |
+| bool | [conversation\_vassalage\_offer\_player\_is\_already\_vassal\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adeb7f6c21fec26595d0516d4fd3b0ca1) () |
+| bool | [conversation\_vassalage\_offer\_player\_has\_low\_relation\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa1b93cf783b41f1d848b3d6ae4ba714c) () |
+| bool | [conversation\_mercenary\_service\_offer\_rejected\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa14bb8d8222deb52e8dd4791748a3e68) () |
+| bool | [conversation\_mercenary\_service\_offer\_accepted\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7abccbf786929f6f0ad9cf7c63d50e9a) () |
+| bool | [conversation\_vassalage\_offer\_accepted\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#af2e1dd54d9fab486fa4a1632b9ccc958) () |
+| bool | [conversation\_liege\_states\_obligations\_to\_vassal\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#af2ae748ffb8282938ae886610d967ebd) () |
+| void | [conversation\_player\_is\_accepted\_as\_a\_vassal\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7497c1b269f9a3c0b196207002641d30) () |
+| void | [conversation\_player\_leave\_faction\_accepted\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#acb0773885d8960dc95f5fa8d702f49c4) () |
+| void | [conversation\_player\_leave\_faction\_accepted\_on\_leave](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ada39bd397908042cc8a3c3982475149b) () |
+| bool | [conversation\_lord\_talk\_ask\_location\_2\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a44f6fa2ab4b079c559935b54e42ad8e1) () |
+| void | [conversation\_lord\_talk\_ask\_location\_2\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a681325bc57190aba49fa4c748cc22190) () |
+| Public Member Functions inherited from [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | |
+|  | [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376) (string stringId) |
+|  | [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1) () |
+| void | [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a402e03be483527df560a46a7a01004a6) () |
+| void | [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a5f2a833b5a67619021c6c437a1232877) ([IDataStore](interface_tale_worlds_1_1_campaign_system_1_1_i_data_store.html) dataStore) |
+
+|  |  |
+| --- | --- |
+| Static Public Member Functions | |
+| static void | [conversation\_player\_marriage\_list\_options\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adb174c6dec825dd7ddeafc5ce1bb45c7) () |
+| static bool | [player\_ask\_to\_join\_players\_party\_on\_condition](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa17170dfdba694c441dde913ef51e990) () |
+| static void | [conversation\_talk\_lord\_defeat\_to\_lord\_release\_on\_consequence](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad5c354d9f3963d6590db324295ff72c5) () |
+| Static Public Member Functions inherited from [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | |
+| static T | [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e) () |
+
+|  |  |
+| --- | --- |
+| Protected Member Functions | |
+| void | [AddDialogs](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a1f3f8a014db1ce335df19333934830ef) ([CampaignGameStarter](class_tale_worlds_1_1_campaign_system_1_1_campaign_game_starter.html) starter) |
+
+|  |  |
+| --- | --- |
+| Additional Inherited Members | |
+| Public Attributes inherited from [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | |
+| readonly string | [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) |
+
+Member Function Documentation
+-----------------------------
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a750a191961b5405d625de33bc8848c0e)GetConversationHeroPoliticalPhilosophy()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.GetConversationHeroPoliticalPhilosophy | ( | out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | *philosophyString* | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0dc91f5b1983df4f616521f18ca625c3)GetConversationHeroPoliticalPhilosophy\_2()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.GetConversationHeroPoliticalPhilosophy\_2 | ( | out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | *philosophyString\_2* | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aedabe8e770e773e2ed991ebfb1d8eae0)GetConversationHeroPoliticalPhilosophy\_3()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.GetConversationHeroPoliticalPhilosophy\_3 | ( | out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | *philosophyString\_3* | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5eca541e613a1dac31763e78150799c3)GetLiegeTitle()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.GetLiegeTitle | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a90235f17ffcdc49d314fd4340f40aaf3)UsesLordConversations()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.UsesLordConversations | ( | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *hero* | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a957bc98a496d24643b3493af7da24626)RegisterEvents()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| override void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.RegisterEvents | ( |  | ) |  |
+
+Implements [TaleWorlds.CampaignSystem.ICampaignBehavior](interface_tale_worlds_1_1_campaign_system_1_1_i_campaign_behavior.html#a142019440678d62c2740ff3fce1f8522).
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#add06f90f05869d1c2667109f7461b65b)SyncData()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| override void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.SyncData | ( | [IDataStore](interface_tale_worlds_1_1_campaign_system_1_1_i_data_store.html) | *dataStore* | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a1f3f8a014db1ce335df19333934830ef)AddDialogs()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.AddDialogs | ( | [CampaignGameStarter](class_tale_worlds_1_1_campaign_system_1_1_campaign_game_starter.html) | *starter* | ) |  | | protected |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adb174c6dec825dd7ddeafc5ce1bb45c7)conversation\_player\_marriage\_list\_options\_on\_consequence()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_marriage\_list\_options\_on\_consequence | ( |  | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0da9c95ba45d8f3b249827f259d65c9f)conversation\_player\_marriage\_select\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_marriage\_select\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a771a932bfe5bcfa519d36e9bdab22fe0)conversation\_player\_marriage\_on\_consequence()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_marriage\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ae41467e07430c41e8e644d993f53f580)conversation\_player\_marriage\_on\_refusal\_consequence()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_marriage\_on\_refusal\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ac8db3ae537dfa55bb65a6c8eeda076d0)conversation\_player\_children\_marriage\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_children\_marriage\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ab351e6d0af0988ddef8f83fb4923a4cf)conversation\_player\_children\_marriage\_list\_options\_on\_consequence()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_children\_marriage\_list\_options\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3a8bc2ef88a72b58411d863c34add368)conversation\_player\_children\_marriage\_select\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_children\_marriage\_select\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a02592cbaae215fc83f0b3399d0a3bafb)conversation\_player\_children\_marriage\_on\_consequence()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_children\_marriage\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a96b8cdc1e4c6235bac76ba5a3ade4063)conversation\_player\_children\_marriage\_on\_refusal\_consequence()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_children\_marriage\_on\_refusal\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a021685c674ff6fde559c34a2c85ead13)conversation\_wanderer\_generic\_introduction\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_wanderer\_generic\_introduction\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adf6b48707fbd894cda4a60ff38cdc3d9)conversation\_lord\_active\_mission\_response\_cont\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_active\_mission\_response\_cont\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad47f52d571e81dbb6528e4e74070733e)conversation\_mission\_in\_progress\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_mission\_in\_progress\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5916410dbf5e6ae5d2912b77c26ae631)conversation\_lord\_active\_mission\_response\_failed\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_active\_mission\_response\_failed\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a29a07670b3fd6895fc1c6542d33b3c4f)conversation\_lord\_active\_mission\_response\_failed\_on\_consequence()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_active\_mission\_response\_failed\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a767ffb5cb0ebf5a10d6830269792d104)conversation\_lord\_is\_threated\_neutral\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_is\_threated\_neutral\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9f8b7af043cb5165bb2308e32206397f)conversation\_player\_can\_attack\_hero\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_can\_attack\_hero\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9ac0855d1cf49ae86a7f27fbfcbf9b54)barter\_peace\_offer\_reject\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.barter\_peace\_offer\_reject\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0e316629b8d68b2be957064817d346c8)barter\_offer\_reject\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.barter\_offer\_reject\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a376d144408d69587fa40a19593eac2e5)barter\_offer\_accept\_peace\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.barter\_offer\_accept\_peace\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9371a7428d1dd2db061fd078e2f443e9)barter\_offer\_accept\_let\_go\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.barter\_offer\_accept\_let\_go\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7dfb97a9443dba81da434de3ed6fd857)barter\_offer\_accept\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.barter\_offer\_accept\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ae2bf4325d5c555172a6947defd2bb68f)conversation\_player\_is\_leaving\_faction\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_leaving\_faction\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a6b9987cdeb94dea51c7f14c9481946e8)conversation\_player\_is\_offering\_mercenary\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_offering\_mercenary\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a4a4f0e6a307db65e9ea46b4e547c0075)conversation\_player\_is\_offering\_mercenary\_on\_clickable\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_offering\_mercenary\_on\_clickable\_condition | ( | out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | *hintText* | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a4d366be1f1282148b57fba1e203955d6)conversation\_player\_is\_offering\_vassalage\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_offering\_vassalage\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#abecc9292f50f56da0257557817998f32)conversation\_player\_is\_offering\_vassalage\_on\_clickable\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_offering\_vassalage\_on\_clickable\_condition | ( | out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | *hintText* | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a18649bccfcb18fd14125780f8cbf993c)conversation\_player\_is\_offering\_vassalage\_while\_at\_mercenary\_service\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_offering\_vassalage\_while\_at\_mercenary\_service\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a35b5ad044c5e8d4d1797595993ec6ba6)conversation\_player\_is\_asking\_service\_while\_in\_faction\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_asking\_service\_while\_in\_faction\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a26f62ca5a9e6e923cda7965ec0daaab3)conversation\_player\_is\_offering\_vassalage\_to\_lord\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_offering\_vassalage\_to\_lord\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a6c183e208ef828230e6c91fd11e6825a)lord\_ask\_enter\_service\_vassalage\_talking\_with\_king\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.lord\_ask\_enter\_service\_vassalage\_talking\_with\_king\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a46c25c8b29aae69d2c9c782abcdb4930)conversation\_lord\_ask\_recruit\_mercenary\_response\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_ask\_recruit\_mercenary\_response\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3b69d9794b3ba2ddad02d528cfe30457)conversation\_player\_want\_to\_fire\_mercenary\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_want\_to\_fire\_mercenary\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a81eadd5b8ead2f1b10264d3a7d42f138)conversation\_player\_want\_to\_hire\_mercenary\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_want\_to\_hire\_mercenary\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a8ec70cd8a77116e6cd0c98d9d9ad7f44)conversation\_player\_want\_to\_fire\_mercenary\_there\_is\_debt\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_want\_to\_fire\_mercenary\_there\_is\_debt\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a562a9a7aa639f483db1d0e0e78ac7e58)conversation\_player\_want\_to\_fire\_mercenary\_no\_debt\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_want\_to\_fire\_mercenary\_no\_debt\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a8c9157f1f7cf3e4acdbfa1a400759269)conversation\_player\_want\_to\_fire\_mercenary\_with\_paying\_debt\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_want\_to\_fire\_mercenary\_with\_paying\_debt\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#abf37530441639587b26567d304c39818)conversation\_mercenary\_response\_on\_condition\_reject()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_mercenary\_response\_on\_condition\_reject | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa9453b2a2f81555023728796d45d9450)conversation\_mercenary\_response\_on\_condition\_reject\_because\_of\_financial\_reasons()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_mercenary\_response\_on\_condition\_reject\_because\_of\_financial\_reasons | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a795acc728514e32761d903b021c502ae)conversation\_mercenary\_response\_not\_leader\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_mercenary\_response\_not\_leader\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a14e1cacb8739683339b45b4b90f467b0)conversation\_mercenary\_response\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_mercenary\_response\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a009e0c05f7afe537bb7ea138bcf3c070)conversation\_player\_want\_to\_join\_faction\_as\_mercenary\_or\_vassal\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_want\_to\_join\_faction\_as\_mercenary\_or\_vassal\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a369279f395c4f06cb7b760d59d85057b)conversation\_player\_want\_to\_end\_service\_as\_mercenary\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_want\_to\_end\_service\_as\_mercenary\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a288c414b40f72440e0e21c8b3ebd6ec8)conversation\_player\_want\_to\_end\_service\_as\_mercenary\_on\_consequence()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_want\_to\_end\_service\_as\_mercenary\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa17170dfdba694c441dde913ef51e990)player\_ask\_to\_join\_players\_party\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.player\_ask\_to\_join\_players\_party\_on\_condition | ( |  | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a538fb0f3fe867f0cab140d0f036bc2c2)conversation\_mercenary\_player\_accepts\_lord\_answer\_on\_consequence()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_mercenary\_player\_accepts\_lord\_answer\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad1ce44bd6ec98175b11cb692383b42ab)conversation\_player\_has\_question\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_has\_question\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad46bfa2357596659aff3f10db0478e14)conversation\_hero\_main\_options\_discussions()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_hero\_main\_options\_discussions | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a68d91036909e663aaa1b6574e2d719e1)conversation\_lord\_talk\_politics\_during\_siege\_parley\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_talk\_politics\_during\_siege\_parley\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0044d6f95551a80615692cb631cd05cd)conversation\_player\_is\_asking\_pardon\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_asking\_pardon\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a430632e99635df1a965ab992a7897178)conversation\_player\_is\_asking\_peace\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_asking\_peace\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#af5ddc7dfeb11634d02b5f0d28032b1eb)conversation\_player\_is\_leaving\_neutral\_or\_friendly\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_leaving\_neutral\_or\_friendly\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5c39ec7d8072eae5c5d6393ef7072885)conversation\_player\_is\_leaving\_enemy\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_leaving\_enemy\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3f9a9a438617cc7925694890db1694e2)conversation\_player\_is\_leaving\_enemy\_prisoner\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_leaving\_enemy\_prisoner\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7c4400652ed337c49268503170c10c31)conversation\_cheat\_lord\_diagnostics\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_cheat\_lord\_diagnostics\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a20cdb250ac1907910c97184e80624607)conversation\_cheat\_other\_lords\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_cheat\_other\_lords\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a8233f59906f7cf445f02e3d1d4f6bd9a)conversation\_player\_dont\_attack\_we\_surrender\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_dont\_attack\_we\_surrender\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a63da9a4db0d0996a6f237885721e8dd6)conversation\_cheat\_faction\_enmities\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_cheat\_faction\_enmities\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ae16f2fb7c6174ef06f3abeed9b380312)GetReasonForEnmity()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.GetReasonForEnmity | ( | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *lord1*, |
+|  |  | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *lord2*, |
+|  |  | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *talkTroop* ) |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aaa24495ef4c99f36075791a2f2d7f91e)conversation\_cheat\_reputation\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_cheat\_reputation\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ac3baf3b9f9adade3658f1804e1761216)conversation\_lord\_leave\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_leave\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a50f7c2adfc82677a071c93e862d1a423)conversation\_lord\_leave\_on\_consequence()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_leave\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a425a666961f715686708808782a78354)conversation\_capture\_defeated\_lord\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_capture\_defeated\_lord\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a92b55b0875bc5512a5fd5bae422fa24a)conversation\_liberate\_known\_hero\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_liberate\_known\_hero\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a89adc56109b8d4b6371aca6990425315)conversation\_liberate\_unmet\_hero\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_liberate\_unmet\_hero\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5d3f2b4df1c05d41b41d187d80d5af49)conversation\_reprisoner\_hero\_decision\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_reprisoner\_hero\_decision\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a2257ad2e02d9bca43f09ff347d78360a)conversation\_player\_liberates\_prisoner\_on\_consequence()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_liberates\_prisoner\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ab413dafffd1d06917bbc80826f2f7591)conversation\_player\_fails\_to\_release\_prisoner\_on\_consequence()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_fails\_to\_release\_prisoner\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3762974be171a0b17048a75fbc4ad8ae)conversation\_ally\_thanks\_meet\_after\_helping\_in\_battle\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_ally\_thanks\_meet\_after\_helping\_in\_battle\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a6ad0bfe35dac70196c7c11087048d25d)conversation\_ally\_thanks\_after\_helping\_in\_battle\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_ally\_thanks\_after\_helping\_in\_battle\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9f13a48cad58577167fb1cf8868fc3f5)conversation\_talk\_lord\_defeat\_to\_lord\_capture\_on\_consequence()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_talk\_lord\_defeat\_to\_lord\_capture\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#afc5390bc8becc91b6d57a7abd339e961)conversation\_talk\_lord\_defeat\_to\_lord\_capture\_and\_kill\_on\_consequence()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_talk\_lord\_defeat\_to\_lord\_capture\_and\_kill\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0c2c5d09bc1de506c3abb17e4c8dce09)conversation\_talk\_lord\_release\_noncombatant\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_talk\_lord\_release\_noncombatant\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ab362377f0a4c6ac2aaa65b1632e39f82)conversation\_talk\_lord\_release\_combatant\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_talk\_lord\_release\_combatant\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adacb19eb9255e2603c3dd92d7abe5c3b)conversation\_player\_ask\_ruling\_philosophy\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_ask\_ruling\_philosophy\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a44668e1366b4d1e5d20c16a13ba018f0)conversation\_player\_has\_long\_ruling\_philosophy\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_has\_long\_ruling\_philosophy\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad5c354d9f3963d6590db324295ff72c5)conversation\_talk\_lord\_defeat\_to\_lord\_release\_on\_consequence()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_talk\_lord\_defeat\_to\_lord\_release\_on\_consequence | ( |  | ) |  | | static |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a4b6fd1f34cfd68e7cff465be1c5d0211)conversation\_talk\_lord\_freed\_to\_lord\_capture\_on\_consequence()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_talk\_lord\_freed\_to\_lord\_capture\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aba2658851d1ad701122fa5614c1a73c4)conversation\_talk\_lord\_freed\_to\_lord\_release\_on\_consequence()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_talk\_lord\_freed\_to\_lord\_release\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a8502959e0e665e4e506e8ba357178c07)conversation\_lord\_request\_mission\_ask\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_request\_mission\_ask\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3197c00c6514cf277eb71b12f073763d)conversation\_lord\_mercenary\_service\_verify\_accept\_on\_consequence()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_mercenary\_service\_verify\_accept\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#afe3ccc1603a0c9f6a33924e82ee0c93b)conversation\_lord\_mercenary\_elaborate\_castle\_answer\_faction\_owner\_to\_women\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_mercenary\_elaborate\_castle\_answer\_faction\_owner\_to\_women\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a6900b45aef82ddd48d3ede659da03cc8)conversation\_lord\_mercenary\_elaborate\_castle\_answer\_to\_women\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_mercenary\_elaborate\_castle\_answer\_to\_women\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adddad035504edc0ab5d17bc27e5eb73d)conversation\_lord\_mercenary\_elaborate\_castle\_answer\_faction\_owner\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_mercenary\_elaborate\_castle\_answer\_faction\_owner\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a30df3921fb32b1d893bd159116fd55e2)conversation\_lord\_mercenary\_elaborate\_banner\_answer\_faction\_owner\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_mercenary\_elaborate\_banner\_answer\_faction\_owner\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa7694b710390a119248cd5b89031859a)conversation\_lord\_mission\_destroy\_bandit\_lair\_start\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_mission\_destroy\_bandit\_lair\_start\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#afe42c106b0792cc8142a2afeac3fce08)conversation\_convince\_options\_bribe\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_convince\_options\_bribe\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#af94440a24f909e22358ddd7052a1cbb4)conversation\_convince\_options\_friendship\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_convince\_options\_friendship\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a925202e0f68c646ce44291b349e84c07)conversation\_convince\_bribe\_verify\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_convince\_bribe\_verify\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad5b6bcc5ea866a031a8cc8d619d2dcab)conversation\_convince\_bribe\_player\_accept\_on\_consequence()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_convince\_bribe\_player\_accept\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a28b1c4643b04305b3e14b342bf2b58fb)conversation\_convince\_friendship\_verify\_go\_on\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_convince\_friendship\_verify\_go\_on\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ae56702d371f46af72a19d8397d84937d)conversation\_convince\_friendship\_verify\_go\_on\_on\_consequence()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_convince\_friendship\_verify\_go\_on\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a4fe7d0ca434f3b183b21ed7981501d43)conversation\_convince\_friendship\_lord\_response\_no\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_convince\_friendship\_lord\_response\_no\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a5d6937a0af3c618126a327a400403f85)conversation\_convince\_friendship\_lord\_response\_angry\_on\_condition()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_convince\_friendship\_lord\_response\_angry\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a94f12a04db86178491a5de4b8f2b69ec)conversation\_lord\_generic\_mission\_accept\_on\_consequence()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_generic\_mission\_accept\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a2068b54bd82f58ab33f7a233fcc97edf)conversation\_lord\_generic\_mission\_reject\_on\_consequence()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_generic\_mission\_reject\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ac5f95fd485a2b65fe903c52063c318c9)conversation\_lord\_tell\_mission\_no\_quest\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_mission\_no\_quest\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7037b36b6cc44c722c4b9d655eeb73ba)conversation\_player\_threats\_lord\_verify\_on\_consequence()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_threats\_lord\_verify\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aca0ef62a1da941e1512f9ef7f64930df)conversation\_player\_threats\_lord\_verify\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_threats\_lord\_verify\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a2aae134f75ec772be8fd0f4e7b3fb77a)conversation\_lord\_attack\_verify\_cancel\_on\_consequence()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_attack\_verify\_cancel\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a45619acba1c0965e37291d59dd757b54)conversation\_lord\_tell\_objective\_reconsider\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_reconsider\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a0eefa45a630a8a67322306041a6944b7)conversation\_lord\_tell\_objective\_besiege\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_besiege\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a75721b510837a4a7280ff381f6f7a7ac)conversation\_lord\_tell\_objective\_defence\_village\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_defence\_village\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa73dcc5d88be98b35ba617db0bd52580)conversation\_lord\_tell\_objective\_defence\_town\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_defence\_town\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa82dce2a197e50259c20219568516063)conversation\_lord\_tell\_objective\_patrolling\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_patrolling\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a435f56712e6a8b311d73b4eb51fe3064)conversation\_lord\_tell\_objective\_waiting\_for\_siege\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_waiting\_for\_siege\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a505cc4dd9ef763e10a323d9fbfd94f3c)conversation\_lord\_tell\_objective\_waiting\_for\_defence\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_waiting\_for\_defence\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a3377bf4debed3f2f058b8e0045500b5e)conversation\_lord\_tell\_objective\_raiding\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_raiding\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ace843638e3d73839ae7bf1e2dea48eb5)conversation\_lord\_tell\_objective\_waiting\_for\_raid\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_waiting\_for\_raid\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a9686d5d51fe4821264aee9cfaa87b9d4)conversation\_lord\_tell\_objective\_gathering\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_objective\_gathering\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a398ae70529b25cef71e1fca73471c20a)conversation\_lord\_tell\_gathering\_player\_joined\_on\_consequence()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_tell\_gathering\_player\_joined\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad86a0cb8132fe55e3582a8f65463a7fa)conversation\_lord\_ask\_pardon\_answer\_bad\_relation\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_ask\_pardon\_answer\_bad\_relation\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ad136f13b51f812152b14527bf741f938)conversation\_lord\_ask\_pardon\_answer\_low\_right\_to\_rule\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_ask\_pardon\_answer\_low\_right\_to\_rule\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a39a9c27b0011759cf14b79fd79283661)conversation\_lord\_ask\_pardon\_answer\_no\_advantage\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_ask\_pardon\_answer\_no\_advantage\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a293ad999ebd85eb1146669b3616640f2)conversation\_lord\_ask\_pardon\_answer\_not\_accepted\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_ask\_pardon\_answer\_not\_accepted\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a92d2407cfcd67251c552edcd709bbc2b)conversation\_lord\_ask\_pardon\_answer\_accepted\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_ask\_pardon\_answer\_accepted\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ab04b17b8246c468671336cf3539f7f5e)conversation\_lord\_give\_oath\_1\_player\_answer\_1\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_give\_oath\_1\_player\_answer\_1\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a53c4430d466a8e3fb1ca9ea8c75742f8)conversation\_set\_oath\_phrases\_on\_condition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_set\_oath\_phrases\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#adeb7f6c21fec26595d0516d4fd3b0ca1)conversation\_vassalage\_offer\_player\_is\_already\_vassal\_on\_condition()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_vassalage\_offer\_player\_is\_already\_vassal\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa1b93cf783b41f1d848b3d6ae4ba714c)conversation\_vassalage\_offer\_player\_has\_low\_relation\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_vassalage\_offer\_player\_has\_low\_relation\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#aa14bb8d8222deb52e8dd4791748a3e68)conversation\_mercenary\_service\_offer\_rejected\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_mercenary\_service\_offer\_rejected\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7abccbf786929f6f0ad9cf7c63d50e9a)conversation\_mercenary\_service\_offer\_accepted\_on\_condition()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_mercenary\_service\_offer\_accepted\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#af2e1dd54d9fab486fa4a1632b9ccc958)conversation\_vassalage\_offer\_accepted\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_vassalage\_offer\_accepted\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#af2ae748ffb8282938ae886610d967ebd)conversation\_liege\_states\_obligations\_to\_vassal\_on\_condition()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_liege\_states\_obligations\_to\_vassal\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a7497c1b269f9a3c0b196207002641d30)conversation\_player\_is\_accepted\_as\_a\_vassal\_on\_consequence()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_is\_accepted\_as\_a\_vassal\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#acb0773885d8960dc95f5fa8d702f49c4)conversation\_player\_leave\_faction\_accepted\_on\_consequence()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_leave\_faction\_accepted\_on\_consequence | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#ada39bd397908042cc8a3c3982475149b)conversation\_player\_leave\_faction\_accepted\_on\_leave()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_player\_leave\_faction\_accepted\_on\_leave | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a44f6fa2ab4b079c559935b54e42ad8e1)conversation\_lord\_talk\_ask\_location\_2\_on\_condition()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_talk\_ask\_location\_2\_on\_condition | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_lord_conversations_campaign_behavior.html#a681325bc57190aba49fa4c748cc22190)conversation\_lord\_talk\_ask\_location\_2\_on\_consequence()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.CampaignSystem.CampaignBehaviors.LordConversationsCampaignBehavior.conversation\_lord\_talk\_ask\_location\_2\_on\_consequence | ( |  | ) |  |
+

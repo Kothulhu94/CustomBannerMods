@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model-members.html ---
+
+TaleWorlds.CampaignSystem.GameComponents.DefaultTradeAgreementModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.GameComponents.DefaultTradeAgreementModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [CanMakeTradeAgreement](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html#a7fe9268a65f7d1ea4c0e189836bf58dc)(Kingdom kingdom, Kingdom other, bool checkOtherSideTradeSupport, out TextObject reason, bool includeReason=false) | [TaleWorlds.CampaignSystem.GameComponents.DefaultTradeAgreementModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html) |  |
+| [GetInfluenceCostOfProposingTradeAgreement](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html#a7c1e21c7b5f1ffd7bd25dbb7e99dac03)(Clan proposerClan) | [TaleWorlds.CampaignSystem.GameComponents.DefaultTradeAgreementModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html) |  |
+| [GetMaximumTradeAgreementCount](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html#aeaf3fbd0b5e3fd9fafa2fea4619fdb25)(Kingdom kingdom) | [TaleWorlds.CampaignSystem.GameComponents.DefaultTradeAgreementModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html) |  |
+| [GetScoreOfStartingTradeAgreement](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html#a4ffcb8bce1f3e7d67fa921e4a96fe22f)(Kingdom kingdom, Kingdom targetKingdom, Clan clan, out TextObject explanation, bool includeExplanation=false) | [TaleWorlds.CampaignSystem.GameComponents.DefaultTradeAgreementModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html) |  |
+| [GetTradeAgreementDurationInYears](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html#a28fffc921104b9f0fb74f0374e0ddd11)(Kingdom iniatatingKingdom, Kingdom otherKingdom) | [TaleWorlds.CampaignSystem.GameComponents.DefaultTradeAgreementModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_trade_agreement_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+

@@ -1,0 +1,24 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder-members.html ---
+
+TaleWorlds.MountAndBlade.AgentVisualHolder Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a243e6aa67867de04e5c72dea76d7fdc4)(MatrixFrame frame, Equipment equipment, string name, BodyProperties bodyProperties) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetBodyProperties](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a5837726e451c9bd189d7529005580312)() | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetCharacterObjectID](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#ac04c693ab03a58a0672ebe386e6bb49c)() | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetClothingColors](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a8acdea400a5a86c6c2f70c3795f65ac8)(out uint color1, out uint color2) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetCopyAgentVisualsData](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a041373c84a5bf9529adf5ac63bd35e9b)() | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetEntity](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#ace63508fa8c964bbc8e098147370ef53)() | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetEquipment](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a0eced4824c43b175b3e9f3b714486696)() | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetFrame](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#ac2af93e062f8e1990e9fed443b1e6cee)() | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetIsFemale](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a52aae3656a4f3ad434b5675eecf4874d)() | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [GetVisuals](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a53f887f5c8797135b1919d80172d17f0)() | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [Refresh](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a577d6b0c9c48a8394b7f82d30af33916)(bool needBatchedVersionForWeaponMeshes, AgentVisualsData data, bool forceUseFaceCache=false) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [RefreshWithNewEquipment](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a5e9ce6a2c2300597b4611e1fbeb2b0ab)(Equipment equipment) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [SetAction](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a118bfdf86581c0c5fe6931ad91dccd2e)(in ActionIndexCache actionName, float startProgress=0.0f, bool forceFaceMorphRestart=true) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [SetBodyProperties](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a5207bbbac1b705a8862281b74a06c1e4)(BodyProperties bodyProperties) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [SetCharacterObjectID](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a8867f76e10ce2c485cfa8b2b815e105e)(string id) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [SetClothingColors](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#a93204aaaf0a916966a8701e6775af985)(uint color1, uint color2) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+| [SetFrame](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html#ad787e30eadd6cac24f017328c5b3fda2)(ref MatrixFrame frame) | [TaleWorlds.MountAndBlade.AgentVisualHolder](class_tale_worlds_1_1_mount_and_blade_1_1_agent_visual_holder.html) |  |
+

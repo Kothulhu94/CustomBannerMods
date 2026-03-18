@@ -1,0 +1,11 @@
+--- SOURCE: struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status-members.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionDisableStatus Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionDisableStatus](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignOptionDisableStatus](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html#a9e5ba9d0a23001e6fe9625718e194945)(bool isDisabled, string disabledReason, float valueIfDisabled=-1f) | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionDisableStatus](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html) |  |
+| [DisabledReason](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html#a2bdf38801b29be221babf2de3afe9abe) | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionDisableStatus](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html) |  |
+| [IsDisabled](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html#a13261b162e1b66ab23dc164b829ddbca) | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionDisableStatus](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html) |  |
+| [ValueIfDisabled](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html#ac91d95d39a2a5f85de0d3eb24c1e8cfd) | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionDisableStatus](struct_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_option_disable_status.html) |  |
+

@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_villager_party_componenc7bdee52e4fc3e1cabafac13c94c36de.html ---
+
+TaleWorlds.CampaignSystem.Party.PartyComponents.VillagerPartyComponent.InitializationArgs Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Party.PartyComponents.VillagerPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_villager_party_component_1_1_initialization_args.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_villager_party_component_1_1_initialization_args.html#a55b39e67cf8fc1a69591846b5d85df3d)() | [TaleWorlds.CampaignSystem.Party.PartyComponents.VillagerPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_villager_party_component_1_1_initialization_args.html) |  |
+| [InitializeVillagerPartyProperties](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_villager_party_component_1_1_initialization_args.html#ac39e020bd9a5d4b2318c962bea20a21a)(MobileParty mobileParty, Village village) | [TaleWorlds.CampaignSystem.Party.PartyComponents.VillagerPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_villager_party_component_1_1_initialization_args.html) |  |
+

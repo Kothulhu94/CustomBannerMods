@@ -17,7 +17,7 @@ namespace BetterGov.Patches
             );
         }
 
-        public static bool Prefix(MobileParty mobileParty)
+        public static bool Prefix(MobileParty mobileParty, object p)
         {
             if (mobileParty == null) return false;
             return true;

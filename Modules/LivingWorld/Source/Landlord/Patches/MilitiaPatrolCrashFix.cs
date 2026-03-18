@@ -1,5 +1,6 @@
 using HarmonyLib;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.Library;
 using LivingLegend;
@@ -7,18 +8,24 @@ using System;
 
 namespace Landlord.Patches
 {
-    [HarmonyPatch(typeof(MobilePartyAi), "GetNavalPatrolBehavior")]
     public static class MilitiaPatrolNavalCrashFix
     {
-        public static bool Prefix(MobilePartyAi __instance, ref AiBehavior patrolBehavior, ref CampaignVec2 patrolTargetPoint, CampaignVec2 patrollingCenterPoint, bool forceUpdate)
+        public static System.Reflection.MethodBase TargetMethod()
+        {
+            // Bannerlord 1.3.x uses GetNavalPatrolBehavior
+            return AccessTools.Method(typeof(MobilePartyAi), "GetNavalPatrolBehavior");
+        }
+
+        public static bool Prefix(MobilePartyAi __instance, MobileParty mobileParty, ref AiBehavior patrolBehavior, ref CampaignVec2 patrolTargetPoint, CampaignVec2 patrollingCenterPoint, bool forceUpdate)
         {
             try
             {
-                // Access private _mobileParty field via Reflection/Traverse
-                var party = __instance.GetType().GetField("_mobileParty", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)?.GetValue(__instance) as MobileParty;
-                
-                if (party != null && party.PartyComponent is MilitiaPatrolComponent)
+                if (mobileParty != null && mobileParty.PartyComponent is MilitiaPatrolComponent)
                 {
+                    // For militia patrols, we skip the naval behavior calculation to avoid the crash
+                    // We set default behavior to avoid unassigned refs
+                    patrolBehavior = AiBehavior.None;
+                    patrolTargetPoint = CampaignVec2.Invalid;
                     return false; // Skip original method
                 }
             }

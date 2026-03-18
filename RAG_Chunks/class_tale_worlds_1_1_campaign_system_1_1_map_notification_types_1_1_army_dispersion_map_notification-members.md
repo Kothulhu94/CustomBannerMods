@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.ArmyDispersionMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.ArmyDispersionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ArmyDispersionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html#a1f4a3cd2a5ed30cb45a1a2305b7c4b1f)(Army dispersedArmy, Army.ArmyDispersionReason reason, TextObject descriptionText) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ArmyDispersionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [DispersedArmy](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html#a1a9bf05e85b68e069a8e57d3589196e6) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ArmyDispersionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html) |  |
+| [DispersionReason](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html#a5777d8c6de96fa7bedac3cf74b11f11c) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ArmyDispersionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html#a1b8e179f987e4778e5e11d2f519821fa) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ArmyDispersionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html#a6b81750130228b95a132d7ccda36151c) | [TaleWorlds.CampaignSystem.MapNotificationTypes.ArmyDispersionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_army_dispersion_map_notification.html) |  |
+

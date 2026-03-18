@@ -1,0 +1,10 @@
+--- SOURCE: interface_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_i_civil_war_campaign_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.ICivilWarCampaignBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.ICivilWarCampaignBehavior](interface_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_i_civil_war_campaign_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [IsFactionIsInACivilWar](interface_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_i_civil_war_campaign_behavior.html#aafc4057616176019bd6fd0af69f07245)(IFaction faction) | [TaleWorlds.CampaignSystem.CampaignBehaviors.ICivilWarCampaignBehavior](interface_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_i_civil_war_campaign_behavior.html) |  |
+| [IsFactionSeceeding](interface_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_i_civil_war_campaign_behavior.html#af5f0efe6fe777f477115f49182b02ce7)(IFaction faction) | [TaleWorlds.CampaignSystem.CampaignBehaviors.ICivilWarCampaignBehavior](interface_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_i_civil_war_campaign_behavior.html) |  |
+| [IsThereOnGoingCivilWar](interface_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_i_civil_war_campaign_behavior.html#a856786864c5e0913896c8e20193e96e6)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.ICivilWarCampaignBehavior](interface_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_i_civil_war_campaign_behavior.html) |  |
+

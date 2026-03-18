@@ -1,10 +1,11 @@
 using HarmonyLib;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.Settlements;
 
 
 namespace HappyParty.Patches
 {
-    [HarmonyPatch(typeof(HeroCreator), "CreateSpecialHero")]
+    [HarmonyPatch(typeof(HeroCreator), "CreateSpecialHero", new[] { typeof(CharacterObject), typeof(Settlement), typeof(Clan), typeof(Clan), typeof(int) })]
     public static class WandererPatches
     {
         public static void Postfix(Hero __result)

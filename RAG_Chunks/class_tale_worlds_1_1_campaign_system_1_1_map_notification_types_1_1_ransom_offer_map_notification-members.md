@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.RansomOfferMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CaptiveHero](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html#a37945d59f7f1ff1d8c743fab61caab72) | [TaleWorlds.CampaignSystem.MapNotificationTypes.RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html#a9d25b9340f138d810ba3d45fe0938eed)() | [TaleWorlds.CampaignSystem.MapNotificationTypes.RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html) | virtual |
+| [RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html#ade180698e71fdb73f727aef7d4a2652f)(Hero captiveHero, TextObject descriptionText) | [TaleWorlds.CampaignSystem.MapNotificationTypes.RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html) |  |
+| [RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html#a6d9551dcddbf8da56a786a428f44e903)(TextObject description) | [TaleWorlds.CampaignSystem.MapNotificationTypes.RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html#a842a379bd2b82a2c9ebf92077f0ea85b) | [TaleWorlds.CampaignSystem.MapNotificationTypes.RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html#a612ef50a1d43dd90ba91c13eeb9b40f3) | [TaleWorlds.CampaignSystem.MapNotificationTypes.RansomOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_ransom_offer_map_notification.html) |  |
+

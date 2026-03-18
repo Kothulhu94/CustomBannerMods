@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_army_needs_supplies_issue_behavior_1_1_army3e11f165d6523771571f3f46de6ff094.html ---
+
+TaleWorlds.CampaignSystem.Issues.ArmyNeedsSuppliesIssueBehavior.ArmyNeedsSuppliesIssueTypeDefiner Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Issues.ArmyNeedsSuppliesIssueBehavior.ArmyNeedsSuppliesIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_army_needs_supplies_issue_behavior_1_1_army45ca1ede59e16bbd0b989222875772e7.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ArmyNeedsSuppliesIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_army_needs_supplies_issue_behavior_1_1_army45ca1ede59e16bbd0b989222875772e7.html#a4d75f53a50c1a26fd2f0e8f4310e56c4)() | [TaleWorlds.CampaignSystem.Issues.ArmyNeedsSuppliesIssueBehavior.ArmyNeedsSuppliesIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_army_needs_supplies_issue_behavior_1_1_army45ca1ede59e16bbd0b989222875772e7.html) |  |
+| [DefineClassTypes](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_army_needs_supplies_issue_behavior_1_1_army45ca1ede59e16bbd0b989222875772e7.html#af400d0c5b047605f3643869f98058a52)() | [TaleWorlds.CampaignSystem.Issues.ArmyNeedsSuppliesIssueBehavior.ArmyNeedsSuppliesIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_army_needs_supplies_issue_behavior_1_1_army45ca1ede59e16bbd0b989222875772e7.html) | protected |
+

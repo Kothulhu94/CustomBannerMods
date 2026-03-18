@@ -1,0 +1,4 @@
+--- SOURCE: interface_tale_worlds_1_1_campaign_system_1_1_game_state_1_1_i_game_over_state_handler.html ---
+
+TaleWorlds.CampaignSystem.GameState.IGameOverStateHandler Interface ReferenceInherited by [SandBox.GauntletUI.GauntletGameOverScreen](class_sand_box_1_1_gauntlet_u_i_1_1_gauntlet_game_over_screen.html).
+

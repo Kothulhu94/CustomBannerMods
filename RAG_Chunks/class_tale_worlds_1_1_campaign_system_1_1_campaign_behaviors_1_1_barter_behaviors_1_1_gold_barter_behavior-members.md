@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_gold_barter_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.GoldBarterBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.GoldBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_gold_barter_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CheckForBarters](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_gold_barter_behavior.html#a88ee083e3cbc29e3bade8c18ebc8117f)(BarterData args) | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.GoldBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_gold_barter_behavior.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_gold_barter_behavior.html#acb8dfa4eac5e072c856d7d756d7351ff)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.GoldBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_gold_barter_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_gold_barter_behavior.html#a296f807e21a143fea04290f5ec53c871)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.GoldBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_gold_barter_behavior.html) |  |
+

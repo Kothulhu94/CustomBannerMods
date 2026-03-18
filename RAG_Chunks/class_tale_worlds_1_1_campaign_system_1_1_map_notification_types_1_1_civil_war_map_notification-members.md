@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.CivilWarMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.CivilWarMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CivilWarMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html#a5b731d5aa7ae92a6dd8bf83c13c81b64)(IFaction firstFaction, IFaction secondFaction, TextObject descriptionText) | [TaleWorlds.CampaignSystem.MapNotificationTypes.CivilWarMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [FirstFaction](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html#a5c2329aa80230287fb2bbfb4ec12c6e2) | [TaleWorlds.CampaignSystem.MapNotificationTypes.CivilWarMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [SecondFaction](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html#a9e34f6b2d813c604c8d2957efa43fdb1) | [TaleWorlds.CampaignSystem.MapNotificationTypes.CivilWarMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html#aad816c47bd1a05c1f91dead4b6b58514) | [TaleWorlds.CampaignSystem.MapNotificationTypes.CivilWarMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html#a732e376e5becd48dc09c8b6152b20d57) | [TaleWorlds.CampaignSystem.MapNotificationTypes.CivilWarMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_civil_war_map_notification.html) |  |
+

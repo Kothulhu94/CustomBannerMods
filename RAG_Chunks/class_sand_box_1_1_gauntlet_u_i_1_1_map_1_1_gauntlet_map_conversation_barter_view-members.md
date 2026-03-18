@@ -1,0 +1,16 @@
+--- SOURCE: class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view-members.html ---
+
+SandBox.GauntletUI.Map.GauntletMapConversationBarterView Member ListThis is the complete list of members for [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Activate](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#a68b597b0e9c5059f98abc31c5560e418)() | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+| [CreateBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#a153f461258eee079fdca1c4a9148efec)(BarterData args) | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+| [Deactivate](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#aa2998d5dda4f6c136a85f1fbbb045449)() | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+| [DestroyBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#aa3b14fed0e22e5a79b54726ca5f050d3)() | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+| [GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#aae5dea1fe915fa7905d40b9d1dc75ae6)(GauntletLayer layer, OnBarterActiveStateChanged onActiveStateChanged) | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+| [IsActive](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#a1d774978be420ae79d075d9db7c821c4) | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+| [IsCreated](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#a2cb8bb0663c5a03925c45e4d2d74c9d5) | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+| [OnBarterActiveStateChanged](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#a52623bf249c718790a9ebe5d77e4cad2)(bool isBarterActive) | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+| [TickInput](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html#a6e68a4dc4ac424525ee6b7a0af8a6823)() | [SandBox.GauntletUI.Map.GauntletMapConversationBarterView](class_sand_box_1_1_gauntlet_u_i_1_1_map_1_1_gauntlet_map_conversation_barter_view.html) |  |
+

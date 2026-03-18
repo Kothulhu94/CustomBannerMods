@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_item_barter_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.ItemBarterBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.ItemBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_item_barter_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CheckForBarters](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_item_barter_behavior.html#aa905ca02f73a11b21f42acfc75015554)(BarterData args) | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.ItemBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_item_barter_behavior.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_item_barter_behavior.html#aba6ee3a06814037974ba711fb7bcea14)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.ItemBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_item_barter_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_item_barter_behavior.html#ad94502290c05f4035a98b42655e79799)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.ItemBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_item_barter_behavior.html) |  |
+

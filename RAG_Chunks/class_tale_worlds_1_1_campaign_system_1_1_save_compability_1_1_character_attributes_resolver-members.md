@@ -1,0 +1,11 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver-members.html ---
+
+TaleWorlds.CampaignSystem.SaveCompability.CharacterAttributesResolver Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.SaveCompability.CharacterAttributesResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GetFieldMemberWithId](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html#a82f5cd3bbf8a45d6c30fefd0a6111616)(MemberTypeId memberTypeId) | [TaleWorlds.CampaignSystem.SaveCompability.CharacterAttributesResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html) |  |
+| [GetNewType](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html#a4a230beca43a72008bb2abe3ba2cd195)() | [TaleWorlds.CampaignSystem.SaveCompability.CharacterAttributesResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html) |  |
+| [GetPropertyMemberWithId](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html#a94caa3d10f2acbc71bba3585e7e66987)(MemberTypeId memberTypeId) | [TaleWorlds.CampaignSystem.SaveCompability.CharacterAttributesResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html) |  |
+| [IsApplicable](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html#a563b3fcc4aae6bd87280512660442d91)(ApplicationVersion version) | [TaleWorlds.CampaignSystem.SaveCompability.CharacterAttributesResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_character_attributes_resolver.html) |  |
+

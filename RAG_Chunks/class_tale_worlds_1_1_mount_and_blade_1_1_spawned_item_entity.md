@@ -1,0 +1,406 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html ---
+
+TaleWorlds.MountAndBlade.SpawnedItemEntity Class ReferenceInherits [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html).
+
+|  |  |
+| --- | --- |
+| Public Member Functions | |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [GetActionMessage](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ace2ec6dafe7bbca0f2995501271bf143) ([ItemObject](class_tale_worlds_1_1_core_1_1_item_object.html) weaponToReplaceWith, bool fillUp) |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [GetDescriptionMessage](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a3e14599540d9a03fbb8f02021652efd8) (bool fillUp) |
+| void | [Initialize](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a937a65d54509d0213652510b87637671) ([MissionWeapon](struct_tale_worlds_1_1_mount_and_blade_1_1_mission_weapon.html) weapon, bool hasLifeTime, [Mission.WeaponSpawnFlags](class_tale_worlds_1_1_mount_and_blade_1_1_mission.html#a13b99667142577320096a9f09f129f63) spawnFlags, in [Vec3](struct_tale_worlds_1_1_library_1_1_vec3.html) fakeSimulationVelocity, bool spawnedOnACorpse=false) |
+| override [TickRequirement](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154d) | [GetTickRequirement](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ad1e02c9f3d7f5892c24acc9483801668) () |
+| void | [AttachWeaponToWeapon](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a4a82a587e15ae3497ee8d7b8138823c3) ([MissionWeapon](struct_tale_worlds_1_1_mount_and_blade_1_1_mission_weapon.html) attachedWeapon, ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) attachLocalFrame) |
+| bool | [IsReadyToBeDeleted](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a998587052b2b5171cfeef1458f04478f) () |
+| override void | [OnUseStopped](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ab6ddd6538a38d8b963d4e79c6f4dae3e) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) userAgent, bool isSuccessful, int preferenceIndex) |
+| override void | [OnUse](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#af97b43a4a1fddbda5e7b5d8b6fb133ad) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) userAgent, sbyte agentBoneIndex) |
+| override bool | [IsDisabledForAgent](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a46701fe958542fb173416fd5e9917434) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent) |
+| bool | [IsStuckMissile](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#aa2312e6d43873d2b04ac15e078aa14aa) () |
+| bool | [IsQuiverAndNotEmpty](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ae1ad603726d9c87cfad776d661ffe01e) () |
+| bool | [IsBanner](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#aa6875b5a3c1de3566e7bb43d8a6ef213) () |
+| override [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [GetInfoTextForBeingNotInteractable](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a2bb9865c15594a2daa01561888ea49a8) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) userAgent) |
+| void | [StopPhysicsAndSetFrameForClient](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ace06b85e4352d26fdf38c6006f6eee2f) ([MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, [GameEntity](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a0a02cc65cc567db6101ea4afa275ff36) parent) |
+| void | [ConsumeWeaponAmount](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ad7d1a0b5ff600b9a9dfa5658249f955f) (short consumedAmount) |
+| override [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [GetDescriptionText](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a062ed8a3dec7f6ceca2881534badd3d2) ([WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) gameEntity) |
+| void | [RequestDeletionOnNextTick](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a4e8d929243d913914eec6ec4168c8600) () |
+| override void | [OnAfterReadFromNetwork](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a866d479c47a34cdd8ccb87ca9938cbd0) (([BaseSynchedMissionObjectReadableRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_base_synched_mission_object_readable_record.html), [ISynchedMissionObjectReadableRecord](interface_tale_worlds_1_1_mount_and_blade_1_1_i_synched_mission_object_readable_record.html)) synchedMissionObjectReadableRecord, bool allowVisibilityUpdate=true) |
+| Public Member Functions inherited from [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html) | |
+| virtual void | [OnUserConversationStart](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a3d20a156bd98c487ef40a7d5e0887a1a) () |
+| virtual void | [OnUserConversationEnd](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a5294d75d8e934fbea5e9aa72cdb97c0e) () |
+| void | [SetAreUserPositionsUpdatedInTheMachineTick](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a48ec3eb5761cf11bd2337e1495baf85b) (bool value) |
+| bool | [GetIsUserPositionsUpdatedInTheMachineTick](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#abd6c8a6e39273df491181810b4421851) () |
+| void | [SetIsDeactivatedSynched](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a32c42b162947e571c935da48e3e6f75b) (bool value) |
+| void | [SetIsDisabledForPlayersSynched](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aebee75d2837748125c616e32c14a0978) (bool value) |
+| void | [AddComponent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a14331f48de3d8d0fe476a06764fcb9d4) ([UsableMissionObjectComponent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object_component.html) component) |
+| void | [RemoveComponent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a82fd50f8aa3f285f027b0bc736b38d18) ([UsableMissionObjectComponent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object_component.html) component) |
+| T | [GetComponent< T >](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a0e00b124f3526e3086f5c58610b3570e) () |
+| void | [RefreshGameEntityWithWorldPosition](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ac9f2d0db83650415bc10fe3105cf9e37) () |
+| virtual void | [OnFocusGain](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aa15a812a0128b612164af424d85ea4e6) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) userAgent) |
+| virtual void | [OnFocusLose](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#af997bed64c826467232fec994242a010) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) userAgent) |
+| virtual void | [SetUserForClient](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ad9689dcb9fda16874047b2fc702dd49a) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) userAgent) |
+| virtual void | [OnAIMoveToUse](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ab025e5ed073d184286a532c4ad9e47bf) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) userAgent, [IDetachment](interface_tale_worlds_1_1_mount_and_blade_1_1_i_detachment.html) detachment) |
+| virtual void | [OnMoveToStopped](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a7edcbd3ef673f10964397d80e139a764) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) movingAgent) |
+| virtual int | [GetMovingAgentCount](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a6e95d941e32269c20b8485333577bdee) () |
+| virtual [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) | [GetMovingAgentWithIndex](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a97c2330854c2742043450ba40c13da88) (int index) |
+| virtual void | [RemoveMovingAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aa6af26485f891be8e7bfd8ac5203aaf9) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) movingAgent) |
+| virtual void | [AddMovingAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a6a2301259e63ca336f34ceffc7c25b73) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) movingAgent) |
+| void | [OnAIDefendBegin](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ae4fbe04f2b9b4da50f057484d0f56767) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent, [IDetachment](interface_tale_worlds_1_1_mount_and_blade_1_1_i_detachment.html) detachment) |
+| void | [OnAIDefendEnd](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a0b10405802a1e7f15661dc1507d1a60e) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent) |
+| void | [InitializeDefendingAgents](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a90848d52d05fd0f37193f5d71c62ab8a) () |
+| int | [GetDefendingAgentCount](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ab5f99e9003717da86c8fcf708071f673) () |
+| void | [AddDefendingAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ae7744f10bb028943355a1da1a5a03dba) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent) |
+| void | [RemoveDefendingAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ad10386226cd940baf08b5e82e82172ed) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent) |
+| bool | [IsAgentDefending](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a69b4c71076412556219527a19f8a13cc) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent) |
+| virtual void | [SimulateTick](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a11ae33d6f4c0c147e91bc4225fb9be21) (float dt) |
+| override [TickRequirement](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154d) | [GetTickRequirement](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a76db9b9ea560768045354a9aa3075d4b) () |
+| virtual [WorldFrame](struct_tale_worlds_1_1_engine_1_1_world_frame.html) | [GetUserFrameForAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a6c7191bd791a2a14f720f3cabae12267) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent) |
+| override string | [ToString](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#af118ce91b3f883c25d1e3c8efcea299f) () |
+| virtual bool | [IsAIMovingTo](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aee056dc2704af4b37cdbac82b5d68950) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent) |
+| virtual bool | [HasUserPositionsChanged](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a5b9c91c2049fef0b4040574db8eae91b) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) agent) |
+| override void | [WriteToNetwork](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a1572b85fb7a1ffcb2edda4f211e7c58d) () |
+|  | Sends object's data to synchronize it to clients. |
+| virtual bool | [IsUsableByAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ad7bd07ad0edca6af5f573d437ea3d596) ([Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) userAgent) |
+| void | [SetCustomLocalFrame](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a2841f40a0e26e9b774775bead13721b4) (in [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) customLocalFrame) |
+| override void | [OnEndMission](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aceeacd54ae263afd796366d18e0b4f94) () |
+| override void | [OnAfterReadFromNetwork](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a5f30e6603f87731fe8a990af7152caa5) (([BaseSynchedMissionObjectReadableRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_base_synched_mission_object_readable_record.html), [ISynchedMissionObjectReadableRecord](interface_tale_worlds_1_1_mount_and_blade_1_1_i_synched_mission_object_readable_record.html)) synchedMissionObjectReadableRecord, bool allowVisibilityUpdate=true) |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [GetDescriptionText](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aa227a955dcb577a5d59ae329ec0298db) ([WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) gameEntity) |
+| Public Member Functions inherited from [TaleWorlds.MountAndBlade.SynchedMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html) | |
+| void | [SetLocalPositionSmoothStep](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#ac3d9c08322fdc346100bca4e4762762b) (ref [Vec3](struct_tale_worlds_1_1_library_1_1_vec3.html) targetPosition) |
+| virtual void | [SetVisibleSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#adfd7b558f73221bc0026ae3537f20f87) (bool value, bool forceChildrenVisible=false) |
+| virtual void | [SetPhysicsStateSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a4c5c4d8e7bfcf7c1060df3b71eb690b0) (bool value, bool setChildren=true) |
+| virtual void | [SetDisabledSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#ae09410bb02fc8fc88fc102e8be966e0a) () |
+| void | [SetFrameSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a007c85e9032d6abeae67664b7041aa3b) (ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, bool isClient=false) |
+| void | [SetGlobalFrameSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a807953d5b1169590b4210911e44f7a72) (ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, bool isClient=false) |
+| void | [SetFrameSynchedOverTime](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a3329b617636e9f59126e646e53428ea7) (ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, float duration, bool isClient=false) |
+| void | [SetGlobalFrameSynchedOverTime](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a3b351de7c8809172349afdbdcb4816ec) (ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) frame, float duration, bool isClient=false) |
+| void | [SetAnimationAtChannelSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#aec216ecb7efe2ffb6c35ab8cbcb7145f) (string animationName, int channelNo, float animationSpeed=1.0f) |
+| void | [SetAnimationAtChannelSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a4a52e17030a4c85e0c227455992fd86b) (int animationIndex, int channelNo, float animationSpeed=1.0f) |
+| void | [SetAnimationChannelParameterSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a9346db672221f04ae2e302f127a8deb0) (int channelNo, float parameter) |
+| void | [PauseSkeletonAnimationSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a0bf8bc896100e854a4d0d2ec805925cd) () |
+| void | [ResumeSkeletonAnimationSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a039bcbc75df8020e8da1ffe72c763eeb) () |
+| void | [BurstParticlesSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a2aced2f1c98005c8c6417beced585997) (bool doChildren=true) |
+| void | [ApplyImpulseSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#acb2120f6447949d574486f92f0c9a055) ([Vec3](struct_tale_worlds_1_1_library_1_1_vec3.html) localPosition, [Vec3](struct_tale_worlds_1_1_library_1_1_vec3.html) impulse) |
+| void | [AddBodyFlagsSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a7be570332d3835a27b36c512b7ec652e) ([BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) flags, bool applyToChildren=true) |
+| void | [RemoveBodyFlagsSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a3c28a2be85209207acd98fe70eea5dbb) ([BodyFlags](namespace_tale_worlds_1_1_engine.html#ad225808c3d58dc638860892bcb806b7a) flags, bool applyToChildren=true) |
+| void | [SetTeamColors](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a4e57328ba7581176377d8705804d0229) (uint color, uint color2) |
+| virtual void | [SetTeamColorsSynched](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#aa12c5772def937a161a7859471ef4bae) (uint color, uint color2) |
+| Public Member Functions inherited from [TaleWorlds.MountAndBlade.MissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html) | |
+|  | [MissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a4eaa53f5b1c5e3af4d4189e099c8e05e) () |
+| virtual void | [SetAbilityOfFaces](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#ad02ae6fa04bfdc79f9fcd010afbff84e) (bool enabled) |
+| override int | [GetHashCode](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a41ecc2ecbc888f99ca3b942d63503381) () |
+| virtual void | [AfterMissionStart](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a925fa787ae9b9a2ec414c9b575156fc1) () |
+| virtual void | [OnMissionEnded](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#aa903cd7aefee1178f7e0700031f6cbd3) () |
+| virtual void | [OnDeploymentFinished](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a4e4cad37fb9742ab43c03a1c897c2e69) () |
+| void | [SetEnabled](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a71e0f9570275a903e70677f952e208df) (bool isParentObject=false) |
+|  | Enables the mission object script and adds it to active mission objects. |
+| void | [SetEnabledAndMakeVisible](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#ac49392483340a58efd0348abc690fbed) (bool isParentObject=false, bool enableFaces=false) |
+|  | [Mission](class_tale_worlds_1_1_mount_and_blade_1_1_mission.html) object is enabled and added to active mission objects list, its entity is made visible and therefore its physics is turned on. |
+| void | [SetDisabled](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a628c7044cb17819d62166341a4153b55) (bool isParentObject=false) |
+|  | Only disables the mission object script and removes it from active mission objects list but the object entity remains visible with active physics. |
+| void | [SetDisabledAndMakeInvisible](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a617290738365d2ff7e1423b194d08d34) (bool isParentObject=false, bool disableFaces=false) |
+|  | [Mission](class_tale_worlds_1_1_mount_and_blade_1_1_mission.html) object is disabled and removed from active mission objects list, its entity is made invisible and therefore its physics is turned off. |
+| virtual void | [AddStuckMissile](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a0173366e9a2f20a2b9bb83939c3f4d2d) ([GameEntity](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a0a02cc65cc567db6101ea4afa275ff36) missileEntity) |
+| Public Member Functions inherited from [TaleWorlds.Engine.ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html) | |
+| void | [SetScriptComponentToTick](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#ae15c963749bd0f9a75bba24a333b39d4) ([TickRequirement](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154d) tickReq) |
+| void | [SetScriptComponentToTickMT](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a9b2183852eb7b70042ed82ef917022c6) ([TickRequirement](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154d) value) |
+
+|  |  |
+| --- | --- |
+| Public Attributes | |
+| string | [WeaponName](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a3957c5e49bd4e40b71171d4207e3e982) = "" |
+| Public Attributes inherited from [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html) | |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [DescriptionMessage](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a4bc4b5231ecfe5915407bd53714b99bb) = [TextObject.GetEmpty](class_tale_worlds_1_1_localization_1_1_text_object.html#a7610c7f72e75604a8fcaf95b35e020a5)() |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [ActionMessage](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a24907803e3a26fbb3406ab305df4ca58) = [TextObject.GetEmpty](class_tale_worlds_1_1_localization_1_1_text_object.html#a7610c7f72e75604a8fcaf95b35e020a5)() |
+
+|  |  |
+| --- | --- |
+| Protected Member Functions | |
+| override void | [OnRemoved](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a08b88a59b20053ba9d50ed17379d4c75) (int removeReason) |
+| Protected Member Functions inherited from [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html) | |
+|  | [UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a08b05664c7dc3d686eb93633c3c3a628) (bool isInstantUse=false) |
+| virtual void | [CollectChildEntity](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a54e849eab9bac1a98974178e885ea330) ([WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) childEntity) |
+| virtual bool | [VerifyChildEntities](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#acc4cab70773b018522378ed0ea7ff5ee) (ref string errorMessage) |
+| override void | [OnRemoved](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a4f1f6f103fd69340341f510b1113b215) (int removeReason) |
+| Protected Member Functions inherited from [TaleWorlds.MountAndBlade.MissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html) | |
+| virtual void | [AttachDynamicNavmeshToEntity](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a96b0e630894be6b18d6395ad12f811ac) () |
+| virtual [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | [GetEntityToAttachNavMeshFaces](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a91b69e394d98f64d45604ee179496bb3) () |
+| Protected Member Functions inherited from [TaleWorlds.Engine.ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html) | |
+| void | [InvalidateWeakPointersIfValid](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#af39d73d0c78790ba81a40a5a350c0526) () |
+|  | [ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a0bc136bb53989f2b9a4f23f12f54a332) () |
+
+|  |  |
+| --- | --- |
+| Properties | |
+| [MissionWeapon](struct_tale_worlds_1_1_mount_and_blade_1_1_mission_weapon.html) | [WeaponCopy](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#afb13e31fa6468924c1483e3b61c34215) `[get]` |
+| bool | [HasLifeTime](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a0d4ec1886e2f3e92cdf54390e7535e9c) `[get, set]` |
+| bool | [IsRemoved](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ac1b5d826d4027670b40ff097b5acfdd9) `[get]` |
+| bool | [SpawnedOnACorpse](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ac63d58f29082c507be7c6ee7984db8e5) `[get]` |
+| override bool | [LockUserFrames](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#abdbbed93b8abe9a3ef9d7560fe316dc0) `[get]` |
+| [Mission.WeaponSpawnFlags](class_tale_worlds_1_1_mount_and_blade_1_1_mission.html#a13b99667142577320096a9f09f129f63) | [SpawnFlags](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#aa5bb539147acb06552291fe448bfff87) `[get]` |
+| Properties inherited from [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html) | |
+| virtual [FocusableObjectType](namespace_tale_worlds_1_1_mount_and_blade.html#aa83361d8fb674ed9b16444d43d30d141) | [FocusableObjectType](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ab6ff66b345c22e8dcffcd7df4c04a73f) `[get]` |
+| virtual bool | [IsFocusable](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a7675e969c6d4685bbc466c8896fd42ae) `[get]` |
+| [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) | [UserAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a1ec129dd974ce7bac3aca8bb132fe945) `[get]` |
+| [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) | [PreviousUserAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a07877cae186eaf95d31889eaf0276ba9) `[get]` |
+| GameEntityWithWorldPosition | [GameEntityWithWorldPosition](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ab19d5c2d887580f70cfbbdfe35d0f83e) `[get]` |
+| virtual [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) | [MovingAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a4c3a94092901aee68778f407ebd1d3ad) `[get]` |
+| List< [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) > | [DefendingAgents](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a1ef1394f88a0d4e3ae92b8b63961bfc0) `[get]` |
+| bool | [HasDefendingAgent](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a7bd4faf639f5c4159ebe0707a56adcc0) `[get]` |
+| virtual bool | [DisableCombatActionsOnUse](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a5c9cc6e74fa44578efd47a33a4f44087) `[get]` |
+|  | If user agent's combat actions will be disabled while using this object or not. |
+| virtual bool | [LockUserFrames](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a37ce0ac13ef6d5dd8f1044b36f06221d) `[get, set]` |
+|  | If user agents' frames will stay constant or not. |
+| virtual bool | [LockUserPositions](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aee1a2bb54f9fe11a3adfdeb4a943da07) `[get, set]` |
+|  | If user agents' positions will stay constant or not. |
+| bool | [IsInstantUse](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a14d913907d32a676db073c617334a668) `[get, protected set]` |
+|  | Whether this object is used instantly or is used continuously over some time. |
+| bool | [IsDeactivated](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#ab2237b833e50ca914985f02ef71df11e) `[get, set]` |
+| bool | [IsDisabledForPlayers](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a8f7b9637971accd6813053bb12c19aa4) `[get, set]` |
+| virtual [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | [InteractionEntity](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a357c1e02e7a357a3d367eb0b91906442) `[get]` |
+| bool | [HasAIUser](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#afb8e516dfebb27e6c84290614bcb9b66) `[get]` |
+| bool | [HasUser](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a6867a99e199d34379d492a4ef649fbb5) `[get]` |
+| virtual bool | [HasAIMovingTo](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aa828d7907abf0cc8149b6722f42cda3f) `[get]` |
+| bool | [IsVisible](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a0d2d97a34c8af9bb75df02a9706431e1) `[get, set]` |
+| Properties inherited from [TaleWorlds.MountAndBlade.SynchedMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html) | |
+| uint | [Color](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a832ccf9e2bf604c00868fa3b15db3e55) `[get]` |
+| uint | [Color2](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#ada43d051ea21ec2ed928b2850a28d1fe) `[get]` |
+| bool | [SynchronizeCompleted](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a1db8c6d3c11f75a0a1ef610ad5bc0e71) `[get]` |
+| Properties inherited from [TaleWorlds.MountAndBlade.MissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html) | |
+| [MissionObjectId](struct_tale_worlds_1_1_mount_and_blade_1_1_mission_object_id.html) | [Id](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a6fbaa061b2ba0b6d0ad628a95f2f15ab) `[get, set]` |
+| bool | [IsDisabled](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a53552a096fb534b9ea90ae1527b19cf4) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [HitObjectName](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a157e8b8a578e378ca91fb22639741ab3) `[get]` |
+| bool | [CreatedAtRuntime](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a4d626d05a65d1a028bd791bbeba1f723) `[get]` |
+| Properties inherited from [TaleWorlds.Engine.ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html) | |
+| [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | [GameEntity](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a0a02cc65cc567db6101ea4afa275ff36) `[get]` |
+| [ManagedScriptComponent](class_tale_worlds_1_1_engine_1_1_managed_script_component.html) | [ScriptComponent](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a8d7c5772e6b456b1e22ccd46a0b391ce) `[get]` |
+| ManagedScriptHolder | [ManagedScriptHolder](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a58417dd71bf3daca6eb58df177617c2d) `[get]` |
+| Scene | [Scene](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a9d7d5b77582948847f1d1c532face2c8) `[get]` |
+
+|  |  |
+| --- | --- |
+| Additional Inherited Members | |
+| Public Types inherited from [TaleWorlds.MountAndBlade.SynchedMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html) | |
+| enum | [SynchFlags](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a26da6a88ac107b001aafd7eca158a5ca) : uint {     [SynchNone](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a26da6a88ac107b001aafd7eca158a5caa2da4e8e99f2913602376d36f8089a315) = 0x00000000 ,     [SynchTransform](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a26da6a88ac107b001aafd7eca158a5caaa2b2f6339ae0b34de079c6d36495701a) = 0x00000001 ,     [SynchAnimation](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a26da6a88ac107b001aafd7eca158a5caa896890ac2c4ab8db6aa3d8aa54201e2f) = 0x00000002 ,     [SynchBodyFlags](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a26da6a88ac107b001aafd7eca158a5caabe8d4d441f6ffd28e6c51f8f3c7be862) = 0x00000004 ,     [SyncColors](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a26da6a88ac107b001aafd7eca158a5caa10774fbeeb25df50516d9b754652622a) = 0x00000008 ,     [SynchAll](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a26da6a88ac107b001aafd7eca158a5caa86cdc154b35c72e83e8b91718295bd3a) = 0xffffffff   } |
+| Public Types inherited from [TaleWorlds.Engine.ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html) | |
+| enum | [TickRequirement](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154d) : uint {     [None](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154da6adf97f83acf6453d4a6a4b1070f3754) = 0x00000000 ,     [TickOccasionally](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154da9cee052f50afabfc1098c1aa6af80b75) = 0x00000001 ,     [Tick](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154da0b3516a5bbb77566f904f9d3877f4710) = 0x00000002 ,     [TickParallel](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154da5f5a8f4b9ce783164665db4d70e03ee3) = 0x00000004 ,     [TickParallel2](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154da0ea9f0c260cdfd8b20ce19a48dbc329f) = 0x00000008 ,     [FixedTick](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154dadd067942f0b8cc66859698bc9711ba15) = 0x00000010 ,     [FixedParallelTick](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154daa226d712a5ffd8d400f850393ff68492) = 0x00000020 ,     [TickParallel3](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154daf785c2c005d708ea434168efc10611b8) = 0x00000040   } |
+| Static Public Attributes inherited from [TaleWorlds.MountAndBlade.MissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html) | |
+| const int | [MaxNavMeshPerDynamicObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#ad33e7f4aeb39643c81e3f22ae208d9e1) = 50 |
+| Protected Types inherited from [TaleWorlds.MountAndBlade.MissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html) | |
+| enum | [DynamicNavmeshLocalIds](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90b) : int {     [Inside](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90ba9b6d3000134648fc9f1e71094ae0847d) = 1 ,     [Enter](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90baf1851d5600eae616ee802a31ac74701b) = 2 ,     [Exit](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90bafef46e5063ce3dc78b8ae64fa474241d) = 3 ,     [Blocker](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90bada32a1684e943a766fec67b13009be79) = 4 ,     [Extra1](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90ba113f84d105af2b8016b3896117c9deab) = 5 ,     [Extra2](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90ba83dca46dd08ad782e968d586375715e1) = 6 ,     [Extra3](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90bab7f54183dc84b2982ebe161b9c59f2d9) = 7 ,     [Reserved1](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90ba93876cb309016fa725517b046474c44b) = 9 ,     [Count](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a372b2aeade07bfd684abc80ae376c90bae93f994f01c537c4e2f7d8528c3eb5e9)   } |
+| Protected Attributes inherited from [TaleWorlds.MountAndBlade.MissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html) | |
+| string | [NavMeshPrefabName](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#afbbb7a7a9d7d3196e2166a3408c30d3e) = "" |
+| int | [DynamicNavmeshIdStart](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a86be6f4e676cad159e82a8803daf8d1e) = 0 |
+
+Member Function Documentation
+-----------------------------
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ace2ec6dafe7bbca0f2995501271bf143)GetActionMessage()
+---------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) TaleWorlds.MountAndBlade.SpawnedItemEntity.GetActionMessage | ( | [ItemObject](class_tale_worlds_1_1_core_1_1_item_object.html) | *weaponToReplaceWith*, |
+|  |  | bool | *fillUp* ) |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a3e14599540d9a03fbb8f02021652efd8)GetDescriptionMessage()
+--------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) TaleWorlds.MountAndBlade.SpawnedItemEntity.GetDescriptionMessage | ( | bool | *fillUp* | ) |  |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a937a65d54509d0213652510b87637671)Initialize()
+---------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.MountAndBlade.SpawnedItemEntity.Initialize | ( | [MissionWeapon](struct_tale_worlds_1_1_mount_and_blade_1_1_mission_weapon.html) | *weapon*, |
+|  |  | bool | *hasLifeTime*, |
+|  |  | [Mission.WeaponSpawnFlags](class_tale_worlds_1_1_mount_and_blade_1_1_mission.html#a13b99667142577320096a9f09f129f63) | *spawnFlags*, |
+|  |  | in [Vec3](struct_tale_worlds_1_1_library_1_1_vec3.html) | *fakeSimulationVelocity*, |
+|  |  | bool | *spawnedOnACorpse* = false ) |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ad1e02c9f3d7f5892c24acc9483801668)GetTickRequirement()
+-----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | override [TickRequirement](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a54d07f4578ec5bf43af6e5a451e9154d) TaleWorlds.MountAndBlade.SpawnedItemEntity.GetTickRequirement | ( |  | ) |  | | virtual |
+
+Reimplemented from [TaleWorlds.Engine.ScriptComponentBehavior](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#ac17100a83d592505ed8d9ac565e512a5).
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a08b88a59b20053ba9d50ed17379d4c75)OnRemoved()
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | override void TaleWorlds.MountAndBlade.SpawnedItemEntity.OnRemoved | ( | int | *removeReason* | ) |  | | protectedvirtual |
+
+Reimplemented from [TaleWorlds.MountAndBlade.MissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_mission_object.html#a67f885c862847e8c64853294b822cb3f).
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a4a82a587e15ae3497ee8d7b8138823c3)AttachWeaponToWeapon()
+-------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.MountAndBlade.SpawnedItemEntity.AttachWeaponToWeapon | ( | [MissionWeapon](struct_tale_worlds_1_1_mount_and_blade_1_1_mission_weapon.html) | *attachedWeapon*, |
+|  |  | ref [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *attachLocalFrame* ) |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a998587052b2b5171cfeef1458f04478f)IsReadyToBeDeleted()
+-----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.MountAndBlade.SpawnedItemEntity.IsReadyToBeDeleted | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ab6ddd6538a38d8b963d4e79c6f4dae3e)OnUseStopped()
+-----------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | override void TaleWorlds.MountAndBlade.SpawnedItemEntity.OnUseStopped | ( | [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) | *userAgent*, | |  |  | bool | *isSuccessful*, | |  |  | int | *preferenceIndex* ) | | virtual |
+
+Reimplemented from [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a844dd40143c1b38145851a8290c12d8b).
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#af97b43a4a1fddbda5e7b5d8b6fb133ad)OnUse()
+----------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | override void TaleWorlds.MountAndBlade.SpawnedItemEntity.OnUse | ( | [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) | *userAgent*, | |  |  | sbyte | *agentBoneIndex* ) | | virtual |
+
+Reimplemented from [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a2064fe3da747b8b1c6d4350897a5bb02).
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a46701fe958542fb173416fd5e9917434)IsDisabledForAgent()
+-----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | override bool TaleWorlds.MountAndBlade.SpawnedItemEntity.IsDisabledForAgent | ( | [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) | *agent* | ) |  | | virtual |
+
+Reimplemented from [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#a9acbfcfb14bb4880a1713f1d9b8f0eb0).
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#aa2312e6d43873d2b04ac15e078aa14aa)IsStuckMissile()
+-------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.MountAndBlade.SpawnedItemEntity.IsStuckMissile | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ae1ad603726d9c87cfad776d661ffe01e)IsQuiverAndNotEmpty()
+------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.MountAndBlade.SpawnedItemEntity.IsQuiverAndNotEmpty | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#aa6875b5a3c1de3566e7bb43d8a6ef213)IsBanner()
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| bool TaleWorlds.MountAndBlade.SpawnedItemEntity.IsBanner | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a2bb9865c15594a2daa01561888ea49a8)GetInfoTextForBeingNotInteractable()
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | override [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) TaleWorlds.MountAndBlade.SpawnedItemEntity.GetInfoTextForBeingNotInteractable | ( | [Agent](class_tale_worlds_1_1_mount_and_blade_1_1_agent.html) | *userAgent* | ) |  | | virtual |
+
+Reimplemented from [TaleWorlds.MountAndBlade.UsableMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_usable_mission_object.html#aab1cbfda24ec2b6849b953b8f29e9b6a).
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ace06b85e4352d26fdf38c6006f6eee2f)StopPhysicsAndSetFrameForClient()
+------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| void TaleWorlds.MountAndBlade.SpawnedItemEntity.StopPhysicsAndSetFrameForClient | ( | [MatrixFrame](struct_tale_worlds_1_1_library_1_1_matrix_frame.html) | *frame*, |
+|  |  | [GameEntity](class_tale_worlds_1_1_engine_1_1_script_component_behavior.html#a0a02cc65cc567db6101ea4afa275ff36) | *parent* ) |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ad7d1a0b5ff600b9a9dfa5658249f955f)ConsumeWeaponAmount()
+------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| void TaleWorlds.MountAndBlade.SpawnedItemEntity.ConsumeWeaponAmount | ( | short | *consumedAmount* | ) |  |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a062ed8a3dec7f6ceca2881534badd3d2)GetDescriptionText()
+-----------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| override [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) TaleWorlds.MountAndBlade.SpawnedItemEntity.GetDescriptionText | ( | [WeakGameEntity](struct_tale_worlds_1_1_engine_1_1_weak_game_entity.html) | *gameEntity* | ) |  |
+
+Implements [TaleWorlds.MountAndBlade.IFocusable](interface_tale_worlds_1_1_mount_and_blade_1_1_i_focusable.html#ae296d89b1b2262987e2a6c7bb88368f8).
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a4e8d929243d913914eec6ec4168c8600)RequestDeletionOnNextTick()
+------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| void TaleWorlds.MountAndBlade.SpawnedItemEntity.RequestDeletionOnNextTick | ( |  | ) |  |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a866d479c47a34cdd8ccb87ca9938cbd0)OnAfterReadFromNetwork()
+---------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | override void TaleWorlds.MountAndBlade.SpawnedItemEntity.OnAfterReadFromNetwork | ( | ([BaseSynchedMissionObjectReadableRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_base_synched_mission_object_readable_record.html), [ISynchedMissionObjectReadableRecord](interface_tale_worlds_1_1_mount_and_blade_1_1_i_synched_mission_object_readable_record.html)) | *synchedMissionObjectReadableRecord*, | |  |  | bool | *allowVisibilityUpdate* = true ) | | virtual |
+
+Reimplemented from [TaleWorlds.MountAndBlade.SynchedMissionObject](class_tale_worlds_1_1_mount_and_blade_1_1_synched_mission_object.html#a4709dc8d1a0b3228df3c8e630e40a58a).
+
+Member Data Documentation
+-------------------------
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a3957c5e49bd4e40b71171d4207e3e982)WeaponName
+-------------------------------------------------------------------------------------------------------------------
+
+|  |
+| --- |
+| string TaleWorlds.MountAndBlade.SpawnedItemEntity.WeaponName = "" |
+
+Property Documentation
+----------------------
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#afb13e31fa6468924c1483e3b61c34215)WeaponCopy
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [MissionWeapon](struct_tale_worlds_1_1_mount_and_blade_1_1_mission_weapon.html) TaleWorlds.MountAndBlade.SpawnedItemEntity.WeaponCopy | | get |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#a0d4ec1886e2f3e92cdf54390e7535e9c)HasLifeTime
+--------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | bool TaleWorlds.MountAndBlade.SpawnedItemEntity.HasLifeTime | | getset |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ac1b5d826d4027670b40ff097b5acfdd9)IsRemoved
+------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | bool TaleWorlds.MountAndBlade.SpawnedItemEntity.IsRemoved | | get |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#ac63d58f29082c507be7c6ee7984db8e5)SpawnedOnACorpse
+-------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | bool TaleWorlds.MountAndBlade.SpawnedItemEntity.SpawnedOnACorpse | | get |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#abdbbed93b8abe9a3ef9d7560fe316dc0)LockUserFrames
+-----------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | override bool TaleWorlds.MountAndBlade.SpawnedItemEntity.LockUserFrames | | get |
+
+[◆](class_tale_worlds_1_1_mount_and_blade_1_1_spawned_item_entity.html#aa5bb539147acb06552291fe448bfff87)SpawnFlags
+-------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [Mission.WeaponSpawnFlags](class_tale_worlds_1_1_mount_and_blade_1_1_mission.html#a13b99667142577320096a9f09f129f63) TaleWorlds.MountAndBlade.SpawnedItemEntity.SpawnFlags | | get |
+

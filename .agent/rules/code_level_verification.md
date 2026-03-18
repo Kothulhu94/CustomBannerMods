@@ -9,4 +9,3 @@ trigger: always_on
     2. Methods containing `OnDistributeTroopXp`, `AddXp`, or `HeroDeveloper`.
     3. XML files with `<mbeffects>` or custom troop headers.
 - If a comment contradicts the code logic, report the discrepancy.
-- if reflection fails fall back to scrubbing https://apidoc.bannerlord.com/v/1.3.14/index.html

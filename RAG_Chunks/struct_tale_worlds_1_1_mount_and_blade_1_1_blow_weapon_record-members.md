@@ -1,0 +1,24 @@
+--- SOURCE: struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record-members.html ---
+
+TaleWorlds.MountAndBlade.BlowWeaponRecord Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AffectorWeaponSlotOrMissileIndex](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a42b85d2e7bb807a413d319020a481c8c) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [BoneNoToAttach](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#abb881dfe04f352c47000f6e7506dccb6) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [CurrentPosition](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a224b059d06afc4b0d97688cfc1d6879c) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [FillAsMeleeBlow](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a21b3a2241862b1f4f797106be7fbc00a)(ItemObject item, WeaponComponentData weaponComponentData, int affectorWeaponSlot, sbyte weaponAttachBoneIndex) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [FillAsMissileBlow](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a442c3a04c315706bb86dcc08ff31f89a)(ItemObject item, WeaponComponentData weaponComponentData, int missileIndex, sbyte weaponAttachBoneIndex, Vec3 startingPosition, Vec3 currentPosition, Vec3 velocity) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [GetHitSound](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a15db64b963f16a8c23c4fd9ac1e8c5a2)(bool isOwnerHumanoid, bool isCriticalBlow, bool isLowBlow, bool isNonTipThrust, AgentAttackType attackType, DamageTypes damageType) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [HasWeapon](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a1312fdc90054942e36a0e5229f039300)() | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [IsAmmo](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a112d525e9b38de6ae7910775afc951f3) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [IsMissile](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#af04c611771fa294893a9b9523c126cd0) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [IsRanged](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#ae23e1cadb8c88dd3ba4571f15c23b0ab) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [IsShield](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#aaa69f6528e464823d2ed4d50876611d0) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [ItemFlags](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#ac4b8dfbb3351b3c013c46e2949d139e6) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [StartingPosition](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a76aeb02e710719ec46e967eadf931dd2) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [Velocity](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a4ed2c885f698751548329ce152e3a651) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [WeaponClass](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a607a4aa261cdad3f1a468cad95d84078) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [WeaponFlags](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a83165d151966d539a2c89e06234bcdd6) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+| [Weight](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html#a51d8babde89c18aa98ca4d2f95a73793) | [TaleWorlds.MountAndBlade.BlowWeaponRecord](struct_tale_worlds_1_1_mount_and_blade_1_1_blow_weapon_record.html) |  |
+

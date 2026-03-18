@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.KingdomDestroyedMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.KingdomDestroyedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CreationTime](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html#aa8e1b46a52a3b2f72aa7cf6f621d2136) | [TaleWorlds.CampaignSystem.MapNotificationTypes.KingdomDestroyedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [DestroyedKingdom](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html#acb31cb731e1368d9814ab0c376560aa0) | [TaleWorlds.CampaignSystem.MapNotificationTypes.KingdomDestroyedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [KingdomDestroyedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html#a5cde72e041786111ee9bc0c0c5f38d4c)(Kingdom destroyedKingdom, CampaignTime creationTime) | [TaleWorlds.CampaignSystem.MapNotificationTypes.KingdomDestroyedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html#a4580f9e3484cd8ab206a4d47c43f9358) | [TaleWorlds.CampaignSystem.MapNotificationTypes.KingdomDestroyedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html#a096712b97fa087715cdf797a24a14bc6) | [TaleWorlds.CampaignSystem.MapNotificationTypes.KingdomDestroyedMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_kingdom_destroyed_map_notification.html) |  |
+

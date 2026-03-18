@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.WorkshopsCampaignBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.WorkshopsCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [GetWarehouseItemRosterWeight](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html#a32286e32895eac470f6fe74bd6c684da)(Settlement settlement) | [TaleWorlds.CampaignSystem.CampaignBehaviors.WorkshopsCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html) |  |
+| [InitializeGameMenus](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html#a2c05e3ee7cbbdd371eb685d6fc025c31)(CampaignGameStarter campaignGameStarter) | [TaleWorlds.CampaignSystem.CampaignBehaviors.WorkshopsCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html) | protected |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html#ab5b87e3de618de6f799d432c6f339b01)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.WorkshopsCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html#a6453872e1903f47236e6ef06925314b8)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.WorkshopsCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html) |  |
+| [TransferWarehouseToPlayerParty](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html#a2c369e0db6aa241d94ac5c34164b423b)(Settlement settlement) | [TaleWorlds.CampaignSystem.CampaignBehaviors.WorkshopsCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_workshops_campaign_behavior.html) |  |
+

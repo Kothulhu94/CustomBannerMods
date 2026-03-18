@@ -38,6 +38,11 @@ namespace Landlord
                         {
                             estateIncome += plot.LastDailyIncome;
                             plotCount++;
+                            
+                            if (GlobalSettings.Instance.DebugMode && clan == Clan.PlayerClan)
+                            {
+                                 _logger.LogInformation($"[Landlord Finance] {plot.Owner.Name} generated {plot.LastDailyIncome}g from plot in {plot.VillageStringId}");
+                            }
                         }
                     }
                 }

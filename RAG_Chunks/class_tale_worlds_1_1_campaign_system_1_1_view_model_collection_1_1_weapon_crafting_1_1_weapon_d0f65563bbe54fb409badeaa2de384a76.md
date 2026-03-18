@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_weapon_crafting_1_1_weapon_d0f65563bbe54fb409badeaa2de384a76.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.WeaponCrafting.WeaponDesign.CraftingOrderSelectionOpenedEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.WeaponCrafting.WeaponDesign.CraftingOrderSelectionOpenedEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_weapon_crafting_1_1_weapon_d3e82d65b0a57275b9ebe0790e028a25d.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CraftingOrderSelectionOpenedEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_weapon_crafting_1_1_weapon_d3e82d65b0a57275b9ebe0790e028a25d.html#ab1d92b867ff4f1a6d98f034ad302bb6b)(bool isOpen) | [TaleWorlds.CampaignSystem.ViewModelCollection.WeaponCrafting.WeaponDesign.CraftingOrderSelectionOpenedEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_weapon_crafting_1_1_weapon_d3e82d65b0a57275b9ebe0790e028a25d.html) |  |
+| [IsOpen](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_weapon_crafting_1_1_weapon_d3e82d65b0a57275b9ebe0790e028a25d.html#aa8554fdf35e7cd9946d3d66b70cf299b) | [TaleWorlds.CampaignSystem.ViewModelCollection.WeaponCrafting.WeaponDesign.CraftingOrderSelectionOpenedEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_weapon_crafting_1_1_weapon_d3e82d65b0a57275b9ebe0790e028a25d.html) |  |
+

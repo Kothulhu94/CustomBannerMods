@@ -1,0 +1,11 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_ironic_upper_tag-members.html ---
+
+TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaIronicUpperTag Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaIronicUpperTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_ironic_upper_tag.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Id](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_ironic_upper_tag.html#a553faad2d022447b60aa428730e0661b) | [TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaIronicUpperTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_ironic_upper_tag.html) | static |
+| [IsApplicableTo](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_ironic_upper_tag.html#a6d54b7defaf25ce6baedd6cef77b6a33)(CharacterObject character) | [TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaIronicUpperTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_ironic_upper_tag.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_ironic_upper_tag.html#a73584f9d6c70277c9e4eec6cd672a638) | [TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaIronicUpperTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_ironic_upper_tag.html) |  |
+| [ToString](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag.html#ab9dbddc7aabbdc2e8226cebb67b7d55a)() | [TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag.html) |  |
+

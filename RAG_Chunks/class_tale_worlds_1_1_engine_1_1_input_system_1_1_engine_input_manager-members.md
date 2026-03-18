@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager-members.html ---
+
+TaleWorlds.Engine.InputSystem.EngineInputManager Member ListThis is the complete list of members for [TaleWorlds.Engine.InputSystem.EngineInputManager](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [SetLightbarColor](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html#ad9c37650a27f26de67b76ad4e532ddca)(float red, float green, float blue) | [TaleWorlds.Engine.InputSystem.EngineInputManager](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html) |  |
+| [SetRumbleEffect](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html#ab6546f5c9435cb3c0a790d84d5cc77bb)(float[] lowFrequencyLevels, float[] lowFrequencyDurations, int numLowFrequencyElements, float[] highFrequencyLevels, float[] highFrequencyDurations, int numHighFrequencyElements) | [TaleWorlds.Engine.InputSystem.EngineInputManager](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html) |  |
+| [SetTriggerFeedback](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html#a6241984eed73448211db83002ca5545b)(byte leftTriggerPosition, byte leftTriggerStrength, byte rightTriggerPosition, byte rightTriggerStrength) | [TaleWorlds.Engine.InputSystem.EngineInputManager](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html) |  |
+| [SetTriggerVibration](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html#a6d9e46fb085aaef7e4329654a3c2c4d8)(float[] leftTriggerAmplitudes, float[] leftTriggerFrequencies, float[] leftTriggerDurations, int numLeftTriggerElements, float[] rightTriggerAmplitudes, float[] rightTriggerFrequencies, float[] rightTriggerDurations, int numRightTriggerElements) | [TaleWorlds.Engine.InputSystem.EngineInputManager](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html) |  |
+| [SetTriggerWeaponEffect](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html#af242c428407f45f76cc9d227bf54cb80)(byte leftStartPosition, byte leftEnd\_position, byte leftStrength, byte rightStartPosition, byte rightEndPosition, byte rightStrength) | [TaleWorlds.Engine.InputSystem.EngineInputManager](class_tale_worlds_1_1_engine_1_1_input_system_1_1_engine_input_manager.html) |  |
+

@@ -1,0 +1,10 @@
+--- SOURCE: struct_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_v_m1487c8529d326c7fe96b2a2967ae384a.html ---
+
+TaleWorlds.MountAndBlade.ViewModelCollection.Order.MissionOrderVM.ClassConfiguration Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.ViewModelCollection.Order.MissionOrderVM.ClassConfiguration](struct_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_v_m_1_1_class_configuration.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClassConfiguration](struct_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_v_m_1_1_class_configuration.html#aec1702c46097c22f460e920a16b3845c)(int formationIndex, DeploymentFormationClass formationClass) | [TaleWorlds.MountAndBlade.ViewModelCollection.Order.MissionOrderVM.ClassConfiguration](struct_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_v_m_1_1_class_configuration.html) |  |
+| [FormationClass](struct_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_v_m_1_1_class_configuration.html#ab74e0a42a6e7ff97455f1da2335e3ec8) | [TaleWorlds.MountAndBlade.ViewModelCollection.Order.MissionOrderVM.ClassConfiguration](struct_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_v_m_1_1_class_configuration.html) |  |
+| [FormationIndex](struct_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_v_m_1_1_class_configuration.html#adc726b596145770dc89db09b3582f1c1) | [TaleWorlds.MountAndBlade.ViewModelCollection.Order.MissionOrderVM.ClassConfiguration](struct_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_v_m_1_1_class_configuration.html) |  |
+

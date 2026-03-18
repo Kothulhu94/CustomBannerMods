@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data-members.html ---
+
+TaleWorlds.MountAndBlade.View.Tableaus.Thumbnails.ThumbnailCreationData Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.View.Tableaus.Thumbnails.ThumbnailCreationData](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CancelAction](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html#a54d854f6a46faa8d5dbb1baaf580ceb7) | [TaleWorlds.MountAndBlade.View.Tableaus.Thumbnails.ThumbnailCreationData](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html) |  |
+| [IsProcessed](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html#a1c3afc92202e0d8fb0dcfb2a1b5aff61) | [TaleWorlds.MountAndBlade.View.Tableaus.Thumbnails.ThumbnailCreationData](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html) |  |
+| [RenderId](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html#a3a9b1d2fbcfc4d0f9fe2f0347f6bd023) | [TaleWorlds.MountAndBlade.View.Tableaus.Thumbnails.ThumbnailCreationData](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html) |  |
+| [SetAction](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html#aa4b2a2377078fd1e3c3845494b47758f) | [TaleWorlds.MountAndBlade.View.Tableaus.Thumbnails.ThumbnailCreationData](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html) |  |
+| [ThumbnailCreationData](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html#ac4e18a2c0c1b471ad9abfcbdf6280635)(string renderId, Action< Texture > setAction, Action cancelAction) | [TaleWorlds.MountAndBlade.View.Tableaus.Thumbnails.ThumbnailCreationData](class_tale_worlds_1_1_mount_and_blade_1_1_view_1_1_tableaus_1_1_thumbnails_1_1_thumbnail_creation_data.html) |  |
+

@@ -81,10 +81,16 @@ namespace FieldSquire.Behaviors
             int foodThreshold = _settings?.FoodThreshold ?? 20;
 
             int totalCost = 0;
+            float totalTradeXp = 0f;
             Dictionary<string, int> boughtItems = new Dictionary<string, int>();
 
             ItemRoster settlementRoster = settlement.ItemRoster;
             if (settlementRoster == null) return;
+
+            // Get Squire's Trade skill for pricing calculation
+            int squireTradeSkill = squireObj.GetSkillValue(DefaultSkills.Trade);
+            // 0.2% penalty reduction per skill point, max 60% (300 skill)
+            float tradePenaltyReduction = Math.Min(0.6f, squireTradeSkill * 0.002f);
 
             // Iterate through every item in the settlement market
             for (int i = settlementRoster.Count - 1; i >= 0; i--)
@@ -108,12 +114,24 @@ namespace FieldSquire.Behaviors
                         
                         int toBuy = Math.Min(canBuy, needed);
                         
-                        // Price calculation
-                        int price = item.Value;
+                        // Price calculation (using game's base market price)
+                        int marketPrice = item.Value;
                         if (settlement.Town != null)
-                            price = settlement.Town.GetItemPrice(item, MobileParty.MainParty, true);
+                            marketPrice = settlement.Town.GetItemPrice(item, MobileParty.MainParty, false);
                         else if (settlement.Village != null)
-                            price = settlement.Village.GetItemPrice(item, MobileParty.MainParty, true);
+                            marketPrice = settlement.Village.GetItemPrice(item, MobileParty.MainParty, false);
+
+                        // Apply Squire's trade discount to the "penalty" portion of the price
+                        // In Bannerlord, buying price is item.Value * penalty_multiplier
+                        // We simulate the Squire negotiating a better deal
+                        int basePrice = item.Value;
+                        int price = marketPrice;
+                        
+                        if (marketPrice > basePrice)
+                        {
+                            int penalty = marketPrice - basePrice;
+                            price = basePrice + (int)(penalty * (1.0f - tradePenaltyReduction));
+                        }
 
                         // Affordability Check
                         int maxAffordable = (Hero.MainHero.Gold - totalCost - 2000) / price;
@@ -125,7 +143,12 @@ namespace FieldSquire.Behaviors
                             MobileParty.MainParty.ItemRoster.AddToCounts(item, toBuy);
                             settlementRoster.AddToCounts(item, -toBuy);
                             
-                            totalCost += price * toBuy;
+                            int batchCost = price * toBuy;
+                            totalCost += batchCost;
+                            
+                            // Award XP based on the base value of the trade (not just the gold spent)
+                            // Standard trade XP is often based on the profit or the transaction value
+                            totalTradeXp += (batchCost * 0.1f);
 
                             string itemName = item.Name.ToString();
                             if (boughtItems.ContainsKey(itemName))
@@ -141,10 +164,17 @@ namespace FieldSquire.Behaviors
             {
                 GiveGoldAction.ApplyBetweenCharacters(Hero.MainHero, null, totalCost, true); 
                 
+                // Award Trade XP to the Squire
+                if (totalTradeXp > 0f)
+                {
+                    squireObj.AddSkillXp(DefaultSkills.Trade, totalTradeXp);
+                }
+
                 string itemsStr = string.Join(", ", boughtItems.Select(x => $"{x.Value} {x.Key}"));
-                string msg = $"Squire bought: {itemsStr} (-{totalCost} Gold).";
+                string discMsg = squireTradeSkill > 0 ? $" (Trade Level {squireTradeSkill})" : "";
+                string msg = $"Squire bought: {itemsStr} (-{totalCost} Gold){discMsg}.";
                 InformationManager.DisplayMessage(new InformationMessage(msg));
-                _logger.LogInformation($"RunLogistics: {msg}");
+                _logger.LogInformation($"RunLogistics: {msg} Awarded {totalTradeXp} Trade XP.");
             }
         }
     }

@@ -18,7 +18,7 @@ namespace FieldSquire.Patches
 
 
         [HarmonyPrefix]
-        public static bool Prefix(Hero hero, Settlement settlement, ref List<TooltipProperty> __result)
+        public static bool Prefix(Settlement settlement, ref List<TooltipProperty> __result)
         {
             // 1. User Request: Suppress tooltip completely when managing via FieldSquire (Context Flag)
             if (FieldSquire.ViewModels.SquireTownManagementVM.IsActive)

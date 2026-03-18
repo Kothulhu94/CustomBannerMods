@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_party_1_1_player_toggled_upgrade_popup_event-members.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.Party.PlayerToggledUpgradePopupEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.Party.PlayerToggledUpgradePopupEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_party_1_1_player_toggled_upgrade_popup_event.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [IsOpened](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_party_1_1_player_toggled_upgrade_popup_event.html#ad5ae48c3931258bbf0df62bec64e906f) | [TaleWorlds.CampaignSystem.ViewModelCollection.Party.PlayerToggledUpgradePopupEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_party_1_1_player_toggled_upgrade_popup_event.html) |  |
+| [PlayerToggledUpgradePopupEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_party_1_1_player_toggled_upgrade_popup_event.html#afea502f6b10ffdea8b39d6a6bf1ab847)(bool isOpened) | [TaleWorlds.CampaignSystem.ViewModelCollection.Party.PlayerToggledUpgradePopupEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_party_1_1_player_toggled_upgrade_popup_event.html) |  |
+

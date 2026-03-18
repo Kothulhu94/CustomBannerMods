@@ -1,0 +1,10 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_widgets_1_1_mission_1_1_agent_health_65cf79636653043292cdcfc8e2faf981.html ---
+
+TaleWorlds.MountAndBlade.GauntletUI.Widgets.Mission.AgentHealthWidget.HealthDropData Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.GauntletUI.Widgets.Mission.AgentHealthWidget.HealthDropData](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_widgets_1_1_mission_1_1_agent_health_widget_1_1_health_drop_data.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [HealthDropData](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_widgets_1_1_mission_1_1_agent_health_widget_1_1_health_drop_data.html#a06d529970d284c35ba3d9b47abce9df6)(BrushWidget widget, float lifeTime) | [TaleWorlds.MountAndBlade.GauntletUI.Widgets.Mission.AgentHealthWidget.HealthDropData](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_widgets_1_1_mission_1_1_agent_health_widget_1_1_health_drop_data.html) |  |
+| [LifeTime](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_widgets_1_1_mission_1_1_agent_health_widget_1_1_health_drop_data.html#a683b670065482d8b03063a5871889ca8) | [TaleWorlds.MountAndBlade.GauntletUI.Widgets.Mission.AgentHealthWidget.HealthDropData](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_widgets_1_1_mission_1_1_agent_health_widget_1_1_health_drop_data.html) |  |
+| [Widget](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_widgets_1_1_mission_1_1_agent_health_widget_1_1_health_drop_data.html#a67fb6b5e8c2a1262406b7753857694fc) | [TaleWorlds.MountAndBlade.GauntletUI.Widgets.Mission.AgentHealthWidget.HealthDropData](class_tale_worlds_1_1_mount_and_blade_1_1_gauntlet_u_i_1_1_widgets_1_1_mission_1_1_agent_health_widget_1_1_health_drop_data.html) |  |
+

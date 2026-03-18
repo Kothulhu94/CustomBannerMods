@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model-members.html ---
+
+TaleWorlds.CampaignSystem.GameComponents.DefaultPartyNavigationModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.GameComponents.DefaultPartyNavigationModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [CanPlayerNavigateToPosition](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html#a4ff8b3bef0562d5037fd40d0333ef971)(CampaignVec2 vec2, out NavigationType navigationType) | [TaleWorlds.CampaignSystem.GameComponents.DefaultPartyNavigationModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html) |  |
+| [DefaultPartyNavigationModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html#ab774d68df5327431a79cb4dfb2c3666a)() | [TaleWorlds.CampaignSystem.GameComponents.DefaultPartyNavigationModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html) |  |
+| [GetEmbarkDisembarkThresholdDistance](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html#a16dda0cc89c190b082bf04af383bfc61)() | [TaleWorlds.CampaignSystem.GameComponents.DefaultPartyNavigationModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html) |  |
+| [GetInvalidTerrainTypesForNavigationType](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html#afaef116095e94389bc90434e4cfb05c2)(NavigationType navigationType) | [TaleWorlds.CampaignSystem.GameComponents.DefaultPartyNavigationModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html) |  |
+| [HasNavalNavigationCapability](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html#a00e24178639d0471dfd57c083cb4df4e)(MobileParty mobileParty) | [TaleWorlds.CampaignSystem.GameComponents.DefaultPartyNavigationModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+| [IsTerrainTypeValidForNavigationType](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html#a561f0aab9dd49dbe4958c9adafc543c1)(TerrainType terrainType, NavigationType navigationType) | [TaleWorlds.CampaignSystem.GameComponents.DefaultPartyNavigationModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_party_navigation_model.html) |  |
+

@@ -1,0 +1,11 @@
+--- SOURCE: interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller-members.html ---
+
+TaleWorlds.MountAndBlade.Missions.IMissionSiegeWeaponsController Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.Missions.IMissionSiegeWeaponsController](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GetMaxDeployableWeaponCount](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html#a0b854752c803c5cef2d8980f928f6c1b)(Type t) | [TaleWorlds.MountAndBlade.Missions.IMissionSiegeWeaponsController](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html) |  |
+| [GetSiegeWeapons](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html#ac7412a2da7341919e04dd0dcf6c86def)() | [TaleWorlds.MountAndBlade.Missions.IMissionSiegeWeaponsController](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html) |  |
+| [OnWeaponDeployed](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html#adfb38c403b1ba7cda1e2d423cce94e66)(SiegeWeapon missionWeapon) | [TaleWorlds.MountAndBlade.Missions.IMissionSiegeWeaponsController](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html) |  |
+| [OnWeaponUndeployed](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html#a008abdbb8000fcac8b37cd4b802f0119)(SiegeWeapon missionWeapon) | [TaleWorlds.MountAndBlade.Missions.IMissionSiegeWeaponsController](interface_tale_worlds_1_1_mount_and_blade_1_1_missions_1_1_i_mission_siege_weapons_controller.html) |  |
+

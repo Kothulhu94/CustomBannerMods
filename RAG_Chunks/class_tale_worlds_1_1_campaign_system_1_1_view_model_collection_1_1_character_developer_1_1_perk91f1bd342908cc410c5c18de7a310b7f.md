@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_character_developer_1_1_perk91f1bd342908cc410c5c18de7a310b7f.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.CharacterDeveloper.PerkSelection.PerkSelectedByPlayerEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.CharacterDeveloper.PerkSelection.PerkSelectedByPlayerEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_character_developer_1_1_perk075bc10a68ef3d8a03484655950d5b14.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [PerkSelectedByPlayerEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_character_developer_1_1_perk075bc10a68ef3d8a03484655950d5b14.html#ae3c3c55d32c4eafed19a0a12642d2393)(PerkObject selectedPerk) | [TaleWorlds.CampaignSystem.ViewModelCollection.CharacterDeveloper.PerkSelection.PerkSelectedByPlayerEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_character_developer_1_1_perk075bc10a68ef3d8a03484655950d5b14.html) |  |
+| [SelectedPerk](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_character_developer_1_1_perk075bc10a68ef3d8a03484655950d5b14.html#aa44dc1fe18315702bb75e759d7f9bb13) | [TaleWorlds.CampaignSystem.ViewModelCollection.CharacterDeveloper.PerkSelection.PerkSelectedByPlayerEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_character_developer_1_1_perk075bc10a68ef3d8a03484655950d5b14.html) |  |
+

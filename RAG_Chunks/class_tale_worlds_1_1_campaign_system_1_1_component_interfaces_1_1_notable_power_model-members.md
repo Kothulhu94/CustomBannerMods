@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model-members.html ---
+
+TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [CalculateDailyPowerChangeForHero](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html#a9c8b3323d7f7952b146d5a8ff5828e6f)(Hero hero, bool includeDescriptions=false) | [TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html) |  |
+| [GetInfluenceBonusToClan](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html#a37b24a456da9fec8e45ece5f83e249b9)(Hero hero) | [TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html) |  |
+| [GetInitialNotableSupporterCost](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html#a8728714e0e834029d3a92229214f2c27)(Hero hero) | [TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html) |  |
+| [GetInitialPower](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html#ad4f8794021da609e0378a6be3757c8ed)(Hero hero) | [TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html) |  |
+| [GetPowerRankName](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html#aaee4bb1a2965a56ceea470c1e4596336)(Hero hero) | [TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+| [NotableDisappearPowerLimit](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html#ac6583a106fbce4e146cf61c02a2d21da) | [TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html) |  |
+| [RegularNotableMaxPowerLevel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html#a8fc0ea0ed03887cb7be0cf607004d520) | [TaleWorlds.CampaignSystem.ComponentInterfaces.NotablePowerModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_notable_power_model.html) |  |
+

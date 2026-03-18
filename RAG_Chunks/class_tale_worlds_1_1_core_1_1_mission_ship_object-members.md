@@ -1,0 +1,64 @@
+--- SOURCE: class_tale_worlds_1_1_core_1_1_mission_ship_object-members.html ---
+
+TaleWorlds.Core.MissionShipObject Member ListThis is the complete list of members for [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AfterInitialized](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#ab67141737ce51fe724e4a5b8026a973b)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [AfterLoad](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#aae8a0aa22e7a659e1edbedfe9739d413)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | protectedvirtual |
+| [AfterLoadInternal](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a277b54134c76732e443019a7862cf388)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [AfterRegister](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#ab15f91cc9dbb7ff8763eec828c179216)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | virtual |
+| [AngularFrictionMultiplier](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a8dc6d0b4b9fd260580c46016ad4b1db9) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [BowAngleLimitFromCenterline](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a8523ab0e8902e2ea63a2a556850f59e7) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [DeploymentArea](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a6c9f640b07dc1f5840205c16fa53ee61) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [Deserialize](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a41d7e090e8b32a6b4fa3072792e81238)(MBObjectManager objectManager, XmlNode node) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) | virtual |
+| [FloatingForceMultiplier](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#abd1d3fac453b7d7fd5aad69054696517) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [GetHashCode](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a68e79a07f136aae5be4fe9eadb612def)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [GetName](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a0b72f9e386b6cefc4e6bfb52642b98db)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | virtual |
+| [HasSails](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#aeeadc34ac81ea57edba0d1800918cb11) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [HasValidRudderStockPosition](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a3e4f8354b5e06c77b050f2fce2f60568) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [Id](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#af97fbe63c015ee5f4958ab6946b7f69a) | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [Initialize](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#aad39d5ca82d85853a9879e2670dd036e)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | virtual |
+| [IsInitialized](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#aa6b3602c7cfd678c75bf91e1c3073606) | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [IsReady](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#abc67abca4d8d58d34835693808c0aa14) | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [LateralDragShiftCriticalAngle](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#ad7af253ac21c2f4eee33c0938f249977) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [LinearFrictionMultiplier](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a586fb59478cfe72b828e85bd076e582a) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [Mass](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a0b06fe92d99ea6e073bee01d41c4ea17) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MaxAngularAccel](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a7a924962d8804aa3c6246b38c5b97c66) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MaxAngularSpeed](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a7f8801221e14f922962632c91fb5d7b5) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MaximumSubmergedVolumeRatio](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a2d5b927499aeb5e55f9d48e31117d1db) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MaxLateralDragShift](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a8eeac2396ec66c3d80b26d84a6c630e5) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MaxLinearAccel](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a0177f4fcac3e31a8b836c9b25669bf31) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MaxLinearSpeed](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#af8b4ef4dd73d220ca2cd66647447345e) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a520e657fd5a750c8b7e2154b0f5629ea)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a134c5e806ba735219710d773e7075b00)(MBObjectBase other) | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a8e3c1b47f5d928e64d9d67fa7864c364)(string stringId) | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a7fc6e65cac0570e41b9a91b58b410b44)() | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#aebbe714c6acfa41784a0cbfc763cccca)(string stringId) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [MomentOfInertiaMultiplier](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#aa9c824912c56327c0b09f07dd7abcf88) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [OarCount](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a5896ba4cfa4cb3a70c1ae1931440d17e) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [OarFrictionMultiplier](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a034bffc3463053e74f6be775e8b48ac5) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [OarsmenForceMultiplier](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a207643013219ed28130620b44ae38873) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [OarsTipSpeed](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a05a9f8e7f33d650f778c6f1e6f6872b6) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [OnBeforeLoad](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#ad32c7b22bd64e771cc05ee54ae78058a)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | protectedvirtual |
+| [OnRegistered](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a586208e92e5041fd432127305aa8af16)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [OnUnregistered](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a71bef09af9a896246fa7b18c324e565c)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [PartialHitPointsRatio](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#ada45847506e8914d73a793370647064d) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [PhysicsReference](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#ab5c2f3d2b27d28ad558183754d47a87b) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [PreAfterLoad](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#aeddc87ee0703c7f37d9129d9a5e024e4)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | protectedvirtual |
+| [PreAfterLoadInternal](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#af26d64a79291c4f6328fc151d2569ebf)() | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [Prefab](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a6386a9962207a28a5a77455d99245745) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [RudderBladeHeight](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a94853ad58d6d6f5371a8f376d3b7369c) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [RudderBladeLength](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a291defb737ec1005c2586cf751f1bec6) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [RudderDeflectionCoef](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a32cf6b8dfaef53a1028281bf8e3b72a1) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [RudderForceMax](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a292f9d0936f14d2e1b99a56336d0917c) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [RudderRotationMax](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a03f24b2a7f154b573f383554ab8e8483) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [RudderRotationRate](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#abd7435612168c1fbb7933d3465b5a426) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [RudderStockPosition](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a22fb1ca7d0680d02759d3ef3b4e4ea8d) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [Sails](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#aba28a0fbe8bb9128099938d2e6219b6d) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [SetPhysicsReference](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a49b4c585f3974dab0c1fdfe37ffb7021)(ShipPhysicsReference physicsReference) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [ShipPhysicsReferenceId](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a1221a8c0060a24befd19a2a722d913db) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [StringId](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a8f7cc0266861eb249963e5ead3ab93f1) | [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) |  |
+| [TorqueMultiplierOfLateralBuoyantForces](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#aa074819526ed2234e9f285e3438be859) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+| [TorqueMultiplierOfVerticalBuoyantForces](class_tale_worlds_1_1_core_1_1_mission_ship_object.html#a47b95525f9674ce699e2023f77fec3f3) | [TaleWorlds.Core.MissionShipObject](class_tale_worlds_1_1_core_1_1_mission_ship_object.html) |  |
+

@@ -206,7 +206,7 @@ namespace HonestWork
             
             if (notable != null && notable != worker)
             {
-                ChangeRelationAction.ApplyRelationChangeBetweenHeroes(worker, notable, 2, true);
+                ChangeRelationAction.ApplyRelationChangeBetweenHeroes(worker, notable, 2, _settings.EnableShiftNotifications);
             }
 
             settlement.Town.Security += 2.0f;

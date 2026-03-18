@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group-members.html ---
+
+TaleWorlds.MountAndBlade.MultiplayerClassDivisions.MPHeroClassGroup Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.MultiplayerClassDivisions.MPHeroClassGroup](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Equals](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html#a76887e6a1d47cf719e32970669c57f81)(object obj) | [TaleWorlds.MountAndBlade.MultiplayerClassDivisions.MPHeroClassGroup](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html) |  |
+| [GetHashCode](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html#abe24f0b829fa515db82cd68e225b6d5f)() | [TaleWorlds.MountAndBlade.MultiplayerClassDivisions.MPHeroClassGroup](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html) |  |
+| [MPHeroClassGroup](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html#a4754f4a563a09d8d4204874eecbc93db)(string stringId) | [TaleWorlds.MountAndBlade.MultiplayerClassDivisions.MPHeroClassGroup](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html) |  |
+| [Name](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html#abd4e18f540f2f2af59640ac9ee0c2e9a) | [TaleWorlds.MountAndBlade.MultiplayerClassDivisions.MPHeroClassGroup](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html) |  |
+| [StringId](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html#a58b611993101b153af010a01719e8b5e) | [TaleWorlds.MountAndBlade.MultiplayerClassDivisions.MPHeroClassGroup](class_tale_worlds_1_1_mount_and_blade_1_1_multiplayer_class_divisions_1_1_m_p_hero_class_group.html) |  |
+

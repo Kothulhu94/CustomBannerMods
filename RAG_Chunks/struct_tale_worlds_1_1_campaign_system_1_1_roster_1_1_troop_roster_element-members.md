@@ -1,0 +1,20 @@
+--- SOURCE: struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element-members.html ---
+
+TaleWorlds.CampaignSystem.Roster.TroopRosterElement Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Character](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#adb2a13f574df13a15df5ab876ebfaeec) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [DeserializeFrom](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a081216b4559cf54585841a5a408a6322)(IReader reader) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [Equals](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a93086217a743566d6e87801cfa7b1948)(object obj) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [Equals](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a4b1890780b3965c9e2bd750ce8332e16)(TroopRosterElement other) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [GetHashCode](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a954063ebebf3b24f2fc9acb91dcc3029)() | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [Invalid](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a8205c47721604a16010938ef27b1d43b) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) | static |
+| [IsDefault](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a35d075f239bd46abf0377b6f1bbb2f1b)() | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [Number](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#ac4d62a5846e0be3649394f16862d78b3) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [SerializeTo](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#acf17971ce0cf5d2e93ea7a70069db5bb)(IWriter writer) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [ToString](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a32f8356d37b94526dbbdb7e8376eb6d6)() | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a7e1b3eca1450eddd1084ceac2f48ab12)(CharacterObject character) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [WoundedNumber](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a3e90dd77814ad42058792e08a02ef9d2) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+| [Xp](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html#a18536889b4d9751cdc870b3b2d986929) | [TaleWorlds.CampaignSystem.Roster.TroopRosterElement](struct_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster_element.html) |  |
+

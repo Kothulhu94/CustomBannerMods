@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_nearby_bandit_base_issue_behavior_1_1_nearbf59f2cf21bc6e33a1a253c9796567d44.html ---
+
+TaleWorlds.CampaignSystem.Issues.NearbyBanditBaseIssueBehavior.NearbyBanditBaseIssueTypeDefiner Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Issues.NearbyBanditBaseIssueBehavior.NearbyBanditBaseIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_nearby_bandit_base_issue_behavior_1_1_nearb4f6e8937e3e8466ba8960bd2e8652245.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [DefineClassTypes](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_nearby_bandit_base_issue_behavior_1_1_nearb4f6e8937e3e8466ba8960bd2e8652245.html#aea9ccfe2c65669628f3c88f03fe8854d)() | [TaleWorlds.CampaignSystem.Issues.NearbyBanditBaseIssueBehavior.NearbyBanditBaseIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_nearby_bandit_base_issue_behavior_1_1_nearb4f6e8937e3e8466ba8960bd2e8652245.html) | protected |
+| [NearbyBanditBaseIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_nearby_bandit_base_issue_behavior_1_1_nearb4f6e8937e3e8466ba8960bd2e8652245.html#a55d2c0307eaa0d11135edc74af90331d)() | [TaleWorlds.CampaignSystem.Issues.NearbyBanditBaseIssueBehavior.NearbyBanditBaseIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_nearby_bandit_base_issue_behavior_1_1_nearb4f6e8937e3e8466ba8960bd2e8652245.html) |  |
+

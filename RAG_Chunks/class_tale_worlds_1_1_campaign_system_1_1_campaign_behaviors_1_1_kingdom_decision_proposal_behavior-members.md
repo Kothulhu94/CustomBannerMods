@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.KingdomDecisionProposalBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.KingdomDecisionProposalBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html#a45e242584cc6a9544b4dec73234ed624)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.KingdomDecisionProposalBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html#ae61d69b84a6ef0a2e43c78603a141db6)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.KingdomDecisionProposalBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html) |  |
+| [TradeAgreementsCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html#aa99f2f1e3c01a9f310792c3f9802d96e) | [TaleWorlds.CampaignSystem.CampaignBehaviors.KingdomDecisionProposalBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html) |  |
+| [UpdateKingdomDecisions](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html#ae9fcdbceab3485c5f674c4e5ddddb10b)(Kingdom kingdom) | [TaleWorlds.CampaignSystem.CampaignBehaviors.KingdomDecisionProposalBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_kingdom_decision_proposal_behavior.html) |  |
+

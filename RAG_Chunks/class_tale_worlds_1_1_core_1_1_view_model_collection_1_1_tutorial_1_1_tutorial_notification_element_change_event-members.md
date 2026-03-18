@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_core_1_1_view_model_collection_1_1_tutorial_1_1_tutorial_notification_element_change_event-members.html ---
+
+TaleWorlds.Core.ViewModelCollection.Tutorial.TutorialNotificationElementChangeEvent Member ListThis is the complete list of members for [TaleWorlds.Core.ViewModelCollection.Tutorial.TutorialNotificationElementChangeEvent](class_tale_worlds_1_1_core_1_1_view_model_collection_1_1_tutorial_1_1_tutorial_notification_element_change_event.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [NewNotificationElementID](class_tale_worlds_1_1_core_1_1_view_model_collection_1_1_tutorial_1_1_tutorial_notification_element_change_event.html#abb20ea5224a98d7f064f994e555eb4bc) | [TaleWorlds.Core.ViewModelCollection.Tutorial.TutorialNotificationElementChangeEvent](class_tale_worlds_1_1_core_1_1_view_model_collection_1_1_tutorial_1_1_tutorial_notification_element_change_event.html) |  |
+| [TutorialNotificationElementChangeEvent](class_tale_worlds_1_1_core_1_1_view_model_collection_1_1_tutorial_1_1_tutorial_notification_element_change_event.html#a1b4988fdf0bf8dd3f85e281901a07d16)(string newNotificationElementID) | [TaleWorlds.Core.ViewModelCollection.Tutorial.TutorialNotificationElementChangeEvent](class_tale_worlds_1_1_core_1_1_view_model_collection_1_1_tutorial_1_1_tutorial_notification_element_change_event.html) |  |
+

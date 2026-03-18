@@ -57,5 +57,6 @@ namespace HonestWork
         public bool EnableTownStatIncreases => LivingWorldSettings.Instance?.HonestWork_EnableTownStatIncreases ?? true;
         public bool EnableTownItemRewards => LivingWorldSettings.Instance?.HonestWork_EnableTownItemRewards ?? true;
         public bool EnableVillageItemRewards => LivingWorldSettings.Instance?.HonestWork_EnableVillageItemRewards ?? true;
+        public bool EnableShiftNotifications => LivingWorldSettings.Instance?.HonestWork_EnableShiftNotifications ?? false;
     }
 }

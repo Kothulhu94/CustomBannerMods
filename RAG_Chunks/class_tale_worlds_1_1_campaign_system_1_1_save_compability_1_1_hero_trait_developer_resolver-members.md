@@ -1,0 +1,11 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver-members.html ---
+
+TaleWorlds.CampaignSystem.SaveCompability.HeroTraitDeveloperResolver Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.SaveCompability.HeroTraitDeveloperResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GetFieldMemberWithId](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html#af9eb81f035f22d2e4490e0800fc9538a)(MemberTypeId memberTypeId) | [TaleWorlds.CampaignSystem.SaveCompability.HeroTraitDeveloperResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html) |  |
+| [GetNewType](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html#a9e0de310e501955bbcfd78ed4c04c6a5)() | [TaleWorlds.CampaignSystem.SaveCompability.HeroTraitDeveloperResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html) |  |
+| [GetPropertyMemberWithId](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html#a9ee3d4f784211200b89421f047f6ad02)(MemberTypeId memberTypeId) | [TaleWorlds.CampaignSystem.SaveCompability.HeroTraitDeveloperResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html) |  |
+| [IsApplicable](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html#a2588605383f6c751bb2ef2bc943ff15d)(ApplicationVersion version) | [TaleWorlds.CampaignSystem.SaveCompability.HeroTraitDeveloperResolver](class_tale_worlds_1_1_campaign_system_1_1_save_compability_1_1_hero_trait_developer_resolver.html) |  |
+

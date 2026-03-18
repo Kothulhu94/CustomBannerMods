@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_village_needs_tools_issue_behavior_1_1_vill889ebcfc0fa38d32cdf198fabe99af4c.html ---
+
+TaleWorlds.CampaignSystem.Issues.VillageNeedsToolsIssueBehavior.VillageNeedsToolsIssueTypeDefiner Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Issues.VillageNeedsToolsIssueBehavior.VillageNeedsToolsIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_village_needs_tools_issue_behavior_1_1_vill5b277e31bb373b995e381f08cf59d2ce.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [DefineClassTypes](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_village_needs_tools_issue_behavior_1_1_vill5b277e31bb373b995e381f08cf59d2ce.html#aad7fdfbc04d1e70994b7b5c7d6b1351d)() | [TaleWorlds.CampaignSystem.Issues.VillageNeedsToolsIssueBehavior.VillageNeedsToolsIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_village_needs_tools_issue_behavior_1_1_vill5b277e31bb373b995e381f08cf59d2ce.html) | protected |
+| [VillageNeedsToolsIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_village_needs_tools_issue_behavior_1_1_vill5b277e31bb373b995e381f08cf59d2ce.html#aab9693f22b4745dfd0e5d1902aa18504)() | [TaleWorlds.CampaignSystem.Issues.VillageNeedsToolsIssueBehavior.VillageNeedsToolsIssueTypeDefiner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_village_needs_tools_issue_behavior_1_1_vill5b277e31bb373b995e381f08cf59d2ce.html) |  |
+

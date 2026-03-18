@@ -1,0 +1,19 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option-members.html ---
+
+TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Deserialize](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#acedc829133ffcfbaaad4cd05379dc6b5)(XmlNode node, Type typeOfWaitMenusCallbacks) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [GetConditionsHold](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#a8ba5173aaf5102327effda5add66972d)(Game game, MapState mapState) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [IdString](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#a74964b2352563e724c4e38ab97405e5a) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [IsLeave](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#ad3e509e46b8e52b572b24afcfa5d4224) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [OnCondition](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#a0ac77989559a1e4ac4a9f8d4c4f2aae4) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [OnConditionDelegate](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#aa7859be17333c9fa73e8e539ee590dbe)(MenuCallbackArgs args) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [OnConsequence](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#a2376c167a3937c37dc5b5533eba835fe) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [OnConsequenceDelegate](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#a4a6c4fbd400f2a259138fc51a2a769e3)(MenuCallbackArgs args) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [Priority](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#ad50d58fb9b19cb06abc4e9935ab9a5d3) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [RunConsequence](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#a2c4e1dab84588c7ae787f3b89e9aaf99)(Game game, MapState mapState) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [Text](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#a9beedcdb639720caec004854c564ec05) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+| [Tooltip](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html#ab472e2ffc177cc199b66e2ba7d6ba15a) | [TaleWorlds.CampaignSystem.GameMenus.WaitMenuOption](class_tale_worlds_1_1_campaign_system_1_1_game_menus_1_1_wait_menu_option.html) |  |
+

@@ -434,8 +434,8 @@ namespace HonestWork
             if (settlement.Notables.Count > 0 && party.LeaderHero != null)
             {
                 Hero notable = settlement.Notables.GetRandomElement();
-                ChangeRelationAction.ApplyRelationChangeBetweenHeroes(party.LeaderHero, notable, _settings.ShiftRelationBonus, true);
-                if (party.LeaderHero == Hero.MainHero)
+                ChangeRelationAction.ApplyRelationChangeBetweenHeroes(party.LeaderHero, notable, _settings.ShiftRelationBonus, _settings.EnableShiftNotifications);
+                if (party.LeaderHero == Hero.MainHero && _settings.EnableShiftNotifications)
                     InformationManager.DisplayMessage(new InformationMessage(new TaleWorlds.Localization.TextObject($"{{=lw_relationshipinc}}Relationship increased with {notable.Name}").ToString()));
             }
         }
@@ -470,7 +470,7 @@ namespace HonestWork
                 
                 }
 
-            GainRenownAction.Apply(Hero.MainHero, 0.5f, false);
+            GainRenownAction.Apply(Hero.MainHero, 0.5f, _settings.EnableShiftNotifications);
             InformationManager.DisplayMessage(new InformationMessage(new TaleWorlds.Localization.TextObject("{=lw_shiftcompleteyo}Shift complete. You continue your labor...").ToString()));
             
             // Loop Logic: RESET the start time and let the player continue waiting.

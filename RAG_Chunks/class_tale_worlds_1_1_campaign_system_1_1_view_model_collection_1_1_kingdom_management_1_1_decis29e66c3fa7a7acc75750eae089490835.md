@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_kingdom_management_1_1_decis29e66c3fa7a7acc75750eae089490835.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.KingdomManagement.Decisions.ItemTypes.KingdomPolicyDecisionItemVM Class Reference
+

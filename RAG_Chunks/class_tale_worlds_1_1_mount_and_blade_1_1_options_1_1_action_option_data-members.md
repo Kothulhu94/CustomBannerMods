@@ -1,0 +1,20 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data-members.html ---
+
+TaleWorlds.MountAndBlade.Options.ActionOptionData Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a28b3f862324e9c565904f35c769e7c0e)(ManagedOptionsType managedType, Action onAction) | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a52b57a4e1d571aa3d1a4b40e8bd9f99a)(NativeOptions.NativeOptionsType nativeType, Action onAction) | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#ad21fade12e18895f715eb2a13f3d0b09)(string optionTypeId, Action onAction) | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [Commit](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#ab6254012e29c1c53b5b2d3c01065f39a)() | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [GetDefaultValue](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a3a40bc885346cc8c8d4de4e939ec556e)() | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [GetIsDisabledAndReasonID](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a527368f0e701aae7c010f94f64c0b022)() | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [GetOptionType](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a2da30be39fd8e8d3f4488734818cfdf2)() | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [GetValue](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#aff840a5a143a03b9007920ddae5ed542)(bool forceRefresh) | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [IsAction](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#ae95daad9c0e26789b049de6e04bd28c6)() | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [IsNative](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a801ddf962b8fff9124a78459d49d910f)() | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [OnAction](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a43bb0b8051c3f3b989475981a648d17c) | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [SetValue](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a666dc931490cb57f1fbcd7cd8b3b7e74)(float value) | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+| [string](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html#a9b4d22cec6b25caa1b2ab868f4ccdf80) | [TaleWorlds.MountAndBlade.Options.ActionOptionData](class_tale_worlds_1_1_mount_and_blade_1_1_options_1_1_action_option_data.html) |  |
+

@@ -1,0 +1,13 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model-members.html ---
+
+TaleWorlds.CampaignSystem.ComponentInterfaces.TradeItemPriceFactorModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ComponentInterfaces.TradeItemPriceFactorModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [GetBasePriceFactor](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html#ae63448269d2c9e05b120ece5ace36ae3)(ItemCategory itemCategory, float inStoreValue, float supply, float demand, bool isSelling, int transferValue) | [TaleWorlds.CampaignSystem.ComponentInterfaces.TradeItemPriceFactorModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html) |  |
+| [GetPrice](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html#a1d15319f22869c022789f40d4ffdcab3)(EquipmentElement itemRosterElement, MobileParty clientParty, PartyBase merchant, bool isSelling, float inStoreValue, float supply, float demand) | [TaleWorlds.CampaignSystem.ComponentInterfaces.TradeItemPriceFactorModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html) |  |
+| [GetTheoreticalMaxItemMarketValue](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html#a43dbb7edf2e176dcd4b7d7977227104b)(ItemObject item) | [TaleWorlds.CampaignSystem.ComponentInterfaces.TradeItemPriceFactorModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html) |  |
+| [GetTradePenalty](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html#ac789546e557a182797ffc0367ae4cc3a)(ItemObject item, MobileParty clientParty, PartyBase merchant, bool isSelling, float inStore, float supply, float demand) | [TaleWorlds.CampaignSystem.ComponentInterfaces.TradeItemPriceFactorModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_trade_item_price_factor_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+

@@ -1,0 +1,24 @@
+--- SOURCE: class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c-members.html ---
+
+TaleWorlds.Library.PlatformFileHelperPC Member ListThis is the complete list of members for [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AppendLineToFileString](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a3053bea6cba18b7c34bf7a02410396c8)(PlatformFilePath path, string data) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [CreateDirectory](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#afe78e1eb47516f216ddba95e42dbf4f6)(PlatformDirectoryPath path) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [DeleteFile](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a7fc59e9243e49dc8c41da9f314771911)(PlatformFilePath path) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [FileExists](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a3b277a92bbc71aed2e7a183a2161df1a)(PlatformFilePath path) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [GetError](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#af5b5c3d0dd1a0a368098b31e7c7e39ff)() | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [GetFileContent](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a86e987ba70e15c1fd87b0c54d4f84c13)(PlatformFilePath path) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [GetFileContentString](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#ab9434963074d45d985053a4b20ddc16d)(PlatformFilePath path) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [GetFileContentStringAsync](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a0d09241b9a0715d641abe59431b75598)(PlatformFilePath path) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [GetFileFullPath](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a92f3a5802a63560c226c10514c707c7f)(PlatformFilePath filePath) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [GetFiles](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#ae1056bb9003a71e30af454901bb5126d)(PlatformDirectoryPath path, string searchPattern, SearchOption searchOption) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [GetMetaDataContent](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a65c4a9623adbf8d26f8138ef42912b00)(PlatformFilePath path) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a807a0b7e21e4abe52e0f91067ba96fb1)(string applicationName) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [RenameFile](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a9f8e2c82883902754e5cd1c639ff5b75)(PlatformFilePath filePath, string newName) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [SaveFile](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a3b723089b905bba9e7b8c3ba51fce6cf)(PlatformFilePath path, byte[] data) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [SaveFileAsync](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a61980d72ceb7354891b000bdd4238396)(PlatformFilePath path, byte[] data) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [SaveFileString](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#a7ef4367d44fa126f5d12aaaae39546fc)(PlatformFilePath path, string data) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+| [SaveFileStringAsync](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html#ac8cd3402ae6b8cc4089f64b42efce5e2)(PlatformFilePath path, string data) | [TaleWorlds.Library.PlatformFileHelperPC](class_tale_worlds_1_1_library_1_1_platform_file_helper_p_c.html) |  |
+

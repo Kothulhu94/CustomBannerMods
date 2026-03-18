@@ -1,0 +1,11 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_curt_tribal_tag-members.html ---
+
+TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaCurtTribalTag Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaCurtTribalTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_curt_tribal_tag.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Id](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_curt_tribal_tag.html#a850884ac4786a343d52170f2de66e66d) | [TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaCurtTribalTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_curt_tribal_tag.html) | static |
+| [IsApplicableTo](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_curt_tribal_tag.html#ab01008694677b6db11c7e334e657767c)(CharacterObject character) | [TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaCurtTribalTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_curt_tribal_tag.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_curt_tribal_tag.html#a52314fcd811364095fd5bf8b88a8f2ba) | [TaleWorlds.CampaignSystem.Conversation.Tags.VoiceGroupPersonaCurtTribalTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_voice_group_persona_curt_tribal_tag.html) |  |
+| [ToString](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag.html#ab9dbddc7aabbdc2e8226cebb67b7d55a)() | [TaleWorlds.CampaignSystem.Conversation.Tags.ConversationTag](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_tags_1_1_conversation_tag.html) |  |
+

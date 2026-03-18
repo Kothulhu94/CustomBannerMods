@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_object_system_1_1_m_b_type_not_registered_exception.html ---
+
+TaleWorlds.ObjectSystem.MBTypeNotRegisteredException Class ReferenceInherits [TaleWorlds.ObjectSystem.ObjectSystemException](class_tale_worlds_1_1_object_system_1_1_object_system_exception.html).
+

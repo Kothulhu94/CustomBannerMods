@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.PartyLeaderChangeNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.PartyLeaderChangeNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html#a6a96c20bbd884c03d281bafbe9587fcf)() | [TaleWorlds.CampaignSystem.MapNotificationTypes.PartyLeaderChangeNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html) | virtual |
+| [Party](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html#af6004e9907da54253cc20a042371b137) | [TaleWorlds.CampaignSystem.MapNotificationTypes.PartyLeaderChangeNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html) |  |
+| [PartyLeaderChangeNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html#a104430a3ebe01411853b1858626f169c)(MobileParty party, TextObject descriptionText) | [TaleWorlds.CampaignSystem.MapNotificationTypes.PartyLeaderChangeNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html#af2d05d04206bdf71f3bb4bac6198ffad) | [TaleWorlds.CampaignSystem.MapNotificationTypes.PartyLeaderChangeNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html#a8fd5cf0b157b54c96aa5bb821af7adff) | [TaleWorlds.CampaignSystem.MapNotificationTypes.PartyLeaderChangeNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_party_leader_change_notification.html) |  |
+

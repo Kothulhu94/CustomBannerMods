@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_english_text_processor-members.html ---
+
+TaleWorlds.Localization.TextProcessor.LanguageProcessors.EnglishTextProcessor Member ListThis is the complete list of members for [TaleWorlds.Localization.TextProcessor.LanguageProcessors.EnglishTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_english_text_processor.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClearTemporaryData](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_english_text_processor.html#ac7d3d8a7e5b0512f8a7b685511584bbb)() | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.EnglishTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_english_text_processor.html) |  |
+| [CultureInfoForLanguage](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_english_text_processor.html#adf1609dbc4b1af05664c5429b9d83d87) | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.EnglishTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_english_text_processor.html) |  |
+| [LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a368e90e4d154b71135c2d3b41f6d5ecf)() | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [Process](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a4bb15179944170b1494ef54540574b2b)(string text) | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [ProcessToken](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_english_text_processor.html#a3f799602e1c7762abc6cba27fc27d90b)(string sourceText, ref int cursorPos, string token, StringBuilder outputString) | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.EnglishTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_english_text_processor.html) |  |
+

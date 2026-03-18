@@ -1,0 +1,26 @@
+--- SOURCE: class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code-members.html ---
+
+TaleWorlds.Library.CodeGeneration.ClassCode Member ListThis is the complete list of members for [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AccessModifier](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a93a4d17bb7c1db9a90ceb64147ad7232) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [AddConsturctor](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#aab7d68c8077e5f8f4d0c46bf5881e0a6)(ConstructorCode constructorCode) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [AddInterface](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a3f121075b4901f6a5256a3d83b6fd13a)(string interfaceName) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [AddMethod](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a57bb7b95e30848a53a0279b31e055066)(MethodCode methodCode) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [AddNestedClass](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a37c36d12c700f89ffae81d1a22d0e72e)(ClassCode clasCode) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [AddVariable](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a1de4b14dc91b09e155ba1b8c22691768)(VariableCode variableCode) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a86b0d5bb0b4ffd1d6f07278558de667c)() | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [CommentSection](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#af760fd46a38cc076d3334ac048dfab03) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [Constructors](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#ad437ad8d08655e649dcac2601fe1508f) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [GenerateInto](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a0d70b4cdf49985d4425c2e2e12908eeb)(CodeGenerationFile codeGenerationFile) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [GenericTypeCount](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a71bd012c1b9f3e69fa90840c7320c3b7) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [InheritedInterfaces](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#af7c94bdda916436aa79bebab533c3ec6) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [IsClass](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#afe33acda506dc83b740f8670bdfdf77e) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [IsGeneric](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#abe1530a49687317b7dfec87a0c0cc5e6) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [IsPartial](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#ae537170fc26a62ba14e997b6db31adf6) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [Methods](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#aaf8dc4524b0bcf2772a4b3d9d32e4e2c) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [Name](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a0ebc596366d6ce02f6092090f8f43ba9) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [NestedClasses](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#ac0fd4c063e32ecb3501722378fcf4d32) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+| [Variables](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html#a02d14443f8d5c607a37f6e7ed447fdbf) | [TaleWorlds.Library.CodeGeneration.ClassCode](class_tale_worlds_1_1_library_1_1_code_generation_1_1_class_code.html) |  |
+

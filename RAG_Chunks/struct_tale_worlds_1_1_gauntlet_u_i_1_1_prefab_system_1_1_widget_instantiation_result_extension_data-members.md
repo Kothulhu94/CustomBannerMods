@@ -1,0 +1,10 @@
+--- SOURCE: struct_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_instantiation_result_extension_data-members.html ---
+
+TaleWorlds.GauntletUI.PrefabSystem.WidgetInstantiationResultExtensionData Member ListThis is the complete list of members for [TaleWorlds.GauntletUI.PrefabSystem.WidgetInstantiationResultExtensionData](struct_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_instantiation_result_extension_data.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Data](struct_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_instantiation_result_extension_data.html#ac62534fa7b98d69f4fce64d32dc75491) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetInstantiationResultExtensionData](struct_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_instantiation_result_extension_data.html) |  |
+| [Name](struct_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_instantiation_result_extension_data.html#aab55c6318be31879365597d1220a2657) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetInstantiationResultExtensionData](struct_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_instantiation_result_extension_data.html) |  |
+| [PassToChildWidgetCreation](struct_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_instantiation_result_extension_data.html#a83442e20e87a2349fbc4b33330916652) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetInstantiationResultExtensionData](struct_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_instantiation_result_extension_data.html) |  |
+

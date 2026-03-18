@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.PartyUpgraderCampaignBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.PartyUpgraderCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [DailyTickParty](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html#acb5818611427b7d6b74a02b4368c0aea)(MobileParty party) | [TaleWorlds.CampaignSystem.CampaignBehaviors.PartyUpgraderCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html#a26a325f55c4e037a711ec117376c87a4)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.PartyUpgraderCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html#a0156c858b4abdcb261804c5ec8a63152)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.PartyUpgraderCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html) |  |
+| [UpgradeReadyTroops](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html#aeefeb4d5c22e0f0a16f8ce825592c410)(PartyBase party) | [TaleWorlds.CampaignSystem.CampaignBehaviors.PartyUpgraderCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_party_upgrader_campaign_behavior.html) |  |
+

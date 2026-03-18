@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.MarriageMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.MarriageMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CreationTime](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html#a4575eb03792c8a3951a0a04374c26997) | [TaleWorlds.CampaignSystem.MapNotificationTypes.MarriageMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [Maiden](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html#a13d7c1c66e69cf8339abd1689ac18e3f) | [TaleWorlds.CampaignSystem.MapNotificationTypes.MarriageMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html) |  |
+| [MarriageMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html#a9bc9b04018ce84325ec661e77b635144)(Hero firstHero, Hero secondHero, TextObject descriptionText, CampaignTime creationTime) | [TaleWorlds.CampaignSystem.MapNotificationTypes.MarriageMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html#a1737e10c778a47fc25164c351bb9015e) | [TaleWorlds.CampaignSystem.MapNotificationTypes.MarriageMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html) |  |
+| [Suitor](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html#af9d9f8b5d05f7b9b231df2f3e67a04ba) | [TaleWorlds.CampaignSystem.MapNotificationTypes.MarriageMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html#a096a5b4070f93c26c5e789b04874efc3) | [TaleWorlds.CampaignSystem.MapNotificationTypes.MarriageMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_marriage_map_notification.html) |  |
+

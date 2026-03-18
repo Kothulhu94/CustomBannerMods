@@ -1,0 +1,13 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_o5797ff5eb6c916c8616dd1d498c726ca.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnPlayerMeetLordBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnPlayerMeetLordBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_player_meet_lord_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_player_meet_lord_behavior.html#ab33f3c76b47b482beff7049e47017ab2)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnPlayerMeetLordBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_player_meet_lord_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_player_meet_lord_behavior.html#a21f0219c695d31665cfe43defc4bb467)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnPlayerMeetLordBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_comment_behaviors_1_1_comment_on_player_meet_lord_behavior.html) |  |
+

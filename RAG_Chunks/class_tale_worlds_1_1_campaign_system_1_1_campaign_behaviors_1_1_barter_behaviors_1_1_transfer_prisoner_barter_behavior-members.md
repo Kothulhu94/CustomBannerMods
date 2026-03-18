@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_transfer_prisoner_barter_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.TransferPrisonerBarterBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.TransferPrisonerBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_transfer_prisoner_barter_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CheckForBarters](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_transfer_prisoner_barter_behavior.html#a62122f416ea5538b96c1dda577663049)(BarterData args) | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.TransferPrisonerBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_transfer_prisoner_barter_behavior.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_transfer_prisoner_barter_behavior.html#ae91063cedee90b603c4f8c960de88738)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.TransferPrisonerBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_transfer_prisoner_barter_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_transfer_prisoner_barter_behavior.html#abf1c88fb3da24aed7dc777c30b4222d9)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.TransferPrisonerBarterBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_barter_behaviors_1_1_transfer_prisoner_barter_behavior.html) |  |
+

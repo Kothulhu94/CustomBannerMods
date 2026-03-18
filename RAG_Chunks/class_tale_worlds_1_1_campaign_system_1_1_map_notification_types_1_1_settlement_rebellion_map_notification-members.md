@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.SettlementRebellionMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.SettlementRebellionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [RebelliousSettlement](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html#a9682257f8adcc451c81139d8af15f783) | [TaleWorlds.CampaignSystem.MapNotificationTypes.SettlementRebellionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html) |  |
+| [SettlementRebellionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html#a04cb56d0c91d5441c61c6387ee971a28)(Settlement settlement, TextObject descriptionText) | [TaleWorlds.CampaignSystem.MapNotificationTypes.SettlementRebellionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html#ae7d6515f7d9cff015e7f28d77f296258) | [TaleWorlds.CampaignSystem.MapNotificationTypes.SettlementRebellionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html#a8645aaf1ee7820d7bfc4873c89f76a5a) | [TaleWorlds.CampaignSystem.MapNotificationTypes.SettlementRebellionMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_settlement_rebellion_map_notification.html) |  |
+

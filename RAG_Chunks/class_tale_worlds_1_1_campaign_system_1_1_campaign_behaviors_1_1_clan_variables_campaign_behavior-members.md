@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.ClanVariablesCampaignBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.ClanVariablesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [OnNewGameCreated](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html#a64373081fd38857acb5f4d85cb377d09)(CampaignGameStarter starter) | [TaleWorlds.CampaignSystem.CampaignBehaviors.ClanVariablesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html) |  |
+| [OnSettlementOwnerChanged](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html#aa5e6ea160eb26c1b34c4d626e7d5cba4)(Settlement settlement, bool openToClaim, Hero newOwner, Hero oldOwner, Hero capturerHero, ChangeOwnerOfSettlementAction.ChangeOwnerOfSettlementDetail detail) | [TaleWorlds.CampaignSystem.CampaignBehaviors.ClanVariablesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html) |  |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html#ab1ecbe21b354dbc4de8643233cc84fd8)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.ClanVariablesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html#a9c96eca2b04ef3dffb0012a884f28dfd)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.ClanVariablesCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_clan_variables_campaign_behavior.html) |  |
+

@@ -1,0 +1,11 @@
+--- SOURCE: struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line-members.html ---
+
+TaleWorlds.CampaignSystem.ExplainedNumber.StatExplainer.ExplanationLine Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ExplainedNumber.StatExplainer.ExplanationLine](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ExplanationLine](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html#a6f15577ee6c08cad8979a73b8860c8e0)(string name, float number, OperationType operationType) | [TaleWorlds.CampaignSystem.ExplainedNumber.StatExplainer.ExplanationLine](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html) |  |
+| [Name](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html#a96abc1c2f9cea98e1607736fb7616c7a) | [TaleWorlds.CampaignSystem.ExplainedNumber.StatExplainer.ExplanationLine](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html) |  |
+| [Number](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html#ac14dd1926f374fb89c45c676adcebbf2) | [TaleWorlds.CampaignSystem.ExplainedNumber.StatExplainer.ExplanationLine](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html) |  |
+| [OperationType](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html#a2a89614543cae16c9707f85c6f2e8b63) | [TaleWorlds.CampaignSystem.ExplainedNumber.StatExplainer.ExplanationLine](struct_tale_worlds_1_1_campaign_system_1_1_explained_number_1_1_stat_explainer_1_1_explanation_line.html) |  |
+

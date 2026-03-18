@@ -1,0 +1,17 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CreationTime](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html#a87871c882947c35c46f42f6715309f44) | [TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html) |  |
+| [DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html#a8c2dda7db98af8085cce9fa123c9597b)(Hero victimHero, Hero killerHero, TextObject descriptionText, KillCharacterAction.KillCharacterActionDetail detail, CampaignTime creationTime) | [TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html) |  |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [KillDetail](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html#a4439a415648d592246d25f82e041bcb0) | [TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html) |  |
+| [KillerHero](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html#a2da2d2a7318871000c89cf9ac7e9c1df) | [TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html#a73578bb15dcda980dba1e2c1631b96bb) | [TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html#a10870bd52543b8487e08802cee38c96b) | [TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html) |  |
+| [VictimHero](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html#a357a873b9bfb0a4862b90cb78ac2dab0) | [TaleWorlds.CampaignSystem.MapNotificationTypes.DeathMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_death_map_notification.html) |  |
+

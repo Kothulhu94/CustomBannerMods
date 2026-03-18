@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_engine_1_1_gauntlet_u_i_1_1_two_dimension_engine_resource_context.html ---
+
+TaleWorlds.Engine.GauntletUI.TwoDimensionEngineResourceContext Class ReferenceInherits [TaleWorlds.TwoDimension.ITwoDimensionResourceContext](interface_tale_worlds_1_1_two_dimension_1_1_i_two_dimension_resource_context.html).
+

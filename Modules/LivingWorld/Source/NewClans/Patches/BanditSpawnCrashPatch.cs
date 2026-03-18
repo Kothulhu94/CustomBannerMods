@@ -5,9 +5,12 @@ using System.Linq;
 
 namespace NewClans.Patches
 {
-    [HarmonyPatch(typeof(BanditSpawnCampaignBehavior), "IsBanditFaction")]
     public static class BanditSpawnCrashPatch
     {
+        public static System.Reflection.MethodBase TargetMethod()
+        {
+            return AccessTools.Method(typeof(BanditSpawnCampaignBehavior), "IsBanditFaction");
+        }
         
         [HarmonyPrefix]
         public static bool Prefix(Clan clan, ref bool __result)

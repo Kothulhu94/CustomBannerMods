@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor-members.html ---
+
+TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor Member ListThis is the complete list of members for [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClearTemporaryData](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a60fe046b769e4b855e44ec8bdad781ed)() | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [CultureInfoForLanguage](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a7ce9889ca2b1b6e5d771457a7e1f0383) | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a368e90e4d154b71135c2d3b41f6d5ecf)() | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [Process](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a4bb15179944170b1494ef54540574b2b)(string text) | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [ProcessToken](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#ace9e33be9ff73dd2c6152826158a7d75)(string sourceText, ref int cursorPos, string token, StringBuilder outputString) | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+

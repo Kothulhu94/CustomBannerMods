@@ -1,0 +1,10 @@
+--- SOURCE: struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_controller_stick_input-members.html ---
+
+StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.ControllerStickInput Member ListThis is the complete list of members for [StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.ControllerStickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_controller_stick_input.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ControllerStickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_controller_stick_input.html#a18ed82ff49e2902a23150cfc0f89268c)(MovementTypes movementType, bool isLeftStick) | [StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.ControllerStickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_controller_stick_input.html) |  |
+| [CurrentMovementType](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_controller_stick_input.html#a438ecfac35b58aa7310e4bb81e21ab0f) | [StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.ControllerStickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_controller_stick_input.html) |  |
+| [IsLeftStick](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_controller_stick_input.html#a13d7d44adf866758f7e6a80b6c1e823b) | [StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.ControllerStickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_controller_stick_input.html) |  |
+

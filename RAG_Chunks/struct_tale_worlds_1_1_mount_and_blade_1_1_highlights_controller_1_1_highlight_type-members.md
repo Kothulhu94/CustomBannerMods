@@ -1,0 +1,16 @@
+--- SOURCE: struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type-members.html ---
+
+TaleWorlds.MountAndBlade.HighlightsController.HighlightType Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Description](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#a35c92627aab86dfc3386c3120c467dcf) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+| [EndDelta](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#a050f91f22363c1e00f9464caaa251d0e) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+| [GroupId](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#a039bc6af99125f6a9db781e28b434956) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+| [HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#a86c798673712f398ab860f5f510468cb)(string id, string description, string groupId, int startDelta, int endDelta, float minVisibilityScore, float maxHighlightDistance, bool isVisibilityRequired) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+| [Id](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#abba663b9c3049796bbe5caa4f9424ba4) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+| [IsVisibilityRequired](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#a55a60db1e57ac40f6d3015d9f1ad2175) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+| [MaxHighlightDistance](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#a9941317908b9cd86edf2f34f1f1e9930) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+| [MinVisibilityScore](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#a638b38e170e4f76d89dd60a21c32678e) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+| [StartDelta](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html#a3569d10c15dc062c184affb16df75df4) | [TaleWorlds.MountAndBlade.HighlightsController.HighlightType](struct_tale_worlds_1_1_mount_and_blade_1_1_highlights_controller_1_1_highlight_type.html) |  |
+

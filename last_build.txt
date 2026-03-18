@@ -1,20 +1,14 @@
-Build Run: 2026-03-15 01:39:14.191030
+Build Run: 2026-03-17 23:22:30.926269
 
 ========================================
 BUILD LOG: LivingWorld
 ========================================
   Determining projects to restore...
   All projects are up-to-date for restore.
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\FieldSquire\Patches\SquireXpSharePatch.cs(42,41): error CS0039: Cannot convert type 'TaleWorlds.CampaignSystem.CharacterObject' to 'TaleWorlds.Core.IReadOnlyPropertyOwner<TaleWorlds.Core.CharacterAttribute>' via a reference conversion, boxing conversion, unboxing conversion, wrapping conversion, or null type conversion [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork\NavalIntegration.cs(33,35): warning BHA0003: Type 'NavalDLC.CharacterDevelopment.NavalSkills' was not found (https://github.com/BUTR/BUTR.Harmony.Analyzer/blob/master/docs/Rules/BHA0003.md) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork\NavalIntegration.cs(49,39): warning BHA0003: Type 'NavalDLC.NavalDLCExtensions' was not found (https://github.com/BUTR/BUTR.Harmony.Analyzer/blob/master/docs/Rules/BHA0003.md) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
+  LivingWorld -> d:\Bannerlord_Mods\Modules\LivingWorld\bin\Win64_Shipping_Client\LivingWorld.dll
 
-Build FAILED.
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
 
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork\NavalIntegration.cs(33,35): warning BHA0003: Type 'NavalDLC.CharacterDevelopment.NavalSkills' was not found (https://github.com/BUTR/BUTR.Harmony.Analyzer/blob/master/docs/Rules/BHA0003.md) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\HonestWork\NavalIntegration.cs(49,39): warning BHA0003: Type 'NavalDLC.NavalDLCExtensions' was not found (https://github.com/BUTR/BUTR.Harmony.Analyzer/blob/master/docs/Rules/BHA0003.md) [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-D:\Bannerlord_Mods\Modules\LivingWorld\Source\FieldSquire\Patches\SquireXpSharePatch.cs(42,41): error CS0039: Cannot convert type 'TaleWorlds.CampaignSystem.CharacterObject' to 'TaleWorlds.Core.IReadOnlyPropertyOwner<TaleWorlds.Core.CharacterAttribute>' via a reference conversion, boxing conversion, unboxing conversion, wrapping conversion, or null type conversion [D:\Bannerlord_Mods\Modules\LivingWorld\LivingWorld.csproj]
-    2 Warning(s)
-    1 Error(s)
-
-Time Elapsed 00:00:00.90
+Time Elapsed 00:00:00.86

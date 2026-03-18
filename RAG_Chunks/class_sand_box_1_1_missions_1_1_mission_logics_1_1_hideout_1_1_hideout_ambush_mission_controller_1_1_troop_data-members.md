@@ -1,0 +1,11 @@
+--- SOURCE: class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data-members.html ---
+
+SandBox.Missions.MissionLogics.Hideout.HideoutAmbushMissionController.TroopData Member ListThis is the complete list of members for [SandBox.Missions.MissionLogics.Hideout.HideoutAmbushMissionController.TroopData](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Level](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html#a2a9a3a37bd93d3eb4b6ed16b63b717c3) | [SandBox.Missions.MissionLogics.Hideout.HideoutAmbushMissionController.TroopData](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html) |  |
+| [Number](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html#adc2688a8b3e3e14b5de634653fdfd109) | [SandBox.Missions.MissionLogics.Hideout.HideoutAmbushMissionController.TroopData](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html) |  |
+| [Troop](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html#a3efdcc9ace027fed8afc89c7ef25b225) | [SandBox.Missions.MissionLogics.Hideout.HideoutAmbushMissionController.TroopData](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html) |  |
+| [TroopData](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html#a2fca39ad595d2fd25c9ed0b332c08364)(CharacterObject troop, int number) | [SandBox.Missions.MissionLogics.Hideout.HideoutAmbushMissionController.TroopData](class_sand_box_1_1_missions_1_1_mission_logics_1_1_hideout_1_1_hideout_ambush_mission_controller_1_1_troop_data.html) |  |
+

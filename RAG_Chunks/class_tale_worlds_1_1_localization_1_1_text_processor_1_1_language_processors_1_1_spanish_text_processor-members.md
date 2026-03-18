@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_spanish_text_processor-members.html ---
+
+TaleWorlds.Localization.TextProcessor.LanguageProcessors.SpanishTextProcessor Member ListThis is the complete list of members for [TaleWorlds.Localization.TextProcessor.LanguageProcessors.SpanishTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_spanish_text_processor.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClearTemporaryData](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_spanish_text_processor.html#a1a662eac0b95088e62dba1473c0d64d5)() | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.SpanishTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_spanish_text_processor.html) |  |
+| [CultureInfoForLanguage](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_spanish_text_processor.html#ad4852c62fc77fe821c62d5474cfe1d28) | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.SpanishTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_spanish_text_processor.html) |  |
+| [LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a368e90e4d154b71135c2d3b41f6d5ecf)() | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [Process](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a4bb15179944170b1494ef54540574b2b)(string text) | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [ProcessToken](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_spanish_text_processor.html#a5cc5e851fa8b405526876ce55be1ecff)(string sourceText, ref int cursorPos, string token, StringBuilder outputString) | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.SpanishTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_spanish_text_processor.html) |  |
+

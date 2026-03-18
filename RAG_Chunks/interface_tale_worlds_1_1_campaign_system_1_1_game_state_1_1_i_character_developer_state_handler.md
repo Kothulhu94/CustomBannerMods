@@ -1,0 +1,4 @@
+--- SOURCE: interface_tale_worlds_1_1_campaign_system_1_1_game_state_1_1_i_character_developer_state_handler.html ---
+
+TaleWorlds.CampaignSystem.GameState.ICharacterDeveloperStateHandler Interface ReferenceInherited by [SandBox.GauntletUI.GauntletCharacterDeveloperScreen](class_sand_box_1_1_gauntlet_u_i_1_1_gauntlet_character_developer_screen.html).
+

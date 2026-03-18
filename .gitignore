@@ -13,13 +13,15 @@ Modules/SandBox*
 Modules/StoryMode
 Modules/CustomBattle
 Modules/BirthAndDeath
-<<<<<<< HEAD
 _temp_investigate/
 ModulesNeedingWork/
-=======
 Modules/**/bin/
 Modules/**/obj/
 *.dll
 *.pdb
 *.cache
->>>>>>> 33a7fadbec778cf9f87e202db7d4adbdb19726d4
+Bannerlord_API_Full.md
+Bannerlord_Vector_DB/
+v13_mobileparty_full_utf8.txt
+v13_props.txt
+mobileparty_props_list.txt

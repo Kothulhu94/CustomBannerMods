@@ -1,0 +1,20 @@
+--- SOURCE: class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab-members.html ---
+
+TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab Member ListThis is the complete list of members for [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Constants](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a8a9c376a1acff8ceae96931f3395c39a) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [CustomElements](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a6f37d7ddcebe2de5e2398c7dbf38dfc8) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [GetConstantValue](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#ae1f73bb6ea738c23a24686e3c813ffc2)(string name) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [GetParameterDefaultValue](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a5e3e1e837875c4f9503a4af4dcd96fce)(string name) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [Instantiate](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a383dbb4f241bd0b80542e8dbc5daa84d)(WidgetCreationData widgetCreationData) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [Instantiate](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#af2222aeba5c8b4f8ab783bcf521018fe)(WidgetCreationData widgetCreationData, Dictionary< string, WidgetAttributeTemplate > parameters) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [LoadFrom](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a8388f7ce3d8602ede6fa29791a805a50)(PrefabExtensionContext prefabExtensionContext, WidgetAttributeContext widgetAttributeContext, string path) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) | static |
+| [OnRelease](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#acc9d09714fa24a31174df07e267f9d71)() | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [Parameters](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#ae927a481ea9b4fb9ec676738f5512661) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [RootTemplate](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a33aed547a3baa2e26667b9a6306553c1) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [Save](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a200d992006fd1eb333e04bcac8289362)(PrefabExtensionContext prefabExtensionContext) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [VisualDefinitionTemplates](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a892d4c8c7378813c0ee9e15e4078d23a) | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+| [WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html#a4bd2d303bc7e8efd6b636ef25c387627)() | [TaleWorlds.GauntletUI.PrefabSystem.WidgetPrefab](class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_widget_prefab.html) |  |
+

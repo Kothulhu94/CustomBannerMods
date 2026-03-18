@@ -1,0 +1,12 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager-members.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionsManager Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionsManager](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClearCachedOptions](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html#a07c78692bf2021da59a17c2754457fbc)() | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionsManager](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html) | static |
+| [GetCharacterCreationCampaignOptions](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html#a09b10a3ed334bf1beb09351042f4a948)() | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionsManager](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html) | static |
+| [GetGameplayCampaignOptions](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html#a2db100d6711c154fc4ef905543b4d52b)() | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionsManager](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html) | static |
+| [GetOptionWithIdExists](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html#ac9a5ae0c8513f06154ced4005cfd4c69)(string identifier) | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionsManager](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html) | static |
+| [Initialize](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html#a266df10b3cf128b8d6e54482a6537fa3)() | [TaleWorlds.CampaignSystem.ViewModelCollection.CampaignOptionsManager](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_campaign_options_manager.html) | static |
+

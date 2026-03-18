@@ -1,0 +1,21 @@
+--- SOURCE: interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object-members.html ---
+
+TaleWorlds.MountAndBlade.IReadOnlyPerkObject Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Clone](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a590d9716158e98cb6929bde5fc018b0c)(MissionPeer peer) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [Description](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a67eb5edd1c5d423903b012577095872a) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [GameModes](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a865d428c239d09bcf0115cd32ffdf71f) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [GetAlternativeEquipments](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a081e58c27dc14774201de63cd67c04e4)(bool isWarmup, bool isPlayer, List<(EquipmentIndex, EquipmentElement)> alternativeEquipments, bool getAllEquipments=false) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [GetDrivenPropertyBonusOnSpawn](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a9e2bb44b66407149a818bbd13cccf6ab)(bool isWarmup, bool isPlayer, DrivenProperty drivenProperty, float baseValue) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [GetExtraTroopCount](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a9880940607167704d305f0fb5759bd5f)(bool isWarmup) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [GetHitpoints](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a91694b7f608ab970776fb49a66d318dc)(bool isWarmup, bool isPlayer) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [HeroIdleAnimOverride](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#ad2c43774f4147a525cb6e5c9e61cab3d) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [HeroMountIdleAnimOverride](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a8b6be5f1bb222440689443f123861f63) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [IconId](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a4d101cf82f7115898b723484737dcbd4) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [Name](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a8b4b2de1c3b53b758591eae30b4e1fd4) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [PerkListIndex](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a7f59ba6fbdadfa56b2d4290301e9f6ba) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [TroopIdleAnimOverride](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a8d187eb9de1fc3fb9b0c6e76d17c5f13) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+| [TroopMountIdleAnimOverride](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html#a23dc610b6c7681f68c9a04a5df5ed86f) | [TaleWorlds.MountAndBlade.IReadOnlyPerkObject](interface_tale_worlds_1_1_mount_and_blade_1_1_i_read_only_perk_object.html) |  |
+

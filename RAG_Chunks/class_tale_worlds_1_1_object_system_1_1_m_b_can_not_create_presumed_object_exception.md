@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_object_system_1_1_m_b_can_not_create_presumed_object_exception.html ---
+
+TaleWorlds.ObjectSystem.MBCanNotCreatePresumedObjectException Class ReferenceInherits [TaleWorlds.ObjectSystem.ObjectSystemException](class_tale_worlds_1_1_object_system_1_1_object_system_exception.html).
+

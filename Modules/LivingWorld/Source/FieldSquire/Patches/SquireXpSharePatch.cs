@@ -12,10 +12,10 @@ namespace FieldSquire.Patches
         private static bool _isInternalXpAdd = false;
 
         [HarmonyPostfix]
-        public static void Postfix(HeroDeveloper __instance, SkillObject skill, float xp)
+        public static void Postfix(HeroDeveloper __instance, SkillObject skill, float xp, bool isInternal, bool isSkillLevelUp)
         {
             // Recursion guard
-            if (_isInternalXpAdd) return;
+            if (_isInternalXpAdd || isInternal) return;
 
             // Only share if the gain is for the Main Hero and it's Stewardship
             if (__instance.Hero == Hero.MainHero && skill == DefaultSkills.Steward && xp > 0.01f)

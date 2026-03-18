@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model-members.html ---
+
+TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [CanHeroCreateCaravan](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html#a6bb783797a9fa93df4f61c6f1eab93a0)(Hero hero) | [TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html) |  |
+| [GetCaravanFormingCost](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html#a5416a303ac3da9c8aaa04e14fff01d05)(bool eliteCaravan, bool navalCaravan) | [TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html) |  |
+| [GetEliteCaravanSpawnChance](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html#af993f34354652739398c64ce7f038e0c)(Hero hero) | [TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html) |  |
+| [GetInitialTradeGold](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html#a065fc3966324f23bcbaa931bcb0999b9)(Hero owner, bool isNavalCaravan, bool eliteCaravan) | [TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html) |  |
+| [GetMaxGoldToSpendOnOneItemCategory](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html#a61bd76c9fe2d56c7fae32fdd6ac29050)(MobileParty caravan, ItemCategory itemCategory) | [TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html) |  |
+| [GetPowerChangeAfterCaravanCreation](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html#a77bd67cffcb09e7c9533f67f8a553203)(Hero hero, MobileParty caravanParty) | [TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+| [MaxNumberOfItemsToBuyFromSingleCategory](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html#ac3b9f0bf3a4f8e8cec460f06d38e57db) | [TaleWorlds.CampaignSystem.ComponentInterfaces.CaravanModel](class_tale_worlds_1_1_campaign_system_1_1_component_interfaces_1_1_caravan_model.html) |  |
+

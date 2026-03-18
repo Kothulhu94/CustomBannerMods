@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component-members.html ---
+
+TaleWorlds.CampaignSystem.MapEvents.FieldBattleEventComponent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapEvents.FieldBattleEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CreateComponentForOldSaves](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html#a70b4d8c4d21cc39b1587ad7f2d023635)(MapEvent mapEvent) | [TaleWorlds.CampaignSystem.MapEvents.FieldBattleEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html) | static |
+| [CreateFieldBattleEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html#a439f5e7c3b9f9fa4b228038a0c9f187f)(PartyBase attackerParty, PartyBase defenderParty) | [TaleWorlds.CampaignSystem.MapEvents.FieldBattleEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html) | static |
+| [FieldBattleEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html#a98e26b8fa1513d1a21b273ac1af2c012)(MapEvent mapEvent) | [TaleWorlds.CampaignSystem.MapEvents.FieldBattleEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html) | protected |
+| [MapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html#a66f95a31acbd5743df560c5fd36c90dc) | [TaleWorlds.CampaignSystem.MapEvents.MapEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html) |  |
+| [MapEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html#a04ce5f7286860bb13e8c09cc416417b4)(MapEvent mapEvent) | [TaleWorlds.CampaignSystem.MapEvents.MapEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html) | protected |
+| [OnBeforeFinalize](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html#a608243f9d25a7913e54337f72a98b70a)() | [TaleWorlds.CampaignSystem.MapEvents.MapEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html) | protectedvirtual |
+| [OnFinalize](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html#a0ea5e4ab76c654dbe90bc36639a4327a)() | [TaleWorlds.CampaignSystem.MapEvents.FieldBattleEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html) | protectedvirtual |
+| [OnInitialize](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html#a52fb86ad6c492b5b2de55b7adf9b8485)() | [TaleWorlds.CampaignSystem.MapEvents.FieldBattleEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html) | protectedvirtual |
+| [SimulationContext](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html#ad5ec296f4cb97857e213f0112423edf0) | [TaleWorlds.CampaignSystem.MapEvents.FieldBattleEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_field_battle_event_component.html) |  |
+

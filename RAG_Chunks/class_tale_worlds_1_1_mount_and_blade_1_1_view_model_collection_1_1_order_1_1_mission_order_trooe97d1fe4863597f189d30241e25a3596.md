@@ -1,0 +1,8 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_trooe97d1fe4863597f189d30241e25a3596.html ---
+
+TaleWorlds.MountAndBlade.ViewModelCollection.Order.MissionOrderTroopControllerVM.TroopItemFormationIndexComparer Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.ViewModelCollection.Order.MissionOrderTroopControllerVM.TroopItemFormationIndexComparer](class_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_troob7f84552167e986beca14a4fb9a3b071.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Compare](class_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_troob7f84552167e986beca14a4fb9a3b071.html#ac3e6541eea775ed83c3fc96bafd49041)(OrderTroopItemVM x, OrderTroopItemVM y) | [TaleWorlds.MountAndBlade.ViewModelCollection.Order.MissionOrderTroopControllerVM.TroopItemFormationIndexComparer](class_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_1_1_mission_order_troob7f84552167e986beca14a4fb9a3b071.html) |  |
+

@@ -40,7 +40,7 @@ namespace FieldSquire.Patches
             foreach (var m in candFixMethods) harmony.Patch(m, postfix: new HarmonyMethod(candFixPostfix));
 
             // 4. Siege Crash Patch
-            var originalGeog = AccessTools.Method(typeof(DefaultSettlementValueModel), "GeographicalAdvantageForFaction");
+            var originalGeog = AccessTools.Method(typeof(DefaultSettlementValueModel), "CalculateSettlementValueForFaction");
             var prefixGeog = AccessTools.Method(typeof(SiegeCrashPatch), nameof(SiegeCrashPatch.Prefix));
             if (originalGeog != null) harmony.Patch(originalGeog, prefix: new HarmonyMethod(prefixGeog));
 

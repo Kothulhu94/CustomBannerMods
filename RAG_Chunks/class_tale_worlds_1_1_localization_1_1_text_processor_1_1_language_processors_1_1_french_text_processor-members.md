@@ -1,0 +1,13 @@
+--- SOURCE: class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor-members.html ---
+
+TaleWorlds.Localization.TextProcessor.LanguageProcessors.FrenchTextProcessor Member ListThis is the complete list of members for [TaleWorlds.Localization.TextProcessor.LanguageProcessors.FrenchTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClearTemporaryData](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html#ab26a3864da89ac493e7eac0362a5b2c7)() | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.FrenchTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html) |  |
+| [CultureInfoForLanguage](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html#ada80752b4a2137954215b3c5c7285a1a) | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.FrenchTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html) |  |
+| [LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a368e90e4d154b71135c2d3b41f6d5ecf)() | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [Process](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html#a4bb15179944170b1494ef54540574b2b)(string text) | [TaleWorlds.Localization.TextProcessor.LanguageSpecificTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_specific_text_processor.html) |  |
+| [ProcessToken](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html#a99d27d03338558b9d661db223ee66ffa)(string sourceText, ref int cursorPos, string token, StringBuilder outputString) | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.FrenchTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html) |  |
+| [WordGroups](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html#a9774092d2dad60543c87cf698b2814b8) | [TaleWorlds.Localization.TextProcessor.LanguageProcessors.FrenchTextProcessor](class_tale_worlds_1_1_localization_1_1_text_processor_1_1_language_processors_1_1_french_text_processor.html) | static |
+

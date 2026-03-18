@@ -1,0 +1,10 @@
+--- SOURCE: struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_mouse_and_click_input-members.html ---
+
+StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.MouseAndClickInput Member ListThis is the complete list of members for [StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.MouseAndClickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_mouse_and_click_input.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CurrentClickType](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_mouse_and_click_input.html#ae63967502c1d39e77fcb036a6b5c6146) | [StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.MouseAndClickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_mouse_and_click_input.html) |  |
+| [CurrentMovementType](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_mouse_and_click_input.html#a1360720ede190267c0e8e15cb804e797) | [StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.MouseAndClickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_mouse_and_click_input.html) |  |
+| [MouseAndClickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_mouse_and_click_input.html#a37cf874af3fa4f2e9482310ca833ba67)(MovementTypes movementType, MouseClickTypes mouseClickType) | [StoryMode.ViewModelCollection.Missions.TrainingObjectiveKeyVM.MouseAndClickInput](struct_story_mode_1_1_view_model_collection_1_1_missions_1_1_training_objective_key_v_m_1_1_mouse_and_click_input.html) |  |
+

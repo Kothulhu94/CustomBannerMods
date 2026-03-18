@@ -1,0 +1,19 @@
+--- SOURCE: class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior-members.html ---
+
+SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior Member ListThis is the complete list of members for [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AddDialogs](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html#ae2438e6c62f525c67c1af478dd30313f)(CampaignGameStarter campaignGameStarter) | [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html) | protected |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [conversation\_arena\_join\_fight\_on\_consequence](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html#adbfd3c0639cd1b21a74abc46f2a32f93)() | [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html) | static |
+| [conversation\_arena\_join\_tournament\_on\_consequence](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html#aff1488bfb1864038b919ad5e0cf8b625)() | [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html) | static |
+| [conversation\_tournament\_soon\_on\_condition](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html#a46a11fcd9a6a2e6343d5cf382342a700)() | [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html) | static |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [OnSessionLaunched](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html#aa1864173ddf15fcdbdb35b5958246faa)(CampaignGameStarter campaignGameStarter) | [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html) |  |
+| [OnSettlementEntered](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html#aea8ae3cfc283e5b22995b9380cc85b4f)(MobileParty mobileParty, Settlement settlement, Hero hero) | [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html) |  |
+| [RegisterEvents](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html#a50427c828ffea77bf1da91165ead4fae)() | [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html#ab91ba7b170bae7e04091c6c42b9848cb)(IDataStore dataStore) | [SandBox.CampaignBehaviors.ArenaMasterCampaignBehavior](class_sand_box_1_1_campaign_behaviors_1_1_arena_master_campaign_behavior.html) |  |
+

@@ -1,0 +1,8 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_of_battle_1_1_order_ofb04b36e206320f4c9e0d660345a8e5dd.html ---
+
+TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationFilterSelectorItemComparer Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationFilterSelectorItemComparer](class_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_of_battle_1_1_order_of7275fae2e80044f8b904e3b31264d90f.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Compare](class_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_of_battle_1_1_order_of7275fae2e80044f8b904e3b31264d90f.html#a69bcc277a4b531df859e7399092a86f3)(OrderOfBattleFormationFilterSelectorItemVM x, OrderOfBattleFormationFilterSelectorItemVM y) | [TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationFilterSelectorItemComparer](class_tale_worlds_1_1_mount_and_blade_1_1_view_model_collection_1_1_order_of_battle_1_1_order_of7275fae2e80044f8b904e3b31264d90f.html) |  |
+

@@ -25,15 +25,15 @@ namespace LivingWorld
 
         [SettingPropertyBool("Auto-Resolve Issues", Order = 2, RequireRestart = false, HintText = "Governors will automatically resolve issues in their settlements.")]
         [SettingPropertyGroup("Better Gov/Issues")]
-        public bool BetterGov_AutoResolveIssues { get; set; } = true;
+        public bool BetterGov_AutoResolveIssues { get; set; } = false;
 
         [SettingPropertyInteger("Resolve Threshold (Days)", 1, 30, "0 days", Order = 3, RequireRestart = false, HintText = "How many days an issue must be active before it is auto-resolved.")]
         [SettingPropertyGroup("Better Gov/Issues")]
         public int BetterGov_IssueResolveThresholdDays { get; set; } = 7;
 
-        [SettingPropertyInteger("Resolve Cost (Gold)", 0, 10000, "0 Gold", Order = 4, RequireRestart = false, HintText = "Gold cost for AI governors to resolve an issue.")]
+        [SettingPropertyInteger("Resolve Cost (Gold)", 0, 10000, "0 Gold", Order = 4, RequireRestart = false, HintText = "Cost in gold for an AI governor to resolve an issue.")]
         [SettingPropertyGroup("Better Gov/Issues")]
-        public int BetterGov_IssueResolveCost { get; set; } = 500;
+        public int BetterGov_IssueResolveCost { get; set; } = 0;
 
         [SettingPropertyBool("Enable Field Squire", Order = -1, RequireRestart = true, HintText = "Enable or disable Field Squire features.")]
         [SettingPropertyGroup("Field Squire/General", GroupOrder = 2)]
@@ -246,6 +246,10 @@ namespace LivingWorld
         [SettingPropertyBool("Enable Town Item Rewards", Order = 3, RequireRestart = false, HintText = "If disabled, you will not receive a bonus item after finishing a shift in a town.")]
         [SettingPropertyGroup("Honest Work/Shift Rewards")]
         public bool HonestWork_EnableTownItemRewards { get; set; } = true;
+
+        [SettingPropertyBool("Enable Shift Notifications", Order = 4, RequireRestart = false, HintText = "If enabled, rewards like relationship and renown will show a popup message.")]
+        [SettingPropertyGroup("Honest Work/Shift Rewards")]
+        public bool HonestWork_EnableShiftNotifications { get; set; } = false;
 
         // Honest Work: Village Advanced
         [SettingPropertyFloatingInteger("AI Work Chance", 0.0f, 1.0f, "0.00", Order = 0, RequireRestart = false, HintText = "Hourly probability that an AI party will work in a village.")]

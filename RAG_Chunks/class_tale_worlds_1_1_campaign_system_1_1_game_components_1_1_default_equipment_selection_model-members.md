@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model-members.html ---
+
+TaleWorlds.CampaignSystem.GameComponents.DefaultEquipmentSelectionModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.GameComponents.DefaultEquipmentSelectionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [GetEquipmentRostersForCompanion](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html#aad1a28cf0c8bfca539e35afb87116a37)(Hero hero, bool isCivilian) | [TaleWorlds.CampaignSystem.GameComponents.DefaultEquipmentSelectionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html) |  |
+| [GetEquipmentRostersForDeliveredOffspring](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html#ae521c573f0f71abe24608e76a69b26f1)(Hero hero) | [TaleWorlds.CampaignSystem.GameComponents.DefaultEquipmentSelectionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html) |  |
+| [GetEquipmentRostersForHeroComeOfAge](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html#a23cce3c249bd9095aec0df6f58fc2006)(Hero hero, bool isCivilian) | [TaleWorlds.CampaignSystem.GameComponents.DefaultEquipmentSelectionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html) |  |
+| [GetEquipmentRostersForHeroReachesTeenAge](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html#a803ce2ca2699264edc6fe38912e627e2)(Hero hero) | [TaleWorlds.CampaignSystem.GameComponents.DefaultEquipmentSelectionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html) |  |
+| [GetEquipmentRostersForInitialChildrenGeneration](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html#aacd4efac4b133550fabafc3f2ffa1c35)(Hero hero) | [TaleWorlds.CampaignSystem.GameComponents.DefaultEquipmentSelectionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_equipment_selection_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+

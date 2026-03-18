@@ -1,0 +1,4 @@
+--- SOURCE: class_tale_worlds_1_1_gauntlet_u_i_1_1_prefab_system_1_1_prefab_extension.html ---
+
+TaleWorlds.GauntletUI.PrefabSystem.PrefabExtension Class ReferenceabstractInherited by [TaleWorlds.GauntletUI.Data.PrefabDatabindingExtension](class_tale_worlds_1_1_gauntlet_u_i_1_1_data_1_1_prefab_databinding_extension.html).
+

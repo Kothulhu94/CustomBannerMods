@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions-members.html ---
+
+TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GetClassName](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html#a436ec58d96204cdcfebbc1a71c163ca0)(this DeploymentFormationClass formationClass) | [TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html) | static |
+| [GetFilterDescription](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html#a4985cd28d6d24ca3d8183c6586692a34)(this FormationFilterType filterType) | [TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html) | static |
+| [GetFilterName](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html#abf1fdede497ea512a37d00577f4f7f2e)(this FormationFilterType filterType) | [TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html) | static |
+| [GetFormationClasses](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html#aa42988de9268189e6a8cc5e3abace2a7)(this DeploymentFormationClass orderOfBattleFormationClass) | [TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html) | static |
+| [GetHeroAgents](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html#aba5f96352e56ce21b14447b480567d74)(this Team team) | [TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html) | static |
+| [GetOrderOfBattleFormationClass](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html#a7814dd3ca5ed32198030a09285417d98)(this FormationClass formationClass) | [TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html) | static |
+| [Refresh](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html#aa9e8d37e490ade5efbc08af7f41c1342)(this Formation formation) | [TaleWorlds.MountAndBlade.OrderOfBattleFormationExtensions](class_tale_worlds_1_1_mount_and_blade_1_1_order_of_battle_formation_extensions.html) | static |
+

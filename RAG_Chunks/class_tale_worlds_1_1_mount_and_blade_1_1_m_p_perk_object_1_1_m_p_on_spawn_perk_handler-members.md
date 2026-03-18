@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler-members.html ---
+
+TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GetAlternativeEquipments](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html#ae123abd289a44d11b26512e54c3fd137)(bool isPlayer) | [TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html) |  |
+| [GetDrivenPropertyBonusOnSpawn](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html#a4d0cb0d43b1dae15cbfad9df64909ae4)(bool isPlayer, DrivenProperty drivenProperty, float baseValue) | [TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html) |  |
+| [GetExtraTroopCount](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html#a2b6ebc0034a36c20f0ed815851b73adf)() | [TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html) |  |
+| [GetHitpoints](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html#a60c7560c415d48b6f698e1fd431020ec)(bool isPlayer) | [TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html) |  |
+| [IsWarmup](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html#a11fd9dfb04ed7742ac375b72b1e36321) | [TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html) |  |
+| [MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html#a5ce4789d069ab83e0fa7a6c1fa0b5e35)(IEnumerable< IReadOnlyPerkObject > perks) | [TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html) | protected |
+| [MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html#a36a63695ebbe5e719692c02b8dd66aca)(MissionPeer peer) | [TaleWorlds.MountAndBlade.MPPerkObject.MPOnSpawnPerkHandler](class_tale_worlds_1_1_mount_and_blade_1_1_m_p_perk_object_1_1_m_p_on_spawn_perk_handler.html) | protected |
+

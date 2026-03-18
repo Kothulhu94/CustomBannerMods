@@ -1,0 +1,18 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent-members.html ---
+
+TaleWorlds.CampaignSystem.Conversation.MapConversationAgent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Age](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#a861a5bcd2046e9f6927ffbcaff6a1dcd) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [Character](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#a3141f68b4ac3433870ddea87bb0ef201) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [DeliveredLine](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#ad6d0c2df9200e7df17ec4baebae85631) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [IsActive](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#aaf2c4870698c05645ba0557780334128)() | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [IsEnemyOf](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#a2a86f1234657725bec6612d72908a241)(IAgent agent) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [IsFriendOf](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#adfdc06a0b819b10886530d561c311b64)(IAgent agent) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#ad20677c5dc750a90dda13a363659d3ed)(CharacterObject characterObject) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [Origin](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#a153dfff8b02dd56b07f0558021d09891) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [SetAsConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#aa623e2010cf68e29a4efa56edf63aad4)(bool set) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [State](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#a9c97838f4eebe2f4e459965085ddcdf0) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+| [Team](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html#af114e04b986bf98e9bc72785489f61f0) | [TaleWorlds.CampaignSystem.Conversation.MapConversationAgent](class_tale_worlds_1_1_campaign_system_1_1_conversation_1_1_map_conversation_agent.html) |  |
+

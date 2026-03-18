@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification-members.html ---
+
+TaleWorlds.CampaignSystem.MapNotificationTypes.VassalOfferMapNotification Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapNotificationTypes.VassalOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [DescriptionText](class_tale_worlds_1_1_core_1_1_information_data.html#ae962ad3d1ba541218a1e31a44b93df35) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) |  |
+| [InformationData](class_tale_worlds_1_1_core_1_1_information_data.html#a4d286d51f89d65682de678b4ab383b7c)(TextObject description) | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | protected |
+| [IsValid](class_tale_worlds_1_1_core_1_1_information_data.html#a3c4291c67503a048450f974566285e14)() | [TaleWorlds.Core.InformationData](class_tale_worlds_1_1_core_1_1_information_data.html) | virtual |
+| [OfferedKingdom](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html#ae18a4a6e964071b71e5b97700da1e1d5) | [TaleWorlds.CampaignSystem.MapNotificationTypes.VassalOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html) |  |
+| [SoundEventPath](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html#a3bfebfac530b9c9760ef3dadd59d6d16) | [TaleWorlds.CampaignSystem.MapNotificationTypes.VassalOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html) |  |
+| [TitleText](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html#af43bceb340520e52d3395a31d996638e) | [TaleWorlds.CampaignSystem.MapNotificationTypes.VassalOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html) |  |
+| [VassalOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html#ab0f4b2c84a7066f66f5abeb1618c7496)(Kingdom offeredKingdom, TextObject descriptionText) | [TaleWorlds.CampaignSystem.MapNotificationTypes.VassalOfferMapNotification](class_tale_worlds_1_1_campaign_system_1_1_map_notification_types_1_1_vassal_offer_map_notification.html) |  |
+

@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_inventory_1_1_inventory_filter_changed_event-members.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.Inventory.InventoryFilterChangedEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.Inventory.InventoryFilterChangedEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_inventory_1_1_inventory_filter_changed_event.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [InventoryFilterChangedEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_inventory_1_1_inventory_filter_changed_event.html#ad2b5bd6b4d33ec345ac0562b9e128493)(SPInventoryVM.Filters newFilter) | [TaleWorlds.CampaignSystem.ViewModelCollection.Inventory.InventoryFilterChangedEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_inventory_1_1_inventory_filter_changed_event.html) |  |
+| [NewFilter](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_inventory_1_1_inventory_filter_changed_event.html#a379fd92017adb112ece599e8825499a8) | [TaleWorlds.CampaignSystem.ViewModelCollection.Inventory.InventoryFilterChangedEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_inventory_1_1_inventory_filter_changed_event.html) |  |
+

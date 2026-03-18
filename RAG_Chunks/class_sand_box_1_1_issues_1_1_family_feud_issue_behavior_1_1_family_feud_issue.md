@@ -1,0 +1,608 @@
+--- SOURCE: class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html ---
+
+SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue Class ReferenceInherits [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html).
+
+|  |  |
+| --- | --- |
+| Public Member Functions | |
+|  | [FamilyFeudIssue](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a1665489d14e5f12d0c9484adcc28bdb9) ([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) issueOwner, [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) targetNotable, [Settlement](class_tale_worlds_1_1_campaign_system_1_1_settlements_1_1_settlement.html) targetVillage) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [OnHeroCanBeSelectedInInventoryInfoIsRequested](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aec8fb66f3c68466955c1bcd05677b145) ([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) hero, ref bool result) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [OnHeroCanHavePartyRoleOrBeGovernorInfoIsRequested](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#acb20cbb9459cad596ef77b754d9410f1) ([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) hero, ref bool result) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [OnHeroCanLeadPartyInfoIsRequested](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a2b0c1b60536894bd8498f6e4378ee8b5) ([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) hero, ref bool result) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [OnHeroCanHaveCampaignIssuesInfoIsRequested](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a9315b15a04d11a0bf3097aea8f466137) ([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) hero, ref bool result) |
+|  | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) ([SkillObject](class_tale_worlds_1_1_core_1_1_skill_object.html), int) GetAlternativeSolutionSkill([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) hero) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool | [LordSolutionCondition](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aed10e1d496a01982ab49952f9a05b02d) (out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) explanation) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool | [AlternativeSolutionCondition](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ab12ab98a1895394571357c49fe799f66) (out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) explanation) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool | [DoTroopsSatisfyAlternativeSolution](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a97f4f031ca819fbbddb46e431becee92) ([TroopRoster](class_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster.html) troopRoster, out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) explanation) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool | [IsTroopTypeNeededByAlternativeSolution](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a92ff266caf53554cccbb7ce658b65a49) ([CharacterObject](class_tale_worlds_1_1_campaign_system_1_1_character_object.html) character) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [IssueFrequency](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a4a4c45cb1f6fa045ff6c276585e0449a) | [GetFrequency](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aea9d03f735416d728285746fb33dd260) () |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool | [IssueStayAliveConditions](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a46f082232e932082aff4d3e5257240d4) () |
+| Public Member Functions inherited from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html) | |
+| int | [GetTotalAlternativeSolutionNeededMenCount](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a67ea625fa632ba09a5a67f6f5666d554) () |
+| int | [GetTotalAlternativeSolutionDurationInDays](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a8cbfc5f92097db44f556327b650e74cc) () |
+| int | [GetBaseAlternativeSolutionDurationInDays](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a625081bf9d9b585b51bbdf616980e2ef) () |
+| virtual void | [AlternativeSolutionStartConsequence](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#aa6356a2b88edaedbd1304e5d05bf152f) () |
+| Public Member Functions inherited from [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | |
+|  | [MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a520e657fd5a750c8b7e2154b0f5629ea) () |
+|  | [MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a134c5e806ba735219710d773e7075b00) (MBObjectBase other) |
+|  | [MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a8e3c1b47f5d928e64d9d67fa7864c364) (string stringId) |
+| void | [AfterInitialized](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#ab67141737ce51fe724e4a5b8026a973b) () |
+| virtual void | [AfterRegister](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#ab15f91cc9dbb7ff8763eec828c179216) () |
+| virtual void | [Initialize](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#aad39d5ca82d85853a9879e2670dd036e) () |
+| virtual void | [Deserialize](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#ad1364026109401ca16d5a450d8b8f178) ([MBObjectManager](class_tale_worlds_1_1_object_system_1_1_m_b_object_manager.html) objectManager, XmlNode node) |
+| override int | [GetHashCode](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a68e79a07f136aae5be4fe9eadb612def) () |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [GetName](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a0b72f9e386b6cefc4e6bfb52642b98db) () |
+| void | [PreAfterLoadInternal](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#af26d64a79291c4f6328fc151d2569ebf) () |
+| void | [AfterLoadInternal](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a277b54134c76732e443019a7862cf388) () |
+| void | [OnRegistered](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a586208e92e5041fd432127305aa8af16) () |
+| void | [OnUnregistered](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a71bef09af9a896246fa7b18c324e565c) () |
+
+|  |  |
+| --- | --- |
+| Protected Member Functions | |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) float | [GetIssueEffectAmountInternal](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a79e7eb06aa195bba8f10a555a512990e) ([IssueEffect](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_effect.html) issueEffect) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [LordSolutionConsequenceWithAcceptCounterOffer](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a5977c1e55ce5a395b6e1ca80207f470b) () |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [LordSolutionConsequenceWithRefuseCounterOffer](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a52ad09bb772f65f168526c9d6aaf6b3c) () |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [AlternativeSolutionEndWithSuccessConsequence](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a8cca3404f5e4f1f468b2929d75c87906) () |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [AlternativeSolutionEndWithFailureConsequence](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a750ecc5fb687dada52841c396a35cefa) () |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [AfterIssueCreation](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ab8e6b97f8cbb8a445ba23c8623bc7ebf) () |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [OnGameLoad](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a4dd9723b5b621404ad8fa38fb9d591f7) () |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [HourlyTick](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a22fa2e4b2d4974e2bdb4d85d96dd4d01) () |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [QuestBase](class_tale_worlds_1_1_campaign_system_1_1_quest_base.html) | [GenerateIssueQuest](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a7abdf792aec04f0c33df382004ff1242) (string questId) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool | [CanPlayerTakeQuestConditions](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae763193307c43e02d5fae316eb15ecda) ([Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) issueGiver, out [PreconditionFlags](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741) flag, out [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) relationHero, out [SkillObject](class_tale_worlds_1_1_core_1_1_skill_object.html) skill) |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void | [CompleteIssueWithTimedOutConsequences](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ac5b4706a0ef2e31a6f6ae2f6119dd0aa) () |
+| Protected Member Functions inherited from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html) | |
+| virtual void | [LordSolutionConsequence](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a3c30967350fb1b6ce469f99eecf93ecf) () |
+| Protected Member Functions inherited from [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | |
+| virtual void | [OnBeforeLoad](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#ad32c7b22bd64e771cc05ee54ae78058a) () |
+| virtual void | [PreAfterLoad](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#aeddc87ee0703c7f37d9129d9a5e024e4) () |
+| virtual void | [AfterLoad](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#aae8a0aa22e7a659e1edbedfe9739d413) () |
+
+|  |  |
+| --- | --- |
+| Properties | |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [AlternativeSolutionScaleFlag](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#acd4757d79d281ea4c7190e448860a7a2) | [AlternativeSolutionScaleFlags](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aacf033891d6f4318bd0e5b1f954168c1) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int | [AlternativeSolutionBaseNeededMenCount](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a2da35f549aed59ba69af5eceaa3aa0e2) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int | [AlternativeSolutionBaseDurationInDaysInternal](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#abcf6a95fb46acc6570d23c56a31c95b0) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int | [RewardGold](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae4483bfe9af9e2e900047c60390689bf) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | [CounterOfferHero](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a1a1d58b1e51fd1385dd03e25892ac27d) `[get, protected set]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int | [NeededInfluenceForLordSolution](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a038126cba243f3c0ee7c7bcc26a83c32) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int | [CompanionSkillRewardXP](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#af82f67f80f219984b9557a10a5e3a6fe) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [AlternativeSolutionStartLog](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ab4ef991a1a561da326c6f8537817c22e) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool | [IsThereAlternativeSolution](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a006647d165f095f36f382e44a14631c8) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool | [IsThereLordSolution](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a806a7582f144c463adeb7c27143860fc) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueBriefByIssueGiver](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a3342fcbde65060cc3179a87ccbcc6771) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAcceptByPlayer](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#af713c893ad351430cb3f0c2bd333a60a) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueQuestSolutionExplanationByIssueGiver](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a2433560d96e34c7f20e068967075a2d4) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAlternativeSolutionExplanationByIssueGiver](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a60691c7f3c3dc34ceb9c64bf23594098) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [LordSolutionStartLog](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a9275b20cf72526afab4257af01a37ad1) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? | [LordSolutionCounterOfferRefuseLog](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a9c29effed98b7070518e825b8266be25) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? | [LordSolutionCounterOfferAcceptLog](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ab1093d1a3e8c1927c0125525259bc7de) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? | [IssueLordSolutionExplanationByIssueGiver](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aa3b3852291ca4cae17b70774dc154af4) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssuePlayerResponseAfterLordExplanation](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a42e9af69e67581ae20f0d0e2ca1dc811) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssuePlayerResponseAfterAlternativeExplanation](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a1f1ec0f3f7fa8573cea3d0fecb3b145a) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionAcceptByPlayer](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a21768885ccbd40a379a64efd1ec79777) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionResponseByIssueGiver](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae52ddceb6396ae65f0c35f203c717a21) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)???? | [IssueLordSolutionCounterOfferExplanationByOtherNpc](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aa763d3b0b3ffbb76468a3d7204a654d5) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferBriefByOtherNpc](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae21be42262dab0cb44521e5cd39f4085) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferAcceptByPlayer](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aee2c7d0bb04b185672d54c47227f7a7d) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferAcceptResponseByOtherNpc](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae4128e631e1f47d325afd398278e01ea) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferDeclineByPlayer](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a49644fd6dcececef3ecc386411f2a76d) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferDeclineResponseByOtherNpc](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#adfa8d47554d83d18388f7b69db05bd24) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueQuestSolutionAcceptByPlayer](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aade31c5db769167e651e965f1e2ee80c) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [Title](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aa4ed009adbe43640f1389d6349041f52) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [Description](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aff547b202ba212b8b67ebfde4b92c146) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAlternativeSolutionAcceptByPlayer](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a2907215bf81bd43bcaa5c979320850a8) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? | [IssueDiscussAlternativeSolution](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a3bc58e069d5976465030c640eb1e00ab) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? | [IssueAlternativeSolutionResponseByIssueGiver](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a03054cf9d8a96a4ff7fd5f6fd9f8f813) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? | [IssueAsRumorInSettlement](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a28a4986b7779152c613faf9292d4ebde) `[get]` |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)?????? | [IssueAlternativeSolutionSuccessLog](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aa07effc08ca39171a439fac1b57dbdb6) `[get]` |
+| Properties inherited from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html) | |
+| virtual bool | [IssueQuestCanBeDuplicated](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#ae5d88769787cb384b79d23aba51bd477) `[get]` |
+| virtual int | [RelationshipChangeWithIssueOwner](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a8229805ee129ec847fdab6678949f5ee) = 0 `[get, protected set]` |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueBriefByIssueGiver](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a083c564c6ba7df2779923727567b4879) `[get]` |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAcceptByPlayer](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a4eba607939b5b9c98a91ef5e64b65814) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssuePlayerResponseAfterLordExplanation](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#adc9f92da5fd2a5014e20c40700b084d1) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssuePlayerResponseAfterAlternativeExplanation](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a11b88e2298a752e2dc744cf83887eb58) `[get]` |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueQuestSolutionExplanationByIssueGiver](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#abff54dc346a3bba6fa5b73a11ac039d9) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAlternativeSolutionExplanationByIssueGiver](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a6521a2e9489666ac463ade7f743258be) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionExplanationByIssueGiver](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a54446e0360191e01f06aba7135f78ce9) `[get]` |
+| [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueQuestSolutionAcceptByPlayer](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#ac122d5ae8dc2bc3c386c278971514711) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAlternativeSolutionAcceptByPlayer](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#adf3a07353c2a811c217c129829f69f38) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAlternativeSolutionResponseByIssueGiver](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5c843be2fd44266f96020bf2eb9d04cd) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionAcceptByPlayer](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#af86e6f07b62b66fc0b9b2208c4caaf36) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionResponseByIssueGiver](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a943c2b554824b3189db50ed9409b4bb8) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferBriefByOtherNpc](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a3b4ad7136b6098215377e4908ae8ca93) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferExplanationByOtherNpc](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a811e775aa4747970efea9d9a021ab349) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferAcceptByPlayer](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a92cfaa0d66b57f8a1a57c9cc732d1b47) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferDeclineByPlayer](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a98d915f5bc532d9d5ed4950dec55eb7c) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferAcceptResponseByOtherNpc](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#aba1f7e9fa44e3734df7f6ee958f0b553) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueLordSolutionCounterOfferDeclineResponseByOtherNpc](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a758e8a213a4642965ae90f296b601349) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAsRumorInSettlement](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#af7737b2d5b1d2d6ba6a77f4eaae635b8) `[get]` |
+| virtual int | [AlternativeSolutionBaseNeededMenCount](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a95e2a86a7a4ce32a3ddf26bd6d8040e5) `[get]` |
+| virtual int | [AlternativeSolutionBaseDurationInDaysInternal](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a91ff3e7ee0d228e77b53144e1c7ec596) `[get]` |
+| [CampaignTime](struct_tale_worlds_1_1_campaign_system_1_1_campaign_time.html) | [AlternativeSolutionReturnTimeForTroops](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a89fa0ca56e9a464d34ab4fce3066afa6) `[get]` |
+| bool | [IsThereAlternativeSolution](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a6a7cf301683ab2e1b2bca51d4a0ba7be) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [AlternativeSolutionStartLog](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#adfd90ffd4b00eced87ec6919915ced16) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [AlternativeSolutionEndLogDefault](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a2fa8863b4a75e285792dca1317ba5303) `[get]` |
+| bool | [IsThereDiscussDialogFlow](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a9370d66113921e05c43950e98542003e) `[get]` |
+| virtual int | [CompanionSkillRewardXP](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a7686ce06008c94a2e37a0a3073584405) `[get]` |
+| [CampaignTime](struct_tale_worlds_1_1_campaign_system_1_1_campaign_time.html) | [AlternativeSolutionIssueEffectClearTime](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a048ce3f7d4bd5000e42c0d1c353ce99e) `[get]` |
+| [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | [AlternativeSolutionHero](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#abf935acb376e498c0b6604457fd7680c) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueDiscussAlternativeSolution](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a302c072e6790120b7002060b44328d64) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAlternativeSolutionSuccessLog](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a643bec3500e8f478abee563dacd2d960) = null `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [IssueAlternativeSolutionFailLog](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#ac08cc74b9b826ab201836dbbd6aba406) = null `[get]` |
+| bool | [IsThereLordSolution](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a1112f3a9b0e60b49bfbe4de3d730fcb2) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [LordSolutionStartLog](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a0999c4118661d7fdcb33d4cc0456d94f) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [LordSolutionCounterOfferAcceptLog](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#aa751cf148cd957987c1091a6ab7665f5) `[get]` |
+| virtual [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | [LordSolutionCounterOfferRefuseLog](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a808cde55b7686f0c933697afa33e4072) `[get]` |
+| virtual int | [NeededInfluenceForLordSolution](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#aa152f3096be3e94966a894dfb7a8ad9a) `[get]` |
+| virtual [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | [CounterOfferHero](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#ae9ed8d0797234761e9f19ce74fe0daf5) `[get, protected set]` |
+| MBReadOnlyList< [JournalLog](class_tale_worlds_1_1_campaign_system_1_1_journal_log.html) > | [JournalEntries](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#ad112f49d5028eede13aa9d38297011da) `[get]` |
+| Properties inherited from [TaleWorlds.ObjectSystem.MBObjectBase](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html) | |
+| string | [StringId](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#a8f7cc0266861eb249963e5ead3ab93f1) `[get, set]` |
+| [MBGUID](struct_tale_worlds_1_1_object_system_1_1_m_b_g_u_i_d.html) | [Id](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#af97fbe63c015ee5f4958ab6946b7f69a) `[get, set]` |
+| bool | [IsInitialized](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#aa6b3602c7cfd678c75bf91e1c3073606) `[get]` |
+| bool | [IsReady](class_tale_worlds_1_1_object_system_1_1_m_b_object_base.html#abc67abca4d8d58d34835693808c0aa14) `[get, set]` |
+
+|  |  |
+| --- | --- |
+| Additional Inherited Members | |
+| Public Types inherited from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html) | |
+| enum | [AlternativeSolutionScaleFlag](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#acd4757d79d281ea4c7190e448860a7a2) : UInt32 {     [None](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#acd4757d79d281ea4c7190e448860a7a2a6adf97f83acf6453d4a6a4b1070f3754) = 0x0000 ,     [Duration](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#acd4757d79d281ea4c7190e448860a7a2ae02d2ae03de9d493df2b6b2d2813d302) = 0x0001 ,     [RequiredTroops](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#acd4757d79d281ea4c7190e448860a7a2a8a9caa8ef58ce577cf7af27331a69882) = 0x0002 ,     [Casualties](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#acd4757d79d281ea4c7190e448860a7a2ac30ccafe6b394e042faa05b477b13d78) = 0x0004 ,     [FailureRisk](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#acd4757d79d281ea4c7190e448860a7a2a75f0c2f1890b40f978e0a281ccf249ea) = 0x0008   } |
+| enum | [IssueUpdateDetails](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41b) {     [None](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41ba6adf97f83acf6453d4a6a4b1070f3754) ,     [PlayerStartedIssueQuestClassicSolution](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41ba30fcd673c9627c66bad6b1de08cb85df) ,     [PlayerSentTroopsToQuest](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41baef645ed89338be1c6738475b9ecbd7bf) ,     [SentTroopsFinishedQuest](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41bab1ca04c20e27f913ce92f4dc30298626) ,     [SentTroopsFailedQuest](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41baa362e9798a1b8731efb4248008b0d474) ,     [IssueFinishedWithSuccess](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41babf8b60817c07088ed5b320d7adedb879) ,     [IssueFinishedWithBetrayal](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41ba36ff66f2e353342c6c6ac3abf5f4a94d) ,     [IssueFinishedByAILord](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41bacd45fac808d84bd62fc7f632a00b5c11) ,     [IssueFail](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41ba3f0fb321745dab22d33e33b474da3117) ,     [IssueCancel](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41babbf59119d536598f0c5382d903463858) ,     [IssueTimedOut](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5a6b26c5d1d5fad12cd7b6faffede41ba207684bed76dae5edb3b5f0fab74964f)   } |
+| enum | [IssueFrequency](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a4a4c45cb1f6fa045ff6c276585e0449a) {     [VeryCommon](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a4a4c45cb1f6fa045ff6c276585e0449aac1e90f0fea786974a6fe5de1fa56276c) ,     [Common](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a4a4c45cb1f6fa045ff6c276585e0449aad13bc5b68b2bd9e18f29777db17cc563) ,     [Rare](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a4a4c45cb1f6fa045ff6c276585e0449aaa2cc588f2ab07ad61b05400f593eeb0a)   } |
+| Public Attributes inherited from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html) | |
+| readonly [TroopRoster](class_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster.html) | [AlternativeSolutionSentTroops](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a1f4a7ff8c05a724942ba625822359d66) |
+| [CampaignTime](struct_tale_worlds_1_1_campaign_system_1_1_campaign_time.html) | [IssueDueTime](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a8fdee7938e79dca2704529065c4ab5b0) |
+| [CampaignTime](struct_tale_worlds_1_1_campaign_system_1_1_campaign_time.html) | [IssueCreationTime](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a0c7a3592ef53d6cc2e06fe1c1b913fe3) |
+| Static Public Attributes inherited from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html) | |
+| const int | [IssueRelatedConversationPriority](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a958d4a19c783b3e5e14b9cad971d1896) = 125 |
+| Protected Types inherited from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html) | |
+| enum | [PreconditionFlags](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741) : UInt32 {     [None](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a6adf97f83acf6453d4a6a4b1070f3754) = 0x0000 ,     [Relation](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a671dec8fc4e3dc847c1b0d7b67b4e6e1) = 0x0001 ,     [Skill](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a88bb766f0cc321759ed2eeb0bc06be5d) = 0x0002 ,     [Money](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741aa93312829ec4c71aac461cec296faa0e) = 0x0004 ,     [Renown](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741aa7aaa03948b6d08706a41c70a8a153cb) = 0x0008 ,     [Influence](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741ad35a98028cca23c2a745a0bba43a90ff) = 0x0010 ,     [Wounded](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a0a1c125c786f629ed204ec67ebbc3a00) = 0x0020 ,     [AtWar](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a984983a44dad81fb358d06143ddc251f) = 0x0040 ,     [ClanTier](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741ac1e6b014543c5e05f24c3974096e574f) = 0x0080 ,     [NotEnoughTroops](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a7d658d6b688ee94160d769d07b828886) = 0x0100 ,     [NotInSameFaction](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a555dfa221fdb7d987aedf8224da2bb6f) = 0x0200 ,     [PartySizeLimit](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a85e64b935cab2d9680ed4cf70b603a91) = 0x0400 ,     [ClanIsMercenary](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a6ced79b285d607f58f183514d0d80cf8) = 0x0800 ,     [MainHeroIsKingdomLeader](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a463d7d21ca429e5ab9d300e9d9806609) = 0x4000 ,     [PlayerIsOwnerOfSettlement](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741a1f8186749561020ead1feb10d7199038) = 0x8000 ,     [CompanionLimitReached](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741ab91b88ec4290565bf9f11314cc13dbe0) = 0x10000   } |
+
+Constructor & Destructor Documentation
+--------------------------------------
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a1665489d14e5f12d0c9484adcc28bdb9)FamilyFeudIssue()
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.FamilyFeudIssue | ( | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *issueOwner*, |
+|  |  | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *targetNotable*, |
+|  |  | [Settlement](class_tale_worlds_1_1_campaign_system_1_1_settlements_1_1_settlement.html) | *targetVillage* ) |
+
+Member Function Documentation
+-----------------------------
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aec8fb66f3c68466955c1bcd05677b145)OnHeroCanBeSelectedInInventoryInfoIsRequested()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.OnHeroCanBeSelectedInInventoryInfoIsRequested | ( | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *hero*, |
+|  |  | ref bool | *result* ) |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#acb20cbb9459cad596ef77b754d9410f1)OnHeroCanHavePartyRoleOrBeGovernorInfoIsRequested()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.OnHeroCanHavePartyRoleOrBeGovernorInfoIsRequested | ( | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *hero*, |
+|  |  | ref bool | *result* ) |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a2b0c1b60536894bd8498f6e4378ee8b5)OnHeroCanLeadPartyInfoIsRequested()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.OnHeroCanLeadPartyInfoIsRequested | ( | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *hero*, |
+|  |  | ref bool | *result* ) |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a9315b15a04d11a0bf3097aea8f466137)OnHeroCanHaveCampaignIssuesInfoIsRequested()
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.OnHeroCanHaveCampaignIssuesInfoIsRequested | ( | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *hero*, |
+|  |  | ref bool | *result* ) |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a79e7eb06aa195bba8f10a555a512990e)GetIssueEffectAmountInternal()
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) float SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.GetIssueEffectAmountInternal | ( | [IssueEffect](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_effect.html) | *issueEffect* | ) |  | | protected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700)override()
+------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.override | ( | [SkillObject](class_tale_worlds_1_1_core_1_1_skill_object.html) | , |
+|  |  | int | ) |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a5977c1e55ce5a395b6e1ca80207f470b)LordSolutionConsequenceWithAcceptCounterOffer()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.LordSolutionConsequenceWithAcceptCounterOffer | ( |  | ) |  | | protectedvirtual |
+
+Reimplemented from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a5ed323aa7fbfb0a032618217ac6fb7e9).
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a52ad09bb772f65f168526c9d6aaf6b3c)LordSolutionConsequenceWithRefuseCounterOffer()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.LordSolutionConsequenceWithRefuseCounterOffer | ( |  | ) |  | | protectedvirtual |
+
+Reimplemented from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a2a834e76e3c1a843c32a5f5bfd4ffee5).
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aed10e1d496a01982ab49952f9a05b02d)LordSolutionCondition()
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.LordSolutionCondition | ( | out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | *explanation* | ) |  | | virtual |
+
+Reimplemented from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a85af69c139a45a64d741cbf7a120d32b).
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ab12ab98a1895394571357c49fe799f66)AlternativeSolutionCondition()
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.AlternativeSolutionCondition | ( | out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | *explanation* | ) |  | | virtual |
+
+Reimplemented from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a62ee2c401704ad7f5b7bb27c13084f8a).
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a97f4f031ca819fbbddb46e431becee92)DoTroopsSatisfyAlternativeSolution()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.DoTroopsSatisfyAlternativeSolution | ( | [TroopRoster](class_tale_worlds_1_1_campaign_system_1_1_roster_1_1_troop_roster.html) | *troopRoster*, | |  |  | out [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) | *explanation* ) | | virtual |
+
+Reimplemented from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a9f57b11c623794798a21360ab22941fd).
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a92ff266caf53554cccbb7ce658b65a49)IsTroopTypeNeededByAlternativeSolution()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IsTroopTypeNeededByAlternativeSolution | ( | [CharacterObject](class_tale_worlds_1_1_campaign_system_1_1_character_object.html) | *character* | ) |  | | virtual |
+
+Reimplemented from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#ae1a78441f9ee3467ba3a19b0a7769208).
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a8cca3404f5e4f1f468b2929d75c87906)AlternativeSolutionEndWithSuccessConsequence()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.AlternativeSolutionEndWithSuccessConsequence | ( |  | ) |  | | protectedvirtual |
+
+Reimplemented from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#aca41154e2c46b0a93649c2708ff98865).
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a750ecc5fb687dada52841c396a35cefa)AlternativeSolutionEndWithFailureConsequence()
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.AlternativeSolutionEndWithFailureConsequence | ( |  | ) |  | | protectedvirtual |
+
+Reimplemented from [TaleWorlds.CampaignSystem.Issues.IssueBase](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a74e69de0403a993f4a13f66bb2474d50).
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ab8e6b97f8cbb8a445ba23c8623bc7ebf)AfterIssueCreation()
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.AfterIssueCreation | ( |  | ) |  | | protected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a4dd9723b5b621404ad8fa38fb9d591f7)OnGameLoad()
+--------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.OnGameLoad | ( |  | ) |  | | protected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a22fa2e4b2d4974e2bdb4d85d96dd4d01)HourlyTick()
+--------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.HourlyTick | ( |  | ) |  | | protected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a7abdf792aec04f0c33df382004ff1242)GenerateIssueQuest()
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [QuestBase](class_tale_worlds_1_1_campaign_system_1_1_quest_base.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.GenerateIssueQuest | ( | string | *questId* | ) |  | | protected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aea9d03f735416d728285746fb33dd260)GetFrequency()
+----------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [IssueFrequency](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a4a4c45cb1f6fa045ff6c276585e0449a) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.GetFrequency | ( |  | ) |  |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae763193307c43e02d5fae316eb15ecda)CanPlayerTakeQuestConditions()
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  | | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.CanPlayerTakeQuestConditions | ( | [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *issueGiver*, | |  |  | out [PreconditionFlags](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#a729d70ff6b39caa5002618d798237741) | *flag*, | |  |  | out [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) | *relationHero*, | |  |  | out [SkillObject](class_tale_worlds_1_1_core_1_1_skill_object.html) | *skill* ) | | protected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a46f082232e932082aff4d3e5257240d4)IssueStayAliveConditions()
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueStayAliveConditions | ( |  | ) |  |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ac5b4706a0ef2e31a6f6ae2f6119dd0aa)CompleteIssueWithTimedOutConsequences()
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  | | --- | --- | --- | --- | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) void SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.CompleteIssueWithTimedOutConsequences | ( |  | ) |  | | protected |
+
+Property Documentation
+----------------------
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aacf033891d6f4318bd0e5b1f954168c1)AlternativeSolutionScaleFlags
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [AlternativeSolutionScaleFlag](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_issue_base.html#acd4757d79d281ea4c7190e448860a7a2) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.AlternativeSolutionScaleFlags | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a2da35f549aed59ba69af5eceaa3aa0e2)AlternativeSolutionBaseNeededMenCount
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.AlternativeSolutionBaseNeededMenCount | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#abcf6a95fb46acc6570d23c56a31c95b0)AlternativeSolutionBaseDurationInDaysInternal
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.AlternativeSolutionBaseDurationInDaysInternal | | getprotected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae4483bfe9af9e2e900047c60390689bf)RewardGold
+------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.RewardGold | | getprotected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a1a1d58b1e51fd1385dd03e25892ac27d)CounterOfferHero
+------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [Hero](class_tale_worlds_1_1_campaign_system_1_1_hero.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.CounterOfferHero | | getprotected set |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a038126cba243f3c0ee7c7bcc26a83c32)NeededInfluenceForLordSolution
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.NeededInfluenceForLordSolution | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#af82f67f80f219984b9557a10a5e3a6fe)CompanionSkillRewardXP
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) int SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.CompanionSkillRewardXP | | getprotected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ab4ef991a1a561da326c6f8537817c22e)AlternativeSolutionStartLog
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.AlternativeSolutionStartLog | | getprotected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a006647d165f095f36f382e44a14631c8)IsThereAlternativeSolution
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IsThereAlternativeSolution | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a806a7582f144c463adeb7c27143860fc)IsThereLordSolution
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) bool SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IsThereLordSolution | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a3342fcbde65060cc3179a87ccbcc6771)IssueBriefByIssueGiver
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueBriefByIssueGiver | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#af713c893ad351430cb3f0c2bd333a60a)IssueAcceptByPlayer
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueAcceptByPlayer | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a2433560d96e34c7f20e068967075a2d4)IssueQuestSolutionExplanationByIssueGiver
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueQuestSolutionExplanationByIssueGiver | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a60691c7f3c3dc34ceb9c64bf23594098)IssueAlternativeSolutionExplanationByIssueGiver
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueAlternativeSolutionExplanationByIssueGiver | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a9275b20cf72526afab4257af01a37ad1)LordSolutionStartLog
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.LordSolutionStartLog | | getprotected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a9c29effed98b7070518e825b8266be25)LordSolutionCounterOfferRefuseLog
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.LordSolutionCounterOfferRefuseLog | | getprotected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ab1093d1a3e8c1927c0125525259bc7de)LordSolutionCounterOfferAcceptLog
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.LordSolutionCounterOfferAcceptLog | | getprotected |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aa3b3852291ca4cae17b70774dc154af4)IssueLordSolutionExplanationByIssueGiver
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionExplanationByIssueGiver | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a42e9af69e67581ae20f0d0e2ca1dc811)IssuePlayerResponseAfterLordExplanation
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssuePlayerResponseAfterLordExplanation | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a1f1ec0f3f7fa8573cea3d0fecb3b145a)IssuePlayerResponseAfterAlternativeExplanation
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssuePlayerResponseAfterAlternativeExplanation | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a21768885ccbd40a379a64efd1ec79777)IssueLordSolutionAcceptByPlayer
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionAcceptByPlayer | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae52ddceb6396ae65f0c35f203c717a21)IssueLordSolutionResponseByIssueGiver
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionResponseByIssueGiver | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aa763d3b0b3ffbb76468a3d7204a654d5)IssueLordSolutionCounterOfferExplanationByOtherNpc
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)???? SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionCounterOfferExplanationByOtherNpc | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae21be42262dab0cb44521e5cd39f4085)IssueLordSolutionCounterOfferBriefByOtherNpc
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionCounterOfferBriefByOtherNpc | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aee2c7d0bb04b185672d54c47227f7a7d)IssueLordSolutionCounterOfferAcceptByPlayer
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionCounterOfferAcceptByPlayer | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ae4128e631e1f47d325afd398278e01ea)IssueLordSolutionCounterOfferAcceptResponseByOtherNpc
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionCounterOfferAcceptResponseByOtherNpc | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a49644fd6dcececef3ecc386411f2a76d)IssueLordSolutionCounterOfferDeclineByPlayer
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionCounterOfferDeclineByPlayer | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#adfa8d47554d83d18388f7b69db05bd24)IssueLordSolutionCounterOfferDeclineResponseByOtherNpc
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueLordSolutionCounterOfferDeclineResponseByOtherNpc | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aade31c5db769167e651e965f1e2ee80c)IssueQuestSolutionAcceptByPlayer
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueQuestSolutionAcceptByPlayer | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aa4ed009adbe43640f1389d6349041f52)Title
+-------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.Title | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aff547b202ba212b8b67ebfde4b92c146)Description
+-------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.Description | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a2907215bf81bd43bcaa5c979320850a8)IssueAlternativeSolutionAcceptByPlayer
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html) SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueAlternativeSolutionAcceptByPlayer | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a3bc58e069d5976465030c640eb1e00ab)IssueDiscussAlternativeSolution
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueDiscussAlternativeSolution | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a03054cf9d8a96a4ff7fd5f6fd9f8f813)IssueAlternativeSolutionResponseByIssueGiver
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueAlternativeSolutionResponseByIssueGiver | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#a28a4986b7779152c613faf9292d4ebde)IssueAsRumorInSettlement
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)??? SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueAsRumorInSettlement | | get |
+
+[◆](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#aa07effc08ca39171a439fac1b57dbdb6)IssueAlternativeSolutionSuccessLog
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | [override](class_sand_box_1_1_issues_1_1_family_feud_issue_behavior_1_1_family_feud_issue.html#ada344ba9e26f208aeda227a153d7b700) [TextObject](class_tale_worlds_1_1_localization_1_1_text_object.html)?????? SandBox.Issues.FamilyFeudIssueBehavior.FamilyFeudIssue.IssueAlternativeSolutionSuccessLog | | get |
+

@@ -1,0 +1,22 @@
+--- SOURCE: struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params-members.html ---
+
+TaleWorlds.MountAndBlade.SkinGenerationParams Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [\_beardCoverType](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#af77d54d943f5263a37a404c3871f7ccd) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_bodyDeformType](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#ad6847afad720e24cff07102f52fda3d5) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_bodyMeshType](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a7eb7253de2759efe834e52db3cd3054f) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_faceCacheId](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#ad986ebe800e100f75cd677e29ed8d436) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_faceDirtAmount](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a973a51a3e08936a32eb130fd86bc225c) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_gender](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a8fa97457bf2a738976596f8703895068) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_hairCoverType](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a74b54543f280443b9b86583fba3aae80) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_prepareImmediately](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a84f173eeb7b836bb9be896706df1a82b) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_race](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a86ce283a700c4e048fa7f9e371263ec2) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_skinMeshesVisibilityMask](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a7e3613e896717016c35cad3df6aca342) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_underwearType](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a05d4342d75ea221665974bb6b3accf61) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_useTesselation](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#ae38a3aa0c4322812ff828f291f32b9eb) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [\_useTranslucency](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a31c7731fe7bc80b777d30727357d4756) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+| [Create](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#af4ef5931e40ecb3792014b0867cf4489)() | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) | static |
+| [SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html#a29c369c0fae25d10b26b426fcb1d57fe)(int skinMeshesVisibilityMask, Equipment.UnderwearTypes underwearType, int bodyMeshType, int hairCoverType, int beardCoverType, int bodyDeformType, bool prepareImmediately, float faceDirtAmount, int gender, int race, bool useTranslucency, bool useTesselation, int faceCacheID) | [TaleWorlds.MountAndBlade.SkinGenerationParams](struct_tale_worlds_1_1_mount_and_blade_1_1_skin_generation_params.html) |  |
+

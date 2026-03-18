@@ -1,0 +1,22 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin-members.html ---
+
+TaleWorlds.MountAndBlade.CustomBattleAgentOrigin Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Banner](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a86aad1bbcb2a22790ff8c506f1fe5806) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a856bff47d27b517fa0ff4fbe5b7e3811)(CustomBattleCombatant customBattleCombatant, BasicCharacterObject characterObject, CustomBattleTroopSupplier troopSupplier, bool isPlayerSide, int rank=-1, UniqueTroopDescriptor uniqueNo=default(UniqueTroopDescriptor)) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [CustomBattleCombatant](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#abd9eb111cb727052ea0cb05c3fd68a6b) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [FactionColor](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a59b4d88b37fd762a79ea92080acfa2b1) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [FactionColor2](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a401200a838b1fd2c164db002f33d23b1) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [IsUnderPlayersCommand](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a9f7c4b230bc3dc058913699164aaa67a) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [OnAgentRemoved](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#aa6a9e8030aa673843ae0073d377e8820)(float agentHealth) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [Rank](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a4316ac04f7cf12a492b9451b9abfa5f5) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [Seed](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#ab8402e937a40d93aed770800cec15494) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [SetBanner](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a329e9da3b1b78503a7c6724758611770)(Banner banner) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [SetKilled](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a91514832362b13fd231dede583ae94ef)() | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [SetRouted](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a24c1b80d4636b35e0cc5a9da461ce35a)(bool isOrderRetreat) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [SetWounded](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a1dd39900667a4d959b63e811332ee2b3)() | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [Troop](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a6cd471e06cfb3c2189ec36819afb56ba) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+| [UniqueSeed](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html#a48e9db1e295e60ed963a3cd286cefd26) | [TaleWorlds.MountAndBlade.CustomBattleAgentOrigin](class_tale_worlds_1_1_mount_and_blade_1_1_custom_battle_agent_origin.html) |  |
+

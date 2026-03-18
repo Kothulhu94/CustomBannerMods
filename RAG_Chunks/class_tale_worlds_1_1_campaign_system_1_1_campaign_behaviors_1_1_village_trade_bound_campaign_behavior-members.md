@@ -1,0 +1,14 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_village_trade_bound_campaign_behavior-members.html ---
+
+TaleWorlds.CampaignSystem.CampaignBehaviors.VillageTradeBoundCampaignBehavior Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.CampaignBehaviors.VillageTradeBoundCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_village_trade_bound_campaign_behavior.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#a053965730807cc40179cb1ee0495c376)(string stringId) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab8914958880a708aaf68f676e6c29df1)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [GetCampaignBehavior< T >](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#af9fd34472faff4ae39b627e8d3091b7e)() | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) | static |
+| [OnNewGameCreated](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_village_trade_bound_campaign_behavior.html#a0b020364c46a524c6fed57b2b043abdc)(CampaignGameStarter campaignGameStarter) | [TaleWorlds.CampaignSystem.CampaignBehaviors.VillageTradeBoundCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_village_trade_bound_campaign_behavior.html) |  |
+| [RegisterEvents](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_village_trade_bound_campaign_behavior.html#ad2cc43e3ead5d271c99da189dfc77c2d)() | [TaleWorlds.CampaignSystem.CampaignBehaviors.VillageTradeBoundCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_village_trade_bound_campaign_behavior.html) |  |
+| [StringId](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html#ab1c3b0a4161f58781148a9499be70fa3) | [TaleWorlds.CampaignSystem.CampaignBehaviorBase](class_tale_worlds_1_1_campaign_system_1_1_campaign_behavior_base.html) |  |
+| [SyncData](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_village_trade_bound_campaign_behavior.html#ada15d7bf472834e4a6d66c34bc271032)(IDataStore dataStore) | [TaleWorlds.CampaignSystem.CampaignBehaviors.VillageTradeBoundCampaignBehavior](class_tale_worlds_1_1_campaign_system_1_1_campaign_behaviors_1_1_village_trade_bound_campaign_behavior.html) |  |
+

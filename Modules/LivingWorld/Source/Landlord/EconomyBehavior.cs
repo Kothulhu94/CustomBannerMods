@@ -151,7 +151,7 @@ namespace Landlord
 
         public override void SyncData(IDataStore dataStore)
         {
-            dataStore.SyncData("_globalPlots", ref _globalPlots);
+            dataStore.SyncData("GlobalPlots", ref _globalPlots);
             if (_globalPlots == null) _globalPlots = new Dictionary<string, List<VillagePlot>>();
             LandlordManager.Instance.SetPlots(_globalPlots);
         }
@@ -815,7 +815,7 @@ namespace Landlord
                     _logger.LogInformation("GlobalPlots is Empty. No plots owned/initialized.");
                 }
 
-                int playerTotalRevenue = 0;
+                int playerTotalProfit = 0;
                 int playerTotalPlots = 0;
 
                 foreach (var kvp in LandlordManager.Instance.GlobalPlots)
@@ -912,7 +912,9 @@ namespace Landlord
                                 plot.Stash.AddToCounts(cropItem, stashCount);
                             }
 
+                            int profit = 0;
                             int totalRevenue = 0;
+
                             if (sellCount > 0)
                             {
                                 // 1. Determine Price
@@ -929,12 +931,11 @@ namespace Landlord
                                 // 2. Add to Village Inventory
                                 settlement.ItemRoster.AddToCounts(cropItem, sellCount);
 
-                                    // 3. Pay the Owner
-                                    if (plot.Owner != null && plot.Owner.IsAlive)
-                                    {
-                                        int profit = (int)(totalRevenue * 0.25f);
-                                        plot.LastDailyIncome = profit;
+                                profit = (int)(totalRevenue * 0.25f);
+                                plot.LastDailyIncome = profit;
 
+                                if (plot.Owner != null && plot.Owner.IsAlive)
+                                    {
                                         try
                                         {
                                             // Liquidity Injection & Stimulus
@@ -953,10 +954,19 @@ namespace Landlord
                                                 }
                                             }
 
-                                            if (debug)
-                                                _logger.LogInformation($"[Landlord Debug] Attempting to payout {profit}g to {plot.Owner.Name}. Village Gold: {settlement.Village.Gold}");
+                                            // Payout Logic: Direct payout only for non-PlayerClan heroes to avoid double-payout (finance model handles PlayerClan)
+                                            if (plot.Owner.Clan != Clan.PlayerClan)
+                                            {
+                                                if (debug)
+                                                    _logger.LogInformation($"[Landlord Debug] Attempting to payout {profit}g to {plot.Owner.Name}. Village Gold: {settlement.Village.Gold}");
 
-                                            GiveGoldAction.ApplyForSettlementToCharacter(settlement, plot.Owner, profit, true);
+                                                GiveGoldAction.ApplyForSettlementToCharacter(settlement, plot.Owner, profit, true);
+                                            }
+                                            else
+                                            {
+                                                if (debug)
+                                                    _logger.LogInformation($"[Landlord Debug] Skipping direct payout for player clan member {plot.Owner.Name}. Income will be handled by Finance Model.");
+                                            }
 
                                             if (profit > 0)
                                             {
@@ -977,8 +987,8 @@ namespace Landlord
                                 if (plot.Owner == Hero.MainHero)
                                 {
                                      // Aggregate for User Notification
-                                     playerTotalPlots++;
-                                     playerTotalRevenue += totalRevenue;
+                                      playerTotalPlots++;
+                                      playerTotalProfit += profit;
                                      
                                      // Detailed log for debugging
                                      if (debug) 
@@ -1045,12 +1055,12 @@ namespace Landlord
                 {
                     try 
                     {
-                        string summary = $"[Landlord] Daily Report: Earned {playerTotalRevenue}g from {playerTotalPlots} estates.";
+                        string summary = $"[Landlord] Daily Report: Earned {playerTotalProfit}g from {playerTotalPlots} estates.";
                         InformationManager.DisplayMessage(new InformationMessage(summary, Color.FromUint(0xFFFFD700))); // Gold color
                     } 
                     catch {
                          // Fallback if Color.FromUint fails or is missing
-                         string summary = $"[Landlord] Daily Report: Earned {playerTotalRevenue}g from {playerTotalPlots} estates.";
+                         string summary = $"[Landlord] Daily Report: Earned {playerTotalProfit}g from {playerTotalPlots} estates.";
                          InformationManager.DisplayMessage(new InformationMessage(summary));
                     }
                 }

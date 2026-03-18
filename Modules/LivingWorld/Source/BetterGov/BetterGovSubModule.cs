@@ -45,28 +45,38 @@ namespace BetterGov
 
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
         {
+            base.OnGameStart(game, gameStarterObject);
+
             if (game.GameType is Campaign)
             {
                 var campaignStarter = (CampaignGameStarter)gameStarterObject;
                 var serviceProvider = game.GetServiceProvider();
 
+                // Use the shared logger instead of DI ILogger which might not be registered correctly
+                var logger = LivingWorld.LivingWorldCore.Logger;
+                logger?.Information("BetterGov: OnGameStart triggered.");
+
                 if (serviceProvider != null)
                 {
-                    if (GlobalSettings.Instance != null && !GlobalSettings.Instance.ModuleEnabled) return;
+                    if (GlobalSettings.Instance != null && !GlobalSettings.Instance.ModuleEnabled) 
+                    {
+                        logger?.Information("BetterGov: Module disabled in settings.");
+                        return;
+                    }
 
-                    var logger = serviceProvider.GetRequiredService<ILogger<BetterGovSubModule>>();
-                    logger.LogInformation("BetterGov Starting... Dependency Injection Active.");
-
-                    // Add Behaviors (Resolved from DI)
+                    // Add Behaviors
                     try
                     {
                         var issuesBehavior = serviceProvider.GetRequiredService<AutoResolveIssuesBehavior>();
-                        campaignStarter.AddBehavior(issuesBehavior);
-                        logger.LogInformation("AutoResolveIssuesBehavior registered.");
+                        if (issuesBehavior != null)
+                        {
+                            campaignStarter.AddBehavior(issuesBehavior);
+                            logger?.Information("BetterGov: AutoResolveIssuesBehavior registered.");
+                        }
                     }
                     catch (Exception ex)
                     {
-                        logger.LogError(ex, "Failed to register AutoResolveIssuesBehavior.");
+                        logger?.Error(ex, "BetterGov: Failed to register AutoResolveIssuesBehavior.");
                     }
                 }
             }

@@ -1,0 +1,9 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_militia_party_component5503f186b431cc8ad26d53f8dcb54d46.html ---
+
+TaleWorlds.CampaignSystem.Party.PartyComponents.MilitiaPartyComponent.InitializationArgs Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Party.PartyComponents.MilitiaPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_militia_party_component_1_1_initialization_args.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_militia_party_component_1_1_initialization_args.html#a0f879cc108fa20b96cf9dd3ddbcd7554)() | [TaleWorlds.CampaignSystem.Party.PartyComponents.MilitiaPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_militia_party_component_1_1_initialization_args.html) |  |
+| [InitializeMilitiaPartyProperties](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_militia_party_component_1_1_initialization_args.html#ae544f923cbb28d6dfee92b3bc1c8f3d5)(MobileParty mobileParty, Settlement settlement) | [TaleWorlds.CampaignSystem.Party.PartyComponents.MilitiaPartyComponent.InitializationArgs](class_tale_worlds_1_1_campaign_system_1_1_party_1_1_party_components_1_1_militia_party_component_1_1_initialization_args.html) |  |
+

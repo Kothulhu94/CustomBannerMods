@@ -1,0 +1,8 @@
+--- SOURCE: class_tale_worlds_1_1_mount_and_blade_1_1_mission_reinforcements_helper_1_1_reinforcement_formation_preference_comparer-members.html ---
+
+TaleWorlds.MountAndBlade.MissionReinforcementsHelper.ReinforcementFormationPreferenceComparer Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.MissionReinforcementsHelper.ReinforcementFormationPreferenceComparer](class_tale_worlds_1_1_mount_and_blade_1_1_mission_reinforcements_helper_1_1_reinforcement_formation_preference_comparer.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [Compare](class_tale_worlds_1_1_mount_and_blade_1_1_mission_reinforcements_helper_1_1_reinforcement_formation_preference_comparer.html#aa45333de8d9491ec1678d8f071009668)(ReinforcementFormationPriority left, ReinforcementFormationPriority right) | [TaleWorlds.MountAndBlade.MissionReinforcementsHelper.ReinforcementFormationPreferenceComparer](class_tale_worlds_1_1_mount_and_blade_1_1_mission_reinforcements_helper_1_1_reinforcement_formation_preference_comparer.html) |  |
+

@@ -1,0 +1,13 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model-members.html ---
+
+TaleWorlds.CampaignSystem.GameComponents.DefaultMobilePartyFoodConsumptionModel Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.GameComponents.DefaultMobilePartyFoodConsumptionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BaseModel](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#ac05c0aa978adaec9efd3b7dba92ae721) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) | protected |
+| [CalculateDailyBaseFoodConsumptionf](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html#a459bcda6cb96fe73f339dfb139657b12)(MobileParty party, bool includeDescription=false) | [TaleWorlds.CampaignSystem.GameComponents.DefaultMobilePartyFoodConsumptionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html) |  |
+| [CalculateDailyFoodConsumptionf](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html#a8b7f28d2e88b6e2a453d4d515cd310a1)(MobileParty party, ExplainedNumber baseConsumption) | [TaleWorlds.CampaignSystem.GameComponents.DefaultMobilePartyFoodConsumptionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html) |  |
+| [DoesPartyConsumeFood](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html#af5b77c86e5b42df6ce238206d5083bca)(MobileParty mobileParty) | [TaleWorlds.CampaignSystem.GameComponents.DefaultMobilePartyFoodConsumptionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html) |  |
+| [Initialize](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html#a2a1d8dfc874146b1aadd5e6aa2cbc630)(T baseModel) | [TaleWorlds.Core.MBGameModel< T >](class_tale_worlds_1_1_core_1_1_m_b_game_model-1-g.html) |  |
+| [NumberOfMenOnMapToEatOneFood](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html#a6ebb755df6dd85780ce8b27858ae0053) | [TaleWorlds.CampaignSystem.GameComponents.DefaultMobilePartyFoodConsumptionModel](class_tale_worlds_1_1_campaign_system_1_1_game_components_1_1_default_mobile_party_food_consumption_model.html) |  |
+

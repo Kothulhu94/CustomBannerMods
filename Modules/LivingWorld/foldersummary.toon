@@ -266,8 +266,9 @@ AI Logic, Weekly tick checks wealthy clans (T5+, >2M Gold, >3 Fiefs). 10% weekly
 Stability, 'Ghost Clan' prevention logic: Forces settlement ownership transfer if CreateCompanionToLordClan fails assignments.
 Crash Fix, Whitelists vanilla bandit factions (Looters/Mountain/Forest/Sea/Steppe/Desert) to bypass native Hideout dictionary crash.
 
-CHANGELOG[3]{date, time, change}:
+CHANGELOG[4]{date, time, change}:
 2026-01-21, 22:35, Refined summary after code review and cleanup.
 2026-01-22, 19:40, ANTIGRAVITY, Verified and enforced removal of legacy drive paths (D: -> Portable).
 2026-01-21, 22:30, Cleaned up speculative comments and legacy drive paths (D: -> E:).
+2026-03-16, 05:41, ANTIGRAVITY, Packaged version v1.11.0 with mandatory build and cleanup.
 FUTURE, TBD, Placeholder for future update 1.

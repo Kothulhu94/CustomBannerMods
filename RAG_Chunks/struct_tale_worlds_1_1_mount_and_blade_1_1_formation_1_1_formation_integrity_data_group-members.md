@@ -1,0 +1,12 @@
+--- SOURCE: struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group-members.html ---
+
+TaleWorlds.MountAndBlade.Formation.FormationIntegrityDataGroup Member ListThis is the complete list of members for [TaleWorlds.MountAndBlade.Formation.FormationIntegrityDataGroup](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [AverageMaxUnlimitedSpeedExcludeFarAgents](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html#adb48751be4c3230131766b1ab4af9f0c) | [TaleWorlds.MountAndBlade.Formation.FormationIntegrityDataGroup](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html) |  |
+| [AverageVelocityExcludeFarAgents](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html#a3fb45164cfe2ef3371cfc4413005e587) | [TaleWorlds.MountAndBlade.Formation.FormationIntegrityDataGroup](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html) |  |
+| [DeviationOfPositionsExcludeFarAgents](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html#a79072ab4afcd096a6f04a32c41a644ab) | [TaleWorlds.MountAndBlade.Formation.FormationIntegrityDataGroup](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html) |  |
+| [FormationIntegrityDataGroup](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html#a627bb70d7c24d29368f4faeccb724e90)(Vec2 averageVelocityExcludeFarAgents, float deviationOfPositionsExcludeFarAgents, float maxDeviationOfPositionExcludeFarAgents, float averageMaxUnlimitedSpeedExcludeFarAgents) | [TaleWorlds.MountAndBlade.Formation.FormationIntegrityDataGroup](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html) |  |
+| [MaxDeviationOfPositionExcludeFarAgents](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html#a1b7eb0f4787aea064162e4a2075781fe) | [TaleWorlds.MountAndBlade.Formation.FormationIntegrityDataGroup](struct_tale_worlds_1_1_mount_and_blade_1_1_formation_1_1_formation_integrity_data_group.html) |  |
+

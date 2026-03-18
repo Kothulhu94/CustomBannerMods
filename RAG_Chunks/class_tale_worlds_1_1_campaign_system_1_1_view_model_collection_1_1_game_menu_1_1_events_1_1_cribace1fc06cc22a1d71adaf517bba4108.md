@@ -1,0 +1,8 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_cribace1fc06cc22a1d71adaf517bba4108.html ---
+
+TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.Events.CrimeValueInspectedInSettlementOverlayEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.Events.CrimeValueInspectedInSettlementOverlayEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_cri1443fbb4e384519434f33bcc37e0a9ae.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [CrimeValueInspectedInSettlementOverlayEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_cri1443fbb4e384519434f33bcc37e0a9ae.html#af383147fa0c2c9dd786311b84bdce359)() | [TaleWorlds.CampaignSystem.ViewModelCollection.GameMenu.Events.CrimeValueInspectedInSettlementOverlayEvent](class_tale_worlds_1_1_campaign_system_1_1_view_model_collection_1_1_game_menu_1_1_events_1_1_cri1443fbb4e384519434f33bcc37e0a9ae.html) |  |
+

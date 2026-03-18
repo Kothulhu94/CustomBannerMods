@@ -1,0 +1,15 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event-members.html ---
+
+TaleWorlds.CampaignSystem.MapEvents.BlockadeBattleMapEvent Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.MapEvents.BlockadeBattleMapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [BlockadeBattleMapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html#a11b568de38ff619a454650128ab6c42f)(MapEvent mapEvent) | [TaleWorlds.CampaignSystem.MapEvents.BlockadeBattleMapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html) | protected |
+| [CreateBlockadeBattleMapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html#aa8347a5d801e91aa60ce0ad45488eea8)(PartyBase attackerParty, PartyBase besiegerParty, bool isSallyOut) | [TaleWorlds.CampaignSystem.MapEvents.BlockadeBattleMapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html) | static |
+| [MapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html#a66f95a31acbd5743df560c5fd36c90dc) | [TaleWorlds.CampaignSystem.MapEvents.MapEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html) |  |
+| [MapEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html#a04ce5f7286860bb13e8c09cc416417b4)(MapEvent mapEvent) | [TaleWorlds.CampaignSystem.MapEvents.MapEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html) | protected |
+| [OnBeforeFinalize](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html#a608243f9d25a7913e54337f72a98b70a)() | [TaleWorlds.CampaignSystem.MapEvents.MapEventComponent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_map_event_component.html) | protectedvirtual |
+| [OnFinalize](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html#a3c641f2ef0c121b2020a5a65fd6901c5)() | [TaleWorlds.CampaignSystem.MapEvents.BlockadeBattleMapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html) | protectedvirtual |
+| [OnInitialize](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html#aa938f156d382fe3b5d2b1ed7b04b5718)() | [TaleWorlds.CampaignSystem.MapEvents.BlockadeBattleMapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html) | protectedvirtual |
+| [SimulationContext](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html#ae149ae19289eaa5ec83e1fb2e8526a8d) | [TaleWorlds.CampaignSystem.MapEvents.BlockadeBattleMapEvent](class_tale_worlds_1_1_campaign_system_1_1_map_events_1_1_blockade_battle_map_event.html) |  |
+

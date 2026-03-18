@@ -1,0 +1,16 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result-members.html ---
+
+TaleWorlds.CampaignSystem.Inventory.TransferCommandResult Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [EffectedEquipmentIndex](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#af478c49f2a3052898a6790187cec1b3f) | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+| [EffectedItemRosterElement](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#ac4d6337413a8f1081e1b0a7c8445147e) | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+| [EffectedNumber](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#a64a857868d43262465f4f81c377fa92f) | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+| [FinalNumber](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#af083ffa42644e462b0f946dac8bce89d) | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+| [ResultSide](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#a2223822dcbc1eaa79d5617296006a434) | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+| [ResultSideEquipment](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#a7f967e0d4c8eaac318ef28820184645d) | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+| [TransferCharacter](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#a642f22ebffcf000dc47f3712ec08230f) | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+| [TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#a804aec00fffd6104fb41f0f0cdd5b474)() | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+| [TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html#abe91754d6ddaff0d4757cb087b85dfc0)(InventoryLogic.InventorySide resultSide, ItemRosterElement effectedItemRosterElement, int effectedNumber, int finalNumber, EquipmentIndex effectedEquipmentIndex, CharacterObject transferCharacter) | [TaleWorlds.CampaignSystem.Inventory.TransferCommandResult](class_tale_worlds_1_1_campaign_system_1_1_inventory_1_1_transfer_command_result.html) |  |
+

@@ -1,0 +1,19 @@
+--- SOURCE: class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects-members.html ---
+
+TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects Member ListThis is the complete list of members for [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [ClanInfluence](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#a76ed828a7cc41b85a5367a703d70c67c) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#a5ed2cf11acf86ae7bc71835b6558c4a7)() | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) |  |
+| [HalfVillageProduction](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#a917505adde6ebafb4252760b97c358eb) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [IssueOwnerPower](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#a0d51620965f34b2bc345c16097aada71) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [SettlementFood](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#adc65dc11573d7f3e5042110b4d289f9d) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [SettlementGarrison](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#afe7c143df6772278fc0474143e89a7ea) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [SettlementLoyalty](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#ae7162a442730191b84ec9762a3c0ff16) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [SettlementMilitia](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#ad221d9f827774fd9163fcb22458b7f1f) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [SettlementProsperity](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#a217412cdfb0e87effe1e72475c57482b) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [SettlementSecurity](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#a81de66f353531e523df1a9e107cbb8b2) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [SettlementTax](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#ad21e7e97da1aadb58434da4262e7ac7f) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+| [VillageHearth](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html#ae492ed0bcd2111ce864dd9491e4c2f93) | [TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects](class_tale_worlds_1_1_campaign_system_1_1_issues_1_1_default_issue_effects.html) | static |
+

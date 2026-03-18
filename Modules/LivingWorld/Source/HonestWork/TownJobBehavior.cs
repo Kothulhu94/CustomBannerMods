@@ -655,7 +655,7 @@ namespace HonestWork
                 }
             }
             
-            GainRenownAction.Apply(Hero.MainHero, 0.5f, false);
+            GainRenownAction.Apply(Hero.MainHero, 0.5f, _settings.EnableShiftNotifications);
             InformationManager.DisplayMessage(new InformationMessage(new TaleWorlds.Localization.TextObject("{=lw_shiftcompleteyo}Shift complete. You continue your labor...").ToString()));
             _startTime = CampaignTime.Now;
             _hoursWorked = 0;
@@ -701,7 +701,7 @@ namespace HonestWork
 
                  if (notable != null)
                  {
-                     ChangeRelationAction.ApplyRelationChangeBetweenHeroes(worker, notable, _settings.ShiftRelationBonus, true);
+                     ChangeRelationAction.ApplyRelationChangeBetweenHeroes(worker, notable, _settings.ShiftRelationBonus, _settings.EnableShiftNotifications);
                  }
              }
 
